@@ -1,0 +1,101 @@
+[
+  {
+    "slug": "glu_variants_improve_transformer",
+    "title": "GLU Variants Improve Transformer",
+    "url": "https://arxiv.org/pdf/2002.05202.pdf",
+    "source": "https://arxiv.org/abs/2002.05202",
+    "dest": "papers/activations/glu_variants_improve_transformer.pdf",
+    "status": "downloaded",
+    "content_type": "application/pdf",
+    "size": 109135
+  },
+  {
+    "slug": "searching_for_activation_functions",
+    "title": "Searching for Activation Functions",
+    "url": "https://arxiv.org/pdf/1710.05941.pdf",
+    "source": "https://arxiv.org/abs/1710.05941",
+    "dest": "papers/activations/searching_for_activation_functions.pdf",
+    "status": "downloaded",
+    "content_type": "application/pdf",
+    "size": 447185
+  },
+  {
+    "slug": "gaussian_error_linear_units_gelu",
+    "title": "Gaussian Error Linear Units (GELUs)",
+    "url": "https://arxiv.org/pdf/1606.08415.pdf",
+    "source": "https://arxiv.org/abs/1606.08415",
+    "dest": "papers/activations/gaussian_error_linear_units_gelu.pdf",
+    "status": "downloaded",
+    "content_type": "application/pdf",
+    "size": 2767669
+  },
+  {
+    "slug": "maxout_networks",
+    "title": "Maxout Networks",
+    "url": "https://arxiv.org/pdf/1302.4389.pdf",
+    "source": "https://arxiv.org/abs/1302.4389",
+    "dest": "papers/activations/maxout_networks.pdf",
+    "status": "downloaded",
+    "content_type": "application/pdf",
+    "size": 1220391
+  },
+  {
+    "slug": "mish_self_regularized_non_monotonic_activation",
+    "title": "Mish: A Self Regularized Non-Monotonic Activation Function",
+    "url": "https://arxiv.org/pdf/1908.08681.pdf",
+    "source": "https://arxiv.org/abs/1908.08681",
+    "dest": "papers/activations/mish_self_regularized_non_monotonic_activation.pdf",
+    "status": "downloaded",
+    "content_type": "application/pdf",
+    "size": 3165252
+  },
+  {
+    "slug": "silu_dsilu_for_rl",
+    "title": "Sigmoid-Weighted Linear Units for Neural Network Function Approximation in Reinforcement Learning",
+    "url": "https://arxiv.org/pdf/1702.03118.pdf",
+    "source": "https://arxiv.org/abs/1702.03118",
+    "dest": "papers/activations/silu_dsilu_for_rl.pdf",
+    "status": "downloaded",
+    "content_type": "application/pdf",
+    "size": 1235237
+  },
+  {
+    "slug": "srelu",
+    "title": "Deep Learning with S-shaped Rectified Linear Activation Units",
+    "url": "https://arxiv.org/pdf/1512.07030.pdf",
+    "source": "https://arxiv.org/abs/1512.07030",
+    "dest": "papers/activations/srelu.pdf",
+    "status": "downloaded",
+    "content_type": "application/pdf",
+    "size": 306830
+  },
+  {
+    "slug": "prelu",
+    "title": "Delving Deep into Rectifiers",
+    "url": "https://arxiv.org/pdf/1502.01852.pdf",
+    "source": "https://arxiv.org/abs/1502.01852",
+    "dest": "papers/activations/prelu.pdf",
+    "status": "downloaded",
+    "content_type": "application/pdf",
+    "size": 2290070
+  },
+  {
+    "slug": "siren",
+    "title": "Implicit Neural Representations with Periodic Activation Functions",
+    "url": "https://arxiv.org/pdf/2006.09661.pdf",
+    "source": "https://arxiv.org/abs/2006.09661",
+    "dest": "papers/activations/siren.pdf",
+    "status": "downloaded",
+    "content_type": "application/pdf",
+    "size": 7047671
+  },
+  {
+    "slug": "delu_extended_exponential_linear_unit",
+    "title": "Deep learning with ExtendeD Exponential Linear Unit (DELU)",
+    "url": "https://repository.bilkent.edu.tr/bitstreams/cbbabd49-f1dc-4d7e-a888-ff2b9c419101/download",
+    "source": "https://ouci.dntb.gov.ua/en/works/7AbJZvk4/",
+    "dest": "papers/activations/delu_extended_exponential_linear_unit.pdf",
+    "status": "error",
+    "error": "The read operation timed out"
+  }
+]

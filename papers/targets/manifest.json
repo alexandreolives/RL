@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "m3_modular_world_model_over_streams_of_tokens",
+    "title": "M^3: A Modular World Model over Streams of Tokens",
+    "abs_url": "https://arxiv.org/abs/2502.11537",
+    "pdf_url": "https://arxiv.org/pdf/2502.11537.pdf",
+    "dest": "papers/targets/m3_modular_world_model_over_streams_of_tokens.pdf",
+    "status": "downloaded",
+    "content_type": "application/pdf",
+    "size": 1967028
+  },
+  {
+    "slug": "dreamer4_training_agents_inside_of_scalable_world_models",
+    "title": "Dreamer 4: Training Agents Inside of Scalable World Models",
+    "abs_url": "https://arxiv.org/abs/2509.24527",
+    "pdf_url": "https://arxiv.org/pdf/2509.24527.pdf",
+    "dest": "papers/targets/dreamer4_training_agents_inside_of_scalable_world_models.pdf",
+    "status": "downloaded",
+    "content_type": "application/pdf",
+    "size": 3693729
+  },
+  {
+    "slug": "leworldmodel_stable_end_to_end_jepa_from_pixels",
+    "title": "LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels",
+    "abs_url": "https://arxiv.org/abs/2603.19312",
+    "pdf_url": "https://arxiv.org/pdf/2603.19312.pdf",
+    "dest": "papers/targets/leworldmodel_stable_end_to_end_jepa_from_pixels.pdf",
+    "status": "downloaded",
+    "content_type": "application/pdf",
+    "size": 5629902
+  }
+]
