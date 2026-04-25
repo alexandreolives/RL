@@ -1,0 +1,57 @@
+FROM rl-engram:gpu
+
+WORKDIR /workspace
+
+# Install eval/harness dependencies globally in image (no venv).
+RUN python -m pip install --break-system-packages \
+    "lm-eval[hf]" \
+    wonderwords \
+    tenacity \
+    hydra-core \
+    omegaconf \
+    nltk
+
+# RULER imports:
+#   from nemo.collections.asr.parts.utils.manifest_utils import read_manifest
+# Provide a lightweight shim instead of pulling full nemo toolkit.
+RUN python - <<'PY'
+import json
+import site
+from pathlib import Path
+
+base = Path(site.getsitepackages()[0]) / "nemo" / "collections" / "asr" / "parts" / "utils"
+base.mkdir(parents=True, exist_ok=True)
+
+# Ensure package init files exist.
+for p in [
+    base.parent.parent.parent.parent,  # nemo
+    base.parent.parent.parent,         # collections
+    base.parent.parent,                # asr
+    base.parent,                       # parts
+    base,                              # utils
+]:
+    init = p / "__init__.py"
+    if not init.exists():
+        init.write_text("")
+
+manifest = base / "manifest_utils.py"
+manifest.write_text(
+    "import json\n"
+    "\n"
+    "def read_manifest(path):\n"
+    "    rows = []\n"
+    "    with open(path, 'r', encoding='utf-8') as f:\n"
+    "        for line in f:\n"
+    "            line = line.strip()\n"
+    "            if not line:\n"
+    "                continue\n"
+    "            rows.append(json.loads(line))\n"
+    "    return rows\n"
+    "\n"
+    "def write_manifest(path, rows):\n"
+    "    with open(path, 'w', encoding='utf-8') as f:\n"
+    "        for row in rows:\n"
+    "            f.write(json.dumps(row, ensure_ascii=False) + '\\n')\n"
+)
+print(manifest)
+PY

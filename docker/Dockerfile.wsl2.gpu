@@ -1,0 +1,30 @@
+FROM nvidia/cuda:12.8.0-runtime-ubuntu24.04
+
+ENV DEBIAN_FRONTEND=noninteractive
+ENV PYTHONUNBUFFERED=1
+ENV PYTHONDONTWRITEBYTECODE=1
+
+RUN rm -f /etc/apt/sources.list.d/cuda* /etc/apt/sources.list.d/nvidia* && \
+    apt-get update && apt-get install -y --no-install-recommends \
+    python3.12 python3.12-dev python3.12-venv python3-pip \
+    git curl build-essential \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.12 1 && \
+    update-alternatives --install /usr/bin/python python /usr/bin/python3.12 1
+
+WORKDIR /workspace
+
+# PyTorch wheels cu124: this is the same pattern used in your existing WSL2 Dockerfiles.
+RUN pip install --no-cache-dir --break-system-packages \
+    torch==2.6.0+cu124 torchvision==0.21.0+cu124 torchaudio==2.6.0+cu124 \
+    --index-url https://download.pytorch.org/whl/cu124
+
+# flash-attn prebuilt wheel, aligned with your existing ComfyUI container flow.
+RUN pip install --no-cache-dir --break-system-packages \
+    https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.7.16/flash_attn-2.8.3+cu124torch2.6-cp312-cp312-linux_x86_64.whl
+
+COPY requirements.txt /tmp/requirements.txt
+RUN pip install --no-cache-dir --break-system-packages -r /tmp/requirements.txt
+
+CMD ["/bin/bash"]
