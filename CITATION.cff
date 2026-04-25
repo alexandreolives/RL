@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "RL Compute-Efficient Research"
+message: "If you use this repository, please cite it using this metadata."
+type: software
+authors:
+  - family-names: "Aphelis"
+    given-names: "Research Team"
+license: "MIT"
+version: "0.1.0"
+date-released: "2026-04-25"
