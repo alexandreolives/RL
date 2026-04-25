@@ -1,0 +1,27 @@
+[project]
+name = "rl"
+version = "0.1.0"
+description = "RL world-model experiments under tight compute budgets"
+requires-python = ">=3.12"
+dependencies = [
+  "einops",
+  "gymnasium",
+  "matplotlib",
+  "numpy",
+  "opencv-python",
+  "rich",
+  "tensorboard",
+  "torch",
+  "torchaudio",
+  "torchvision",
+  "tqdm",
+]
+
+[project.optional-dependencies]
+dmcontrol = [
+  "dm-control",
+]
+
+[build-system]
+requires = ["setuptools>=80", "wheel"]
+build-backend = "setuptools.build_meta"

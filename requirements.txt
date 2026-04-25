@@ -1,0 +1,12 @@
+numpy
+torch
+torchvision
+torchaudio
+einops
+tqdm
+rich
+tensorboard
+gymnasium
+dm-control
+opencv-python
+matplotlib
