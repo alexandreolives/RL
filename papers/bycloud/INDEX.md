@@ -7,7 +7,7 @@ Source de vérité technique:
 - dossier des PDFs: [papers/bycloud](.)
 
 Résumé:
-- `38` PDFs téléchargés
+- `42` PDFs téléchargés
 - `8` liens non convertis en PDF local
 
 ## PDFs disponibles
@@ -126,6 +126,19 @@ Résumé:
 - [20260410_haoAI2lIZ74_Google_s_TurboQuant_Memory_Reduction_Claim_vs_Reality__2504.19874.pdf](20260410_haoAI2lIZ74_Google_s_TurboQuant_Memory_Reduction_Claim_vs_Reality__2504.19874.pdf)
   vidéo source: `20260410_haoAI2lIZ74_Google's TurboQuant Memory Reduction Claim vs Reality`
   URL source: `https://arxiv.org/abs/2504.19874`
+
+- [20260508_1PvcLTuY-P4_AI_Simulated_OS_Is_Absurd__2604.06425.pdf](20260508_1PvcLTuY-P4_AI_Simulated_OS_Is_Absurd__2604.06425.pdf)
+  vidéo source: `20260508_1PvcLTuY-P4_AI Simulated OS Is Absurd`
+  URL source: `https://arxiv.org/abs/2604.06425`
+- [20260427_lLkE9w1NJs0_A_new_way_to_fine-tune_LLMs_just_dropped__1703.03864.pdf](20260427_lLkE9w1NJs0_A_new_way_to_fine-tune_LLMs_just_dropped__1703.03864.pdf)
+  vidéo source: `20260427_lLkE9w1NJs0_A new way to fine-tune LLMs just dropped`
+  URL source: `https://arxiv.org/abs/1703.03864`
+- [20260427_lLkE9w1NJs0_A_new_way_to_fine-tune_LLMs_just_dropped__2509.24372.pdf](20260427_lLkE9w1NJs0_A_new_way_to_fine-tune_LLMs_just_dropped__2509.24372.pdf)
+  vidéo source: `20260427_lLkE9w1NJs0_A new way to fine-tune LLMs just dropped`
+  URL source: `https://arxiv.org/abs/2509.24372`
+- [20260427_lLkE9w1NJs0_A_new_way_to_fine-tune_LLMs_just_dropped__2511.16652.pdf](20260427_lLkE9w1NJs0_A_new_way_to_fine-tune_LLMs_just_dropped__2511.16652.pdf)
+  vidéo source: `20260427_lLkE9w1NJs0_A new way to fine-tune LLMs just dropped`
+  URL source: `https://arxiv.org/abs/2511.16652`
 
 ## Liens source non convertis en PDF local
 

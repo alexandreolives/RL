@@ -455,5 +455,45 @@
     "status": "downloaded",
     "content_type": "application/pdf",
     "size": 2093673
+  },
+  {
+    "video": "20260508_1PvcLTuY-P4_AI Simulated OS Is Absurd.description",
+    "source_url": "https://arxiv.org/abs/2604.06425",
+    "download_url": "https://arxiv.org/pdf/2604.06425.pdf",
+    "kind": "arxiv_abs",
+    "dest": "papers/bycloud/20260508_1PvcLTuY-P4_AI_Simulated_OS_Is_Absurd__2604.06425.pdf",
+    "status": "downloaded",
+    "content_type": "application/pdf",
+    "size": 26625500
+  },
+  {
+    "video": "20260427_lLkE9w1NJs0_A new way to fine-tune LLMs just dropped.description",
+    "source_url": "https://arxiv.org/abs/1703.03864",
+    "download_url": "https://arxiv.org/pdf/1703.03864.pdf",
+    "kind": "arxiv_abs",
+    "dest": "papers/bycloud/20260427_lLkE9w1NJs0_A_new_way_to_fine-tune_LLMs_just_dropped__1703.03864.pdf",
+    "status": "downloaded",
+    "content_type": "application/pdf",
+    "size": 277340
+  },
+  {
+    "video": "20260427_lLkE9w1NJs0_A new way to fine-tune LLMs just dropped.description",
+    "source_url": "https://arxiv.org/abs/2509.24372",
+    "download_url": "https://arxiv.org/pdf/2509.24372.pdf",
+    "kind": "arxiv_abs",
+    "dest": "papers/bycloud/20260427_lLkE9w1NJs0_A_new_way_to_fine-tune_LLMs_just_dropped__2509.24372.pdf",
+    "status": "downloaded",
+    "content_type": "application/pdf",
+    "size": 1892835
+  },
+  {
+    "video": "20260427_lLkE9w1NJs0_A new way to fine-tune LLMs just dropped.description",
+    "source_url": "https://arxiv.org/abs/2511.16652",
+    "download_url": "https://arxiv.org/pdf/2511.16652.pdf",
+    "kind": "arxiv_abs",
+    "dest": "papers/bycloud/20260427_lLkE9w1NJs0_A_new_way_to_fine-tune_LLMs_just_dropped__2511.16652.pdf",
+    "status": "downloaded",
+    "content_type": "application/pdf",
+    "size": 2770964
   }
 ]
