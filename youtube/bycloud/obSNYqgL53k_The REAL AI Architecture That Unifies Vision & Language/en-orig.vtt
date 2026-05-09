@@ -1,0 +1,2408 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.080 --> 00:00:02.230 align:start position:0%
+ 
+The<00:00:00.320><c> current</c><00:00:00.640><c> state</c><00:00:00.880><c> of</c><00:00:01.120><c> multimodal</c><00:00:01.839><c> AI</c>
+
+00:00:02.230 --> 00:00:02.240 align:start position:0%
+The current state of multimodal AI
+ 
+
+00:00:02.240 --> 00:00:04.710 align:start position:0%
+The current state of multimodal AI
+models<00:00:02.639><c> have</c><00:00:02.960><c> a</c><00:00:03.280><c> Frankenstein</c><00:00:04.000><c> problem.</c><00:00:04.480><c> Take</c>
+
+00:00:04.710 --> 00:00:04.720 align:start position:0%
+models have a Frankenstein problem. Take
+ 
+
+00:00:04.720 --> 00:00:06.630 align:start position:0%
+models have a Frankenstein problem. Take
+any<00:00:05.040><c> popular</c><00:00:05.359><c> models</c><00:00:05.680><c> like</c><00:00:05.920><c> Claude,</c><00:00:06.319><c> Grock,</c>
+
+00:00:06.630 --> 00:00:06.640 align:start position:0%
+any popular models like Claude, Grock,
+ 
+
+00:00:06.640 --> 00:00:08.629 align:start position:0%
+any popular models like Claude, Grock,
+or<00:00:06.799><c> Llama.</c><00:00:07.279><c> They</c><00:00:07.440><c> can</c><00:00:07.600><c> all</c><00:00:07.839><c> write</c><00:00:08.160><c> text,</c>
+
+00:00:08.629 --> 00:00:08.639 align:start position:0%
+or Llama. They can all write text,
+ 
+
+00:00:08.639 --> 00:00:10.709 align:start position:0%
+or Llama. They can all write text,
+analyze<00:00:09.200><c> images,</c><00:00:09.679><c> and</c><00:00:09.920><c> even</c><00:00:10.160><c> generate</c><00:00:10.480><c> them</c>
+
+00:00:10.709 --> 00:00:10.719 align:start position:0%
+analyze images, and even generate them
+ 
+
+00:00:10.719 --> 00:00:12.790 align:start position:0%
+analyze images, and even generate them
+in<00:00:10.960><c> some</c><00:00:11.200><c> cases.</c><00:00:11.840><c> But</c><00:00:12.000><c> here's</c><00:00:12.240><c> the</c><00:00:12.400><c> thing.</c>
+
+00:00:12.790 --> 00:00:12.800 align:start position:0%
+in some cases. But here's the thing.
+ 
+
+00:00:12.800 --> 00:00:15.190 align:start position:0%
+in some cases. But here's the thing.
+Most<00:00:13.040><c> of</c><00:00:13.200><c> them</c><00:00:13.440><c> are</c><00:00:13.759><c> not</c><00:00:14.000><c> truly</c><00:00:14.400><c> multimodal.</c>
+
+00:00:15.190 --> 00:00:15.200 align:start position:0%
+Most of them are not truly multimodal.
+ 
+
+00:00:15.200 --> 00:00:17.349 align:start position:0%
+Most of them are not truly multimodal.
+Well,<00:00:15.440><c> maybe</c><00:00:15.599><c> except</c><00:00:15.839><c> for</c><00:00:16.000><c> Gemini</c><00:00:16.400><c> and</c><00:00:16.560><c> GPT40,</c>
+
+00:00:17.349 --> 00:00:17.359 align:start position:0%
+Well, maybe except for Gemini and GPT40,
+ 
+
+00:00:17.359 --> 00:00:19.109 align:start position:0%
+Well, maybe except for Gemini and GPT40,
+but<00:00:17.600><c> who</c><00:00:17.840><c> really</c><00:00:18.080><c> knows?</c><00:00:18.480><c> The</c><00:00:18.640><c> researchers</c>
+
+00:00:19.109 --> 00:00:19.119 align:start position:0%
+but who really knows? The researchers
+ 
+
+00:00:19.119 --> 00:00:20.870 align:start position:0%
+but who really knows? The researchers
+instead<00:00:19.520><c> commonly</c><00:00:20.000><c> use</c><00:00:20.240><c> techniques</c><00:00:20.720><c> which</c>
+
+00:00:20.870 --> 00:00:20.880 align:start position:0%
+instead commonly use techniques which
+ 
+
+00:00:20.880 --> 00:00:23.189 align:start position:0%
+instead commonly use techniques which
+are<00:00:21.039><c> generally</c><00:00:21.520><c> referred</c><00:00:21.840><c> to</c><00:00:22.080><c> as</c><00:00:22.400><c> late</c><00:00:22.720><c> fusion</c>
+
+00:00:23.189 --> 00:00:23.199 align:start position:0%
+are generally referred to as late fusion
+ 
+
+00:00:23.199 --> 00:00:25.509 align:start position:0%
+are generally referred to as late fusion
+to<00:00:23.439><c> make</c><00:00:23.600><c> these</c><00:00:23.920><c> multimodal</c><00:00:24.640><c> models.</c><00:00:25.279><c> This</c>
+
+00:00:25.509 --> 00:00:25.519 align:start position:0%
+to make these multimodal models. This
+ 
+
+00:00:25.519 --> 00:00:27.509 align:start position:0%
+to make these multimodal models. This
+approach<00:00:25.920><c> treats</c><00:00:26.160><c> each</c><00:00:26.400><c> modality</c><00:00:27.039><c> separately</c>
+
+00:00:27.509 --> 00:00:27.519 align:start position:0%
+approach treats each modality separately
+ 
+
+00:00:27.519 --> 00:00:29.830 align:start position:0%
+approach treats each modality separately
+in<00:00:27.760><c> the</c><00:00:28.000><c> initial</c><00:00:28.400><c> model</c><00:00:28.720><c> training</c><00:00:29.039><c> stage.</c><00:00:29.599><c> So</c>
+
+00:00:29.830 --> 00:00:29.840 align:start position:0%
+in the initial model training stage. So
+ 
+
+00:00:29.840 --> 00:00:32.069 align:start position:0%
+in the initial model training stage. So
+there<00:00:30.080><c> is</c><00:00:30.240><c> a</c><00:00:30.480><c> dedicated</c><00:00:31.039><c> vision</c><00:00:31.439><c> component</c><00:00:31.840><c> to</c>
+
+00:00:32.069 --> 00:00:32.079 align:start position:0%
+there is a dedicated vision component to
+ 
+
+00:00:32.079 --> 00:00:33.750 align:start position:0%
+there is a dedicated vision component to
+process<00:00:32.399><c> images</c><00:00:32.719><c> and</c><00:00:32.960><c> a</c><00:00:33.200><c> large</c><00:00:33.360><c> language</c>
+
+00:00:33.750 --> 00:00:33.760 align:start position:0%
+process images and a large language
+ 
+
+00:00:33.760 --> 00:00:35.830 align:start position:0%
+process images and a large language
+model<00:00:34.079><c> component</c><00:00:34.480><c> to</c><00:00:34.719><c> handle</c><00:00:35.120><c> text.</c><00:00:35.600><c> These</c>
+
+00:00:35.830 --> 00:00:35.840 align:start position:0%
+model component to handle text. These
+ 
+
+00:00:35.840 --> 00:00:37.350 align:start position:0%
+model component to handle text. These
+separate<00:00:36.320><c> components</c><00:00:36.800><c> would</c><00:00:37.040><c> then</c><00:00:37.200><c> be</c>
+
+00:00:37.350 --> 00:00:37.360 align:start position:0%
+separate components would then be
+ 
+
+00:00:37.360 --> 00:00:39.110 align:start position:0%
+separate components would then be
+connected<00:00:37.760><c> later</c><00:00:38.000><c> down</c><00:00:38.239><c> the</c><00:00:38.399><c> line,</c><00:00:38.719><c> typically</c>
+
+00:00:39.110 --> 00:00:39.120 align:start position:0%
+connected later down the line, typically
+ 
+
+00:00:39.120 --> 00:00:41.430 align:start position:0%
+connected later down the line, typically
+by<00:00:39.280><c> feeding</c><00:00:39.680><c> visual</c><00:00:40.079><c> features</c><00:00:40.480><c> into</c><00:00:40.800><c> the</c><00:00:40.960><c> LLM</c>
+
+00:00:41.430 --> 00:00:41.440 align:start position:0%
+by feeding visual features into the LLM
+ 
+
+00:00:41.440 --> 00:00:43.350 align:start position:0%
+by feeding visual features into the LLM
+at<00:00:41.600><c> a</c><00:00:41.760><c> later</c><00:00:42.000><c> stage</c><00:00:42.320><c> during</c><00:00:42.640><c> training.</c><00:00:43.120><c> The</c>
+
+00:00:43.350 --> 00:00:43.360 align:start position:0%
+at a later stage during training. The
+ 
+
+00:00:43.360 --> 00:00:45.030 align:start position:0%
+at a later stage during training. The
+reason<00:00:43.600><c> why</c><00:00:43.840><c> this</c><00:00:44.000><c> approach</c><00:00:44.320><c> has</c><00:00:44.559><c> been</c><00:00:44.719><c> pretty</c>
+
+00:00:45.030 --> 00:00:45.040 align:start position:0%
+reason why this approach has been pretty
+ 
+
+00:00:45.040 --> 00:00:46.950 align:start position:0%
+reason why this approach has been pretty
+popular<00:00:45.360><c> is</c><00:00:45.680><c> because</c><00:00:45.920><c> it</c><00:00:46.079><c> lets</c><00:00:46.399><c> researchers</c>
+
+00:00:46.950 --> 00:00:46.960 align:start position:0%
+popular is because it lets researchers
+ 
+
+00:00:46.960 --> 00:00:48.709 align:start position:0%
+popular is because it lets researchers
+utilize<00:00:47.280><c> the</c><00:00:47.520><c> pre-trained</c><00:00:48.079><c> components</c><00:00:48.559><c> that</c>
+
+00:00:48.709 --> 00:00:48.719 align:start position:0%
+utilize the pre-trained components that
+ 
+
+00:00:48.719 --> 00:00:50.389 align:start position:0%
+utilize the pre-trained components that
+have<00:00:48.879><c> already</c><00:00:49.200><c> been</c><00:00:49.440><c> optimized</c><00:00:49.920><c> for</c><00:00:50.160><c> their</c>
+
+00:00:50.389 --> 00:00:50.399 align:start position:0%
+have already been optimized for their
+ 
+
+00:00:50.399 --> 00:00:52.389 align:start position:0%
+have already been optimized for their
+specific<00:00:50.800><c> modalities.</c><00:00:51.680><c> These</c><00:00:51.920><c> components</c>
+
+00:00:52.389 --> 00:00:52.399 align:start position:0%
+specific modalities. These components
+ 
+
+00:00:52.399 --> 00:00:54.069 align:start position:0%
+specific modalities. These components
+are<00:00:52.640><c> also</c><00:00:52.879><c> really</c><00:00:53.120><c> easy</c><00:00:53.280><c> to</c><00:00:53.520><c> train</c><00:00:53.760><c> since</c>
+
+00:00:54.069 --> 00:00:54.079 align:start position:0%
+are also really easy to train since
+ 
+
+00:00:54.079 --> 00:00:55.189 align:start position:0%
+are also really easy to train since
+there<00:00:54.239><c> are</c><00:00:54.399><c> already</c><00:00:54.559><c> a</c><00:00:54.800><c> handful</c><00:00:55.039><c> of</c>
+
+00:00:55.189 --> 00:00:55.199 align:start position:0%
+there are already a handful of
+ 
+
+00:00:55.199 --> 00:00:57.350 align:start position:0%
+there are already a handful of
+pre-existing<00:00:55.840><c> data</c><00:00:56.160><c> sets</c><00:00:56.320><c> or</c><00:00:56.559><c> data</c><00:00:56.879><c> pipelines</c>
+
+00:00:57.350 --> 00:00:57.360 align:start position:0%
+pre-existing data sets or data pipelines
+ 
+
+00:00:57.360 --> 00:00:59.510 align:start position:0%
+pre-existing data sets or data pipelines
+built<00:00:57.600><c> for</c><00:00:57.760><c> them.</c><00:00:58.079><c> So</c><00:00:58.320><c> the</c><00:00:58.559><c> real</c><00:00:58.800><c> hurdle</c><00:00:59.280><c> will</c>
+
+00:00:59.510 --> 00:00:59.520 align:start position:0%
+built for them. So the real hurdle will
+ 
+
+00:00:59.520 --> 00:01:01.349 align:start position:0%
+built for them. So the real hurdle will
+only<00:00:59.760><c> be</c><00:01:00.000><c> you</c><00:01:00.320><c> Frankensteining</c><00:01:01.039><c> these</c>
+
+00:01:01.349 --> 00:01:01.359 align:start position:0%
+only be you Frankensteining these
+ 
+
+00:01:01.359 --> 00:01:03.029 align:start position:0%
+only be you Frankensteining these
+state-of-the-art<00:01:02.000><c> components</c><00:01:02.559><c> together</c>
+
+00:01:03.029 --> 00:01:03.039 align:start position:0%
+state-of-the-art components together
+ 
+
+00:01:03.039 --> 00:01:05.910 align:start position:0%
+state-of-the-art components together
+into<00:01:03.440><c> something</c><00:01:04.080><c> multimodal.</c><00:01:05.119><c> However,</c><00:01:05.680><c> it</c>
+
+00:01:05.910 --> 00:01:05.920 align:start position:0%
+into something multimodal. However, it
+ 
+
+00:01:05.920 --> 00:01:07.270 align:start position:0%
+into something multimodal. However, it
+doesn't<00:01:06.080><c> change</c><00:01:06.320><c> the</c><00:01:06.479><c> fact</c><00:01:06.640><c> that</c><00:01:06.799><c> the</c><00:01:06.960><c> model</c>
+
+00:01:07.270 --> 00:01:07.280 align:start position:0%
+doesn't change the fact that the model
+ 
+
+00:01:07.280 --> 00:01:09.030 align:start position:0%
+doesn't change the fact that the model
+would<00:01:07.520><c> still</c><00:01:07.680><c> be</c><00:01:07.920><c> lacking</c><00:01:08.320><c> a</c><00:01:08.560><c> genuine</c>
+
+00:01:09.030 --> 00:01:09.040 align:start position:0%
+would still be lacking a genuine
+ 
+
+00:01:09.040 --> 00:01:10.870 align:start position:0%
+would still be lacking a genuine
+semantic<00:01:09.600><c> understanding</c><00:01:10.159><c> between</c><00:01:10.400><c> the</c><00:01:10.640><c> two</c>
+
+00:01:10.870 --> 00:01:10.880 align:start position:0%
+semantic understanding between the two
+ 
+
+00:01:10.880 --> 00:01:13.030 align:start position:0%
+semantic understanding between the two
+dominant<00:01:11.280><c> modality</c><00:01:11.920><c> that</c><00:01:12.159><c> is</c><00:01:12.400><c> text</c><00:01:12.720><c> and</c>
+
+00:01:13.030 --> 00:01:13.040 align:start position:0%
+dominant modality that is text and
+ 
+
+00:01:13.040 --> 00:01:15.109 align:start position:0%
+dominant modality that is text and
+visual<00:01:13.439><c> concepts.</c><00:01:14.000><c> So,</c><00:01:14.240><c> Metafare,</c><00:01:14.880><c> which</c><00:01:15.040><c> is</c>
+
+00:01:15.109 --> 00:01:15.119 align:start position:0%
+visual concepts. So, Metafare, which is
+ 
+
+00:01:15.119 --> 00:01:16.630 align:start position:0%
+visual concepts. So, Metafare, which is
+Meta's<00:01:15.600><c> research</c><00:01:15.920><c> group</c><00:01:16.159><c> known</c><00:01:16.400><c> for</c>
+
+00:01:16.630 --> 00:01:16.640 align:start position:0%
+Meta's research group known for
+ 
+
+00:01:16.640 --> 00:01:18.310 align:start position:0%
+Meta's research group known for
+proposing<00:01:17.040><c> a</c><00:01:17.280><c> lot</c><00:01:17.360><c> of</c><00:01:17.439><c> new</c><00:01:17.680><c> cool</c><00:01:17.920><c> AI</c>
+
+00:01:18.310 --> 00:01:18.320 align:start position:0%
+proposing a lot of new cool AI
+ 
+
+00:01:18.320 --> 00:01:20.149 align:start position:0%
+proposing a lot of new cool AI
+techniques,<00:01:18.880><c> is</c><00:01:19.119><c> ahead</c><00:01:19.439><c> of</c><00:01:19.520><c> the</c><00:01:19.680><c> game</c><00:01:19.920><c> as</c>
+
+00:01:20.149 --> 00:01:20.159 align:start position:0%
+techniques, is ahead of the game as
+ 
+
+00:01:20.159 --> 00:01:21.990 align:start position:0%
+techniques, is ahead of the game as
+usual,<00:01:20.560><c> publishing</c><00:01:21.040><c> a</c><00:01:21.280><c> paper</c><00:01:21.759><c> called</c>
+
+00:01:21.990 --> 00:01:22.000 align:start position:0%
+usual, publishing a paper called
+ 
+
+00:01:22.000 --> 00:01:23.749 align:start position:0%
+usual, publishing a paper called
+Chameleon<00:01:22.640><c> a</c><00:01:22.799><c> year</c><00:01:22.960><c> ago,</c><00:01:23.439><c> showing</c>
+
+00:01:23.749 --> 00:01:23.759 align:start position:0%
+Chameleon a year ago, showing
+ 
+
+00:01:23.759 --> 00:01:26.149 align:start position:0%
+Chameleon a year ago, showing
+empirically<00:01:24.400><c> how</c><00:01:24.640><c> well</c><00:01:24.880><c> their</c><00:01:25.280><c> early</c><00:01:25.680><c> fusion</c>
+
+00:01:26.149 --> 00:01:26.159 align:start position:0%
+empirically how well their early fusion
+ 
+
+00:01:26.159 --> 00:01:28.390 align:start position:0%
+empirically how well their early fusion
+models<00:01:26.560><c> can</c><00:01:26.799><c> scale</c><00:01:27.119><c> up</c><00:01:27.280><c> to</c><00:01:27.520><c> 34</c><00:01:28.080><c> billion</c>
+
+00:01:28.390 --> 00:01:28.400 align:start position:0%
+models can scale up to 34 billion
+ 
+
+00:01:28.400 --> 00:01:30.469 align:start position:0%
+models can scale up to 34 billion
+parameters.<00:01:29.119><c> And</c><00:01:29.360><c> fast</c><00:01:29.600><c> forward</c><00:01:29.840><c> to</c><00:01:30.080><c> 2</c><00:01:30.240><c> months</c>
+
+00:01:30.469 --> 00:01:30.479 align:start position:0%
+parameters. And fast forward to 2 months
+ 
+
+00:01:30.479 --> 00:01:32.950 align:start position:0%
+parameters. And fast forward to 2 months
+ago,<00:01:30.799><c> a</c><00:01:31.040><c> new</c><00:01:31.280><c> paper</c><00:01:31.600><c> published</c><00:01:31.920><c> by</c><00:01:32.240><c> Apple,</c>
+
+00:01:32.950 --> 00:01:32.960 align:start position:0%
+ago, a new paper published by Apple,
+ 
+
+00:01:32.960 --> 00:01:35.510 align:start position:0%
+ago, a new paper published by Apple,
+yes,<00:01:33.680><c> Apple,</c><00:01:34.400><c> they</c><00:01:34.720><c> have</c><00:01:34.880><c> been</c><00:01:35.040><c> really</c><00:01:35.280><c> active</c>
+
+00:01:35.510 --> 00:01:35.520 align:start position:0%
+yes, Apple, they have been really active
+ 
+
+00:01:35.520 --> 00:01:37.990 align:start position:0%
+yes, Apple, they have been really active
+in<00:01:35.759><c> multimodal</c><00:01:36.479><c> research</c><00:01:36.799><c> recently</c><00:01:37.439><c> shows</c><00:01:37.759><c> a</c>
+
+00:01:37.990 --> 00:01:38.000 align:start position:0%
+in multimodal research recently shows a
+ 
+
+00:01:38.000 --> 00:01:39.749 align:start position:0%
+in multimodal research recently shows a
+promising<00:01:38.479><c> scaling</c><00:01:38.799><c> law</c><00:01:39.040><c> for</c><00:01:39.280><c> models</c><00:01:39.680><c> that</c>
+
+00:01:39.749 --> 00:01:39.759 align:start position:0%
+promising scaling law for models that
+ 
+
+00:01:39.759 --> 00:01:41.910 align:start position:0%
+promising scaling law for models that
+are<00:01:39.920><c> trained</c><00:01:40.240><c> with</c><00:01:40.560><c> early</c><00:01:40.960><c> fusion</c><00:01:41.520><c> compared</c>
+
+00:01:41.910 --> 00:01:41.920 align:start position:0%
+are trained with early fusion compared
+ 
+
+00:01:41.920 --> 00:01:43.830 align:start position:0%
+are trained with early fusion compared
+to<00:01:42.079><c> late</c><00:01:42.400><c> fusion.</c><00:01:42.880><c> And</c><00:01:43.040><c> before</c><00:01:43.280><c> we</c><00:01:43.439><c> dive</c><00:01:43.600><c> into</c>
+
+00:01:43.830 --> 00:01:43.840 align:start position:0%
+to late fusion. And before we dive into
+ 
+
+00:01:43.840 --> 00:01:45.749 align:start position:0%
+to late fusion. And before we dive into
+why<00:01:44.159><c> early</c><00:01:44.479><c> fusion</c><00:01:44.880><c> might</c><00:01:45.119><c> just</c><00:01:45.280><c> be</c><00:01:45.360><c> the</c><00:01:45.600><c> next</c>
+
+00:01:45.749 --> 00:01:45.759 align:start position:0%
+why early fusion might just be the next
+ 
+
+00:01:45.759 --> 00:01:48.230 align:start position:0%
+why early fusion might just be the next
+paradigm<00:01:46.240><c> for</c><00:01:46.399><c> multimodal</c><00:01:47.280><c> models</c><00:01:47.840><c> with</c><00:01:48.000><c> a</c>
+
+00:01:48.230 --> 00:01:48.240 align:start position:0%
+paradigm for multimodal models with a
+ 
+
+00:01:48.240 --> 00:01:49.910 align:start position:0%
+paradigm for multimodal models with a
+constant<00:01:48.560><c> headache</c><00:01:48.880><c> of</c><00:01:49.040><c> managing</c><00:01:49.439><c> countless</c>
+
+00:01:49.910 --> 00:01:49.920 align:start position:0%
+constant headache of managing countless
+ 
+
+00:01:49.920 --> 00:01:51.670 align:start position:0%
+constant headache of managing countless
+unique<00:01:50.320><c> passwords</c><00:01:50.799><c> on</c><00:01:50.960><c> top</c><00:01:51.119><c> of</c><00:01:51.200><c> a</c><00:01:51.280><c> threat</c><00:01:51.520><c> of</c>
+
+00:01:51.670 --> 00:01:51.680 align:start position:0%
+unique passwords on top of a threat of
+ 
+
+00:01:51.680 --> 00:01:53.670 align:start position:0%
+unique passwords on top of a threat of
+data<00:01:52.000><c> breach</c><00:01:52.320><c> looming,</c><00:01:52.960><c> we</c><00:01:53.200><c> already</c><00:01:53.520><c> know</c>
+
+00:01:53.670 --> 00:01:53.680 align:start position:0%
+data breach looming, we already know
+ 
+
+00:01:53.680 --> 00:01:55.510 align:start position:0%
+data breach looming, we already know
+that<00:01:53.920><c> using</c><00:01:54.159><c> a</c><00:01:54.399><c> secure</c><00:01:54.720><c> and</c><00:01:54.880><c> trustworthy</c>
+
+00:01:55.510 --> 00:01:55.520 align:start position:0%
+that using a secure and trustworthy
+ 
+
+00:01:55.520 --> 00:01:57.270 align:start position:0%
+that using a secure and trustworthy
+password<00:01:56.000><c> manager</c><00:01:56.399><c> is</c><00:01:56.720><c> essential</c><00:01:57.040><c> for</c>
+
+00:01:57.270 --> 00:01:57.280 align:start position:0%
+password manager is essential for
+ 
+
+00:01:57.280 --> 00:01:59.030 align:start position:0%
+password manager is essential for
+protecting<00:01:57.759><c> our</c><00:01:58.000><c> digital</c><00:01:58.399><c> lives.</c><00:01:58.799><c> That's</c><00:01:58.960><c> why</c>
+
+00:01:59.030 --> 00:01:59.040 align:start position:0%
+protecting our digital lives. That's why
+ 
+
+00:01:59.040 --> 00:02:00.630 align:start position:0%
+protecting our digital lives. That's why
+I'd<00:01:59.200><c> like</c><00:01:59.360><c> to</c><00:01:59.439><c> share</c><00:01:59.600><c> with</c><00:01:59.759><c> you</c><00:01:59.840><c> about</c><00:02:00.079><c> Proton</c>
+
+00:02:00.630 --> 00:02:00.640 align:start position:0%
+I'd like to share with you about Proton
+ 
+
+00:02:00.640 --> 00:02:02.469 align:start position:0%
+I'd like to share with you about Proton
+Pass,<00:02:00.960><c> which</c><00:02:01.119><c> is</c><00:02:01.280><c> from</c><00:02:01.439><c> the</c><00:02:01.600><c> privacy</c><00:02:02.079><c> focused</c>
+
+00:02:02.469 --> 00:02:02.479 align:start position:0%
+Pass, which is from the privacy focused
+ 
+
+00:02:02.479 --> 00:02:04.469 align:start position:0%
+Pass, which is from the privacy focused
+team<00:02:02.719><c> at</c><00:02:02.960><c> Proton,</c><00:02:03.520><c> born</c><00:02:03.759><c> in</c><00:02:04.000><c> Switzerland.</c>
+
+00:02:04.469 --> 00:02:04.479 align:start position:0%
+team at Proton, born in Switzerland.
+ 
+
+00:02:04.479 --> 00:02:06.310 align:start position:0%
+team at Proton, born in Switzerland.
+Personally,<00:02:05.200><c> I</c><00:02:05.439><c> have</c><00:02:05.600><c> already</c><00:02:05.840><c> been</c><00:02:06.079><c> using</c>
+
+00:02:06.310 --> 00:02:06.320 align:start position:0%
+Personally, I have already been using
+ 
+
+00:02:06.320 --> 00:02:08.150 align:start position:0%
+Personally, I have already been using
+Proton<00:02:06.799><c> because</c><00:02:06.960><c> of</c><00:02:07.119><c> how</c><00:02:07.360><c> easy</c><00:02:07.520><c> it</c><00:02:07.680><c> is</c><00:02:07.840><c> to</c><00:02:08.000><c> set</c>
+
+00:02:08.150 --> 00:02:08.160 align:start position:0%
+Proton because of how easy it is to set
+ 
+
+00:02:08.160 --> 00:02:09.910 align:start position:0%
+Proton because of how easy it is to set
+up<00:02:08.319><c> their</c><00:02:08.560><c> services</c><00:02:08.959><c> that</c><00:02:09.200><c> have</c><00:02:09.360><c> top</c><00:02:09.599><c> tier</c>
+
+00:02:09.910 --> 00:02:09.920 align:start position:0%
+up their services that have top tier
+ 
+
+00:02:09.920 --> 00:02:11.830 align:start position:0%
+up their services that have top tier
+security.<00:02:10.479><c> And</c><00:02:10.640><c> Proton</c><00:02:11.039><c> Pass</c><00:02:11.280><c> is</c><00:02:11.360><c> more</c><00:02:11.520><c> than</c><00:02:11.680><c> a</c>
+
+00:02:11.830 --> 00:02:11.840 align:start position:0%
+security. And Proton Pass is more than a
+ 
+
+00:02:11.840 --> 00:02:13.830 align:start position:0%
+security. And Proton Pass is more than a
+robust<00:02:12.239><c> password</c><00:02:12.640><c> manager.</c><00:02:13.040><c> It</c><00:02:13.280><c> not</c><00:02:13.360><c> only</c><00:02:13.599><c> can</c>
+
+00:02:13.830 --> 00:02:13.840 align:start position:0%
+robust password manager. It not only can
+ 
+
+00:02:13.840 --> 00:02:15.670 align:start position:0%
+robust password manager. It not only can
+store<00:02:14.000><c> your</c><00:02:14.239><c> passwords,</c><00:02:14.800><c> it</c><00:02:14.959><c> can</c><00:02:15.120><c> also</c><00:02:15.280><c> act</c><00:02:15.520><c> as</c>
+
+00:02:15.670 --> 00:02:15.680 align:start position:0%
+store your passwords, it can also act as
+ 
+
+00:02:15.680 --> 00:02:17.510 align:start position:0%
+store your passwords, it can also act as
+your<00:02:15.920><c> secure</c><00:02:16.319><c> vault</c><00:02:16.640><c> for</c><00:02:16.879><c> notes,</c><00:02:17.280><c> credit</c>
+
+00:02:17.510 --> 00:02:17.520 align:start position:0%
+your secure vault for notes, credit
+ 
+
+00:02:17.520 --> 00:02:18.869 align:start position:0%
+your secure vault for notes, credit
+cards,<00:02:17.760><c> and</c><00:02:18.000><c> even</c><00:02:18.239><c> your</c><00:02:18.480><c> personal</c>
+
+00:02:18.869 --> 00:02:18.879 align:start position:0%
+cards, and even your personal
+ 
+
+00:02:18.879 --> 00:02:20.630 align:start position:0%
+cards, and even your personal
+information<00:02:19.360><c> that</c><00:02:19.520><c> you</c><00:02:19.680><c> can</c><00:02:19.840><c> now</c><00:02:20.080><c> autofill</c>
+
+00:02:20.630 --> 00:02:20.640 align:start position:0%
+information that you can now autofill
+ 
+
+00:02:20.640 --> 00:02:22.229 align:start position:0%
+information that you can now autofill
+when<00:02:20.800><c> you</c><00:02:20.959><c> buy</c><00:02:21.120><c> stuff</c><00:02:21.360><c> online,</c><00:02:21.840><c> so</c><00:02:22.000><c> you</c><00:02:22.160><c> can</c>
+
+00:02:22.229 --> 00:02:22.239 align:start position:0%
+when you buy stuff online, so you can
+ 
+
+00:02:22.239 --> 00:02:23.750 align:start position:0%
+when you buy stuff online, so you can
+forget<00:02:22.560><c> retyping</c><00:02:23.040><c> your</c><00:02:23.200><c> address</c><00:02:23.440><c> for</c><00:02:23.599><c> the</c>
+
+00:02:23.750 --> 00:02:23.760 align:start position:0%
+forget retyping your address for the
+ 
+
+00:02:23.760 --> 00:02:25.589 align:start position:0%
+forget retyping your address for the
+hundth<00:02:24.239><c> time</c><00:02:24.400><c> without</c><00:02:24.800><c> having</c><00:02:25.040><c> it</c><00:02:25.280><c> stored</c>
+
+00:02:25.589 --> 00:02:25.599 align:start position:0%
+hundth time without having it stored
+ 
+
+00:02:25.599 --> 00:02:27.510 align:start position:0%
+hundth time without having it stored
+plainly<00:02:26.000><c> in</c><00:02:26.160><c> your</c><00:02:26.319><c> browser.</c><00:02:26.720><c> Proton</c><00:02:27.200><c> Pass</c>
+
+00:02:27.510 --> 00:02:27.520 align:start position:0%
+plainly in your browser. Proton Pass
+ 
+
+00:02:27.520 --> 00:02:29.670 align:start position:0%
+plainly in your browser. Proton Pass
+also<00:02:27.840><c> offers</c><00:02:28.239><c> secure</c><00:02:28.560><c> login</c><00:02:29.040><c> effortlessly</c>
+
+00:02:29.670 --> 00:02:29.680 align:start position:0%
+also offers secure login effortlessly
+ 
+
+00:02:29.680 --> 00:02:31.350 align:start position:0%
+also offers secure login effortlessly
+with<00:02:29.920><c> strong</c><00:02:30.239><c> password</c><00:02:30.640><c> generation,</c>
+
+00:02:31.350 --> 00:02:31.360 align:start position:0%
+with strong password generation,
+ 
+
+00:02:31.360 --> 00:02:33.670 align:start position:0%
+with strong password generation,
+autofill<00:02:32.000><c> and</c><00:02:32.239><c> cross</c><00:02:32.560><c> device</c><00:02:32.959><c> sync</c><00:02:33.360><c> while</c>
+
+00:02:33.670 --> 00:02:33.680 align:start position:0%
+autofill and cross device sync while
+ 
+
+00:02:33.680 --> 00:02:35.270 align:start position:0%
+autofill and cross device sync while
+protecting<00:02:34.080><c> against</c><00:02:34.400><c> fishing.</c><00:02:34.800><c> And</c><00:02:34.959><c> it</c><00:02:35.120><c> can</c>
+
+00:02:35.270 --> 00:02:35.280 align:start position:0%
+protecting against fishing. And it can
+ 
+
+00:02:35.280 --> 00:02:36.869 align:start position:0%
+protecting against fishing. And it can
+enhance<00:02:35.599><c> your</c><00:02:35.840><c> online</c><00:02:36.160><c> privacy</c><00:02:36.640><c> using</c>
+
+00:02:36.869 --> 00:02:36.879 align:start position:0%
+enhance your online privacy using
+ 
+
+00:02:36.879 --> 00:02:39.270 align:start position:0%
+enhance your online privacy using
+integrated<00:02:37.440><c> hi</c><00:02:37.680><c> my</c><00:02:37.920><c> mail</c><00:02:38.160><c> aliases</c><00:02:38.800><c> to</c><00:02:39.040><c> shield</c>
+
+00:02:39.270 --> 00:02:39.280 align:start position:0%
+integrated hi my mail aliases to shield
+ 
+
+00:02:39.280 --> 00:02:41.270 align:start position:0%
+integrated hi my mail aliases to shield
+your<00:02:39.519><c> real</c><00:02:39.760><c> email</c><00:02:40.160><c> address</c><00:02:40.480><c> during</c><00:02:40.800><c> signups</c>
+
+00:02:41.270 --> 00:02:41.280 align:start position:0%
+your real email address during signups
+ 
+
+00:02:41.280 --> 00:02:43.030 align:start position:0%
+your real email address during signups
+and<00:02:41.440><c> leverage</c><00:02:41.840><c> cutting</c><00:02:42.160><c> edge</c><00:02:42.400><c> security</c><00:02:42.800><c> like</c>
+
+00:02:43.030 --> 00:02:43.040 align:start position:0%
+and leverage cutting edge security like
+ 
+
+00:02:43.040 --> 00:02:45.430 align:start position:0%
+and leverage cutting edge security like
+pass<00:02:43.360><c> key</c><00:02:43.599><c> support</c><00:02:44.239><c> and</c><00:02:44.319><c> integrated</c><00:02:44.879><c> 2FA</c>
+
+00:02:45.430 --> 00:02:45.440 align:start position:0%
+pass key support and integrated 2FA
+ 
+
+00:02:45.440 --> 00:02:47.589 align:start position:0%
+pass key support and integrated 2FA
+authenticator,<00:02:46.160><c> dark</c><00:02:46.480><c> web</c><00:02:46.800><c> monitoring,</c><00:02:47.440><c> and</c>
+
+00:02:47.589 --> 00:02:47.599 align:start position:0%
+authenticator, dark web monitoring, and
+ 
+
+00:02:47.599 --> 00:02:49.670 align:start position:0%
+authenticator, dark web monitoring, and
+the<00:02:47.840><c> AI</c><00:02:48.239><c> powered</c><00:02:48.560><c> Proton</c><00:02:49.040><c> Sentinel</c><00:02:49.440><c> for</c>
+
+00:02:49.670 --> 00:02:49.680 align:start position:0%
+the AI powered Proton Sentinel for
+ 
+
+00:02:49.680 --> 00:02:51.110 align:start position:0%
+the AI powered Proton Sentinel for
+advanced<00:02:50.080><c> threat</c><00:02:50.400><c> detection.</c><00:02:50.879><c> What's</c>
+
+00:02:51.110 --> 00:02:51.120 align:start position:0%
+advanced threat detection. What's
+ 
+
+00:02:51.120 --> 00:02:52.949 align:start position:0%
+advanced threat detection. What's
+amazing<00:02:51.360><c> is</c><00:02:51.519><c> that</c><00:02:51.599><c> Proton</c><00:02:52.000><c> Pass</c><00:02:52.239><c> is</c><00:02:52.400><c> 100%</c>
+
+00:02:52.949 --> 00:02:52.959 align:start position:0%
+amazing is that Proton Pass is 100%
+ 
+
+00:02:52.959 --> 00:02:55.350 align:start position:0%
+amazing is that Proton Pass is 100%
+community<00:02:53.440><c> funded.</c><00:02:53.920><c> This</c><00:02:54.160><c> means</c><00:02:54.400><c> no</c><00:02:54.640><c> VC</c><00:02:55.120><c> are</c>
+
+00:02:55.350 --> 00:02:55.360 align:start position:0%
+community funded. This means no VC are
+ 
+
+00:02:55.360 --> 00:02:57.190 align:start position:0%
+community funded. This means no VC are
+involved,<00:02:55.840><c> ensuring</c><00:02:56.239><c> the</c><00:02:56.480><c> company</c><00:02:56.800><c> remains</c>
+
+00:02:57.190 --> 00:02:57.200 align:start position:0%
+involved, ensuring the company remains
+ 
+
+00:02:57.200 --> 00:02:59.430 align:start position:0%
+involved, ensuring the company remains
+user<00:02:57.599><c> focused</c><00:02:58.000><c> and</c><00:02:58.239><c> privacy</c><00:02:58.720><c> first.</c><00:02:59.200><c> And</c><00:02:59.280><c> the</c>
+
+00:02:59.430 --> 00:02:59.440 align:start position:0%
+user focused and privacy first. And the
+ 
+
+00:02:59.440 --> 00:03:01.110 align:start position:0%
+user focused and privacy first. And the
+best<00:02:59.599><c> part</c><00:02:59.760><c> is</c><00:03:00.080><c> you</c><00:03:00.239><c> can</c><00:03:00.400><c> start</c><00:03:00.560><c> securing</c><00:03:00.959><c> your</c>
+
+00:03:01.110 --> 00:03:01.120 align:start position:0%
+best part is you can start securing your
+ 
+
+00:03:01.120 --> 00:03:03.110 align:start position:0%
+best part is you can start securing your
+Proton<00:03:01.519><c> Pass</c><00:03:01.840><c> right</c><00:03:02.000><c> now</c><00:03:02.159><c> with</c><00:03:02.400><c> both</c><00:03:02.640><c> free</c><00:03:02.879><c> and</c>
+
+00:03:03.110 --> 00:03:03.120 align:start position:0%
+Proton Pass right now with both free and
+ 
+
+00:03:03.120 --> 00:03:05.030 align:start position:0%
+Proton Pass right now with both free and
+affordable<00:03:03.599><c> premium</c><00:03:04.000><c> options</c><00:03:04.400><c> available.</c><00:03:04.879><c> So</c>
+
+00:03:05.030 --> 00:03:05.040 align:start position:0%
+affordable premium options available. So
+ 
+
+00:03:05.040 --> 00:03:06.470 align:start position:0%
+affordable premium options available. So
+if<00:03:05.200><c> you're</c><00:03:05.360><c> ready</c><00:03:05.519><c> to</c><00:03:05.680><c> take</c><00:03:05.840><c> control</c><00:03:06.159><c> of</c><00:03:06.319><c> your</c>
+
+00:03:06.470 --> 00:03:06.480 align:start position:0%
+if you're ready to take control of your
+ 
+
+00:03:06.480 --> 00:03:08.470 align:start position:0%
+if you're ready to take control of your
+passwords<00:03:06.879><c> and</c><00:03:07.120><c> online</c><00:03:07.440><c> privacy</c><00:03:08.000><c> the</c><00:03:08.239><c> easy</c>
+
+00:03:08.470 --> 00:03:08.480 align:start position:0%
+passwords and online privacy the easy
+ 
+
+00:03:08.480 --> 00:03:10.070 align:start position:0%
+passwords and online privacy the easy
+way,<00:03:08.800><c> check</c><00:03:08.959><c> out</c><00:03:09.120><c> Proton</c><00:03:09.519><c> Pass</c><00:03:09.680><c> using</c><00:03:09.920><c> the</c>
+
+00:03:10.070 --> 00:03:10.080 align:start position:0%
+way, check out Proton Pass using the
+ 
+
+00:03:10.080 --> 00:03:11.350 align:start position:0%
+way, check out Proton Pass using the
+link<00:03:10.239><c> down</c><00:03:10.319><c> in</c><00:03:10.480><c> the</c><00:03:10.560><c> description</c><00:03:10.959><c> and</c><00:03:11.200><c> thank</c>
+
+00:03:11.350 --> 00:03:11.360 align:start position:0%
+link down in the description and thank
+ 
+
+00:03:11.360 --> 00:03:13.110 align:start position:0%
+link down in the description and thank
+you<00:03:11.519><c> Proton</c><00:03:12.000><c> Pass</c><00:03:12.239><c> for</c><00:03:12.400><c> sponsoring</c><00:03:12.879><c> this</c>
+
+00:03:13.110 --> 00:03:13.120 align:start position:0%
+you Proton Pass for sponsoring this
+ 
+
+00:03:13.120 --> 00:03:15.270 align:start position:0%
+you Proton Pass for sponsoring this
+video.<00:03:13.519><c> Anyways,</c><00:03:14.080><c> the</c><00:03:14.319><c> optimal</c><00:03:14.800><c> way</c><00:03:14.879><c> to</c><00:03:15.040><c> build</c>
+
+00:03:15.270 --> 00:03:15.280 align:start position:0%
+video. Anyways, the optimal way to build
+ 
+
+00:03:15.280 --> 00:03:17.190 align:start position:0%
+video. Anyways, the optimal way to build
+AI<00:03:15.599><c> that</c><00:03:15.840><c> can</c><00:03:16.000><c> understand</c><00:03:16.319><c> multiple</c><00:03:16.720><c> types</c><00:03:16.959><c> of</c>
+
+00:03:17.190 --> 00:03:17.200 align:start position:0%
+AI that can understand multiple types of
+ 
+
+00:03:17.200 --> 00:03:19.190 align:start position:0%
+AI that can understand multiple types of
+information<00:03:17.920><c> should</c><00:03:18.239><c> be</c><00:03:18.400><c> able</c><00:03:18.560><c> to</c><00:03:18.720><c> learn</c><00:03:18.959><c> them</c>
+
+00:03:19.190 --> 00:03:19.200 align:start position:0%
+information should be able to learn them
+ 
+
+00:03:19.200 --> 00:03:21.110 align:start position:0%
+information should be able to learn them
+end<00:03:19.440><c> to</c><00:03:19.680><c> end.</c><00:03:20.080><c> So</c><00:03:20.319><c> instead</c><00:03:20.560><c> of</c><00:03:20.720><c> treating</c>
+
+00:03:21.110 --> 00:03:21.120 align:start position:0%
+end to end. So instead of treating
+ 
+
+00:03:21.120 --> 00:03:23.190 align:start position:0%
+end to end. So instead of treating
+modalities<00:03:21.760><c> separately,</c><00:03:22.480><c> early</c><00:03:22.800><c> fusion</c>
+
+00:03:23.190 --> 00:03:23.200 align:start position:0%
+modalities separately, early fusion
+ 
+
+00:03:23.200 --> 00:03:24.869 align:start position:0%
+modalities separately, early fusion
+means<00:03:23.440><c> a</c><00:03:23.680><c> model</c><00:03:23.840><c> will</c><00:03:24.080><c> be</c><00:03:24.159><c> able</c><00:03:24.319><c> to</c><00:03:24.480><c> process</c>
+
+00:03:24.869 --> 00:03:24.879 align:start position:0%
+means a model will be able to process
+ 
+
+00:03:24.879 --> 00:03:26.949 align:start position:0%
+means a model will be able to process
+raw<00:03:25.200><c> text</c><00:03:25.440><c> and</c><00:03:25.680><c> visual</c><00:03:26.000><c> data</c><00:03:26.239><c> together</c><00:03:26.720><c> from</c>
+
+00:03:26.949 --> 00:03:26.959 align:start position:0%
+raw text and visual data together from
+ 
+
+00:03:26.959 --> 00:03:28.949 align:start position:0%
+raw text and visual data together from
+the<00:03:27.120><c> very</c><00:03:27.440><c> beginning</c><00:03:27.840><c> using</c><00:03:28.239><c> an</c><00:03:28.400><c> unified</c>
+
+00:03:28.949 --> 00:03:28.959 align:start position:0%
+the very beginning using an unified
+ 
+
+00:03:28.959 --> 00:03:30.550 align:start position:0%
+the very beginning using an unified
+transformer<00:03:29.519><c> architecture.</c><00:03:30.159><c> This</c><00:03:30.319><c> is</c><00:03:30.400><c> more</c>
+
+00:03:30.550 --> 00:03:30.560 align:start position:0%
+transformer architecture. This is more
+ 
+
+00:03:30.560 --> 00:03:32.149 align:start position:0%
+transformer architecture. This is more
+like<00:03:30.720><c> having</c><00:03:30.959><c> a</c><00:03:31.200><c> single</c><00:03:31.440><c> person</c><00:03:31.760><c> who</c><00:03:32.000><c> can</c>
+
+00:03:32.149 --> 00:03:32.159 align:start position:0%
+like having a single person who can
+ 
+
+00:03:32.159 --> 00:03:33.830 align:start position:0%
+like having a single person who can
+naturally<00:03:32.560><c> understand</c><00:03:32.959><c> both</c><00:03:33.200><c> language</c><00:03:33.599><c> and</c>
+
+00:03:33.830 --> 00:03:33.840 align:start position:0%
+naturally understand both language and
+ 
+
+00:03:33.840 --> 00:03:35.910 align:start position:0%
+naturally understand both language and
+vision<00:03:34.239><c> simultaneously</c><00:03:35.360><c> rather</c><00:03:35.680><c> than</c>
+
+00:03:35.910 --> 00:03:35.920 align:start position:0%
+vision simultaneously rather than
+ 
+
+00:03:35.920 --> 00:03:37.509 align:start position:0%
+vision simultaneously rather than
+requiring<00:03:36.480><c> translation</c><00:03:37.120><c> between</c>
+
+00:03:37.509 --> 00:03:37.519 align:start position:0%
+requiring translation between
+ 
+
+00:03:37.519 --> 00:03:39.990 align:start position:0%
+requiring translation between
+specialists.<00:03:38.400><c> And</c><00:03:38.560><c> this</c><00:03:39.040><c> is</c><00:03:39.200><c> the</c><00:03:39.440><c> key</c><00:03:39.680><c> method</c>
+
+00:03:39.990 --> 00:03:40.000 align:start position:0%
+specialists. And this is the key method
+ 
+
+00:03:40.000 --> 00:03:42.070 align:start position:0%
+specialists. And this is the key method
+of<00:03:40.159><c> meta's</c><00:03:40.640><c> chameleon.</c><00:03:41.200><c> In</c><00:03:41.360><c> the</c><00:03:41.519><c> paper,</c><00:03:41.840><c> the</c>
+
+00:03:42.070 --> 00:03:42.080 align:start position:0%
+of meta's chameleon. In the paper, the
+ 
+
+00:03:42.080 --> 00:03:44.149 align:start position:0%
+of meta's chameleon. In the paper, the
+researchers<00:03:42.560><c> treat</c><00:03:42.879><c> everything</c><00:03:43.519><c> including</c>
+
+00:03:44.149 --> 00:03:44.159 align:start position:0%
+researchers treat everything including
+ 
+
+00:03:44.159 --> 00:03:46.550 align:start position:0%
+researchers treat everything including
+images<00:03:44.720><c> as</c><00:03:45.040><c> discrete</c><00:03:45.519><c> tokens</c><00:03:46.000><c> that</c><00:03:46.239><c> could</c><00:03:46.400><c> be</c>
+
+00:03:46.550 --> 00:03:46.560 align:start position:0%
+images as discrete tokens that could be
+ 
+
+00:03:46.560 --> 00:03:47.990 align:start position:0%
+images as discrete tokens that could be
+processed<00:03:46.959><c> by</c><00:03:47.040><c> the</c><00:03:47.280><c> same</c><00:03:47.440><c> transformer</c>
+
+00:03:47.990 --> 00:03:48.000 align:start position:0%
+processed by the same transformer
+ 
+
+00:03:48.000 --> 00:03:50.149 align:start position:0%
+processed by the same transformer
+architecture.<00:03:48.720><c> So</c><00:03:48.959><c> just</c><00:03:49.120><c> like</c><00:03:49.440><c> words,</c><00:03:49.840><c> images</c>
+
+00:03:50.149 --> 00:03:50.159 align:start position:0%
+architecture. So just like words, images
+ 
+
+00:03:50.159 --> 00:03:52.309 align:start position:0%
+architecture. So just like words, images
+were<00:03:50.400><c> tokenized</c><00:03:50.879><c> into</c><00:03:51.200><c> discrete</c><00:03:51.599><c> tokens</c><00:03:52.080><c> with</c>
+
+00:03:52.309 --> 00:03:52.319 align:start position:0%
+were tokenized into discrete tokens with
+ 
+
+00:03:52.319 --> 00:03:54.550 align:start position:0%
+were tokenized into discrete tokens with
+an<00:03:52.560><c> image</c><00:03:52.879><c> tokenizer.</c><00:03:53.599><c> This</c><00:03:53.840><c> then</c><00:03:54.080><c> allows</c><00:03:54.319><c> a</c>
+
+00:03:54.550 --> 00:03:54.560 align:start position:0%
+an image tokenizer. This then allows a
+ 
+
+00:03:54.560 --> 00:03:56.550 align:start position:0%
+an image tokenizer. This then allows a
+base<00:03:54.879><c> model,</c><00:03:55.280><c> which</c><00:03:55.519><c> in</c><00:03:55.680><c> this</c><00:03:55.840><c> case</c><00:03:56.080><c> they</c><00:03:56.319><c> used</c>
+
+00:03:56.550 --> 00:03:56.560 align:start position:0%
+base model, which in this case they used
+ 
+
+00:03:56.560 --> 00:03:58.470 align:start position:0%
+base model, which in this case they used
+Llama<00:03:57.040><c> 2,</c><00:03:57.360><c> to</c><00:03:57.519><c> seamlessly</c><00:03:58.080><c> generate</c>
+
+00:03:58.470 --> 00:03:58.480 align:start position:0%
+Llama 2, to seamlessly generate
+ 
+
+00:03:58.480 --> 00:04:01.190 align:start position:0%
+Llama 2, to seamlessly generate
+sequences<00:03:59.120><c> mixing</c><00:03:59.599><c> text</c><00:03:59.920><c> and</c><00:04:00.239><c> images.</c><00:04:00.959><c> And</c>
+
+00:04:01.190 --> 00:04:01.200 align:start position:0%
+sequences mixing text and images. And
+ 
+
+00:04:01.200 --> 00:04:03.030 align:start position:0%
+sequences mixing text and images. And
+given<00:04:01.599><c> how</c><00:04:01.840><c> straightforward</c><00:04:02.400><c> that</c><00:04:02.640><c> solution</c>
+
+00:04:03.030 --> 00:04:03.040 align:start position:0%
+given how straightforward that solution
+ 
+
+00:04:03.040 --> 00:04:05.350 align:start position:0%
+given how straightforward that solution
+sounded,<00:04:03.760><c> of</c><00:04:04.000><c> course,</c><00:04:04.400><c> Chameleon's</c><00:04:05.040><c> training</c>
+
+00:04:05.350 --> 00:04:05.360 align:start position:0%
+sounded, of course, Chameleon's training
+ 
+
+00:04:05.360 --> 00:04:07.589 align:start position:0%
+sounded, of course, Chameleon's training
+wouldn't<00:04:05.680><c> be</c><00:04:05.840><c> as</c><00:04:06.159><c> smoothing</c><00:04:06.959><c> as</c><00:04:07.120><c> that.</c><00:04:07.439><c> So</c>
+
+00:04:07.589 --> 00:04:07.599 align:start position:0%
+wouldn't be as smoothing as that. So
+ 
+
+00:04:07.599 --> 00:04:09.429 align:start position:0%
+wouldn't be as smoothing as that. So
+when<00:04:07.760><c> the</c><00:04:08.000><c> researchers</c><00:04:08.400><c> first</c><00:04:08.640><c> scaled</c><00:04:09.040><c> up</c><00:04:09.200><c> to</c>
+
+00:04:09.429 --> 00:04:09.439 align:start position:0%
+when the researchers first scaled up to
+ 
+
+00:04:09.439 --> 00:04:11.350 align:start position:0%
+when the researchers first scaled up to
+8<00:04:09.680><c> billion</c><00:04:10.000><c> parameters</c><00:04:10.560><c> and</c><00:04:10.799><c> 1</c><00:04:10.959><c> trillion</c>
+
+00:04:11.350 --> 00:04:11.360 align:start position:0%
+8 billion parameters and 1 trillion
+ 
+
+00:04:11.360 --> 00:04:13.830 align:start position:0%
+8 billion parameters and 1 trillion
+tokens,<00:04:12.000><c> training</c><00:04:12.560><c> became</c><00:04:13.040><c> really</c><00:04:13.360><c> unstable</c>
+
+00:04:13.830 --> 00:04:13.840 align:start position:0%
+tokens, training became really unstable
+ 
+
+00:04:13.840 --> 00:04:15.910 align:start position:0%
+tokens, training became really unstable
+for<00:04:14.080><c> some</c><00:04:14.319><c> reason</c><00:04:14.720><c> with</c><00:04:15.040><c> divergences</c>
+
+00:04:15.910 --> 00:04:15.920 align:start position:0%
+for some reason with divergences
+ 
+
+00:04:15.920 --> 00:04:17.830 align:start position:0%
+for some reason with divergences
+appearing<00:04:16.400><c> late</c><00:04:16.639><c> in</c><00:04:16.799><c> the</c><00:04:16.959><c> process.</c><00:04:17.440><c> And</c><00:04:17.680><c> it</c>
+
+00:04:17.830 --> 00:04:17.840 align:start position:0%
+appearing late in the process. And it
+ 
+
+00:04:17.840 --> 00:04:20.069 align:start position:0%
+appearing late in the process. And it
+turns<00:04:18.079><c> out</c><00:04:18.560><c> this</c><00:04:18.799><c> is</c><00:04:19.120><c> caused</c><00:04:19.440><c> by</c><00:04:19.600><c> the</c><00:04:19.759><c> model</c>
+
+00:04:20.069 --> 00:04:20.079 align:start position:0%
+turns out this is caused by the model
+ 
+
+00:04:20.079 --> 00:04:22.069 align:start position:0%
+turns out this is caused by the model
+sharing<00:04:20.400><c> all</c><00:04:20.639><c> the</c><00:04:20.799><c> modalities</c><00:04:21.440><c> in</c><00:04:21.680><c> the</c><00:04:21.840><c> same</c>
+
+00:04:22.069 --> 00:04:22.079 align:start position:0%
+sharing all the modalities in the same
+ 
+
+00:04:22.079 --> 00:04:24.150 align:start position:0%
+sharing all the modalities in the same
+way<00:04:22.400><c> where</c><00:04:22.639><c> each</c><00:04:22.880><c> modality</c><00:04:23.440><c> signals</c><00:04:23.919><c> will</c>
+
+00:04:24.150 --> 00:04:24.160 align:start position:0%
+way where each modality signals will
+ 
+
+00:04:24.160 --> 00:04:26.150 align:start position:0%
+way where each modality signals will
+compete<00:04:24.560><c> with</c><00:04:24.720><c> each</c><00:04:24.960><c> other.</c><00:04:25.440><c> So</c><00:04:25.600><c> in</c><00:04:25.840><c> cases</c>
+
+00:04:26.150 --> 00:04:26.160 align:start position:0%
+compete with each other. So in cases
+ 
+
+00:04:26.160 --> 00:04:27.990 align:start position:0%
+compete with each other. So in cases
+where<00:04:26.479><c> image</c><00:04:26.720><c> generation</c><00:04:27.199><c> is</c><00:04:27.360><c> a</c><00:04:27.520><c> function</c><00:04:27.759><c> in</c>
+
+00:04:27.990 --> 00:04:28.000 align:start position:0%
+where image generation is a function in
+ 
+
+00:04:28.000 --> 00:04:30.469 align:start position:0%
+where image generation is a function in
+the<00:04:28.240><c> model</c><00:04:28.720><c> since</c><00:04:29.040><c> it</c><00:04:29.360><c> requires</c><00:04:29.840><c> more</c><00:04:30.080><c> extreme</c>
+
+00:04:30.469 --> 00:04:30.479 align:start position:0%
+the model since it requires more extreme
+ 
+
+00:04:30.479 --> 00:04:32.469 align:start position:0%
+the model since it requires more extreme
+activation<00:04:31.040><c> values</c><00:04:31.360><c> to</c><00:04:31.600><c> represent</c><00:04:31.919><c> the</c><00:04:32.160><c> rich</c>
+
+00:04:32.469 --> 00:04:32.479 align:start position:0%
+activation values to represent the rich
+ 
+
+00:04:32.479 --> 00:04:34.629 align:start position:0%
+activation values to represent the rich
+visual<00:04:32.880><c> information</c><00:04:33.759><c> this</c><00:04:34.000><c> causes</c><00:04:34.320><c> the</c>
+
+00:04:34.629 --> 00:04:34.639 align:start position:0%
+visual information this causes the
+ 
+
+00:04:34.639 --> 00:04:36.710 align:start position:0%
+visual information this causes the
+signal<00:04:34.960><c> to</c><00:04:35.199><c> compete</c><00:04:35.520><c> with</c><00:04:35.759><c> each</c><00:04:36.000><c> other</c><00:04:36.400><c> and</c>
+
+00:04:36.710 --> 00:04:36.720 align:start position:0%
+signal to compete with each other and
+ 
+
+00:04:36.720 --> 00:04:39.110 align:start position:0%
+signal to compete with each other and
+becomes<00:04:37.120><c> destructive</c><00:04:38.080><c> making</c><00:04:38.639><c> everything</c>
+
+00:04:39.110 --> 00:04:39.120 align:start position:0%
+becomes destructive making everything
+ 
+
+00:04:39.120 --> 00:04:41.270 align:start position:0%
+becomes destructive making everything
+else<00:04:39.440><c> unusable.</c><00:04:40.160><c> And</c><00:04:40.400><c> without</c><00:04:40.720><c> getting</c><00:04:40.960><c> too</c>
+
+00:04:41.270 --> 00:04:41.280 align:start position:0%
+else unusable. And without getting too
+ 
+
+00:04:41.280 --> 00:04:43.189 align:start position:0%
+else unusable. And without getting too
+technical,<00:04:41.919><c> they</c><00:04:42.160><c> basically</c><00:04:42.479><c> solve</c><00:04:42.800><c> this</c><00:04:42.960><c> by</c>
+
+00:04:43.189 --> 00:04:43.199 align:start position:0%
+technical, they basically solve this by
+ 
+
+00:04:43.199 --> 00:04:45.189 align:start position:0%
+technical, they basically solve this by
+normalizing<00:04:43.759><c> the</c><00:04:44.000><c> signals</c><00:04:44.320><c> at</c><00:04:44.560><c> key</c><00:04:44.800><c> points</c><00:04:45.040><c> in</c>
+
+00:04:45.189 --> 00:04:45.199 align:start position:0%
+normalizing the signals at key points in
+ 
+
+00:04:45.199 --> 00:04:46.710 align:start position:0%
+normalizing the signals at key points in
+the<00:04:45.360><c> model,</c><00:04:45.680><c> which</c><00:04:45.919><c> prevents</c><00:04:46.400><c> different</c>
+
+00:04:46.710 --> 00:04:46.720 align:start position:0%
+the model, which prevents different
+ 
+
+00:04:46.720 --> 00:04:48.950 align:start position:0%
+the model, which prevents different
+modalities<00:04:47.360><c> from</c><00:04:47.600><c> competing</c><00:04:48.080><c> their</c><00:04:48.320><c> signals.</c>
+
+00:04:48.950 --> 00:04:48.960 align:start position:0%
+modalities from competing their signals.
+ 
+
+00:04:48.960 --> 00:04:51.350 align:start position:0%
+modalities from competing their signals.
+And<00:04:49.120><c> the</c><00:04:49.360><c> resulting</c><00:04:49.840><c> early</c><00:04:50.240><c> fusion</c><00:04:50.639><c> model</c>
+
+00:04:51.350 --> 00:04:51.360 align:start position:0%
+And the resulting early fusion model
+ 
+
+00:04:51.360 --> 00:04:53.510 align:start position:0%
+And the resulting early fusion model
+goes<00:04:51.759><c> a</c><00:04:52.000><c> long</c><00:04:52.160><c> way.</c><00:04:52.560><c> Chameleon</c><00:04:53.120><c> could</c><00:04:53.280><c> do</c>
+
+00:04:53.510 --> 00:04:53.520 align:start position:0%
+goes a long way. Chameleon could do
+ 
+
+00:04:53.520 --> 00:04:55.430 align:start position:0%
+goes a long way. Chameleon could do
+things<00:04:53.680><c> that</c><00:04:53.919><c> late</c><00:04:54.240><c> Fusion</c><00:04:54.639><c> models</c><00:04:55.040><c> simply</c>
+
+00:04:55.430 --> 00:04:55.440 align:start position:0%
+things that late Fusion models simply
+ 
+
+00:04:55.440 --> 00:04:57.430 align:start position:0%
+things that late Fusion models simply
+couldn't.<00:04:56.000><c> It</c><00:04:56.240><c> can</c><00:04:56.400><c> generate</c><00:04:56.720><c> documents</c><00:04:57.199><c> with</c>
+
+00:04:57.430 --> 00:04:57.440 align:start position:0%
+couldn't. It can generate documents with
+ 
+
+00:04:57.440 --> 00:04:59.590 align:start position:0%
+couldn't. It can generate documents with
+images<00:04:57.840><c> and</c><00:04:58.080><c> text</c><00:04:58.400><c> interled</c><00:04:58.960><c> in</c><00:04:59.199><c> natural</c>
+
+00:04:59.590 --> 00:04:59.600 align:start position:0%
+images and text interled in natural
+ 
+
+00:04:59.600 --> 00:05:01.430 align:start position:0%
+images and text interled in natural
+sequences,<00:05:00.320><c> create</c><00:05:00.639><c> images</c><00:05:00.960><c> in</c><00:05:01.120><c> the</c><00:05:01.280><c> middle</c>
+
+00:05:01.430 --> 00:05:01.440 align:start position:0%
+sequences, create images in the middle
+ 
+
+00:05:01.440 --> 00:05:03.590 align:start position:0%
+sequences, create images in the middle
+of<00:05:01.600><c> text</c><00:05:01.919><c> explanations,</c><00:05:02.800><c> and</c><00:05:02.960><c> reason</c><00:05:03.199><c> across</c>
+
+00:05:03.590 --> 00:05:03.600 align:start position:0%
+of text explanations, and reason across
+ 
+
+00:05:03.600 --> 00:05:05.110 align:start position:0%
+of text explanations, and reason across
+modalities<00:05:04.160><c> without</c><00:05:04.400><c> the</c><00:05:04.639><c> artificial</c>
+
+00:05:05.110 --> 00:05:05.120 align:start position:0%
+modalities without the artificial
+ 
+
+00:05:05.120 --> 00:05:07.430 align:start position:0%
+modalities without the artificial
+barriers<00:05:05.680><c> imposed</c><00:05:06.160><c> by</c><00:05:06.320><c> separate</c><00:05:06.720><c> encoders.</c>
+
+00:05:07.430 --> 00:05:07.440 align:start position:0%
+barriers imposed by separate encoders.
+ 
+
+00:05:07.440 --> 00:05:09.670 align:start position:0%
+barriers imposed by separate encoders.
+Benchmark-wise,<00:05:08.240><c> it</c><00:05:08.479><c> outperforms</c><00:05:08.960><c> its</c><00:05:09.199><c> Llama</c>
+
+00:05:09.670 --> 00:05:09.680 align:start position:0%
+Benchmark-wise, it outperforms its Llama
+ 
+
+00:05:09.680 --> 00:05:11.830 align:start position:0%
+Benchmark-wise, it outperforms its Llama
+2<00:05:09.840><c> baseline</c><00:05:10.240><c> on</c><00:05:10.479><c> the</c><00:05:10.639><c> language</c><00:05:11.039><c> capabilities.</c>
+
+00:05:11.830 --> 00:05:11.840 align:start position:0%
+2 baseline on the language capabilities.
+ 
+
+00:05:11.840 --> 00:05:13.590 align:start position:0%
+2 baseline on the language capabilities.
+On<00:05:12.000><c> imageto</c><00:05:12.560><c> text</c><00:05:12.800><c> benchmarks,</c><00:05:13.440><c> it</c>
+
+00:05:13.590 --> 00:05:13.600 align:start position:0%
+On imageto text benchmarks, it
+ 
+
+00:05:13.600 --> 00:05:16.550 align:start position:0%
+On imageto text benchmarks, it
+outperforms<00:05:14.240><c> Flamingo,</c><00:05:14.960><c> GP4V,</c><00:05:15.840><c> and</c><00:05:16.080><c> Gemini</c>
+
+00:05:16.550 --> 00:05:16.560 align:start position:0%
+outperforms Flamingo, GP4V, and Gemini
+ 
+
+00:05:16.560 --> 00:05:19.110 align:start position:0%
+outperforms Flamingo, GP4V, and Gemini
+Pro,<00:05:17.039><c> which</c><00:05:17.280><c> are</c><00:05:17.440><c> the</c><00:05:17.680><c> top</c><00:05:17.919><c> dogs</c><00:05:18.320><c> at</c><00:05:18.560><c> the</c><00:05:18.720><c> time.</c>
+
+00:05:19.110 --> 00:05:19.120 align:start position:0%
+Pro, which are the top dogs at the time.
+ 
+
+00:05:19.120 --> 00:05:21.029 align:start position:0%
+Pro, which are the top dogs at the time.
+But<00:05:19.280><c> even</c><00:05:19.520><c> with</c><00:05:19.759><c> the</c><00:05:20.000><c> convincing</c><00:05:20.560><c> performance</c>
+
+00:05:21.029 --> 00:05:21.039 align:start position:0%
+But even with the convincing performance
+ 
+
+00:05:21.039 --> 00:05:23.430 align:start position:0%
+But even with the convincing performance
+early<00:05:21.440><c> Fusion</c><00:05:21.840><c> has,</c><00:05:22.400><c> the</c><00:05:22.639><c> success</c><00:05:22.960><c> of</c><00:05:23.199><c> late</c>
+
+00:05:23.430 --> 00:05:23.440 align:start position:0%
+early Fusion has, the success of late
+ 
+
+00:05:23.440 --> 00:05:25.749 align:start position:0%
+early Fusion has, the success of late
+Fusion<00:05:23.840><c> methods,</c><00:05:24.400><c> the</c><00:05:24.639><c> cheap</c><00:05:24.960><c> cost,</c><00:05:25.360><c> and</c><00:05:25.520><c> the</c>
+
+00:05:25.749 --> 00:05:25.759 align:start position:0%
+Fusion methods, the cheap cost, and the
+ 
+
+00:05:25.759 --> 00:05:27.430 align:start position:0%
+Fusion methods, the cheap cost, and the
+convenience<00:05:26.160><c> of</c><00:05:26.400><c> building</c><00:05:26.720><c> on</c><00:05:26.960><c> existing</c>
+
+00:05:27.430 --> 00:05:27.440 align:start position:0%
+convenience of building on existing
+ 
+
+00:05:27.440 --> 00:05:29.510 align:start position:0%
+convenience of building on existing
+pre-trained<00:05:28.080><c> components</c><00:05:28.720><c> has</c><00:05:29.039><c> still</c><00:05:29.280><c> made</c>
+
+00:05:29.510 --> 00:05:29.520 align:start position:0%
+pre-trained components has still made
+ 
+
+00:05:29.520 --> 00:05:31.749 align:start position:0%
+pre-trained components has still made
+big<00:05:29.759><c> AI</c><00:05:30.160><c> labs</c><00:05:30.560><c> flock</c><00:05:30.880><c> to</c><00:05:31.120><c> those</c><00:05:31.280><c> methods</c>
+
+00:05:31.749 --> 00:05:31.759 align:start position:0%
+big AI labs flock to those methods
+ 
+
+00:05:31.759 --> 00:05:33.830 align:start position:0%
+big AI labs flock to those methods
+primarily.<00:05:32.400><c> Not</c><00:05:32.639><c> until</c><00:05:32.880><c> the</c><00:05:33.120><c> research</c><00:05:33.440><c> paper</c>
+
+00:05:33.830 --> 00:05:33.840 align:start position:0%
+primarily. Not until the research paper
+ 
+
+00:05:33.840 --> 00:05:35.990 align:start position:0%
+primarily. Not until the research paper
+proposed<00:05:34.240><c> a</c><00:05:34.479><c> few</c><00:05:34.639><c> weeks</c><00:05:34.880><c> ago</c><00:05:35.360><c> called</c><00:05:35.600><c> scaling</c>
+
+00:05:35.990 --> 00:05:36.000 align:start position:0%
+proposed a few weeks ago called scaling
+ 
+
+00:05:36.000 --> 00:05:38.230 align:start position:0%
+proposed a few weeks ago called scaling
+loss<00:05:36.320><c> for</c><00:05:36.479><c> native</c><00:05:36.960><c> multimodal</c><00:05:37.680><c> models</c>
+
+00:05:38.230 --> 00:05:38.240 align:start position:0%
+loss for native multimodal models
+ 
+
+00:05:38.240 --> 00:05:40.629 align:start position:0%
+loss for native multimodal models
+proving<00:05:38.560><c> that</c><00:05:38.880><c> early</c><00:05:39.280><c> fusion</c><00:05:39.840><c> is</c><00:05:40.080><c> the</c><00:05:40.240><c> way</c><00:05:40.400><c> to</c>
+
+00:05:40.629 --> 00:05:40.639 align:start position:0%
+proving that early fusion is the way to
+ 
+
+00:05:40.639 --> 00:05:42.710 align:start position:0%
+proving that early fusion is the way to
+go<00:05:41.120><c> and</c><00:05:41.199><c> might</c><00:05:41.440><c> just</c><00:05:41.680><c> convince</c><00:05:42.000><c> the</c><00:05:42.240><c> field</c><00:05:42.479><c> to</c>
+
+00:05:42.710 --> 00:05:42.720 align:start position:0%
+go and might just convince the field to
+ 
+
+00:05:42.720 --> 00:05:44.790 align:start position:0%
+go and might just convince the field to
+jump<00:05:42.960><c> to</c><00:05:43.199><c> this</c><00:05:43.440><c> early</c><00:05:43.759><c> fusion</c><00:05:44.160><c> paradigm</c><00:05:44.560><c> for</c>
+
+00:05:44.790 --> 00:05:44.800 align:start position:0%
+jump to this early fusion paradigm for
+ 
+
+00:05:44.800 --> 00:05:46.870 align:start position:0%
+jump to this early fusion paradigm for
+multimodal<00:05:45.600><c> models.</c><00:05:46.160><c> And</c><00:05:46.320><c> when</c><00:05:46.479><c> I</c><00:05:46.639><c> say</c>
+
+00:05:46.870 --> 00:05:46.880 align:start position:0%
+multimodal models. And when I say
+ 
+
+00:05:46.880 --> 00:05:49.430 align:start position:0%
+multimodal models. And when I say
+convincing,<00:05:47.840><c> it</c><00:05:48.160><c> is</c><00:05:48.320><c> a</c><00:05:48.560><c> research</c><00:05:48.960><c> conducted</c>
+
+00:05:49.430 --> 00:05:49.440 align:start position:0%
+convincing, it is a research conducted
+ 
+
+00:05:49.440 --> 00:05:52.629 align:start position:0%
+convincing, it is a research conducted
+on<00:05:49.840><c> 457</c><00:05:50.880><c> different</c><00:05:51.120><c> models</c><00:05:51.600><c> ranging</c><00:05:51.919><c> from</c><00:05:52.240><c> 300</c>
+
+00:05:52.629 --> 00:05:52.639 align:start position:0%
+on 457 different models ranging from 300
+ 
+
+00:05:52.639 --> 00:05:55.189 align:start position:0%
+on 457 different models ranging from 300
+million<00:05:53.039><c> to</c><00:05:53.360><c> 4</c><00:05:53.600><c> billion</c><00:05:54.000><c> parameters.</c><00:05:54.800><c> So</c><00:05:54.960><c> that</c>
+
+00:05:55.189 --> 00:05:55.199 align:start position:0%
+million to 4 billion parameters. So that
+ 
+
+00:05:55.199 --> 00:05:57.189 align:start position:0%
+million to 4 billion parameters. So that
+amount<00:05:55.440><c> of</c><00:05:55.759><c> experiment</c><00:05:56.560><c> definitely</c><00:05:56.880><c> speaks</c>
+
+00:05:57.189 --> 00:05:57.199 align:start position:0%
+amount of experiment definitely speaks
+ 
+
+00:05:57.199 --> 00:05:58.950 align:start position:0%
+amount of experiment definitely speaks
+for<00:05:57.440><c> itself.</c><00:05:57.919><c> In</c><00:05:58.080><c> the</c><00:05:58.240><c> research,</c><00:05:58.720><c> they</c>
+
+00:05:58.950 --> 00:05:58.960 align:start position:0%
+for itself. In the research, they
+ 
+
+00:05:58.960 --> 00:06:00.950 align:start position:0%
+for itself. In the research, they
+systematically<00:05:59.759><c> compared</c><00:06:00.240><c> early</c><00:06:00.479><c> and</c><00:06:00.720><c> late</c>
+
+00:06:00.950 --> 00:06:00.960 align:start position:0%
+systematically compared early and late
+ 
+
+00:06:00.960 --> 00:06:02.950 align:start position:0%
+systematically compared early and late
+fusion<00:06:01.360><c> and</c><00:06:01.600><c> validated</c><00:06:02.080><c> the</c><00:06:02.320><c> chameleon's</c>
+
+00:06:02.950 --> 00:06:02.960 align:start position:0%
+fusion and validated the chameleon's
+ 
+
+00:06:02.960 --> 00:06:04.629 align:start position:0%
+fusion and validated the chameleon's
+approach<00:06:03.360><c> showing</c><00:06:03.600><c> that</c><00:06:03.840><c> early</c><00:06:04.160><c> fusion</c>
+
+00:06:04.629 --> 00:06:04.639 align:start position:0%
+approach showing that early fusion
+ 
+
+00:06:04.639 --> 00:06:06.469 align:start position:0%
+approach showing that early fusion
+models<00:06:04.960><c> match</c><00:06:05.280><c> late</c><00:06:05.600><c> fusion</c><00:06:06.000><c> performance</c>
+
+00:06:06.469 --> 00:06:06.479 align:start position:0%
+models match late fusion performance
+ 
+
+00:06:06.479 --> 00:06:08.790 align:start position:0%
+models match late fusion performance
+across<00:06:06.880><c> the</c><00:06:07.120><c> board.</c><00:06:07.600><c> So</c><00:06:07.759><c> the</c><00:06:08.000><c> assumption</c><00:06:08.479><c> that</c>
+
+00:06:08.790 --> 00:06:08.800 align:start position:0%
+across the board. So the assumption that
+ 
+
+00:06:08.800 --> 00:06:10.870 align:start position:0%
+across the board. So the assumption that
+we<00:06:09.039><c> had</c><00:06:09.440><c> where</c><00:06:09.759><c> specialized</c><00:06:10.319><c> pre-trained</c>
+
+00:06:10.870 --> 00:06:10.880 align:start position:0%
+we had where specialized pre-trained
+ 
+
+00:06:10.880 --> 00:06:12.870 align:start position:0%
+we had where specialized pre-trained
+components<00:06:11.440><c> would</c><00:06:11.680><c> outperform</c><00:06:12.319><c> unified</c>
+
+00:06:12.870 --> 00:06:12.880 align:start position:0%
+components would outperform unified
+ 
+
+00:06:12.880 --> 00:06:14.790 align:start position:0%
+components would outperform unified
+training<00:06:13.520><c> have</c><00:06:13.840><c> actually</c><00:06:14.080><c> been</c><00:06:14.319><c> wrong</c><00:06:14.560><c> the</c>
+
+00:06:14.790 --> 00:06:14.800 align:start position:0%
+training have actually been wrong the
+ 
+
+00:06:14.800 --> 00:06:16.469 align:start position:0%
+training have actually been wrong the
+whole<00:06:14.960><c> time.</c><00:06:15.280><c> Another</c><00:06:15.600><c> surprising</c><00:06:16.080><c> discovery</c>
+
+00:06:16.469 --> 00:06:16.479 align:start position:0%
+whole time. Another surprising discovery
+ 
+
+00:06:16.479 --> 00:06:18.390 align:start position:0%
+whole time. Another surprising discovery
+is<00:06:16.720><c> that</c><00:06:16.880><c> early</c><00:06:17.199><c> fusion</c><00:06:17.600><c> models</c><00:06:18.080><c> were</c>
+
+00:06:18.390 --> 00:06:18.400 align:start position:0%
+is that early fusion models were
+ 
+
+00:06:18.400 --> 00:06:20.150 align:start position:0%
+is that early fusion models were
+actually<00:06:18.800><c> more</c><00:06:19.039><c> efficient</c><00:06:19.680><c> which</c><00:06:19.919><c> is</c>
+
+00:06:20.150 --> 00:06:20.160 align:start position:0%
+actually more efficient which is
+ 
+
+00:06:20.160 --> 00:06:22.150 align:start position:0%
+actually more efficient which is
+completely<00:06:20.639><c> opposite</c><00:06:20.960><c> to</c><00:06:21.199><c> the</c><00:06:21.440><c> consensus.</c>
+
+00:06:22.150 --> 00:06:22.160 align:start position:0%
+completely opposite to the consensus.
+ 
+
+00:06:22.160 --> 00:06:24.790 align:start position:0%
+completely opposite to the consensus.
+They<00:06:22.400><c> trained</c><00:06:22.720><c> faster,</c><00:06:23.520><c> used</c><00:06:23.759><c> less</c><00:06:24.080><c> memory,</c>
+
+00:06:24.790 --> 00:06:24.800 align:start position:0%
+They trained faster, used less memory,
+ 
+
+00:06:24.800 --> 00:06:26.790 align:start position:0%
+They trained faster, used less memory,
+required<00:06:25.280><c> fewer</c><00:06:25.680><c> parameters,</c><00:06:26.400><c> and</c><00:06:26.560><c> were</c>
+
+00:06:26.790 --> 00:06:26.800 align:start position:0%
+required fewer parameters, and were
+ 
+
+00:06:26.800 --> 00:06:28.790 align:start position:0%
+required fewer parameters, and were
+easier<00:06:27.120><c> to</c><00:06:27.280><c> deploy.</c><00:06:27.840><c> All</c><00:06:28.000><c> the</c><00:06:28.160><c> complexity</c><00:06:28.639><c> of</c>
+
+00:06:28.790 --> 00:06:28.800 align:start position:0%
+easier to deploy. All the complexity of
+ 
+
+00:06:28.800 --> 00:06:30.550 align:start position:0%
+easier to deploy. All the complexity of
+orchestrating<00:06:29.520><c> multiple</c><00:06:29.919><c> specialists</c><00:06:30.400><c> just</c>
+
+00:06:30.550 --> 00:06:30.560 align:start position:0%
+orchestrating multiple specialists just
+ 
+
+00:06:30.560 --> 00:06:32.469 align:start position:0%
+orchestrating multiple specialists just
+has<00:06:30.800><c> too</c><00:06:30.960><c> much</c><00:06:31.120><c> overhead</c><00:06:31.680><c> that</c><00:06:31.919><c> makes</c><00:06:32.160><c> early</c>
+
+00:06:32.469 --> 00:06:32.479 align:start position:0%
+has too much overhead that makes early
+ 
+
+00:06:32.479 --> 00:06:34.469 align:start position:0%
+has too much overhead that makes early
+fusion<00:06:32.880><c> a</c><00:06:33.120><c> way</c><00:06:33.360><c> better</c><00:06:33.600><c> method</c><00:06:33.919><c> than</c><00:06:34.160><c> late</c>
+
+00:06:34.469 --> 00:06:34.479 align:start position:0%
+fusion a way better method than late
+ 
+
+00:06:34.479 --> 00:06:35.990 align:start position:0%
+fusion a way better method than late
+fusion.<00:06:34.880><c> What's</c><00:06:35.120><c> even</c><00:06:35.360><c> better</c><00:06:35.520><c> is</c><00:06:35.680><c> that</c>
+
+00:06:35.990 --> 00:06:36.000 align:start position:0%
+fusion. What's even better is that
+ 
+
+00:06:36.000 --> 00:06:38.390 align:start position:0%
+fusion. What's even better is that
+multimodal<00:06:36.800><c> models</c><00:06:37.199><c> followed</c><00:06:37.600><c> scaling</c><00:06:38.000><c> laws</c>
+
+00:06:38.390 --> 00:06:38.400 align:start position:0%
+multimodal models followed scaling laws
+ 
+
+00:06:38.400 --> 00:06:40.629 align:start position:0%
+multimodal models followed scaling laws
+nearly<00:06:38.960><c> identical</c><00:06:39.360><c> to</c><00:06:39.600><c> textonly</c><00:06:40.240><c> language</c>
+
+00:06:40.629 --> 00:06:40.639 align:start position:0%
+nearly identical to textonly language
+ 
+
+00:06:40.639 --> 00:06:42.629 align:start position:0%
+nearly identical to textonly language
+models.<00:06:41.199><c> On</c><00:06:41.360><c> top</c><00:06:41.520><c> of</c><00:06:41.680><c> that,</c><00:06:42.000><c> when</c><00:06:42.240><c> applying</c>
+
+00:06:42.629 --> 00:06:42.639 align:start position:0%
+models. On top of that, when applying
+ 
+
+00:06:42.639 --> 00:06:44.870 align:start position:0%
+models. On top of that, when applying
+mixture<00:06:43.039><c> of</c><00:06:43.199><c> experts</c><00:06:43.600><c> in</c><00:06:43.840><c> these</c><00:06:44.080><c> multimodal</c>
+
+00:06:44.870 --> 00:06:44.880 align:start position:0%
+mixture of experts in these multimodal
+ 
+
+00:06:44.880 --> 00:06:47.350 align:start position:0%
+mixture of experts in these multimodal
+models,<00:06:45.680><c> something</c><00:06:46.080><c> fascinating</c><00:06:46.800><c> happens.</c>
+
+00:06:47.350 --> 00:06:47.360 align:start position:0%
+models, something fascinating happens.
+ 
+
+00:06:47.360 --> 00:06:49.270 align:start position:0%
+models, something fascinating happens.
+When<00:06:47.520><c> they</c><00:06:47.680><c> train</c><00:06:48.400><c> models</c><00:06:48.720><c> without</c><00:06:49.039><c> telling</c>
+
+00:06:49.270 --> 00:06:49.280 align:start position:0%
+When they train models without telling
+ 
+
+00:06:49.280 --> 00:06:50.550 align:start position:0%
+When they train models without telling
+them<00:06:49.600><c> anything</c><00:06:49.840><c> about</c><00:06:50.080><c> the</c><00:06:50.319><c> difference</c>
+
+00:06:50.550 --> 00:06:50.560 align:start position:0%
+them anything about the difference
+ 
+
+00:06:50.560 --> 00:06:52.870 align:start position:0%
+them anything about the difference
+between<00:06:50.960><c> text</c><00:06:51.280><c> and</c><00:06:51.520><c> images,</c><00:06:52.160><c> the</c><00:06:52.400><c> model</c><00:06:52.639><c> would</c>
+
+00:06:52.870 --> 00:06:52.880 align:start position:0%
+between text and images, the model would
+ 
+
+00:06:52.880 --> 00:06:55.270 align:start position:0%
+between text and images, the model would
+still<00:06:53.199><c> spontaneously</c><00:06:54.080><c> learn</c><00:06:54.319><c> to</c><00:06:54.560><c> specialize.</c>
+
+00:06:55.270 --> 00:06:55.280 align:start position:0%
+still spontaneously learn to specialize.
+ 
+
+00:06:55.280 --> 00:06:57.430 align:start position:0%
+still spontaneously learn to specialize.
+Some<00:06:55.520><c> experts</c><00:06:56.000><c> became</c><00:06:56.400><c> text</c><00:06:56.720><c> specialist,</c>
+
+00:06:57.430 --> 00:06:57.440 align:start position:0%
+Some experts became text specialist,
+ 
+
+00:06:57.440 --> 00:06:59.589 align:start position:0%
+Some experts became text specialist,
+other<00:06:57.759><c> became</c><00:06:58.160><c> image</c><00:06:58.560><c> specialists.</c><00:06:59.280><c> And</c>
+
+00:06:59.589 --> 00:06:59.599 align:start position:0%
+other became image specialists. And
+ 
+
+00:06:59.599 --> 00:07:01.670 align:start position:0%
+other became image specialists. And
+these<00:06:59.759><c> specialization</c><00:07:00.639><c> emerged</c><00:07:01.120><c> naturally</c>
+
+00:07:01.670 --> 00:07:01.680 align:start position:0%
+these specialization emerged naturally
+ 
+
+00:07:01.680 --> 00:07:04.230 align:start position:0%
+these specialization emerged naturally
+through<00:07:02.000><c> training</c><00:07:02.639><c> with</c><00:07:02.960><c> no</c><00:07:03.280><c> human</c><00:07:03.680><c> guidance.</c>
+
+00:07:04.230 --> 00:07:04.240 align:start position:0%
+through training with no human guidance.
+ 
+
+00:07:04.240 --> 00:07:05.510 align:start position:0%
+through training with no human guidance.
+It<00:07:04.479><c> might</c><00:07:04.639><c> be</c><00:07:04.800><c> because</c><00:07:05.039><c> the</c><00:07:05.280><c> difference</c>
+
+00:07:05.510 --> 00:07:05.520 align:start position:0%
+It might be because the difference
+ 
+
+00:07:05.520 --> 00:07:07.350 align:start position:0%
+It might be because the difference
+between<00:07:05.759><c> the</c><00:07:06.000><c> signals</c><00:07:06.400><c> for</c><00:07:06.560><c> text</c><00:07:06.800><c> and</c><00:07:06.960><c> images</c>
+
+00:07:07.350 --> 00:07:07.360 align:start position:0%
+between the signals for text and images
+ 
+
+00:07:07.360 --> 00:07:08.950 align:start position:0%
+between the signals for text and images
+are<00:07:07.599><c> pretty</c><00:07:07.919><c> different,</c><00:07:08.479><c> making</c><00:07:08.720><c> the</c>
+
+00:07:08.950 --> 00:07:08.960 align:start position:0%
+are pretty different, making the
+ 
+
+00:07:08.960 --> 00:07:10.790 align:start position:0%
+are pretty different, making the
+organization<00:07:09.520><c> of</c><00:07:09.759><c> knowledge</c><00:07:10.160><c> easier.</c><00:07:10.720><c> But</c>
+
+00:07:10.790 --> 00:07:10.800 align:start position:0%
+organization of knowledge easier. But
+ 
+
+00:07:10.800 --> 00:07:12.469 align:start position:0%
+organization of knowledge easier. But
+this<00:07:10.960><c> kind</c><00:07:11.120><c> of</c><00:07:11.199><c> show</c><00:07:11.440><c> that</c><00:07:11.599><c> early</c><00:07:11.919><c> fusion</c><00:07:12.319><c> and</c>
+
+00:07:12.469 --> 00:07:12.479 align:start position:0%
+this kind of show that early fusion and
+ 
+
+00:07:12.479 --> 00:07:14.710 align:start position:0%
+this kind of show that early fusion and
+mixture<00:07:12.880><c> of</c><00:07:13.120><c> experts</c><00:07:13.599><c> are</c><00:07:13.759><c> a</c><00:07:14.000><c> match</c><00:07:14.319><c> made</c><00:07:14.479><c> in</c>
+
+00:07:14.710 --> 00:07:14.720 align:start position:0%
+mixture of experts are a match made in
+ 
+
+00:07:14.720 --> 00:07:17.110 align:start position:0%
+mixture of experts are a match made in
+AI<00:07:15.120><c> heaven.</c><00:07:15.520><c> Given</c><00:07:15.840><c> that</c><00:07:16.560><c> has</c><00:07:16.800><c> pretty</c><00:07:16.960><c> much</c>
+
+00:07:17.110 --> 00:07:17.120 align:start position:0%
+AI heaven. Given that has pretty much
+ 
+
+00:07:17.120 --> 00:07:19.510 align:start position:0%
+AI heaven. Given that has pretty much
+become<00:07:17.520><c> essential</c><00:07:17.919><c> for</c><00:07:18.240><c> modern</c><00:07:18.639><c> LLM</c><00:07:19.120><c> due</c><00:07:19.360><c> to</c>
+
+00:07:19.510 --> 00:07:19.520 align:start position:0%
+become essential for modern LLM due to
+ 
+
+00:07:19.520 --> 00:07:21.670 align:start position:0%
+become essential for modern LLM due to
+its<00:07:19.759><c> guaranteed</c><00:07:20.319><c> efficiency</c><00:07:20.880><c> gains,</c><00:07:21.440><c> it</c><00:07:21.599><c> was</c>
+
+00:07:21.670 --> 00:07:21.680 align:start position:0%
+its guaranteed efficiency gains, it was
+ 
+
+00:07:21.680 --> 00:07:23.990 align:start position:0%
+its guaranteed efficiency gains, it was
+a<00:07:21.919><c> great</c><00:07:22.319><c> though</c><00:07:22.800><c> perhaps</c><00:07:23.199><c> inevitable</c>
+
+00:07:23.990 --> 00:07:24.000 align:start position:0%
+a great though perhaps inevitable
+ 
+
+00:07:24.000 --> 00:07:26.550 align:start position:0%
+a great though perhaps inevitable
+surprise<00:07:24.400><c> that</c><00:07:25.199><c> works</c><00:07:25.520><c> exceptionally</c><00:07:26.319><c> well</c>
+
+00:07:26.550 --> 00:07:26.560 align:start position:0%
+surprise that works exceptionally well
+ 
+
+00:07:26.560 --> 00:07:28.870 align:start position:0%
+surprise that works exceptionally well
+with<00:07:26.800><c> early</c><00:07:27.120><c> fusion,</c><00:07:27.840><c> providing</c><00:07:28.319><c> significant</c>
+
+00:07:28.870 --> 00:07:28.880 align:start position:0%
+with early fusion, providing significant
+ 
+
+00:07:28.880 --> 00:07:30.950 align:start position:0%
+with early fusion, providing significant
+performance<00:07:29.360><c> boosts</c><00:07:29.840><c> while</c><00:07:30.240><c> maintaining</c><00:07:30.720><c> the</c>
+
+00:07:30.950 --> 00:07:30.960 align:start position:0%
+performance boosts while maintaining the
+ 
+
+00:07:30.960 --> 00:07:32.469 align:start position:0%
+performance boosts while maintaining the
+same<00:07:31.120><c> inference</c><00:07:31.599><c> cost.</c><00:07:32.160><c> Another</c>
+
+00:07:32.469 --> 00:07:32.479 align:start position:0%
+same inference cost. Another
+ 
+
+00:07:32.479 --> 00:07:34.550 align:start position:0%
+same inference cost. Another
+counterintuitive<00:07:33.440><c> finding</c><00:07:33.759><c> was</c><00:07:34.000><c> that</c><00:07:34.319><c> as</c>
+
+00:07:34.550 --> 00:07:34.560 align:start position:0%
+counterintuitive finding was that as
+ 
+
+00:07:34.560 --> 00:07:36.390 align:start position:0%
+counterintuitive finding was that as
+image<00:07:34.880><c> resolution</c><00:07:35.440><c> increased,</c><00:07:35.919><c> the</c><00:07:36.080><c> early</c>
+
+00:07:36.390 --> 00:07:36.400 align:start position:0%
+image resolution increased, the early
+ 
+
+00:07:36.400 --> 00:07:38.469 align:start position:0%
+image resolution increased, the early
+fusion<00:07:36.800><c> models</c><00:07:37.280><c> actually</c><00:07:37.680><c> performed</c><00:07:38.160><c> better</c>
+
+00:07:38.469 --> 00:07:38.479 align:start position:0%
+fusion models actually performed better
+ 
+
+00:07:38.479 --> 00:07:40.950 align:start position:0%
+fusion models actually performed better
+relative<00:07:38.800><c> to</c><00:07:39.039><c> late</c><00:07:39.360><c> fusion,</c><00:07:40.000><c> not</c><00:07:40.240><c> worse.</c><00:07:40.720><c> This</c>
+
+00:07:40.950 --> 00:07:40.960 align:start position:0%
+relative to late fusion, not worse. This
+ 
+
+00:07:40.960 --> 00:07:42.790 align:start position:0%
+relative to late fusion, not worse. This
+completely<00:07:41.440><c> flips</c><00:07:41.759><c> the</c><00:07:42.000><c> intuition</c><00:07:42.479><c> that</c>
+
+00:07:42.790 --> 00:07:42.800 align:start position:0%
+completely flips the intuition that
+ 
+
+00:07:42.800 --> 00:07:44.790 align:start position:0%
+completely flips the intuition that
+specialized<00:07:43.280><c> vision</c><00:07:43.599><c> encoders</c><00:07:44.240><c> would</c><00:07:44.479><c> excel</c>
+
+00:07:44.790 --> 00:07:44.800 align:start position:0%
+specialized vision encoders would excel
+ 
+
+00:07:44.800 --> 00:07:46.790 align:start position:0%
+specialized vision encoders would excel
+at<00:07:45.039><c> high</c><00:07:45.360><c> resolution</c><00:07:45.840><c> image</c><00:07:46.160><c> processing.</c>
+
+00:07:46.790 --> 00:07:46.800 align:start position:0%
+at high resolution image processing.
+ 
+
+00:07:46.800 --> 00:07:49.189 align:start position:0%
+at high resolution image processing.
+Instead,<00:07:47.440><c> a</c><00:07:47.680><c> unified</c><00:07:48.160><c> processing</c><00:07:48.560><c> of</c><00:07:48.800><c> visual</c>
+
+00:07:49.189 --> 00:07:49.199 align:start position:0%
+Instead, a unified processing of visual
+ 
+
+00:07:49.199 --> 00:07:51.350 align:start position:0%
+Instead, a unified processing of visual
+information<00:07:49.919><c> proved</c><00:07:50.400><c> more</c><00:07:50.639><c> effective</c><00:07:51.039><c> than</c>
+
+00:07:51.350 --> 00:07:51.360 align:start position:0%
+information proved more effective than
+ 
+
+00:07:51.360 --> 00:07:53.270 align:start position:0%
+information proved more effective than
+specialized<00:07:52.000><c> components.</c><00:07:52.800><c> On</c><00:07:52.960><c> the</c><00:07:53.120><c> other</c>
+
+00:07:53.270 --> 00:07:53.280 align:start position:0%
+specialized components. On the other
+ 
+
+00:07:53.280 --> 00:07:55.110 align:start position:0%
+specialized components. On the other
+hand,<00:07:53.680><c> high</c><00:07:53.919><c> resolution</c><00:07:54.479><c> images</c><00:07:54.879><c> would</c>
+
+00:07:55.110 --> 00:07:55.120 align:start position:0%
+hand, high resolution images would
+ 
+
+00:07:55.120 --> 00:07:57.189 align:start position:0%
+hand, high resolution images would
+result<00:07:55.440><c> in</c><00:07:55.599><c> a</c><00:07:55.840><c> lot</c><00:07:56.000><c> more</c><00:07:56.240><c> token</c><00:07:56.639><c> use.</c><00:07:57.039><c> So</c>
+
+00:07:57.189 --> 00:07:57.199 align:start position:0%
+result in a lot more token use. So
+ 
+
+00:07:57.199 --> 00:07:59.510 align:start position:0%
+result in a lot more token use. So
+extending<00:07:57.680><c> the</c><00:07:57.840><c> context</c><00:07:58.240><c> window</c><00:07:58.639><c> is</c><00:07:58.960><c> a</c><00:07:59.199><c> pretty</c>
+
+00:07:59.510 --> 00:07:59.520 align:start position:0%
+extending the context window is a pretty
+ 
+
+00:07:59.520 --> 00:08:01.589 align:start position:0%
+extending the context window is a pretty
+important<00:07:59.919><c> goal.</c><00:08:00.400><c> But</c><00:08:00.560><c> this</c><00:08:00.720><c> unified</c><00:08:01.280><c> model</c>
+
+00:08:01.589 --> 00:08:01.599 align:start position:0%
+important goal. But this unified model
+ 
+
+00:08:01.599 --> 00:08:03.909 align:start position:0%
+important goal. But this unified model
+is<00:08:01.840><c> not</c><00:08:02.160><c> completely</c><00:08:02.639><c> omnipotent</c><00:08:03.440><c> either.</c>
+
+00:08:03.909 --> 00:08:03.919 align:start position:0%
+is not completely omnipotent either.
+ 
+
+00:08:03.919 --> 00:08:05.830 align:start position:0%
+is not completely omnipotent either.
+While<00:08:04.319><c> early</c><00:08:04.639><c> fusion</c><00:08:04.960><c> models</c><00:08:05.280><c> are</c><00:08:05.440><c> better</c><00:08:05.680><c> at</c>
+
+00:08:05.830 --> 00:08:05.840 align:start position:0%
+While early fusion models are better at
+ 
+
+00:08:05.840 --> 00:08:08.309 align:start position:0%
+While early fusion models are better at
+heavy<00:08:06.240><c> text</c><00:08:06.560><c> documents</c><00:08:07.199><c> mixed</c><00:08:07.520><c> with</c><00:08:07.759><c> images,</c>
+
+00:08:08.309 --> 00:08:08.319 align:start position:0%
+heavy text documents mixed with images,
+ 
+
+00:08:08.319 --> 00:08:10.150 align:start position:0%
+heavy text documents mixed with images,
+late<00:08:08.560><c> fusion</c><00:08:08.960><c> models</c><00:08:09.280><c> are</c><00:08:09.520><c> still</c><00:08:09.680><c> better</c><00:08:09.919><c> at</c>
+
+00:08:10.150 --> 00:08:10.160 align:start position:0%
+late fusion models are still better at
+ 
+
+00:08:10.160 --> 00:08:12.230 align:start position:0%
+late fusion models are still better at
+tasks<00:08:10.639><c> that</c><00:08:10.960><c> require</c><00:08:11.360><c> training</c><00:08:11.680><c> on</c><00:08:11.919><c> pure</c>
+
+00:08:12.230 --> 00:08:12.240 align:start position:0%
+tasks that require training on pure
+ 
+
+00:08:12.240 --> 00:08:14.230 align:start position:0%
+tasks that require training on pure
+image<00:08:12.560><c> caption</c><00:08:12.960><c> pairs.</c><00:08:13.520><c> So</c><00:08:13.680><c> the</c><00:08:13.840><c> optimal</c>
+
+00:08:14.230 --> 00:08:14.240 align:start position:0%
+image caption pairs. So the optimal
+ 
+
+00:08:14.240 --> 00:08:15.670 align:start position:0%
+image caption pairs. So the optimal
+architecture<00:08:14.720><c> should</c><00:08:14.960><c> still</c><00:08:15.199><c> be</c><00:08:15.360><c> chosen</c>
+
+00:08:15.670 --> 00:08:15.680 align:start position:0%
+architecture should still be chosen
+ 
+
+00:08:15.680 --> 00:08:17.350 align:start position:0%
+architecture should still be chosen
+based<00:08:15.919><c> on</c><00:08:16.080><c> the</c><00:08:16.240><c> specific</c><00:08:16.639><c> use</c><00:08:16.879><c> case</c><00:08:17.120><c> and</c>
+
+00:08:17.350 --> 00:08:17.360 align:start position:0%
+based on the specific use case and
+ 
+
+00:08:17.360 --> 00:08:19.189 align:start position:0%
+based on the specific use case and
+available<00:08:17.840><c> data</c><00:08:18.319><c> rather</c><00:08:18.639><c> than</c><00:08:18.879><c> believing</c>
+
+00:08:19.189 --> 00:08:19.199 align:start position:0%
+available data rather than believing
+ 
+
+00:08:19.199 --> 00:08:21.990 align:start position:0%
+available data rather than believing
+that<00:08:19.440><c> early</c><00:08:19.759><c> fusion</c><00:08:20.160><c> is</c><00:08:20.560><c> oneizefits-all.</c>
+
+00:08:21.990 --> 00:08:22.000 align:start position:0%
+that early fusion is oneizefits-all.
+ 
+
+00:08:22.000 --> 00:08:24.390 align:start position:0%
+that early fusion is oneizefits-all.
+However,<00:08:22.720><c> early</c><00:08:23.039><c> Fusion's</c><00:08:23.520><c> ability</c><00:08:23.840><c> to</c><00:08:24.080><c> learn</c>
+
+00:08:24.390 --> 00:08:24.400 align:start position:0%
+However, early Fusion's ability to learn
+ 
+
+00:08:24.400 --> 00:08:26.950 align:start position:0%
+However, early Fusion's ability to learn
+joint<00:08:24.879><c> representations</c><00:08:25.680><c> from</c><00:08:25.919><c> the</c><00:08:26.160><c> ground</c><00:08:26.400><c> up</c>
+
+00:08:26.950 --> 00:08:26.960 align:start position:0%
+joint representations from the ground up
+ 
+
+00:08:26.960 --> 00:08:28.550 align:start position:0%
+joint representations from the ground up
+consistently<00:08:27.759><c> outperforms</c><00:08:28.400><c> the</c>
+
+00:08:28.550 --> 00:08:28.560 align:start position:0%
+consistently outperforms the
+ 
+
+00:08:28.560 --> 00:08:30.390 align:start position:0%
+consistently outperforms the
+compositional<00:08:29.199><c> approach</c><00:08:29.440><c> of</c><00:08:29.680><c> late</c><00:08:29.919><c> Fusion</c>
+
+00:08:30.390 --> 00:08:30.400 align:start position:0%
+compositional approach of late Fusion
+ 
+
+00:08:30.400 --> 00:08:32.149 align:start position:0%
+compositional approach of late Fusion
+while<00:08:30.720><c> requiring</c><00:08:31.199><c> fewer</c><00:08:31.520><c> computational</c>
+
+00:08:32.149 --> 00:08:32.159 align:start position:0%
+while requiring fewer computational
+ 
+
+00:08:32.159 --> 00:08:34.550 align:start position:0%
+while requiring fewer computational
+resources<00:08:32.880><c> and</c><00:08:33.120><c> have</c><00:08:33.440><c> less</c><00:08:33.839><c> architectural</c>
+
+00:08:34.550 --> 00:08:34.560 align:start position:0%
+resources and have less architectural
+ 
+
+00:08:34.560 --> 00:08:36.870 align:start position:0%
+resources and have less architectural
+complexity.<00:08:35.279><c> So</c><00:08:35.519><c> going</c><00:08:35.839><c> forward,</c><00:08:36.399><c> we</c><00:08:36.640><c> might</c>
+
+00:08:36.870 --> 00:08:36.880 align:start position:0%
+complexity. So going forward, we might
+ 
+
+00:08:36.880 --> 00:08:38.630 align:start position:0%
+complexity. So going forward, we might
+actually<00:08:37.200><c> see</c><00:08:37.360><c> an</c><00:08:37.599><c> open-</c><00:08:37.839><c> source</c><00:08:38.159><c> paradigm</c>
+
+00:08:38.630 --> 00:08:38.640 align:start position:0%
+actually see an open- source paradigm
+ 
+
+00:08:38.640 --> 00:08:41.829 align:start position:0%
+actually see an open- source paradigm
+shift<00:08:38.880><c> towards</c><00:08:39.200><c> native</c><00:08:40.159><c> multimodal</c><00:08:40.880><c> LMS</c><00:08:41.599><c> with</c>
+
+00:08:41.829 --> 00:08:41.839 align:start position:0%
+shift towards native multimodal LMS with
+ 
+
+00:08:41.839 --> 00:08:43.670 align:start position:0%
+shift towards native multimodal LMS with
+late<00:08:42.080><c> fusion</c><00:08:42.640><c> probably</c><00:08:42.880><c> becomes</c><00:08:43.200><c> an</c><00:08:43.360><c> edged</c>
+
+00:08:43.670 --> 00:08:43.680 align:start position:0%
+late fusion probably becomes an edged
+ 
+
+00:08:43.680 --> 00:08:45.509 align:start position:0%
+late fusion probably becomes an edged
+use<00:08:43.919><c> case</c><00:08:44.159><c> where</c><00:08:44.480><c> reusing</c><00:08:44.959><c> pre-trained</c>
+
+00:08:45.509 --> 00:08:45.519 align:start position:0%
+use case where reusing pre-trained
+ 
+
+00:08:45.519 --> 00:08:47.430 align:start position:0%
+use case where reusing pre-trained
+components<00:08:46.000><c> is</c><00:08:46.320><c> required.</c><00:08:46.800><c> I</c><00:08:47.120><c> also</c>
+
+00:08:47.430 --> 00:08:47.440 align:start position:0%
+components is required. I also
+ 
+
+00:08:47.440 --> 00:08:48.790 align:start position:0%
+components is required. I also
+personally<00:08:47.839><c> feel</c><00:08:48.000><c> like</c><00:08:48.160><c> a</c><00:08:48.399><c> unified</c>
+
+00:08:48.790 --> 00:08:48.800 align:start position:0%
+personally feel like a unified
+ 
+
+00:08:48.800 --> 00:08:50.790 align:start position:0%
+personally feel like a unified
+multimodal<00:08:49.600><c> model</c><00:08:49.920><c> makes</c><00:08:50.160><c> the</c><00:08:50.320><c> most</c><00:08:50.560><c> sense</c>
+
+00:08:50.790 --> 00:08:50.800 align:start position:0%
+multimodal model makes the most sense
+ 
+
+00:08:50.800 --> 00:08:52.630 align:start position:0%
+multimodal model makes the most sense
+because<00:08:50.959><c> of</c><00:08:51.200><c> how</c><00:08:51.440><c> much</c><00:08:51.600><c> knowledge</c><00:08:52.000><c> images</c><00:08:52.399><c> can</c>
+
+00:08:52.630 --> 00:08:52.640 align:start position:0%
+because of how much knowledge images can
+ 
+
+00:08:52.640 --> 00:08:54.630 align:start position:0%
+because of how much knowledge images can
+help<00:08:52.880><c> unlock</c><00:08:53.440><c> knowledge.</c><00:08:54.080><c> This</c><00:08:54.320><c> is</c><00:08:54.399><c> also</c>
+
+00:08:54.630 --> 00:08:54.640 align:start position:0%
+help unlock knowledge. This is also
+ 
+
+00:08:54.640 --> 00:08:56.550 align:start position:0%
+help unlock knowledge. This is also
+shown<00:08:54.880><c> in</c><00:08:55.200><c> recent</c><00:08:55.519><c> vision</c><00:08:55.839><c> language</c><00:08:56.240><c> model</c>
+
+00:08:56.550 --> 00:08:56.560 align:start position:0%
+shown in recent vision language model
+ 
+
+00:08:56.560 --> 00:08:58.150 align:start position:0%
+shown in recent vision language model
+research<00:08:57.040><c> where</c><00:08:57.360><c> they</c><00:08:57.519><c> were</c><00:08:57.680><c> able</c><00:08:57.839><c> to</c><00:08:58.000><c> show</c>
+
+00:08:58.150 --> 00:08:58.160 align:start position:0%
+research where they were able to show
+ 
+
+00:08:58.160 --> 00:09:00.150 align:start position:0%
+research where they were able to show
+that<00:08:58.320><c> scaling</c><00:08:58.720><c> to</c><00:08:58.959><c> 100</c><00:08:59.279><c> billion</c><00:08:59.600><c> pre-training</c>
+
+00:09:00.150 --> 00:09:00.160 align:start position:0%
+that scaling to 100 billion pre-training
+ 
+
+00:09:00.160 --> 00:09:02.790 align:start position:0%
+that scaling to 100 billion pre-training
+images<00:09:00.720><c> improved</c><00:09:01.360><c> cultural</c><00:09:01.839><c> and</c><00:09:02.160><c> linguistic</c>
+
+00:09:02.790 --> 00:09:02.800 align:start position:0%
+images improved cultural and linguistic
+ 
+
+00:09:02.800 --> 00:09:04.870 align:start position:0%
+images improved cultural and linguistic
+inclusiveness<00:09:03.519><c> of</c><00:09:03.760><c> models.</c><00:09:04.399><c> The</c><00:09:04.640><c> only</c>
+
+00:09:04.870 --> 00:09:04.880 align:start position:0%
+inclusiveness of models. The only
+ 
+
+00:09:04.880 --> 00:09:06.790 align:start position:0%
+inclusiveness of models. The only
+potential<00:09:05.360><c> complaint</c><00:09:05.760><c> I</c><00:09:06.000><c> would</c><00:09:06.240><c> think</c><00:09:06.399><c> of</c><00:09:06.560><c> of</c>
+
+00:09:06.790 --> 00:09:06.800 align:start position:0%
+potential complaint I would think of of
+ 
+
+00:09:06.800 --> 00:09:09.030 align:start position:0%
+potential complaint I would think of of
+this<00:09:07.040><c> unified</c><00:09:07.600><c> architecture</c><00:09:08.160><c> is</c><00:09:08.399><c> the</c><00:09:08.640><c> use</c><00:09:08.800><c> of</c>
+
+00:09:09.030 --> 00:09:09.040 align:start position:0%
+this unified architecture is the use of
+ 
+
+00:09:09.040 --> 00:09:11.110 align:start position:0%
+this unified architecture is the use of
+image<00:09:09.360><c> tokenizer</c><00:09:10.080><c> because</c><00:09:10.320><c> images</c><00:09:10.800><c> are</c>
+
+00:09:11.110 --> 00:09:11.120 align:start position:0%
+image tokenizer because images are
+ 
+
+00:09:11.120 --> 00:09:13.430 align:start position:0%
+image tokenizer because images are
+continuous<00:09:11.600><c> data</c><00:09:11.920><c> and</c><00:09:12.160><c> tokenizing</c><00:09:12.800><c> them</c><00:09:13.120><c> just</c>
+
+00:09:13.430 --> 00:09:13.440 align:start position:0%
+continuous data and tokenizing them just
+ 
+
+00:09:13.440 --> 00:09:15.670 align:start position:0%
+continuous data and tokenizing them just
+doesn't<00:09:13.839><c> sit</c><00:09:14.160><c> right</c><00:09:14.480><c> to</c><00:09:14.640><c> me.</c><00:09:14.880><c> So</c><00:09:15.120><c> maybe</c><00:09:15.360><c> in</c><00:09:15.519><c> a</c>
+
+00:09:15.670 --> 00:09:15.680 align:start position:0%
+doesn't sit right to me. So maybe in a
+ 
+
+00:09:15.680 --> 00:09:17.910 align:start position:0%
+doesn't sit right to me. So maybe in a
+future<00:09:15.920><c> video</c><00:09:16.240><c> I'll</c><00:09:16.560><c> explore</c><00:09:16.880><c> how</c><00:09:17.120><c> multimodal</c>
+
+00:09:17.910 --> 00:09:17.920 align:start position:0%
+future video I'll explore how multimodal
+ 
+
+00:09:17.920 --> 00:09:20.230 align:start position:0%
+future video I'll explore how multimodal
+diffusion<00:09:18.399><c> LM</c><00:09:18.880><c> might</c><00:09:19.200><c> solve</c><00:09:19.519><c> this</c><00:09:19.760><c> problem.</c>
+
+00:09:20.230 --> 00:09:20.240 align:start position:0%
+diffusion LM might solve this problem.
+ 
+
+00:09:20.240 --> 00:09:22.389 align:start position:0%
+diffusion LM might solve this problem.
+Anyways,<00:09:20.560><c> as</c><00:09:20.880><c> usual,</c><00:09:21.360><c> of</c><00:09:21.519><c> course,</c><00:09:21.760><c> Metaphair</c>
+
+00:09:22.389 --> 00:09:22.399 align:start position:0%
+Anyways, as usual, of course, Metaphair
+ 
+
+00:09:22.399 --> 00:09:24.630 align:start position:0%
+Anyways, as usual, of course, Metaphair
+is<00:09:22.640><c> yet</c><00:09:22.880><c> again</c><00:09:23.279><c> one</c><00:09:23.519><c> year</c><00:09:23.760><c> ahead</c><00:09:24.000><c> of</c><00:09:24.160><c> the</c><00:09:24.320><c> game.</c>
+
+00:09:24.630 --> 00:09:24.640 align:start position:0%
+is yet again one year ahead of the game.
+ 
+
+00:09:24.640 --> 00:09:26.790 align:start position:0%
+is yet again one year ahead of the game.
+The<00:09:24.880><c> development</c><00:09:25.120><c> of</c><00:09:25.360><c> GPD40</c><00:09:26.160><c> and</c><00:09:26.320><c> Gemini</c>
+
+00:09:26.790 --> 00:09:26.800 align:start position:0%
+The development of GPD40 and Gemini
+ 
+
+00:09:26.800 --> 00:09:29.110 align:start position:0%
+The development of GPD40 and Gemini
+might<00:09:27.040><c> have</c><00:09:27.279><c> also</c><00:09:27.600><c> pivoted</c><00:09:28.080><c> into</c><00:09:28.320><c> a</c><00:09:28.560><c> unified</c>
+
+00:09:29.110 --> 00:09:29.120 align:start position:0%
+might have also pivoted into a unified
+ 
+
+00:09:29.120 --> 00:09:31.269 align:start position:0%
+might have also pivoted into a unified
+architecture<00:09:29.680><c> early</c><00:09:30.000><c> on,</c><00:09:30.399><c> and</c><00:09:30.640><c> now</c><00:09:30.800><c> it</c><00:09:31.040><c> feels</c>
+
+00:09:31.269 --> 00:09:31.279 align:start position:0%
+architecture early on, and now it feels
+ 
+
+00:09:31.279 --> 00:09:33.190 align:start position:0%
+architecture early on, and now it feels
+like<00:09:31.440><c> every</c><00:09:31.760><c> other</c><00:09:32.080><c> companies</c><00:09:32.720><c> and</c><00:09:32.880><c> open</c>
+
+00:09:33.190 --> 00:09:33.200 align:start position:0%
+like every other companies and open
+ 
+
+00:09:33.200 --> 00:09:35.190 align:start position:0%
+like every other companies and open
+source<00:09:33.600><c> are</c><00:09:33.839><c> lagging</c><00:09:34.240><c> behind.</c><00:09:34.640><c> Anyways,</c><00:09:35.040><c> if</c>
+
+00:09:35.190 --> 00:09:35.200 align:start position:0%
+source are lagging behind. Anyways, if
+ 
+
+00:09:35.200 --> 00:09:36.630 align:start position:0%
+source are lagging behind. Anyways, if
+you<00:09:35.279><c> like</c><00:09:35.440><c> today's</c><00:09:35.760><c> collection</c><00:09:36.000><c> of</c><00:09:36.160><c> papers,</c><00:09:36.480><c> I</c>
+
+00:09:36.630 --> 00:09:36.640 align:start position:0%
+you like today's collection of papers, I
+ 
+
+00:09:36.640 --> 00:09:38.310 align:start position:0%
+you like today's collection of papers, I
+think<00:09:36.800><c> you</c><00:09:36.959><c> would</c><00:09:37.120><c> also</c><00:09:37.360><c> enjoy</c><00:09:37.680><c> my</c><00:09:37.839><c> newsletter</c>
+
+00:09:38.310 --> 00:09:38.320 align:start position:0%
+think you would also enjoy my newsletter
+ 
+
+00:09:38.320 --> 00:09:39.509 align:start position:0%
+think you would also enjoy my newsletter
+where<00:09:38.480><c> I</c><00:09:38.640><c> cover</c><00:09:38.880><c> the</c><00:09:39.040><c> latest</c><00:09:39.279><c> and</c><00:09:39.440><c> the</c>
+
+00:09:39.509 --> 00:09:39.519 align:start position:0%
+where I cover the latest and the
+ 
+
+00:09:39.519 --> 00:09:41.509 align:start position:0%
+where I cover the latest and the
+juiciest<00:09:40.080><c> research</c><00:09:40.480><c> papers</c><00:09:40.800><c> weekly.</c><00:09:41.279><c> on</c>
+
+00:09:41.509 --> 00:09:41.519 align:start position:0%
+juiciest research papers weekly. on
+ 
+
+00:09:41.519 --> 00:09:43.670 align:start position:0%
+juiciest research papers weekly. on
+there.<00:09:41.839><c> I</c><00:09:42.080><c> cover</c><00:09:42.320><c> new</c><00:09:42.640><c> and</c><00:09:42.880><c> fascinating</c><00:09:43.360><c> AI</c>
+
+00:09:43.670 --> 00:09:43.680 align:start position:0%
+there. I cover new and fascinating AI
+ 
+
+00:09:43.680 --> 00:09:45.350 align:start position:0%
+there. I cover new and fascinating AI
+research<00:09:44.000><c> papers</c><00:09:44.320><c> that</c><00:09:44.480><c> I</c><00:09:44.720><c> might</c><00:09:44.880><c> not</c><00:09:45.120><c> have</c>
+
+00:09:45.350 --> 00:09:45.360 align:start position:0%
+research papers that I might not have
+ 
+
+00:09:45.360 --> 00:09:47.190 align:start position:0%
+research papers that I might not have
+time<00:09:45.519><c> to</c><00:09:45.680><c> make</c><00:09:45.920><c> into</c><00:09:46.240><c> videos.</c><00:09:46.640><c> So</c><00:09:46.800><c> if</c><00:09:46.959><c> that's</c>
+
+00:09:47.190 --> 00:09:47.200 align:start position:0%
+time to make into videos. So if that's
+ 
+
+00:09:47.200 --> 00:09:48.870 align:start position:0%
+time to make into videos. So if that's
+your<00:09:47.360><c> cup</c><00:09:47.600><c> of</c><00:09:47.760><c> tea,</c><00:09:48.080><c> definitely</c><00:09:48.320><c> go</c><00:09:48.560><c> check</c><00:09:48.720><c> it</c>
+
+00:09:48.870 --> 00:09:48.880 align:start position:0%
+your cup of tea, definitely go check it
+ 
+
+00:09:48.880 --> 00:09:50.710 align:start position:0%
+your cup of tea, definitely go check it
+out.<00:09:49.200><c> And</c><00:09:49.440><c> thank</c><00:09:49.519><c> you</c><00:09:49.680><c> guys</c><00:09:49.839><c> for</c><00:09:50.080><c> watching.</c><00:09:50.480><c> A</c>
+
+00:09:50.710 --> 00:09:50.720 align:start position:0%
+out. And thank you guys for watching. A
+ 
+
+00:09:50.720 --> 00:09:53.269 align:start position:0%
+out. And thank you guys for watching. A
+big<00:09:50.959><c> shout</c><00:09:51.120><c> out</c><00:09:51.279><c> to</c><00:09:51.519><c> Andrew</c><00:09:52.160><c> Chellas,</c><00:09:53.040><c> Chris</c>
+
+00:09:53.269 --> 00:09:53.279 align:start position:0%
+big shout out to Andrew Chellas, Chris
+ 
+
+00:09:53.279 --> 00:09:58.389 align:start position:0%
+big shout out to Andrew Chellas, Chris
+Leoo,<00:09:54.399><c> Degan</c><00:09:55.519><c> News</c><00:09:55.920><c> Research,</c><00:09:56.959><c> Kanan,</c><00:09:58.000><c> Robert</c>
+
+00:09:58.389 --> 00:09:58.399 align:start position:0%
+Leoo, Degan News Research, Kanan, Robert
+ 
+
+00:09:58.399 --> 00:10:02.710 align:start position:0%
+Leoo, Degan News Research, Kanan, Robert
+Zaviasa,<00:09:59.680><c> Leis</c><00:10:00.080><c> Muk,</c><00:10:00.880><c> Ben</c><00:10:01.200><c> Shainer,</c><00:10:02.080><c> Marcelo,</c>
+
+00:10:02.710 --> 00:10:02.720 align:start position:0%
+Zaviasa, Leis Muk, Ben Shainer, Marcelo,
+ 
+
+00:10:02.720 --> 00:10:06.630 align:start position:0%
+Zaviasa, Leis Muk, Ben Shainer, Marcelo,
+Ferraria,<00:10:03.839><c> Zane,</c><00:10:04.240><c> Sheep,</c><00:10:04.959><c> Poof,</c><00:10:05.279><c> and</c><00:10:05.519><c> Enu,</c><00:10:06.160><c> DX</c>
+
+00:10:06.630 --> 00:10:06.640 align:start position:0%
+Ferraria, Zane, Sheep, Poof, and Enu, DX
+ 
+
+00:10:06.640 --> 00:10:08.389 align:start position:0%
+Ferraria, Zane, Sheep, Poof, and Enu, DX
+Research<00:10:07.040><c> Group,</c><00:10:07.440><c> and</c><00:10:07.680><c> many</c><00:10:07.920><c> others</c><00:10:08.160><c> that</c>
+
+00:10:08.389 --> 00:10:08.399 align:start position:0%
+Research Group, and many others that
+ 
+
+00:10:08.399 --> 00:10:10.070 align:start position:0%
+Research Group, and many others that
+support<00:10:08.560><c> me</c><00:10:08.720><c> through</c><00:10:08.959><c> Patreon</c><00:10:09.360><c> or</c><00:10:09.519><c> YouTube.</c>
+
+00:10:10.070 --> 00:10:10.080 align:start position:0%
+support me through Patreon or YouTube.
+ 
+
+00:10:10.080 --> 00:10:11.600 align:start position:0%
+support me through Patreon or YouTube.
+Follow<00:10:10.240><c> me</c><00:10:10.399><c> on</c><00:10:10.560><c> Twitter</c><00:10:10.720><c> if</c><00:10:10.880><c> you</c><00:10:11.040><c> haven't.</c>
+
+00:10:11.600 --> 00:10:11.610 align:start position:0%
+Follow me on Twitter if you haven't.
+ 
+
+00:10:11.610 --> 00:10:14.659 align:start position:0%
+Follow me on Twitter if you haven't.
+[Music]
+

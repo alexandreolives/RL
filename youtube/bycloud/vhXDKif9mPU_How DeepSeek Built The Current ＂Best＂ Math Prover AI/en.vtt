@@ -1,0 +1,2568 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.080 --> 00:00:02.550 align:start position:0%
+ 
+While<00:00:00.320><c> major</c><00:00:00.640><c> AI</c><00:00:01.040><c> labs</c><00:00:01.360><c> are</c><00:00:01.600><c> busy</c><00:00:01.839><c> minmaxing</c>
+
+00:00:02.550 --> 00:00:02.560 align:start position:0%
+While major AI labs are busy minmaxing
+ 
+
+00:00:02.560 --> 00:00:04.550 align:start position:0%
+While major AI labs are busy minmaxing
+user<00:00:02.960><c> experience,</c><00:00:03.679><c> Deepseek</c><00:00:04.240><c> has</c><00:00:04.400><c> just</c>
+
+00:00:04.550 --> 00:00:04.560 align:start position:0%
+user experience, Deepseek has just
+ 
+
+00:00:04.560 --> 00:00:06.550 align:start position:0%
+user experience, Deepseek has just
+published<00:00:04.880><c> a</c><00:00:05.120><c> version</c><00:00:05.440><c> two</c><00:00:05.600><c> of</c><00:00:05.839><c> their</c><00:00:06.000><c> R1</c>
+
+00:00:06.550 --> 00:00:06.560 align:start position:0%
+published a version two of their R1
+ 
+
+00:00:06.560 --> 00:00:08.390 align:start position:0%
+published a version two of their R1
+model<00:00:06.960><c> and</c><00:00:07.200><c> published</c><00:00:07.520><c> the</c><00:00:07.680><c> best</c><00:00:08.000><c> math</c>
+
+00:00:08.390 --> 00:00:08.400 align:start position:0%
+model and published the best math
+ 
+
+00:00:08.400 --> 00:00:10.390 align:start position:0%
+model and published the best math
+proving<00:00:08.880><c> model</c><00:00:09.200><c> a</c><00:00:09.440><c> few</c><00:00:09.599><c> weeks</c><00:00:09.760><c> ago</c><00:00:10.160><c> which</c>
+
+00:00:10.390 --> 00:00:10.400 align:start position:0%
+proving model a few weeks ago which
+ 
+
+00:00:10.400 --> 00:00:12.470 align:start position:0%
+proving model a few weeks ago which
+outperforms<00:00:11.120><c> all</c><00:00:11.360><c> other</c><00:00:11.679><c> closed</c><00:00:12.000><c> and</c><00:00:12.160><c> open</c>
+
+00:00:12.470 --> 00:00:12.480 align:start position:0%
+outperforms all other closed and open
+ 
+
+00:00:12.480 --> 00:00:15.030 align:start position:0%
+outperforms all other closed and open
+source<00:00:12.719><c> models</c><00:00:13.200><c> called</c><00:00:13.440><c> Deepseek</c><00:00:14.080><c> Prover</c><00:00:14.559><c> V2.</c>
+
+00:00:15.030 --> 00:00:15.040 align:start position:0%
+source models called Deepseek Prover V2.
+ 
+
+00:00:15.040 --> 00:00:16.790 align:start position:0%
+source models called Deepseek Prover V2.
+And<00:00:15.280><c> today</c><00:00:15.440><c> we</c><00:00:15.679><c> are</c><00:00:15.839><c> going</c><00:00:15.920><c> to</c><00:00:16.080><c> focus</c><00:00:16.400><c> more</c><00:00:16.560><c> on</c>
+
+00:00:16.790 --> 00:00:16.800 align:start position:0%
+And today we are going to focus more on
+ 
+
+00:00:16.800 --> 00:00:18.870 align:start position:0%
+And today we are going to focus more on
+this<00:00:17.039><c> prover</c><00:00:17.520><c> model</c><00:00:18.000><c> because</c><00:00:18.160><c> it</c><00:00:18.400><c> came</c><00:00:18.560><c> along</c>
+
+00:00:18.870 --> 00:00:18.880 align:start position:0%
+this prover model because it came along
+ 
+
+00:00:18.880 --> 00:00:20.790 align:start position:0%
+this prover model because it came along
+with<00:00:19.039><c> this</c><00:00:19.279><c> new</c><00:00:19.520><c> research</c><00:00:19.840><c> paper</c><00:00:20.240><c> sharing</c><00:00:20.560><c> how</c>
+
+00:00:20.790 --> 00:00:20.800 align:start position:0%
+with this new research paper sharing how
+ 
+
+00:00:20.800 --> 00:00:22.070 align:start position:0%
+with this new research paper sharing how
+they<00:00:20.960><c> figured</c><00:00:21.199><c> out</c><00:00:21.359><c> a</c><00:00:21.600><c> pipeline</c><00:00:21.920><c> to</c>
+
+00:00:22.070 --> 00:00:22.080 align:start position:0%
+they figured out a pipeline to
+ 
+
+00:00:22.080 --> 00:00:24.150 align:start position:0%
+they figured out a pipeline to
+synthesize<00:00:22.560><c> a</c><00:00:22.720><c> data</c><00:00:22.960><c> set</c><00:00:23.199><c> which</c><00:00:23.439><c> can</c><00:00:23.680><c> create</c><00:00:24.000><c> a</c>
+
+00:00:24.150 --> 00:00:24.160 align:start position:0%
+synthesize a data set which can create a
+ 
+
+00:00:24.160 --> 00:00:25.750 align:start position:0%
+synthesize a data set which can create a
+state-of-the-art<00:00:24.880><c> reasoning</c><00:00:25.279><c> model</c><00:00:25.519><c> that</c>
+
+00:00:25.750 --> 00:00:25.760 align:start position:0%
+state-of-the-art reasoning model that
+ 
+
+00:00:25.760 --> 00:00:27.990 align:start position:0%
+state-of-the-art reasoning model that
+can<00:00:25.920><c> prove</c><00:00:26.240><c> theorems</c><00:00:26.800><c> extremely</c><00:00:27.359><c> rigorously.</c>
+
+00:00:27.990 --> 00:00:28.000 align:start position:0%
+can prove theorems extremely rigorously.
+ 
+
+00:00:28.000 --> 00:00:29.910 align:start position:0%
+can prove theorems extremely rigorously.
+To<00:00:28.240><c> put</c><00:00:28.320><c> it</c><00:00:28.480><c> in</c><00:00:28.640><c> perspective,</c><00:00:29.199><c> on</c><00:00:29.439><c> a</c><00:00:29.599><c> formal</c>
+
+00:00:29.910 --> 00:00:29.920 align:start position:0%
+To put it in perspective, on a formal
+ 
+
+00:00:29.920 --> 00:00:31.669 align:start position:0%
+To put it in perspective, on a formal
+mathematical<00:00:30.560><c> reasoning</c><00:00:31.039><c> benchmark</c><00:00:31.519><c> called</c>
+
+00:00:31.669 --> 00:00:31.679 align:start position:0%
+mathematical reasoning benchmark called
+ 
+
+00:00:31.679 --> 00:00:33.350 align:start position:0%
+mathematical reasoning benchmark called
+the<00:00:31.840><c> Putnham</c><00:00:32.320><c> bench,</c><00:00:32.800><c> which</c><00:00:33.040><c> has</c><00:00:33.200><c> a</c>
+
+00:00:33.350 --> 00:00:33.360 align:start position:0%
+the Putnham bench, which has a
+ 
+
+00:00:33.360 --> 00:00:35.750 align:start position:0%
+the Putnham bench, which has a
+collection<00:00:33.760><c> of</c><00:00:34.040><c> 657</c><00:00:35.040><c> questions</c><00:00:35.440><c> from</c><00:00:35.600><c> the</c>
+
+00:00:35.750 --> 00:00:35.760 align:start position:0%
+collection of 657 questions from the
+ 
+
+00:00:35.760 --> 00:00:37.830 align:start position:0%
+collection of 657 questions from the
+Putnham<00:00:36.320><c> mathematical</c><00:00:36.960><c> competition,</c><00:00:37.680><c> which</c>
+
+00:00:37.830 --> 00:00:37.840 align:start position:0%
+Putnham mathematical competition, which
+ 
+
+00:00:37.840 --> 00:00:39.670 align:start position:0%
+Putnham mathematical competition, which
+is<00:00:38.000><c> known</c><00:00:38.239><c> for</c><00:00:38.399><c> its</c><00:00:38.640><c> conceptual</c><00:00:39.120><c> depth</c><00:00:39.440><c> and</c>
+
+00:00:39.670 --> 00:00:39.680 align:start position:0%
+is known for its conceptual depth and
+ 
+
+00:00:39.680 --> 00:00:41.350 align:start position:0%
+is known for its conceptual depth and
+extreme<00:00:40.079><c> difficulty.</c><00:00:40.879><c> The</c><00:00:41.040><c> previous</c>
+
+00:00:41.350 --> 00:00:41.360 align:start position:0%
+extreme difficulty. The previous
+ 
+
+00:00:41.360 --> 00:00:43.190 align:start position:0%
+extreme difficulty. The previous
+state-of-the-art<00:00:42.079><c> model</c><00:00:42.320><c> is</c><00:00:42.559><c> only</c><00:00:42.800><c> able</c><00:00:43.040><c> to</c>
+
+00:00:43.190 --> 00:00:43.200 align:start position:0%
+state-of-the-art model is only able to
+ 
+
+00:00:43.200 --> 00:00:46.549 align:start position:0%
+state-of-the-art model is only able to
+solve<00:00:43.440><c> 10</c><00:00:43.760><c> questions</c><00:00:44.239><c> when</c><00:00:44.600><c> given</c><00:00:45.600><c> 192</c><00:00:46.079><c> tries</c>
+
+00:00:46.549 --> 00:00:46.559 align:start position:0%
+solve 10 questions when given 192 tries
+ 
+
+00:00:46.559 --> 00:00:49.190 align:start position:0%
+solve 10 questions when given 192 tries
+with<00:00:46.879><c> 04</c><00:00:47.360><c> Mini</c><00:00:47.760><c> High</c><00:00:48.000><c> only</c><00:00:48.239><c> able</c><00:00:48.480><c> to</c><00:00:48.640><c> solve</c><00:00:48.879><c> two</c>
+
+00:00:49.190 --> 00:00:49.200 align:start position:0%
+with 04 Mini High only able to solve two
+ 
+
+00:00:49.200 --> 00:00:51.830 align:start position:0%
+with 04 Mini High only able to solve two
+questions<00:00:49.680><c> and</c><00:00:49.920><c> Gemini</c><00:00:50.399><c> 2.5</c><00:00:50.960><c> Pro</c><00:00:51.360><c> solving</c>
+
+00:00:51.830 --> 00:00:51.840 align:start position:0%
+questions and Gemini 2.5 Pro solving
+ 
+
+00:00:51.840 --> 00:00:53.830 align:start position:0%
+questions and Gemini 2.5 Pro solving
+merely<00:00:52.399><c> three</c><00:00:52.719><c> on</c><00:00:52.879><c> their</c><00:00:53.120><c> first</c><00:00:53.280><c> try.</c><00:00:53.680><c> But</c>
+
+00:00:53.830 --> 00:00:53.840 align:start position:0%
+merely three on their first try. But
+ 
+
+00:00:53.840 --> 00:00:56.869 align:start position:0%
+merely three on their first try. But
+Deep<00:00:54.079><c> Seek</c><00:00:54.320><c> Prover</c><00:00:54.879><c> is</c><00:00:55.199><c> able</c><00:00:55.440><c> to</c><00:00:55.680><c> solve</c><00:00:56.160><c> 49</c>
+
+00:00:56.869 --> 00:00:56.879 align:start position:0%
+Deep Seek Prover is able to solve 49
+ 
+
+00:00:56.879 --> 00:00:58.869 align:start position:0%
+Deep Seek Prover is able to solve 49
+questions<00:00:57.280><c> in</c><00:00:57.520><c> total,</c><00:00:57.840><c> which</c><00:00:58.079><c> is</c><00:00:58.239><c> nearly</c><00:00:58.640><c> five</c>
+
+00:00:58.869 --> 00:00:58.879 align:start position:0%
+questions in total, which is nearly five
+ 
+
+00:00:58.879 --> 00:01:00.069 align:start position:0%
+questions in total, which is nearly five
+times<00:00:59.199><c> more</c><00:00:59.440><c> than</c><00:00:59.600><c> the</c><00:00:59.840><c> previous</c>
+
+00:01:00.069 --> 00:01:00.079 align:start position:0%
+times more than the previous
+ 
+
+00:01:00.079 --> 00:01:03.149 align:start position:0%
+times more than the previous
+state-of-the-art.<00:01:00.879><c> While</c><00:01:01.199><c> it</c><00:01:01.520><c> might</c><00:01:01.760><c> be</c><00:01:02.079><c> past</c>
+
+00:01:03.149 --> 00:01:03.159 align:start position:0%
+state-of-the-art. While it might be past
+ 
+
+00:01:03.159 --> 00:01:05.990 align:start position:0%
+state-of-the-art. While it might be past
+1,024,<00:01:04.159><c> which</c><00:01:04.400><c> is</c><00:01:04.720><c> basically</c><00:01:05.199><c> retrying</c><00:01:05.680><c> for</c>
+
+00:01:05.990 --> 00:01:06.000 align:start position:0%
+1,024, which is basically retrying for
+ 
+
+00:01:06.000 --> 00:01:08.230 align:start position:0%
+1,024, which is basically retrying for
+1,024<00:01:06.880><c> times,</c><00:01:07.439><c> it</c><00:01:07.600><c> is</c><00:01:07.760><c> still</c><00:01:07.840><c> a</c><00:01:08.080><c> huge</c>
+
+00:01:08.230 --> 00:01:08.240 align:start position:0%
+1,024 times, it is still a huge
+ 
+
+00:01:08.240 --> 00:01:09.990 align:start position:0%
+1,024 times, it is still a huge
+achievement<00:01:08.799><c> as</c><00:01:09.040><c> there</c><00:01:09.280><c> are</c><00:01:09.439><c> also</c><00:01:09.760><c> other</c>
+
+00:01:09.990 --> 00:01:10.000 align:start position:0%
+achievement as there are also other
+ 
+
+00:01:10.000 --> 00:01:11.750 align:start position:0%
+achievement as there are also other
+models<00:01:10.400><c> that</c><00:01:10.560><c> have</c><00:01:10.720><c> attempted</c><00:01:11.280><c> more</c><00:01:11.520><c> than</c>
+
+00:01:11.750 --> 00:01:11.760 align:start position:0%
+models that have attempted more than
+ 
+
+00:01:11.760 --> 00:01:14.070 align:start position:0%
+models that have attempted more than
+1,000<00:01:12.400><c> times</c><00:01:12.799><c> yet</c><00:01:13.040><c> cannot</c><00:01:13.360><c> surpass</c><00:01:13.760><c> the</c>
+
+00:01:14.070 --> 00:01:14.080 align:start position:0%
+1,000 times yet cannot surpass the
+ 
+
+00:01:14.080 --> 00:01:15.910 align:start position:0%
+1,000 times yet cannot surpass the
+one-digit<00:01:14.560><c> score.</c><00:01:14.960><c> So,</c><00:01:15.119><c> in</c><00:01:15.280><c> today's</c><00:01:15.600><c> video,</c>
+
+00:01:15.910 --> 00:01:15.920 align:start position:0%
+one-digit score. So, in today's video,
+ 
+
+00:01:15.920 --> 00:01:17.830 align:start position:0%
+one-digit score. So, in today's video,
+we<00:01:16.159><c> will</c><00:01:16.400><c> dive</c><00:01:16.560><c> into</c><00:01:16.799><c> the</c><00:01:16.960><c> methods</c><00:01:17.360><c> of</c><00:01:17.600><c> how</c>
+
+00:01:17.830 --> 00:01:17.840 align:start position:0%
+we will dive into the methods of how
+ 
+
+00:01:17.840 --> 00:01:19.910 align:start position:0%
+we will dive into the methods of how
+they<00:01:18.080><c> made</c><00:01:18.320><c> it</c><00:01:18.479><c> work</c><00:01:18.799><c> and</c><00:01:19.040><c> what</c><00:01:19.280><c> it</c><00:01:19.520><c> could</c><00:01:19.680><c> mean</c>
+
+00:01:19.910 --> 00:01:19.920 align:start position:0%
+they made it work and what it could mean
+ 
+
+00:01:19.920 --> 00:01:22.149 align:start position:0%
+they made it work and what it could mean
+for<00:01:20.240><c> reasoning</c><00:01:20.720><c> in</c><00:01:20.960><c> the</c><00:01:21.119><c> domain</c><00:01:21.439><c> of</c><00:01:21.600><c> math.</c><00:01:22.000><c> But</c>
+
+00:01:22.149 --> 00:01:22.159 align:start position:0%
+for reasoning in the domain of math. But
+ 
+
+00:01:22.159 --> 00:01:23.830 align:start position:0%
+for reasoning in the domain of math. But
+before<00:01:22.320><c> we</c><00:01:22.479><c> dive</c><00:01:22.720><c> into</c><00:01:22.880><c> it,</c><00:01:23.200><c> with</c><00:01:23.439><c> data</c>
+
+00:01:23.830 --> 00:01:23.840 align:start position:0%
+before we dive into it, with data
+ 
+
+00:01:23.840 --> 00:01:26.230 align:start position:0%
+before we dive into it, with data
+brokers,<00:01:24.400><c> IP</c><00:01:24.799><c> restriction,</c><00:01:25.360><c> and</c><00:01:25.600><c> geob</c><00:01:25.920><c> blocks</c>
+
+00:01:26.230 --> 00:01:26.240 align:start position:0%
+brokers, IP restriction, and geob blocks
+ 
+
+00:01:26.240 --> 00:01:27.990 align:start position:0%
+brokers, IP restriction, and geob blocks
+becoming<00:01:26.640><c> more</c><00:01:26.799><c> and</c><00:01:27.040><c> more</c><00:01:27.280><c> common,</c><00:01:27.759><c> a</c>
+
+00:01:27.990 --> 00:01:28.000 align:start position:0%
+becoming more and more common, a
+ 
+
+00:01:28.000 --> 00:01:30.550 align:start position:0%
+becoming more and more common, a
+reliable<00:01:28.479><c> VPN</c><00:01:28.960><c> is</c><00:01:29.200><c> no</c><00:01:29.439><c> longer</c><00:01:29.840><c> a</c><00:01:30.080><c> nice</c><00:01:30.320><c> to</c>
+
+00:01:30.550 --> 00:01:30.560 align:start position:0%
+reliable VPN is no longer a nice to
+ 
+
+00:01:30.560 --> 00:01:32.069 align:start position:0%
+reliable VPN is no longer a nice to
+have,<00:01:30.799><c> but</c><00:01:31.119><c> something</c><00:01:31.520><c> essential</c><00:01:31.840><c> to</c>
+
+00:01:32.069 --> 00:01:32.079 align:start position:0%
+have, but something essential to
+ 
+
+00:01:32.079 --> 00:01:33.590 align:start position:0%
+have, but something essential to
+navigate<00:01:32.479><c> the</c><00:01:32.799><c> internet.</c><00:01:33.119><c> That's</c><00:01:33.280><c> why</c><00:01:33.439><c> I'd</c>
+
+00:01:33.590 --> 00:01:33.600 align:start position:0%
+navigate the internet. That's why I'd
+ 
+
+00:01:33.600 --> 00:01:35.590 align:start position:0%
+navigate the internet. That's why I'd
+like<00:01:33.680><c> to</c><00:01:33.840><c> introduce</c><00:01:34.159><c> you</c><00:01:34.320><c> to</c><00:01:34.600><c> ProtonVPN.</c>
+
+00:01:35.590 --> 00:01:35.600 align:start position:0%
+like to introduce you to ProtonVPN.
+ 
+
+00:01:35.600 --> 00:01:37.429 align:start position:0%
+like to introduce you to ProtonVPN.
+Proton<00:01:36.000><c> was</c><00:01:36.159><c> born</c><00:01:36.320><c> in</c><00:01:36.560><c> Switzerland</c><00:01:37.040><c> back</c><00:01:37.280><c> in</c>
+
+00:01:37.429 --> 00:01:37.439 align:start position:0%
+Proton was born in Switzerland back in
+ 
+
+00:01:37.439 --> 00:01:39.510 align:start position:0%
+Proton was born in Switzerland back in
+2014<00:01:37.920><c> when</c><00:01:38.159><c> a</c><00:01:38.320><c> group</c><00:01:38.479><c> of</c><00:01:38.640><c> scientists</c><00:01:39.119><c> sets</c><00:01:39.360><c> out</c>
+
+00:01:39.510 --> 00:01:39.520 align:start position:0%
+2014 when a group of scientists sets out
+ 
+
+00:01:39.520 --> 00:01:41.590 align:start position:0%
+2014 when a group of scientists sets out
+to<00:01:39.680><c> build</c><00:01:39.920><c> an</c><00:01:40.240><c> internet</c><00:01:40.560><c> where</c><00:01:40.880><c> privacy</c><00:01:41.360><c> is</c>
+
+00:01:41.590 --> 00:01:41.600 align:start position:0%
+to build an internet where privacy is
+ 
+
+00:01:41.600 --> 00:01:43.670 align:start position:0%
+to build an internet where privacy is
+the<00:01:41.759><c> default.</c><00:01:42.240><c> And</c><00:01:42.400><c> fast</c><00:01:42.640><c> forward</c><00:01:42.880><c> to</c><00:01:43.119><c> today,</c>
+
+00:01:43.670 --> 00:01:43.680 align:start position:0%
+the default. And fast forward to today,
+ 
+
+00:01:43.680 --> 00:01:45.590 align:start position:0%
+the default. And fast forward to today,
+more<00:01:43.920><c> than</c><00:01:44.159><c> 100</c><00:01:44.479><c> million</c><00:01:44.799><c> people</c><00:01:45.200><c> trust</c><00:01:45.439><c> the</c>
+
+00:01:45.590 --> 00:01:45.600 align:start position:0%
+more than 100 million people trust the
+ 
+
+00:01:45.600 --> 00:01:47.670 align:start position:0%
+more than 100 million people trust the
+Proton<00:01:46.159><c> ecosystem.</c><00:01:46.880><c> With</c><00:01:47.119><c> them</c><00:01:47.360><c> being</c>
+
+00:01:47.670 --> 00:01:47.680 align:start position:0%
+Proton ecosystem. With them being
+ 
+
+00:01:47.680 --> 00:01:49.670 align:start position:0%
+Proton ecosystem. With them being
+completely<00:01:48.159><c> public</c><00:01:48.560><c> funded</c><00:01:48.880><c> and</c><00:01:49.200><c> having</c><00:01:49.439><c> no</c>
+
+00:01:49.670 --> 00:01:49.680 align:start position:0%
+completely public funded and having no
+ 
+
+00:01:49.680 --> 00:01:51.590 align:start position:0%
+completely public funded and having no
+VC<00:01:50.079><c> behind,</c><00:01:50.640><c> this</c><00:01:50.799><c> lets</c><00:01:51.040><c> them</c><00:01:51.280><c> completely</c>
+
+00:01:51.590 --> 00:01:51.600 align:start position:0%
+VC behind, this lets them completely
+ 
+
+00:01:51.600 --> 00:01:53.910 align:start position:0%
+VC behind, this lets them completely
+lock<00:01:51.840><c> in</c><00:01:52.079><c> their</c><00:01:52.240><c> goal</c><00:01:52.479><c> of</c><00:01:52.720><c> privacy</c><00:01:53.200><c> first.</c><00:01:53.759><c> But</c>
+
+00:01:53.910 --> 00:01:53.920 align:start position:0%
+lock in their goal of privacy first. But
+ 
+
+00:01:53.920 --> 00:01:56.310 align:start position:0%
+lock in their goal of privacy first. But
+why<00:01:54.200><c> ProtonVPN?</c><00:01:55.200><c> They</c><00:01:55.439><c> have</c><00:01:55.600><c> speed</c><00:01:56.000><c> without</c>
+
+00:01:56.310 --> 00:01:56.320 align:start position:0%
+why ProtonVPN? They have speed without
+ 
+
+00:01:56.320 --> 00:01:58.709 align:start position:0%
+why ProtonVPN? They have speed without
+compromise.<00:01:56.960><c> 10</c><00:01:57.200><c> GB</c><00:01:57.680><c> per</c><00:01:57.920><c> second</c><00:01:58.240><c> servers</c>
+
+00:01:58.709 --> 00:01:58.719 align:start position:0%
+compromise. 10 GB per second servers
+ 
+
+00:01:58.719 --> 00:02:01.270 align:start position:0%
+compromise. 10 GB per second servers
+across<00:01:59.119><c> 110</c><00:01:59.759><c> countries,</c><00:02:00.240><c> plus</c><00:02:00.479><c> their</c><00:02:00.799><c> VPN</c>
+
+00:02:01.270 --> 00:02:01.280 align:start position:0%
+across 110 countries, plus their VPN
+ 
+
+00:02:01.280 --> 00:02:03.109 align:start position:0%
+across 110 countries, plus their VPN
+accelerator<00:02:01.920><c> tech</c><00:02:02.159><c> that</c><00:02:02.320><c> can</c><00:02:02.479><c> boost</c><00:02:02.799><c> speeds</c>
+
+00:02:03.109 --> 00:02:03.119 align:start position:0%
+accelerator tech that can boost speeds
+ 
+
+00:02:03.119 --> 00:02:05.990 align:start position:0%
+accelerator tech that can boost speeds
+up<00:02:03.360><c> to</c><00:02:03.520><c> 400%.</c><00:02:04.479><c> So</c><00:02:04.640><c> 4K</c><00:02:05.119><c> streaming</c><00:02:05.520><c> and</c><00:02:05.759><c> cloud</c>
+
+00:02:05.990 --> 00:02:06.000 align:start position:0%
+up to 400%. So 4K streaming and cloud
+ 
+
+00:02:06.000 --> 00:02:08.309 align:start position:0%
+up to 400%. So 4K streaming and cloud
+gaming<00:02:06.399><c> feel</c><00:02:06.640><c> native.</c><00:02:07.200><c> They</c><00:02:07.439><c> are</c><00:02:07.600><c> also</c><00:02:07.920><c> truly</c>
+
+00:02:08.309 --> 00:02:08.319 align:start position:0%
+gaming feel native. They are also truly
+ 
+
+00:02:08.319 --> 00:02:10.790 align:start position:0%
+gaming feel native. They are also truly
+private<00:02:08.800><c> with</c><00:02:09.039><c> no</c><00:02:09.360><c> logs</c><00:02:09.759><c> policy,</c><00:02:10.479><c> Swiss</c>
+
+00:02:10.790 --> 00:02:10.800 align:start position:0%
+private with no logs policy, Swiss
+ 
+
+00:02:10.800 --> 00:02:12.949 align:start position:0%
+private with no logs policy, Swiss
+privacy<00:02:11.280><c> laws,</c><00:02:11.680><c> and</c><00:02:11.920><c> fully</c><00:02:12.239><c> open</c><00:02:12.480><c> source</c><00:02:12.720><c> code</c>
+
+00:02:12.949 --> 00:02:12.959 align:start position:0%
+privacy laws, and fully open source code
+ 
+
+00:02:12.959 --> 00:02:15.190 align:start position:0%
+privacy laws, and fully open source code
+that<00:02:13.200><c> anyone</c><00:02:13.520><c> can</c><00:02:13.760><c> inspect.</c><00:02:14.480><c> Their</c><00:02:14.800><c> service</c>
+
+00:02:15.190 --> 00:02:15.200 align:start position:0%
+that anyone can inspect. Their service
+ 
+
+00:02:15.200 --> 00:02:17.270 align:start position:0%
+that anyone can inspect. Their service
+can<00:02:15.440><c> easily</c><00:02:15.760><c> put</c><00:02:16.000><c> your</c><00:02:16.160><c> mind</c><00:02:16.319><c> to</c><00:02:16.480><c> ease</c><00:02:16.800><c> with</c><00:02:17.040><c> an</c>
+
+00:02:17.270 --> 00:02:17.280 align:start position:0%
+can easily put your mind to ease with an
+ 
+
+00:02:17.280 --> 00:02:19.190 align:start position:0%
+can easily put your mind to ease with an
+addition<00:02:17.520><c> of</c><00:02:17.680><c> Net</c><00:02:18.000><c> Shield</c><00:02:18.319><c> ad</c><00:02:18.560><c> and</c><00:02:18.720><c> tracker</c>
+
+00:02:19.190 --> 00:02:19.200 align:start position:0%
+addition of Net Shield ad and tracker
+ 
+
+00:02:19.200 --> 00:02:21.270 align:start position:0%
+addition of Net Shield ad and tracker
+blocker<00:02:19.760><c> so</c><00:02:19.920><c> you</c><00:02:20.080><c> can</c><00:02:20.239><c> browse,</c><00:02:20.720><c> shop,</c><00:02:21.040><c> and</c>
+
+00:02:21.270 --> 00:02:21.280 align:start position:0%
+blocker so you can browse, shop, and
+ 
+
+00:02:21.280 --> 00:02:23.510 align:start position:0%
+blocker so you can browse, shop, and
+stream<00:02:21.599><c> without</c><00:02:21.920><c> creepy</c><00:02:22.319><c> retargeting</c><00:02:22.959><c> ads</c><00:02:23.280><c> or</c>
+
+00:02:23.510 --> 00:02:23.520 align:start position:0%
+stream without creepy retargeting ads or
+ 
+
+00:02:23.520 --> 00:02:25.830 align:start position:0%
+stream without creepy retargeting ads or
+popups.<00:02:24.160><c> ProtonVPN</c><00:02:24.959><c> works</c><00:02:25.280><c> everywhere,</c>
+
+00:02:25.830 --> 00:02:25.840 align:start position:0%
+popups. ProtonVPN works everywhere,
+ 
+
+00:02:25.840 --> 00:02:27.430 align:start position:0%
+popups. ProtonVPN works everywhere,
+ranging<00:02:26.239><c> from</c><00:02:26.480><c> your</c><00:02:26.720><c> favorite</c><00:02:27.040><c> streaming</c>
+
+00:02:27.430 --> 00:02:27.440 align:start position:0%
+ranging from your favorite streaming
+ 
+
+00:02:27.440 --> 00:02:29.589 align:start position:0%
+ranging from your favorite streaming
+services<00:02:27.920><c> and</c><00:02:28.160><c> supports</c><00:02:28.560><c> torrenting</c><00:02:29.280><c> even</c><00:02:29.440><c> if</c>
+
+00:02:29.589 --> 00:02:29.599 align:start position:0%
+services and supports torrenting even if
+ 
+
+00:02:29.599 --> 00:02:31.430 align:start position:0%
+services and supports torrenting even if
+your<00:02:29.760><c> ISP</c><00:02:30.319><c> blocks</c><00:02:30.560><c> it.</c><00:02:30.800><c> What's</c><00:02:31.040><c> even</c><00:02:31.200><c> better</c>
+
+00:02:31.430 --> 00:02:31.440 align:start position:0%
+your ISP blocks it. What's even better
+ 
+
+00:02:31.440 --> 00:02:33.509 align:start position:0%
+your ISP blocks it. What's even better
+is<00:02:31.599><c> that</c><00:02:31.840><c> with</c><00:02:32.080><c> one</c><00:02:32.400><c> subscription,</c><00:02:33.120><c> you</c><00:02:33.360><c> will</c>
+
+00:02:33.509 --> 00:02:33.519 align:start position:0%
+is that with one subscription, you will
+ 
+
+00:02:33.519 --> 00:02:35.430 align:start position:0%
+is that with one subscription, you will
+receive<00:02:33.840><c> a</c><00:02:34.000><c> full</c><00:02:34.239><c> ecosystem</c><00:02:34.800><c> with</c><00:02:35.120><c> vault</c>
+
+00:02:35.430 --> 00:02:35.440 align:start position:0%
+receive a full ecosystem with vault
+ 
+
+00:02:35.440 --> 00:02:37.910 align:start position:0%
+receive a full ecosystem with vault
+level<00:02:35.840><c> email,</c><00:02:36.319><c> cloud</c><00:02:36.720><c> storage,</c><00:02:37.200><c> and</c><00:02:37.440><c> password</c>
+
+00:02:37.910 --> 00:02:37.920 align:start position:0%
+level email, cloud storage, and password
+ 
+
+00:02:37.920 --> 00:02:39.830 align:start position:0%
+level email, cloud storage, and password
+manager<00:02:38.480><c> with</c><00:02:38.640><c> the</c><00:02:38.800><c> plan</c><00:02:39.120><c> starting</c><00:02:39.360><c> at</c><00:02:39.599><c> just</c>
+
+00:02:39.830 --> 00:02:39.840 align:start position:0%
+manager with the plan starting at just
+ 
+
+00:02:39.840 --> 00:02:42.550 align:start position:0%
+manager with the plan starting at just
+$3.99<00:02:40.560><c> a</c><00:02:40.800><c> month</c><00:02:41.040><c> with</c><00:02:41.280><c> a</c><00:02:41.440><c> robust</c><00:02:41.840><c> free</c><00:02:42.080><c> tier</c><00:02:42.400><c> so</c>
+
+00:02:42.550 --> 00:02:42.560 align:start position:0%
+$3.99 a month with a robust free tier so
+ 
+
+00:02:42.560 --> 00:02:43.990 align:start position:0%
+$3.99 a month with a robust free tier so
+you<00:02:42.640><c> can</c><00:02:42.720><c> try</c><00:02:42.959><c> before</c><00:02:43.200><c> you</c><00:02:43.360><c> buy.</c><00:02:43.680><c> So,</c><00:02:43.840><c> if</c>
+
+00:02:43.990 --> 00:02:44.000 align:start position:0%
+you can try before you buy. So, if
+ 
+
+00:02:44.000 --> 00:02:45.430 align:start position:0%
+you can try before you buy. So, if
+you're<00:02:44.160><c> ready</c><00:02:44.319><c> to</c><00:02:44.480><c> get</c><00:02:44.640><c> control</c><00:02:44.879><c> of</c><00:02:45.040><c> your</c><00:02:45.280><c> own</c>
+
+00:02:45.430 --> 00:02:45.440 align:start position:0%
+you're ready to get control of your own
+ 
+
+00:02:45.440 --> 00:02:47.350 align:start position:0%
+you're ready to get control of your own
+internet,<00:02:45.920><c> check</c><00:02:46.080><c> out</c><00:02:46.239><c> ProtonVPN</c><00:02:47.120><c> with</c><00:02:47.200><c> the</c>
+
+00:02:47.350 --> 00:02:47.360 align:start position:0%
+internet, check out ProtonVPN with the
+ 
+
+00:02:47.360 --> 00:02:48.710 align:start position:0%
+internet, check out ProtonVPN with the
+link<00:02:47.519><c> down</c><00:02:47.680><c> in</c><00:02:47.840><c> the</c><00:02:47.920><c> description</c><00:02:48.239><c> to</c><00:02:48.480><c> start</c>
+
+00:02:48.710 --> 00:02:48.720 align:start position:0%
+link down in the description to start
+ 
+
+00:02:48.720 --> 00:02:50.229 align:start position:0%
+link down in the description to start
+protecting<00:02:49.040><c> your</c><00:02:49.280><c> connection</c><00:02:49.680><c> today.</c><00:02:50.080><c> And</c>
+
+00:02:50.229 --> 00:02:50.239 align:start position:0%
+protecting your connection today. And
+ 
+
+00:02:50.239 --> 00:02:52.150 align:start position:0%
+protecting your connection today. And
+thank<00:02:50.400><c> you</c><00:02:50.560><c> ProtonVPN</c><00:02:51.360><c> for</c><00:02:51.519><c> sponsoring</c><00:02:51.920><c> this</c>
+
+00:02:52.150 --> 00:02:52.160 align:start position:0%
+thank you ProtonVPN for sponsoring this
+ 
+
+00:02:52.160 --> 00:02:53.910 align:start position:0%
+thank you ProtonVPN for sponsoring this
+video.<00:02:52.480><c> Anyways,</c><00:02:52.959><c> we</c><00:02:53.120><c> have</c><00:02:53.280><c> already</c><00:02:53.599><c> passed</c>
+
+00:02:53.910 --> 00:02:53.920 align:start position:0%
+video. Anyways, we have already passed
+ 
+
+00:02:53.920 --> 00:02:56.070 align:start position:0%
+video. Anyways, we have already passed
+the<00:02:54.080><c> stage</c><00:02:54.319><c> of</c><00:02:54.560><c> improving</c><00:02:55.120><c> reasoning</c><00:02:55.599><c> models</c>
+
+00:02:56.070 --> 00:02:56.080 align:start position:0%
+the stage of improving reasoning models
+ 
+
+00:02:56.080 --> 00:02:58.309 align:start position:0%
+the stage of improving reasoning models
+with<00:02:56.480><c> vibes.</c><00:02:57.280><c> Like,</c><00:02:57.440><c> we</c><00:02:57.680><c> can't</c><00:02:57.840><c> really</c><00:02:58.080><c> train</c>
+
+00:02:58.309 --> 00:02:58.319 align:start position:0%
+with vibes. Like, we can't really train
+ 
+
+00:02:58.319 --> 00:03:00.309 align:start position:0%
+with vibes. Like, we can't really train
+anything<00:02:58.720><c> systematically</c><00:02:59.519><c> when</c><00:02:59.840><c> all</c><00:03:00.080><c> our</c>
+
+00:03:00.309 --> 00:03:00.319 align:start position:0%
+anything systematically when all our
+ 
+
+00:03:00.319 --> 00:03:03.350 align:start position:0%
+anything systematically when all our
+criteria<00:03:00.879><c> is</c><00:03:01.200><c> just</c><00:03:01.360><c> an</c><00:03:01.599><c> ambiguous</c><00:03:02.560><c> solve</c><00:03:02.959><c> this</c>
+
+00:03:03.350 --> 00:03:03.360 align:start position:0%
+criteria is just an ambiguous solve this
+ 
+
+00:03:03.360 --> 00:03:05.670 align:start position:0%
+criteria is just an ambiguous solve this
+step<00:03:03.680><c> by</c><00:03:03.840><c> step.</c><00:03:04.319><c> Like,</c><00:03:04.640><c> how</c><00:03:04.879><c> much</c><00:03:05.040><c> of</c><00:03:05.200><c> a</c><00:03:05.360><c> step?</c>
+
+00:03:05.670 --> 00:03:05.680 align:start position:0%
+step by step. Like, how much of a step?
+ 
+
+00:03:05.680 --> 00:03:07.110 align:start position:0%
+step by step. Like, how much of a step?
+How<00:03:05.840><c> do</c><00:03:05.920><c> you</c><00:03:06.000><c> know</c><00:03:06.159><c> if</c><00:03:06.319><c> something</c><00:03:06.560><c> is</c><00:03:06.800><c> broken</c>
+
+00:03:07.110 --> 00:03:07.120 align:start position:0%
+How do you know if something is broken
+ 
+
+00:03:07.120 --> 00:03:09.190 align:start position:0%
+How do you know if something is broken
+down<00:03:07.280><c> too</c><00:03:07.519><c> much</c><00:03:07.599><c> or</c><00:03:07.920><c> not</c><00:03:08.159><c> broken</c><00:03:08.480><c> down</c><00:03:08.720><c> enough?</c>
+
+00:03:09.190 --> 00:03:09.200 align:start position:0%
+down too much or not broken down enough?
+ 
+
+00:03:09.200 --> 00:03:10.949 align:start position:0%
+down too much or not broken down enough?
+And<00:03:09.360><c> it's</c><00:03:09.519><c> not</c><00:03:09.680><c> like</c><00:03:09.760><c> the</c><00:03:10.000><c> models</c><00:03:10.400><c> really</c><00:03:10.720><c> do</c>
+
+00:03:10.949 --> 00:03:10.959 align:start position:0%
+And it's not like the models really do
+ 
+
+00:03:10.959 --> 00:03:12.869 align:start position:0%
+And it's not like the models really do
+need<00:03:11.120><c> to</c><00:03:11.280><c> solve</c><00:03:11.599><c> questions</c><00:03:12.080><c> step</c><00:03:12.400><c> by</c><00:03:12.640><c> step</c>
+
+00:03:12.869 --> 00:03:12.879 align:start position:0%
+need to solve questions step by step
+ 
+
+00:03:12.879 --> 00:03:14.710 align:start position:0%
+need to solve questions step by step
+either.<00:03:13.360><c> They</c><00:03:13.519><c> pretty</c><00:03:13.760><c> much</c><00:03:13.840><c> just</c><00:03:14.080><c> predict</c><00:03:14.400><c> an</c>
+
+00:03:14.710 --> 00:03:14.720 align:start position:0%
+either. They pretty much just predict an
+ 
+
+00:03:14.720 --> 00:03:16.710 align:start position:0%
+either. They pretty much just predict an
+answer<00:03:14.959><c> when</c><00:03:15.280><c> there</c><00:03:15.440><c> is</c><00:03:15.680><c> enough</c><00:03:16.080><c> information.</c>
+
+00:03:16.710 --> 00:03:16.720 align:start position:0%
+answer when there is enough information.
+ 
+
+00:03:16.720 --> 00:03:17.990 align:start position:0%
+answer when there is enough information.
+You<00:03:16.879><c> can</c><00:03:16.959><c> watch</c><00:03:17.120><c> this</c><00:03:17.360><c> video</c><00:03:17.519><c> if</c><00:03:17.680><c> you</c><00:03:17.840><c> want</c><00:03:17.920><c> to</c>
+
+00:03:17.990 --> 00:03:18.000 align:start position:0%
+You can watch this video if you want to
+ 
+
+00:03:18.000 --> 00:03:19.990 align:start position:0%
+You can watch this video if you want to
+know<00:03:18.159><c> more.</c><00:03:18.480><c> On</c><00:03:18.720><c> top</c><00:03:18.879><c> of</c><00:03:18.959><c> that,</c><00:03:19.360><c> some</c><00:03:19.680><c> steps</c>
+
+00:03:19.990 --> 00:03:20.000 align:start position:0%
+know more. On top of that, some steps
+ 
+
+00:03:20.000 --> 00:03:21.990 align:start position:0%
+know more. On top of that, some steps
+are<00:03:20.239><c> also</c><00:03:20.560><c> completely</c><00:03:21.040><c> trivial.</c><00:03:21.599><c> Like</c><00:03:21.760><c> what's</c>
+
+00:03:21.990 --> 00:03:22.000 align:start position:0%
+are also completely trivial. Like what's
+ 
+
+00:03:22.000 --> 00:03:23.830 align:start position:0%
+are also completely trivial. Like what's
+even<00:03:22.159><c> the</c><00:03:22.319><c> point</c><00:03:22.480><c> of</c><00:03:22.640><c> you</c><00:03:22.879><c> telling</c><00:03:23.120><c> me</c><00:03:23.440><c> 1</c><00:03:23.599><c> plus</c>
+
+00:03:23.830 --> 00:03:23.840 align:start position:0%
+even the point of you telling me 1 plus
+ 
+
+00:03:23.840 --> 00:03:26.070 align:start position:0%
+even the point of you telling me 1 plus
+1<00:03:24.080><c> equals</c><00:03:24.400><c> 2</c><00:03:24.640><c> when</c><00:03:24.879><c> solving</c><00:03:25.200><c> a</c><00:03:25.519><c> calculus</c>
+
+00:03:26.070 --> 00:03:26.080 align:start position:0%
+1 equals 2 when solving a calculus
+ 
+
+00:03:26.080 --> 00:03:27.750 align:start position:0%
+1 equals 2 when solving a calculus
+question<00:03:26.400><c> per</c><00:03:26.560><c> se.</c><00:03:26.800><c> So</c><00:03:27.040><c> maybe</c><00:03:27.200><c> we</c><00:03:27.440><c> need</c><00:03:27.519><c> a</c>
+
+00:03:27.750 --> 00:03:27.760 align:start position:0%
+question per se. So maybe we need a
+ 
+
+00:03:27.760 --> 00:03:29.589 align:start position:0%
+question per se. So maybe we need a
+change<00:03:28.000><c> of</c><00:03:28.239><c> perspective</c><00:03:28.879><c> instead</c><00:03:29.200><c> of</c><00:03:29.360><c> trying</c>
+
+00:03:29.589 --> 00:03:29.599 align:start position:0%
+change of perspective instead of trying
+ 
+
+00:03:29.599 --> 00:03:31.750 align:start position:0%
+change of perspective instead of trying
+to<00:03:29.760><c> figure</c><00:03:30.080><c> out</c><00:03:30.400><c> what's</c><00:03:30.720><c> the</c><00:03:30.879><c> lowest</c><00:03:31.200><c> unit</c><00:03:31.519><c> of</c>
+
+00:03:31.750 --> 00:03:31.760 align:start position:0%
+to figure out what's the lowest unit of
+ 
+
+00:03:31.760 --> 00:03:34.229 align:start position:0%
+to figure out what's the lowest unit of
+reasoning<00:03:32.319><c> is.</c><00:03:32.959><c> What</c><00:03:33.200><c> if</c><00:03:33.360><c> we</c><00:03:33.519><c> flip</c><00:03:33.920><c> our</c>
+
+00:03:34.229 --> 00:03:34.239 align:start position:0%
+reasoning is. What if we flip our
+ 
+
+00:03:34.239 --> 00:03:36.229 align:start position:0%
+reasoning is. What if we flip our
+approach<00:03:34.640><c> and</c><00:03:34.879><c> mark</c><00:03:35.200><c> what</c><00:03:35.360><c> a</c><00:03:35.599><c> model</c><00:03:35.840><c> cannot</c>
+
+00:03:36.229 --> 00:03:36.239 align:start position:0%
+approach and mark what a model cannot
+ 
+
+00:03:36.239 --> 00:03:38.309 align:start position:0%
+approach and mark what a model cannot
+solve.<00:03:36.720><c> This</c><00:03:36.959><c> brings</c><00:03:37.200><c> us</c><00:03:37.360><c> to</c><00:03:37.519><c> how</c><00:03:37.840><c> researchers</c>
+
+00:03:38.309 --> 00:03:38.319 align:start position:0%
+solve. This brings us to how researchers
+ 
+
+00:03:38.319 --> 00:03:40.550 align:start position:0%
+solve. This brings us to how researchers
+at<00:03:38.560><c> Deep</c><00:03:38.879><c> Seek</c><00:03:39.120><c> trained</c><00:03:39.440><c> Deep</c><00:03:39.840><c> Seek</c><00:03:40.080><c> Prover</c>
+
+00:03:40.550 --> 00:03:40.560 align:start position:0%
+at Deep Seek trained Deep Seek Prover
+ 
+
+00:03:40.560 --> 00:03:43.030 align:start position:0%
+at Deep Seek trained Deep Seek Prover
+V2,<00:03:41.040><c> which</c><00:03:41.280><c> is</c><00:03:41.440><c> built</c><00:03:41.680><c> for</c><00:03:42.000><c> theorem</c><00:03:42.560><c> proving.</c>
+
+00:03:43.030 --> 00:03:43.040 align:start position:0%
+V2, which is built for theorem proving.
+ 
+
+00:03:43.040 --> 00:03:44.789 align:start position:0%
+V2, which is built for theorem proving.
+Theorem<00:03:43.360><c> proving</c><00:03:43.760><c> is</c><00:03:43.920><c> hard.</c><00:03:44.319><c> It's</c><00:03:44.480><c> not</c><00:03:44.640><c> just</c>
+
+00:03:44.789 --> 00:03:44.799 align:start position:0%
+Theorem proving is hard. It's not just
+ 
+
+00:03:44.799 --> 00:03:46.630 align:start position:0%
+Theorem proving is hard. It's not just
+about<00:03:45.040><c> solving</c><00:03:45.440><c> math</c><00:03:45.760><c> questions.</c><00:03:46.400><c> It's</c>
+
+00:03:46.630 --> 00:03:46.640 align:start position:0%
+about solving math questions. It's
+ 
+
+00:03:46.640 --> 00:03:48.390 align:start position:0%
+about solving math questions. It's
+actually<00:03:46.879><c> about</c><00:03:47.200><c> constructing</c><00:03:47.840><c> airtight</c>
+
+00:03:48.390 --> 00:03:48.400 align:start position:0%
+actually about constructing airtight
+ 
+
+00:03:48.400 --> 00:03:51.190 align:start position:0%
+actually about constructing airtight
+logical<00:03:48.879><c> arguments</c><00:03:49.599><c> step</c><00:03:49.920><c> by</c><00:03:50.159><c> step</c><00:03:50.560><c> with</c><00:03:50.879><c> no</c>
+
+00:03:51.190 --> 00:03:51.200 align:start position:0%
+logical arguments step by step with no
+ 
+
+00:03:51.200 --> 00:03:53.589 align:start position:0%
+logical arguments step by step with no
+room<00:03:51.440><c> for</c><00:03:51.760><c> error</c><00:03:52.159><c> in</c><00:03:52.400><c> order</c><00:03:52.560><c> to</c><00:03:52.720><c> prove</c><00:03:53.040><c> an</c><00:03:53.280><c> idea</c>
+
+00:03:53.589 --> 00:03:53.599 align:start position:0%
+room for error in order to prove an idea
+ 
+
+00:03:53.599 --> 00:03:55.509 align:start position:0%
+room for error in order to prove an idea
+is<00:03:53.920><c> connected</c><00:03:54.239><c> to</c><00:03:54.400><c> the</c><00:03:54.640><c> other.</c><00:03:55.040><c> So,</c><00:03:55.200><c> it</c><00:03:55.360><c> not</c>
+
+00:03:55.509 --> 00:03:55.519 align:start position:0%
+is connected to the other. So, it not
+ 
+
+00:03:55.519 --> 00:03:57.110 align:start position:0%
+is connected to the other. So, it not
+only<00:03:55.760><c> requires</c><00:03:56.159><c> deep</c><00:03:56.480><c> mathematical</c>
+
+00:03:57.110 --> 00:03:57.120 align:start position:0%
+only requires deep mathematical
+ 
+
+00:03:57.120 --> 00:03:59.030 align:start position:0%
+only requires deep mathematical
+understanding,<00:03:57.680><c> but</c><00:03:57.920><c> also</c><00:03:58.159><c> the</c><00:03:58.480><c> ability</c><00:03:58.799><c> to</c>
+
+00:03:59.030 --> 00:03:59.040 align:start position:0%
+understanding, but also the ability to
+ 
+
+00:03:59.040 --> 00:04:01.030 align:start position:0%
+understanding, but also the ability to
+express<00:03:59.439><c> logical</c><00:03:59.840><c> reasoning</c><00:04:00.239><c> in</c><00:04:00.480><c> a</c><00:04:00.640><c> highly</c>
+
+00:04:01.030 --> 00:04:01.040 align:start position:0%
+express logical reasoning in a highly
+ 
+
+00:04:01.040 --> 00:04:02.830 align:start position:0%
+express logical reasoning in a highly
+structured<00:04:01.519><c> syntax.</c><00:04:02.159><c> And</c><00:04:02.319><c> to</c><00:04:02.480><c> do</c><00:04:02.560><c> it</c>
+
+00:04:02.830 --> 00:04:02.840 align:start position:0%
+structured syntax. And to do it
+ 
+
+00:04:02.840 --> 00:04:04.869 align:start position:0%
+structured syntax. And to do it
+systematically,<00:04:03.840><c> theorem</c><00:04:04.239><c> proving</c><00:04:04.560><c> can</c><00:04:04.799><c> be</c>
+
+00:04:04.869 --> 00:04:04.879 align:start position:0%
+systematically, theorem proving can be
+ 
+
+00:04:04.879 --> 00:04:06.309 align:start position:0%
+systematically, theorem proving can be
+done<00:04:05.040><c> through</c><00:04:05.360><c> a</c><00:04:05.599><c> programming</c><00:04:06.000><c> language</c>
+
+00:04:06.309 --> 00:04:06.319 align:start position:0%
+done through a programming language
+ 
+
+00:04:06.319 --> 00:04:08.470 align:start position:0%
+done through a programming language
+called<00:04:06.560><c> the</c><00:04:06.720><c> lean</c><00:04:07.040><c> 4</c><00:04:07.360><c> that</c><00:04:07.599><c> is</c><00:04:07.680><c> able</c><00:04:07.920><c> to</c><00:04:08.000><c> verify</c>
+
+00:04:08.470 --> 00:04:08.480 align:start position:0%
+called the lean 4 that is able to verify
+ 
+
+00:04:08.480 --> 00:04:10.229 align:start position:0%
+called the lean 4 that is able to verify
+math<00:04:08.799><c> statements</c><00:04:09.200><c> and</c><00:04:09.519><c> make</c><00:04:09.680><c> sure</c><00:04:09.840><c> all</c><00:04:10.000><c> the</c>
+
+00:04:10.229 --> 00:04:10.239 align:start position:0%
+math statements and make sure all the
+ 
+
+00:04:10.239 --> 00:04:11.910 align:start position:0%
+math statements and make sure all the
+statements<00:04:10.560><c> are</c><00:04:10.720><c> rigorously</c><00:04:11.360><c> defined.</c><00:04:11.840><c> They</c>
+
+00:04:11.910 --> 00:04:11.920 align:start position:0%
+statements are rigorously defined. They
+ 
+
+00:04:11.920 --> 00:04:13.429 align:start position:0%
+statements are rigorously defined. They
+are<00:04:12.080><c> then</c><00:04:12.239><c> able</c><00:04:12.480><c> to</c><00:04:12.560><c> build</c><00:04:12.799><c> this</c><00:04:12.959><c> insane</c>
+
+00:04:13.429 --> 00:04:13.439 align:start position:0%
+are then able to build this insane
+ 
+
+00:04:13.439 --> 00:04:15.350 align:start position:0%
+are then able to build this insane
+synthetic<00:04:13.920><c> data</c><00:04:14.239><c> set</c><00:04:14.400><c> through</c><00:04:14.640><c> a</c><00:04:14.799><c> recursive</c>
+
+00:04:15.350 --> 00:04:15.360 align:start position:0%
+synthetic data set through a recursive
+ 
+
+00:04:15.360 --> 00:04:17.590 align:start position:0%
+synthetic data set through a recursive
+pipeline<00:04:15.760><c> using</c><00:04:16.079><c> lean</c><00:04:16.560><c> 4</c><00:04:16.720><c> with</c><00:04:16.880><c> a</c><00:04:17.120><c> two</c><00:04:17.359><c> model</c>
+
+00:04:17.590 --> 00:04:17.600 align:start position:0%
+pipeline using lean 4 with a two model
+ 
+
+00:04:17.600 --> 00:04:19.990 align:start position:0%
+pipeline using lean 4 with a two model
+setup.<00:04:18.079><c> We</c><00:04:18.239><c> all</c><00:04:18.479><c> know</c><00:04:18.639><c> now</c><00:04:18.799><c> that</c><00:04:19.120><c> LMS</c><00:04:19.759><c> have</c>
+
+00:04:19.990 --> 00:04:20.000 align:start position:0%
+setup. We all know now that LMS have
+ 
+
+00:04:20.000 --> 00:04:21.909 align:start position:0%
+setup. We all know now that LMS have
+pretty<00:04:20.239><c> good</c><00:04:20.400><c> reasoning</c><00:04:20.880><c> capabilities,</c><00:04:21.680><c> but</c>
+
+00:04:21.909 --> 00:04:21.919 align:start position:0%
+pretty good reasoning capabilities, but
+ 
+
+00:04:21.919 --> 00:04:24.390 align:start position:0%
+pretty good reasoning capabilities, but
+they<00:04:22.240><c> often</c><00:04:22.639><c> rely</c><00:04:22.960><c> on</c><00:04:23.280><c> heristics</c><00:04:23.919><c> that</c><00:04:24.240><c> don't</c>
+
+00:04:24.390 --> 00:04:24.400 align:start position:0%
+they often rely on heristics that don't
+ 
+
+00:04:24.400 --> 00:04:26.070 align:start position:0%
+they often rely on heristics that don't
+align<00:04:24.800><c> well</c><00:04:25.040><c> with</c><00:04:25.199><c> the</c><00:04:25.360><c> strict</c><00:04:25.680><c> logical</c>
+
+00:04:26.070 --> 00:04:26.080 align:start position:0%
+align well with the strict logical
+ 
+
+00:04:26.080 --> 00:04:28.390 align:start position:0%
+align well with the strict logical
+requirements<00:04:26.639><c> of</c><00:04:26.800><c> formal</c><00:04:27.280><c> proof</c><00:04:27.680><c> systems.</c><00:04:28.240><c> So</c>
+
+00:04:28.390 --> 00:04:28.400 align:start position:0%
+requirements of formal proof systems. So
+ 
+
+00:04:28.400 --> 00:04:30.070 align:start position:0%
+requirements of formal proof systems. So
+Deep<00:04:28.639><c> Seek</c><00:04:28.960><c> researchers</c><00:04:29.360><c> set</c><00:04:29.600><c> it</c><00:04:29.759><c> up</c><00:04:29.919><c> with</c>
+
+00:04:30.070 --> 00:04:30.080 align:start position:0%
+Deep Seek researchers set it up with
+ 
+
+00:04:30.080 --> 00:04:31.990 align:start position:0%
+Deep Seek researchers set it up with
+something<00:04:30.320><c> like</c><00:04:30.560><c> this.</c><00:04:30.880><c> A</c><00:04:31.120><c> large</c><00:04:31.440><c> generalist</c>
+
+00:04:31.990 --> 00:04:32.000 align:start position:0%
+something like this. A large generalist
+ 
+
+00:04:32.000 --> 00:04:34.550 align:start position:0%
+something like this. A large generalist
+LLM,<00:04:32.639><c> in</c><00:04:32.800><c> this</c><00:04:32.960><c> case</c><00:04:33.199><c> Deep</c><00:04:33.440><c> Seeek</c><00:04:33.759><c> V3,</c><00:04:34.320><c> writes</c>
+
+00:04:34.550 --> 00:04:34.560 align:start position:0%
+LLM, in this case Deep Seeek V3, writes
+ 
+
+00:04:34.560 --> 00:04:36.629 align:start position:0%
+LLM, in this case Deep Seeek V3, writes
+a<00:04:34.800><c> sketch</c><00:04:35.040><c> of</c><00:04:35.199><c> a</c><00:04:35.360><c> proof</c><00:04:35.600><c> outline</c><00:04:36.000><c> in</c><00:04:36.240><c> natural</c>
+
+00:04:36.629 --> 00:04:36.639 align:start position:0%
+a sketch of a proof outline in natural
+ 
+
+00:04:36.639 --> 00:04:38.469 align:start position:0%
+a sketch of a proof outline in natural
+language.<00:04:37.280><c> This</c><00:04:37.440><c> initial</c><00:04:37.840><c> step</c><00:04:38.080><c> includes</c>
+
+00:04:38.469 --> 00:04:38.479 align:start position:0%
+language. This initial step includes
+ 
+
+00:04:38.479 --> 00:04:40.790 align:start position:0%
+language. This initial step includes
+having<00:04:38.720><c> Deepseek</c><00:04:39.280><c> V3</c><00:04:39.680><c> decompose</c><00:04:40.320><c> a</c><00:04:40.560><c> very</c>
+
+00:04:40.790 --> 00:04:40.800 align:start position:0%
+having Deepseek V3 decompose a very
+ 
+
+00:04:40.800 --> 00:04:42.950 align:start position:0%
+having Deepseek V3 decompose a very
+complex<00:04:41.199><c> theorem</c><00:04:41.680><c> into</c><00:04:42.000><c> a</c><00:04:42.240><c> series</c><00:04:42.479><c> of</c><00:04:42.639><c> sub</c>
+
+00:04:42.950 --> 00:04:42.960 align:start position:0%
+complex theorem into a series of sub
+ 
+
+00:04:42.960 --> 00:04:45.110 align:start position:0%
+complex theorem into a series of sub
+goals<00:04:43.199><c> of</c><00:04:43.440><c> smaller</c><00:04:43.840><c> theorems</c><00:04:44.400><c> and</c><00:04:44.560><c> generate</c><00:04:44.880><c> a</c>
+
+00:04:45.110 --> 00:04:45.120 align:start position:0%
+goals of smaller theorems and generate a
+ 
+
+00:04:45.120 --> 00:04:47.670 align:start position:0%
+goals of smaller theorems and generate a
+skeleton<00:04:45.600><c> template</c><00:04:46.160><c> with</c><00:04:46.400><c> holes</c><00:04:46.800><c> marked</c><00:04:47.120><c> with</c>
+
+00:04:47.670 --> 00:04:47.680 align:start position:0%
+skeleton template with holes marked with
+ 
+
+00:04:47.680 --> 00:04:50.310 align:start position:0%
+skeleton template with holes marked with
+sorry.<00:04:48.240><c> Then</c><00:04:48.479><c> a</c><00:04:48.639><c> smaller</c><00:04:48.960><c> 7B</c><00:04:49.440><c> prover</c><00:04:49.919><c> model</c>
+
+00:04:50.310 --> 00:04:50.320 align:start position:0%
+sorry. Then a smaller 7B prover model
+ 
+
+00:04:50.320 --> 00:04:52.550 align:start position:0%
+sorry. Then a smaller 7B prover model
+pre-trained<00:04:50.960><c> specifically</c><00:04:51.440><c> on</c><00:04:51.759><c> lean</c><00:04:52.160><c> 4</c><00:04:52.400><c> and</c>
+
+00:04:52.550 --> 00:04:52.560 align:start position:0%
+pre-trained specifically on lean 4 and
+ 
+
+00:04:52.560 --> 00:04:54.629 align:start position:0%
+pre-trained specifically on lean 4 and
+math<00:04:52.880><c> data</c><00:04:53.280><c> is</c><00:04:53.520><c> then</c><00:04:53.759><c> used</c><00:04:53.919><c> to</c><00:04:54.160><c> fill</c><00:04:54.400><c> these</c>
+
+00:04:54.629 --> 00:04:54.639 align:start position:0%
+math data is then used to fill these
+ 
+
+00:04:54.639 --> 00:04:56.950 align:start position:0%
+math data is then used to fill these
+holes.<00:04:55.040><c> But</c><00:04:55.199><c> what</c><00:04:55.360><c> if</c><00:04:55.520><c> a</c><00:04:55.680><c> 7B</c><00:04:56.160><c> prover</c><00:04:56.639><c> cannot</c>
+
+00:04:56.950 --> 00:04:56.960 align:start position:0%
+holes. But what if a 7B prover cannot
+ 
+
+00:04:56.960 --> 00:04:58.950 align:start position:0%
+holes. But what if a 7B prover cannot
+solve<00:04:57.280><c> one</c><00:04:57.520><c> of</c><00:04:57.600><c> the</c><00:04:57.759><c> sub</c><00:04:58.000><c> goals?</c><00:04:58.479><c> Well,</c><00:04:58.720><c> that</c>
+
+00:04:58.950 --> 00:04:58.960 align:start position:0%
+solve one of the sub goals? Well, that
+ 
+
+00:04:58.960 --> 00:05:00.790 align:start position:0%
+solve one of the sub goals? Well, that
+sub<00:04:59.199><c> goal</c><00:04:59.520><c> would</c><00:04:59.680><c> then</c><00:04:59.919><c> be</c><00:05:00.080><c> broken</c><00:05:00.320><c> down</c><00:05:00.479><c> into</c>
+
+00:05:00.790 --> 00:05:00.800 align:start position:0%
+sub goal would then be broken down into
+ 
+
+00:05:00.800 --> 00:05:02.870 align:start position:0%
+sub goal would then be broken down into
+another<00:05:01.120><c> collection</c><00:05:01.440><c> of</c><00:05:01.680><c> subpros</c><00:05:02.400><c> to</c><00:05:02.639><c> make</c><00:05:02.720><c> it</c>
+
+00:05:02.870 --> 00:05:02.880 align:start position:0%
+another collection of subpros to make it
+ 
+
+00:05:02.880 --> 00:05:05.030 align:start position:0%
+another collection of subpros to make it
+easier<00:05:03.199><c> to</c><00:05:03.360><c> process.</c><00:05:03.919><c> And</c><00:05:04.080><c> if</c><00:05:04.320><c> one</c><00:05:04.479><c> of</c><00:05:04.560><c> the</c><00:05:04.720><c> sub</c>
+
+00:05:05.030 --> 00:05:05.040 align:start position:0%
+easier to process. And if one of the sub
+ 
+
+00:05:05.040 --> 00:05:07.270 align:start position:0%
+easier to process. And if one of the sub
+problems<00:05:05.440><c> is</c><00:05:05.680><c> too</c><00:05:05.919><c> hard,</c><00:05:06.400><c> it</c><00:05:06.560><c> will</c><00:05:06.720><c> again</c><00:05:07.039><c> be</c>
+
+00:05:07.270 --> 00:05:07.280 align:start position:0%
+problems is too hard, it will again be
+ 
+
+00:05:07.280 --> 00:05:09.029 align:start position:0%
+problems is too hard, it will again be
+broken<00:05:07.600><c> down</c><00:05:07.759><c> into</c><00:05:08.080><c> another</c><00:05:08.400><c> collection</c><00:05:08.800><c> of</c>
+
+00:05:09.029 --> 00:05:09.039 align:start position:0%
+broken down into another collection of
+ 
+
+00:05:09.039 --> 00:05:10.950 align:start position:0%
+broken down into another collection of
+sub<00:05:09.360><c> problems.</c><00:05:09.840><c> What's</c><00:05:10.160><c> even</c><00:05:10.320><c> nicer</c><00:05:10.639><c> is</c><00:05:10.800><c> that</c>
+
+00:05:10.950 --> 00:05:10.960 align:start position:0%
+sub problems. What's even nicer is that
+ 
+
+00:05:10.960 --> 00:05:13.029 align:start position:0%
+sub problems. What's even nicer is that
+math<00:05:11.280><c> proofs</c><00:05:11.680><c> are</c><00:05:12.000><c> also</c><00:05:12.240><c> kind</c><00:05:12.479><c> of</c><00:05:12.560><c> perfect</c><00:05:12.800><c> for</c>
+
+00:05:13.029 --> 00:05:13.039 align:start position:0%
+math proofs are also kind of perfect for
+ 
+
+00:05:13.039 --> 00:05:14.469 align:start position:0%
+math proofs are also kind of perfect for
+this<00:05:13.280><c> setup</c><00:05:13.600><c> because</c><00:05:13.840><c> how</c><00:05:14.080><c> you</c><00:05:14.240><c> do</c><00:05:14.320><c> it</c>
+
+00:05:14.469 --> 00:05:14.479 align:start position:0%
+this setup because how you do it
+ 
+
+00:05:14.479 --> 00:05:16.870 align:start position:0%
+this setup because how you do it
+practically<00:05:15.039><c> is</c><00:05:15.360><c> also</c><00:05:15.759><c> exactly</c><00:05:16.160><c> like</c><00:05:16.400><c> this.</c>
+
+00:05:16.870 --> 00:05:16.880 align:start position:0%
+practically is also exactly like this.
+ 
+
+00:05:16.880 --> 00:05:18.710 align:start position:0%
+practically is also exactly like this.
+While<00:05:17.039><c> it</c><00:05:17.280><c> might</c><00:05:17.440><c> end</c><00:05:17.680><c> up</c><00:05:17.840><c> being</c><00:05:18.160><c> hundreds</c><00:05:18.560><c> of</c>
+
+00:05:18.710 --> 00:05:18.720 align:start position:0%
+While it might end up being hundreds of
+ 
+
+00:05:18.720 --> 00:05:20.870 align:start position:0%
+While it might end up being hundreds of
+short<00:05:19.039><c> proofs,</c><00:05:19.520><c> it</c><00:05:19.759><c> can</c><00:05:19.919><c> still</c><00:05:20.160><c> combine</c><00:05:20.560><c> back</c>
+
+00:05:20.870 --> 00:05:20.880 align:start position:0%
+short proofs, it can still combine back
+ 
+
+00:05:20.880 --> 00:05:23.590 align:start position:0%
+short proofs, it can still combine back
+recursively<00:05:21.759><c> into</c><00:05:22.160><c> one</c><00:05:22.400><c> big</c><00:05:22.720><c> complex</c><00:05:23.120><c> proof.</c>
+
+00:05:23.590 --> 00:05:23.600 align:start position:0%
+recursively into one big complex proof.
+ 
+
+00:05:23.600 --> 00:05:25.270 align:start position:0%
+recursively into one big complex proof.
+So<00:05:23.759><c> the</c><00:05:23.919><c> extra</c><00:05:24.160><c> reasoning</c><00:05:24.560><c> steps</c><00:05:24.880><c> are</c><00:05:25.039><c> not</c>
+
+00:05:25.270 --> 00:05:25.280 align:start position:0%
+So the extra reasoning steps are not
+ 
+
+00:05:25.280 --> 00:05:27.189 align:start position:0%
+So the extra reasoning steps are not
+artificially<00:05:25.919><c> created,</c><00:05:26.479><c> but</c><00:05:26.800><c> instead</c>
+
+00:05:27.189 --> 00:05:27.199 align:start position:0%
+artificially created, but instead
+ 
+
+00:05:27.199 --> 00:05:28.870 align:start position:0%
+artificially created, but instead
+something<00:05:27.520><c> a</c><00:05:27.759><c> model</c><00:05:28.000><c> could</c><00:05:28.240><c> then</c><00:05:28.400><c> solve</c><00:05:28.639><c> in</c>
+
+00:05:28.870 --> 00:05:28.880 align:start position:0%
+something a model could then solve in
+ 
+
+00:05:28.880 --> 00:05:31.029 align:start position:0%
+something a model could then solve in
+one<00:05:29.120><c> shot.</c><00:05:29.600><c> For</c><00:05:29.680><c> example,</c><00:05:30.160><c> a</c><00:05:30.400><c> single</c><00:05:30.639><c> highly</c>
+
+00:05:31.029 --> 00:05:31.039 align:start position:0%
+one shot. For example, a single highly
+ 
+
+00:05:31.039 --> 00:05:32.870 align:start position:0%
+one shot. For example, a single highly
+difficult<00:05:31.280><c> inequality</c><00:05:32.080><c> can</c><00:05:32.240><c> be</c><00:05:32.400><c> broken</c><00:05:32.720><c> down</c>
+
+00:05:32.870 --> 00:05:32.880 align:start position:0%
+difficult inequality can be broken down
+ 
+
+00:05:32.880 --> 00:05:34.710 align:start position:0%
+difficult inequality can be broken down
+into<00:05:33.199><c> four</c><00:05:33.520><c> independent</c><00:05:34.080><c> goals,</c><00:05:34.560><c> a</c>
+
+00:05:34.710 --> 00:05:34.720 align:start position:0%
+into four independent goals, a
+ 
+
+00:05:34.720 --> 00:05:36.550 align:start position:0%
+into four independent goals, a
+hierarchical<00:05:35.360><c> maneuver</c><00:05:35.759><c> that</c><00:05:36.000><c> is</c><00:05:36.160><c> similar</c><00:05:36.400><c> to</c>
+
+00:05:36.550 --> 00:05:36.560 align:start position:0%
+hierarchical maneuver that is similar to
+ 
+
+00:05:36.560 --> 00:05:38.469 align:start position:0%
+hierarchical maneuver that is similar to
+how<00:05:36.720><c> we</c><00:05:36.960><c> plan</c><00:05:37.199><c> proofs</c><00:05:37.600><c> in</c><00:05:37.759><c> practice.</c><00:05:38.320><c> And</c>
+
+00:05:38.469 --> 00:05:38.479 align:start position:0%
+how we plan proofs in practice. And
+ 
+
+00:05:38.479 --> 00:05:40.230 align:start position:0%
+how we plan proofs in practice. And
+after<00:05:38.720><c> the</c><00:05:38.960><c> lean</c><00:05:39.280><c> for</c><00:05:39.520><c> sub</c><00:05:39.759><c> goals</c><00:05:40.000><c> are</c>
+
+00:05:40.230 --> 00:05:40.240 align:start position:0%
+after the lean for sub goals are
+ 
+
+00:05:40.240 --> 00:05:42.310 align:start position:0%
+after the lean for sub goals are
+recursively<00:05:40.960><c> solved,</c><00:05:41.520><c> they</c><00:05:41.759><c> are</c><00:05:41.919><c> stitched</c>
+
+00:05:42.310 --> 00:05:42.320 align:start position:0%
+recursively solved, they are stitched
+ 
+
+00:05:42.320 --> 00:05:44.390 align:start position:0%
+recursively solved, they are stitched
+back<00:05:42.479><c> into</c><00:05:42.720><c> the</c><00:05:43.039><c> original</c><00:05:43.520><c> template</c><00:05:44.080><c> along</c>
+
+00:05:44.390 --> 00:05:44.400 align:start position:0%
+back into the original template along
+ 
+
+00:05:44.400 --> 00:05:46.070 align:start position:0%
+back into the original template along
+with<00:05:44.560><c> Deepseek</c><00:05:45.120><c> V3's</c><00:05:45.520><c> chain</c><00:05:45.680><c> of</c><00:05:45.840><c> thought</c>
+
+00:05:46.070 --> 00:05:46.080 align:start position:0%
+with Deepseek V3's chain of thought
+ 
+
+00:05:46.080 --> 00:05:47.909 align:start position:0%
+with Deepseek V3's chain of thought
+reasoning<00:05:46.479><c> generated</c><00:05:46.960><c> based</c><00:05:47.199><c> on</c><00:05:47.360><c> the</c><00:05:47.520><c> lean</c>
+
+00:05:47.909 --> 00:05:47.919 align:start position:0%
+reasoning generated based on the lean
+ 
+
+00:05:47.919 --> 00:05:49.990 align:start position:0%
+reasoning generated based on the lean
+for<00:05:48.080><c> proofs</c><00:05:48.479><c> it</c><00:05:48.639><c> has.</c><00:05:49.039><c> The</c><00:05:49.280><c> pipeline</c><00:05:49.680><c> then</c>
+
+00:05:49.990 --> 00:05:50.000 align:start position:0%
+for proofs it has. The pipeline then
+ 
+
+00:05:50.000 --> 00:05:51.830 align:start position:0%
+for proofs it has. The pipeline then
+assembles<00:05:50.479><c> hundreds</c><00:05:50.800><c> of</c><00:05:50.960><c> verified</c><00:05:51.440><c> formal</c>
+
+00:05:51.830 --> 00:05:51.840 align:start position:0%
+assembles hundreds of verified formal
+ 
+
+00:05:51.840 --> 00:05:53.830 align:start position:0%
+assembles hundreds of verified formal
+proofs<00:05:52.240><c> plus</c><00:05:52.479><c> a</c><00:05:52.639><c> step-by-step</c><00:05:53.280><c> explanation</c>
+
+00:05:53.830 --> 00:05:53.840 align:start position:0%
+proofs plus a step-by-step explanation
+ 
+
+00:05:53.840 --> 00:05:56.310 align:start position:0%
+proofs plus a step-by-step explanation
+of<00:05:54.000><c> why</c><00:05:54.240><c> those</c><00:05:54.560><c> steps</c><00:05:54.880><c> exist,</c><00:05:55.600><c> producing</c><00:05:56.080><c> a</c>
+
+00:05:56.310 --> 00:05:56.320 align:start position:0%
+of why those steps exist, producing a
+ 
+
+00:05:56.320 --> 00:05:58.230 align:start position:0%
+of why those steps exist, producing a
+super<00:05:56.639><c> rich</c><00:05:56.960><c> training</c><00:05:57.280><c> data.</c><00:05:57.759><c> What's</c><00:05:57.919><c> also</c>
+
+00:05:58.230 --> 00:05:58.240 align:start position:0%
+super rich training data. What's also
+ 
+
+00:05:58.240 --> 00:05:59.670 align:start position:0%
+super rich training data. What's also
+neat<00:05:58.400><c> about</c><00:05:58.560><c> this</c><00:05:58.720><c> is</c><00:05:58.960><c> that</c><00:05:59.120><c> the</c><00:05:59.360><c> large</c>
+
+00:05:59.670 --> 00:05:59.680 align:start position:0%
+neat about this is that the large
+ 
+
+00:05:59.680 --> 00:06:01.909 align:start position:0%
+neat about this is that the large
+DeepSeek<00:06:00.240><c> V3</c><00:06:00.639><c> backbone</c><00:06:01.199><c> never</c><00:06:01.360><c> runs</c><00:06:01.680><c> the</c>
+
+00:06:01.909 --> 00:06:01.919 align:start position:0%
+DeepSeek V3 backbone never runs the
+ 
+
+00:06:01.919 --> 00:06:04.150 align:start position:0%
+DeepSeek V3 backbone never runs the
+heavy<00:06:02.160><c> math.</c><00:06:02.560><c> Only</c><00:06:02.800><c> the</c><00:06:02.960><c> cheap</c><00:06:03.280><c> 7B</c><00:06:03.840><c> model</c>
+
+00:06:04.150 --> 00:06:04.160 align:start position:0%
+heavy math. Only the cheap 7B model
+ 
+
+00:06:04.160 --> 00:06:05.990 align:start position:0%
+heavy math. Only the cheap 7B model
+does,<00:06:04.560><c> keeping</c><00:06:04.880><c> the</c><00:06:05.120><c> compute</c><00:06:05.520><c> cost</c><00:06:05.759><c> for</c>
+
+00:06:05.990 --> 00:06:06.000 align:start position:0%
+does, keeping the compute cost for
+ 
+
+00:06:06.000 --> 00:06:08.230 align:start position:0%
+does, keeping the compute cost for
+synthesizing<00:06:06.639><c> a</c><00:06:06.880><c> data</c><00:06:07.120><c> set</c><00:06:07.360><c> extremely</c><00:06:07.919><c> low.</c>
+
+00:06:08.230 --> 00:06:08.240 align:start position:0%
+synthesizing a data set extremely low.
+ 
+
+00:06:08.240 --> 00:06:10.309 align:start position:0%
+synthesizing a data set extremely low.
+So<00:06:08.479><c> with</c><00:06:08.639><c> all</c><00:06:08.800><c> the</c><00:06:08.960><c> PhD</c><00:06:09.360><c> level</c><00:06:09.680><c> math</c><00:06:09.919><c> questions</c>
+
+00:06:10.309 --> 00:06:10.319 align:start position:0%
+So with all the PhD level math questions
+ 
+
+00:06:10.319 --> 00:06:12.550 align:start position:0%
+So with all the PhD level math questions
+a<00:06:10.560><c> model</c><00:06:10.800><c> has</c><00:06:11.039><c> already</c><00:06:11.360><c> learned,</c><00:06:12.000><c> this</c><00:06:12.240><c> method</c>
+
+00:06:12.550 --> 00:06:12.560 align:start position:0%
+a model has already learned, this method
+ 
+
+00:06:12.560 --> 00:06:14.390 align:start position:0%
+a model has already learned, this method
+is<00:06:12.720><c> like</c><00:06:12.960><c> juicing</c><00:06:13.360><c> out</c><00:06:13.520><c> and</c><00:06:13.759><c> organizing</c><00:06:14.240><c> what</c>
+
+00:06:14.390 --> 00:06:14.400 align:start position:0%
+is like juicing out and organizing what
+ 
+
+00:06:14.400 --> 00:06:16.309 align:start position:0%
+is like juicing out and organizing what
+the<00:06:14.639><c> model</c><00:06:14.880><c> has</c><00:06:15.120><c> learned</c><00:06:15.520><c> previously,</c>
+
+00:06:16.309 --> 00:06:16.319 align:start position:0%
+the model has learned previously,
+ 
+
+00:06:16.319 --> 00:06:18.710 align:start position:0%
+the model has learned previously,
+creating<00:06:16.800><c> an</c><00:06:17.120><c> even</c><00:06:17.440><c> stronger</c><00:06:17.919><c> and</c><00:06:18.160><c> consistent</c>
+
+00:06:18.710 --> 00:06:18.720 align:start position:0%
+creating an even stronger and consistent
+ 
+
+00:06:18.720 --> 00:06:20.309 align:start position:0%
+creating an even stronger and consistent
+model.<00:06:19.120><c> And</c><00:06:19.280><c> this</c><00:06:19.440><c> pipeline</c><00:06:19.840><c> creates</c><00:06:20.160><c> what</c>
+
+00:06:20.309 --> 00:06:20.319 align:start position:0%
+model. And this pipeline creates what
+ 
+
+00:06:20.319 --> 00:06:22.150 align:start position:0%
+model. And this pipeline creates what
+the<00:06:20.479><c> researchers</c><00:06:21.039><c> call</c><00:06:21.280><c> the</c><00:06:21.520><c> code</c><00:06:21.840><c> start</c>
+
+00:06:22.150 --> 00:06:22.160 align:start position:0%
+the researchers call the code start
+ 
+
+00:06:22.160 --> 00:06:24.230 align:start position:0%
+the researchers call the code start
+data.<00:06:22.560><c> These</c><00:06:22.800><c> few</c><00:06:23.039><c> hundred</c><00:06:23.280><c> of</c><00:06:23.600><c> self-solve</c>
+
+00:06:24.230 --> 00:06:24.240 align:start position:0%
+data. These few hundred of self-solve
+ 
+
+00:06:24.240 --> 00:06:27.029 align:start position:0%
+data. These few hundred of self-solve
+proofs<00:06:24.639><c> were</c><00:06:24.960><c> enough</c><00:06:25.199><c> to</c><00:06:25.360><c> jumpst</c><00:06:25.600><c> start</c><00:06:25.840><c> a</c><00:06:26.080><c> 671</c>
+
+00:06:27.029 --> 00:06:27.039 align:start position:0%
+proofs were enough to jumpst start a 671
+ 
+
+00:06:27.039 --> 00:06:28.950 align:start position:0%
+proofs were enough to jumpst start a 671
+billion<00:06:27.360><c> parameters</c><00:06:27.919><c> model</c><00:06:28.160><c> that</c><00:06:28.400><c> had</c><00:06:28.720><c> never</c>
+
+00:06:28.950 --> 00:06:28.960 align:start position:0%
+billion parameters model that had never
+ 
+
+00:06:28.960 --> 00:06:31.430 align:start position:0%
+billion parameters model that had never
+seen<00:06:29.280><c> lean</c><00:06:29.759><c> for</c><00:06:30.000><c> before.</c><00:06:30.560><c> Keep</c><00:06:30.639><c> in</c><00:06:30.800><c> mind</c><00:06:31.120><c> this</c>
+
+00:06:31.430 --> 00:06:31.440 align:start position:0%
+seen lean for before. Keep in mind this
+ 
+
+00:06:31.440 --> 00:06:33.270 align:start position:0%
+seen lean for before. Keep in mind this
+big<00:06:31.680><c> model</c><00:06:31.919><c> learns</c><00:06:32.319><c> formal</c><00:06:32.720><c> proof</c><00:06:32.960><c> style</c>
+
+00:06:33.270 --> 00:06:33.280 align:start position:0%
+big model learns formal proof style
+ 
+
+00:06:33.280 --> 00:06:35.029 align:start position:0%
+big model learns formal proof style
+without<00:06:33.600><c> any</c><00:06:33.840><c> ground</c><00:06:34.160><c> truth</c><00:06:34.479><c> labeled</c><00:06:34.880><c> by</c>
+
+00:06:35.029 --> 00:06:35.039 align:start position:0%
+without any ground truth labeled by
+ 
+
+00:06:35.039 --> 00:06:36.790 align:start position:0%
+without any ground truth labeled by
+humans.<00:06:35.520><c> It</c><00:06:35.759><c> was</c><00:06:35.840><c> just</c><00:06:35.919><c> a</c><00:06:36.080><c> smaller</c><00:06:36.400><c> agent</c>
+
+00:06:36.790 --> 00:06:36.800 align:start position:0%
+humans. It was just a smaller agent
+ 
+
+00:06:36.800 --> 00:06:38.309 align:start position:0%
+humans. It was just a smaller agent
+building<00:06:37.120><c> out</c><00:06:37.280><c> the</c><00:06:37.440><c> data</c><00:06:37.680><c> set.</c><00:06:37.919><c> But</c><00:06:38.160><c> of</c>
+
+00:06:38.309 --> 00:06:38.319 align:start position:0%
+building out the data set. But of
+ 
+
+00:06:38.319 --> 00:06:39.749 align:start position:0%
+building out the data set. But of
+course,<00:06:38.479><c> the</c><00:06:38.720><c> pipeline</c><00:06:39.120><c> is</c><00:06:39.280><c> still</c><00:06:39.520><c> designed</c>
+
+00:06:39.749 --> 00:06:39.759 align:start position:0%
+course, the pipeline is still designed
+ 
+
+00:06:39.759 --> 00:06:41.510 align:start position:0%
+course, the pipeline is still designed
+by<00:06:39.919><c> humans.</c><00:06:40.479><c> This</c><00:06:40.639><c> performed</c><00:06:41.039><c> even</c><00:06:41.360><c> better</c>
+
+00:06:41.510 --> 00:06:41.520 align:start position:0%
+by humans. This performed even better
+ 
+
+00:06:41.520 --> 00:06:43.670 align:start position:0%
+by humans. This performed even better
+than<00:06:41.759><c> the</c><00:06:41.919><c> previous</c><00:06:42.160><c> state-of-the-art</c><00:06:42.880><c> cold</c>
+
+00:06:43.670 --> 00:06:43.680 align:start position:0%
+than the previous state-of-the-art cold
+ 
+
+00:06:43.680 --> 00:06:45.430 align:start position:0%
+than the previous state-of-the-art cold
+prover,<00:06:44.240><c> which</c><00:06:44.400><c> had</c><00:06:44.560><c> an</c><00:06:44.800><c> approach</c><00:06:45.120><c> that</c>
+
+00:06:45.430 --> 00:06:45.440 align:start position:0%
+prover, which had an approach that
+ 
+
+00:06:45.440 --> 00:06:47.430 align:start position:0%
+prover, which had an approach that
+starts<00:06:45.759><c> from</c><00:06:46.080><c> existing</c><00:06:46.560><c> full</c><00:06:46.880><c> proofs</c><00:06:47.199><c> and</c>
+
+00:06:47.430 --> 00:06:47.440 align:start position:0%
+starts from existing full proofs and
+ 
+
+00:06:47.440 --> 00:06:49.350 align:start position:0%
+starts from existing full proofs and
+synthesizes<00:06:48.080><c> the</c><00:06:48.400><c> intermediate</c><00:06:49.039><c> natural</c>
+
+00:06:49.350 --> 00:06:49.360 align:start position:0%
+synthesizes the intermediate natural
+ 
+
+00:06:49.360 --> 00:06:51.430 align:start position:0%
+synthesizes the intermediate natural
+language<00:06:49.759><c> steps</c><00:06:50.160><c> retroactively.</c><00:06:51.039><c> Once</c><00:06:51.280><c> the</c>
+
+00:06:51.430 --> 00:06:51.440 align:start position:0%
+language steps retroactively. Once the
+ 
+
+00:06:51.440 --> 00:06:53.430 align:start position:0%
+language steps retroactively. Once the
+model<00:06:51.680><c> has</c><00:06:51.919><c> trained</c><00:06:52.240><c> enough</c><00:06:52.479><c> on</c><00:06:52.720><c> the</c><00:06:52.880><c> co-star</c>
+
+00:06:53.430 --> 00:06:53.440 align:start position:0%
+model has trained enough on the co-star
+ 
+
+00:06:53.440 --> 00:06:55.430 align:start position:0%
+model has trained enough on the co-star
+proofs,<00:06:53.919><c> the</c><00:06:54.080><c> researchers</c><00:06:54.639><c> then</c><00:06:54.880><c> switch</c><00:06:55.199><c> to</c>
+
+00:06:55.430 --> 00:06:55.440 align:start position:0%
+proofs, the researchers then switch to
+ 
+
+00:06:55.440 --> 00:06:57.510 align:start position:0%
+proofs, the researchers then switch to
+group<00:06:55.680><c> relative</c><00:06:56.160><c> policy</c><00:06:56.560><c> optimization</c><00:06:57.280><c> to</c>
+
+00:06:57.510 --> 00:06:57.520 align:start position:0%
+group relative policy optimization to
+ 
+
+00:06:57.520 --> 00:06:59.350 align:start position:0%
+group relative policy optimization to
+polish<00:06:57.919><c> the</c><00:06:58.080><c> model</c><00:06:58.479><c> even</c><00:06:58.720><c> more</c><00:06:59.039><c> using</c>
+
+00:06:59.350 --> 00:06:59.360 align:start position:0%
+polish the model even more using
+ 
+
+00:06:59.360 --> 00:07:01.270 align:start position:0%
+polish the model even more using
+reinforcement<00:07:00.080><c> learning.</c><00:07:00.479><c> The</c><00:07:00.639><c> basic</c><00:07:00.880><c> reward</c>
+
+00:07:01.270 --> 00:07:01.280 align:start position:0%
+reinforcement learning. The basic reward
+ 
+
+00:07:01.280 --> 00:07:03.510 align:start position:0%
+reinforcement learning. The basic reward
+here<00:07:01.599><c> is</c><00:07:01.840><c> simple.</c><00:07:02.319><c> They</c><00:07:02.560><c> gave</c><00:07:02.720><c> it</c><00:07:02.960><c> a</c><00:07:03.120><c> binary</c>
+
+00:07:03.510 --> 00:07:03.520 align:start position:0%
+here is simple. They gave it a binary
+ 
+
+00:07:03.520 --> 00:07:05.990 align:start position:0%
+here is simple. They gave it a binary
+signal<00:07:04.319><c> one</c><00:07:04.560><c> if</c><00:07:04.800><c> the</c><00:07:04.960><c> generated</c><00:07:05.440><c> lean</c><00:07:05.759><c> proof</c>
+
+00:07:05.990 --> 00:07:06.000 align:start position:0%
+signal one if the generated lean proof
+ 
+
+00:07:06.000 --> 00:07:08.070 align:start position:0%
+signal one if the generated lean proof
+is<00:07:06.160><c> verified</c><00:07:06.560><c> as</c><00:07:06.880><c> correct.</c><00:07:07.360><c> is</c><00:07:07.520><c> zero</c><00:07:07.759><c> if</c><00:07:07.919><c> it's</c>
+
+00:07:08.070 --> 00:07:08.080 align:start position:0%
+is verified as correct. is zero if it's
+ 
+
+00:07:08.080 --> 00:07:09.909 align:start position:0%
+is verified as correct. is zero if it's
+not.<00:07:08.400><c> But</c><00:07:08.479><c> with</c><00:07:08.720><c> only</c><00:07:08.960><c> this,</c><00:07:09.360><c> they</c><00:07:09.599><c> noticed</c>
+
+00:07:09.909 --> 00:07:09.919 align:start position:0%
+not. But with only this, they noticed
+ 
+
+00:07:09.919 --> 00:07:11.909 align:start position:0%
+not. But with only this, they noticed
+that<00:07:10.160><c> sometimes</c><00:07:10.720><c> the</c><00:07:10.960><c> proofs</c><00:07:11.360><c> generated</c><00:07:11.759><c> by</c>
+
+00:07:11.909 --> 00:07:11.919 align:start position:0%
+that sometimes the proofs generated by
+ 
+
+00:07:11.919 --> 00:07:13.510 align:start position:0%
+that sometimes the proofs generated by
+the<00:07:12.080><c> model</c><00:07:12.319><c> would</c><00:07:12.560><c> stray</c><00:07:12.800><c> from</c><00:07:12.960><c> the</c><00:07:13.120><c> structure</c>
+
+00:07:13.510 --> 00:07:13.520 align:start position:0%
+the model would stray from the structure
+ 
+
+00:07:13.520 --> 00:07:15.189 align:start position:0%
+the model would stray from the structure
+lema<00:07:13.919><c> decomposition</c><00:07:14.560><c> that</c><00:07:14.800><c> was</c><00:07:14.960><c> taught</c>
+
+00:07:15.189 --> 00:07:15.199 align:start position:0%
+lema decomposition that was taught
+ 
+
+00:07:15.199 --> 00:07:17.110 align:start position:0%
+lema decomposition that was taught
+through<00:07:15.360><c> the</c><00:07:15.520><c> co-star</c><00:07:16.080><c> data.</c><00:07:16.479><c> So</c><00:07:16.560><c> to</c><00:07:16.800><c> keep</c><00:07:16.880><c> the</c>
+
+00:07:17.110 --> 00:07:17.120 align:start position:0%
+through the co-star data. So to keep the
+ 
+
+00:07:17.120 --> 00:07:19.189 align:start position:0%
+through the co-star data. So to keep the
+model<00:07:17.360><c> on</c><00:07:17.599><c> track,</c><00:07:18.000><c> especially</c><00:07:18.400><c> for</c><00:07:18.720><c> complex</c>
+
+00:07:19.189 --> 00:07:19.199 align:start position:0%
+model on track, especially for complex
+ 
+
+00:07:19.199 --> 00:07:21.270 align:start position:0%
+model on track, especially for complex
+multi-step<00:07:19.919><c> theorems,</c><00:07:20.479><c> they</c><00:07:20.720><c> added</c><00:07:21.039><c> a</c>
+
+00:07:21.270 --> 00:07:21.280 align:start position:0%
+multi-step theorems, they added a
+ 
+
+00:07:21.280 --> 00:07:23.270 align:start position:0%
+multi-step theorems, they added a
+consistency<00:07:21.919><c> reward</c><00:07:22.319><c> in</c><00:07:22.560><c> the</c><00:07:22.720><c> early</c><00:07:22.960><c> stages</c>
+
+00:07:23.270 --> 00:07:23.280 align:start position:0%
+consistency reward in the early stages
+ 
+
+00:07:23.280 --> 00:07:25.670 align:start position:0%
+consistency reward in the early stages
+of<00:07:23.440><c> RL.</c><00:07:24.080><c> This</c><00:07:24.240><c> reward</c><00:07:24.560><c> penalizes</c><00:07:25.199><c> the</c><00:07:25.440><c> model</c>
+
+00:07:25.670 --> 00:07:25.680 align:start position:0%
+of RL. This reward penalizes the model
+ 
+
+00:07:25.680 --> 00:07:27.749 align:start position:0%
+of RL. This reward penalizes the model
+if<00:07:26.000><c> its</c><00:07:26.160><c> proof</c><00:07:26.560><c> structure</c><00:07:26.960><c> significantly</c>
+
+00:07:27.749 --> 00:07:27.759 align:start position:0%
+if its proof structure significantly
+ 
+
+00:07:27.759 --> 00:07:29.230 align:start position:0%
+if its proof structure significantly
+diverges<00:07:28.319><c> from</c><00:07:28.479><c> the</c><00:07:28.720><c> intended</c>
+
+00:07:29.230 --> 00:07:29.240 align:start position:0%
+diverges from the intended
+ 
+
+00:07:29.240 --> 00:07:31.430 align:start position:0%
+diverges from the intended
+decomposition,<00:07:30.240><c> encouraging</c><00:07:30.720><c> it</c><00:07:30.960><c> to</c><00:07:31.120><c> use</c><00:07:31.280><c> all</c>
+
+00:07:31.430 --> 00:07:31.440 align:start position:0%
+decomposition, encouraging it to use all
+ 
+
+00:07:31.440 --> 00:07:33.270 align:start position:0%
+decomposition, encouraging it to use all
+the<00:07:31.599><c> planned</c><00:07:31.919><c> intermediate</c><00:07:32.560><c> lemmas,</c><00:07:33.039><c> which</c>
+
+00:07:33.270 --> 00:07:33.280 align:start position:0%
+the planned intermediate lemmas, which
+ 
+
+00:07:33.280 --> 00:07:35.189 align:start position:0%
+the planned intermediate lemmas, which
+in<00:07:33.440><c> the</c><00:07:33.599><c> co-star</c><00:07:34.000><c> data's</c><00:07:34.479><c> case</c><00:07:34.720><c> is</c><00:07:34.960><c> marked</c>
+
+00:07:35.189 --> 00:07:35.199 align:start position:0%
+in the co-star data's case is marked
+ 
+
+00:07:35.199 --> 00:07:37.350 align:start position:0%
+in the co-star data's case is marked
+with<00:07:35.360><c> a</c><00:07:35.680><c> half</c><00:07:35.919><c> tag.</c><00:07:36.319><c> So,</c><00:07:36.479><c> a</c><00:07:36.639><c> strong</c><00:07:36.880><c> co-star</c>
+
+00:07:37.350 --> 00:07:37.360 align:start position:0%
+with a half tag. So, a strong co-star
+ 
+
+00:07:37.360 --> 00:07:39.270 align:start position:0%
+with a half tag. So, a strong co-star
+data<00:07:37.680><c> followed</c><00:07:37.919><c> by</c><00:07:38.080><c> two</c><00:07:38.319><c> simple</c><00:07:38.639><c> rewards</c><00:07:39.039><c> in</c>
+
+00:07:39.270 --> 00:07:39.280 align:start position:0%
+data followed by two simple rewards in
+ 
+
+00:07:39.280 --> 00:07:41.749 align:start position:0%
+data followed by two simple rewards in
+RL<00:07:39.759><c> is</c><00:07:39.919><c> the</c><00:07:40.080><c> key</c><00:07:40.240><c> to</c><00:07:40.400><c> Deep</c><00:07:40.720><c> Seek</c><00:07:40.960><c> Prover</c><00:07:41.280><c> V2's</c>
+
+00:07:41.749 --> 00:07:41.759 align:start position:0%
+RL is the key to Deep Seek Prover V2's
+ 
+
+00:07:41.759 --> 00:07:43.749 align:start position:0%
+RL is the key to Deep Seek Prover V2's
+success.<00:07:42.400><c> Their</c><00:07:42.560><c> results</c><00:07:42.880><c> for</c><00:07:43.039><c> fine-tuning</c>
+
+00:07:43.749 --> 00:07:43.759 align:start position:0%
+success. Their results for fine-tuning
+ 
+
+00:07:43.759 --> 00:07:46.710 align:start position:0%
+success. Their results for fine-tuning
+both<00:07:44.000><c> a</c><00:07:44.319><c> 671</c><00:07:45.280><c> billion</c><00:07:45.599><c> parameters</c><00:07:46.080><c> and</c><00:07:46.240><c> a</c><00:07:46.400><c> 7</c>
+
+00:07:46.710 --> 00:07:46.720 align:start position:0%
+both a 671 billion parameters and a 7
+ 
+
+00:07:46.720 --> 00:07:49.029 align:start position:0%
+both a 671 billion parameters and a 7
+billion<00:07:47.039><c> parameters</c><00:07:47.680><c> prover</c><00:07:48.240><c> also</c><00:07:48.560><c> led</c><00:07:48.800><c> to</c>
+
+00:07:49.029 --> 00:07:49.039 align:start position:0%
+billion parameters prover also led to
+ 
+
+00:07:49.039 --> 00:07:51.510 align:start position:0%
+billion parameters prover also led to
+some<00:07:49.360><c> fascinating</c><00:07:50.039><c> observations.</c><00:07:51.039><c> First,</c>
+
+00:07:51.510 --> 00:07:51.520 align:start position:0%
+some fascinating observations. First,
+ 
+
+00:07:51.520 --> 00:07:53.350 align:start position:0%
+some fascinating observations. First,
+when<00:07:51.759><c> you</c><00:07:51.919><c> compare</c><00:07:52.240><c> proofs</c><00:07:52.639><c> generated</c><00:07:53.039><c> by</c><00:07:53.120><c> the</c>
+
+00:07:53.350 --> 00:07:53.360 align:start position:0%
+when you compare proofs generated by the
+ 
+
+00:07:53.360 --> 00:07:55.110 align:start position:0%
+when you compare proofs generated by the
+two<00:07:53.520><c> models</c><00:07:53.840><c> with</c><00:07:54.080><c> different</c><00:07:54.400><c> sizes,</c><00:07:54.960><c> the</c>
+
+00:07:55.110 --> 00:07:55.120 align:start position:0%
+two models with different sizes, the
+ 
+
+00:07:55.120 --> 00:07:57.110 align:start position:0%
+two models with different sizes, the
+bigger<00:07:55.440><c> model</c><00:07:55.680><c> has</c><00:07:55.840><c> so</c><00:07:56.080><c> deeply</c><00:07:56.479><c> internalized</c>
+
+00:07:57.110 --> 00:07:57.120 align:start position:0%
+bigger model has so deeply internalized
+ 
+
+00:07:57.120 --> 00:07:58.950 align:start position:0%
+bigger model has so deeply internalized
+the<00:07:57.360><c> process</c><00:07:57.680><c> of</c><00:07:57.919><c> breaking</c><00:07:58.240><c> down</c><00:07:58.560><c> problems</c>
+
+00:07:58.950 --> 00:07:58.960 align:start position:0%
+the process of breaking down problems
+ 
+
+00:07:58.960 --> 00:08:00.869 align:start position:0%
+the process of breaking down problems
+and<00:07:59.199><c> reasoning</c><00:07:59.599><c> that</c><00:07:59.840><c> when</c><00:08:00.080><c> you</c><00:08:00.240><c> did</c><00:08:00.400><c> not</c><00:08:00.639><c> ask</c>
+
+00:08:00.869 --> 00:08:00.879 align:start position:0%
+and reasoning that when you did not ask
+ 
+
+00:08:00.879 --> 00:08:02.469 align:start position:0%
+and reasoning that when you did not ask
+to<00:08:01.039><c> explain</c><00:08:01.360><c> reasoning</c><00:08:01.759><c> step</c><00:08:02.000><c> by</c><00:08:02.240><c> step</c>
+
+00:08:02.469 --> 00:08:02.479 align:start position:0%
+to explain reasoning step by step
+ 
+
+00:08:02.479 --> 00:08:04.710 align:start position:0%
+to explain reasoning step by step
+explicitly,<00:08:03.360><c> they</c><00:08:03.599><c> still</c><00:08:03.840><c> can't</c><00:08:04.160><c> entirely</c>
+
+00:08:04.710 --> 00:08:04.720 align:start position:0%
+explicitly, they still can't entirely
+ 
+
+00:08:04.720 --> 00:08:06.550 align:start position:0%
+explicitly, they still can't entirely
+switch<00:08:04.960><c> it</c><00:08:05.120><c> off.</c><00:08:05.440><c> Some</c><00:08:05.599><c> of</c><00:08:05.759><c> this</c><00:08:05.919><c> internalized</c>
+
+00:08:06.550 --> 00:08:06.560 align:start position:0%
+switch it off. Some of this internalized
+ 
+
+00:08:06.560 --> 00:08:08.550 align:start position:0%
+switch it off. Some of this internalized
+step-by-step<00:08:07.199><c> reasoning</c><00:08:07.680><c> naturally</c><00:08:08.160><c> leaks</c>
+
+00:08:08.550 --> 00:08:08.560 align:start position:0%
+step-by-step reasoning naturally leaks
+ 
+
+00:08:08.560 --> 00:08:10.950 align:start position:0%
+step-by-step reasoning naturally leaks
+out<00:08:08.720><c> or</c><00:08:08.960><c> gets</c><00:08:09.280><c> externalized</c><00:08:10.080><c> as</c><00:08:10.319><c> these</c><00:08:10.639><c> brief</c>
+
+00:08:10.950 --> 00:08:10.960 align:start position:0%
+out or gets externalized as these brief
+ 
+
+00:08:10.960 --> 00:08:13.189 align:start position:0%
+out or gets externalized as these brief
+comments<00:08:11.360><c> in</c><00:08:11.599><c> its</c><00:08:11.840><c> dean</c><00:08:12.160><c> code.</c><00:08:12.639><c> It's</c><00:08:12.800><c> as</c><00:08:12.960><c> if</c>
+
+00:08:13.189 --> 00:08:13.199 align:start position:0%
+comments in its dean code. It's as if
+ 
+
+00:08:13.199 --> 00:08:14.950 align:start position:0%
+comments in its dean code. It's as if
+the<00:08:13.360><c> model</c><00:08:13.599><c> is</c><00:08:13.759><c> now</c><00:08:14.000><c> very</c><00:08:14.240><c> used</c><00:08:14.479><c> to</c><00:08:14.639><c> thinking</c>
+
+00:08:14.950 --> 00:08:14.960 align:start position:0%
+the model is now very used to thinking
+ 
+
+00:08:14.960 --> 00:08:17.189 align:start position:0%
+the model is now very used to thinking
+in<00:08:15.199><c> a</c><00:08:15.360><c> structured</c><00:08:15.919><c> explanatory</c><00:08:16.639><c> way</c><00:08:16.800><c> that</c><00:08:17.120><c> it</c>
+
+00:08:17.189 --> 00:08:17.199 align:start position:0%
+in a structured explanatory way that it
+ 
+
+00:08:17.199 --> 00:08:19.510 align:start position:0%
+in a structured explanatory way that it
+subtly<00:08:17.759><c> continues</c><00:08:18.240><c> to</c><00:08:18.479><c> do</c><00:08:18.639><c> so</c><00:08:18.960><c> even</c><00:08:19.199><c> when</c><00:08:19.440><c> the</c>
+
+00:08:19.510 --> 00:08:19.520 align:start position:0%
+subtly continues to do so even when the
+ 
+
+00:08:19.520 --> 00:08:21.029 align:start position:0%
+subtly continues to do so even when the
+prompt<00:08:19.840><c> doesn't</c><00:08:20.080><c> demand</c><00:08:20.400><c> it.</c><00:08:20.639><c> But</c><00:08:20.800><c> the</c><00:08:20.960><c> most</c>
+
+00:08:21.029 --> 00:08:21.039 align:start position:0%
+prompt doesn't demand it. But the most
+ 
+
+00:08:21.039 --> 00:08:22.790 align:start position:0%
+prompt doesn't demand it. But the most
+surprising<00:08:21.520><c> discovery</c><00:08:22.000><c> still</c><00:08:22.240><c> came</c><00:08:22.479><c> from</c><00:08:22.639><c> the</c>
+
+00:08:22.790 --> 00:08:22.800 align:start position:0%
+surprising discovery still came from the
+ 
+
+00:08:22.800 --> 00:08:24.950 align:start position:0%
+surprising discovery still came from the
+smaller<00:08:23.120><c> 7B</c><00:08:23.680><c> model,</c><00:08:24.160><c> specifically</c><00:08:24.720><c> its</c>
+
+00:08:24.950 --> 00:08:24.960 align:start position:0%
+smaller 7B model, specifically its
+ 
+
+00:08:24.960 --> 00:08:26.629 align:start position:0%
+smaller 7B model, specifically its
+non-chain<00:08:25.440><c> of</c><00:08:25.599><c> thought</c><00:08:25.840><c> version</c><00:08:26.240><c> on</c><00:08:26.479><c> the</c>
+
+00:08:26.629 --> 00:08:26.639 align:start position:0%
+non-chain of thought version on the
+ 
+
+00:08:26.639 --> 00:08:29.110 align:start position:0%
+non-chain of thought version on the
+tough<00:08:26.960><c> putnum</c><00:08:27.440><c> benchmark.</c><00:08:28.160><c> This</c><00:08:28.400><c> little</c><00:08:28.639><c> 7B</c>
+
+00:08:29.110 --> 00:08:29.120 align:start position:0%
+tough putnum benchmark. This little 7B
+ 
+
+00:08:29.120 --> 00:08:31.110 align:start position:0%
+tough putnum benchmark. This little 7B
+model<00:08:29.440><c> actually</c><00:08:29.759><c> solved</c><00:08:30.160><c> 13</c><00:08:30.560><c> problems</c><00:08:30.879><c> that</c>
+
+00:08:31.110 --> 00:08:31.120 align:start position:0%
+model actually solved 13 problems that
+ 
+
+00:08:31.120 --> 00:08:34.230 align:start position:0%
+model actually solved 13 problems that
+its<00:08:31.360><c> giant</c><00:08:32.039><c> 671B</c><00:08:33.039><c> sibling</c><00:08:33.440><c> could</c><00:08:33.680><c> not.</c><00:08:34.000><c> Turns</c>
+
+00:08:34.230 --> 00:08:34.240 align:start position:0%
+its giant 671B sibling could not. Turns
+ 
+
+00:08:34.240 --> 00:08:36.310 align:start position:0%
+its giant 671B sibling could not. Turns
+out<00:08:34.320><c> the</c><00:08:34.560><c> 7B</c><00:08:35.039><c> model</c><00:08:35.360><c> had</c><00:08:35.599><c> discovered</c><00:08:36.080><c> a</c>
+
+00:08:36.310 --> 00:08:36.320 align:start position:0%
+out the 7B model had discovered a
+ 
+
+00:08:36.320 --> 00:08:38.469 align:start position:0%
+out the 7B model had discovered a
+specific<00:08:36.640><c> skill.</c><00:08:37.120><c> It</c><00:08:37.360><c> frequently</c><00:08:37.839><c> used</c><00:08:38.159><c> these</c>
+
+00:08:38.469 --> 00:08:38.479 align:start position:0%
+specific skill. It frequently used these
+ 
+
+00:08:38.479 --> 00:08:40.790 align:start position:0%
+specific skill. It frequently used these
+two<00:08:38.800><c> lean</c><00:08:39.200><c> tactics</c><00:08:39.680><c> to</c><00:08:39.919><c> handle</c><00:08:40.320><c> problems</c>
+
+00:08:40.790 --> 00:08:40.800 align:start position:0%
+two lean tactics to handle problems
+ 
+
+00:08:40.800 --> 00:08:43.190 align:start position:0%
+two lean tactics to handle problems
+involving<00:08:41.440><c> finite</c><00:08:42.000><c> cardalities.</c><00:08:42.959><c> These</c>
+
+00:08:43.190 --> 00:08:43.200 align:start position:0%
+involving finite cardalities. These
+ 
+
+00:08:43.200 --> 00:08:46.310 align:start position:0%
+involving finite cardalities. These
+tactics<00:08:43.680><c> were</c><00:08:43.919><c> not</c><00:08:44.080><c> found</c><00:08:44.240><c> in</c><00:08:44.399><c> the</c><00:08:44.920><c> 671b</c><00:08:45.920><c> model</c>
+
+00:08:46.310 --> 00:08:46.320 align:start position:0%
+tactics were not found in the 671b model
+ 
+
+00:08:46.320 --> 00:08:48.230 align:start position:0%
+tactics were not found in the 671b model
+solutions<00:08:46.800><c> for</c><00:08:47.040><c> those</c><00:08:47.360><c> problems.</c><00:08:47.920><c> It</c><00:08:48.080><c> may</c>
+
+00:08:48.230 --> 00:08:48.240 align:start position:0%
+solutions for those problems. It may
+ 
+
+00:08:48.240 --> 00:08:49.910 align:start position:0%
+solutions for those problems. It may
+just<00:08:48.480><c> be</c><00:08:48.640><c> a</c><00:08:48.800><c> coincidence,</c><00:08:49.360><c> but</c><00:08:49.600><c> it</c><00:08:49.760><c> showed</c>
+
+00:08:49.910 --> 00:08:49.920 align:start position:0%
+just be a coincidence, but it showed
+ 
+
+00:08:49.920 --> 00:08:51.350 align:start position:0%
+just be a coincidence, but it showed
+that<00:08:50.080><c> the</c><00:08:50.240><c> smaller</c><00:08:50.560><c> model</c><00:08:50.880><c> was</c><00:08:51.120><c> able</c><00:08:51.279><c> to</c>
+
+00:08:51.350 --> 00:08:51.360 align:start position:0%
+that the smaller model was able to
+ 
+
+00:08:51.360 --> 00:08:53.509 align:start position:0%
+that the smaller model was able to
+achieve<00:08:51.839><c> skill</c><00:08:52.160><c> discovery</c><00:08:52.720><c> that</c><00:08:52.959><c> the</c><00:08:53.120><c> bigger</c>
+
+00:08:53.509 --> 00:08:53.519 align:start position:0%
+achieve skill discovery that the bigger
+ 
+
+00:08:53.519 --> 00:08:55.350 align:start position:0%
+achieve skill discovery that the bigger
+more<00:08:53.760><c> general</c><00:08:54.160><c> model</c><00:08:54.480><c> hasn't</c><00:08:54.880><c> been</c><00:08:55.040><c> able</c><00:08:55.200><c> to</c>
+
+00:08:55.350 --> 00:08:55.360 align:start position:0%
+more general model hasn't been able to
+ 
+
+00:08:55.360 --> 00:08:57.509 align:start position:0%
+more general model hasn't been able to
+pick<00:08:55.600><c> up.</c><00:08:55.839><c> So</c><00:08:56.000><c> on</c><00:08:56.160><c> the</c><00:08:56.240><c> PNM</c><00:08:56.640><c> bench,</c><00:08:57.040><c> Deep</c><00:08:57.279><c> Seek</c>
+
+00:08:57.509 --> 00:08:57.519 align:start position:0%
+pick up. So on the PNM bench, Deep Seek
+ 
+
+00:08:57.519 --> 00:09:00.310 align:start position:0%
+pick up. So on the PNM bench, Deep Seek
+Prover<00:08:57.920><c> V2's</c><00:08:58.480><c> ability</c><00:08:58.720><c> to</c><00:08:58.880><c> formally</c><00:08:59.440><c> solve</c><00:08:59.760><c> 49</c>
+
+00:09:00.310 --> 00:09:00.320 align:start position:0%
+Prover V2's ability to formally solve 49
+ 
+
+00:09:00.320 --> 00:09:03.110 align:start position:0%
+Prover V2's ability to formally solve 49
+problems<00:09:00.880><c> is</c><00:09:01.279><c> actually</c><00:09:01.760><c> 62</c><00:09:02.240><c> in</c><00:09:02.480><c> total</c><00:09:02.800><c> when</c>
+
+00:09:03.110 --> 00:09:03.120 align:start position:0%
+problems is actually 62 in total when
+ 
+
+00:09:03.120 --> 00:09:05.430 align:start position:0%
+problems is actually 62 in total when
+combined<00:09:03.440><c> with</c><00:09:03.680><c> 7B</c><00:09:04.160><c> models</c><00:09:04.560><c> unique</c><00:09:04.880><c> skills.</c>
+
+00:09:05.430 --> 00:09:05.440 align:start position:0%
+combined with 7B models unique skills.
+ 
+
+00:09:05.440 --> 00:09:07.350 align:start position:0%
+combined with 7B models unique skills.
+And<00:09:05.600><c> lastly,</c><00:09:06.080><c> to</c><00:09:06.320><c> address</c><00:09:06.640><c> the</c><00:09:06.880><c> elephant</c><00:09:07.200><c> in</c>
+
+00:09:07.350 --> 00:09:07.360 align:start position:0%
+And lastly, to address the elephant in
+ 
+
+00:09:07.360 --> 00:09:08.949 align:start position:0%
+And lastly, to address the elephant in
+the<00:09:07.519><c> room,</c><00:09:07.920><c> how</c><00:09:08.080><c> is</c><00:09:08.320><c> this</c><00:09:08.560><c> really</c><00:09:08.800><c> different</c>
+
+00:09:08.949 --> 00:09:08.959 align:start position:0%
+the room, how is this really different
+ 
+
+00:09:08.959 --> 00:09:11.110 align:start position:0%
+the room, how is this really different
+from<00:09:09.200><c> a</c><00:09:09.360><c> model</c><00:09:09.760><c> trained</c><00:09:10.160><c> for</c><00:09:10.399><c> math?</c><00:09:10.880><c> Because</c>
+
+00:09:11.110 --> 00:09:11.120 align:start position:0%
+from a model trained for math? Because
+ 
+
+00:09:11.120 --> 00:09:13.430 align:start position:0%
+from a model trained for math? Because
+this<00:09:11.360><c> is</c><00:09:11.519><c> not</c><00:09:11.680><c> a</c><00:09:11.920><c> model</c><00:09:12.399><c> hitting</c><00:09:12.720><c> some</c><00:09:13.040><c> crazy</c>
+
+00:09:13.430 --> 00:09:13.440 align:start position:0%
+this is not a model hitting some crazy
+ 
+
+00:09:13.440 --> 00:09:16.070 align:start position:0%
+this is not a model hitting some crazy
+score<00:09:13.680><c> on</c><00:09:14.000><c> Amy</c><00:09:14.399><c> or</c><00:09:14.560><c> USA.</c><00:09:15.519><c> Well,</c><00:09:15.920><c> these</c>
+
+00:09:16.070 --> 00:09:16.080 align:start position:0%
+score on Amy or USA. Well, these
+ 
+
+00:09:16.080 --> 00:09:18.150 align:start position:0%
+score on Amy or USA. Well, these
+standard<00:09:16.480><c> maths</c><00:09:16.880><c> solving</c><00:09:17.120><c> AI</c><00:09:17.519><c> models</c><00:09:17.920><c> are</c>
+
+00:09:18.150 --> 00:09:18.160 align:start position:0%
+standard maths solving AI models are
+ 
+
+00:09:18.160 --> 00:09:20.070 align:start position:0%
+standard maths solving AI models are
+usually<00:09:18.480><c> trained</c><00:09:18.800><c> to</c><00:09:19.040><c> find</c><00:09:19.279><c> a</c><00:09:19.519><c> numerical</c>
+
+00:09:20.070 --> 00:09:20.080 align:start position:0%
+usually trained to find a numerical
+ 
+
+00:09:20.080 --> 00:09:21.750 align:start position:0%
+usually trained to find a numerical
+answer<00:09:20.399><c> or</c><00:09:20.640><c> provide</c><00:09:20.880><c> a</c><00:09:21.120><c> natural</c><00:09:21.440><c> language</c>
+
+00:09:21.750 --> 00:09:21.760 align:start position:0%
+answer or provide a natural language
+ 
+
+00:09:21.760 --> 00:09:23.910 align:start position:0%
+answer or provide a natural language
+explanation<00:09:22.399><c> without</c><00:09:22.720><c> a</c><00:09:22.959><c> fully</c><00:09:23.360><c> formal</c>
+
+00:09:23.910 --> 00:09:23.920 align:start position:0%
+explanation without a fully formal
+ 
+
+00:09:23.920 --> 00:09:26.230 align:start position:0%
+explanation without a fully formal
+machine<00:09:24.320><c> verifiable</c><00:09:25.040><c> reasoning</c><00:09:25.519><c> path.</c><00:09:26.000><c> They</c>
+
+00:09:26.230 --> 00:09:26.240 align:start position:0%
+machine verifiable reasoning path. They
+ 
+
+00:09:26.240 --> 00:09:28.630 align:start position:0%
+machine verifiable reasoning path. They
+are<00:09:26.399><c> not</c><00:09:26.560><c> subjected</c><00:09:27.040><c> to</c><00:09:27.279><c> the</c><00:09:27.600><c> absolute</c><00:09:28.320><c> line</c>
+
+00:09:28.630 --> 00:09:28.640 align:start position:0%
+are not subjected to the absolute line
+ 
+
+00:09:28.640 --> 00:09:30.870 align:start position:0%
+are not subjected to the absolute line
+by<00:09:28.880><c> line</c><00:09:29.120><c> logical</c><00:09:29.680><c> scrutiny</c><00:09:30.160><c> that</c><00:09:30.480><c> formal</c>
+
+00:09:30.870 --> 00:09:30.880 align:start position:0%
+by line logical scrutiny that formal
+ 
+
+00:09:30.880 --> 00:09:32.790 align:start position:0%
+by line logical scrutiny that formal
+proof<00:09:31.200><c> language</c><00:09:31.519><c> like</c><00:09:31.760><c> lean</c><00:09:32.160><c> for</c><00:09:32.320><c> demands.</c>
+
+00:09:32.790 --> 00:09:32.800 align:start position:0%
+proof language like lean for demands.
+ 
+
+00:09:32.800 --> 00:09:35.030 align:start position:0%
+proof language like lean for demands.
+Deepseek<00:09:33.279><c> prover</c><00:09:34.080><c> on</c><00:09:34.160><c> the</c><00:09:34.320><c> other</c><00:09:34.399><c> hand</c><00:09:34.720><c> leaves</c>
+
+00:09:35.030 --> 00:09:35.040 align:start position:0%
+Deepseek prover on the other hand leaves
+ 
+
+00:09:35.040 --> 00:09:37.430 align:start position:0%
+Deepseek prover on the other hand leaves
+no<00:09:35.279><c> room</c><00:09:35.519><c> for</c><00:09:35.760><c> ambiguity</c><00:09:36.560><c> or</c><00:09:36.800><c> unstated</c>
+
+00:09:37.430 --> 00:09:37.440 align:start position:0%
+no room for ambiguity or unstated
+ 
+
+00:09:37.440 --> 00:09:39.190 align:start position:0%
+no room for ambiguity or unstated
+assumptions.<00:09:38.080><c> This</c><00:09:38.320><c> inherent</c><00:09:38.720><c> robustness</c>
+
+00:09:39.190 --> 00:09:39.200 align:start position:0%
+assumptions. This inherent robustness
+ 
+
+00:09:39.200 --> 00:09:40.949 align:start position:0%
+assumptions. This inherent robustness
+that<00:09:39.440><c> is</c><00:09:39.600><c> trained</c><00:09:39.920><c> through</c><00:09:40.160><c> RL</c><00:09:40.640><c> would</c>
+
+00:09:40.949 --> 00:09:40.959 align:start position:0%
+that is trained through RL would
+ 
+
+00:09:40.959 --> 00:09:42.470 align:start position:0%
+that is trained through RL would
+potentially<00:09:41.360><c> make</c><00:09:41.600><c> training</c><00:09:42.000><c> downstream</c>
+
+00:09:42.470 --> 00:09:42.480 align:start position:0%
+potentially make training downstream
+ 
+
+00:09:42.480 --> 00:09:44.870 align:start position:0%
+potentially make training downstream
+math<00:09:42.880><c> solving</c><00:09:43.200><c> skills</c><00:09:43.680><c> much</c><00:09:44.000><c> better</c><00:09:44.480><c> and</c>
+
+00:09:44.870 --> 00:09:44.880 align:start position:0%
+math solving skills much better and
+ 
+
+00:09:44.880 --> 00:09:47.110 align:start position:0%
+math solving skills much better and
+easier.<00:09:45.440><c> So</c><00:09:45.680><c> while</c><00:09:46.000><c> standard</c><00:09:46.399><c> math</c><00:09:46.640><c> solvers</c>
+
+00:09:47.110 --> 00:09:47.120 align:start position:0%
+easier. So while standard math solvers
+ 
+
+00:09:47.120 --> 00:09:49.030 align:start position:0%
+easier. So while standard math solvers
+might<00:09:47.440><c> currently</c><00:09:47.760><c> achieve</c><00:09:48.320><c> higher</c><00:09:48.720><c> pass</c>
+
+00:09:49.030 --> 00:09:49.040 align:start position:0%
+might currently achieve higher pass
+ 
+
+00:09:49.040 --> 00:09:51.350 align:start position:0%
+might currently achieve higher pass
+rates<00:09:49.279><c> on</c><00:09:49.519><c> broader</c><00:09:49.920><c> sets</c><00:09:50.160><c> of</c><00:09:50.320><c> math</c><00:09:50.640><c> problems,</c>
+
+00:09:51.350 --> 00:09:51.360 align:start position:0%
+rates on broader sets of math problems,
+ 
+
+00:09:51.360 --> 00:09:53.509 align:start position:0%
+rates on broader sets of math problems,
+DeepSeek<00:09:51.920><c> Prover</c><00:09:52.800><c> is</c><00:09:53.040><c> demonstrating</c>
+
+00:09:53.509 --> 00:09:53.519 align:start position:0%
+DeepSeek Prover is demonstrating
+ 
+
+00:09:53.519 --> 00:09:55.269 align:start position:0%
+DeepSeek Prover is demonstrating
+state-of-the-art<00:09:54.160><c> performance</c><00:09:54.560><c> in</c><00:09:54.720><c> a</c><00:09:54.880><c> domain</c>
+
+00:09:55.269 --> 00:09:55.279 align:start position:0%
+state-of-the-art performance in a domain
+ 
+
+00:09:55.279 --> 00:09:57.269 align:start position:0%
+state-of-the-art performance in a domain
+that<00:09:55.519><c> demands</c><00:09:56.080><c> absolute</c><00:09:56.640><c> precision</c><00:09:57.120><c> and</c>
+
+00:09:57.269 --> 00:09:57.279 align:start position:0%
+that demands absolute precision and
+ 
+
+00:09:57.279 --> 00:09:59.190 align:start position:0%
+that demands absolute precision and
+correctness.<00:09:57.920><c> And</c><00:09:58.080><c> if</c><00:09:58.160><c> a</c><00:09:58.399><c> formal</c><00:09:58.720><c> prover</c>
+
+00:09:59.190 --> 00:09:59.200 align:start position:0%
+correctness. And if a formal prover
+ 
+
+00:09:59.200 --> 00:10:01.670 align:start position:0%
+correctness. And if a formal prover
+solves<00:09:59.519><c> a</c><00:09:59.760><c> theorem,</c><00:10:00.320><c> that</c><00:10:00.640><c> solution</c><00:10:01.040><c> is</c><00:10:01.360><c> by</c>
+
+00:10:01.670 --> 00:10:01.680 align:start position:0%
+solves a theorem, that solution is by
+ 
+
+00:10:01.680 --> 00:10:03.750 align:start position:0%
+solves a theorem, that solution is by
+definition<00:10:02.399><c> logically</c><00:10:03.120><c> and</c><00:10:03.279><c> refutable</c>
+
+00:10:03.750 --> 00:10:03.760 align:start position:0%
+definition logically and refutable
+ 
+
+00:10:03.760 --> 00:10:05.750 align:start position:0%
+definition logically and refutable
+within<00:10:04.160><c> its</c><00:10:04.399><c> system.</c><00:10:04.800><c> And</c><00:10:04.959><c> if</c><00:10:05.200><c> we</c><00:10:05.279><c> can</c><00:10:05.440><c> add</c><00:10:05.600><c> in</c>
+
+00:10:05.750 --> 00:10:05.760 align:start position:0%
+within its system. And if we can add in
+ 
+
+00:10:05.760 --> 00:10:08.269 align:start position:0%
+within its system. And if we can add in
+a<00:10:06.000><c> system</c><00:10:06.240><c> to</c><00:10:06.480><c> check</c><00:10:06.800><c> calculations</c><00:10:07.519><c> accuracy</c>
+
+00:10:08.269 --> 00:10:08.279 align:start position:0%
+a system to check calculations accuracy
+ 
+
+00:10:08.279 --> 00:10:10.470 align:start position:0%
+a system to check calculations accuracy
+systematically,<00:10:09.279><c> then</c><00:10:09.440><c> imagine</c><00:10:09.839><c> if</c><00:10:10.160><c> all</c><00:10:10.320><c> the</c>
+
+00:10:10.470 --> 00:10:10.480 align:start position:0%
+systematically, then imagine if all the
+ 
+
+00:10:10.480 --> 00:10:12.630 align:start position:0%
+systematically, then imagine if all the
+other<00:10:10.720><c> LLM</c><00:10:11.279><c> are</c><00:10:11.440><c> trained</c><00:10:11.760><c> with</c><00:10:11.920><c> math</c><00:10:12.399><c> this</c>
+
+00:10:12.630 --> 00:10:12.640 align:start position:0%
+other LLM are trained with math this
+ 
+
+00:10:12.640 --> 00:10:14.550 align:start position:0%
+other LLM are trained with math this
+rigorously,<00:10:13.279><c> I</c><00:10:13.519><c> think</c><00:10:13.600><c> this</c><00:10:13.839><c> holds</c><00:10:14.160><c> a</c><00:10:14.399><c> pretty</c>
+
+00:10:14.550 --> 00:10:14.560 align:start position:0%
+rigorously, I think this holds a pretty
+ 
+
+00:10:14.560 --> 00:10:16.150 align:start position:0%
+rigorously, I think this holds a pretty
+big<00:10:14.800><c> promise</c><00:10:15.200><c> for</c><00:10:15.440><c> improving</c><00:10:15.920><c> the</c>
+
+00:10:16.150 --> 00:10:16.160 align:start position:0%
+big promise for improving the
+ 
+
+00:10:16.160 --> 00:10:18.310 align:start position:0%
+big promise for improving the
+reliability<00:10:16.800><c> of</c><00:10:16.959><c> AI</c><00:10:17.360><c> reasoning</c><00:10:17.839><c> across</c><00:10:18.160><c> the</c>
+
+00:10:18.310 --> 00:10:18.320 align:start position:0%
+reliability of AI reasoning across the
+ 
+
+00:10:18.320 --> 00:10:19.910 align:start position:0%
+reliability of AI reasoning across the
+board<00:10:18.480><c> in</c><00:10:18.720><c> the</c><00:10:18.880><c> future</c><00:10:19.279><c> and</c><00:10:19.519><c> bring</c><00:10:19.680><c> the</c>
+
+00:10:19.910 --> 00:10:19.920 align:start position:0%
+board in the future and bring the
+ 
+
+00:10:19.920 --> 00:10:21.910 align:start position:0%
+board in the future and bring the
+performance<00:10:20.320><c> of</c><00:10:20.560><c> math</c><00:10:20.959><c> to</c><00:10:21.279><c> the</c><00:10:21.440><c> next</c><00:10:21.600><c> level.</c>
+
+00:10:21.910 --> 00:10:21.920 align:start position:0%
+performance of math to the next level.
+ 
+
+00:10:21.920 --> 00:10:23.509 align:start position:0%
+performance of math to the next level.
+And<00:10:22.079><c> yeah,</c><00:10:22.320><c> that's</c><00:10:22.480><c> it</c><00:10:22.640><c> for</c><00:10:22.800><c> this</c><00:10:23.040><c> video.</c><00:10:23.360><c> If</c>
+
+00:10:23.509 --> 00:10:23.519 align:start position:0%
+And yeah, that's it for this video. If
+ 
+
+00:10:23.519 --> 00:10:25.269 align:start position:0%
+And yeah, that's it for this video. If
+you<00:10:23.600><c> like</c><00:10:23.760><c> today's</c><00:10:24.079><c> research</c><00:10:24.480><c> paper</c><00:10:24.800><c> review,</c>
+
+00:10:25.269 --> 00:10:25.279 align:start position:0%
+you like today's research paper review,
+ 
+
+00:10:25.279 --> 00:10:26.630 align:start position:0%
+you like today's research paper review,
+definitely<00:10:25.519><c> check</c><00:10:25.680><c> out</c><00:10:25.839><c> my</c><00:10:26.000><c> newsletter</c><00:10:26.480><c> where</c>
+
+00:10:26.630 --> 00:10:26.640 align:start position:0%
+definitely check out my newsletter where
+ 
+
+00:10:26.640 --> 00:10:28.310 align:start position:0%
+definitely check out my newsletter where
+I<00:10:26.800><c> cover</c><00:10:27.040><c> the</c><00:10:27.200><c> latest</c><00:10:27.519><c> and</c><00:10:27.760><c> the</c><00:10:27.839><c> juiciest</c>
+
+00:10:28.310 --> 00:10:28.320 align:start position:0%
+I cover the latest and the juiciest
+ 
+
+00:10:28.320 --> 00:10:30.310 align:start position:0%
+I cover the latest and the juiciest
+papers<00:10:28.720><c> weekly.</c><00:10:29.279><c> on</c><00:10:29.519><c> there,</c><00:10:29.839><c> you</c><00:10:30.000><c> will</c><00:10:30.160><c> be</c>
+
+00:10:30.310 --> 00:10:30.320 align:start position:0%
+papers weekly. on there, you will be
+ 
+
+00:10:30.320 --> 00:10:32.069 align:start position:0%
+papers weekly. on there, you will be
+completely<00:10:30.720><c> up</c><00:10:30.880><c> to</c><00:10:31.040><c> date</c><00:10:31.200><c> every</c><00:10:31.440><c> week</c><00:10:31.680><c> on</c><00:10:31.920><c> the</c>
+
+00:10:32.069 --> 00:10:32.079 align:start position:0%
+completely up to date every week on the
+ 
+
+00:10:32.079 --> 00:10:34.069 align:start position:0%
+completely up to date every week on the
+cool<00:10:32.320><c> new</c><00:10:32.480><c> AI</c><00:10:32.880><c> research.</c><00:10:33.440><c> So</c><00:10:33.600><c> you</c><00:10:33.760><c> don't</c><00:10:33.920><c> have</c>
+
+00:10:34.069 --> 00:10:34.079 align:start position:0%
+cool new AI research. So you don't have
+ 
+
+00:10:34.079 --> 00:10:35.750 align:start position:0%
+cool new AI research. So you don't have
+to<00:10:34.160><c> wait</c><00:10:34.399><c> for</c><00:10:34.560><c> my</c><00:10:34.720><c> videos</c><00:10:35.040><c> because</c><00:10:35.360><c> I</c><00:10:35.600><c> am</c>
+
+00:10:35.750 --> 00:10:35.760 align:start position:0%
+to wait for my videos because I am
+ 
+
+00:10:35.760 --> 00:10:37.590 align:start position:0%
+to wait for my videos because I am
+always<00:10:36.000><c> slow</c><00:10:36.320><c> at</c><00:10:36.560><c> making</c><00:10:36.800><c> them.</c><00:10:37.279><c> And</c><00:10:37.440><c> thank</c>
+
+00:10:37.590 --> 00:10:37.600 align:start position:0%
+always slow at making them. And thank
+ 
+
+00:10:37.600 --> 00:10:39.350 align:start position:0%
+always slow at making them. And thank
+you<00:10:37.760><c> guys</c><00:10:37.920><c> for</c><00:10:38.160><c> watching.</c><00:10:38.560><c> A</c><00:10:38.800><c> big</c><00:10:39.040><c> shout</c><00:10:39.200><c> out</c>
+
+00:10:39.350 --> 00:10:39.360 align:start position:0%
+you guys for watching. A big shout out
+ 
+
+00:10:39.360 --> 00:10:44.030 align:start position:0%
+you guys for watching. A big shout out
+to<00:10:39.600><c> Andrew</c><00:10:40.240><c> Chelas,</c><00:10:41.120><c> Chris</c><00:10:41.480><c> Leoo,</c><00:10:42.600><c> Degan</c><00:10:43.600><c> News</c>
+
+00:10:44.030 --> 00:10:44.040 align:start position:0%
+to Andrew Chelas, Chris Leoo, Degan News
+ 
+
+00:10:44.040 --> 00:10:48.150 align:start position:0%
+to Andrew Chelas, Chris Leoo, Degan News
+Research,<00:10:45.079><c> Kanan,</c><00:10:46.079><c> Robert</c><00:10:46.680><c> Zaviasa,</c><00:10:47.680><c> Leis</c>
+
+00:10:48.150 --> 00:10:48.160 align:start position:0%
+Research, Kanan, Robert Zaviasa, Leis
+ 
+
+00:10:48.160 --> 00:10:51.990 align:start position:0%
+Research, Kanan, Robert Zaviasa, Leis
+Muk,<00:10:48.959><c> Ben</c><00:10:49.279><c> Shainer,</c><00:10:50.160><c> Marcelo,</c><00:10:51.000><c> Ferraria,</c>
+
+00:10:51.990 --> 00:10:52.000 align:start position:0%
+Muk, Ben Shainer, Marcelo, Ferraria,
+ 
+
+00:10:52.000 --> 00:10:55.110 align:start position:0%
+Muk, Ben Shainer, Marcelo, Ferraria,
+Zane,<00:10:52.320><c> Sheep,</c><00:10:53.040><c> Poof,</c><00:10:53.360><c> and</c><00:10:53.600><c> Enu,</c><00:10:54.240><c> DX</c><00:10:54.720><c> Research</c>
+
+00:10:55.110 --> 00:10:55.120 align:start position:0%
+Zane, Sheep, Poof, and Enu, DX Research
+ 
+
+00:10:55.120 --> 00:10:56.790 align:start position:0%
+Zane, Sheep, Poof, and Enu, DX Research
+Group,<00:10:55.519><c> and</c><00:10:55.760><c> many</c><00:10:56.000><c> others</c><00:10:56.240><c> that</c><00:10:56.480><c> support</c><00:10:56.640><c> me</c>
+
+00:10:56.790 --> 00:10:56.800 align:start position:0%
+Group, and many others that support me
+ 
+
+00:10:56.800 --> 00:10:58.630 align:start position:0%
+Group, and many others that support me
+through<00:10:57.040><c> Patreon</c><00:10:57.440><c> or</c><00:10:57.600><c> YouTube.</c><00:10:58.160><c> Follow</c><00:10:58.320><c> me</c><00:10:58.480><c> on</c>
+
+00:10:58.630 --> 00:10:58.640 align:start position:0%
+through Patreon or YouTube. Follow me on
+ 
+
+00:10:58.640 --> 00:10:59.910 align:start position:0%
+through Patreon or YouTube. Follow me on
+Twitter<00:10:58.800><c> if</c><00:10:58.959><c> you</c><00:10:59.120><c> haven't</c><00:10:59.279><c> and</c><00:10:59.519><c> I'll</c><00:10:59.760><c> see</c>
+
+00:10:59.910 --> 00:10:59.920 align:start position:0%
+Twitter if you haven't and I'll see
+ 
+
+00:10:59.920 --> 00:11:02.800 align:start position:0%
+Twitter if you haven't and I'll see
+youall<00:11:00.240><c> in</c><00:11:00.480><c> the</c><00:11:00.640><c> next</c>
+

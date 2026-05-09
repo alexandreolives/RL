@@ -1,0 +1,36 @@
+Check out Runpod's Hub and Serverless to make deploying AI models even easier! https://runpod.io?ref=h9oj1vbp
+
+ByteDance Seed Proposed PMA which is a model merging technique for pre-training models to project your annealed performance without the need to go through annealing. This can save up to millions in big model training runs.
+
+My Newsletter
+https://mail.bycloud.ai/
+
+my project: find, discover & explain AI research semantically
+https://findmypapers.ai/
+
+My Patreon
+https://www.patreon.com/c/bycloud
+
+
+Model Merging in Pre-training of Large Language Models
+[Paper] https://alphaxiv.org/abs/2505.12082
+
+Other "model merging" techniques I mentioned (but are used in completely different scenarios)
+https://alphaxiv.org/abs/2410.03617
+https://alphaxiv.org/abs/2410.15661
+https://alphaxiv.org/abs/2403.07816 
+
+
+Try out my new fav place to learn how to code https://scrimba.com/?via=bycloudAI
+
+This video is supported by the kind Patrons & YouTube Members: 
+🙏Nous Research, Chris LeDoux, Ben Shaener, DX Research Group, Poof N' Inu, Andrew Lescelius, Deagan, Robert Zawiasa, Ryszard Warzocha, Tobe2d, Louis Muk, Akkusativ, Kevin Tai, Mark Buckler, NO U, Tony Jimenez, Ângelo Fonseca, jiye, Anushka, Asad Dhamani, Binnie Yiu, Calvin Yan, Clayton Ford, Diego Silva, Etrotta, Gonzalo Fidalgo, Handenon, Hector, Jake Disco very, Michael Brenner, Nilly K, OlegWock, Daddy Wen, Shuhong Chen, Sid_Cipher, Stefan Lorenz, Sup, tantan assawade, Thipok Tham, Thomas Di Martino, Thomas Lin, Richárd Nagyfi, Paperboy, mika, Leo, Berhane-Meskel, Kadhai Pesalam, mayssam, Bill Mangrum, nyaa, Toru Mon, Constantinos Charilaou, Abay Bektursun
+
+
+[Discord] https://discord.gg/NhJZGtH
+[Twitter] https://twitter.com/bycloudai
+[Patreon] https://www.patreon.com/bycloud
+[Business Inquiries] bycloud@smoothmedia.co
+[Profile & Banner Art] https://twitter.com/pygm7
+[Video Editor] Abhay
+[Ko-fi] https://ko-fi.com/bycloudai

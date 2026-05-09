@@ -1,0 +1,43 @@
+Check out HubSpot's FREE AI Decoded Pocket Guide: https://clickhubspot.com/d21e13 
+
+In today's video, I'll be breaking down what made DeepSeek V3.2 such an important paper, how is DeepSeek-V3.2-Speciale so good, how DeepSeek has created this model, and explaining DeepSeek's new secret weapon: DeepSeek Sparse Attention (DSA). 
+
+my latest project: Intuitive AI Academy, learn modern AI/LLMs Intuitively
+https://intuitiveai.academy/
+code "NYNM" for 50% off forever (limited to 50)
+
+My Newsletter
+https://mail.bycloud.ai/
+
+my project: find, discover & explain AI research semantically
+https://findmypapers.ai/
+
+My Patreon
+https://www.patreon.com/c/bycloud
+
+DeepSeek-V3.2
+[Paper] https://rebrand.ly/s6apdew
+[V3.2 Huggingface] https://huggingface.co/deepseek-ai/DeepSeek-V3.2
+[V3.2 Speciale Huggingface] https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Speciale
+
+DeepSeek-V3.2-exp
+[Paper] https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/blob/main/DeepSeek_V3_2.pdf
+[Huggingface] https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp
+
+DeepSeek-V3.1-Terminus
+[Paper] https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Terminus
+[Huggingface] https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Terminus
+
+Try out my new fav place to learn how to code https://scrimba.com/?via=bycloudAI
+
+This video is supported by the kind Patrons & YouTube Members: 
+🙏Spam Maj, Alex, Chris LeDoux, DX Research Group, Poof N' Inu, Deagan, Robert Zawiasa, Ryszard Warzocha, Tobe2d, Louis Muk, Akkusativ, Kevin Tai, Mark Buckler, NO U, Tony Jimenez, Ângelo Fonseca, jiye, Anushka, Asad Dhamani, Binnie Yiu, Calvin Yan, Clayton Ford, Diego Silva, Etrotta, Gonzalo Fidalgo, Handenon, Hector, Jake Disco very, Michael Brenner, Nilly K, OlegWock, Daddy Wen, Shuhong Chen, Sid_Cipher, Stefan Lorenz, Sup, tantan assawade, Thipok Tham, Thomas Di Martino, Thomas Lin, Richárd Nagyfi, Paperboy, mika, Leo, Berhane-Meskel, Kadhai Pesalam, mayssam, Bill Mangrum, nyaa, Toru Mon, Lame Plane
+
+
+[Discord] https://discord.gg/NhJZGtH
+[Twitter] https://twitter.com/bycloudai
+[Patreon] https://www.patreon.com/bycloud
+[Business Inquiries] bycloud@smoothmedia.co
+[Profile & Banner Art] https://twitter.com/pygm7
+[Video Editor] @Booga04 
+[Ko-fi] https://ko-fi.com/bycloudai

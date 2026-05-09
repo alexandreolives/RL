@@ -1,0 +1,2280 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.080 --> 00:00:01.910 align:start position:0%
+ 
+AI<00:00:00.400><c> chatbots,</c><00:00:00.960><c> which</c><00:00:01.120><c> are</c><00:00:01.280><c> built</c><00:00:01.439><c> from</c><00:00:01.600><c> large</c>
+
+00:00:01.910 --> 00:00:01.920 align:start position:0%
+AI chatbots, which are built from large
+ 
+
+00:00:01.920 --> 00:00:04.070 align:start position:0%
+AI chatbots, which are built from large
+language<00:00:02.320><c> models,</c><00:00:02.800><c> don't</c><00:00:03.040><c> perceive</c><00:00:03.520><c> raw</c><00:00:03.840><c> text</c>
+
+00:00:04.070 --> 00:00:04.080 align:start position:0%
+language models, don't perceive raw text
+ 
+
+00:00:04.080 --> 00:00:06.150 align:start position:0%
+language models, don't perceive raw text
+or<00:00:04.319><c> characters</c><00:00:04.720><c> in</c><00:00:04.880><c> the</c><00:00:05.040><c> same</c><00:00:05.120><c> way</c><00:00:05.359><c> humans</c><00:00:05.759><c> do.</c>
+
+00:00:06.150 --> 00:00:06.160 align:start position:0%
+or characters in the same way humans do.
+ 
+
+00:00:06.160 --> 00:00:08.070 align:start position:0%
+or characters in the same way humans do.
+Instead,<00:00:06.640><c> they</c><00:00:06.960><c> process</c><00:00:07.359><c> information</c><00:00:07.680><c> as</c><00:00:07.919><c> a</c>
+
+00:00:08.070 --> 00:00:08.080 align:start position:0%
+Instead, they process information as a
+ 
+
+00:00:08.080 --> 00:00:09.830 align:start position:0%
+Instead, they process information as a
+sequence<00:00:08.320><c> of</c><00:00:08.480><c> tokens,</c><00:00:09.040><c> which</c><00:00:09.200><c> are</c><00:00:09.360><c> discrete</c>
+
+00:00:09.830 --> 00:00:09.840 align:start position:0%
+sequence of tokens, which are discrete
+ 
+
+00:00:09.840 --> 00:00:11.509 align:start position:0%
+sequence of tokens, which are discrete
+units<00:00:10.240><c> derived</c><00:00:10.639><c> from</c><00:00:10.800><c> a</c><00:00:10.960><c> predefined</c>
+
+00:00:11.509 --> 00:00:11.519 align:start position:0%
+units derived from a predefined
+ 
+
+00:00:11.519 --> 00:00:14.230 align:start position:0%
+units derived from a predefined
+vocabulary.<00:00:12.320><c> But</c><00:00:12.480><c> why</c><00:00:12.880><c> tokens?</c><00:00:13.679><c> Well,</c><00:00:13.920><c> if</c><00:00:14.080><c> we</c>
+
+00:00:14.230 --> 00:00:14.240 align:start position:0%
+vocabulary. But why tokens? Well, if we
+ 
+
+00:00:14.240 --> 00:00:15.829 align:start position:0%
+vocabulary. But why tokens? Well, if we
+use<00:00:14.400><c> individual</c><00:00:14.960><c> characters</c><00:00:15.280><c> as</c><00:00:15.440><c> a</c><00:00:15.599><c> base</c>
+
+00:00:15.829 --> 00:00:15.839 align:start position:0%
+use individual characters as a base
+ 
+
+00:00:15.839 --> 00:00:17.349 align:start position:0%
+use individual characters as a base
+unit,<00:00:16.160><c> it</c><00:00:16.400><c> would</c><00:00:16.480><c> be</c><00:00:16.640><c> very</c><00:00:16.880><c> difficult</c><00:00:17.119><c> to</c>
+
+00:00:17.349 --> 00:00:17.359 align:start position:0%
+unit, it would be very difficult to
+ 
+
+00:00:17.359 --> 00:00:19.429 align:start position:0%
+unit, it would be very difficult to
+carry<00:00:17.680><c> over</c><00:00:18.000><c> semantic</c><00:00:18.560><c> meanings.</c><00:00:18.960><c> And</c><00:00:19.119><c> if</c><00:00:19.279><c> we</c>
+
+00:00:19.429 --> 00:00:19.439 align:start position:0%
+carry over semantic meanings. And if we
+ 
+
+00:00:19.439 --> 00:00:21.590 align:start position:0%
+carry over semantic meanings. And if we
+use<00:00:19.680><c> whole</c><00:00:20.000><c> words,</c><00:00:20.480><c> it</c><00:00:20.720><c> needs</c><00:00:20.960><c> to</c><00:00:21.119><c> accommodate</c>
+
+00:00:21.590 --> 00:00:21.600 align:start position:0%
+use whole words, it needs to accommodate
+ 
+
+00:00:21.600 --> 00:00:24.550 align:start position:0%
+use whole words, it needs to accommodate
+for<00:00:21.760><c> long</c><00:00:22.160><c> words,</c><00:00:22.720><c> new</c><00:00:22.960><c> terms,</c><00:00:23.680><c> rare</c><00:00:24.000><c> words,</c>
+
+00:00:24.550 --> 00:00:24.560 align:start position:0%
+for long words, new terms, rare words,
+ 
+
+00:00:24.560 --> 00:00:27.349 align:start position:0%
+for long words, new terms, rare words,
+typos,<00:00:25.359><c> or</c><00:00:25.600><c> variations</c><00:00:26.240><c> which</c><00:00:26.480><c> are</c><00:00:26.800><c> not</c><00:00:27.039><c> as</c>
+
+00:00:27.349 --> 00:00:27.359 align:start position:0%
+typos, or variations which are not as
+ 
+
+00:00:27.359 --> 00:00:29.269 align:start position:0%
+typos, or variations which are not as
+efficient.<00:00:27.920><c> So</c><00:00:28.080><c> this</c><00:00:28.240><c> is</c><00:00:28.400><c> why</c><00:00:28.560><c> tokenization</c>
+
+00:00:29.269 --> 00:00:29.279 align:start position:0%
+efficient. So this is why tokenization
+ 
+
+00:00:29.279 --> 00:00:31.269 align:start position:0%
+efficient. So this is why tokenization
+is<00:00:29.519><c> introduced</c><00:00:30.000><c> as</c><00:00:30.160><c> a</c><00:00:30.400><c> way</c><00:00:30.480><c> to</c><00:00:30.720><c> break</c><00:00:30.960><c> text</c>
+
+00:00:31.269 --> 00:00:31.279 align:start position:0%
+is introduced as a way to break text
+ 
+
+00:00:31.279 --> 00:00:33.270 align:start position:0%
+is introduced as a way to break text
+into<00:00:31.599><c> smaller</c><00:00:31.920><c> and</c><00:00:32.160><c> more</c><00:00:32.320><c> manageable</c><00:00:32.880><c> units</c>
+
+00:00:33.270 --> 00:00:33.280 align:start position:0%
+into smaller and more manageable units
+ 
+
+00:00:33.280 --> 00:00:35.350 align:start position:0%
+into smaller and more manageable units
+which<00:00:33.600><c> are</c><00:00:33.760><c> often</c><00:00:34.160><c> subwords.</c><00:00:34.960><c> This</c><00:00:35.120><c> then</c>
+
+00:00:35.350 --> 00:00:35.360 align:start position:0%
+which are often subwords. This then
+ 
+
+00:00:35.360 --> 00:00:36.950 align:start position:0%
+which are often subwords. This then
+becomes<00:00:35.680><c> the</c><00:00:35.920><c> perfect</c><00:00:36.160><c> middle</c><00:00:36.559><c> ground</c><00:00:36.719><c> where</c>
+
+00:00:36.950 --> 00:00:36.960 align:start position:0%
+becomes the perfect middle ground where
+ 
+
+00:00:36.960 --> 00:00:39.030 align:start position:0%
+becomes the perfect middle ground where
+it<00:00:37.120><c> can</c><00:00:37.280><c> carry</c><00:00:37.520><c> over</c><00:00:37.760><c> key</c><00:00:38.000><c> semantic</c><00:00:38.559><c> meanings</c>
+
+00:00:39.030 --> 00:00:39.040 align:start position:0%
+it can carry over key semantic meanings
+ 
+
+00:00:39.040 --> 00:00:41.350 align:start position:0%
+it can carry over key semantic meanings
+while<00:00:39.440><c> also</c><00:00:39.760><c> being</c><00:00:40.000><c> much</c><00:00:40.320><c> smaller</c><00:00:40.640><c> in</c><00:00:40.879><c> size.</c>
+
+00:00:41.350 --> 00:00:41.360 align:start position:0%
+while also being much smaller in size.
+ 
+
+00:00:41.360 --> 00:00:43.430 align:start position:0%
+while also being much smaller in size.
+However,<00:00:41.840><c> with</c><00:00:42.000><c> this</c><00:00:42.239><c> tokenization</c><00:00:42.960><c> setup,</c>
+
+00:00:43.430 --> 00:00:43.440 align:start position:0%
+However, with this tokenization setup,
+ 
+
+00:00:43.440 --> 00:00:45.750 align:start position:0%
+However, with this tokenization setup,
+the<00:00:43.680><c> flaw</c><00:00:43.920><c> of</c><00:00:44.079><c> grouping</c><00:00:44.559><c> subwords</c><00:00:45.120><c> as</c><00:00:45.280><c> a</c><00:00:45.440><c> unit</c>
+
+00:00:45.750 --> 00:00:45.760 align:start position:0%
+the flaw of grouping subwords as a unit
+ 
+
+00:00:45.760 --> 00:00:48.069 align:start position:0%
+the flaw of grouping subwords as a unit
+would<00:00:46.160><c> create</c><00:00:46.559><c> problems</c><00:00:47.039><c> like</c><00:00:47.280><c> being</c><00:00:47.600><c> unable</c>
+
+00:00:48.069 --> 00:00:48.079 align:start position:0%
+would create problems like being unable
+ 
+
+00:00:48.079 --> 00:00:49.830 align:start position:0%
+would create problems like being unable
+to<00:00:48.239><c> count</c><00:00:48.559><c> characters</c><00:00:48.879><c> and</c><00:00:49.200><c> struggle</c><00:00:49.440><c> to</c><00:00:49.680><c> do</c>
+
+00:00:49.830 --> 00:00:49.840 align:start position:0%
+to count characters and struggle to do
+ 
+
+00:00:49.840 --> 00:00:51.670 align:start position:0%
+to count characters and struggle to do
+basic<00:00:50.160><c> math.</c><00:00:50.559><c> While</c><00:00:50.879><c> this</c><00:00:51.039><c> is</c><00:00:51.120><c> often</c><00:00:51.440><c> brute</c>
+
+00:00:51.670 --> 00:00:51.680 align:start position:0%
+basic math. While this is often brute
+ 
+
+00:00:51.680 --> 00:00:53.510 align:start position:0%
+basic math. While this is often brute
+force<00:00:52.000><c> nowadays</c><00:00:52.559><c> and</c><00:00:52.640><c> flicks</c><00:00:53.039><c> by</c><00:00:53.199><c> simply</c>
+
+00:00:53.510 --> 00:00:53.520 align:start position:0%
+force nowadays and flicks by simply
+ 
+
+00:00:53.520 --> 00:00:55.189 align:start position:0%
+force nowadays and flicks by simply
+providing<00:00:53.920><c> more</c><00:00:54.239><c> data</c><00:00:54.480><c> for</c><00:00:54.640><c> the</c><00:00:54.800><c> model</c><00:00:55.039><c> to</c>
+
+00:00:55.189 --> 00:00:55.199 align:start position:0%
+providing more data for the model to
+ 
+
+00:00:55.199 --> 00:00:56.630 align:start position:0%
+providing more data for the model to
+learn,<00:00:55.600><c> it</c><00:00:55.760><c> still</c><00:00:55.920><c> doesn't</c><00:00:56.160><c> change</c><00:00:56.399><c> the</c><00:00:56.559><c> fact</c>
+
+00:00:56.630 --> 00:00:56.640 align:start position:0%
+learn, it still doesn't change the fact
+ 
+
+00:00:56.640 --> 00:00:58.549 align:start position:0%
+learn, it still doesn't change the fact
+that<00:00:56.879><c> tokens</c><00:00:57.360><c> would</c><00:00:57.520><c> pose</c><00:00:57.760><c> a</c><00:00:57.920><c> barrier</c><00:00:58.239><c> from</c>
+
+00:00:58.549 --> 00:00:58.559 align:start position:0%
+that tokens would pose a barrier from
+ 
+
+00:00:58.559 --> 00:01:00.470 align:start position:0%
+that tokens would pose a barrier from
+having<00:00:58.960><c> the</c><00:00:59.120><c> LLM</c><00:00:59.680><c> to</c><00:00:59.840><c> truly</c><00:01:00.160><c> understand</c>
+
+00:01:00.470 --> 00:01:00.480 align:start position:0%
+having the LLM to truly understand
+ 
+
+00:01:00.480 --> 00:01:02.790 align:start position:0%
+having the LLM to truly understand
+languages<00:01:00.960><c> on</c><00:01:01.120><c> a</c><00:01:01.359><c> level</c><00:01:01.600><c> lower</c><00:01:01.920><c> than</c><00:01:02.079><c> a</c><00:01:02.239><c> token.</c>
+
+00:01:02.790 --> 00:01:02.800 align:start position:0%
+languages on a level lower than a token.
+ 
+
+00:01:02.800 --> 00:01:04.549 align:start position:0%
+languages on a level lower than a token.
+So<00:01:02.879><c> to</c><00:01:03.120><c> make</c><00:01:03.280><c> LMS</c><00:01:03.760><c> have</c><00:01:03.920><c> an</c><00:01:04.000><c> endto-end</c>
+
+00:01:04.549 --> 00:01:04.559 align:start position:0%
+So to make LMS have an endto-end
+ 
+
+00:01:04.559 --> 00:01:06.469 align:start position:0%
+So to make LMS have an endto-end
+understanding<00:01:05.119><c> just</c><00:01:05.280><c> like</c><00:01:05.519><c> us,</c><00:01:05.920><c> we</c><00:01:06.159><c> need</c><00:01:06.320><c> to</c>
+
+00:01:06.469 --> 00:01:06.479 align:start position:0%
+understanding just like us, we need to
+ 
+
+00:01:06.479 --> 00:01:08.070 align:start position:0%
+understanding just like us, we need to
+somehow<00:01:06.960><c> remove</c><00:01:07.280><c> the</c><00:01:07.520><c> artificial</c>
+
+00:01:08.070 --> 00:01:08.080 align:start position:0%
+somehow remove the artificial
+ 
+
+00:01:08.080 --> 00:01:09.750 align:start position:0%
+somehow remove the artificial
+abstraction<00:01:08.560><c> that</c><00:01:08.720><c> the</c><00:01:08.880><c> tokenization</c>
+
+00:01:09.750 --> 00:01:09.760 align:start position:0%
+abstraction that the tokenization
+ 
+
+00:01:09.760 --> 00:01:11.670 align:start position:0%
+abstraction that the tokenization
+created<00:01:10.400><c> allowing</c><00:01:10.720><c> the</c><00:01:10.960><c> model</c><00:01:11.200><c> to</c><00:01:11.360><c> learn</c>
+
+00:01:11.670 --> 00:01:11.680 align:start position:0%
+created allowing the model to learn
+ 
+
+00:01:11.680 --> 00:01:13.670 align:start position:0%
+created allowing the model to learn
+directly<00:01:12.159><c> from</c><00:01:12.400><c> the</c><00:01:12.560><c> raw</c><00:01:12.799><c> data.</c><00:01:13.280><c> Which</c><00:01:13.520><c> brings</c>
+
+00:01:13.670 --> 00:01:13.680 align:start position:0%
+directly from the raw data. Which brings
+ 
+
+00:01:13.680 --> 00:01:15.670 align:start position:0%
+directly from the raw data. Which brings
+us<00:01:13.840><c> to</c><00:01:14.000><c> this</c><00:01:14.240><c> paper</c><00:01:14.479><c> from</c><00:01:14.720><c> Metal</c><00:01:15.040><c> published</c><00:01:15.439><c> 6</c>
+
+00:01:15.670 --> 00:01:15.680 align:start position:0%
+us to this paper from Metal published 6
+ 
+
+00:01:15.680 --> 00:01:18.390 align:start position:0%
+us to this paper from Metal published 6
+months<00:01:15.920><c> ago</c><00:01:16.320><c> called</c><00:01:16.720><c> BLT</c><00:01:17.439><c> short</c><00:01:17.680><c> for</c><00:01:17.920><c> bite</c>
+
+00:01:18.390 --> 00:01:18.400 align:start position:0%
+months ago called BLT short for bite
+ 
+
+00:01:18.400 --> 00:01:20.390 align:start position:0%
+months ago called BLT short for bite
+latent<00:01:18.799><c> transformer</c><00:01:19.439><c> that</c><00:01:19.680><c> aims</c><00:01:19.920><c> to</c><00:01:20.159><c> address</c>
+
+00:01:20.390 --> 00:01:20.400 align:start position:0%
+latent transformer that aims to address
+ 
+
+00:01:20.400 --> 00:01:22.550 align:start position:0%
+latent transformer that aims to address
+the<00:01:20.720><c> problem</c><00:01:20.960><c> of</c><00:01:21.119><c> tokenization</c><00:01:22.000><c> with</c><00:01:22.240><c> metal</c>
+
+00:01:22.550 --> 00:01:22.560 align:start position:0%
+the problem of tokenization with metal
+ 
+
+00:01:22.560 --> 00:01:25.429 align:start position:0%
+the problem of tokenization with metal
+just<00:01:22.799><c> open</c><00:01:23.040><c> sourcing</c><00:01:23.439><c> an</c><00:01:23.759><c> 8B</c><00:01:24.320><c> BLT</c><00:01:24.880><c> model</c><00:01:25.200><c> and</c>
+
+00:01:25.429 --> 00:01:25.439 align:start position:0%
+just open sourcing an 8B BLT model and
+ 
+
+00:01:25.439 --> 00:01:27.270 align:start position:0%
+just open sourcing an 8B BLT model and
+people<00:01:25.759><c> reminding</c><00:01:26.240><c> me</c><00:01:26.400><c> to</c><00:01:26.640><c> make</c><00:01:26.720><c> a</c><00:01:26.960><c> video</c><00:01:27.119><c> on</c>
+
+00:01:27.270 --> 00:01:27.280 align:start position:0%
+people reminding me to make a video on
+ 
+
+00:01:27.280 --> 00:01:29.910 align:start position:0%
+people reminding me to make a video on
+it<00:01:27.680><c> which</c><00:01:27.920><c> I</c><00:01:28.159><c> swear</c><00:01:28.560><c> I</c><00:01:28.799><c> did</c><00:01:29.040><c> plan</c><00:01:29.200><c> to</c><00:01:29.360><c> do</c><00:01:29.520><c> it.</c><00:01:29.680><c> I</c>
+
+00:01:29.910 --> 00:01:29.920 align:start position:0%
+it which I swear I did plan to do it. I
+ 
+
+00:01:29.920 --> 00:01:32.230 align:start position:0%
+it which I swear I did plan to do it. I
+just<00:01:30.240><c> completely</c><00:01:30.799><c> forgot</c><00:01:31.119><c> about</c><00:01:31.280><c> it.</c><00:01:31.759><c> So</c><00:01:32.000><c> here</c>
+
+00:01:32.230 --> 00:01:32.240 align:start position:0%
+just completely forgot about it. So here
+ 
+
+00:01:32.240 --> 00:01:34.069 align:start position:0%
+just completely forgot about it. So here
+you<00:01:32.479><c> go.</c><00:01:32.720><c> The</c><00:01:32.960><c> video</c><00:01:33.119><c> is</c><00:01:33.280><c> finally</c><00:01:33.680><c> here.</c>
+
+00:01:34.069 --> 00:01:34.079 align:start position:0%
+you go. The video is finally here.
+ 
+
+00:01:34.079 --> 00:01:35.990 align:start position:0%
+you go. The video is finally here.
+Please<00:01:34.240><c> go</c><00:01:34.479><c> easy</c><00:01:34.720><c> on</c><00:01:34.880><c> me</c><00:01:34.960><c> in</c><00:01:35.200><c> the</c><00:01:35.280><c> comments.</c><00:01:35.840><c> Or</c>
+
+00:01:35.990 --> 00:01:36.000 align:start position:0%
+Please go easy on me in the comments. Or
+ 
+
+00:01:36.000 --> 00:01:37.749 align:start position:0%
+Please go easy on me in the comments. Or
+maybe<00:01:36.320><c> not</c><00:01:36.560><c> because</c><00:01:36.799><c> I'm</c><00:01:36.960><c> segueing</c><00:01:37.439><c> into</c>
+
+00:01:37.749 --> 00:01:37.759 align:start position:0%
+maybe not because I'm segueing into
+ 
+
+00:01:37.759 --> 00:01:39.510 align:start position:0%
+maybe not because I'm segueing into
+today's<00:01:38.079><c> sponsor</c><00:01:38.640><c> with</c><00:01:38.799><c> me</c><00:01:39.040><c> always</c><00:01:39.280><c> talking</c>
+
+00:01:39.510 --> 00:01:39.520 align:start position:0%
+today's sponsor with me always talking
+ 
+
+00:01:39.520 --> 00:01:41.350 align:start position:0%
+today's sponsor with me always talking
+about<00:01:39.680><c> the</c><00:01:39.920><c> events</c><00:01:40.320><c> and</c><00:01:40.479><c> theoretical</c><00:01:41.040><c> aspect</c>
+
+00:01:41.350 --> 00:01:41.360 align:start position:0%
+about the events and theoretical aspect
+ 
+
+00:01:41.360 --> 00:01:43.350 align:start position:0%
+about the events and theoretical aspect
+of<00:01:41.520><c> AI.</c><00:01:42.159><c> Sometimes</c><00:01:42.560><c> we</c><00:01:42.720><c> also</c><00:01:43.040><c> need</c><00:01:43.200><c> some</c>
+
+00:01:43.350 --> 00:01:43.360 align:start position:0%
+of AI. Sometimes we also need some
+ 
+
+00:01:43.360 --> 00:01:45.270 align:start position:0%
+of AI. Sometimes we also need some
+grounded<00:01:43.840><c> introduction</c><00:01:44.320><c> into</c><00:01:44.560><c> how</c><00:01:44.799><c> to</c><00:01:44.960><c> apply</c>
+
+00:01:45.270 --> 00:01:45.280 align:start position:0%
+grounded introduction into how to apply
+ 
+
+00:01:45.280 --> 00:01:47.670 align:start position:0%
+grounded introduction into how to apply
+AI,<00:01:45.759><c> especially</c><00:01:46.159><c> AI</c><00:01:46.560><c> agents,</c><00:01:46.960><c> which</c><00:01:47.280><c> is</c><00:01:47.439><c> the</c>
+
+00:01:47.670 --> 00:01:47.680 align:start position:0%
+AI, especially AI agents, which is the
+ 
+
+00:01:47.680 --> 00:01:49.749 align:start position:0%
+AI, especially AI agents, which is the
+most<00:01:47.920><c> popular</c><00:01:48.240><c> use</c><00:01:48.479><c> case</c><00:01:48.640><c> in</c><00:01:48.880><c> 2025.</c><00:01:49.600><c> That's</c>
+
+00:01:49.749 --> 00:01:49.759 align:start position:0%
+most popular use case in 2025. That's
+ 
+
+00:01:49.759 --> 00:01:51.030 align:start position:0%
+most popular use case in 2025. That's
+why<00:01:49.840><c> I</c><00:01:50.000><c> like</c><00:01:50.159><c> to</c><00:01:50.240><c> share</c><00:01:50.399><c> with</c><00:01:50.479><c> you</c><00:01:50.640><c> this</c><00:01:50.799><c> free</c>
+
+00:01:51.030 --> 00:01:51.040 align:start position:0%
+why I like to share with you this free
+ 
+
+00:01:51.040 --> 00:01:52.950 align:start position:0%
+why I like to share with you this free
+resource<00:01:51.360><c> from</c><00:01:51.520><c> HubSpot</c><00:01:52.159><c> called</c><00:01:52.320><c> Master</c><00:01:52.720><c> AI</c>
+
+00:01:52.950 --> 00:01:52.960 align:start position:0%
+resource from HubSpot called Master AI
+ 
+
+00:01:52.960 --> 00:01:55.590 align:start position:0%
+resource from HubSpot called Master AI
+agents<00:01:53.360><c> in</c><00:01:53.520><c> 2025,</c><00:01:54.240><c> the</c><00:01:54.479><c> strategic</c><00:01:54.960><c> advantage.</c>
+
+00:01:55.590 --> 00:01:55.600 align:start position:0%
+agents in 2025, the strategic advantage.
+ 
+
+00:01:55.600 --> 00:01:57.190 align:start position:0%
+agents in 2025, the strategic advantage.
+In<00:01:55.759><c> this</c><00:01:55.920><c> resource,</c><00:01:56.399><c> you</c><00:01:56.640><c> will</c><00:01:56.799><c> get</c><00:01:56.880><c> two</c>
+
+00:01:57.190 --> 00:01:57.200 align:start position:0%
+In this resource, you will get two
+ 
+
+00:01:57.200 --> 00:01:59.270 align:start position:0%
+In this resource, you will get two
+comprehensive<00:01:57.759><c> playbooks.</c><00:01:58.320><c> One</c><00:01:58.479><c> that</c><00:01:58.719><c> is</c><00:01:58.880><c> 42</c>
+
+00:01:59.270 --> 00:01:59.280 align:start position:0%
+comprehensive playbooks. One that is 42
+ 
+
+00:01:59.280 --> 00:02:00.950 align:start position:0%
+comprehensive playbooks. One that is 42
+pages<00:01:59.680><c> long,</c><00:01:59.920><c> which</c><00:02:00.159><c> shows</c><00:02:00.399><c> you</c><00:02:00.560><c> exactly</c>
+
+00:02:00.950 --> 00:02:00.960 align:start position:0%
+pages long, which shows you exactly
+ 
+
+00:02:00.960 --> 00:02:02.950 align:start position:0%
+pages long, which shows you exactly
+where<00:02:01.200><c> AI</c><00:02:01.600><c> agents</c><00:02:02.000><c> deliver</c><00:02:02.320><c> the</c><00:02:02.640><c> biggest</c>
+
+00:02:02.950 --> 00:02:02.960 align:start position:0%
+where AI agents deliver the biggest
+ 
+
+00:02:02.960 --> 00:02:04.789 align:start position:0%
+where AI agents deliver the biggest
+return<00:02:03.200><c> on</c><00:02:03.439><c> investment</c><00:02:04.000><c> and</c><00:02:04.240><c> another</c><00:02:04.640><c> that's</c>
+
+00:02:04.789 --> 00:02:04.799 align:start position:0%
+return on investment and another that's
+ 
+
+00:02:04.799 --> 00:02:06.709 align:start position:0%
+return on investment and another that's
+a<00:02:04.960><c> step-by-step</c><00:02:05.600><c> checklist</c><00:02:06.000><c> that</c><00:02:06.320><c> walks</c><00:02:06.560><c> you</c>
+
+00:02:06.709 --> 00:02:06.719 align:start position:0%
+a step-by-step checklist that walks you
+ 
+
+00:02:06.719 --> 00:02:08.469 align:start position:0%
+a step-by-step checklist that walks you
+through<00:02:06.880><c> the</c><00:02:07.040><c> AI</c><00:02:07.360><c> agent</c><00:02:07.680><c> rollouts.</c><00:02:08.319><c> My</c>
+
+00:02:08.469 --> 00:02:08.479 align:start position:0%
+through the AI agent rollouts. My
+ 
+
+00:02:08.479 --> 00:02:09.990 align:start position:0%
+through the AI agent rollouts. My
+favorite<00:02:08.720><c> section</c><00:02:08.959><c> is</c><00:02:09.119><c> the</c><00:02:09.280><c> common</c><00:02:09.520><c> pitfalls</c>
+
+00:02:09.990 --> 00:02:10.000 align:start position:0%
+favorite section is the common pitfalls
+ 
+
+00:02:10.000 --> 00:02:11.990 align:start position:0%
+favorite section is the common pitfalls
+and<00:02:10.160><c> how</c><00:02:10.319><c> to</c><00:02:10.479><c> avoid</c><00:02:10.800><c> them.</c><00:02:10.959><c> in</c><00:02:11.200><c> the</c><00:02:11.280><c> 42page</c>
+
+00:02:11.990 --> 00:02:12.000 align:start position:0%
+and how to avoid them. in the 42page
+ 
+
+00:02:12.000 --> 00:02:13.990 align:start position:0%
+and how to avoid them. in the 42page
+playbook.<00:02:12.560><c> As</c><00:02:12.800><c> this</c><00:02:12.959><c> is</c><00:02:13.120><c> often</c><00:02:13.520><c> overlooked</c>
+
+00:02:13.990 --> 00:02:14.000 align:start position:0%
+playbook. As this is often overlooked
+ 
+
+00:02:14.000 --> 00:02:15.750 align:start position:0%
+playbook. As this is often overlooked
+when<00:02:14.239><c> building</c><00:02:14.480><c> custom</c><00:02:14.879><c> AI</c><00:02:15.200><c> agents,</c>
+
+00:02:15.750 --> 00:02:15.760 align:start position:0%
+when building custom AI agents,
+ 
+
+00:02:15.760 --> 00:02:17.430 align:start position:0%
+when building custom AI agents,
+especially<00:02:16.160><c> under</c><00:02:16.480><c> an</c><00:02:16.720><c> organizational</c>
+
+00:02:17.430 --> 00:02:17.440 align:start position:0%
+especially under an organizational
+ 
+
+00:02:17.440 --> 00:02:19.430 align:start position:0%
+especially under an organizational
+setting,<00:02:17.840><c> AI</c><00:02:18.160><c> agents</c><00:02:18.480><c> may</c><00:02:18.720><c> bear</c><00:02:18.959><c> too</c><00:02:19.200><c> many</c>
+
+00:02:19.430 --> 00:02:19.440 align:start position:0%
+setting, AI agents may bear too many
+ 
+
+00:02:19.440 --> 00:02:21.350 align:start position:0%
+setting, AI agents may bear too many
+expectations<00:02:20.000><c> or</c><00:02:20.239><c> contain</c><00:02:20.640><c> challenges</c><00:02:21.040><c> that</c>
+
+00:02:21.350 --> 00:02:21.360 align:start position:0%
+expectations or contain challenges that
+ 
+
+00:02:21.360 --> 00:02:23.350 align:start position:0%
+expectations or contain challenges that
+can<00:02:21.520><c> often</c><00:02:21.920><c> be</c><00:02:22.080><c> overlooked.</c><00:02:22.720><c> So</c><00:02:22.879><c> having</c><00:02:23.120><c> these</c>
+
+00:02:23.350 --> 00:02:23.360 align:start position:0%
+can often be overlooked. So having these
+ 
+
+00:02:23.360 --> 00:02:25.190 align:start position:0%
+can often be overlooked. So having these
+precautions<00:02:24.000><c> can</c><00:02:24.239><c> significantly</c><00:02:24.879><c> improve</c>
+
+00:02:25.190 --> 00:02:25.200 align:start position:0%
+precautions can significantly improve
+ 
+
+00:02:25.200 --> 00:02:26.790 align:start position:0%
+precautions can significantly improve
+your<00:02:25.440><c> chance</c><00:02:25.599><c> of</c><00:02:25.760><c> success.</c><00:02:26.319><c> And</c><00:02:26.480><c> of</c><00:02:26.640><c> course,</c>
+
+00:02:26.790 --> 00:02:26.800 align:start position:0%
+your chance of success. And of course,
+ 
+
+00:02:26.800 --> 00:02:28.630 align:start position:0%
+your chance of success. And of course,
+it's<00:02:27.040><c> a</c><00:02:27.200><c> crazy</c><00:02:27.520><c> powerful</c><00:02:27.920><c> tool</c><00:02:28.160><c> when</c><00:02:28.319><c> you</c><00:02:28.480><c> get</c>
+
+00:02:28.630 --> 00:02:28.640 align:start position:0%
+it's a crazy powerful tool when you get
+ 
+
+00:02:28.640 --> 00:02:30.630 align:start position:0%
+it's a crazy powerful tool when you get
+it<00:02:28.800><c> working.</c><00:02:29.120><c> In</c><00:02:29.360><c> marketing,</c><00:02:29.760><c> AI</c><00:02:30.080><c> agents</c><00:02:30.400><c> now</c>
+
+00:02:30.630 --> 00:02:30.640 align:start position:0%
+it working. In marketing, AI agents now
+ 
+
+00:02:30.640 --> 00:02:32.390 align:start position:0%
+it working. In marketing, AI agents now
+shoulder<00:02:30.959><c> the</c><00:02:31.120><c> repetitive</c><00:02:31.599><c> work</c><00:02:31.840><c> of</c><00:02:32.000><c> content</c>
+
+00:02:32.390 --> 00:02:32.400 align:start position:0%
+shoulder the repetitive work of content
+ 
+
+00:02:32.400 --> 00:02:34.229 align:start position:0%
+shoulder the repetitive work of content
+repurposing,<00:02:33.200><c> social</c><00:02:33.519><c> scheduling,</c><00:02:34.000><c> and</c>
+
+00:02:34.229 --> 00:02:34.239 align:start position:0%
+repurposing, social scheduling, and
+ 
+
+00:02:34.239 --> 00:02:36.150 align:start position:0%
+repurposing, social scheduling, and
+campaign<00:02:34.560><c> analytics</c><00:02:35.120><c> so</c><00:02:35.280><c> your</c><00:02:35.519><c> creatives</c><00:02:36.000><c> can</c>
+
+00:02:36.150 --> 00:02:36.160 align:start position:0%
+campaign analytics so your creatives can
+ 
+
+00:02:36.160 --> 00:02:38.630 align:start position:0%
+campaign analytics so your creatives can
+stay<00:02:36.400><c> focused</c><00:02:36.800><c> on</c><00:02:37.040><c> big</c><00:02:37.280><c> ideas.</c><00:02:37.920><c> In</c><00:02:38.160><c> sales,</c>
+
+00:02:38.630 --> 00:02:38.640 align:start position:0%
+stay focused on big ideas. In sales,
+ 
+
+00:02:38.640 --> 00:02:40.229 align:start position:0%
+stay focused on big ideas. In sales,
+they<00:02:38.800><c> can</c><00:02:38.959><c> handle</c><00:02:39.280><c> prospect</c><00:02:39.680><c> research,</c>
+
+00:02:40.229 --> 00:02:40.239 align:start position:0%
+they can handle prospect research,
+ 
+
+00:02:40.239 --> 00:02:41.670 align:start position:0%
+they can handle prospect research,
+meeting<00:02:40.560><c> prep,</c><00:02:40.800><c> and</c><00:02:41.120><c> personalized</c>
+
+00:02:41.670 --> 00:02:41.680 align:start position:0%
+meeting prep, and personalized
+ 
+
+00:02:41.680 --> 00:02:43.509 align:start position:0%
+meeting prep, and personalized
+follow-ups,<00:02:42.400><c> buying</c><00:02:42.640><c> precious</c><00:02:43.040><c> time</c><00:02:43.280><c> back</c>
+
+00:02:43.509 --> 00:02:43.519 align:start position:0%
+follow-ups, buying precious time back
+ 
+
+00:02:43.519 --> 00:02:45.270 align:start position:0%
+follow-ups, buying precious time back
+for<00:02:43.760><c> relationship</c><00:02:44.319><c> building.</c><00:02:44.800><c> And</c><00:02:44.879><c> across</c>
+
+00:02:45.270 --> 00:02:45.280 align:start position:0%
+for relationship building. And across
+ 
+
+00:02:45.280 --> 00:02:47.670 align:start position:0%
+for relationship building. And across
+operations,<00:02:45.920><c> agents</c><00:02:46.400><c> quietly</c><00:02:46.879><c> file</c><00:02:47.200><c> docs,</c>
+
+00:02:47.670 --> 00:02:47.680 align:start position:0%
+operations, agents quietly file docs,
+ 
+
+00:02:47.680 --> 00:02:49.509 align:start position:0%
+operations, agents quietly file docs,
+route<00:02:47.920><c> requests,</c><00:02:48.480><c> and</c><00:02:48.640><c> service</c><00:02:49.040><c> real-time</c>
+
+00:02:49.509 --> 00:02:49.519 align:start position:0%
+route requests, and service real-time
+ 
+
+00:02:49.519 --> 00:02:51.190 align:start position:0%
+route requests, and service real-time
+analytics,<00:02:50.000><c> so</c><00:02:50.160><c> your</c><00:02:50.319><c> org</c><00:02:50.640><c> runs</c><00:02:50.879><c> like</c><00:02:51.040><c> a</c>
+
+00:02:51.190 --> 00:02:51.200 align:start position:0%
+analytics, so your org runs like a
+ 
+
+00:02:51.200 --> 00:02:53.190 align:start position:0%
+analytics, so your org runs like a
+clockwork.<00:02:51.840><c> Best</c><00:02:52.080><c> part</c><00:02:52.239><c> is</c><00:02:52.560><c> you</c><00:02:52.800><c> can</c><00:02:52.879><c> download</c>
+
+00:02:53.190 --> 00:02:53.200 align:start position:0%
+clockwork. Best part is you can download
+ 
+
+00:02:53.200 --> 00:02:54.869 align:start position:0%
+clockwork. Best part is you can download
+these<00:02:53.519><c> resources</c><00:02:54.080><c> completely</c><00:02:54.480><c> for</c><00:02:54.720><c> free</c>
+
+00:02:54.869 --> 00:02:54.879 align:start position:0%
+these resources completely for free
+ 
+
+00:02:54.879 --> 00:02:56.309 align:start position:0%
+these resources completely for free
+right<00:02:55.120><c> now.</c><00:02:55.360><c> So,</c><00:02:55.519><c> if</c><00:02:55.680><c> you're</c><00:02:55.840><c> ready</c><00:02:55.920><c> to</c><00:02:56.080><c> dive</c>
+
+00:02:56.309 --> 00:02:56.319 align:start position:0%
+right now. So, if you're ready to dive
+ 
+
+00:02:56.319 --> 00:02:58.070 align:start position:0%
+right now. So, if you're ready to dive
+into<00:02:56.560><c> AI</c><00:02:56.879><c> agents,</c><00:02:57.360><c> check</c><00:02:57.440><c> it</c><00:02:57.599><c> out</c><00:02:57.680><c> using</c><00:02:57.920><c> the</c>
+
+00:02:58.070 --> 00:02:58.080 align:start position:0%
+into AI agents, check it out using the
+ 
+
+00:02:58.080 --> 00:02:59.350 align:start position:0%
+into AI agents, check it out using the
+link<00:02:58.239><c> down</c><00:02:58.400><c> in</c><00:02:58.480><c> the</c><00:02:58.560><c> description.</c><00:02:59.040><c> And</c><00:02:59.200><c> thank</c>
+
+00:02:59.350 --> 00:02:59.360 align:start position:0%
+link down in the description. And thank
+ 
+
+00:02:59.360 --> 00:03:01.110 align:start position:0%
+link down in the description. And thank
+you<00:02:59.519><c> HubSpot</c><00:03:00.080><c> for</c><00:03:00.239><c> sponsoring</c><00:03:00.640><c> this</c><00:03:00.800><c> video.</c>
+
+00:03:01.110 --> 00:03:01.120 align:start position:0%
+you HubSpot for sponsoring this video.
+ 
+
+00:03:01.120 --> 00:03:03.190 align:start position:0%
+you HubSpot for sponsoring this video.
+Anyways,<00:03:01.680><c> aside</c><00:03:02.000><c> from</c><00:03:02.159><c> the</c><00:03:02.400><c> inconvenience</c><00:03:03.040><c> of</c>
+
+00:03:03.190 --> 00:03:03.200 align:start position:0%
+Anyways, aside from the inconvenience of
+ 
+
+00:03:03.200 --> 00:03:05.190 align:start position:0%
+Anyways, aside from the inconvenience of
+having<00:03:03.360><c> a</c><00:03:03.599><c> subboard</c><00:03:04.080><c> as</c><00:03:04.239><c> a</c><00:03:04.400><c> base</c><00:03:04.640><c> unit,</c>
+
+00:03:05.190 --> 00:03:05.200 align:start position:0%
+having a subboard as a base unit,
+ 
+
+00:03:05.200 --> 00:03:07.350 align:start position:0%
+having a subboard as a base unit,
+tokenization<00:03:06.000><c> is</c><00:03:06.319><c> also</c><00:03:06.640><c> a</c><00:03:06.879><c> completely</c>
+
+00:03:07.350 --> 00:03:07.360 align:start position:0%
+tokenization is also a completely
+ 
+
+00:03:07.360 --> 00:03:08.949 align:start position:0%
+tokenization is also a completely
+separate<00:03:07.760><c> pre-processing</c><00:03:08.480><c> step</c><00:03:08.640><c> that</c>
+
+00:03:08.949 --> 00:03:08.959 align:start position:0%
+separate pre-processing step that
+ 
+
+00:03:08.959 --> 00:03:10.630 align:start position:0%
+separate pre-processing step that
+requires<00:03:09.280><c> a</c><00:03:09.519><c> standalone</c><00:03:10.159><c> training</c><00:03:10.480><c> by</c>
+
+00:03:10.630 --> 00:03:10.640 align:start position:0%
+requires a standalone training by
+ 
+
+00:03:10.640 --> 00:03:12.710 align:start position:0%
+requires a standalone training by
+itself.<00:03:11.200><c> And</c><00:03:11.280><c> when</c><00:03:11.360><c> a</c><00:03:11.519><c> tokenizer</c><00:03:12.159><c> is</c><00:03:12.319><c> trained</c>
+
+00:03:12.710 --> 00:03:12.720 align:start position:0%
+itself. And when a tokenizer is trained
+ 
+
+00:03:12.720 --> 00:03:14.790 align:start position:0%
+itself. And when a tokenizer is trained
+primarily<00:03:13.280><c> on</c><00:03:13.519><c> English</c><00:03:13.920><c> text,</c><00:03:14.480><c> other</c>
+
+00:03:14.790 --> 00:03:14.800 align:start position:0%
+primarily on English text, other
+ 
+
+00:03:14.800 --> 00:03:16.550 align:start position:0%
+primarily on English text, other
+languages<00:03:15.280><c> would</c><00:03:15.519><c> struggle</c><00:03:15.840><c> to</c><00:03:16.080><c> integrate</c>
+
+00:03:16.550 --> 00:03:16.560 align:start position:0%
+languages would struggle to integrate
+ 
+
+00:03:16.560 --> 00:03:18.070 align:start position:0%
+languages would struggle to integrate
+smoothly,<00:03:17.040><c> especially</c><00:03:17.360><c> for</c><00:03:17.599><c> things</c><00:03:17.840><c> like</c>
+
+00:03:18.070 --> 00:03:18.080 align:start position:0%
+smoothly, especially for things like
+ 
+
+00:03:18.080 --> 00:03:20.309 align:start position:0%
+smoothly, especially for things like
+coding,<00:03:18.560><c> which</c><00:03:18.800><c> is</c><00:03:18.959><c> heavily</c><00:03:19.440><c> dominated</c><00:03:20.000><c> by</c>
+
+00:03:20.309 --> 00:03:20.319 align:start position:0%
+coding, which is heavily dominated by
+ 
+
+00:03:20.319 --> 00:03:22.149 align:start position:0%
+coding, which is heavily dominated by
+English<00:03:20.800><c> with</c><00:03:21.040><c> other</c><00:03:21.280><c> problems</c><00:03:21.599><c> like</c><00:03:21.760><c> minor</c>
+
+00:03:22.149 --> 00:03:22.159 align:start position:0%
+English with other problems like minor
+ 
+
+00:03:22.159 --> 00:03:24.390 align:start position:0%
+English with other problems like minor
+typos<00:03:22.640><c> or</c><00:03:22.879><c> variations</c><00:03:23.360><c> that</c><00:03:23.680><c> could</c><00:03:23.840><c> end</c><00:03:24.000><c> up</c><00:03:24.159><c> in</c>
+
+00:03:24.390 --> 00:03:24.400 align:start position:0%
+typos or variations that could end up in
+ 
+
+00:03:24.400 --> 00:03:26.070 align:start position:0%
+typos or variations that could end up in
+very<00:03:24.640><c> different</c><00:03:24.879><c> tokenization</c><00:03:25.680><c> that</c><00:03:25.920><c> can</c>
+
+00:03:26.070 --> 00:03:26.080 align:start position:0%
+very different tokenization that can
+ 
+
+00:03:26.080 --> 00:03:27.830 align:start position:0%
+very different tokenization that can
+confuse<00:03:26.480><c> the</c><00:03:26.640><c> model</c><00:03:26.879><c> and</c><00:03:27.120><c> make</c><00:03:27.280><c> jailbreak</c>
+
+00:03:27.830 --> 00:03:27.840 align:start position:0%
+confuse the model and make jailbreak
+ 
+
+00:03:27.840 --> 00:03:29.910 align:start position:0%
+confuse the model and make jailbreak
+easier.<00:03:28.319><c> Not</c><00:03:28.560><c> to</c><00:03:28.800><c> mention</c><00:03:29.040><c> how</c><00:03:29.200><c> tokenizers</c>
+
+00:03:29.910 --> 00:03:29.920 align:start position:0%
+easier. Not to mention how tokenizers
+ 
+
+00:03:29.920 --> 00:03:32.229 align:start position:0%
+easier. Not to mention how tokenizers
+would<00:03:30.159><c> also</c><00:03:30.480><c> oversegment</c><00:03:31.280><c> text</c><00:03:31.519><c> in</c><00:03:31.840><c> languages</c>
+
+00:03:32.229 --> 00:03:32.239 align:start position:0%
+would also oversegment text in languages
+ 
+
+00:03:32.239 --> 00:03:34.309 align:start position:0%
+would also oversegment text in languages
+underrepresented<00:03:33.200><c> in</c><00:03:33.360><c> the</c><00:03:33.519><c> training</c><00:03:33.840><c> data</c>
+
+00:03:34.309 --> 00:03:34.319 align:start position:0%
+underrepresented in the training data
+ 
+
+00:03:34.319 --> 00:03:36.149 align:start position:0%
+underrepresented in the training data
+leading<00:03:34.560><c> to</c><00:03:34.720><c> a</c><00:03:34.959><c> longer</c><00:03:35.440><c> less</c><00:03:35.760><c> meaningful</c>
+
+00:03:36.149 --> 00:03:36.159 align:start position:0%
+leading to a longer less meaningful
+ 
+
+00:03:36.159 --> 00:03:38.229 align:start position:0%
+leading to a longer less meaningful
+sequences<00:03:36.720><c> and</c><00:03:36.959><c> poorer</c><00:03:37.440><c> performance.</c>
+
+00:03:38.229 --> 00:03:38.239 align:start position:0%
+sequences and poorer performance.
+ 
+
+00:03:38.239 --> 00:03:39.990 align:start position:0%
+sequences and poorer performance.
+Compute-wise,<00:03:39.120><c> there</c><00:03:39.280><c> is</c><00:03:39.440><c> still</c><00:03:39.599><c> a</c><00:03:39.840><c> lot</c><00:03:39.920><c> of</c>
+
+00:03:39.990 --> 00:03:40.000 align:start position:0%
+Compute-wise, there is still a lot of
+ 
+
+00:03:40.000 --> 00:03:42.070 align:start position:0%
+Compute-wise, there is still a lot of
+room<00:03:40.159><c> to</c><00:03:40.400><c> improve</c><00:03:40.799><c> too.</c><00:03:41.040><c> Tokenization</c><00:03:41.840><c> based</c>
+
+00:03:42.070 --> 00:03:42.080 align:start position:0%
+room to improve too. Tokenization based
+ 
+
+00:03:42.080 --> 00:03:44.070 align:start position:0%
+room to improve too. Tokenization based
+LLM<00:03:42.720><c> allocate</c><00:03:43.200><c> the</c><00:03:43.440><c> same</c><00:03:43.599><c> amount</c><00:03:43.840><c> of</c>
+
+00:03:44.070 --> 00:03:44.080 align:start position:0%
+LLM allocate the same amount of
+ 
+
+00:03:44.080 --> 00:03:46.149 align:start position:0%
+LLM allocate the same amount of
+computational<00:03:44.720><c> effort</c><00:03:44.959><c> to</c><00:03:45.280><c> every</c><00:03:45.519><c> token</c>
+
+00:03:46.149 --> 00:03:46.159 align:start position:0%
+computational effort to every token
+ 
+
+00:03:46.159 --> 00:03:47.750 align:start position:0%
+computational effort to every token
+regardless<00:03:46.560><c> of</c><00:03:46.720><c> whether</c><00:03:47.040><c> that</c><00:03:47.280><c> token</c>
+
+00:03:47.750 --> 00:03:47.760 align:start position:0%
+regardless of whether that token
+ 
+
+00:03:47.760 --> 00:03:49.910 align:start position:0%
+regardless of whether that token
+represents<00:03:48.159><c> a</c><00:03:48.400><c> simple</c><00:03:48.720><c> punctuation</c><00:03:49.360><c> mark</c><00:03:49.680><c> or</c>
+
+00:03:49.910 --> 00:03:49.920 align:start position:0%
+represents a simple punctuation mark or
+ 
+
+00:03:49.920 --> 00:03:51.910 align:start position:0%
+represents a simple punctuation mark or
+a<00:03:50.159><c> informationrich</c><00:03:50.959><c> technical</c><00:03:51.360><c> term.</c><00:03:51.760><c> Like</c>
+
+00:03:51.910 --> 00:03:51.920 align:start position:0%
+a informationrich technical term. Like
+ 
+
+00:03:51.920 --> 00:03:53.589 align:start position:0%
+a informationrich technical term. Like
+imagine<00:03:52.400><c> you're</c><00:03:52.640><c> using</c><00:03:52.879><c> an</c><00:03:53.200><c> entire</c>
+
+00:03:53.589 --> 00:03:53.599 align:start position:0%
+imagine you're using an entire
+ 
+
+00:03:53.599 --> 00:03:55.830 align:start position:0%
+imagine you're using an entire
+transformer<00:03:54.159><c> pass</c><00:03:54.560><c> just</c><00:03:54.720><c> to</c><00:03:54.879><c> add</c><00:03:55.040><c> a</c><00:03:55.280><c> period</c><00:03:55.599><c> at</c>
+
+00:03:55.830 --> 00:03:55.840 align:start position:0%
+transformer pass just to add a period at
+ 
+
+00:03:55.840 --> 00:03:57.350 align:start position:0%
+transformer pass just to add a period at
+the<00:03:56.000><c> end</c><00:03:56.080><c> of</c><00:03:56.239><c> the</c><00:03:56.400><c> sentence.</c><00:03:56.799><c> So</c><00:03:56.959><c> the</c><00:03:57.120><c> bite</c>
+
+00:03:57.350 --> 00:03:57.360 align:start position:0%
+the end of the sentence. So the bite
+ 
+
+00:03:57.360 --> 00:03:59.350 align:start position:0%
+the end of the sentence. So the bite
+latent<00:03:57.760><c> transformer</c><00:03:58.400><c> which</c><00:03:58.640><c> from</c><00:03:58.879><c> now</c><00:03:59.040><c> on</c>
+
+00:03:59.350 --> 00:03:59.360 align:start position:0%
+latent transformer which from now on
+ 
+
+00:03:59.360 --> 00:04:01.910 align:start position:0%
+latent transformer which from now on
+I'll<00:03:59.599><c> be</c><00:03:59.760><c> referring</c><00:04:00.080><c> to</c><00:04:00.319><c> as</c><00:04:00.640><c> BLT</c><00:04:01.280><c> proposed</c><00:04:01.760><c> a</c>
+
+00:04:01.910 --> 00:04:01.920 align:start position:0%
+I'll be referring to as BLT proposed a
+ 
+
+00:04:01.920 --> 00:04:03.750 align:start position:0%
+I'll be referring to as BLT proposed a
+tokenizer<00:04:02.640><c> free</c><00:04:02.879><c> architecture</c><00:04:03.360><c> that</c><00:04:03.599><c> is</c>
+
+00:04:03.750 --> 00:04:03.760 align:start position:0%
+tokenizer free architecture that is
+ 
+
+00:04:03.760 --> 00:04:05.750 align:start position:0%
+tokenizer free architecture that is
+designed<00:04:04.080><c> to</c><00:04:04.319><c> learn</c><00:04:04.560><c> directly</c><00:04:04.879><c> from</c><00:04:05.120><c> raw</c><00:04:05.439><c> bite</c>
+
+00:04:05.750 --> 00:04:05.760 align:start position:0%
+designed to learn directly from raw bite
+ 
+
+00:04:05.760 --> 00:04:07.910 align:start position:0%
+designed to learn directly from raw bite
+data<00:04:06.239><c> instead</c><00:04:06.480><c> of</c><00:04:06.640><c> tokens</c><00:04:07.280><c> which</c><00:04:07.599><c> is</c>
+
+00:04:07.910 --> 00:04:07.920 align:start position:0%
+data instead of tokens which is
+ 
+
+00:04:07.920 --> 00:04:10.309 align:start position:0%
+data instead of tokens which is
+basically<00:04:08.480><c> bite</c><00:04:08.959><c> groups</c><00:04:09.280><c> of</c><00:04:09.519><c> a</c><00:04:09.760><c> subword</c>
+
+00:04:10.309 --> 00:04:10.319 align:start position:0%
+basically bite groups of a subword
+ 
+
+00:04:10.319 --> 00:04:12.309 align:start position:0%
+basically bite groups of a subword
+learned<00:04:10.720><c> from</c><00:04:10.879><c> a</c><00:04:11.120><c> finite</c><00:04:11.519><c> vocabulary</c>
+
+00:04:12.309 --> 00:04:12.319 align:start position:0%
+learned from a finite vocabulary
+ 
+
+00:04:12.319 --> 00:04:14.550 align:start position:0%
+learned from a finite vocabulary
+determined<00:04:12.879><c> through</c><00:04:13.200><c> training.</c><00:04:13.760><c> BLT</c><00:04:14.239><c> uses</c>
+
+00:04:14.550 --> 00:04:14.560 align:start position:0%
+determined through training. BLT uses
+ 
+
+00:04:14.560 --> 00:04:15.830 align:start position:0%
+determined through training. BLT uses
+something<00:04:14.799><c> called</c><00:04:15.040><c> patches</c><00:04:15.519><c> that</c><00:04:15.680><c> are</c>
+
+00:04:15.830 --> 00:04:15.840 align:start position:0%
+something called patches that are
+ 
+
+00:04:15.840 --> 00:04:17.590 align:start position:0%
+something called patches that are
+dynamically<00:04:16.479><c> grouped</c><00:04:16.799><c> units</c><00:04:17.120><c> which</c><00:04:17.359><c> don't</c>
+
+00:04:17.590 --> 00:04:17.600 align:start position:0%
+dynamically grouped units which don't
+ 
+
+00:04:17.600 --> 00:04:19.430 align:start position:0%
+dynamically grouped units which don't
+have<00:04:17.759><c> a</c><00:04:17.919><c> fixed</c><00:04:18.239><c> vocabulary.</c><00:04:18.959><c> This</c><00:04:19.199><c> straight</c>
+
+00:04:19.430 --> 00:04:19.440 align:start position:0%
+have a fixed vocabulary. This straight
+ 
+
+00:04:19.440 --> 00:04:21.270 align:start position:0%
+have a fixed vocabulary. This straight
+up<00:04:19.600><c> addresses</c><00:04:20.079><c> the</c><00:04:20.320><c> problem</c><00:04:20.560><c> of</c><00:04:20.799><c> wasting</c>
+
+00:04:21.270 --> 00:04:21.280 align:start position:0%
+up addresses the problem of wasting
+ 
+
+00:04:21.280 --> 00:04:23.430 align:start position:0%
+up addresses the problem of wasting
+compute<00:04:21.600><c> on</c><00:04:21.759><c> a</c><00:04:21.919><c> simple</c><00:04:22.240><c> punctuation</c><00:04:22.960><c> which</c><00:04:23.199><c> I</c>
+
+00:04:23.430 --> 00:04:23.440 align:start position:0%
+compute on a simple punctuation which I
+ 
+
+00:04:23.440 --> 00:04:25.510 align:start position:0%
+compute on a simple punctuation which I
+just<00:04:23.600><c> mentioned</c><00:04:24.160><c> and</c><00:04:24.400><c> can</c><00:04:24.639><c> kind</c><00:04:24.880><c> of</c><00:04:25.040><c> allocate</c>
+
+00:04:25.510 --> 00:04:25.520 align:start position:0%
+just mentioned and can kind of allocate
+ 
+
+00:04:25.520 --> 00:04:27.189 align:start position:0%
+just mentioned and can kind of allocate
+more<00:04:25.759><c> compute</c><00:04:26.160><c> on</c><00:04:26.320><c> more</c><00:04:26.560><c> semantically</c>
+
+00:04:27.189 --> 00:04:27.199 align:start position:0%
+more compute on more semantically
+ 
+
+00:04:27.199 --> 00:04:28.790 align:start position:0%
+more compute on more semantically
+important<00:04:27.680><c> words.</c><00:04:28.160><c> But</c><00:04:28.320><c> how</c><00:04:28.479><c> should</c><00:04:28.639><c> the</c>
+
+00:04:28.790 --> 00:04:28.800 align:start position:0%
+important words. But how should the
+ 
+
+00:04:28.800 --> 00:04:30.870 align:start position:0%
+important words. But how should the
+patches<00:04:29.199><c> be</c><00:04:29.440><c> defined?</c><00:04:29.840><c> Then</c><00:04:30.080><c> the</c><00:04:30.320><c> core</c><00:04:30.560><c> idea</c>
+
+00:04:30.870 --> 00:04:30.880 align:start position:0%
+patches be defined? Then the core idea
+ 
+
+00:04:30.880 --> 00:04:33.670 align:start position:0%
+patches be defined? Then the core idea
+is<00:04:31.440><c> BLT</c><00:04:32.080><c> should</c><00:04:32.479><c> dynamically</c><00:04:33.120><c> allocate</c>
+
+00:04:33.670 --> 00:04:33.680 align:start position:0%
+is BLT should dynamically allocate
+ 
+
+00:04:33.680 --> 00:04:35.590 align:start position:0%
+is BLT should dynamically allocate
+compute<00:04:34.080><c> where</c><00:04:34.320><c> it</c><00:04:34.479><c> is</c><00:04:34.639><c> most</c><00:04:34.880><c> needed.</c><00:04:35.440><c> So</c>
+
+00:04:35.590 --> 00:04:35.600 align:start position:0%
+compute where it is most needed. So
+ 
+
+00:04:35.600 --> 00:04:37.270 align:start position:0%
+compute where it is most needed. So
+predicting<00:04:36.080><c> the</c><00:04:36.320><c> next</c><00:04:36.560><c> character</c><00:04:36.960><c> in</c>
+
+00:04:37.270 --> 00:04:37.280 align:start position:0%
+predicting the next character in
+ 
+
+00:04:37.280 --> 00:04:40.230 align:start position:0%
+predicting the next character in
+subscribe<00:04:37.759><c> to</c><00:04:38.080><c> bycloud</c><00:04:38.880><c> is</c><00:04:39.120><c> a</c><00:04:39.360><c> relative</c><00:04:39.840><c> easy</c>
+
+00:04:40.230 --> 00:04:40.240 align:start position:0%
+subscribe to bycloud is a relative easy
+ 
+
+00:04:40.240 --> 00:04:42.469 align:start position:0%
+subscribe to bycloud is a relative easy
+decision.<00:04:40.960><c> In</c><00:04:41.199><c> contrast,</c><00:04:41.919><c> predicting</c><00:04:42.320><c> the</c>
+
+00:04:42.469 --> 00:04:42.479 align:start position:0%
+decision. In contrast, predicting the
+ 
+
+00:04:42.479 --> 00:04:44.150 align:start position:0%
+decision. In contrast, predicting the
+first<00:04:42.720><c> character</c><00:04:42.960><c> of</c><00:04:43.120><c> the</c><00:04:43.280><c> third</c><00:04:43.600><c> word</c><00:04:43.919><c> of</c>
+
+00:04:44.150 --> 00:04:44.160 align:start position:0%
+first character of the third word of
+ 
+
+00:04:44.160 --> 00:04:46.629 align:start position:0%
+first character of the third word of
+subscribe<00:04:44.800><c> to</c><00:04:45.199><c> becomes</c><00:04:45.680><c> extremely</c><00:04:46.240><c> difficult</c>
+
+00:04:46.629 --> 00:04:46.639 align:start position:0%
+subscribe to becomes extremely difficult
+ 
+
+00:04:46.639 --> 00:04:48.550 align:start position:0%
+subscribe to becomes extremely difficult
+because<00:04:46.880><c> of</c><00:04:47.120><c> all</c><00:04:47.280><c> the</c><00:04:47.440><c> potential</c><00:04:47.919><c> options</c><00:04:48.240><c> it</c>
+
+00:04:48.550 --> 00:04:48.560 align:start position:0%
+because of all the potential options it
+ 
+
+00:04:48.560 --> 00:04:50.550 align:start position:0%
+because of all the potential options it
+has.<00:04:48.960><c> So</c><00:04:49.040><c> at</c><00:04:49.199><c> a</c><00:04:49.360><c> part</c><00:04:49.520><c> where</c><00:04:49.759><c> a</c><00:04:50.000><c> more</c><00:04:50.160><c> important</c>
+
+00:04:50.550 --> 00:04:50.560 align:start position:0%
+has. So at a part where a more important
+ 
+
+00:04:50.560 --> 00:04:52.550 align:start position:0%
+has. So at a part where a more important
+decision<00:04:50.960><c> is</c><00:04:51.199><c> needed,</c><00:04:51.840><c> this</c><00:04:52.080><c> is</c><00:04:52.240><c> where</c><00:04:52.400><c> the</c>
+
+00:04:52.550 --> 00:04:52.560 align:start position:0%
+decision is needed, this is where the
+ 
+
+00:04:52.560 --> 00:04:54.629 align:start position:0%
+decision is needed, this is where the
+patching<00:04:53.040><c> mechanism</c><00:04:53.520><c> draws</c><00:04:53.840><c> its</c><00:04:54.080><c> boundary.</c>
+
+00:04:54.629 --> 00:04:54.639 align:start position:0%
+patching mechanism draws its boundary.
+ 
+
+00:04:54.639 --> 00:04:57.110 align:start position:0%
+patching mechanism draws its boundary.
+More<00:04:54.880><c> specifically,</c><00:04:55.759><c> BLT</c><00:04:56.320><c> segments</c><00:04:56.800><c> bite</c>
+
+00:04:57.110 --> 00:04:57.120 align:start position:0%
+More specifically, BLT segments bite
+ 
+
+00:04:57.120 --> 00:04:59.670 align:start position:0%
+More specifically, BLT segments bite
+sequences<00:04:57.680><c> into</c><00:04:58.080><c> patches</c><00:04:58.639><c> based</c><00:04:59.040><c> on</c><00:04:59.360><c> the</c>
+
+00:04:59.670 --> 00:04:59.680 align:start position:0%
+sequences into patches based on the
+ 
+
+00:04:59.680 --> 00:05:01.749 align:start position:0%
+sequences into patches based on the
+entropy<00:05:00.160><c> of</c><00:05:00.320><c> the</c><00:05:00.479><c> next</c><00:05:00.720><c> bite</c><00:05:01.120><c> prediction,</c>
+
+00:05:01.749 --> 00:05:01.759 align:start position:0%
+entropy of the next bite prediction,
+ 
+
+00:05:01.759 --> 00:05:03.670 align:start position:0%
+entropy of the next bite prediction,
+which<00:05:02.000><c> they</c><00:05:02.240><c> name</c><00:05:02.400><c> it</c><00:05:02.560><c> as</c><00:05:02.800><c> entropy</c><00:05:03.440><c> based</c>
+
+00:05:03.670 --> 00:05:03.680 align:start position:0%
+which they name it as entropy based
+ 
+
+00:05:03.680 --> 00:05:05.749 align:start position:0%
+which they name it as entropy based
+patching.<00:05:04.320><c> The</c><00:05:04.479><c> patch</c><00:05:04.800><c> boundaries</c><00:05:05.280><c> are</c><00:05:05.520><c> then</c>
+
+00:05:05.749 --> 00:05:05.759 align:start position:0%
+patching. The patch boundaries are then
+ 
+
+00:05:05.759 --> 00:05:08.390 align:start position:0%
+patching. The patch boundaries are then
+determined<00:05:06.320><c> using</c><00:05:06.720><c> two</c><00:05:07.039><c> criterias.</c><00:05:07.919><c> First</c><00:05:08.240><c> is</c>
+
+00:05:08.390 --> 00:05:08.400 align:start position:0%
+determined using two criterias. First is
+ 
+
+00:05:08.400 --> 00:05:10.230 align:start position:0%
+determined using two criterias. First is
+the<00:05:08.639><c> global</c><00:05:08.960><c> constraint</c><00:05:09.440><c> where</c><00:05:09.680><c> a</c><00:05:09.840><c> new</c><00:05:10.000><c> patch</c>
+
+00:05:10.230 --> 00:05:10.240 align:start position:0%
+the global constraint where a new patch
+ 
+
+00:05:10.240 --> 00:05:12.230 align:start position:0%
+the global constraint where a new patch
+starts<00:05:10.560><c> if</c><00:05:10.720><c> the</c><00:05:10.880><c> entropy</c><00:05:11.360><c> exceeds</c><00:05:11.680><c> a</c><00:05:11.919><c> global</c>
+
+00:05:12.230 --> 00:05:12.240 align:start position:0%
+starts if the entropy exceeds a global
+ 
+
+00:05:12.240 --> 00:05:14.150 align:start position:0%
+starts if the entropy exceeds a global
+threshold.<00:05:12.880><c> This</c><00:05:13.120><c> basically</c><00:05:13.680><c> identifies</c>
+
+00:05:14.150 --> 00:05:14.160 align:start position:0%
+threshold. This basically identifies
+ 
+
+00:05:14.160 --> 00:05:16.469 align:start position:0%
+threshold. This basically identifies
+points<00:05:14.479><c> of</c><00:05:14.639><c> high</c><00:05:14.880><c> uncertainty</c><00:05:15.759><c> and</c><00:05:15.919><c> it's</c><00:05:16.160><c> used</c>
+
+00:05:16.469 --> 00:05:16.479 align:start position:0%
+points of high uncertainty and it's used
+ 
+
+00:05:16.479 --> 00:05:18.230 align:start position:0%
+points of high uncertainty and it's used
+here<00:05:16.720><c> to</c><00:05:16.960><c> mark</c><00:05:17.199><c> as</c><00:05:17.440><c> the</c><00:05:17.680><c> beginning</c><00:05:17.919><c> of</c><00:05:18.080><c> a</c>
+
+00:05:18.230 --> 00:05:18.240 align:start position:0%
+here to mark as the beginning of a
+ 
+
+00:05:18.240 --> 00:05:20.390 align:start position:0%
+here to mark as the beginning of a
+patch.<00:05:18.720><c> The</c><00:05:18.960><c> second</c><00:05:19.199><c> is</c><00:05:19.440><c> the</c><00:05:19.759><c> approximate</c>
+
+00:05:20.390 --> 00:05:20.400 align:start position:0%
+patch. The second is the approximate
+ 
+
+00:05:20.400 --> 00:05:22.310 align:start position:0%
+patch. The second is the approximate
+monotonic<00:05:20.960><c> constraint</c><00:05:21.440><c> where</c><00:05:21.680><c> a</c><00:05:21.840><c> new</c><00:05:22.000><c> patch</c>
+
+00:05:22.310 --> 00:05:22.320 align:start position:0%
+monotonic constraint where a new patch
+ 
+
+00:05:22.320 --> 00:05:24.230 align:start position:0%
+monotonic constraint where a new patch
+starts<00:05:22.560><c> if</c><00:05:22.800><c> the</c><00:05:22.960><c> change</c><00:05:23.120><c> in</c><00:05:23.360><c> entropy</c><00:05:23.919><c> exceeds</c>
+
+00:05:24.230 --> 00:05:24.240 align:start position:0%
+starts if the change in entropy exceeds
+ 
+
+00:05:24.240 --> 00:05:25.990 align:start position:0%
+starts if the change in entropy exceeds
+a<00:05:24.479><c> relative</c><00:05:24.880><c> threshold.</c><00:05:25.520><c> This</c><00:05:25.680><c> basically</c>
+
+00:05:25.990 --> 00:05:26.000 align:start position:0%
+a relative threshold. This basically
+ 
+
+00:05:26.000 --> 00:05:28.230 align:start position:0%
+a relative threshold. This basically
+means<00:05:26.240><c> the</c><00:05:26.479><c> points</c><00:05:26.800><c> that</c><00:05:27.120><c> break</c><00:05:27.440><c> an</c><00:05:27.680><c> ongoing</c>
+
+00:05:28.230 --> 00:05:28.240 align:start position:0%
+means the points that break an ongoing
+ 
+
+00:05:28.240 --> 00:05:30.550 align:start position:0%
+means the points that break an ongoing
+trend<00:05:28.479><c> of</c><00:05:28.639><c> entropy</c><00:05:29.120><c> level</c><00:05:29.600><c> will</c><00:05:29.840><c> be</c><00:05:30.080><c> marked</c><00:05:30.400><c> as</c>
+
+00:05:30.550 --> 00:05:30.560 align:start position:0%
+trend of entropy level will be marked as
+ 
+
+00:05:30.560 --> 00:05:33.189 align:start position:0%
+trend of entropy level will be marked as
+a<00:05:30.800><c> new</c><00:05:30.960><c> patch</c><00:05:31.360><c> as</c><00:05:31.600><c> it</c><00:05:31.840><c> signals</c><00:05:32.240><c> an</c><00:05:32.479><c> unexpected</c>
+
+00:05:33.189 --> 00:05:33.199 align:start position:0%
+a new patch as it signals an unexpected
+ 
+
+00:05:33.199 --> 00:05:35.350 align:start position:0%
+a new patch as it signals an unexpected
+shift<00:05:33.440><c> in</c><00:05:33.680><c> complexity.</c><00:05:34.320><c> So</c><00:05:34.560><c> by</c><00:05:34.720><c> segmenting</c>
+
+00:05:35.350 --> 00:05:35.360 align:start position:0%
+shift in complexity. So by segmenting
+ 
+
+00:05:35.360 --> 00:05:37.510 align:start position:0%
+shift in complexity. So by segmenting
+this<00:05:35.520><c> way,</c><00:05:35.840><c> BLT</c><00:05:36.400><c> can</c><00:05:36.560><c> create</c><00:05:36.800><c> long</c><00:05:37.120><c> patches</c>
+
+00:05:37.510 --> 00:05:37.520 align:start position:0%
+this way, BLT can create long patches
+ 
+
+00:05:37.520 --> 00:05:39.909 align:start position:0%
+this way, BLT can create long patches
+for<00:05:37.840><c> predictable</c><00:05:38.400><c> sequences,</c><00:05:39.280><c> reducing</c><00:05:39.680><c> the</c>
+
+00:05:39.909 --> 00:05:39.919 align:start position:0%
+for predictable sequences, reducing the
+ 
+
+00:05:39.919 --> 00:05:41.590 align:start position:0%
+for predictable sequences, reducing the
+number<00:05:40.080><c> of</c><00:05:40.240><c> steps</c><00:05:40.479><c> the</c><00:05:40.720><c> main</c><00:05:40.960><c> transformer</c>
+
+00:05:41.590 --> 00:05:41.600 align:start position:0%
+number of steps the main transformer
+ 
+
+00:05:41.600 --> 00:05:43.909 align:start position:0%
+number of steps the main transformer
+needs<00:05:41.840><c> to</c><00:05:42.080><c> process.</c><00:05:42.720><c> And</c><00:05:42.960><c> conversely,</c><00:05:43.600><c> for</c>
+
+00:05:43.909 --> 00:05:43.919 align:start position:0%
+needs to process. And conversely, for
+ 
+
+00:05:43.919 --> 00:05:45.990 align:start position:0%
+needs to process. And conversely, for
+information<00:05:44.400><c> dense</c><00:05:44.720><c> or</c><00:05:44.880><c> unpredictable</c><00:05:45.600><c> bite</c>
+
+00:05:45.990 --> 00:05:46.000 align:start position:0%
+information dense or unpredictable bite
+ 
+
+00:05:46.000 --> 00:05:48.070 align:start position:0%
+information dense or unpredictable bite
+sequences,<00:05:46.720><c> patches</c><00:05:47.199><c> might</c><00:05:47.440><c> be</c><00:05:47.600><c> shorter,</c>
+
+00:05:48.070 --> 00:05:48.080 align:start position:0%
+sequences, patches might be shorter,
+ 
+
+00:05:48.080 --> 00:05:49.670 align:start position:0%
+sequences, patches might be shorter,
+allowing<00:05:48.400><c> the</c><00:05:48.560><c> model</c><00:05:48.800><c> to</c><00:05:48.960><c> allocate</c><00:05:49.440><c> more</c>
+
+00:05:49.670 --> 00:05:49.680 align:start position:0%
+allowing the model to allocate more
+ 
+
+00:05:49.680 --> 00:05:51.670 align:start position:0%
+allowing the model to allocate more
+computation.<00:05:50.560><c> However,</c><00:05:50.960><c> a</c><00:05:51.199><c> problem</c><00:05:51.440><c> would</c>
+
+00:05:51.670 --> 00:05:51.680 align:start position:0%
+computation. However, a problem would
+ 
+
+00:05:51.680 --> 00:05:53.749 align:start position:0%
+computation. However, a problem would
+occur<00:05:52.000><c> if</c><00:05:52.160><c> you</c><00:05:52.320><c> set</c><00:05:52.560><c> up</c><00:05:52.720><c> this</c><00:05:52.960><c> way.</c><00:05:53.199><c> The</c><00:05:53.360><c> bytes</c>
+
+00:05:53.749 --> 00:05:53.759 align:start position:0%
+occur if you set up this way. The bytes
+ 
+
+00:05:53.759 --> 00:05:55.670 align:start position:0%
+occur if you set up this way. The bytes
+itself<00:05:54.080><c> would</c><00:05:54.320><c> still</c><00:05:54.560><c> be</c><00:05:54.720><c> hard</c><00:05:54.880><c> to</c><00:05:55.120><c> carry</c><00:05:55.360><c> over</c>
+
+00:05:55.670 --> 00:05:55.680 align:start position:0%
+itself would still be hard to carry over
+ 
+
+00:05:55.680 --> 00:05:57.590 align:start position:0%
+itself would still be hard to carry over
+semantic<00:05:56.160><c> meaning</c><00:05:56.560><c> even</c><00:05:56.800><c> if</c><00:05:56.960><c> it</c><00:05:57.199><c> becomes</c><00:05:57.440><c> a</c>
+
+00:05:57.590 --> 00:05:57.600 align:start position:0%
+semantic meaning even if it becomes a
+ 
+
+00:05:57.600 --> 00:05:59.430 align:start position:0%
+semantic meaning even if it becomes a
+patch<00:05:57.919><c> later</c><00:05:58.160><c> down</c><00:05:58.320><c> the</c><00:05:58.479><c> line.</c><00:05:58.800><c> So</c><00:05:59.039><c> in</c><00:05:59.280><c> order</c>
+
+00:05:59.430 --> 00:05:59.440 align:start position:0%
+patch later down the line. So in order
+ 
+
+00:05:59.440 --> 00:06:01.510 align:start position:0%
+patch later down the line. So in order
+to<00:05:59.600><c> build</c><00:05:59.840><c> more</c><00:06:00.080><c> meaningful</c><00:06:00.639><c> patches,</c><00:06:01.280><c> the</c>
+
+00:06:01.510 --> 00:06:01.520 align:start position:0%
+to build more meaningful patches, the
+ 
+
+00:06:01.520 --> 00:06:03.350 align:start position:0%
+to build more meaningful patches, the
+original<00:06:01.919><c> individual</c><00:06:02.400><c> bite</c><00:06:02.720><c> is</c><00:06:02.880><c> embedded</c>
+
+00:06:03.350 --> 00:06:03.360 align:start position:0%
+original individual bite is embedded
+ 
+
+00:06:03.360 --> 00:06:05.430 align:start position:0%
+original individual bite is embedded
+together<00:06:03.600><c> with</c><00:06:03.840><c> the</c><00:06:04.080><c> engrams</c><00:06:04.639><c> it</c><00:06:04.800><c> is</c><00:06:04.960><c> part</c><00:06:05.039><c> of.</c>
+
+00:06:05.430 --> 00:06:05.440 align:start position:0%
+together with the engrams it is part of.
+ 
+
+00:06:05.440 --> 00:06:07.430 align:start position:0%
+together with the engrams it is part of.
+This<00:06:05.680><c> engram</c><00:06:06.240><c> basically</c><00:06:06.560><c> pulls</c><00:06:06.800><c> a</c><00:06:07.039><c> bite's</c>
+
+00:06:07.430 --> 00:06:07.440 align:start position:0%
+This engram basically pulls a bite's
+ 
+
+00:06:07.440 --> 00:06:09.350 align:start position:0%
+This engram basically pulls a bite's
+immediate<00:06:07.919><c> local</c><00:06:08.240><c> context</c><00:06:08.720><c> before</c><00:06:09.120><c> being</c>
+
+00:06:09.350 --> 00:06:09.360 align:start position:0%
+immediate local context before being
+ 
+
+00:06:09.360 --> 00:06:10.950 align:start position:0%
+immediate local context before being
+patched<00:06:09.759><c> together.</c><00:06:10.240><c> And</c><00:06:10.400><c> to</c><00:06:10.560><c> prevent</c><00:06:10.800><c> the</c>
+
+00:06:10.950 --> 00:06:10.960 align:start position:0%
+patched together. And to prevent the
+ 
+
+00:06:10.960 --> 00:06:12.950 align:start position:0%
+patched together. And to prevent the
+engram<00:06:11.520><c> from</c><00:06:11.680><c> creating</c><00:06:12.000><c> an</c><00:06:12.240><c> insanely</c><00:06:12.720><c> large</c>
+
+00:06:12.950 --> 00:06:12.960 align:start position:0%
+engram from creating an insanely large
+ 
+
+00:06:12.960 --> 00:06:15.029 align:start position:0%
+engram from creating an insanely large
+vocabulary<00:06:13.680><c> for</c><00:06:13.919><c> all</c><00:06:14.160><c> possible</c><00:06:14.560><c> combinations</c>
+
+00:06:15.029 --> 00:06:15.039 align:start position:0%
+vocabulary for all possible combinations
+ 
+
+00:06:15.039 --> 00:06:17.990 align:start position:0%
+vocabulary for all possible combinations
+of<00:06:15.280><c> bytes,</c><00:06:15.759><c> a</c><00:06:16.000><c> hashing</c><00:06:16.560><c> called</c><00:06:16.880><c> roll</c><00:06:17.280><c> polyhash</c>
+
+00:06:17.990 --> 00:06:18.000 align:start position:0%
+of bytes, a hashing called roll polyhash
+ 
+
+00:06:18.000 --> 00:06:20.150 align:start position:0%
+of bytes, a hashing called roll polyhash
+is<00:06:18.240><c> used</c><00:06:18.400><c> to</c><00:06:18.560><c> map</c><00:06:18.800><c> these</c><00:06:19.039><c> engrams</c><00:06:19.600><c> to</c><00:06:19.680><c> a</c><00:06:19.840><c> fixed</c>
+
+00:06:20.150 --> 00:06:20.160 align:start position:0%
+is used to map these engrams to a fixed
+ 
+
+00:06:20.160 --> 00:06:21.990 align:start position:0%
+is used to map these engrams to a fixed
+size.<00:06:20.639><c> So</c><00:06:20.800><c> some</c><00:06:21.039><c> engrams</c><00:06:21.520><c> would</c><00:06:21.680><c> have</c><00:06:21.840><c> the</c>
+
+00:06:21.990 --> 00:06:22.000 align:start position:0%
+size. So some engrams would have the
+ 
+
+00:06:22.000 --> 00:06:24.390 align:start position:0%
+size. So some engrams would have the
+same<00:06:22.160><c> hash</c><00:06:22.560><c> but</c><00:06:22.800><c> only</c><00:06:23.039><c> on</c><00:06:23.280><c> rare</c><00:06:23.600><c> occasions.</c><00:06:24.240><c> In</c>
+
+00:06:24.390 --> 00:06:24.400 align:start position:0%
+same hash but only on rare occasions. In
+ 
+
+00:06:24.400 --> 00:06:26.550 align:start position:0%
+same hash but only on rare occasions. In
+the<00:06:24.479><c> big</c><00:06:24.720><c> BLT</c><00:06:25.199><c> architecture,</c><00:06:25.919><c> this</c><00:06:26.160><c> initial</c>
+
+00:06:26.550 --> 00:06:26.560 align:start position:0%
+the big BLT architecture, this initial
+ 
+
+00:06:26.560 --> 00:06:28.309 align:start position:0%
+the big BLT architecture, this initial
+processing<00:06:26.960><c> which</c><00:06:27.280><c> creates</c><00:06:27.680><c> patches</c><00:06:28.080><c> from</c>
+
+00:06:28.309 --> 00:06:28.319 align:start position:0%
+processing which creates patches from
+ 
+
+00:06:28.319 --> 00:06:30.150 align:start position:0%
+processing which creates patches from
+bytes<00:06:28.800><c> would</c><00:06:29.120><c> be</c><00:06:29.280><c> done</c><00:06:29.440><c> in</c><00:06:29.680><c> the</c><00:06:29.840><c> local</c>
+
+00:06:30.150 --> 00:06:30.160 align:start position:0%
+bytes would be done in the local
+ 
+
+00:06:30.160 --> 00:06:32.469 align:start position:0%
+bytes would be done in the local
+encoder.<00:06:30.880><c> Then</c><00:06:31.120><c> a</c><00:06:31.360><c> lightweight</c><00:06:31.759><c> transformer</c>
+
+00:06:32.469 --> 00:06:32.479 align:start position:0%
+encoder. Then a lightweight transformer
+ 
+
+00:06:32.479 --> 00:06:34.469 align:start position:0%
+encoder. Then a lightweight transformer
+layer<00:06:32.639><c> would</c><00:06:32.880><c> operate</c><00:06:33.280><c> on</c><00:06:33.520><c> these</c><00:06:33.840><c> patches</c><00:06:34.240><c> and</c>
+
+00:06:34.469 --> 00:06:34.479 align:start position:0%
+layer would operate on these patches and
+ 
+
+00:06:34.479 --> 00:06:36.950 align:start position:0%
+layer would operate on these patches and
+cross<00:06:34.800><c> attention</c><00:06:35.280><c> these</c><00:06:35.520><c> byes</c><00:06:35.919><c> into</c><00:06:36.479><c> patch</c>
+
+00:06:36.950 --> 00:06:36.960 align:start position:0%
+cross attention these byes into patch
+ 
+
+00:06:36.960 --> 00:06:38.790 align:start position:0%
+cross attention these byes into patch
+representations<00:06:38.000><c> where</c><00:06:38.240><c> it</c><00:06:38.400><c> is</c><00:06:38.560><c> now</c>
+
+00:06:38.790 --> 00:06:38.800 align:start position:0%
+representations where it is now
+ 
+
+00:06:38.800 --> 00:06:40.550 align:start position:0%
+representations where it is now
+represented<00:06:39.360><c> with</c><00:06:39.600><c> numbers</c><00:06:40.000><c> that</c><00:06:40.240><c> contain</c>
+
+00:06:40.550 --> 00:06:40.560 align:start position:0%
+represented with numbers that contain
+ 
+
+00:06:40.560 --> 00:06:42.550 align:start position:0%
+represented with numbers that contain
+its<00:06:40.880><c> abstract</c><00:06:41.360><c> meaning.</c><00:06:41.759><c> So</c><00:06:41.919><c> these</c><00:06:42.240><c> patch</c>
+
+00:06:42.550 --> 00:06:42.560 align:start position:0%
+its abstract meaning. So these patch
+ 
+
+00:06:42.560 --> 00:06:44.469 align:start position:0%
+its abstract meaning. So these patch
+representations<00:06:43.440><c> are</c><00:06:43.600><c> the</c><00:06:43.840><c> ones</c><00:06:44.160><c> that</c><00:06:44.319><c> are</c>
+
+00:06:44.469 --> 00:06:44.479 align:start position:0%
+representations are the ones that are
+ 
+
+00:06:44.479 --> 00:06:46.070 align:start position:0%
+representations are the ones that are
+passed<00:06:44.800><c> into</c><00:06:45.039><c> the</c><00:06:45.199><c> latent</c><00:06:45.680><c> global</c>
+
+00:06:46.070 --> 00:06:46.080 align:start position:0%
+passed into the latent global
+ 
+
+00:06:46.080 --> 00:06:47.909 align:start position:0%
+passed into the latent global
+transformer,<00:06:46.800><c> which</c><00:06:47.039><c> means</c><00:06:47.440><c> it's</c><00:06:47.759><c> actually</c>
+
+00:06:47.909 --> 00:06:47.919 align:start position:0%
+transformer, which means it's actually
+ 
+
+00:06:47.919 --> 00:06:49.909 align:start position:0%
+transformer, which means it's actually
+not<00:06:48.160><c> doing</c><00:06:48.400><c> the</c><00:06:48.560><c> next</c><00:06:48.800><c> patch</c><00:06:49.120><c> or</c><00:06:49.360><c> next</c><00:06:49.600><c> bite</c>
+
+00:06:49.909 --> 00:06:49.919 align:start position:0%
+not doing the next patch or next bite
+ 
+
+00:06:49.919 --> 00:06:51.510 align:start position:0%
+not doing the next patch or next bite
+prediction<00:06:50.319><c> like</c><00:06:50.560><c> what</c><00:06:50.720><c> I</c><00:06:50.960><c> initially</c><00:06:51.360><c> thought</c>
+
+00:06:51.510 --> 00:06:51.520 align:start position:0%
+prediction like what I initially thought
+ 
+
+00:06:51.520 --> 00:06:53.590 align:start position:0%
+prediction like what I initially thought
+it's<00:06:51.840><c> going</c><00:06:51.919><c> to</c><00:06:52.080><c> do,</c><00:06:52.319><c> but</c><00:06:52.639><c> instead</c><00:06:53.199><c> it's</c><00:06:53.360><c> a</c>
+
+00:06:53.590 --> 00:06:53.600 align:start position:0%
+it's going to do, but instead it's a
+ 
+
+00:06:53.600 --> 00:06:55.510 align:start position:0%
+it's going to do, but instead it's a
+next<00:06:53.840><c> patch</c><00:06:54.160><c> representation</c><00:06:54.960><c> prediction.</c>
+
+00:06:55.510 --> 00:06:55.520 align:start position:0%
+next patch representation prediction.
+ 
+
+00:06:55.520 --> 00:06:57.189 align:start position:0%
+next patch representation prediction.
+Aside<00:06:55.840><c> from</c><00:06:56.000><c> that</c><00:06:56.319><c> though,</c><00:06:56.560><c> this</c><00:06:56.800><c> latent</c>
+
+00:06:57.189 --> 00:06:57.199 align:start position:0%
+Aside from that though, this latent
+ 
+
+00:06:57.199 --> 00:06:58.870 align:start position:0%
+Aside from that though, this latent
+global<00:06:57.600><c> transformer</c><00:06:58.080><c> is</c><00:06:58.319><c> pretty</c><00:06:58.479><c> much</c><00:06:58.639><c> a</c>
+
+00:06:58.870 --> 00:06:58.880 align:start position:0%
+global transformer is pretty much a
+ 
+
+00:06:58.880 --> 00:07:00.790 align:start position:0%
+global transformer is pretty much a
+standard<00:06:59.280><c> transformer</c><00:06:59.840><c> trunk</c><00:07:00.160><c> that</c><00:07:00.400><c> contains</c>
+
+00:07:00.790 --> 00:07:00.800 align:start position:0%
+standard transformer trunk that contains
+ 
+
+00:07:00.800 --> 00:07:02.950 align:start position:0%
+standard transformer trunk that contains
+many<00:07:01.280><c> layers</c><00:07:01.440><c> of</c><00:07:01.680><c> transformer</c><00:07:02.240><c> blocks.</c><00:07:02.800><c> So</c>
+
+00:07:02.950 --> 00:07:02.960 align:start position:0%
+many layers of transformer blocks. So
+ 
+
+00:07:02.960 --> 00:07:04.710 align:start position:0%
+many layers of transformer blocks. So
+after<00:07:03.280><c> running</c><00:07:03.599><c> through</c><00:07:03.840><c> these</c><00:07:04.160><c> transformers</c>
+
+00:07:04.710 --> 00:07:04.720 align:start position:0%
+after running through these transformers
+ 
+
+00:07:04.720 --> 00:07:06.710 align:start position:0%
+after running through these transformers
+and<00:07:04.880><c> its</c><00:07:05.120><c> self</c><00:07:05.360><c> attention</c><00:07:05.840><c> on</c><00:07:06.000><c> these</c><00:07:06.319><c> patch</c>
+
+00:07:06.710 --> 00:07:06.720 align:start position:0%
+and its self attention on these patch
+ 
+
+00:07:06.720 --> 00:07:08.629 align:start position:0%
+and its self attention on these patch
+representations,<00:07:07.680><c> the</c><00:07:07.919><c> newly</c><00:07:08.240><c> predicted</c>
+
+00:07:08.629 --> 00:07:08.639 align:start position:0%
+representations, the newly predicted
+ 
+
+00:07:08.639 --> 00:07:10.710 align:start position:0%
+representations, the newly predicted
+patch<00:07:08.960><c> representation</c><00:07:09.680><c> is</c><00:07:09.919><c> then</c><00:07:10.160><c> passed</c><00:07:10.479><c> into</c>
+
+00:07:10.710 --> 00:07:10.720 align:start position:0%
+patch representation is then passed into
+ 
+
+00:07:10.720 --> 00:07:12.710 align:start position:0%
+patch representation is then passed into
+a<00:07:10.880><c> local</c><00:07:11.199><c> decoder</c><00:07:11.840><c> which</c><00:07:12.080><c> is</c><00:07:12.240><c> yet</c><00:07:12.400><c> another</c>
+
+00:07:12.710 --> 00:07:12.720 align:start position:0%
+a local decoder which is yet another
+ 
+
+00:07:12.720 --> 00:07:14.390 align:start position:0%
+a local decoder which is yet another
+lightweight<00:07:13.120><c> transformer</c><00:07:13.680><c> model</c><00:07:13.919><c> that</c><00:07:14.160><c> takes</c>
+
+00:07:14.390 --> 00:07:14.400 align:start position:0%
+lightweight transformer model that takes
+ 
+
+00:07:14.400 --> 00:07:15.990 align:start position:0%
+lightweight transformer model that takes
+these<00:07:14.720><c> patch</c><00:07:15.039><c> representations</c><00:07:15.680><c> in</c><00:07:15.840><c> the</c>
+
+00:07:15.990 --> 00:07:16.000 align:start position:0%
+these patch representations in the
+ 
+
+00:07:16.000 --> 00:07:17.589 align:start position:0%
+these patch representations in the
+hidden<00:07:16.319><c> states</c><00:07:16.639><c> produced</c><00:07:16.960><c> by</c><00:07:17.120><c> the</c><00:07:17.280><c> local</c>
+
+00:07:17.589 --> 00:07:17.599 align:start position:0%
+hidden states produced by the local
+ 
+
+00:07:17.599 --> 00:07:19.990 align:start position:0%
+hidden states produced by the local
+encoder<00:07:18.160><c> for</c><00:07:18.319><c> the</c><00:07:18.479><c> bite</c><00:07:18.800><c> sequence</c><00:07:19.280><c> to</c><00:07:19.520><c> decode</c>
+
+00:07:19.990 --> 00:07:20.000 align:start position:0%
+encoder for the bite sequence to decode
+ 
+
+00:07:20.000 --> 00:07:21.830 align:start position:0%
+encoder for the bite sequence to decode
+everything<00:07:20.319><c> back</c><00:07:20.560><c> into</c><00:07:20.800><c> bytes</c><00:07:21.199><c> and</c><00:07:21.360><c> form</c><00:07:21.599><c> a</c>
+
+00:07:21.830 --> 00:07:21.840 align:start position:0%
+everything back into bytes and form a
+ 
+
+00:07:21.840 --> 00:07:23.909 align:start position:0%
+everything back into bytes and form a
+generated<00:07:22.319><c> text.</c><00:07:22.880><c> And</c><00:07:22.960><c> with</c><00:07:23.120><c> this</c><00:07:23.360><c> VLT</c>
+
+00:07:23.909 --> 00:07:23.919 align:start position:0%
+generated text. And with this VLT
+ 
+
+00:07:23.919 --> 00:07:25.990 align:start position:0%
+generated text. And with this VLT
+architecture,<00:07:24.639><c> it</c><00:07:24.800><c> is</c><00:07:24.960><c> able</c><00:07:25.120><c> to</c><00:07:25.280><c> match</c><00:07:25.520><c> Llama</c>
+
+00:07:25.990 --> 00:07:26.000 align:start position:0%
+architecture, it is able to match Llama
+ 
+
+00:07:26.000 --> 00:07:29.270 align:start position:0%
+architecture, it is able to match Llama
+3<00:07:26.240><c> while</c><00:07:26.560><c> using</c><00:07:26.880><c> up</c><00:07:27.120><c> to</c><00:07:27.360><c> 50%</c><00:07:28.240><c> fewer</c><00:07:28.639><c> flops</c><00:07:29.039><c> at</c>
+
+00:07:29.270 --> 00:07:29.280 align:start position:0%
+3 while using up to 50% fewer flops at
+ 
+
+00:07:29.280 --> 00:07:31.350 align:start position:0%
+3 while using up to 50% fewer flops at
+inference.<00:07:29.919><c> This</c><00:07:30.160><c> shows</c><00:07:30.400><c> that</c><00:07:30.560><c> the</c><00:07:30.800><c> dynamic</c>
+
+00:07:31.350 --> 00:07:31.360 align:start position:0%
+inference. This shows that the dynamic
+ 
+
+00:07:31.360 --> 00:07:33.189 align:start position:0%
+inference. This shows that the dynamic
+patching<00:07:31.759><c> and</c><00:07:32.000><c> representation</c><00:07:32.720><c> prediction</c>
+
+00:07:33.189 --> 00:07:33.199 align:start position:0%
+patching and representation prediction
+ 
+
+00:07:33.199 --> 00:07:35.589 align:start position:0%
+patching and representation prediction
+strategy<00:07:33.759><c> can</c><00:07:34.080><c> bring</c><00:07:34.400><c> significant</c><00:07:34.960><c> inference</c>
+
+00:07:35.589 --> 00:07:35.599 align:start position:0%
+strategy can bring significant inference
+ 
+
+00:07:35.599 --> 00:07:37.430 align:start position:0%
+strategy can bring significant inference
+efficiency<00:07:36.240><c> without</c><00:07:36.720><c> sacrificing</c>
+
+00:07:37.430 --> 00:07:37.440 align:start position:0%
+efficiency without sacrificing
+ 
+
+00:07:37.440 --> 00:07:39.270 align:start position:0%
+efficiency without sacrificing
+performance.<00:07:38.080><c> On</c><00:07:38.240><c> top</c><00:07:38.400><c> of</c><00:07:38.560><c> that,</c><00:07:38.880><c> the</c><00:07:39.039><c> paper</c>
+
+00:07:39.270 --> 00:07:39.280 align:start position:0%
+performance. On top of that, the paper
+ 
+
+00:07:39.280 --> 00:07:41.909 align:start position:0%
+performance. On top of that, the paper
+also<00:07:39.599><c> showed</c><00:07:39.840><c> a</c><00:07:40.080><c> new</c><00:07:40.240><c> scaling</c><00:07:40.720><c> axis</c><00:07:41.360><c> where</c><00:07:41.680><c> an</c>
+
+00:07:41.909 --> 00:07:41.919 align:start position:0%
+also showed a new scaling axis where an
+ 
+
+00:07:41.919 --> 00:07:43.990 align:start position:0%
+also showed a new scaling axis where an
+efficiency<00:07:42.479><c> gain</c><00:07:42.880><c> can</c><00:07:43.039><c> be</c><00:07:43.199><c> adjusted</c><00:07:43.680><c> through</c>
+
+00:07:43.990 --> 00:07:44.000 align:start position:0%
+efficiency gain can be adjusted through
+ 
+
+00:07:44.000 --> 00:07:46.390 align:start position:0%
+efficiency gain can be adjusted through
+the<00:07:44.240><c> patch</c><00:07:44.560><c> size</c><00:07:44.960><c> alongside</c><00:07:45.520><c> the</c><00:07:45.680><c> model</c><00:07:46.000><c> size</c>
+
+00:07:46.390 --> 00:07:46.400 align:start position:0%
+the patch size alongside the model size
+ 
+
+00:07:46.400 --> 00:07:48.150 align:start position:0%
+the patch size alongside the model size
+since<00:07:46.720><c> token</c><00:07:47.120><c> size</c><00:07:47.360><c> is</c><00:07:47.520><c> not</c><00:07:47.759><c> something</c><00:07:47.919><c> that</c>
+
+00:07:48.150 --> 00:07:48.160 align:start position:0%
+since token size is not something that
+ 
+
+00:07:48.160 --> 00:07:49.909 align:start position:0%
+since token size is not something that
+can<00:07:48.319><c> be</c><00:07:48.400><c> adjusted</c><00:07:48.720><c> in</c><00:07:48.880><c> tokenization</c><00:07:49.680><c> based</c>
+
+00:07:49.909 --> 00:07:49.919 align:start position:0%
+can be adjusted in tokenization based
+ 
+
+00:07:49.919 --> 00:07:52.070 align:start position:0%
+can be adjusted in tokenization based
+LLM.<00:07:50.560><c> So</c><00:07:50.720><c> a</c><00:07:50.960><c> new</c><00:07:51.120><c> direction</c><00:07:51.440><c> of</c><00:07:51.599><c> potential</c>
+
+00:07:52.070 --> 00:07:52.080 align:start position:0%
+LLM. So a new direction of potential
+ 
+
+00:07:52.080 --> 00:07:54.150 align:start position:0%
+LLM. So a new direction of potential
+efficiency<00:07:52.639><c> gain</c><00:07:52.960><c> is</c><00:07:53.120><c> unlocked.</c><00:07:53.759><c> With</c><00:07:53.919><c> this</c>
+
+00:07:54.150 --> 00:07:54.160 align:start position:0%
+efficiency gain is unlocked. With this
+ 
+
+00:07:54.160 --> 00:07:55.830 align:start position:0%
+efficiency gain is unlocked. With this
+research<00:07:54.479><c> being</c><00:07:54.720><c> the</c><00:07:54.960><c> first</c><00:07:55.199><c> flops</c>
+
+00:07:55.830 --> 00:07:55.840 align:start position:0%
+research being the first flops
+ 
+
+00:07:55.840 --> 00:07:57.749 align:start position:0%
+research being the first flops
+controlled<00:07:56.319><c> scaling</c><00:07:56.800><c> study</c><00:07:57.039><c> of</c><00:07:57.199><c> bite</c><00:07:57.520><c> level</c>
+
+00:07:57.749 --> 00:07:57.759 align:start position:0%
+controlled scaling study of bite level
+ 
+
+00:07:57.759 --> 00:08:00.070 align:start position:0%
+controlled scaling study of bite level
+models<00:07:58.160><c> up</c><00:07:58.319><c> to</c><00:07:58.479><c> 8</c><00:07:58.720><c> billion</c><00:07:59.039><c> parameters</c><00:07:59.520><c> and</c><00:07:59.840><c> 4</c>
+
+00:08:00.070 --> 00:08:00.080 align:start position:0%
+models up to 8 billion parameters and 4
+ 
+
+00:08:00.080 --> 00:08:02.230 align:start position:0%
+models up to 8 billion parameters and 4
+trillion<00:08:00.400><c> training</c><00:08:00.720><c> bytes</c><00:08:01.280><c> on</c><00:08:01.520><c> top</c><00:08:01.759><c> of</c><00:08:01.919><c> them</c>
+
+00:08:02.230 --> 00:08:02.240 align:start position:0%
+trillion training bytes on top of them
+ 
+
+00:08:02.240 --> 00:08:04.390 align:start position:0%
+trillion training bytes on top of them
+releasing<00:08:02.639><c> an</c><00:08:02.960><c> open-</c><00:08:03.280><c> source</c><00:08:03.599><c> model.</c><00:08:04.080><c> I</c><00:08:04.319><c> think</c>
+
+00:08:04.390 --> 00:08:04.400 align:start position:0%
+releasing an open- source model. I think
+ 
+
+00:08:04.400 --> 00:08:06.070 align:start position:0%
+releasing an open- source model. I think
+this<00:08:04.560><c> research</c><00:08:04.879><c> is</c><00:08:05.120><c> already</c><00:08:05.440><c> providing</c><00:08:05.840><c> a</c>
+
+00:08:06.070 --> 00:08:06.080 align:start position:0%
+this research is already providing a
+ 
+
+00:08:06.080 --> 00:08:07.830 align:start position:0%
+this research is already providing a
+really<00:08:06.319><c> promising</c><00:08:06.800><c> foundation</c><00:08:07.280><c> for</c><00:08:07.520><c> moving</c>
+
+00:08:07.830 --> 00:08:07.840 align:start position:0%
+really promising foundation for moving
+ 
+
+00:08:07.840 --> 00:08:09.830 align:start position:0%
+really promising foundation for moving
+the<00:08:08.000><c> current</c><00:08:08.240><c> tokenbased</c><00:08:08.879><c> LLM</c><00:08:09.440><c> paradigm</c>
+
+00:08:09.830 --> 00:08:09.840 align:start position:0%
+the current tokenbased LLM paradigm
+ 
+
+00:08:09.840 --> 00:08:11.909 align:start position:0%
+the current tokenbased LLM paradigm
+towards<00:08:10.319><c> something</c><00:08:10.639><c> on</c><00:08:10.960><c> a</c><00:08:11.199><c> lower</c><00:08:11.520><c> level</c>
+
+00:08:11.909 --> 00:08:11.919 align:start position:0%
+towards something on a lower level
+ 
+
+00:08:11.919 --> 00:08:13.589 align:start position:0%
+towards something on a lower level
+because<00:08:12.160><c> BLT</c><00:08:12.800><c> has</c><00:08:12.960><c> already</c><00:08:13.280><c> shown</c>
+
+00:08:13.589 --> 00:08:13.599 align:start position:0%
+because BLT has already shown
+ 
+
+00:08:13.599 --> 00:08:15.510 align:start position:0%
+because BLT has already shown
+improvements<00:08:14.160><c> on</c><00:08:14.400><c> tasks</c><00:08:14.800><c> that</c><00:08:15.120><c> require</c>
+
+00:08:15.510 --> 00:08:15.520 align:start position:0%
+improvements on tasks that require
+ 
+
+00:08:15.520 --> 00:08:17.830 align:start position:0%
+improvements on tasks that require
+understanding<00:08:16.000><c> of</c><00:08:16.240><c> subword</c><00:08:16.800><c> aspects</c><00:08:17.440><c> such</c><00:08:17.599><c> as</c>
+
+00:08:17.830 --> 00:08:17.840 align:start position:0%
+understanding of subword aspects such as
+ 
+
+00:08:17.840 --> 00:08:20.150 align:start position:0%
+understanding of subword aspects such as
+orthographic<00:08:18.560><c> knowledge,</c><00:08:19.199><c> phenology,</c><00:08:19.919><c> and</c>
+
+00:08:20.150 --> 00:08:20.160 align:start position:0%
+orthographic knowledge, phenology, and
+ 
+
+00:08:20.160 --> 00:08:22.150 align:start position:0%
+orthographic knowledge, phenology, and
+low<00:08:20.400><c> resource</c><00:08:20.800><c> machine</c><00:08:21.120><c> translation.</c><00:08:21.759><c> And</c><00:08:22.000><c> by</c>
+
+00:08:22.150 --> 00:08:22.160 align:start position:0%
+low resource machine translation. And by
+ 
+
+00:08:22.160 --> 00:08:24.469 align:start position:0%
+low resource machine translation. And by
+its<00:08:22.319><c> very</c><00:08:22.639><c> design,</c><00:08:23.120><c> BLT</c><00:08:23.599><c> sidesteps</c><00:08:24.240><c> many</c>
+
+00:08:24.469 --> 00:08:24.479 align:start position:0%
+its very design, BLT sidesteps many
+ 
+
+00:08:24.479 --> 00:08:26.790 align:start position:0%
+its very design, BLT sidesteps many
+issues<00:08:24.960><c> inherent</c><00:08:25.440><c> to</c><00:08:25.599><c> fix</c><00:08:25.919><c> tokenizers,</c>
+
+00:08:26.790 --> 00:08:26.800 align:start position:0%
+issues inherent to fix tokenizers,
+ 
+
+00:08:26.800 --> 00:08:28.629 align:start position:0%
+issues inherent to fix tokenizers,
+including<00:08:27.280><c> performing</c><00:08:27.759><c> poorly</c><00:08:28.080><c> on</c><00:08:28.319><c> rare</c>
+
+00:08:28.629 --> 00:08:28.639 align:start position:0%
+including performing poorly on rare
+ 
+
+00:08:28.639 --> 00:08:30.150 align:start position:0%
+including performing poorly on rare
+rewards<00:08:28.960><c> or</c><00:08:29.120><c> multilingual</c><00:08:29.759><c> language</c>
+
+00:08:30.150 --> 00:08:30.160 align:start position:0%
+rewards or multilingual language
+ 
+
+00:08:30.160 --> 00:08:32.149 align:start position:0%
+rewards or multilingual language
+modeling,<00:08:30.720><c> which</c><00:08:30.960><c> I</c><00:08:31.120><c> would</c><00:08:31.280><c> say</c><00:08:31.680><c> the</c><00:08:31.919><c> current</c>
+
+00:08:32.149 --> 00:08:32.159 align:start position:0%
+modeling, which I would say the current
+ 
+
+00:08:32.159 --> 00:08:34.469 align:start position:0%
+modeling, which I would say the current
+model<00:08:32.560><c> still</c><00:08:32.880><c> struggles</c><00:08:33.519><c> very</c><00:08:33.760><c> badly</c><00:08:34.080><c> with.</c>
+
+00:08:34.469 --> 00:08:34.479 align:start position:0%
+model still struggles very badly with.
+ 
+
+00:08:34.479 --> 00:08:35.990 align:start position:0%
+model still struggles very badly with.
+There's<00:08:34.719><c> also</c><00:08:34.880><c> a</c><00:08:35.120><c> brand</c><00:08:35.279><c> new</c><00:08:35.440><c> research</c><00:08:35.760><c> that</c>
+
+00:08:35.990 --> 00:08:36.000 align:start position:0%
+There's also a brand new research that
+ 
+
+00:08:36.000 --> 00:08:37.750 align:start position:0%
+There's also a brand new research that
+was<00:08:36.080><c> published</c><00:08:36.320><c> a</c><00:08:36.560><c> week</c><00:08:36.640><c> ago</c><00:08:36.959><c> that</c><00:08:37.200><c> swaps</c><00:08:37.519><c> out</c>
+
+00:08:37.750 --> 00:08:37.760 align:start position:0%
+was published a week ago that swaps out
+ 
+
+00:08:37.760 --> 00:08:40.469 align:start position:0%
+was published a week ago that swaps out
+tokenization<00:08:38.640><c> for</c><00:08:38.880><c> a</c><00:08:39.120><c> unit</c><00:08:39.519><c> that</c><00:08:39.760><c> pulls</c><00:08:40.159><c> raw</c>
+
+00:08:40.469 --> 00:08:40.479 align:start position:0%
+tokenization for a unit that pulls raw
+ 
+
+00:08:40.479 --> 00:08:42.469 align:start position:0%
+tokenization for a unit that pulls raw
+byes<00:08:40.880><c> into</c><00:08:41.120><c> compressed</c><00:08:41.599><c> chunks.</c><00:08:42.080><c> But</c><00:08:42.240><c> one</c><00:08:42.399><c> of</c>
+
+00:08:42.469 --> 00:08:42.479 align:start position:0%
+byes into compressed chunks. But one of
+ 
+
+00:08:42.479 --> 00:08:44.310 align:start position:0%
+byes into compressed chunks. But one of
+its<00:08:42.719><c> major</c><00:08:42.959><c> flaws</c><00:08:43.279><c> is</c><00:08:43.440><c> that</c><00:08:43.680><c> it</c><00:08:43.839><c> separates</c>
+
+00:08:44.310 --> 00:08:44.320 align:start position:0%
+its major flaws is that it separates
+ 
+
+00:08:44.320 --> 00:08:46.310 align:start position:0%
+its major flaws is that it separates
+bytes<00:08:44.640><c> using</c><00:08:44.959><c> spaces.</c><00:08:45.440><c> So</c><00:08:45.680><c> language</c><00:08:46.000><c> without</c>
+
+00:08:46.310 --> 00:08:46.320 align:start position:0%
+bytes using spaces. So language without
+ 
+
+00:08:46.320 --> 00:08:48.630 align:start position:0%
+bytes using spaces. So language without
+explicit<00:08:46.880><c> spacing</c><00:08:47.360><c> like</c><00:08:47.519><c> Chinese</c><00:08:48.160><c> does</c><00:08:48.399><c> not</c>
+
+00:08:48.630 --> 00:08:48.640 align:start position:0%
+explicit spacing like Chinese does not
+ 
+
+00:08:48.640 --> 00:08:51.110 align:start position:0%
+explicit spacing like Chinese does not
+work.<00:08:49.120><c> Still,</c><00:08:49.519><c> the</c><00:08:49.760><c> architecture</c><00:08:50.320><c> has</c><00:08:50.640><c> a</c><00:08:50.800><c> neat</c>
+
+00:08:51.110 --> 00:08:51.120 align:start position:0%
+work. Still, the architecture has a neat
+ 
+
+00:08:51.120 --> 00:08:53.190 align:start position:0%
+work. Still, the architecture has a neat
+upside.<00:08:51.600><c> It</c><00:08:51.839><c> can</c><00:08:51.920><c> predict</c><00:08:52.240><c> several</c><00:08:52.560><c> bytes</c><00:08:52.959><c> or</c>
+
+00:08:53.190 --> 00:08:53.200 align:start position:0%
+upside. It can predict several bytes or
+ 
+
+00:08:53.200 --> 00:08:55.110 align:start position:0%
+upside. It can predict several bytes or
+even<00:08:53.360><c> multiple</c><00:08:53.760><c> words</c><00:08:54.080><c> in</c><00:08:54.320><c> a</c><00:08:54.480><c> single</c><00:08:54.720><c> shot.</c>
+
+00:08:55.110 --> 00:08:55.120 align:start position:0%
+even multiple words in a single shot.
+ 
+
+00:08:55.120 --> 00:08:56.710 align:start position:0%
+even multiple words in a single shot.
+And<00:08:55.279><c> yeah,</c><00:08:55.440><c> that's</c><00:08:55.600><c> it</c><00:08:55.760><c> for</c><00:08:56.000><c> this</c><00:08:56.160><c> video.</c><00:08:56.560><c> If</c>
+
+00:08:56.710 --> 00:08:56.720 align:start position:0%
+And yeah, that's it for this video. If
+ 
+
+00:08:56.720 --> 00:08:58.230 align:start position:0%
+And yeah, that's it for this video. If
+you<00:08:56.800><c> want</c><00:08:56.880><c> to</c><00:08:57.040><c> learn</c><00:08:57.200><c> more</c><00:08:57.360><c> about</c><00:08:57.600><c> bilton</c>
+
+00:08:58.230 --> 00:08:58.240 align:start position:0%
+you want to learn more about bilton
+ 
+
+00:08:58.240 --> 00:09:00.070 align:start position:0%
+you want to learn more about bilton
+transformer,<00:08:58.800><c> you</c><00:08:58.959><c> can</c><00:08:59.040><c> go</c><00:08:59.200><c> ask</c><00:08:59.440><c> my</c><00:08:59.680><c> website</c>
+
+00:09:00.070 --> 00:09:00.080 align:start position:0%
+transformer, you can go ask my website
+ 
+
+00:09:00.080 --> 00:09:02.630 align:start position:0%
+transformer, you can go ask my website
+findmyapers.ai.<00:09:01.519><c> It</c><00:09:01.680><c> can</c><00:09:01.839><c> explain</c><00:09:02.080><c> to</c><00:09:02.240><c> you</c><00:09:02.399><c> in</c>
+
+00:09:02.630 --> 00:09:02.640 align:start position:0%
+findmyapers.ai. It can explain to you in
+ 
+
+00:09:02.640 --> 00:09:04.550 align:start position:0%
+findmyapers.ai. It can explain to you in
+extreme<00:09:03.120><c> detail</c><00:09:03.440><c> about</c><00:09:03.680><c> what</c><00:09:03.839><c> it</c><00:09:04.080><c> is,</c><00:09:04.320><c> the</c>
+
+00:09:04.550 --> 00:09:04.560 align:start position:0%
+extreme detail about what it is, the
+ 
+
+00:09:04.560 --> 00:09:06.150 align:start position:0%
+extreme detail about what it is, the
+latest<00:09:04.800><c> developments</c><00:09:05.279><c> or</c><00:09:05.519><c> even</c><00:09:05.760><c> similar</c>
+
+00:09:06.150 --> 00:09:06.160 align:start position:0%
+latest developments or even similar
+ 
+
+00:09:06.160 --> 00:09:08.150 align:start position:0%
+latest developments or even similar
+ideas<00:09:06.560><c> or</c><00:09:06.880><c> applications</c><00:09:07.440><c> that</c><00:09:07.519><c> are</c><00:09:07.680><c> very</c><00:09:07.920><c> hard</c>
+
+00:09:08.150 --> 00:09:08.160 align:start position:0%
+ideas or applications that are very hard
+ 
+
+00:09:08.160 --> 00:09:10.070 align:start position:0%
+ideas or applications that are very hard
+to<00:09:08.320><c> discover</c><00:09:08.720><c> yourself.</c><00:09:09.440><c> And</c><00:09:09.600><c> thank</c><00:09:09.760><c> you</c><00:09:09.920><c> guys</c>
+
+00:09:10.070 --> 00:09:10.080 align:start position:0%
+to discover yourself. And thank you guys
+ 
+
+00:09:10.080 --> 00:09:12.389 align:start position:0%
+to discover yourself. And thank you guys
+for<00:09:10.320><c> watching.</c><00:09:10.720><c> A</c><00:09:10.959><c> big</c><00:09:11.200><c> shout</c><00:09:11.360><c> out</c><00:09:11.519><c> to</c><00:09:11.760><c> Andrew</c>
+
+00:09:12.389 --> 00:09:12.399 align:start position:0%
+for watching. A big shout out to Andrew
+ 
+
+00:09:12.399 --> 00:09:16.150 align:start position:0%
+for watching. A big shout out to Andrew
+Chellius,<00:09:13.279><c> Chris</c><00:09:13.519><c> Leoo,</c><00:09:14.640><c> Degan</c><00:09:14.880><c> Gan,</c><00:09:15.760><c> News</c>
+
+00:09:16.150 --> 00:09:16.160 align:start position:0%
+Chellius, Chris Leoo, Degan Gan, News
+ 
+
+00:09:16.160 --> 00:09:20.230 align:start position:0%
+Chellius, Chris Leoo, Degan Gan, News
+Research,<00:09:17.120><c> Kanan,</c><00:09:18.160><c> Robert</c><00:09:18.560><c> Zaviasa,</c><00:09:19.839><c> Leis</c>
+
+00:09:20.230 --> 00:09:20.240 align:start position:0%
+Research, Kanan, Robert Zaviasa, Leis
+ 
+
+00:09:20.240 --> 00:09:24.070 align:start position:0%
+Research, Kanan, Robert Zaviasa, Leis
+Muk,<00:09:21.120><c> Ben</c><00:09:21.440><c> Shainer,</c><00:09:22.320><c> Marcelo,</c><00:09:22.880><c> Ferraria,</c>
+
+00:09:24.070 --> 00:09:24.080 align:start position:0%
+Muk, Ben Shainer, Marcelo, Ferraria,
+ 
+
+00:09:24.080 --> 00:09:27.269 align:start position:0%
+Muk, Ben Shainer, Marcelo, Ferraria,
+Zay,<00:09:24.480><c> Sheep,</c><00:09:25.120><c> Poof,</c><00:09:25.519><c> and</c><00:09:25.680><c> Enu,</c><00:09:26.320><c> DX</c><00:09:26.800><c> Research</c>
+
+00:09:27.269 --> 00:09:27.279 align:start position:0%
+Zay, Sheep, Poof, and Enu, DX Research
+ 
+
+00:09:27.279 --> 00:09:28.949 align:start position:0%
+Zay, Sheep, Poof, and Enu, DX Research
+Group,<00:09:27.680><c> and</c><00:09:27.920><c> many</c><00:09:28.160><c> others</c><00:09:28.399><c> that</c><00:09:28.560><c> support</c><00:09:28.800><c> me</c>
+
+00:09:28.949 --> 00:09:28.959 align:start position:0%
+Group, and many others that support me
+ 
+
+00:09:28.959 --> 00:09:30.710 align:start position:0%
+Group, and many others that support me
+through<00:09:29.200><c> Patreon</c><00:09:29.519><c> or</c><00:09:29.760><c> YouTube.</c><00:09:30.240><c> Follow</c><00:09:30.480><c> me</c><00:09:30.640><c> on</c>
+
+00:09:30.710 --> 00:09:30.720 align:start position:0%
+through Patreon or YouTube. Follow me on
+ 
+
+00:09:30.720 --> 00:09:32.070 align:start position:0%
+through Patreon or YouTube. Follow me on
+Twitter<00:09:30.959><c> if</c><00:09:31.120><c> you</c><00:09:31.200><c> haven't</c><00:09:31.440><c> and</c><00:09:31.680><c> I'll</c><00:09:31.920><c> see</c>
+
+00:09:32.070 --> 00:09:32.080 align:start position:0%
+Twitter if you haven't and I'll see
+ 
+
+00:09:32.080 --> 00:09:34.959 align:start position:0%
+Twitter if you haven't and I'll see
+youall<00:09:32.320><c> in</c><00:09:32.560><c> the</c><00:09:32.800><c> next</c>
+

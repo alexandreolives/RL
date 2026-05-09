@@ -1,0 +1,3392 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.080 --> 00:00:01.750 align:start position:0%
+ 
+Pop<00:00:00.320><c> quiz.</c><00:00:00.719><c> What's</c><00:00:00.960><c> something</c><00:00:01.199><c> that</c><00:00:01.439><c> you</c><00:00:01.600><c> can</c>
+
+00:00:01.750 --> 00:00:01.760 align:start position:0%
+Pop quiz. What's something that you can
+ 
+
+00:00:01.760 --> 00:00:04.390 align:start position:0%
+Pop quiz. What's something that you can
+see,<00:00:02.320><c> you</c><00:00:02.480><c> can</c><00:00:02.720><c> copy,</c><00:00:03.360><c> you</c><00:00:03.520><c> can</c><00:00:03.679><c> even</c><00:00:03.919><c> have,</c>
+
+00:00:04.390 --> 00:00:04.400 align:start position:0%
+see, you can copy, you can even have,
+ 
+
+00:00:04.400 --> 00:00:07.349 align:start position:0%
+see, you can copy, you can even have,
+but<00:00:04.880><c> you</c><00:00:05.120><c> cannot</c><00:00:05.600><c> use?</c><00:00:06.240><c> The</c><00:00:06.480><c> answer</c><00:00:06.720><c> is</c><00:00:07.120><c> a</c>
+
+00:00:07.349 --> 00:00:07.359 align:start position:0%
+but you cannot use? The answer is a
+ 
+
+00:00:07.359 --> 00:00:09.350 align:start position:0%
+but you cannot use? The answer is a
+state-of-the-art<00:00:08.160><c> open-source</c><00:00:08.800><c> model.</c>
+
+00:00:09.350 --> 00:00:09.360 align:start position:0%
+state-of-the-art open-source model.
+ 
+
+00:00:09.360 --> 00:00:10.950 align:start position:0%
+state-of-the-art open-source model.
+Unless<00:00:09.679><c> you</c><00:00:09.920><c> are</c><00:00:10.080><c> rich</c><00:00:10.320><c> enough</c><00:00:10.480><c> to</c><00:00:10.639><c> have</c><00:00:10.800><c> the</c>
+
+00:00:10.950 --> 00:00:10.960 align:start position:0%
+Unless you are rich enough to have the
+ 
+
+00:00:10.960 --> 00:00:13.270 align:start position:0%
+Unless you are rich enough to have the
+hardware<00:00:11.280><c> that</c><00:00:11.519><c> would</c><00:00:11.679><c> cost</c><00:00:12.000><c> at</c><00:00:12.000><c> least</c><00:00:12.480><c> 400K,</c>
+
+00:00:13.270 --> 00:00:13.280 align:start position:0%
+hardware that would cost at least 400K,
+ 
+
+00:00:13.280 --> 00:00:15.350 align:start position:0%
+hardware that would cost at least 400K,
+then<00:00:13.519><c> running</c><00:00:13.759><c> a</c><00:00:13.920><c> copy</c><00:00:14.160><c> of</c><00:00:14.240><c> Deep</c><00:00:14.559><c> Seek</c><00:00:14.799><c> V3</c><00:00:15.120><c> is</c>
+
+00:00:15.350 --> 00:00:15.360 align:start position:0%
+then running a copy of Deep Seek V3 is
+ 
+
+00:00:15.360 --> 00:00:17.430 align:start position:0%
+then running a copy of Deep Seek V3 is
+just<00:00:15.440><c> a</c><00:00:15.599><c> pipe</c><00:00:15.839><c> dream</c><00:00:16.080><c> for</c><00:00:16.320><c> most</c><00:00:16.560><c> of</c><00:00:16.640><c> us.</c><00:00:17.039><c> So,</c><00:00:17.199><c> in</c>
+
+00:00:17.430 --> 00:00:17.440 align:start position:0%
+just a pipe dream for most of us. So, in
+ 
+
+00:00:17.440 --> 00:00:19.029 align:start position:0%
+just a pipe dream for most of us. So, in
+response,<00:00:18.000><c> researchers</c><00:00:18.480><c> make</c><00:00:18.720><c> smaller</c>
+
+00:00:19.029 --> 00:00:19.039 align:start position:0%
+response, researchers make smaller
+ 
+
+00:00:19.039 --> 00:00:21.269 align:start position:0%
+response, researchers make smaller
+models<00:00:19.359><c> or</c><00:00:19.600><c> even</c><00:00:19.840><c> distill</c><00:00:20.240><c> them</c><00:00:20.480><c> into</c><00:00:20.880><c> smaller</c>
+
+00:00:21.269 --> 00:00:21.279 align:start position:0%
+models or even distill them into smaller
+ 
+
+00:00:21.279 --> 00:00:23.349 align:start position:0%
+models or even distill them into smaller
+sizes.<00:00:21.760><c> And</c><00:00:21.920><c> in</c><00:00:22.160><c> some</c><00:00:22.320><c> cases,</c><00:00:22.880><c> lowering</c><00:00:23.199><c> the</c>
+
+00:00:23.349 --> 00:00:23.359 align:start position:0%
+sizes. And in some cases, lowering the
+ 
+
+00:00:23.359 --> 00:00:25.509 align:start position:0%
+sizes. And in some cases, lowering the
+hardware<00:00:23.760><c> requirement</c><00:00:24.240><c> by</c><00:00:24.400><c> up</c><00:00:24.640><c> to</c><00:00:24.800><c> 10</c><00:00:25.039><c> times.</c>
+
+00:00:25.509 --> 00:00:25.519 align:start position:0%
+hardware requirement by up to 10 times.
+ 
+
+00:00:25.519 --> 00:00:27.109 align:start position:0%
+hardware requirement by up to 10 times.
+But<00:00:25.760><c> again,</c><00:00:26.080><c> even</c><00:00:26.320><c> though</c><00:00:26.400><c> it's</c><00:00:26.640><c> 10</c><00:00:26.880><c> times</c>
+
+00:00:27.109 --> 00:00:27.119 align:start position:0%
+But again, even though it's 10 times
+ 
+
+00:00:27.119 --> 00:00:29.429 align:start position:0%
+But again, even though it's 10 times
+cheaper,<00:00:27.599><c> it</c><00:00:27.760><c> still</c><00:00:28.000><c> requires</c><00:00:28.320><c> a</c><00:00:28.560><c> GPU</c><00:00:29.039><c> worth</c><00:00:29.279><c> a</c>
+
+00:00:29.429 --> 00:00:29.439 align:start position:0%
+cheaper, it still requires a GPU worth a
+ 
+
+00:00:29.439 --> 00:00:31.750 align:start position:0%
+cheaper, it still requires a GPU worth a
+whopping<00:00:30.000><c> 20k</c><00:00:30.480><c> to</c><00:00:30.640><c> run</c><00:00:30.800><c> on.</c><00:00:31.119><c> So</c><00:00:31.279><c> if</c><00:00:31.439><c> you</c><00:00:31.599><c> really</c>
+
+00:00:31.750 --> 00:00:31.760 align:start position:0%
+whopping 20k to run on. So if you really
+ 
+
+00:00:31.760 --> 00:00:33.590 align:start position:0%
+whopping 20k to run on. So if you really
+want<00:00:31.840><c> to</c><00:00:32.000><c> run</c><00:00:32.160><c> an</c><00:00:32.320><c> AI</c><00:00:32.640><c> model</c><00:00:32.880><c> yourself,</c><00:00:33.280><c> you're</c>
+
+00:00:33.590 --> 00:00:33.600 align:start position:0%
+want to run an AI model yourself, you're
+ 
+
+00:00:33.600 --> 00:00:35.430 align:start position:0%
+want to run an AI model yourself, you're
+basically<00:00:33.920><c> left</c><00:00:34.160><c> with</c><00:00:34.399><c> one</c><00:00:34.719><c> other</c><00:00:34.960><c> option,</c>
+
+00:00:35.430 --> 00:00:35.440 align:start position:0%
+basically left with one other option,
+ 
+
+00:00:35.440 --> 00:00:37.270 align:start position:0%
+basically left with one other option,
+which<00:00:35.600><c> is</c><00:00:35.760><c> choosing</c><00:00:36.079><c> a</c><00:00:36.320><c> model</c><00:00:36.559><c> that</c><00:00:36.800><c> has</c><00:00:37.040><c> even</c>
+
+00:00:37.270 --> 00:00:37.280 align:start position:0%
+which is choosing a model that has even
+ 
+
+00:00:37.280 --> 00:00:39.590 align:start position:0%
+which is choosing a model that has even
+less<00:00:37.600><c> parameters.</c><00:00:38.320><c> Depending</c><00:00:38.640><c> on</c><00:00:38.800><c> your</c><00:00:39.040><c> GPU,</c>
+
+00:00:39.590 --> 00:00:39.600 align:start position:0%
+less parameters. Depending on your GPU,
+ 
+
+00:00:39.600 --> 00:00:42.069 align:start position:0%
+less parameters. Depending on your GPU,
+a<00:00:39.840><c> 7</c><00:00:40.079><c> billion</c><00:00:40.399><c> parameters</c><00:00:40.800><c> or</c><00:00:40.960><c> a</c><00:00:41.120><c> 1.5</c><00:00:41.760><c> billion</c>
+
+00:00:42.069 --> 00:00:42.079 align:start position:0%
+a 7 billion parameters or a 1.5 billion
+ 
+
+00:00:42.079 --> 00:00:43.830 align:start position:0%
+a 7 billion parameters or a 1.5 billion
+parameters<00:00:42.640><c> model</c><00:00:42.960><c> might</c><00:00:43.200><c> sound</c><00:00:43.520><c> great</c><00:00:43.680><c> for</c>
+
+00:00:43.830 --> 00:00:43.840 align:start position:0%
+parameters model might sound great for
+ 
+
+00:00:43.840 --> 00:00:45.830 align:start position:0%
+parameters model might sound great for
+you.<00:00:44.239><c> But</c><00:00:44.399><c> that</c><00:00:44.559><c> means</c><00:00:44.879><c> you</c><00:00:45.120><c> have</c><00:00:45.200><c> to</c><00:00:45.360><c> use</c><00:00:45.600><c> an</c>
+
+00:00:45.830 --> 00:00:45.840 align:start position:0%
+you. But that means you have to use an
+ 
+
+00:00:45.840 --> 00:00:48.470 align:start position:0%
+you. But that means you have to use an
+AI<00:00:46.239><c> with</c><00:00:46.399><c> a</c><00:00:46.640><c> very</c><00:00:46.800><c> tiny</c><00:00:47.200><c> brain,</c><00:00:47.600><c> and</c><00:00:47.840><c> sometimes</c>
+
+00:00:48.470 --> 00:00:48.480 align:start position:0%
+AI with a very tiny brain, and sometimes
+ 
+
+00:00:48.480 --> 00:00:50.310 align:start position:0%
+AI with a very tiny brain, and sometimes
+it<00:00:48.719><c> can</c><00:00:48.879><c> feel</c><00:00:49.120><c> really</c><00:00:49.440><c> frustrating</c><00:00:50.079><c> talking</c>
+
+00:00:50.310 --> 00:00:50.320 align:start position:0%
+it can feel really frustrating talking
+ 
+
+00:00:50.320 --> 00:00:51.910 align:start position:0%
+it can feel really frustrating talking
+to<00:00:50.480><c> it.</c><00:00:50.719><c> So</c><00:00:50.879><c> to</c><00:00:51.120><c> reduce</c><00:00:51.360><c> the</c><00:00:51.600><c> hardware</c>
+
+00:00:51.910 --> 00:00:51.920 align:start position:0%
+to it. So to reduce the hardware
+ 
+
+00:00:51.920 --> 00:00:53.510 align:start position:0%
+to it. So to reduce the hardware
+requirement<00:00:52.399><c> for</c><00:00:52.640><c> larger</c><00:00:53.039><c> models,</c>
+
+00:00:53.510 --> 00:00:53.520 align:start position:0%
+requirement for larger models,
+ 
+
+00:00:53.520 --> 00:00:55.350 align:start position:0%
+requirement for larger models,
+researchers<00:00:54.079><c> look</c><00:00:54.239><c> towards</c><00:00:54.640><c> the</c><00:00:54.800><c> inside</c><00:00:55.199><c> of</c>
+
+00:00:55.350 --> 00:00:55.360 align:start position:0%
+researchers look towards the inside of
+ 
+
+00:00:55.360 --> 00:00:57.029 align:start position:0%
+researchers look towards the inside of
+the<00:00:55.520><c> model,</c><00:00:55.920><c> which</c><00:00:56.239><c> are</c><00:00:56.399><c> the</c><00:00:56.559><c> ways</c><00:00:56.879><c> that</c>
+
+00:00:57.029 --> 00:00:57.039 align:start position:0%
+the model, which are the ways that
+ 
+
+00:00:57.039 --> 00:00:59.349 align:start position:0%
+the model, which are the ways that
+influences<00:00:57.680><c> how</c><00:00:57.840><c> an</c><00:00:58.079><c> input</c><00:00:58.480><c> is</c><00:00:58.719><c> mapped</c><00:00:58.960><c> to</c><00:00:59.120><c> an</c>
+
+00:00:59.349 --> 00:00:59.359 align:start position:0%
+influences how an input is mapped to an
+ 
+
+00:00:59.359 --> 00:01:01.029 align:start position:0%
+influences how an input is mapped to an
+output.<00:00:59.760><c> Without</c><00:01:00.000><c> going</c><00:01:00.239><c> too</c><00:01:00.480><c> deep</c><00:01:00.640><c> into</c><00:01:00.879><c> the</c>
+
+00:01:01.029 --> 00:01:01.039 align:start position:0%
+output. Without going too deep into the
+ 
+
+00:01:01.039 --> 00:01:03.349 align:start position:0%
+output. Without going too deep into the
+math,<00:01:01.359><c> an</c><00:01:01.600><c> AI</c><00:01:02.000><c> model</c><00:01:02.239><c> is</c><00:01:02.480><c> basically</c><00:01:02.879><c> like</c><00:01:03.120><c> a</c>
+
+00:01:03.349 --> 00:01:03.359 align:start position:0%
+math, an AI model is basically like a
+ 
+
+00:01:03.359 --> 00:01:05.270 align:start position:0%
+math, an AI model is basically like a
+function<00:01:03.760><c> f</c><00:01:04.159><c> where</c><00:01:04.320><c> if</c><00:01:04.479><c> you</c><00:01:04.640><c> pass</c><00:01:04.879><c> through</c><00:01:05.119><c> an</c>
+
+00:01:05.270 --> 00:01:05.280 align:start position:0%
+function f where if you pass through an
+ 
+
+00:01:05.280 --> 00:01:07.670 align:start position:0%
+function f where if you pass through an
+input<00:01:05.680><c> X,</c><00:01:06.000><c> it'll</c><00:01:06.320><c> give</c><00:01:06.400><c> you</c><00:01:06.560><c> an</c><00:01:06.799><c> outcome</c><00:01:07.280><c> Y.</c>
+
+00:01:07.670 --> 00:01:07.680 align:start position:0%
+input X, it'll give you an outcome Y.
+ 
+
+00:01:07.680 --> 00:01:10.469 align:start position:0%
+input X, it'll give you an outcome Y.
+And<00:01:07.840><c> in</c><00:01:08.000><c> that</c><00:01:08.240><c> function,</c><00:01:08.799><c> aka</c><00:01:09.280><c> the</c><00:01:09.520><c> AI</c><00:01:09.920><c> model,</c>
+
+00:01:10.469 --> 00:01:10.479 align:start position:0%
+And in that function, aka the AI model,
+ 
+
+00:01:10.479 --> 00:01:11.750 align:start position:0%
+And in that function, aka the AI model,
+you<00:01:10.640><c> would</c><00:01:10.799><c> usually</c><00:01:11.040><c> have</c><00:01:11.119><c> a</c><00:01:11.360><c> weight</c><00:01:11.520><c> that</c>
+
+00:01:11.750 --> 00:01:11.760 align:start position:0%
+you would usually have a weight that
+ 
+
+00:01:11.760 --> 00:01:14.630 align:start position:0%
+you would usually have a weight that
+will<00:01:12.000><c> convert</c><00:01:12.479><c> X</c><00:01:12.880><c> into</c><00:01:13.280><c> output</c><00:01:13.760><c> Y.</c><00:01:14.159><c> And</c><00:01:14.400><c> this</c>
+
+00:01:14.630 --> 00:01:14.640 align:start position:0%
+will convert X into output Y. And this
+ 
+
+00:01:14.640 --> 00:01:16.469 align:start position:0%
+will convert X into output Y. And this
+weight<00:01:14.960><c> is</c><00:01:15.280><c> determined</c><00:01:15.840><c> through</c><00:01:16.080><c> training.</c>
+
+00:01:16.469 --> 00:01:16.479 align:start position:0%
+weight is determined through training.
+ 
+
+00:01:16.479 --> 00:01:17.830 align:start position:0%
+weight is determined through training.
+So<00:01:16.720><c> when</c><00:01:16.880><c> you</c><00:01:17.040><c> stack</c><00:01:17.200><c> a</c><00:01:17.360><c> lot</c><00:01:17.439><c> of</c><00:01:17.600><c> weights</c>
+
+00:01:17.830 --> 00:01:17.840 align:start position:0%
+So when you stack a lot of weights
+ 
+
+00:01:17.840 --> 00:01:19.429 align:start position:0%
+So when you stack a lot of weights
+together<00:01:18.240><c> and</c><00:01:18.479><c> make</c><00:01:18.640><c> it</c><00:01:18.799><c> learn,</c><00:01:19.119><c> it</c><00:01:19.280><c> will</c>
+
+00:01:19.429 --> 00:01:19.439 align:start position:0%
+together and make it learn, it will
+ 
+
+00:01:19.439 --> 00:01:21.109 align:start position:0%
+together and make it learn, it will
+somehow<00:01:19.840><c> start</c><00:01:20.000><c> to</c><00:01:20.240><c> be</c><00:01:20.320><c> able</c><00:01:20.560><c> to</c><00:01:20.720><c> solve</c><00:01:20.960><c> your</c>
+
+00:01:21.109 --> 00:01:21.119 align:start position:0%
+somehow start to be able to solve your
+ 
+
+00:01:21.119 --> 00:01:23.030 align:start position:0%
+somehow start to be able to solve your
+homework.<00:01:21.520><c> In</c><00:01:21.680><c> a</c><00:01:21.840><c> typical</c><00:01:22.159><c> model</c><00:01:22.479><c> setup,</c><00:01:22.880><c> a</c>
+
+00:01:23.030 --> 00:01:23.040 align:start position:0%
+homework. In a typical model setup, a
+ 
+
+00:01:23.040 --> 00:01:25.670 align:start position:0%
+homework. In a typical model setup, a
+weight<00:01:23.280><c> is</c><00:01:23.439><c> stored</c><00:01:23.759><c> using</c><00:01:24.080><c> FP16,</c><00:01:25.040><c> which</c><00:01:25.280><c> is</c><00:01:25.439><c> a</c>
+
+00:01:25.670 --> 00:01:25.680 align:start position:0%
+weight is stored using FP16, which is a
+ 
+
+00:01:25.680 --> 00:01:28.149 align:start position:0%
+weight is stored using FP16, which is a
+number<00:01:26.000><c> system</c><00:01:26.320><c> that</c><00:01:26.560><c> uses</c><00:01:26.960><c> 16</c><00:01:27.360><c> bits</c><00:01:27.680><c> to</c><00:01:27.920><c> store</c>
+
+00:01:28.149 --> 00:01:28.159 align:start position:0%
+number system that uses 16 bits to store
+ 
+
+00:01:28.159 --> 00:01:30.230 align:start position:0%
+number system that uses 16 bits to store
+a<00:01:28.320><c> number.</c><00:01:28.799><c> And</c><00:01:28.960><c> this</c><00:01:29.200><c> weight</c><00:01:29.520><c> thingy</c><00:01:30.000><c> pretty</c>
+
+00:01:30.230 --> 00:01:30.240 align:start position:0%
+a number. And this weight thingy pretty
+ 
+
+00:01:30.240 --> 00:01:32.390 align:start position:0%
+a number. And this weight thingy pretty
+much<00:01:30.400><c> represents</c><00:01:30.880><c> what</c><00:01:31.119><c> we</c><00:01:31.360><c> refer</c><00:01:31.680><c> to</c><00:01:31.920><c> as</c><00:01:32.159><c> a</c>
+
+00:01:32.390 --> 00:01:32.400 align:start position:0%
+much represents what we refer to as a
+ 
+
+00:01:32.400 --> 00:01:34.550 align:start position:0%
+much represents what we refer to as a
+parameter.<00:01:32.960><c> So</c><00:01:33.119><c> in</c><00:01:33.280><c> the</c><00:01:33.360><c> simplest</c><00:01:33.759><c> case,</c><00:01:34.079><c> a</c><00:01:34.320><c> 7</c>
+
+00:01:34.550 --> 00:01:34.560 align:start position:0%
+parameter. So in the simplest case, a 7
+ 
+
+00:01:34.560 --> 00:01:36.230 align:start position:0%
+parameter. So in the simplest case, a 7
+billion<00:01:34.880><c> parameter</c><00:01:35.280><c> model</c><00:01:35.600><c> means</c><00:01:35.920><c> there</c><00:01:36.079><c> are</c>
+
+00:01:36.230 --> 00:01:36.240 align:start position:0%
+billion parameter model means there are
+ 
+
+00:01:36.240 --> 00:01:38.390 align:start position:0%
+billion parameter model means there are
+7<00:01:36.479><c> billion</c><00:01:36.880><c> numbers</c><00:01:37.200><c> represented</c><00:01:37.759><c> in</c><00:01:38.079><c> 16</c>
+
+00:01:38.390 --> 00:01:38.400 align:start position:0%
+7 billion numbers represented in 16
+ 
+
+00:01:38.400 --> 00:01:41.670 align:start position:0%
+7 billion numbers represented in 16
+bits,<00:01:38.880><c> which</c><00:01:39.200><c> would</c><00:01:39.520><c> be</c><00:01:39.759><c> around</c><00:01:40.240><c> 14</c><00:01:40.640><c> GB.</c><00:01:41.280><c> So</c><00:01:41.520><c> to</c>
+
+00:01:41.670 --> 00:01:41.680 align:start position:0%
+bits, which would be around 14 GB. So to
+ 
+
+00:01:41.680 --> 00:01:43.270 align:start position:0%
+bits, which would be around 14 GB. So to
+make<00:01:41.759><c> sure</c><00:01:41.840><c> that</c><00:01:42.000><c> the</c><00:01:42.159><c> model</c><00:01:42.400><c> generates</c><00:01:42.880><c> fast,</c>
+
+00:01:43.270 --> 00:01:43.280 align:start position:0%
+make sure that the model generates fast,
+ 
+
+00:01:43.280 --> 00:01:45.910 align:start position:0%
+make sure that the model generates fast,
+we<00:01:43.520><c> put</c><00:01:43.680><c> that</c><00:01:43.920><c> 14</c><00:01:44.240><c> GB</c><00:01:44.640><c> of</c><00:01:44.799><c> weight</c><00:01:45.119><c> into</c><00:01:45.280><c> the</c><00:01:45.439><c> GPU</c>
+
+00:01:45.910 --> 00:01:45.920 align:start position:0%
+we put that 14 GB of weight into the GPU
+ 
+
+00:01:45.920 --> 00:01:48.149 align:start position:0%
+we put that 14 GB of weight into the GPU
+VRAM<00:01:46.399><c> to</c><00:01:46.560><c> ensure</c><00:01:46.880><c> minimum</c><00:01:47.360><c> slowdown</c><00:01:47.759><c> on</c><00:01:48.000><c> the</c>
+
+00:01:48.149 --> 00:01:48.159 align:start position:0%
+VRAM to ensure minimum slowdown on the
+ 
+
+00:01:48.159 --> 00:01:49.990 align:start position:0%
+VRAM to ensure minimum slowdown on the
+calculation.<00:01:48.799><c> But</c><00:01:48.960><c> let's</c><00:01:49.200><c> say</c><00:01:49.360><c> you</c><00:01:49.600><c> only</c><00:01:49.840><c> have</c>
+
+00:01:49.990 --> 00:01:50.000 align:start position:0%
+calculation. But let's say you only have
+ 
+
+00:01:50.000 --> 00:01:52.950 align:start position:0%
+calculation. But let's say you only have
+a<00:01:50.159><c> GPU</c><00:01:50.640><c> with</c><00:01:50.880><c> 8</c><00:01:51.119><c> GB</c><00:01:51.600><c> of</c><00:01:51.759><c> VRAM.</c><00:01:52.320><c> You</c><00:01:52.560><c> can't</c><00:01:52.720><c> fit</c>
+
+00:01:52.950 --> 00:01:52.960 align:start position:0%
+a GPU with 8 GB of VRAM. You can't fit
+ 
+
+00:01:52.960 --> 00:01:54.310 align:start position:0%
+a GPU with 8 GB of VRAM. You can't fit
+everything<00:01:53.280><c> in</c><00:01:53.439><c> it,</c><00:01:53.680><c> right?</c><00:01:54.000><c> Well,</c>
+
+00:01:54.310 --> 00:01:54.320 align:start position:0%
+everything in it, right? Well,
+ 
+
+00:01:54.320 --> 00:01:56.789 align:start position:0%
+everything in it, right? Well,
+technically<00:01:55.119><c> you</c><00:01:55.360><c> can</c><00:01:55.520><c> actively</c><00:01:56.079><c> rotate</c><00:01:56.560><c> out</c>
+
+00:01:56.789 --> 00:01:56.799 align:start position:0%
+technically you can actively rotate out
+ 
+
+00:01:56.799 --> 00:01:58.950 align:start position:0%
+technically you can actively rotate out
+different<00:01:57.119><c> weights,</c><00:01:57.520><c> aka</c><00:01:58.079><c> offloading,</c><00:01:58.719><c> but</c>
+
+00:01:58.950 --> 00:01:58.960 align:start position:0%
+different weights, aka offloading, but
+ 
+
+00:01:58.960 --> 00:02:00.310 align:start position:0%
+different weights, aka offloading, but
+that<00:01:59.119><c> slows</c><00:01:59.360><c> down</c><00:01:59.520><c> the</c><00:01:59.759><c> whole</c><00:01:59.920><c> process</c>
+
+00:02:00.310 --> 00:02:00.320 align:start position:0%
+that slows down the whole process
+ 
+
+00:02:00.320 --> 00:02:02.550 align:start position:0%
+that slows down the whole process
+significantly<00:02:01.200><c> even</c><00:02:01.360><c> if</c><00:02:01.600><c> you</c><00:02:01.840><c> might</c><00:02:02.079><c> keep</c><00:02:02.320><c> its</c>
+
+00:02:02.550 --> 00:02:02.560 align:start position:0%
+significantly even if you might keep its
+ 
+
+00:02:02.560 --> 00:02:04.630 align:start position:0%
+significantly even if you might keep its
+performance.<00:02:03.119><c> So</c><00:02:03.280><c> one</c><00:02:03.439><c> uncommon</c><00:02:04.000><c> solution</c><00:02:04.399><c> is</c>
+
+00:02:04.630 --> 00:02:04.640 align:start position:0%
+performance. So one uncommon solution is
+ 
+
+00:02:04.640 --> 00:02:06.789 align:start position:0%
+performance. So one uncommon solution is
+to<00:02:04.799><c> quantize</c><00:02:05.360><c> the</c><00:02:05.520><c> models.</c><00:02:06.079><c> Instead</c><00:02:06.320><c> of</c><00:02:06.479><c> using</c>
+
+00:02:06.789 --> 00:02:06.799 align:start position:0%
+to quantize the models. Instead of using
+ 
+
+00:02:06.799 --> 00:02:09.109 align:start position:0%
+to quantize the models. Instead of using
+16<00:02:07.200><c> bits</c><00:02:07.520><c> to</c><00:02:07.680><c> store</c><00:02:07.920><c> a</c><00:02:08.080><c> weight,</c><00:02:08.479><c> we</c><00:02:08.720><c> can</c><00:02:08.879><c> just</c>
+
+00:02:09.109 --> 00:02:09.119 align:start position:0%
+16 bits to store a weight, we can just
+ 
+
+00:02:09.119 --> 00:02:11.589 align:start position:0%
+16 bits to store a weight, we can just
+use<00:02:09.440><c> maybe</c><00:02:09.759><c> half</c><00:02:10.000><c> of</c><00:02:10.160><c> it</c><00:02:10.479><c> or</c><00:02:10.720><c> even</c><00:02:11.120><c> a</c><00:02:11.360><c> quarter</c>
+
+00:02:11.589 --> 00:02:11.599 align:start position:0%
+use maybe half of it or even a quarter
+ 
+
+00:02:11.599 --> 00:02:13.350 align:start position:0%
+use maybe half of it or even a quarter
+of<00:02:11.760><c> it</c><00:02:11.920><c> to</c><00:02:12.080><c> store</c><00:02:12.239><c> a</c><00:02:12.480><c> weight.</c><00:02:12.879><c> But</c><00:02:13.040><c> that</c><00:02:13.200><c> would</c>
+
+00:02:13.350 --> 00:02:13.360 align:start position:0%
+of it to store a weight. But that would
+ 
+
+00:02:13.360 --> 00:02:15.350 align:start position:0%
+of it to store a weight. But that would
+mean<00:02:13.599><c> we</c><00:02:13.920><c> are</c><00:02:14.160><c> losing</c><00:02:14.480><c> a</c><00:02:14.640><c> lot</c><00:02:14.800><c> of</c><00:02:14.879><c> precision</c>
+
+00:02:15.350 --> 00:02:15.360 align:start position:0%
+mean we are losing a lot of precision
+ 
+
+00:02:15.360 --> 00:02:17.670 align:start position:0%
+mean we are losing a lot of precision
+between<00:02:15.680><c> numbers.</c><00:02:16.239><c> Because</c><00:02:16.400><c> with</c><00:02:16.560><c> FP16,</c><00:02:17.440><c> the</c>
+
+00:02:17.670 --> 00:02:17.680 align:start position:0%
+between numbers. Because with FP16, the
+ 
+
+00:02:17.680 --> 00:02:19.270 align:start position:0%
+between numbers. Because with FP16, the
+smallest<00:02:18.000><c> increment</c><00:02:18.400><c> between</c><00:02:18.720><c> numbers</c><00:02:19.040><c> is</c>
+
+00:02:19.270 --> 00:02:19.280 align:start position:0%
+smallest increment between numbers is
+ 
+
+00:02:19.280 --> 00:02:22.470 align:start position:0%
+smallest increment between numbers is
+around<00:02:19.520><c> 0.001.</c><00:02:20.879><c> And</c><00:02:21.040><c> in</c><00:02:21.200><c> FP8,</c><00:02:21.920><c> it's</c><00:02:22.160><c> around</c>
+
+00:02:22.470 --> 00:02:22.480 align:start position:0%
+around 0.001. And in FP8, it's around
+ 
+
+00:02:22.480 --> 00:02:25.830 align:start position:0%
+around 0.001. And in FP8, it's around
+0.125.<00:02:23.760><c> And</c><00:02:23.920><c> in</c><00:02:24.080><c> in4,</c><00:02:24.800><c> it's</c><00:02:25.040><c> basically</c><00:02:25.520><c> one</c>
+
+00:02:25.830 --> 00:02:25.840 align:start position:0%
+0.125. And in in4, it's basically one
+ 
+
+00:02:25.840 --> 00:02:27.830 align:start position:0%
+0.125. And in in4, it's basically one
+because<00:02:26.160><c> everything</c><00:02:26.480><c> is</c><00:02:26.720><c> an</c><00:02:26.959><c> integer.</c><00:02:27.440><c> Not</c><00:02:27.599><c> to</c>
+
+00:02:27.830 --> 00:02:27.840 align:start position:0%
+because everything is an integer. Not to
+ 
+
+00:02:27.840 --> 00:02:29.350 align:start position:0%
+because everything is an integer. Not to
+mention,<00:02:28.239><c> the</c><00:02:28.400><c> amount</c><00:02:28.560><c> of</c><00:02:28.720><c> numbers</c><00:02:28.959><c> that</c><00:02:29.200><c> can</c>
+
+00:02:29.350 --> 00:02:29.360 align:start position:0%
+mention, the amount of numbers that can
+ 
+
+00:02:29.360 --> 00:02:30.949 align:start position:0%
+mention, the amount of numbers that can
+be<00:02:29.520><c> represented</c><00:02:30.080><c> will</c><00:02:30.319><c> also</c><00:02:30.640><c> shrink</c>
+
+00:02:30.949 --> 00:02:30.959 align:start position:0%
+be represented will also shrink
+ 
+
+00:02:30.959 --> 00:02:32.630 align:start position:0%
+be represented will also shrink
+exponentially,<00:02:31.680><c> too.</c><00:02:31.920><c> The</c><00:02:32.160><c> weights</c><00:02:32.480><c> would</c>
+
+00:02:32.630 --> 00:02:32.640 align:start position:0%
+exponentially, too. The weights would
+ 
+
+00:02:32.640 --> 00:02:34.309 align:start position:0%
+exponentially, too. The weights would
+then<00:02:32.800><c> have</c><00:02:32.959><c> to</c><00:02:33.040><c> be</c><00:02:33.200><c> rounded</c><00:02:33.599><c> up</c><00:02:33.840><c> or</c><00:02:34.080><c> down,</c>
+
+00:02:34.309 --> 00:02:34.319 align:start position:0%
+then have to be rounded up or down,
+ 
+
+00:02:34.319 --> 00:02:35.589 align:start position:0%
+then have to be rounded up or down,
+which<00:02:34.560><c> will</c><00:02:34.800><c> impact</c><00:02:35.040><c> the</c><00:02:35.200><c> prediction</c>
+
+00:02:35.589 --> 00:02:35.599 align:start position:0%
+which will impact the prediction
+ 
+
+00:02:35.599 --> 00:02:37.110 align:start position:0%
+which will impact the prediction
+accuracy<00:02:36.000><c> of</c><00:02:36.160><c> the</c><00:02:36.319><c> function.</c><00:02:36.720><c> And</c><00:02:36.879><c> if</c><00:02:36.959><c> you</c>
+
+00:02:37.110 --> 00:02:37.120 align:start position:0%
+accuracy of the function. And if you
+ 
+
+00:02:37.120 --> 00:02:38.550 align:start position:0%
+accuracy of the function. And if you
+want<00:02:37.200><c> to</c><00:02:37.280><c> learn</c><00:02:37.440><c> more</c><00:02:37.599><c> about</c><00:02:37.840><c> floating</c><00:02:38.239><c> points</c>
+
+00:02:38.550 --> 00:02:38.560 align:start position:0%
+want to learn more about floating points
+ 
+
+00:02:38.560 --> 00:02:40.790 align:start position:0%
+want to learn more about floating points
+in<00:02:38.879><c> relation</c><00:02:39.120><c> to</c><00:02:39.440><c> LMS,</c><00:02:40.000><c> we</c><00:02:40.160><c> just</c><00:02:40.319><c> publish</c><00:02:40.560><c> a</c>
+
+00:02:40.790 --> 00:02:40.800 align:start position:0%
+in relation to LMS, we just publish a
+ 
+
+00:02:40.800 --> 00:02:42.550 align:start position:0%
+in relation to LMS, we just publish a
+premium<00:02:41.120><c> blog</c><00:02:41.360><c> on</c><00:02:41.519><c> my</c><00:02:41.680><c> newsletter</c><00:02:42.160><c> explaining</c>
+
+00:02:42.550 --> 00:02:42.560 align:start position:0%
+premium blog on my newsletter explaining
+ 
+
+00:02:42.560 --> 00:02:44.710 align:start position:0%
+premium blog on my newsletter explaining
+it<00:02:42.720><c> in</c><00:02:42.959><c> details</c><00:02:43.360><c> on</c><00:02:43.519><c> how</c><00:02:43.760><c> it</c><00:02:44.000><c> works.</c><00:02:44.400><c> And</c><00:02:44.560><c> in</c>
+
+00:02:44.710 --> 00:02:44.720 align:start position:0%
+it in details on how it works. And in
+ 
+
+00:02:44.720 --> 00:02:46.470 align:start position:0%
+it in details on how it works. And in
+this<00:02:44.879><c> premium</c><00:02:45.280><c> insights</c><00:02:45.760><c> tier,</c><00:02:46.160><c> you</c><00:02:46.319><c> would</c>
+
+00:02:46.470 --> 00:02:46.480 align:start position:0%
+this premium insights tier, you would
+ 
+
+00:02:46.480 --> 00:02:48.070 align:start position:0%
+this premium insights tier, you would
+also<00:02:46.640><c> gain</c><00:02:46.959><c> access</c><00:02:47.200><c> to</c><00:02:47.360><c> all</c><00:02:47.519><c> my</c><00:02:47.760><c> monthly</c>
+
+00:02:48.070 --> 00:02:48.080 align:start position:0%
+also gain access to all my monthly
+ 
+
+00:02:48.080 --> 00:02:50.470 align:start position:0%
+also gain access to all my monthly
+research<00:02:48.480><c> reports</c><00:02:48.879><c> on</c><00:02:49.120><c> over</c><00:02:49.440><c> 50</c><00:02:49.760><c> papers</c><00:02:50.239><c> on</c>
+
+00:02:50.470 --> 00:02:50.480 align:start position:0%
+research reports on over 50 papers on
+ 
+
+00:02:50.480 --> 00:02:52.309 align:start position:0%
+research reports on over 50 papers on
+top<00:02:50.560><c> of</c><00:02:50.720><c> blogs</c><00:02:51.120><c> from</c><00:02:51.280><c> guest</c><00:02:51.599><c> authors</c><00:02:51.920><c> on</c><00:02:52.160><c> the</c>
+
+00:02:52.309 --> 00:02:52.319 align:start position:0%
+top of blogs from guest authors on the
+ 
+
+00:02:52.319 --> 00:02:54.150 align:start position:0%
+top of blogs from guest authors on the
+latest<00:02:52.560><c> topics</c><00:02:52.959><c> too.</c><00:02:53.280><c> Anyways,</c><00:02:53.680><c> to</c><00:02:53.920><c> make</c>
+
+00:02:54.150 --> 00:02:54.160 align:start position:0%
+latest topics too. Anyways, to make
+ 
+
+00:02:54.160 --> 00:02:56.309 align:start position:0%
+latest topics too. Anyways, to make
+quantized<00:02:54.800><c> models</c><00:02:55.200><c> usable,</c><00:02:55.760><c> there</c><00:02:55.920><c> will</c><00:02:56.160><c> be</c>
+
+00:02:56.309 --> 00:02:56.319 align:start position:0%
+quantized models usable, there will be
+ 
+
+00:02:56.319 --> 00:02:57.910 align:start position:0%
+quantized models usable, there will be
+this<00:02:56.560><c> calibration</c><00:02:57.040><c> data</c><00:02:57.360><c> set</c><00:02:57.519><c> that</c><00:02:57.680><c> will</c>
+
+00:02:57.910 --> 00:02:57.920 align:start position:0%
+this calibration data set that will
+ 
+
+00:02:57.920 --> 00:02:59.589 align:start position:0%
+this calibration data set that will
+fine-tune<00:02:58.400><c> the</c><00:02:58.560><c> models</c><00:02:58.959><c> again</c><00:02:59.280><c> after</c>
+
+00:02:59.589 --> 00:02:59.599 align:start position:0%
+fine-tune the models again after
+ 
+
+00:02:59.599 --> 00:03:01.589 align:start position:0%
+fine-tune the models again after
+quantization.<00:03:00.400><c> then</c><00:03:00.720><c> why</c><00:03:01.040><c> go</c><00:03:01.200><c> through</c><00:03:01.360><c> all</c>
+
+00:03:01.589 --> 00:03:01.599 align:start position:0%
+quantization. then why go through all
+ 
+
+00:03:01.599 --> 00:03:03.509 align:start position:0%
+quantization. then why go through all
+these<00:03:01.840><c> trouble</c><00:03:02.239><c> just</c><00:03:02.400><c> to</c><00:03:02.560><c> run</c><00:03:02.720><c> a</c><00:03:02.959><c> larger</c><00:03:03.280><c> model</c>
+
+00:03:03.509 --> 00:03:03.519 align:start position:0%
+these trouble just to run a larger model
+ 
+
+00:03:03.519 --> 00:03:05.270 align:start position:0%
+these trouble just to run a larger model
+when<00:03:03.760><c> we</c><00:03:03.920><c> can</c><00:03:04.080><c> just</c><00:03:04.239><c> run</c><00:03:04.400><c> a</c><00:03:04.640><c> smaller</c><00:03:04.959><c> one.</c>
+
+00:03:05.270 --> 00:03:05.280 align:start position:0%
+when we can just run a smaller one.
+ 
+
+00:03:05.280 --> 00:03:06.790 align:start position:0%
+when we can just run a smaller one.
+Well,<00:03:05.440><c> with</c><00:03:05.680><c> this</c><00:03:05.840><c> method,</c><00:03:06.239><c> it</c><00:03:06.480><c> does</c><00:03:06.640><c> show</c>
+
+00:03:06.790 --> 00:03:06.800 align:start position:0%
+Well, with this method, it does show
+ 
+
+00:03:06.800 --> 00:03:08.390 align:start position:0%
+Well, with this method, it does show
+that<00:03:06.959><c> we</c><00:03:07.200><c> are</c><00:03:07.280><c> able</c><00:03:07.440><c> to</c><00:03:07.519><c> cut</c><00:03:07.760><c> down</c><00:03:07.920><c> the</c><00:03:08.080><c> memory</c>
+
+00:03:08.390 --> 00:03:08.400 align:start position:0%
+that we are able to cut down the memory
+ 
+
+00:03:08.400 --> 00:03:10.710 align:start position:0%
+that we are able to cut down the memory
+usage<00:03:08.800><c> by</c><00:03:09.120><c> at</c><00:03:09.200><c> least</c><00:03:09.519><c> a</c><00:03:09.760><c> half.</c><00:03:10.239><c> On</c><00:03:10.480><c> top</c><00:03:10.560><c> of</c>
+
+00:03:10.710 --> 00:03:10.720 align:start position:0%
+usage by at least a half. On top of
+ 
+
+00:03:10.720 --> 00:03:12.630 align:start position:0%
+usage by at least a half. On top of
+that,<00:03:11.040><c> the</c><00:03:11.280><c> performance</c><00:03:11.760><c> drop</c><00:03:12.000><c> off</c><00:03:12.239><c> between</c>
+
+00:03:12.630 --> 00:03:12.640 align:start position:0%
+that, the performance drop off between
+ 
+
+00:03:12.640 --> 00:03:15.990 align:start position:0%
+that, the performance drop off between
+FP16<00:03:13.360><c> and</c><00:03:13.599><c> FP8</c><00:03:14.239><c> is</c><00:03:14.480><c> not</c><00:03:14.720><c> off</c><00:03:14.959><c> by</c><00:03:15.200><c> that</c><00:03:15.519><c> much.</c>
+
+00:03:15.990 --> 00:03:16.000 align:start position:0%
+FP16 and FP8 is not off by that much.
+ 
+
+00:03:16.000 --> 00:03:17.830 align:start position:0%
+FP16 and FP8 is not off by that much.
+So,<00:03:16.159><c> in</c><00:03:16.400><c> most</c><00:03:16.640><c> cases,</c><00:03:17.200><c> when</c><00:03:17.360><c> you</c><00:03:17.440><c> want</c><00:03:17.599><c> to</c><00:03:17.680><c> run</c>
+
+00:03:17.830 --> 00:03:17.840 align:start position:0%
+So, in most cases, when you want to run
+ 
+
+00:03:17.840 --> 00:03:19.430 align:start position:0%
+So, in most cases, when you want to run
+a<00:03:18.000><c> model,</c><00:03:18.319><c> it'll</c><00:03:18.560><c> probably</c><00:03:18.800><c> be</c><00:03:18.959><c> better</c><00:03:19.120><c> to</c><00:03:19.280><c> run</c>
+
+00:03:19.430 --> 00:03:19.440 align:start position:0%
+a model, it'll probably be better to run
+ 
+
+00:03:19.440 --> 00:03:21.830 align:start position:0%
+a model, it'll probably be better to run
+it<00:03:19.599><c> at</c><00:03:19.840><c> FP8</c><00:03:20.480><c> as</c><00:03:20.640><c> it'll</c><00:03:20.959><c> be</c><00:03:21.040><c> smarter</c><00:03:21.440><c> and</c><00:03:21.680><c> more</c>
+
+00:03:21.830 --> 00:03:21.840 align:start position:0%
+it at FP8 as it'll be smarter and more
+ 
+
+00:03:21.840 --> 00:03:23.750 align:start position:0%
+it at FP8 as it'll be smarter and more
+economical.<00:03:22.560><c> And</c><00:03:22.720><c> with</c><00:03:22.879><c> this</c><00:03:23.120><c> research</c><00:03:23.440><c> paper</c>
+
+00:03:23.750 --> 00:03:23.760 align:start position:0%
+economical. And with this research paper
+ 
+
+00:03:23.760 --> 00:03:25.110 align:start position:0%
+economical. And with this research paper
+backing<00:03:24.080><c> up</c><00:03:24.239><c> the</c><00:03:24.400><c> fact</c><00:03:24.480><c> that</c><00:03:24.720><c> using</c><00:03:24.959><c> a</c>
+
+00:03:25.110 --> 00:03:25.120 align:start position:0%
+backing up the fact that using a
+ 
+
+00:03:25.120 --> 00:03:26.869 align:start position:0%
+backing up the fact that using a
+quantized<00:03:25.680><c> model</c><00:03:25.920><c> is</c><00:03:26.080><c> usually</c><00:03:26.400><c> better</c><00:03:26.640><c> than</c>
+
+00:03:26.869 --> 00:03:26.879 align:start position:0%
+quantized model is usually better than
+ 
+
+00:03:26.879 --> 00:03:28.390 align:start position:0%
+quantized model is usually better than
+using<00:03:27.040><c> a</c><00:03:27.280><c> smaller</c><00:03:27.599><c> model</c><00:03:27.920><c> with</c><00:03:28.159><c> full</c>
+
+00:03:28.390 --> 00:03:28.400 align:start position:0%
+using a smaller model with full
+ 
+
+00:03:28.400 --> 00:03:30.070 align:start position:0%
+using a smaller model with full
+precision.<00:03:29.040><c> Actually,</c><00:03:29.440><c> there</c><00:03:29.680><c> are</c><00:03:29.760><c> more</c><00:03:29.920><c> than</c>
+
+00:03:30.070 --> 00:03:30.080 align:start position:0%
+precision. Actually, there are more than
+ 
+
+00:03:30.080 --> 00:03:31.830 align:start position:0%
+precision. Actually, there are more than
+a<00:03:30.239><c> handful</c><00:03:30.560><c> that</c><00:03:30.799><c> already</c><00:03:31.040><c> proved</c><00:03:31.280><c> that.</c><00:03:31.599><c> You</c>
+
+00:03:31.830 --> 00:03:31.840 align:start position:0%
+a handful that already proved that. You
+ 
+
+00:03:31.840 --> 00:03:33.509 align:start position:0%
+a handful that already proved that. You
+can<00:03:31.920><c> look</c><00:03:32.000><c> for</c><00:03:32.239><c> even</c><00:03:32.480><c> more</c><00:03:32.720><c> if</c><00:03:32.959><c> you</c><00:03:33.040><c> ask</c><00:03:33.280><c> my</c>
+
+00:03:33.509 --> 00:03:33.519 align:start position:0%
+can look for even more if you ask my
+ 
+
+00:03:33.519 --> 00:03:35.670 align:start position:0%
+can look for even more if you ask my
+website<00:03:33.840><c> findmy</c><00:03:34.239><c> papers.ai,</c><00:03:35.120><c> which</c><00:03:35.440><c> went</c>
+
+00:03:35.670 --> 00:03:35.680 align:start position:0%
+website findmy papers.ai, which went
+ 
+
+00:03:35.680 --> 00:03:37.670 align:start position:0%
+website findmy papers.ai, which went
+more<00:03:35.840><c> in</c><00:03:36.000><c> depth</c><00:03:36.239><c> about</c><00:03:36.560><c> how</c><00:03:36.720><c> it</c><00:03:36.959><c> works,</c><00:03:37.440><c> what</c>
+
+00:03:37.670 --> 00:03:37.680 align:start position:0%
+more in depth about how it works, what
+ 
+
+00:03:37.680 --> 00:03:39.830 align:start position:0%
+more in depth about how it works, what
+was<00:03:37.840><c> being</c><00:03:38.159><c> experimented</c><00:03:38.799><c> on</c><00:03:39.040><c> to</c><00:03:39.280><c> prove</c><00:03:39.519><c> this,</c>
+
+00:03:39.830 --> 00:03:39.840 align:start position:0%
+was being experimented on to prove this,
+ 
+
+00:03:39.840 --> 00:03:41.990 align:start position:0%
+was being experimented on to prove this,
+and<00:03:40.080><c> what</c><00:03:40.319><c> might</c><00:03:40.480><c> be</c><00:03:40.720><c> the</c><00:03:40.959><c> exceptions.</c><00:03:41.680><c> But</c><00:03:41.840><c> if</c>
+
+00:03:41.990 --> 00:03:42.000 align:start position:0%
+and what might be the exceptions. But if
+ 
+
+00:03:42.000 --> 00:03:43.910 align:start position:0%
+and what might be the exceptions. But if
+you<00:03:42.159><c> do</c><00:03:42.400><c> eventually</c><00:03:42.879><c> quantize</c><00:03:43.360><c> down</c><00:03:43.519><c> to</c><00:03:43.680><c> let's</c>
+
+00:03:43.910 --> 00:03:43.920 align:start position:0%
+you do eventually quantize down to let's
+ 
+
+00:03:43.920 --> 00:03:45.910 align:start position:0%
+you do eventually quantize down to let's
+say<00:03:44.080><c> int</c><00:03:44.480><c> 4,</c><00:03:44.879><c> isn't</c><00:03:45.120><c> the</c><00:03:45.280><c> model</c><00:03:45.519><c> going</c><00:03:45.680><c> to</c><00:03:45.760><c> be</c>
+
+00:03:45.910 --> 00:03:45.920 align:start position:0%
+say int 4, isn't the model going to be
+ 
+
+00:03:45.920 --> 00:03:47.990 align:start position:0%
+say int 4, isn't the model going to be
+extremely<00:03:46.319><c> lobbomized?</c><00:03:47.280><c> Well,</c><00:03:47.440><c> what</c><00:03:47.599><c> if</c><00:03:47.760><c> I</c>
+
+00:03:47.990 --> 00:03:48.000 align:start position:0%
+extremely lobbomized? Well, what if I
+ 
+
+00:03:48.000 --> 00:03:50.390 align:start position:0%
+extremely lobbomized? Well, what if I
+tell<00:03:48.080><c> you</c><00:03:48.480><c> how</c><00:03:48.799><c> you</c><00:03:48.959><c> quantize</c><00:03:49.519><c> them</c><00:03:49.840><c> makes</c><00:03:50.080><c> a</c>
+
+00:03:50.390 --> 00:03:50.400 align:start position:0%
+tell you how you quantize them makes a
+ 
+
+00:03:50.400 --> 00:03:51.990 align:start position:0%
+tell you how you quantize them makes a
+huge<00:03:50.720><c> difference?</c><00:03:51.120><c> And</c><00:03:51.360><c> because</c><00:03:51.519><c> of</c><00:03:51.680><c> that,</c>
+
+00:03:51.990 --> 00:03:52.000 align:start position:0%
+huge difference? And because of that,
+ 
+
+00:03:52.000 --> 00:03:53.589 align:start position:0%
+huge difference? And because of that,
+there<00:03:52.159><c> are</c><00:03:52.319><c> even</c><00:03:52.560><c> researchers</c><00:03:53.040><c> working</c><00:03:53.360><c> on</c>
+
+00:03:53.589 --> 00:03:53.599 align:start position:0%
+there are even researchers working on
+ 
+
+00:03:53.599 --> 00:03:55.830 align:start position:0%
+there are even researchers working on
+proving<00:03:54.000><c> LMS</c><00:03:54.560><c> could</c><00:03:54.720><c> run</c><00:03:54.959><c> with</c><00:03:55.120><c> just</c><00:03:55.360><c> one</c><00:03:55.599><c> bit</c>
+
+00:03:55.830 --> 00:03:55.840 align:start position:0%
+proving LMS could run with just one bit
+ 
+
+00:03:55.840 --> 00:03:57.750 align:start position:0%
+proving LMS could run with just one bit
+per<00:03:56.080><c> weight.</c><00:03:56.480><c> in</c><00:03:56.640><c> just</c><00:03:56.879><c> 2</c><00:03:57.040><c> months</c><00:03:57.280><c> ago,</c>
+
+00:03:57.750 --> 00:03:57.760 align:start position:0%
+per weight. in just 2 months ago,
+ 
+
+00:03:57.760 --> 00:03:59.429 align:start position:0%
+per weight. in just 2 months ago,
+showing<00:03:58.080><c> the</c><00:03:58.239><c> world</c><00:03:58.480><c> that</c><00:03:58.799><c> it</c><00:03:59.120><c> actually</c>
+
+00:03:59.429 --> 00:03:59.439 align:start position:0%
+showing the world that it actually
+ 
+
+00:03:59.439 --> 00:04:01.429 align:start position:0%
+showing the world that it actually
+works.<00:03:59.920><c> But</c><00:04:00.080><c> before</c><00:04:00.319><c> we</c><00:04:00.480><c> dive</c><00:04:00.640><c> into</c><00:04:00.879><c> it,</c><00:04:01.200><c> we</c>
+
+00:04:01.429 --> 00:04:01.439 align:start position:0%
+works. But before we dive into it, we
+ 
+
+00:04:01.439 --> 00:04:03.670 align:start position:0%
+works. But before we dive into it, we
+all<00:04:01.599><c> know</c><00:04:01.840><c> how</c><00:04:02.000><c> chaotic</c><00:04:02.640><c> work</c><00:04:02.959><c> life</c><00:04:03.200><c> can</c><00:04:03.360><c> get.</c>
+
+00:04:03.670 --> 00:04:03.680 align:start position:0%
+all know how chaotic work life can get.
+ 
+
+00:04:03.680 --> 00:04:05.670 align:start position:0%
+all know how chaotic work life can get.
+Slack<00:04:04.080><c> messages</c><00:04:04.480><c> scattered,</c><00:04:05.040><c> email</c><00:04:05.360><c> thread</c>
+
+00:04:05.670 --> 00:04:05.680 align:start position:0%
+Slack messages scattered, email thread
+ 
+
+00:04:05.680 --> 00:04:07.509 align:start position:0%
+Slack messages scattered, email thread
+buried,<00:04:06.159><c> and</c><00:04:06.319><c> critical</c><00:04:06.720><c> context</c><00:04:07.120><c> slipping</c>
+
+00:04:07.509 --> 00:04:07.519 align:start position:0%
+buried, and critical context slipping
+ 
+
+00:04:07.519 --> 00:04:08.789 align:start position:0%
+buried, and critical context slipping
+through<00:04:07.680><c> the</c><00:04:07.840><c> cracks</c><00:04:08.080><c> of</c><00:04:08.159><c> your</c><00:04:08.319><c> work</c><00:04:08.560><c> while</c>
+
+00:04:08.789 --> 00:04:08.799 align:start position:0%
+through the cracks of your work while
+ 
+
+00:04:08.799 --> 00:04:10.630 align:start position:0%
+through the cracks of your work while
+you<00:04:09.040><c> spend</c><00:04:09.280><c> more</c><00:04:09.519><c> time</c><00:04:09.680><c> hunting</c><00:04:10.000><c> for</c><00:04:10.239><c> answers</c>
+
+00:04:10.630 --> 00:04:10.640 align:start position:0%
+you spend more time hunting for answers
+ 
+
+00:04:10.640 --> 00:04:11.990 align:start position:0%
+you spend more time hunting for answers
+than<00:04:10.879><c> actually</c><00:04:11.200><c> working.</c><00:04:11.599><c> That's</c><00:04:11.760><c> why</c><00:04:11.840><c> I'd</c>
+
+00:04:11.990 --> 00:04:12.000 align:start position:0%
+than actually working. That's why I'd
+ 
+
+00:04:12.000 --> 00:04:13.509 align:start position:0%
+than actually working. That's why I'd
+like<00:04:12.080><c> to</c><00:04:12.239><c> share</c><00:04:12.400><c> with</c><00:04:12.480><c> you</c><00:04:12.640><c> about</c><00:04:12.799><c> Tena,</c><00:04:13.360><c> your</c>
+
+00:04:13.509 --> 00:04:13.519 align:start position:0%
+like to share with you about Tena, your
+ 
+
+00:04:13.519 --> 00:04:15.270 align:start position:0%
+like to share with you about Tena, your
+new<00:04:13.680><c> AI</c><00:04:14.080><c> work</c><00:04:14.319><c> companion</c><00:04:14.720><c> that</c><00:04:14.959><c> makes</c><00:04:15.120><c> your</c>
+
+00:04:15.270 --> 00:04:15.280 align:start position:0%
+new AI work companion that makes your
+ 
+
+00:04:15.280 --> 00:04:17.349 align:start position:0%
+new AI work companion that makes your
+work<00:04:15.519><c> life</c><00:04:15.760><c> as</c><00:04:16.000><c> easy</c><00:04:16.160><c> as</c><00:04:16.320><c> a</c><00:04:16.560><c> simple</c><00:04:16.799><c> QA.</c>
+
+00:04:17.349 --> 00:04:17.359 align:start position:0%
+work life as easy as a simple QA.
+ 
+
+00:04:17.359 --> 00:04:18.789 align:start position:0%
+work life as easy as a simple QA.
+Picture<00:04:17.680><c> this.</c><00:04:18.000><c> Instead</c><00:04:18.320><c> of</c><00:04:18.479><c> piecing</c>
+
+00:04:18.789 --> 00:04:18.799 align:start position:0%
+Picture this. Instead of piecing
+ 
+
+00:04:18.799 --> 00:04:20.629 align:start position:0%
+Picture this. Instead of piecing
+together<00:04:19.120><c> notes</c><00:04:19.440><c> from</c><00:04:19.680><c> Slack,</c><00:04:20.079><c> Gmail,</c><00:04:20.400><c> and</c>
+
+00:04:20.629 --> 00:04:20.639 align:start position:0%
+together notes from Slack, Gmail, and
+ 
+
+00:04:20.639 --> 00:04:22.870 align:start position:0%
+together notes from Slack, Gmail, and
+Drive,<00:04:21.120><c> you</c><00:04:21.359><c> open</c><00:04:21.600><c> Tena</c><00:04:22.160><c> and</c><00:04:22.320><c> instantly</c><00:04:22.720><c> find</c>
+
+00:04:22.870 --> 00:04:22.880 align:start position:0%
+Drive, you open Tena and instantly find
+ 
+
+00:04:22.880 --> 00:04:25.189 align:start position:0%
+Drive, you open Tena and instantly find
+the<00:04:23.120><c> exact</c><00:04:23.440><c> chat,</c><00:04:23.840><c> doc,</c><00:04:24.080><c> or</c><00:04:24.320><c> metric</c><00:04:24.720><c> you</c><00:04:24.880><c> need.</c>
+
+00:04:25.189 --> 00:04:25.199 align:start position:0%
+the exact chat, doc, or metric you need.
+ 
+
+00:04:25.199 --> 00:04:26.710 align:start position:0%
+the exact chat, doc, or metric you need.
+As<00:04:25.440><c> simple</c><00:04:25.680><c> as</c><00:04:25.840><c> that.</c><00:04:26.080><c> No</c><00:04:26.320><c> more</c><00:04:26.400><c> digging</c>
+
+00:04:26.710 --> 00:04:26.720 align:start position:0%
+As simple as that. No more digging
+ 
+
+00:04:26.720 --> 00:04:28.469 align:start position:0%
+As simple as that. No more digging
+through<00:04:26.880><c> 10</c><00:04:27.199><c> different</c><00:04:27.440><c> apps,</c><00:04:27.840><c> opening</c><00:04:28.240><c> 20</c>
+
+00:04:28.469 --> 00:04:28.479 align:start position:0%
+through 10 different apps, opening 20
+ 
+
+00:04:28.479 --> 00:04:30.230 align:start position:0%
+through 10 different apps, opening 20
+different<00:04:28.720><c> tabs,</c><00:04:29.040><c> and</c><00:04:29.280><c> still</c><00:04:29.520><c> being</c><00:04:29.759><c> lost.</c>
+
+00:04:30.230 --> 00:04:30.240 align:start position:0%
+different tabs, and still being lost.
+ 
+
+00:04:30.240 --> 00:04:31.990 align:start position:0%
+different tabs, and still being lost.
+Every<00:04:30.479><c> reply</c><00:04:30.720><c> you</c><00:04:30.960><c> send</c><00:04:31.120><c> is</c><00:04:31.360><c> powered</c><00:04:31.600><c> by</c><00:04:31.759><c> up</c><00:04:31.919><c> to</c>
+
+00:04:31.990 --> 00:04:32.000 align:start position:0%
+Every reply you send is powered by up to
+ 
+
+00:04:32.000 --> 00:04:33.749 align:start position:0%
+Every reply you send is powered by up to
+the<00:04:32.240><c> minute</c><00:04:32.479><c> context,</c><00:04:32.880><c> so</c><00:04:33.120><c> your</c><00:04:33.280><c> responses</c>
+
+00:04:33.749 --> 00:04:33.759 align:start position:0%
+the minute context, so your responses
+ 
+
+00:04:33.759 --> 00:04:35.830 align:start position:0%
+the minute context, so your responses
+are<00:04:33.919><c> fast,</c><00:04:34.320><c> on</c><00:04:34.560><c> brand,</c><00:04:34.800><c> and</c><00:04:35.040><c> hyper</c><00:04:35.440><c> relevant,</c>
+
+00:04:35.830 --> 00:04:35.840 align:start position:0%
+are fast, on brand, and hyper relevant,
+ 
+
+00:04:35.840 --> 00:04:37.670 align:start position:0%
+are fast, on brand, and hyper relevant,
+too.<00:04:36.080><c> More</c><00:04:36.320><c> specifically,</c><00:04:36.960><c> Tenka</c><00:04:37.360><c> provides</c>
+
+00:04:37.670 --> 00:04:37.680 align:start position:0%
+too. More specifically, Tenka provides
+ 
+
+00:04:37.680 --> 00:04:39.270 align:start position:0%
+too. More specifically, Tenka provides
+structured<00:04:38.080><c> memory</c><00:04:38.320><c> and</c><00:04:38.479><c> instant</c><00:04:38.880><c> search.</c>
+
+00:04:39.270 --> 00:04:39.280 align:start position:0%
+structured memory and instant search.
+ 
+
+00:04:39.280 --> 00:04:40.629 align:start position:0%
+structured memory and instant search.
+This<00:04:39.440><c> converts</c><00:04:39.840><c> scattered</c><00:04:40.240><c> chats,</c>
+
+00:04:40.629 --> 00:04:40.639 align:start position:0%
+This converts scattered chats,
+ 
+
+00:04:40.639 --> 00:04:42.310 align:start position:0%
+This converts scattered chats,
+calendars,<00:04:41.120><c> and</c><00:04:41.280><c> docs</c><00:04:41.600><c> into</c><00:04:41.840><c> a</c><00:04:42.000><c> single</c>
+
+00:04:42.310 --> 00:04:42.320 align:start position:0%
+calendars, and docs into a single
+ 
+
+00:04:42.320 --> 00:04:43.990 align:start position:0%
+calendars, and docs into a single
+searchable<00:04:42.800><c> team</c><00:04:43.040><c> brain.</c><00:04:43.440><c> So,</c><00:04:43.520><c> you</c><00:04:43.680><c> can</c><00:04:43.840><c> find</c>
+
+00:04:43.990 --> 00:04:44.000 align:start position:0%
+searchable team brain. So, you can find
+ 
+
+00:04:44.000 --> 00:04:45.830 align:start position:0%
+searchable team brain. So, you can find
+anything<00:04:44.320><c> with</c><00:04:44.639><c> one</c><00:04:44.880><c> prompt.</c><00:04:45.280><c> And</c><00:04:45.440><c> Tenka</c>
+
+00:04:45.830 --> 00:04:45.840 align:start position:0%
+anything with one prompt. And Tenka
+ 
+
+00:04:45.840 --> 00:04:47.430 align:start position:0%
+anything with one prompt. And Tenka
+doesn't<00:04:46.080><c> just</c><00:04:46.160><c> solve</c><00:04:46.400><c> the</c><00:04:46.560><c> fragmentation</c><00:04:47.199><c> of</c>
+
+00:04:47.430 --> 00:04:47.440 align:start position:0%
+doesn't just solve the fragmentation of
+ 
+
+00:04:47.440 --> 00:04:49.030 align:start position:0%
+doesn't just solve the fragmentation of
+information.<00:04:48.240><c> merges</c><00:04:48.639><c> internal</c>
+
+00:04:49.030 --> 00:04:49.040 align:start position:0%
+information. merges internal
+ 
+
+00:04:49.040 --> 00:04:50.629 align:start position:0%
+information. merges internal
+communications<00:04:49.600><c> with</c><00:04:49.840><c> knowledge</c><00:04:50.240><c> management</c>
+
+00:04:50.629 --> 00:04:50.639 align:start position:0%
+communications with knowledge management
+ 
+
+00:04:50.639 --> 00:04:52.390 align:start position:0%
+communications with knowledge management
+through<00:04:50.800><c> an</c><00:04:51.040><c> agent</c><00:04:51.360><c> tech</c><00:04:51.600><c> pipeline</c><00:04:52.160><c> creating</c>
+
+00:04:52.390 --> 00:04:52.400 align:start position:0%
+through an agent tech pipeline creating
+ 
+
+00:04:52.400 --> 00:04:54.550 align:start position:0%
+through an agent tech pipeline creating
+a<00:04:52.639><c> unified</c><00:04:53.120><c> communication</c><00:04:53.680><c> hub</c><00:04:54.080><c> like</c><00:04:54.240><c> a</c><00:04:54.400><c> real</c>
+
+00:04:54.550 --> 00:04:54.560 align:start position:0%
+a unified communication hub like a real
+ 
+
+00:04:54.560 --> 00:04:56.469 align:start position:0%
+a unified communication hub like a real
+AI<00:04:54.960><c> employee</c><00:04:55.440><c> that</c><00:04:55.680><c> could</c><00:04:55.840><c> actually</c><00:04:56.160><c> ship</c>
+
+00:04:56.469 --> 00:04:56.479 align:start position:0%
+AI employee that could actually ship
+ 
+
+00:04:56.479 --> 00:04:58.310 align:start position:0%
+AI employee that could actually ship
+deliverables.<00:04:57.280><c> So</c><00:04:57.440><c> every</c><00:04:57.600><c> team</c><00:04:57.840><c> member</c><00:04:58.160><c> would</c>
+
+00:04:58.310 --> 00:04:58.320 align:start position:0%
+deliverables. So every team member would
+ 
+
+00:04:58.320 --> 00:04:59.990 align:start position:0%
+deliverables. So every team member would
+have<00:04:58.400><c> a</c><00:04:58.560><c> multifunctional</c><00:04:59.280><c> teammate</c><00:04:59.680><c> boosting</c>
+
+00:04:59.990 --> 00:05:00.000 align:start position:0%
+have a multifunctional teammate boosting
+ 
+
+00:05:00.000 --> 00:05:01.670 align:start position:0%
+have a multifunctional teammate boosting
+your<00:05:00.240><c> productivity</c><00:05:01.040><c> increasing</c><00:05:01.440><c> the</c>
+
+00:05:01.670 --> 00:05:01.680 align:start position:0%
+your productivity increasing the
+ 
+
+00:05:01.680 --> 00:05:03.350 align:start position:0%
+your productivity increasing the
+organizational<00:05:02.400><c> communication</c><00:05:02.880><c> into</c><00:05:03.199><c> a</c>
+
+00:05:03.350 --> 00:05:03.360 align:start position:0%
+organizational communication into a
+ 
+
+00:05:03.360 --> 00:05:05.030 align:start position:0%
+organizational communication into a
+seamless<00:05:03.759><c> process</c><00:05:04.160><c> and</c><00:05:04.479><c> have</c><00:05:04.639><c> it</c><00:05:04.800><c> getting</c>
+
+00:05:05.030 --> 00:05:05.040 align:start position:0%
+seamless process and have it getting
+ 
+
+00:05:05.040 --> 00:05:06.550 align:start position:0%
+seamless process and have it getting
+work<00:05:05.199><c> done</c><00:05:05.440><c> for</c><00:05:05.600><c> you.</c><00:05:05.840><c> It</c><00:05:06.080><c> is</c><00:05:06.160><c> an</c><00:05:06.320><c> easy</c>
+
+00:05:06.550 --> 00:05:06.560 align:start position:0%
+work done for you. It is an easy
+ 
+
+00:05:06.560 --> 00:05:08.230 align:start position:0%
+work done for you. It is an easy
+plug-and-play<00:05:07.199><c> integration</c><00:05:07.680><c> with</c><00:05:07.840><c> knowledge</c>
+
+00:05:08.230 --> 00:05:08.240 align:start position:0%
+plug-and-play integration with knowledge
+ 
+
+00:05:08.240 --> 00:05:10.230 align:start position:0%
+plug-and-play integration with knowledge
+graph.<00:05:08.639><c> It</c><00:05:08.800><c> can</c><00:05:08.880><c> sync</c><00:05:09.120><c> with</c><00:05:09.280><c> Slack,</c><00:05:09.680><c> WhatsApp,</c>
+
+00:05:10.230 --> 00:05:10.240 align:start position:0%
+graph. It can sync with Slack, WhatsApp,
+ 
+
+00:05:10.240 --> 00:05:12.230 align:start position:0%
+graph. It can sync with Slack, WhatsApp,
+Gmail,<00:05:10.720><c> Outlook,</c><00:05:11.199><c> notion,</c><00:05:11.600><c> and</c><00:05:11.840><c> sheets</c><00:05:12.080><c> in</c>
+
+00:05:12.230 --> 00:05:12.240 align:start position:0%
+Gmail, Outlook, notion, and sheets in
+ 
+
+00:05:12.240 --> 00:05:14.150 align:start position:0%
+Gmail, Outlook, notion, and sheets in
+real<00:05:12.479><c> time,</c><00:05:12.800><c> weaving</c><00:05:13.120><c> your</c><00:05:13.280><c> tools</c><00:05:13.600><c> into</c><00:05:13.919><c> one</c>
+
+00:05:14.150 --> 00:05:14.160 align:start position:0%
+real time, weaving your tools into one
+ 
+
+00:05:14.160 --> 00:05:15.909 align:start position:0%
+real time, weaving your tools into one
+cohesive<00:05:14.720><c> memory.</c><00:05:15.199><c> This</c><00:05:15.360><c> lets</c><00:05:15.520><c> you</c><00:05:15.680><c> draft</c>
+
+00:05:15.909 --> 00:05:15.919 align:start position:0%
+cohesive memory. This lets you draft
+ 
+
+00:05:15.919 --> 00:05:17.909 align:start position:0%
+cohesive memory. This lets you draft
+perfectly<00:05:16.400><c> tailored</c><00:05:16.800><c> messages,</c><00:05:17.360><c> smart</c><00:05:17.680><c> vote</c>
+
+00:05:17.909 --> 00:05:17.919 align:start position:0%
+perfectly tailored messages, smart vote
+ 
+
+00:05:17.919 --> 00:05:19.510 align:start position:0%
+perfectly tailored messages, smart vote
+surfaces,<00:05:18.479><c> group</c><00:05:18.720><c> consensus,</c><00:05:19.360><c> and</c>
+
+00:05:19.510 --> 00:05:19.520 align:start position:0%
+surfaces, group consensus, and
+ 
+
+00:05:19.520 --> 00:05:21.510 align:start position:0%
+surfaces, group consensus, and
+autogenerated<00:05:20.240><c> task</c><00:05:20.560><c> list</c><00:05:20.880><c> for</c><00:05:21.039><c> you.</c><00:05:21.199><c> And</c><00:05:21.360><c> the</c>
+
+00:05:21.510 --> 00:05:21.520 align:start position:0%
+autogenerated task list for you. And the
+ 
+
+00:05:21.520 --> 00:05:23.590 align:start position:0%
+autogenerated task list for you. And the
+coolest<00:05:21.759><c> thing</c><00:05:21.919><c> they</c><00:05:22.160><c> have</c><00:05:22.400><c> is</c><00:05:22.639><c> the</c><00:05:22.880><c> AI</c><00:05:23.199><c> memory</c>
+
+00:05:23.590 --> 00:05:23.600 align:start position:0%
+coolest thing they have is the AI memory
+ 
+
+00:05:23.600 --> 00:05:25.430 align:start position:0%
+coolest thing they have is the AI memory
+inheritance<00:05:24.240><c> and</c><00:05:24.479><c> transfer.</c><00:05:25.039><c> So</c><00:05:25.120><c> when</c><00:05:25.280><c> your</c>
+
+00:05:25.430 --> 00:05:25.440 align:start position:0%
+inheritance and transfer. So when your
+ 
+
+00:05:25.440 --> 00:05:27.350 align:start position:0%
+inheritance and transfer. So when your
+rules<00:05:25.840><c> change,</c><00:05:26.240><c> Tena</c><00:05:26.720><c> hands</c><00:05:26.960><c> off</c><00:05:27.120><c> the</c>
+
+00:05:27.350 --> 00:05:27.360 align:start position:0%
+rules change, Tena hands off the
+ 
+
+00:05:27.360 --> 00:05:28.870 align:start position:0%
+rules change, Tena hands off the
+person's<00:05:27.680><c> entire</c><00:05:28.080><c> knowledge</c><00:05:28.320><c> graph</c><00:05:28.639><c> to</c><00:05:28.720><c> the</c>
+
+00:05:28.870 --> 00:05:28.880 align:start position:0%
+person's entire knowledge graph to the
+ 
+
+00:05:28.880 --> 00:05:30.950 align:start position:0%
+person's entire knowledge graph to the
+next<00:05:29.039><c> teammate,</c><00:05:29.520><c> onboarding</c><00:05:30.080><c> them</c><00:05:30.320><c> in</c><00:05:30.560><c> hours,</c>
+
+00:05:30.950 --> 00:05:30.960 align:start position:0%
+next teammate, onboarding them in hours,
+ 
+
+00:05:30.960 --> 00:05:32.629 align:start position:0%
+next teammate, onboarding them in hours,
+not<00:05:31.199><c> weeks.</c><00:05:31.680><c> So</c><00:05:31.759><c> if</c><00:05:31.919><c> you're</c><00:05:32.080><c> ready</c><00:05:32.240><c> to</c><00:05:32.400><c> power</c>
+
+00:05:32.629 --> 00:05:32.639 align:start position:0%
+not weeks. So if you're ready to power
+ 
+
+00:05:32.639 --> 00:05:34.469 align:start position:0%
+not weeks. So if you're ready to power
+up<00:05:32.800><c> your</c><00:05:32.960><c> work</c><00:05:33.199><c> efficiency,</c><00:05:33.840><c> Tenka</c><00:05:34.320><c> is</c>
+
+00:05:34.469 --> 00:05:34.479 align:start position:0%
+up your work efficiency, Tenka is
+ 
+
+00:05:34.479 --> 00:05:36.390 align:start position:0%
+up your work efficiency, Tenka is
+offering<00:05:34.800><c> 3</c><00:05:35.039><c> months</c><00:05:35.280><c> of</c><00:05:35.440><c> free</c><00:05:35.680><c> premium</c><00:05:36.080><c> if</c><00:05:36.240><c> you</c>
+
+00:05:36.390 --> 00:05:36.400 align:start position:0%
+offering 3 months of free premium if you
+ 
+
+00:05:36.400 --> 00:05:38.070 align:start position:0%
+offering 3 months of free premium if you
+sign<00:05:36.479><c> up</c><00:05:36.639><c> today.</c><00:05:37.039><c> You</c><00:05:37.199><c> can</c><00:05:37.280><c> also</c><00:05:37.520><c> refer</c><00:05:37.759><c> a</c><00:05:37.919><c> team</c>
+
+00:05:38.070 --> 00:05:38.080 align:start position:0%
+sign up today. You can also refer a team
+ 
+
+00:05:38.080 --> 00:05:39.990 align:start position:0%
+sign up today. You can also refer a team
+and<00:05:38.320><c> earn</c><00:05:38.639><c> 20</c><00:05:38.800><c> bucks</c><00:05:39.039><c> each.</c><00:05:39.440><c> So</c><00:05:39.600><c> go</c><00:05:39.759><c> download</c>
+
+00:05:39.990 --> 00:05:40.000 align:start position:0%
+and earn 20 bucks each. So go download
+ 
+
+00:05:40.000 --> 00:05:41.430 align:start position:0%
+and earn 20 bucks each. So go download
+Tena<00:05:40.479><c> now</c><00:05:40.560><c> with</c><00:05:40.720><c> the</c><00:05:40.880><c> link</c><00:05:41.039><c> down</c><00:05:41.199><c> in</c>
+
+00:05:41.430 --> 00:05:41.440 align:start position:0%
+Tena now with the link down in
+ 
+
+00:05:41.440 --> 00:05:42.870 align:start position:0%
+Tena now with the link down in
+description.<00:05:41.840><c> And</c><00:05:42.000><c> thank</c><00:05:42.080><c> you</c><00:05:42.240><c> Tena</c><00:05:42.720><c> for</c>
+
+00:05:42.870 --> 00:05:42.880 align:start position:0%
+description. And thank you Tena for
+ 
+
+00:05:42.880 --> 00:05:44.710 align:start position:0%
+description. And thank you Tena for
+sponsoring<00:05:43.280><c> this</c><00:05:43.440><c> video.</c><00:05:43.680><c> Anyways,</c><00:05:44.240><c> the</c><00:05:44.400><c> idea</c>
+
+00:05:44.710 --> 00:05:44.720 align:start position:0%
+sponsoring this video. Anyways, the idea
+ 
+
+00:05:44.720 --> 00:05:47.029 align:start position:0%
+sponsoring this video. Anyways, the idea
+was<00:05:44.960><c> first</c><00:05:45.199><c> proposed</c><00:05:45.600><c> back</c><00:05:45.759><c> in</c><00:05:46.000><c> October</c><00:05:46.479><c> 2023</c>
+
+00:05:47.029 --> 00:05:47.039 align:start position:0%
+was first proposed back in October 2023
+ 
+
+00:05:47.039 --> 00:05:49.270 align:start position:0%
+was first proposed back in October 2023
+in<00:05:47.199><c> a</c><00:05:47.360><c> research</c><00:05:47.680><c> paper</c><00:05:48.080><c> called</c><00:05:48.479><c> bitnet</c>
+
+00:05:49.270 --> 00:05:49.280 align:start position:0%
+in a research paper called bitnet
+ 
+
+00:05:49.280 --> 00:05:51.189 align:start position:0%
+in a research paper called bitnet
+sculling<00:05:49.759><c> one</c><00:05:49.919><c> bit</c><00:05:50.160><c> transformers</c><00:05:50.720><c> for</c><00:05:50.880><c> large</c>
+
+00:05:51.189 --> 00:05:51.199 align:start position:0%
+sculling one bit transformers for large
+ 
+
+00:05:51.199 --> 00:05:52.950 align:start position:0%
+sculling one bit transformers for large
+language<00:05:51.600><c> models.</c><00:05:52.080><c> In</c><00:05:52.240><c> the</c><00:05:52.400><c> paper,</c><00:05:52.720><c> they</c>
+
+00:05:52.950 --> 00:05:52.960 align:start position:0%
+language models. In the paper, they
+ 
+
+00:05:52.960 --> 00:05:55.189 align:start position:0%
+language models. In the paper, they
+suggest<00:05:53.280><c> that</c><00:05:53.440><c> what</c><00:05:53.680><c> if</c><00:05:53.840><c> we</c><00:05:54.080><c> have</c><00:05:54.160><c> an</c><00:05:54.400><c> LM</c><00:05:54.880><c> model</c>
+
+00:05:55.189 --> 00:05:55.199 align:start position:0%
+suggest that what if we have an LM model
+ 
+
+00:05:55.199 --> 00:05:57.189 align:start position:0%
+suggest that what if we have an LM model
+with<00:05:55.440><c> only</c><00:05:55.759><c> one</c><00:05:56.000><c> bit</c><00:05:56.320><c> weights</c><00:05:56.800><c> which</c><00:05:57.039><c> would</c>
+
+00:05:57.189 --> 00:05:57.199 align:start position:0%
+with only one bit weights which would
+ 
+
+00:05:57.199 --> 00:05:59.430 align:start position:0%
+with only one bit weights which would
+only<00:05:57.520><c> represent</c><00:05:58.080><c> one</c><00:05:58.320><c> or</c><00:05:58.560><c> negative</c><00:05:58.880><c> one.</c><00:05:59.199><c> Like</c>
+
+00:05:59.430 --> 00:05:59.440 align:start position:0%
+only represent one or negative one. Like
+ 
+
+00:05:59.440 --> 00:06:00.950 align:start position:0%
+only represent one or negative one. Like
+imagine<00:05:59.759><c> a</c><00:06:00.000><c> model</c><00:06:00.160><c> that</c><00:06:00.400><c> potentially</c>
+
+00:06:00.950 --> 00:06:00.960 align:start position:0%
+imagine a model that potentially
+ 
+
+00:06:00.960 --> 00:06:03.110 align:start position:0%
+imagine a model that potentially
+requires<00:06:01.520><c> 16</c><00:06:01.840><c> times</c><00:06:02.160><c> less</c><00:06:02.400><c> storage</c><00:06:02.720><c> than</c><00:06:02.880><c> a</c>
+
+00:06:03.110 --> 00:06:03.120 align:start position:0%
+requires 16 times less storage than a
+ 
+
+00:06:03.120 --> 00:06:05.350 align:start position:0%
+requires 16 times less storage than a
+standard<00:06:03.520><c> model.</c><00:06:04.080><c> And</c><00:06:04.240><c> on</c><00:06:04.479><c> top</c><00:06:04.560><c> of</c><00:06:04.720><c> that,</c>
+
+00:06:05.350 --> 00:06:05.360 align:start position:0%
+standard model. And on top of that,
+ 
+
+00:06:05.360 --> 00:06:06.870 align:start position:0%
+standard model. And on top of that,
+removing<00:06:05.840><c> the</c><00:06:06.080><c> need</c><00:06:06.240><c> of</c><00:06:06.479><c> matrix</c>
+
+00:06:06.870 --> 00:06:06.880 align:start position:0%
+removing the need of matrix
+ 
+
+00:06:06.880 --> 00:06:08.790 align:start position:0%
+removing the need of matrix
+multiplications<00:06:07.759><c> because</c><00:06:08.080><c> simple</c><00:06:08.400><c> addition</c>
+
+00:06:08.790 --> 00:06:08.800 align:start position:0%
+multiplications because simple addition
+ 
+
+00:06:08.800 --> 00:06:10.629 align:start position:0%
+multiplications because simple addition
+and<00:06:09.039><c> subtraction</c><00:06:09.520><c> would</c><00:06:09.759><c> be</c><00:06:09.840><c> enough</c><00:06:10.080><c> for</c><00:06:10.319><c> only</c>
+
+00:06:10.629 --> 00:06:10.639 align:start position:0%
+and subtraction would be enough for only
+ 
+
+00:06:10.639 --> 00:06:12.790 align:start position:0%
+and subtraction would be enough for only
+two<00:06:10.880><c> numbers.</c><00:06:11.440><c> However,</c><00:06:12.080><c> not</c><00:06:12.319><c> only</c><00:06:12.479><c> does</c><00:06:12.639><c> this</c>
+
+00:06:12.790 --> 00:06:12.800 align:start position:0%
+two numbers. However, not only does this
+ 
+
+00:06:12.800 --> 00:06:14.469 align:start position:0%
+two numbers. However, not only does this
+introduce<00:06:13.199><c> some</c><00:06:13.440><c> extreme</c><00:06:13.840><c> mathematical</c>
+
+00:06:14.469 --> 00:06:14.479 align:start position:0%
+introduce some extreme mathematical
+ 
+
+00:06:14.479 --> 00:06:16.469 align:start position:0%
+introduce some extreme mathematical
+challenges<00:06:15.120><c> since</c><00:06:15.360><c> you</c><00:06:15.600><c> only</c><00:06:15.919><c> have</c><00:06:16.160><c> two</c>
+
+00:06:16.469 --> 00:06:16.479 align:start position:0%
+challenges since you only have two
+ 
+
+00:06:16.479 --> 00:06:18.150 align:start position:0%
+challenges since you only have two
+integers<00:06:16.960><c> to</c><00:06:17.120><c> work</c><00:06:17.280><c> with,</c><00:06:17.680><c> it</c><00:06:17.840><c> is</c><00:06:18.000><c> also</c>
+
+00:06:18.150 --> 00:06:18.160 align:start position:0%
+integers to work with, it is also
+ 
+
+00:06:18.160 --> 00:06:19.749 align:start position:0%
+integers to work with, it is also
+impossible<00:06:18.639><c> to</c><00:06:18.880><c> convert</c><00:06:19.199><c> all</c><00:06:19.280><c> the</c><00:06:19.440><c> weights</c>
+
+00:06:19.749 --> 00:06:19.759 align:start position:0%
+impossible to convert all the weights
+ 
+
+00:06:19.759 --> 00:06:21.270 align:start position:0%
+impossible to convert all the weights
+into<00:06:20.000><c> one</c><00:06:20.240><c> bit,</c><00:06:20.639><c> especially</c><00:06:20.960><c> when</c><00:06:21.120><c> the</c>
+
+00:06:21.270 --> 00:06:21.280 align:start position:0%
+into one bit, especially when the
+ 
+
+00:06:21.280 --> 00:06:22.950 align:start position:0%
+into one bit, especially when the
+weights<00:06:21.520><c> for</c><00:06:21.680><c> the</c><00:06:21.840><c> attention</c><00:06:22.319><c> mechanism</c><00:06:22.720><c> and</c>
+
+00:06:22.950 --> 00:06:22.960 align:start position:0%
+weights for the attention mechanism and
+ 
+
+00:06:22.960 --> 00:06:24.550 align:start position:0%
+weights for the attention mechanism and
+the<00:06:23.120><c> signals</c><00:06:23.440><c> that</c><00:06:23.680><c> are</c><00:06:23.840><c> passed</c><00:06:24.080><c> between</c><00:06:24.319><c> the</c>
+
+00:06:24.550 --> 00:06:24.560 align:start position:0%
+the signals that are passed between the
+ 
+
+00:06:24.560 --> 00:06:27.189 align:start position:0%
+the signals that are passed between the
+layers<00:06:24.880><c> aka</c><00:06:25.360><c> the</c><00:06:25.520><c> activations</c><00:06:26.319><c> are</c><00:06:26.639><c> extremely</c>
+
+00:06:27.189 --> 00:06:27.199 align:start position:0%
+layers aka the activations are extremely
+ 
+
+00:06:27.199 --> 00:06:29.189 align:start position:0%
+layers aka the activations are extremely
+important.<00:06:27.840><c> And</c><00:06:28.080><c> unlike</c><00:06:28.479><c> models</c><00:06:28.800><c> that</c><00:06:29.039><c> are</c>
+
+00:06:29.189 --> 00:06:29.199 align:start position:0%
+important. And unlike models that are
+ 
+
+00:06:29.199 --> 00:06:31.510 align:start position:0%
+important. And unlike models that are
+quantized<00:06:29.840><c> after</c><00:06:30.240><c> undergoing</c><00:06:30.880><c> training</c><00:06:31.199><c> in</c>
+
+00:06:31.510 --> 00:06:31.520 align:start position:0%
+quantized after undergoing training in
+ 
+
+00:06:31.520 --> 00:06:33.350 align:start position:0%
+quantized after undergoing training in
+full<00:06:31.759><c> precision,</c><00:06:32.240><c> BitsNet</c><00:06:32.800><c> is</c><00:06:32.960><c> trained</c><00:06:33.199><c> from</c>
+
+00:06:33.350 --> 00:06:33.360 align:start position:0%
+full precision, BitsNet is trained from
+ 
+
+00:06:33.360 --> 00:06:35.189 align:start position:0%
+full precision, BitsNet is trained from
+the<00:06:33.520><c> ground</c><00:06:33.680><c> up</c><00:06:33.919><c> with</c><00:06:34.080><c> this</c><00:06:34.319><c> one</c><00:06:34.560><c> bit</c><00:06:34.800><c> setup</c>
+
+00:06:35.189 --> 00:06:35.199 align:start position:0%
+the ground up with this one bit setup
+ 
+
+00:06:35.199 --> 00:06:37.029 align:start position:0%
+the ground up with this one bit setup
+which<00:06:35.440><c> gives</c><00:06:35.680><c> a</c><00:06:36.000><c> much</c><00:06:36.240><c> better</c><00:06:36.479><c> stability</c>
+
+00:06:37.029 --> 00:06:37.039 align:start position:0%
+which gives a much better stability
+ 
+
+00:06:37.039 --> 00:06:39.029 align:start position:0%
+which gives a much better stability
+because<00:06:37.360><c> your</c><00:06:37.600><c> goal</c><00:06:37.840><c> is</c><00:06:38.080><c> not</c><00:06:38.240><c> to</c><00:06:38.479><c> salvage</c>
+
+00:06:39.029 --> 00:06:39.039 align:start position:0%
+because your goal is not to salvage
+ 
+
+00:06:39.039 --> 00:06:41.029 align:start position:0%
+because your goal is not to salvage
+performances<00:06:39.840><c> but</c><00:06:40.080><c> instead</c><00:06:40.720><c> building</c>
+
+00:06:41.029 --> 00:06:41.039 align:start position:0%
+performances but instead building
+ 
+
+00:06:41.039 --> 00:06:43.270 align:start position:0%
+performances but instead building
+representations<00:06:41.840><c> from</c><00:06:42.000><c> the</c><00:06:42.240><c> ground</c><00:06:42.400><c> up.</c><00:06:42.960><c> So</c>
+
+00:06:43.270 --> 00:06:43.280 align:start position:0%
+representations from the ground up. So
+ 
+
+00:06:43.280 --> 00:06:45.270 align:start position:0%
+representations from the ground up. So
+even<00:06:43.520><c> though</c><00:06:43.680><c> realistically</c><00:06:44.400><c> only</c><00:06:44.720><c> certain</c>
+
+00:06:45.270 --> 00:06:45.280 align:start position:0%
+even though realistically only certain
+ 
+
+00:06:45.280 --> 00:06:47.270 align:start position:0%
+even though realistically only certain
+layers<00:06:45.600><c> like</c><00:06:45.919><c> linear</c><00:06:46.319><c> projections</c><00:06:47.039><c> can</c>
+
+00:06:47.270 --> 00:06:47.280 align:start position:0%
+layers like linear projections can
+ 
+
+00:06:47.280 --> 00:06:49.430 align:start position:0%
+layers like linear projections can
+implement<00:06:47.759><c> one</c><00:06:48.000><c> bit</c><00:06:48.319><c> weights,</c><00:06:48.960><c> they</c><00:06:49.199><c> were</c>
+
+00:06:49.430 --> 00:06:49.440 align:start position:0%
+implement one bit weights, they were
+ 
+
+00:06:49.440 --> 00:06:51.430 align:start position:0%
+implement one bit weights, they were
+still<00:06:49.680><c> able</c><00:06:49.919><c> to</c><00:06:50.080><c> substitute</c><00:06:50.720><c> components</c><00:06:51.199><c> like</c>
+
+00:06:51.430 --> 00:06:51.440 align:start position:0%
+still able to substitute components like
+ 
+
+00:06:51.440 --> 00:06:53.270 align:start position:0%
+still able to substitute components like
+bit<00:06:51.759><c> linear</c><00:06:52.160><c> to</c><00:06:52.400><c> replace</c><00:06:52.639><c> the</c><00:06:52.960><c> standard</c>
+
+00:06:53.270 --> 00:06:53.280 align:start position:0%
+bit linear to replace the standard
+ 
+
+00:06:53.280 --> 00:06:55.510 align:start position:0%
+bit linear to replace the standard
+matrix<00:06:53.759><c> multiplication</c><00:06:54.720><c> which</c><00:06:54.960><c> would</c><00:06:55.199><c> use</c>
+
+00:06:55.510 --> 00:06:55.520 align:start position:0%
+matrix multiplication which would use
+ 
+
+00:06:55.520 --> 00:06:57.670 align:start position:0%
+matrix multiplication which would use
+much<00:06:55.840><c> less</c><00:06:56.080><c> compute</c><00:06:56.479><c> because</c><00:06:56.800><c> again</c><00:06:57.199><c> you</c><00:06:57.520><c> only</c>
+
+00:06:57.670 --> 00:06:57.680 align:start position:0%
+much less compute because again you only
+ 
+
+00:06:57.680 --> 00:06:59.749 align:start position:0%
+much less compute because again you only
+have<00:06:57.840><c> two</c><00:06:58.080><c> numbers.</c><00:06:58.560><c> So</c><00:06:58.720><c> multiplication</c><00:06:59.440><c> is</c>
+
+00:06:59.749 --> 00:06:59.759 align:start position:0%
+have two numbers. So multiplication is
+ 
+
+00:06:59.759 --> 00:07:01.510 align:start position:0%
+have two numbers. So multiplication is
+not<00:06:59.919><c> really</c><00:07:00.160><c> needed.</c><00:07:00.720><c> While</c><00:07:00.960><c> they</c><00:07:01.199><c> did</c><00:07:01.280><c> not</c>
+
+00:07:01.510 --> 00:07:01.520 align:start position:0%
+not really needed. While they did not
+ 
+
+00:07:01.520 --> 00:07:03.189 align:start position:0%
+not really needed. While they did not
+explicitly<00:07:02.000><c> state</c><00:07:02.240><c> how</c><00:07:02.400><c> much</c><00:07:02.560><c> less</c><00:07:02.800><c> memory</c>
+
+00:07:03.189 --> 00:07:03.199 align:start position:0%
+explicitly state how much less memory
+ 
+
+00:07:03.199 --> 00:07:06.150 align:start position:0%
+explicitly state how much less memory
+this<00:07:03.440><c> 1</c><00:07:03.599><c> bit</c><00:07:03.919><c> LM</c><00:07:04.400><c> requires,</c><00:07:05.039><c> it</c><00:07:05.199><c> still</c><00:07:05.360><c> uses</c><00:07:05.759><c> 30</c>
+
+00:07:06.150 --> 00:07:06.160 align:start position:0%
+this 1 bit LM requires, it still uses 30
+ 
+
+00:07:06.160 --> 00:07:07.990 align:start position:0%
+this 1 bit LM requires, it still uses 30
+times<00:07:06.479><c> less</c><00:07:06.800><c> energy</c><00:07:07.199><c> compared</c><00:07:07.440><c> to</c><00:07:07.599><c> a</c><00:07:07.759><c> model</c>
+
+00:07:07.990 --> 00:07:08.000 align:start position:0%
+times less energy compared to a model
+ 
+
+00:07:08.000 --> 00:07:09.830 align:start position:0%
+times less energy compared to a model
+with<00:07:08.240><c> 7</c><00:07:08.560><c> billion</c><00:07:08.880><c> parameters</c><00:07:09.360><c> in</c><00:07:09.599><c> full</c>
+
+00:07:09.830 --> 00:07:09.840 align:start position:0%
+with 7 billion parameters in full
+ 
+
+00:07:09.840 --> 00:07:11.589 align:start position:0%
+with 7 billion parameters in full
+precision,<00:07:10.479><c> which</c><00:07:10.720><c> is</c><00:07:10.880><c> even</c><00:07:11.120><c> better</c><00:07:11.360><c> than</c>
+
+00:07:11.589 --> 00:07:11.599 align:start position:0%
+precision, which is even better than
+ 
+
+00:07:11.599 --> 00:07:14.150 align:start position:0%
+precision, which is even better than
+just<00:07:11.840><c> the</c><00:07:12.160><c> 16</c><00:07:12.479><c> times</c><00:07:12.800><c> we</c><00:07:13.039><c> initially</c><00:07:13.520><c> expected.</c>
+
+00:07:14.150 --> 00:07:14.160 align:start position:0%
+just the 16 times we initially expected.
+ 
+
+00:07:14.160 --> 00:07:16.710 align:start position:0%
+just the 16 times we initially expected.
+But<00:07:14.400><c> this</c><00:07:14.560><c> pure</c><00:07:14.960><c> one</c><00:07:15.199><c> bit</c><00:07:15.440><c> setup</c><00:07:15.919><c> has</c><00:07:16.160><c> a</c><00:07:16.400><c> major</c>
+
+00:07:16.710 --> 00:07:16.720 align:start position:0%
+But this pure one bit setup has a major
+ 
+
+00:07:16.720 --> 00:07:18.950 align:start position:0%
+But this pure one bit setup has a major
+flaw.<00:07:17.199><c> Even</c><00:07:17.440><c> though</c><00:07:17.599><c> it</c><00:07:17.840><c> can</c><00:07:18.000><c> represent</c><00:07:18.479><c> 1</c><00:07:18.720><c> and</c>
+
+00:07:18.950 --> 00:07:18.960 align:start position:0%
+flaw. Even though it can represent 1 and
+ 
+
+00:07:18.960 --> 00:07:20.950 align:start position:0%
+flaw. Even though it can represent 1 and
+negative<00:07:19.280><c> 1,</c><00:07:19.680><c> it</c><00:07:19.919><c> is</c><00:07:20.080><c> still</c><00:07:20.240><c> mathematically</c>
+
+00:07:20.950 --> 00:07:20.960 align:start position:0%
+negative 1, it is still mathematically
+ 
+
+00:07:20.960 --> 00:07:23.189 align:start position:0%
+negative 1, it is still mathematically
+stuck<00:07:21.280><c> at</c><00:07:21.520><c> always</c><00:07:21.919><c> providing</c><00:07:22.400><c> signals.</c><00:07:23.039><c> And</c>
+
+00:07:23.189 --> 00:07:23.199 align:start position:0%
+stuck at always providing signals. And
+ 
+
+00:07:23.199 --> 00:07:24.550 align:start position:0%
+stuck at always providing signals. And
+this<00:07:23.360><c> is</c><00:07:23.440><c> not</c><00:07:23.599><c> a</c><00:07:23.759><c> great</c><00:07:24.000><c> thing</c><00:07:24.240><c> because</c>
+
+00:07:24.550 --> 00:07:24.560 align:start position:0%
+this is not a great thing because
+ 
+
+00:07:24.560 --> 00:07:27.029 align:start position:0%
+this is not a great thing because
+sometimes<00:07:25.280><c> dead</c><00:07:25.599><c> signals</c><00:07:26.080><c> are</c><00:07:26.319><c> also</c><00:07:26.720><c> as</c>
+
+00:07:27.029 --> 00:07:27.039 align:start position:0%
+sometimes dead signals are also as
+ 
+
+00:07:27.039 --> 00:07:29.110 align:start position:0%
+sometimes dead signals are also as
+important.<00:07:27.599><c> So</c><00:07:27.840><c> to</c><00:07:28.080><c> fix</c><00:07:28.240><c> this</c><00:07:28.479><c> problem,</c><00:07:28.880><c> the</c>
+
+00:07:29.110 --> 00:07:29.120 align:start position:0%
+important. So to fix this problem, the
+ 
+
+00:07:29.120 --> 00:07:32.390 align:start position:0%
+important. So to fix this problem, the
+same<00:07:29.280><c> researchers</c><00:07:29.840><c> introduced</c><00:07:30.479><c> bitnet</c><00:07:31.120><c> B1.58</c>
+
+00:07:32.390 --> 00:07:32.400 align:start position:0%
+same researchers introduced bitnet B1.58
+ 
+
+00:07:32.400 --> 00:07:34.790 align:start position:0%
+same researchers introduced bitnet B1.58
+4<00:07:32.639><c> months</c><00:07:32.960><c> later.</c><00:07:33.520><c> This</c><00:07:33.759><c> time</c><00:07:34.080><c> in</c><00:07:34.319><c> addition</c><00:07:34.560><c> to</c>
+
+00:07:34.790 --> 00:07:34.800 align:start position:0%
+4 months later. This time in addition to
+ 
+
+00:07:34.800 --> 00:07:37.110 align:start position:0%
+4 months later. This time in addition to
+1<00:07:35.039><c> and</c><00:07:35.280><c> negative</c><00:07:35.440><c> -1,</c><00:07:36.000><c> they</c><00:07:36.240><c> introduced</c><00:07:36.720><c> a</c><00:07:36.880><c> new</c>
+
+00:07:37.110 --> 00:07:37.120 align:start position:0%
+1 and negative -1, they introduced a new
+ 
+
+00:07:37.120 --> 00:07:39.749 align:start position:0%
+1 and negative -1, they introduced a new
+state<00:07:37.599><c> which</c><00:07:37.919><c> is</c><00:07:38.400><c> zero.</c><00:07:38.880><c> The</c><00:07:39.120><c> power</c><00:07:39.280><c> of</c><00:07:39.440><c> zero</c>
+
+00:07:39.749 --> 00:07:39.759 align:start position:0%
+state which is zero. The power of zero
+ 
+
+00:07:39.759 --> 00:07:41.990 align:start position:0%
+state which is zero. The power of zero
+is<00:07:39.919><c> that</c><00:07:40.080><c> it</c><00:07:40.319><c> introduces</c><00:07:40.880><c> sparsity</c><00:07:41.440><c> where</c><00:07:41.680><c> it</c>
+
+00:07:41.990 --> 00:07:42.000 align:start position:0%
+is that it introduces sparsity where it
+ 
+
+00:07:42.000 --> 00:07:43.670 align:start position:0%
+is that it introduces sparsity where it
+essentially<00:07:42.319><c> allows</c><00:07:42.639><c> the</c><00:07:42.800><c> model</c><00:07:43.039><c> to</c><00:07:43.199><c> turn</c><00:07:43.440><c> off</c>
+
+00:07:43.670 --> 00:07:43.680 align:start position:0%
+essentially allows the model to turn off
+ 
+
+00:07:43.680 --> 00:07:45.589 align:start position:0%
+essentially allows the model to turn off
+the<00:07:43.840><c> connection</c><00:07:44.240><c> between</c><00:07:44.560><c> neurons.</c><00:07:45.199><c> This</c><00:07:45.440><c> not</c>
+
+00:07:45.589 --> 00:07:45.599 align:start position:0%
+the connection between neurons. This not
+ 
+
+00:07:45.599 --> 00:07:46.950 align:start position:0%
+the connection between neurons. This not
+only<00:07:45.759><c> improves</c><00:07:46.160><c> model</c><00:07:46.479><c> performance</c>
+
+00:07:46.950 --> 00:07:46.960 align:start position:0%
+only improves model performance
+ 
+
+00:07:46.960 --> 00:07:48.790 align:start position:0%
+only improves model performance
+significantly,<00:07:47.840><c> but</c><00:07:48.080><c> also</c><00:07:48.319><c> keeping</c><00:07:48.639><c> the</c>
+
+00:07:48.790 --> 00:07:48.800 align:start position:0%
+significantly, but also keeping the
+ 
+
+00:07:48.800 --> 00:07:50.469 align:start position:0%
+significantly, but also keeping the
+benefit<00:07:49.039><c> of</c><00:07:49.280><c> not</c><00:07:49.520><c> requiring</c><00:07:50.000><c> matrix</c>
+
+00:07:50.469 --> 00:07:50.479 align:start position:0%
+benefit of not requiring matrix
+ 
+
+00:07:50.479 --> 00:07:52.390 align:start position:0%
+benefit of not requiring matrix
+multiplication.<00:07:51.280><c> And</c><00:07:51.520><c> this</c><00:07:51.680><c> time</c><00:07:52.080><c> they</c>
+
+00:07:52.390 --> 00:07:52.400 align:start position:0%
+multiplication. And this time they
+ 
+
+00:07:52.400 --> 00:07:54.390 align:start position:0%
+multiplication. And this time they
+actually<00:07:52.720><c> shared</c><00:07:53.039><c> the</c><00:07:53.280><c> exact</c><00:07:53.680><c> memory</c><00:07:54.080><c> saved</c>
+
+00:07:54.390 --> 00:07:54.400 align:start position:0%
+actually shared the exact memory saved
+ 
+
+00:07:54.400 --> 00:07:56.869 align:start position:0%
+actually shared the exact memory saved
+when<00:07:54.639><c> using</c><00:07:54.960><c> Bitnet</c><00:07:55.520><c> for</c><00:07:55.759><c> Llama</c><00:07:56.080><c> 1</c><00:07:56.319><c> model</c><00:07:56.639><c> at</c>
+
+00:07:56.869 --> 00:07:56.879 align:start position:0%
+when using Bitnet for Llama 1 model at
+ 
+
+00:07:56.879 --> 00:07:59.110 align:start position:0%
+when using Bitnet for Llama 1 model at
+1.3<00:07:57.520><c> billion</c><00:07:57.840><c> parameters</c><00:07:58.319><c> which</c><00:07:58.560><c> is</c><00:07:58.720><c> used</c><00:07:58.960><c> as</c>
+
+00:07:59.110 --> 00:07:59.120 align:start position:0%
+1.3 billion parameters which is used as
+ 
+
+00:07:59.120 --> 00:08:02.150 align:start position:0%
+1.3 billion parameters which is used as
+a<00:07:59.280><c> baseline.</c><00:07:59.840><c> Bitnet</c><00:08:00.319><c> B</c><00:08:00.479><c> 1.58</c><00:08:01.360><c> uses</c><00:08:01.759><c> nearly</c>
+
+00:08:02.150 --> 00:08:02.160 align:start position:0%
+a baseline. Bitnet B 1.58 uses nearly
+ 
+
+00:08:02.160 --> 00:08:04.790 align:start position:0%
+a baseline. Bitnet B 1.58 uses nearly
+three<00:08:02.400><c> times</c><00:08:02.720><c> less</c><00:08:02.960><c> memory</c><00:08:03.599><c> while</c><00:08:03.919><c> being</c><00:08:04.240><c> 66</c>
+
+00:08:04.790 --> 00:08:04.800 align:start position:0%
+three times less memory while being 66
+ 
+
+00:08:04.800 --> 00:08:07.189 align:start position:0%
+three times less memory while being 66
+times<00:08:05.120><c> faster.</c><00:08:05.520><c> For</c><00:08:05.759><c> Llama</c><00:08:06.160><c> 1</c><00:08:06.400><c> model</c><00:08:06.639><c> at</c><00:08:06.960><c> 3</c>
+
+00:08:07.189 --> 00:08:07.199 align:start position:0%
+times faster. For Llama 1 model at 3
+ 
+
+00:08:07.199 --> 00:08:09.990 align:start position:0%
+times faster. For Llama 1 model at 3
+billion<00:08:07.440><c> parameters,</c><00:08:08.080><c> Bitnet</c><00:08:08.479><c> B</c><00:08:08.639><c> 1.58</c><00:08:09.440><c> uses</c>
+
+00:08:09.990 --> 00:08:10.000 align:start position:0%
+billion parameters, Bitnet B 1.58 uses
+ 
+
+00:08:10.000 --> 00:08:13.430 align:start position:0%
+billion parameters, Bitnet B 1.58 uses
+3.5<00:08:10.800><c> times</c><00:08:11.120><c> less</c><00:08:11.440><c> memory</c><00:08:11.840><c> and</c><00:08:12.080><c> is</c><00:08:12.400><c> 2.7</c><00:08:13.120><c> times</c>
+
+00:08:13.430 --> 00:08:13.440 align:start position:0%
+3.5 times less memory and is 2.7 times
+ 
+
+00:08:13.440 --> 00:08:15.430 align:start position:0%
+3.5 times less memory and is 2.7 times
+faster.<00:08:14.000><c> Even</c><00:08:14.160><c> though</c><00:08:14.319><c> at</c><00:08:14.560><c> 1.3</c><00:08:15.120><c> billion</c>
+
+00:08:15.430 --> 00:08:15.440 align:start position:0%
+faster. Even though at 1.3 billion
+ 
+
+00:08:15.440 --> 00:08:17.270 align:start position:0%
+faster. Even though at 1.3 billion
+parameters,<00:08:16.000><c> Bitnet</c><00:08:16.479><c> performs</c><00:08:16.879><c> worse</c><00:08:17.120><c> than</c>
+
+00:08:17.270 --> 00:08:17.280 align:start position:0%
+parameters, Bitnet performs worse than
+ 
+
+00:08:17.280 --> 00:08:19.270 align:start position:0%
+parameters, Bitnet performs worse than
+the<00:08:17.440><c> full</c><00:08:17.680><c> precision</c><00:08:18.160><c> llama</c><00:08:18.560><c> model.</c><00:08:18.960><c> For</c><00:08:19.120><c> the</c>
+
+00:08:19.270 --> 00:08:19.280 align:start position:0%
+the full precision llama model. For the
+ 
+
+00:08:19.280 --> 00:08:20.950 align:start position:0%
+the full precision llama model. For the
+three<00:08:19.440><c> billion</c><00:08:19.759><c> parameters</c><00:08:20.240><c> model,</c><00:08:20.639><c> it</c><00:08:20.800><c> is</c>
+
+00:08:20.950 --> 00:08:20.960 align:start position:0%
+three billion parameters model, it is
+ 
+
+00:08:20.960 --> 00:08:22.710 align:start position:0%
+three billion parameters model, it is
+still<00:08:21.120><c> able</c><00:08:21.280><c> to</c><00:08:21.440><c> match</c><00:08:21.680><c> and</c><00:08:21.919><c> even</c><00:08:22.240><c> beat</c><00:08:22.479><c> it</c>
+
+00:08:22.710 --> 00:08:22.720 align:start position:0%
+still able to match and even beat it
+ 
+
+00:08:22.720 --> 00:08:24.790 align:start position:0%
+still able to match and even beat it
+across<00:08:23.039><c> the</c><00:08:23.280><c> board,</c><00:08:23.759><c> suggesting</c><00:08:24.240><c> a</c><00:08:24.479><c> really</c>
+
+00:08:24.790 --> 00:08:24.800 align:start position:0%
+across the board, suggesting a really
+ 
+
+00:08:24.800 --> 00:08:26.629 align:start position:0%
+across the board, suggesting a really
+promising<00:08:25.280><c> scaling</c><00:08:25.680><c> law</c><00:08:26.000><c> where</c><00:08:26.160><c> the</c><00:08:26.400><c> more</c>
+
+00:08:26.629 --> 00:08:26.639 align:start position:0%
+promising scaling law where the more
+ 
+
+00:08:26.639 --> 00:08:29.029 align:start position:0%
+promising scaling law where the more
+parameters<00:08:27.120><c> they</c><00:08:27.360><c> have,</c><00:08:27.599><c> the</c><00:08:27.840><c> better</c><00:08:28.080><c> bit</c><00:08:28.639><c> is.</c>
+
+00:08:29.029 --> 00:08:29.039 align:start position:0%
+parameters they have, the better bit is.
+ 
+
+00:08:29.039 --> 00:08:31.189 align:start position:0%
+parameters they have, the better bit is.
+As<00:08:29.199><c> for</c><00:08:29.440><c> memory</c><00:08:29.759><c> savings,</c><00:08:30.400><c> it</c><00:08:30.639><c> also</c><00:08:30.879><c> has</c><00:08:31.039><c> a</c>
+
+00:08:31.189 --> 00:08:31.199 align:start position:0%
+As for memory savings, it also has a
+ 
+
+00:08:31.199 --> 00:08:32.870 align:start position:0%
+As for memory savings, it also has a
+similar<00:08:31.520><c> trend.</c><00:08:31.840><c> When</c><00:08:32.080><c> Bitnet</c><00:08:32.399><c> is</c><00:08:32.560><c> scaled</c><00:08:32.800><c> up</c>
+
+00:08:32.870 --> 00:08:32.880 align:start position:0%
+similar trend. When Bitnet is scaled up
+ 
+
+00:08:32.880 --> 00:08:35.110 align:start position:0%
+similar trend. When Bitnet is scaled up
+to<00:08:33.120><c> 70</c><00:08:33.360><c> billion</c><00:08:33.680><c> parameters</c><00:08:34.159><c> from</c><00:08:34.479><c> 1.3</c>
+
+00:08:35.110 --> 00:08:35.120 align:start position:0%
+to 70 billion parameters from 1.3
+ 
+
+00:08:35.120 --> 00:08:37.750 align:start position:0%
+to 70 billion parameters from 1.3
+billion,<00:08:35.519><c> it</c><00:08:35.760><c> requires</c><00:08:36.159><c> 7.16</c><00:08:37.200><c> times</c><00:08:37.519><c> less</c>
+
+00:08:37.750 --> 00:08:37.760 align:start position:0%
+billion, it requires 7.16 times less
+ 
+
+00:08:37.760 --> 00:08:40.550 align:start position:0%
+billion, it requires 7.16 times less
+memory<00:08:38.080><c> than</c><00:08:38.320><c> Llama</c><00:08:38.800><c> 70B</c><00:08:39.440><c> from</c><00:08:39.760><c> merely</c><00:08:40.320><c> three</c>
+
+00:08:40.550 --> 00:08:40.560 align:start position:0%
+memory than Llama 70B from merely three
+ 
+
+00:08:40.560 --> 00:08:42.790 align:start position:0%
+memory than Llama 70B from merely three
+times<00:08:40.880><c> when</c><00:08:41.120><c> it's</c><00:08:41.440><c> 1.3</c><00:08:42.080><c> billion.</c><00:08:42.479><c> And</c><00:08:42.640><c> the</c>
+
+00:08:42.790 --> 00:08:42.800 align:start position:0%
+times when it's 1.3 billion. And the
+ 
+
+00:08:42.800 --> 00:08:44.710 align:start position:0%
+times when it's 1.3 billion. And the
+best<00:08:42.959><c> part</c><00:08:43.039><c> is</c><00:08:43.279><c> that</c><00:08:43.440><c> a</c><00:08:43.680><c> 70</c><00:08:44.000><c> billion</c><00:08:44.320><c> parameter</c>
+
+00:08:44.710 --> 00:08:44.720 align:start position:0%
+best part is that a 70 billion parameter
+ 
+
+00:08:44.720 --> 00:08:47.590 align:start position:0%
+best part is that a 70 billion parameter
+spinet<00:08:45.279><c> B1.58</c><00:08:46.240><c> is</c><00:08:46.480><c> still</c><00:08:46.640><c> more</c><00:08:46.959><c> efficient</c><00:08:47.279><c> in</c>
+
+00:08:47.590 --> 00:08:47.600 align:start position:0%
+spinet B1.58 is still more efficient in
+ 
+
+00:08:47.600 --> 00:08:50.150 align:start position:0%
+spinet B1.58 is still more efficient in
+terms<00:08:47.839><c> of</c><00:08:48.080><c> generation</c><00:08:48.640><c> speed,</c><00:08:49.200><c> memory</c><00:08:49.600><c> usage,</c>
+
+00:08:50.150 --> 00:08:50.160 align:start position:0%
+terms of generation speed, memory usage,
+ 
+
+00:08:50.160 --> 00:08:52.710 align:start position:0%
+terms of generation speed, memory usage,
+and<00:08:50.399><c> energy</c><00:08:50.800><c> consumption</c><00:08:51.600><c> than</c><00:08:51.839><c> a</c><00:08:52.080><c> 13</c><00:08:52.399><c> billion</c>
+
+00:08:52.710 --> 00:08:52.720 align:start position:0%
+and energy consumption than a 13 billion
+ 
+
+00:08:52.720 --> 00:08:55.030 align:start position:0%
+and energy consumption than a 13 billion
+parameters<00:08:53.200><c> full</c><00:08:53.519><c> precision</c><00:08:54.000><c> LLM.</c><00:08:54.640><c> Oh,</c><00:08:54.800><c> and</c>
+
+00:08:55.030 --> 00:08:55.040 align:start position:0%
+parameters full precision LLM. Oh, and
+ 
+
+00:08:55.040 --> 00:08:57.829 align:start position:0%
+parameters full precision LLM. Oh, and
+the<00:08:55.200><c> reason</c><00:08:55.440><c> why</c><00:08:55.680><c> it's</c><00:08:56.000><c> called</c><00:08:56.320><c> B1.58</c>
+
+00:08:57.829 --> 00:08:57.839 align:start position:0%
+the reason why it's called B1.58
+ 
+
+00:08:57.839 --> 00:08:59.910 align:start position:0%
+the reason why it's called B1.58
+is<00:08:58.080><c> because</c><00:08:58.480><c> instead</c><00:08:58.880><c> of</c><00:08:58.959><c> the</c><00:08:59.279><c> original</c><00:08:59.600><c> two</c>
+
+00:08:59.910 --> 00:08:59.920 align:start position:0%
+is because instead of the original two
+ 
+
+00:08:59.920 --> 00:09:01.990 align:start position:0%
+is because instead of the original two
+states<00:09:00.160><c> that</c><00:09:00.399><c> can</c><00:09:00.560><c> be</c><00:09:00.720><c> stored</c><00:09:00.959><c> in</c><00:09:01.279><c> one</c><00:09:01.519><c> bit,</c>
+
+00:09:01.990 --> 00:09:02.000 align:start position:0%
+states that can be stored in one bit,
+ 
+
+00:09:02.000 --> 00:09:04.070 align:start position:0%
+states that can be stored in one bit,
+now<00:09:02.320><c> you</c><00:09:02.560><c> technically</c><00:09:03.120><c> have</c><00:09:03.360><c> three</c><00:09:03.680><c> numbers</c>
+
+00:09:04.070 --> 00:09:04.080 align:start position:0%
+now you technically have three numbers
+ 
+
+00:09:04.080 --> 00:09:06.550 align:start position:0%
+now you technically have three numbers
+to<00:09:04.320><c> store.</c><00:09:04.800><c> So</c><00:09:04.959><c> the</c><00:09:05.279><c> information</c><00:09:05.760><c> content</c><00:09:06.240><c> per</c>
+
+00:09:06.550 --> 00:09:06.560 align:start position:0%
+to store. So the information content per
+ 
+
+00:09:06.560 --> 00:09:09.670 align:start position:0%
+to store. So the information content per
+weight<00:09:06.959><c> is</c><00:09:07.279><c> now</c><00:09:07.519><c> around</c><00:09:08.000><c> 1.58</c><00:09:08.880><c> bits.</c><00:09:09.360><c> While</c>
+
+00:09:09.670 --> 00:09:09.680 align:start position:0%
+weight is now around 1.58 bits. While
+ 
+
+00:09:09.680 --> 00:09:11.670 align:start position:0%
+weight is now around 1.58 bits. While
+this<00:09:09.839><c> research</c><00:09:10.240><c> paper</c><00:09:10.480><c> is</c><00:09:10.720><c> a</c><00:09:10.959><c> great</c><00:09:11.200><c> success</c>
+
+00:09:11.670 --> 00:09:11.680 align:start position:0%
+this research paper is a great success
+ 
+
+00:09:11.680 --> 00:09:13.910 align:start position:0%
+this research paper is a great success
+in<00:09:11.920><c> proving</c><00:09:12.160><c> that</c><00:09:12.480><c> bitnet</c><00:09:13.040><c> works,</c><00:09:13.600><c> especially</c>
+
+00:09:13.910 --> 00:09:13.920 align:start position:0%
+in proving that bitnet works, especially
+ 
+
+00:09:13.920 --> 00:09:15.910 align:start position:0%
+in proving that bitnet works, especially
+in<00:09:14.240><c> larger</c><00:09:14.560><c> parameter</c><00:09:15.040><c> counts,</c><00:09:15.519><c> it</c><00:09:15.760><c> still</c>
+
+00:09:15.910 --> 00:09:15.920 align:start position:0%
+in larger parameter counts, it still
+ 
+
+00:09:15.920 --> 00:09:17.750 align:start position:0%
+in larger parameter counts, it still
+doesn't<00:09:16.160><c> change</c><00:09:16.399><c> the</c><00:09:16.640><c> fact</c><00:09:16.720><c> that</c><00:09:16.959><c> bitnet</c><00:09:17.519><c> is</c>
+
+00:09:17.750 --> 00:09:17.760 align:start position:0%
+doesn't change the fact that bitnet is
+ 
+
+00:09:17.760 --> 00:09:19.829 align:start position:0%
+doesn't change the fact that bitnet is
+only<00:09:18.240><c> addressing</c><00:09:18.720><c> the</c><00:09:18.880><c> weight</c><00:09:19.200><c> size.</c><00:09:19.680><c> The</c>
+
+00:09:19.829 --> 00:09:19.839 align:start position:0%
+only addressing the weight size. The
+ 
+
+00:09:19.839 --> 00:09:21.509 align:start position:0%
+only addressing the weight size. The
+activations<00:09:20.480><c> are</c><00:09:20.720><c> still</c><00:09:20.959><c> being</c><00:09:21.200><c> passed</c>
+
+00:09:21.509 --> 00:09:21.519 align:start position:0%
+activations are still being passed
+ 
+
+00:09:21.519 --> 00:09:23.750 align:start position:0%
+activations are still being passed
+around<00:09:21.760><c> in</c><00:09:22.000><c> 8</c><00:09:22.240><c> bits</c><00:09:22.560><c> and</c><00:09:22.720><c> the</c><00:09:22.800><c> KV</c><00:09:23.200><c> cache</c><00:09:23.519><c> is</c>
+
+00:09:23.750 --> 00:09:23.760 align:start position:0%
+around in 8 bits and the KV cache is
+ 
+
+00:09:23.760 --> 00:09:25.590 align:start position:0%
+around in 8 bits and the KV cache is
+still<00:09:23.839><c> a</c><00:09:24.080><c> bottleneck</c><00:09:24.480><c> that</c><00:09:24.720><c> stacks</c><00:09:25.040><c> up</c><00:09:25.200><c> easily</c>
+
+00:09:25.590 --> 00:09:25.600 align:start position:0%
+still a bottleneck that stacks up easily
+ 
+
+00:09:25.600 --> 00:09:27.509 align:start position:0%
+still a bottleneck that stacks up easily
+the<00:09:25.760><c> longer</c><00:09:26.000><c> the</c><00:09:26.160><c> context</c><00:09:26.560><c> window</c><00:09:26.880><c> is.</c><00:09:27.279><c> So</c><00:09:27.360><c> to</c>
+
+00:09:27.509 --> 00:09:27.519 align:start position:0%
+the longer the context window is. So to
+ 
+
+00:09:27.519 --> 00:09:29.590 align:start position:0%
+the longer the context window is. So to
+juice<00:09:27.839><c> out</c><00:09:28.080><c> some</c><00:09:28.240><c> extra</c><00:09:28.640><c> efficiency,</c><00:09:29.360><c> the</c>
+
+00:09:29.590 --> 00:09:29.600 align:start position:0%
+juice out some extra efficiency, the
+ 
+
+00:09:29.600 --> 00:09:31.670 align:start position:0%
+juice out some extra efficiency, the
+same<00:09:29.760><c> researchers</c><00:09:30.320><c> dive</c><00:09:30.560><c> into</c><00:09:30.880><c> reducing</c><00:09:31.519><c> the</c>
+
+00:09:31.670 --> 00:09:31.680 align:start position:0%
+same researchers dive into reducing the
+ 
+
+00:09:31.680 --> 00:09:34.790 align:start position:0%
+same researchers dive into reducing the
+activation<00:09:32.240><c> from</c><00:09:32.560><c> 8bit</c><00:09:33.120><c> into</c><00:09:33.440><c> 4bit</c><00:09:34.240><c> 8</c><00:09:34.480><c> months</c>
+
+00:09:34.790 --> 00:09:34.800 align:start position:0%
+activation from 8bit into 4bit 8 months
+ 
+
+00:09:34.800 --> 00:09:36.470 align:start position:0%
+activation from 8bit into 4bit 8 months
+later.<00:09:35.200><c> In</c><00:09:35.360><c> this</c><00:09:35.519><c> research</c><00:09:35.839><c> called</c><00:09:36.080><c> BNET</c>
+
+00:09:36.470 --> 00:09:36.480 align:start position:0%
+later. In this research called BNET
+ 
+
+00:09:36.480 --> 00:09:39.190 align:start position:0%
+later. In this research called BNET
+A4.8,<00:09:37.200><c> 8.</c><00:09:37.440><c> It</c><00:09:37.600><c> uses</c><00:09:37.920><c> 4bit</c><00:09:38.480><c> activations</c><00:09:39.040><c> for</c>
+
+00:09:39.190 --> 00:09:39.200 align:start position:0%
+A4.8, 8. It uses 4bit activations for
+ 
+
+00:09:39.200 --> 00:09:41.829 align:start position:0%
+A4.8, 8. It uses 4bit activations for
+attention<00:09:39.680><c> and</c><00:09:39.920><c> fe</c><00:09:40.399><c> network</c><00:09:40.720><c> inputs</c><00:09:41.360><c> while</c>
+
+00:09:41.829 --> 00:09:41.839 align:start position:0%
+attention and fe network inputs while
+ 
+
+00:09:41.839 --> 00:09:44.070 align:start position:0%
+attention and fe network inputs while
+utilizing<00:09:42.320><c> specification</c><00:09:43.120><c> with</c><00:09:43.360><c> 8</c><00:09:43.600><c> bits</c><00:09:43.920><c> for</c>
+
+00:09:44.070 --> 00:09:44.080 align:start position:0%
+utilizing specification with 8 bits for
+ 
+
+00:09:44.080 --> 00:09:45.990 align:start position:0%
+utilizing specification with 8 bits for
+intermediate<00:09:44.720><c> states</c><00:09:45.040><c> like</c><00:09:45.279><c> the</c><00:09:45.440><c> outputs</c><00:09:45.839><c> for</c>
+
+00:09:45.990 --> 00:09:46.000 align:start position:0%
+intermediate states like the outputs for
+ 
+
+00:09:46.000 --> 00:09:47.829 align:start position:0%
+intermediate states like the outputs for
+attention.<00:09:46.480><c> The</c><00:09:46.640><c> 8</c><00:09:46.800><c> bits</c><00:09:47.200><c> have</c><00:09:47.360><c> to</c><00:09:47.519><c> exist</c>
+
+00:09:47.829 --> 00:09:47.839 align:start position:0%
+attention. The 8 bits have to exist
+ 
+
+00:09:47.839 --> 00:09:49.430 align:start position:0%
+attention. The 8 bits have to exist
+there<00:09:48.320><c> or</c><00:09:48.560><c> else</c><00:09:48.800><c> it</c><00:09:48.959><c> would</c><00:09:49.040><c> introduce</c>
+
+00:09:49.430 --> 00:09:49.440 align:start position:0%
+there or else it would introduce
+ 
+
+00:09:49.440 --> 00:09:51.110 align:start position:0%
+there or else it would introduce
+quantization<00:09:50.240><c> errors</c><00:09:50.480><c> due</c><00:09:50.640><c> to</c><00:09:50.880><c> their</c>
+
+00:09:51.110 --> 00:09:51.120 align:start position:0%
+quantization errors due to their
+ 
+
+00:09:51.120 --> 00:09:53.030 align:start position:0%
+quantization errors due to their
+specific<00:09:51.600><c> data</c><00:09:51.920><c> distributions</c><00:09:52.800><c> which</c>
+
+00:09:53.030 --> 00:09:53.040 align:start position:0%
+specific data distributions which
+ 
+
+00:09:53.040 --> 00:09:55.350 align:start position:0%
+specific data distributions which
+usually<00:09:53.440><c> include</c><00:09:53.920><c> very</c><00:09:54.240><c> important</c><00:09:54.720><c> outlier</c>
+
+00:09:55.350 --> 00:09:55.360 align:start position:0%
+usually include very important outlier
+ 
+
+00:09:55.360 --> 00:09:57.030 align:start position:0%
+usually include very important outlier
+values.<00:09:55.839><c> And</c><00:09:56.000><c> as</c><00:09:56.160><c> you</c><00:09:56.320><c> can</c><00:09:56.399><c> see</c><00:09:56.480><c> from</c><00:09:56.800><c> their</c>
+
+00:09:57.030 --> 00:09:57.040 align:start position:0%
+values. And as you can see from their
+ 
+
+00:09:57.040 --> 00:09:59.509 align:start position:0%
+values. And as you can see from their
+experiment,<00:09:57.680><c> the</c><00:09:57.920><c> performance</c><00:09:58.240><c> of</c><00:09:58.560><c> full</c><00:09:59.279><c> and</c>
+
+00:09:59.509 --> 00:09:59.519 align:start position:0%
+experiment, the performance of full and
+ 
+
+00:09:59.519 --> 00:10:01.509 align:start position:0%
+experiment, the performance of full and
+A4.8<00:10:00.240><c> eight</c><00:10:00.560><c> is</c><00:10:00.800><c> actually</c><00:10:01.120><c> huge</c>
+
+00:10:01.509 --> 00:10:01.519 align:start position:0%
+A4.8 eight is actually huge
+ 
+
+00:10:01.519 --> 00:10:03.829 align:start position:0%
+A4.8 eight is actually huge
+demonstrating<00:10:02.080><c> that</c><00:10:02.399><c> a</c><00:10:02.720><c> bit</c><00:10:03.040><c> is</c><00:10:03.279><c> extremely</c>
+
+00:10:03.829 --> 00:10:03.839 align:start position:0%
+demonstrating that a bit is extremely
+ 
+
+00:10:03.839 --> 00:10:06.070 align:start position:0%
+demonstrating that a bit is extremely
+important<00:10:04.560><c> because</c><00:10:04.800><c> as</c><00:10:05.040><c> you</c><00:10:05.279><c> can</c><00:10:05.360><c> see</c><00:10:05.760><c> in</c><00:10:05.920><c> the</c>
+
+00:10:06.070 --> 00:10:06.080 align:start position:0%
+important because as you can see in the
+ 
+
+00:10:06.080 --> 00:10:08.070 align:start position:0%
+important because as you can see in the
+four<00:10:06.399><c> does</c><00:10:06.640><c> not</c><00:10:06.800><c> even</c><00:10:07.040><c> converge.</c><00:10:07.680><c> As</c><00:10:07.839><c> for</c><00:10:07.920><c> the</c>
+
+00:10:08.070 --> 00:10:08.080 align:start position:0%
+four does not even converge. As for the
+ 
+
+00:10:08.080 --> 00:10:10.230 align:start position:0%
+four does not even converge. As for the
+context<00:10:08.480><c> window,</c><00:10:08.959><c> KV</c><00:10:09.360><c> cache</c><00:10:09.680><c> can</c><00:10:09.839><c> easily</c>
+
+00:10:10.230 --> 00:10:10.240 align:start position:0%
+context window, KV cache can easily
+ 
+
+00:10:10.240 --> 00:10:12.150 align:start position:0%
+context window, KV cache can easily
+stack<00:10:10.560><c> up</c><00:10:10.720><c> quadratically</c><00:10:11.440><c> the</c><00:10:11.680><c> longer</c><00:10:12.000><c> the</c>
+
+00:10:12.150 --> 00:10:12.160 align:start position:0%
+stack up quadratically the longer the
+ 
+
+00:10:12.160 --> 00:10:14.310 align:start position:0%
+stack up quadratically the longer the
+context<00:10:12.640><c> is</c><00:10:12.880><c> and</c><00:10:13.200><c> use</c><00:10:13.440><c> up</c><00:10:13.600><c> a</c><00:10:13.839><c> significant</c>
+
+00:10:14.310 --> 00:10:14.320 align:start position:0%
+context is and use up a significant
+ 
+
+00:10:14.320 --> 00:10:15.829 align:start position:0%
+context is and use up a significant
+amount<00:10:14.480><c> of</c><00:10:14.640><c> memory</c><00:10:15.040><c> especially</c><00:10:15.360><c> if</c><00:10:15.519><c> they</c><00:10:15.680><c> are</c>
+
+00:10:15.829 --> 00:10:15.839 align:start position:0%
+amount of memory especially if they are
+ 
+
+00:10:15.839 --> 00:10:18.870 align:start position:0%
+amount of memory especially if they are
+stored<00:10:16.160><c> in</c><00:10:16.320><c> FP16</c><00:10:17.120><c> or</c><00:10:17.360><c> even</c><00:10:17.600><c> FP8.</c><00:10:18.320><c> So</c><00:10:18.480><c> Bitnet</c>
+
+00:10:18.870 --> 00:10:18.880 align:start position:0%
+stored in FP16 or even FP8. So Bitnet
+ 
+
+00:10:18.880 --> 00:10:21.750 align:start position:0%
+stored in FP16 or even FP8. So Bitnet
+A4.8<00:10:19.680><c> introduces</c><00:10:20.320><c> 3bit</c><00:10:20.720><c> KV</c><00:10:21.120><c> cache.</c><00:10:21.440><c> And</c><00:10:21.600><c> if</c>
+
+00:10:21.750 --> 00:10:21.760 align:start position:0%
+A4.8 introduces 3bit KV cache. And if
+ 
+
+00:10:21.760 --> 00:10:23.430 align:start position:0%
+A4.8 introduces 3bit KV cache. And if
+you<00:10:21.839><c> look</c><00:10:22.000><c> at</c><00:10:22.079><c> the</c><00:10:22.240><c> benchmark</c><00:10:22.720><c> performance,</c>
+
+00:10:23.430 --> 00:10:23.440 align:start position:0%
+you look at the benchmark performance,
+ 
+
+00:10:23.440 --> 00:10:25.750 align:start position:0%
+you look at the benchmark performance,
+it<00:10:23.600><c> has</c><00:10:23.839><c> barely</c><00:10:24.160><c> any</c><00:10:24.399><c> degradation</c><00:10:25.040><c> on</c><00:10:25.360><c> average</c>
+
+00:10:25.750 --> 00:10:25.760 align:start position:0%
+it has barely any degradation on average
+ 
+
+00:10:25.760 --> 00:10:28.150 align:start position:0%
+it has barely any degradation on average
+accuracy.<00:10:26.480><c> Having</c><00:10:26.720><c> this</c><00:10:26.959><c> 3-bit</c><00:10:27.440><c> KV</c><00:10:27.839><c> cache</c>
+
+00:10:28.150 --> 00:10:28.160 align:start position:0%
+accuracy. Having this 3-bit KV cache
+ 
+
+00:10:28.160 --> 00:10:30.630 align:start position:0%
+accuracy. Having this 3-bit KV cache
+means<00:10:28.399><c> that</c><00:10:28.640><c> compared</c><00:10:28.880><c> to</c><00:10:29.120><c> 16bit</c><00:10:29.839><c> cache,</c><00:10:30.399><c> you</c>
+
+00:10:30.630 --> 00:10:30.640 align:start position:0%
+means that compared to 16bit cache, you
+ 
+
+00:10:30.640 --> 00:10:32.230 align:start position:0%
+means that compared to 16bit cache, you
+basically<00:10:30.959><c> can</c><00:10:31.120><c> have</c><00:10:31.200><c> a</c><00:10:31.360><c> context</c><00:10:31.760><c> window</c><00:10:32.000><c> that</c>
+
+00:10:32.230 --> 00:10:32.240 align:start position:0%
+basically can have a context window that
+ 
+
+00:10:32.240 --> 00:10:34.389 align:start position:0%
+basically can have a context window that
+is<00:10:32.399><c> five</c><00:10:32.640><c> times</c><00:10:32.959><c> larger</c><00:10:33.519><c> while</c><00:10:33.920><c> using</c><00:10:34.160><c> the</c>
+
+00:10:34.389 --> 00:10:34.399 align:start position:0%
+is five times larger while using the
+ 
+
+00:10:34.399 --> 00:10:35.590 align:start position:0%
+is five times larger while using the
+same<00:10:34.480><c> amount</c><00:10:34.720><c> of</c><00:10:34.880><c> memory.</c><00:10:35.200><c> What's</c><00:10:35.440><c> even</c>
+
+00:10:35.590 --> 00:10:35.600 align:start position:0%
+same amount of memory. What's even
+ 
+
+00:10:35.600 --> 00:10:38.550 align:start position:0%
+same amount of memory. What's even
+cooler<00:10:35.920><c> is</c><00:10:36.079><c> that</c><00:10:36.320><c> bit</c><00:10:36.800><c> A4.8</c><00:10:37.680><c> is</c><00:10:37.920><c> also</c><00:10:38.160><c> not</c><00:10:38.399><c> a</c>
+
+00:10:38.550 --> 00:10:38.560 align:start position:0%
+cooler is that bit A4.8 is also not a
+ 
+
+00:10:38.560 --> 00:10:40.150 align:start position:0%
+cooler is that bit A4.8 is also not a
+dense<00:10:38.880><c> model,</c><00:10:39.200><c> which</c><00:10:39.440><c> means</c><00:10:39.600><c> it</c><00:10:39.839><c> does</c><00:10:40.000><c> not</c>
+
+00:10:40.150 --> 00:10:40.160 align:start position:0%
+dense model, which means it does not
+ 
+
+00:10:40.160 --> 00:10:42.550 align:start position:0%
+dense model, which means it does not
+have<00:10:40.560><c> 100%</c><00:10:41.040><c> of</c><00:10:41.200><c> the</c><00:10:41.360><c> parameters</c><00:10:41.920><c> used</c><00:10:42.160><c> in</c><00:10:42.399><c> the</c>
+
+00:10:42.550 --> 00:10:42.560 align:start position:0%
+have 100% of the parameters used in the
+ 
+
+00:10:42.560 --> 00:10:44.710 align:start position:0%
+have 100% of the parameters used in the
+computation<00:10:43.279><c> for</c><00:10:43.519><c> every</c><00:10:43.839><c> input.</c><00:10:44.480><c> This</c><00:10:44.560><c> is</c>
+
+00:10:44.710 --> 00:10:44.720 align:start position:0%
+computation for every input. This is
+ 
+
+00:10:44.720 --> 00:10:46.470 align:start position:0%
+computation for every input. This is
+thanks<00:10:44.880><c> to</c><00:10:45.040><c> the</c><00:10:45.200><c> number</c><00:10:45.519><c> zero</c><00:10:45.760><c> that</c><00:10:46.000><c> Bitnet</c>
+
+00:10:46.470 --> 00:10:46.480 align:start position:0%
+thanks to the number zero that Bitnet
+ 
+
+00:10:46.480 --> 00:10:48.949 align:start position:0%
+thanks to the number zero that Bitnet
+B1.58<00:10:47.440><c> introduces.</c><00:10:48.240><c> So</c><00:10:48.399><c> there's</c><00:10:48.640><c> now</c><00:10:48.800><c> an</c>
+
+00:10:48.949 --> 00:10:48.959 align:start position:0%
+B1.58 introduces. So there's now an
+ 
+
+00:10:48.959 --> 00:10:50.949 align:start position:0%
+B1.58 introduces. So there's now an
+optional<00:10:49.440><c> state</c><00:10:49.680><c> of</c><00:10:50.000><c> doing</c><00:10:50.320><c> nothing.</c><00:10:50.720><c> This</c>
+
+00:10:50.949 --> 00:10:50.959 align:start position:0%
+optional state of doing nothing. This
+ 
+
+00:10:50.959 --> 00:10:52.470 align:start position:0%
+optional state of doing nothing. This
+then<00:10:51.200><c> enables</c><00:10:51.600><c> the</c><00:10:51.839><c> researchers</c><00:10:52.320><c> to</c>
+
+00:10:52.470 --> 00:10:52.480 align:start position:0%
+then enables the researchers to
+ 
+
+00:10:52.480 --> 00:10:53.990 align:start position:0%
+then enables the researchers to
+incorporate<00:10:53.040><c> some</c><00:10:53.279><c> decent</c><00:10:53.600><c> amount</c><00:10:53.839><c> of</c>
+
+00:10:53.990 --> 00:10:54.000 align:start position:0%
+incorporate some decent amount of
+ 
+
+00:10:54.000 --> 00:10:56.550 align:start position:0%
+incorporate some decent amount of
+sparsity<00:10:54.480><c> by</c><00:10:54.800><c> using</c><00:10:55.040><c> only</c><00:10:55.440><c> 55%</c><00:10:56.240><c> of</c><00:10:56.399><c> the</c>
+
+00:10:56.550 --> 00:10:56.560 align:start position:0%
+sparsity by using only 55% of the
+ 
+
+00:10:56.560 --> 00:10:58.470 align:start position:0%
+sparsity by using only 55% of the
+parameters<00:10:57.040><c> for</c><00:10:57.279><c> every</c><00:10:57.519><c> input.</c><00:10:58.079><c> Kind</c><00:10:58.160><c> of</c><00:10:58.240><c> like</c>
+
+00:10:58.470 --> 00:10:58.480 align:start position:0%
+parameters for every input. Kind of like
+ 
+
+00:10:58.480 --> 00:11:00.069 align:start position:0%
+parameters for every input. Kind of like
+mixture<00:10:58.800><c> of</c><00:10:58.959><c> expert</c><00:10:59.360><c> models</c><00:10:59.680><c> that</c><00:10:59.920><c> have</c>
+
+00:11:00.069 --> 00:11:00.079 align:start position:0%
+mixture of expert models that have
+ 
+
+00:11:00.079 --> 00:11:01.750 align:start position:0%
+mixture of expert models that have
+active<00:11:00.399><c> parameter</c><00:11:00.880><c> counts.</c><00:11:01.360><c> A</c><00:11:01.519><c> very</c>
+
+00:11:01.750 --> 00:11:01.760 align:start position:0%
+active parameter counts. A very
+ 
+
+00:11:01.760 --> 00:11:03.670 align:start position:0%
+active parameter counts. A very
+promising<00:11:02.160><c> technique,</c><00:11:02.640><c> right?</c><00:11:02.959><c> But</c><00:11:03.120><c> so</c><00:11:03.279><c> far,</c>
+
+00:11:03.670 --> 00:11:03.680 align:start position:0%
+promising technique, right? But so far,
+ 
+
+00:11:03.680 --> 00:11:05.670 align:start position:0%
+promising technique, right? But so far,
+even<00:11:03.839><c> though</c><00:11:04.000><c> BNET</c><00:11:04.480><c> has</c><00:11:04.640><c> been</c><00:11:04.720><c> tested</c><00:11:05.120><c> up</c><00:11:05.279><c> to</c><00:11:05.440><c> 7</c>
+
+00:11:05.670 --> 00:11:05.680 align:start position:0%
+even though BNET has been tested up to 7
+ 
+
+00:11:05.680 --> 00:11:07.190 align:start position:0%
+even though BNET has been tested up to 7
+billion<00:11:05.920><c> parameters</c><00:11:06.320><c> and</c><00:11:06.560><c> outperforms</c><00:11:07.040><c> the</c>
+
+00:11:07.190 --> 00:11:07.200 align:start position:0%
+billion parameters and outperforms the
+ 
+
+00:11:07.200 --> 00:11:09.190 align:start position:0%
+billion parameters and outperforms the
+llama<00:11:07.600><c> baseline,</c><00:11:08.240><c> it</c><00:11:08.480><c> was</c><00:11:08.640><c> only</c><00:11:08.959><c> being</c>
+
+00:11:09.190 --> 00:11:09.200 align:start position:0%
+llama baseline, it was only being
+ 
+
+00:11:09.200 --> 00:11:11.430 align:start position:0%
+llama baseline, it was only being
+trained<00:11:09.440><c> with</c><00:11:09.760><c> 100</c><00:11:10.160><c> billion</c><00:11:10.480><c> tokens.</c><00:11:11.120><c> So</c><00:11:11.279><c> the</c>
+
+00:11:11.430 --> 00:11:11.440 align:start position:0%
+trained with 100 billion tokens. So the
+ 
+
+00:11:11.440 --> 00:11:13.269 align:start position:0%
+trained with 100 billion tokens. So the
+very<00:11:11.600><c> last</c><00:11:11.760><c> hurdle</c><00:11:12.160><c> is</c><00:11:12.560><c> getting</c><00:11:12.800><c> the</c><00:11:13.040><c> training</c>
+
+00:11:13.269 --> 00:11:13.279 align:start position:0%
+very last hurdle is getting the training
+ 
+
+00:11:13.279 --> 00:11:15.269 align:start position:0%
+very last hurdle is getting the training
+tokens<00:11:13.680><c> up</c><00:11:13.839><c> to</c><00:11:14.000><c> the</c><00:11:14.160><c> trillion</c><00:11:14.720><c> level</c><00:11:15.120><c> and</c>
+
+00:11:15.269 --> 00:11:15.279 align:start position:0%
+tokens up to the trillion level and
+ 
+
+00:11:15.279 --> 00:11:17.670 align:start position:0%
+tokens up to the trillion level and
+proving<00:11:15.600><c> bit</c><00:11:16.160><c> truly</c><00:11:16.480><c> works</c><00:11:16.720><c> at</c><00:11:17.040><c> scale.</c><00:11:17.360><c> By</c><00:11:17.600><c> the</c>
+
+00:11:17.670 --> 00:11:17.680 align:start position:0%
+proving bit truly works at scale. By the
+ 
+
+00:11:17.680 --> 00:11:19.430 align:start position:0%
+proving bit truly works at scale. By the
+way,<00:11:17.839><c> to</c><00:11:18.000><c> show</c><00:11:18.160><c> you</c><00:11:18.240><c> why</c><00:11:18.480><c> Bitnet</c><00:11:19.040><c> is</c><00:11:19.200><c> actually</c>
+
+00:11:19.430 --> 00:11:19.440 align:start position:0%
+way, to show you why Bitnet is actually
+ 
+
+00:11:19.440 --> 00:11:21.350 align:start position:0%
+way, to show you why Bitnet is actually
+amazing,<00:11:20.079><c> let</c><00:11:20.240><c> me</c><00:11:20.399><c> put</c><00:11:20.560><c> some</c><00:11:20.720><c> rough</c><00:11:21.040><c> numbers</c>
+
+00:11:21.350 --> 00:11:21.360 align:start position:0%
+amazing, let me put some rough numbers
+ 
+
+00:11:21.360 --> 00:11:23.269 align:start position:0%
+amazing, let me put some rough numbers
+up<00:11:21.600><c> to</c><00:11:21.760><c> give</c><00:11:21.920><c> you</c><00:11:22.079><c> some</c><00:11:22.320><c> perspective.</c><00:11:22.880><c> Since</c><00:11:23.120><c> a</c>
+
+00:11:23.269 --> 00:11:23.279 align:start position:0%
+up to give you some perspective. Since a
+ 
+
+00:11:23.279 --> 00:11:25.350 align:start position:0%
+up to give you some perspective. Since a
+two<00:11:23.600><c> billion</c><00:11:23.839><c> parameters</c><00:11:24.320><c> binet</c><00:11:24.800><c> model</c><00:11:25.040><c> uses</c>
+
+00:11:25.350 --> 00:11:25.360 align:start position:0%
+two billion parameters binet model uses
+ 
+
+00:11:25.360 --> 00:11:27.430 align:start position:0%
+two billion parameters binet model uses
+around<00:11:25.680><c> 20</c><00:11:25.920><c> times</c><00:11:26.160><c> less</c><00:11:26.399><c> energy,</c><00:11:26.959><c> I'll</c><00:11:27.200><c> assume</c>
+
+00:11:27.430 --> 00:11:27.440 align:start position:0%
+around 20 times less energy, I'll assume
+ 
+
+00:11:27.440 --> 00:11:29.190 align:start position:0%
+around 20 times less energy, I'll assume
+that<00:11:27.680><c> it</c><00:11:27.839><c> requires</c><00:11:28.160><c> around</c><00:11:28.480><c> 20</c><00:11:28.720><c> times</c><00:11:28.959><c> less</c>
+
+00:11:29.190 --> 00:11:29.200 align:start position:0%
+that it requires around 20 times less
+ 
+
+00:11:29.200 --> 00:11:31.190 align:start position:0%
+that it requires around 20 times less
+flops<00:11:29.600><c> to</c><00:11:29.760><c> train</c><00:11:30.079><c> compared</c><00:11:30.320><c> to</c><00:11:30.480><c> a</c><00:11:30.640><c> typical</c><00:11:30.959><c> 2</c>
+
+00:11:31.190 --> 00:11:31.200 align:start position:0%
+flops to train compared to a typical 2
+ 
+
+00:11:31.200 --> 00:11:32.949 align:start position:0%
+flops to train compared to a typical 2
+billion<00:11:31.440><c> parameters</c><00:11:32.000><c> transformer</c><00:11:32.560><c> model.</c>
+
+00:11:32.949 --> 00:11:32.959 align:start position:0%
+billion parameters transformer model.
+ 
+
+00:11:32.959 --> 00:11:34.710 align:start position:0%
+billion parameters transformer model.
+And<00:11:33.120><c> by</c><00:11:33.279><c> using</c><00:11:33.440><c> a</c><00:11:33.680><c> formula</c><00:11:34.000><c> from</c><00:11:34.240><c> a</c><00:11:34.399><c> research</c>
+
+00:11:34.710 --> 00:11:34.720 align:start position:0%
+And by using a formula from a research
+ 
+
+00:11:34.720 --> 00:11:36.790 align:start position:0%
+And by using a formula from a research
+paper<00:11:34.959><c> that</c><00:11:35.200><c> find</c><00:11:35.440><c> my</c><00:11:35.600><c> papers.ai</c><00:11:36.399><c> found</c><00:11:36.640><c> for</c>
+
+00:11:36.790 --> 00:11:36.800 align:start position:0%
+paper that find my papers.ai found for
+ 
+
+00:11:36.800 --> 00:11:38.550 align:start position:0%
+paper that find my papers.ai found for
+me,<00:11:36.959><c> the</c><00:11:37.200><c> flops</c><00:11:37.519><c> required</c><00:11:37.839><c> for</c><00:11:38.079><c> training</c><00:11:38.320><c> a</c>
+
+00:11:38.550 --> 00:11:38.560 align:start position:0%
+me, the flops required for training a
+ 
+
+00:11:38.560 --> 00:11:40.710 align:start position:0%
+me, the flops required for training a
+model<00:11:38.800><c> can</c><00:11:39.040><c> be</c><00:11:39.120><c> estimated</c><00:11:39.600><c> with</c><00:11:39.839><c> this</c><00:11:40.000><c> formula</c>
+
+00:11:40.710 --> 00:11:40.720 align:start position:0%
+model can be estimated with this formula
+ 
+
+00:11:40.720 --> 00:11:43.509 align:start position:0%
+model can be estimated with this formula
+6<00:11:41.040><c> *</c><00:11:41.279><c> n</c><00:11:41.519><c> *</c><00:11:41.760><c> d</c><00:11:42.079><c> with</c><00:11:42.240><c> the</c><00:11:42.399><c> number</c><00:11:42.720><c> six</c><00:11:42.959><c> being</c><00:11:43.279><c> an</c>
+
+00:11:43.509 --> 00:11:43.519 align:start position:0%
+6 * n * d with the number six being an
+ 
+
+00:11:43.519 --> 00:11:45.430 align:start position:0%
+6 * n * d with the number six being an
+empirical<00:11:44.079><c> approximation</c><00:11:44.720><c> for</c><00:11:44.880><c> the</c><00:11:45.040><c> flops</c>
+
+00:11:45.430 --> 00:11:45.440 align:start position:0%
+empirical approximation for the flops
+ 
+
+00:11:45.440 --> 00:11:47.509 align:start position:0%
+empirical approximation for the flops
+required<00:11:45.839><c> per</c><00:11:46.160><c> parameter.</c><00:11:46.720><c> The</c><00:11:46.959><c> letter</c><00:11:47.200><c> N</c>
+
+00:11:47.509 --> 00:11:47.519 align:start position:0%
+required per parameter. The letter N
+ 
+
+00:11:47.519 --> 00:11:49.110 align:start position:0%
+required per parameter. The letter N
+being<00:11:47.760><c> the</c><00:11:47.920><c> number</c><00:11:48.079><c> of</c><00:11:48.320><c> parameters</c><00:11:48.720><c> in</c><00:11:48.959><c> a</c>
+
+00:11:49.110 --> 00:11:49.120 align:start position:0%
+being the number of parameters in a
+ 
+
+00:11:49.120 --> 00:11:51.670 align:start position:0%
+being the number of parameters in a
+model<00:11:49.600><c> and</c><00:11:50.079><c> D</c><00:11:50.399><c> being</c><00:11:50.720><c> the</c><00:11:50.880><c> total</c><00:11:51.279><c> number</c><00:11:51.519><c> of</c>
+
+00:11:51.670 --> 00:11:51.680 align:start position:0%
+model and D being the total number of
+ 
+
+00:11:51.680 --> 00:11:53.590 align:start position:0%
+model and D being the total number of
+tokens<00:11:52.240><c> processed</c><00:11:52.640><c> during</c><00:11:52.959><c> training.</c><00:11:53.360><c> So</c>
+
+00:11:53.590 --> 00:11:53.600 align:start position:0%
+tokens processed during training. So
+ 
+
+00:11:53.600 --> 00:11:55.430 align:start position:0%
+tokens processed during training. So
+training<00:11:53.839><c> a</c><00:11:54.079><c> one</c><00:11:54.240><c> bit</c><00:11:54.560><c> net</c><00:11:54.720><c> at</c><00:11:54.959><c> 2</c><00:11:55.120><c> billion</c>
+
+00:11:55.430 --> 00:11:55.440 align:start position:0%
+training a one bit net at 2 billion
+ 
+
+00:11:55.440 --> 00:11:57.430 align:start position:0%
+training a one bit net at 2 billion
+parameters<00:11:55.839><c> with</c><00:11:56.079><c> 1</c><00:11:56.320><c> billion</c><00:11:56.560><c> tokens</c><00:11:57.040><c> plus</c><00:11:57.200><c> a</c>
+
+00:11:57.430 --> 00:11:57.440 align:start position:0%
+parameters with 1 billion tokens plus a
+ 
+
+00:11:57.440 --> 00:11:59.910 align:start position:0%
+parameters with 1 billion tokens plus a
+20<00:11:57.760><c> times</c><00:11:58.079><c> reduction</c><00:11:58.480><c> in</c><00:11:58.720><c> energy</c><00:11:59.200><c> used</c><00:11:59.760><c> it</c>
+
+00:11:59.910 --> 00:11:59.920 align:start position:0%
+20 times reduction in energy used it
+ 
+
+00:11:59.920 --> 00:12:02.630 align:start position:0%
+20 times reduction in energy used it
+would<00:12:00.079><c> cost</c><00:12:00.320><c> around</c><00:12:00.720><c> 6</c><00:12:00.880><c> to</c><00:12:01.040><c> the^</c><00:12:01.360><c> of</c><00:12:01.680><c> 19</c><00:12:02.079><c> flops</c>
+
+00:12:02.630 --> 00:12:02.640 align:start position:0%
+would cost around 6 to the^ of 19 flops
+ 
+
+00:12:02.640 --> 00:12:05.990 align:start position:0%
+would cost around 6 to the^ of 19 flops
+and<00:12:02.800><c> with</c><00:12:02.959><c> an</c><00:12:03.200><c> A100</c><00:12:03.920><c> that</c><00:12:04.160><c> delivers</c><00:12:04.640><c> 1*</c><00:12:05.040><c> 10</c><00:12:05.519><c> ^</c>
+
+00:12:05.990 --> 00:12:06.000 align:start position:0%
+and with an A100 that delivers 1* 10 ^
+ 
+
+00:12:06.000 --> 00:12:08.550 align:start position:0%
+and with an A100 that delivers 1* 10 ^
+15<00:12:06.320><c> flops</c><00:12:06.639><c> per</c><00:12:06.880><c> second</c><00:12:07.279><c> with</c><00:12:07.440><c> a</c><00:12:07.680><c> GPU</c><00:12:08.160><c> hourly</c>
+
+00:12:08.550 --> 00:12:08.560 align:start position:0%
+15 flops per second with a GPU hourly
+ 
+
+00:12:08.560 --> 00:12:10.870 align:start position:0%
+15 flops per second with a GPU hourly
+renting<00:12:08.959><c> price</c><00:12:09.279><c> being</c><00:12:09.680><c> $2.</c><00:12:10.480><c> That</c><00:12:10.639><c> would</c><00:12:10.720><c> be</c>
+
+00:12:10.870 --> 00:12:10.880 align:start position:0%
+renting price being $2. That would be
+ 
+
+00:12:10.880 --> 00:12:13.430 align:start position:0%
+renting price being $2. That would be
+about<00:12:11.200><c> 33</c><00:12:11.680><c> bucks</c><00:12:12.079><c> in</c><00:12:12.240><c> total</c><00:12:12.560><c> per</c><00:12:12.800><c> run.</c><00:12:13.120><c> And</c><00:12:13.279><c> for</c>
+
+00:12:13.430 --> 00:12:13.440 align:start position:0%
+about 33 bucks in total per run. And for
+ 
+
+00:12:13.440 --> 00:12:15.430 align:start position:0%
+about 33 bucks in total per run. And for
+the<00:12:13.600><c> latest</c><00:12:13.839><c> paper</c><00:12:14.079><c> published</c><00:12:14.480><c> on</c><00:12:14.720><c> Bitnet</c>
+
+00:12:15.430 --> 00:12:15.440 align:start position:0%
+the latest paper published on Bitnet
+ 
+
+00:12:15.440 --> 00:12:18.710 align:start position:0%
+the latest paper published on Bitnet
+called<00:12:15.839><c> B1.5A</c><00:12:17.040><c> to</c><00:12:17.279><c> B4T,</c><00:12:18.079><c> which</c><00:12:18.320><c> basically</c>
+
+00:12:18.710 --> 00:12:18.720 align:start position:0%
+called B1.5A to B4T, which basically
+ 
+
+00:12:18.720 --> 00:12:20.949 align:start position:0%
+called B1.5A to B4T, which basically
+means<00:12:19.040><c> they</c><00:12:19.279><c> train</c><00:12:19.519><c> it</c><00:12:19.680><c> on</c><00:12:19.920><c> 4</c><00:12:20.160><c> trillion</c><00:12:20.560><c> tokens</c>
+
+00:12:20.949 --> 00:12:20.959 align:start position:0%
+means they train it on 4 trillion tokens
+ 
+
+00:12:20.959 --> 00:12:22.949 align:start position:0%
+means they train it on 4 trillion tokens
+for<00:12:21.120><c> a</c><00:12:21.360><c> two</c><00:12:21.519><c> billion</c><00:12:21.839><c> parameters</c><00:12:22.320><c> model.</c><00:12:22.800><c> This</c>
+
+00:12:22.949 --> 00:12:22.959 align:start position:0%
+for a two billion parameters model. This
+ 
+
+00:12:22.959 --> 00:12:25.750 align:start position:0%
+for a two billion parameters model. This
+would<00:12:23.120><c> have</c><00:12:23.279><c> cost</c><00:12:23.519><c> them</c><00:12:23.760><c> around</c><00:12:24.160><c> 1.3K</c><00:12:25.200><c> for</c><00:12:25.519><c> one</c>
+
+00:12:25.750 --> 00:12:25.760 align:start position:0%
+would have cost them around 1.3K for one
+ 
+
+00:12:25.760 --> 00:12:27.670 align:start position:0%
+would have cost them around 1.3K for one
+training<00:12:26.160><c> run.</c><00:12:26.560><c> So</c><00:12:26.720><c> compared</c><00:12:27.040><c> to</c><00:12:27.200><c> the</c><00:12:27.360><c> models</c>
+
+00:12:27.670 --> 00:12:27.680 align:start position:0%
+training run. So compared to the models
+ 
+
+00:12:27.680 --> 00:12:29.509 align:start position:0%
+training run. So compared to the models
+that<00:12:28.000><c> don't</c><00:12:28.160><c> have</c><00:12:28.320><c> the</c><00:12:28.560><c> 20</c><00:12:28.880><c> times</c><00:12:29.120><c> energy</c>
+
+00:12:29.509 --> 00:12:29.519 align:start position:0%
+that don't have the 20 times energy
+ 
+
+00:12:29.519 --> 00:12:32.150 align:start position:0%
+that don't have the 20 times energy
+reduction,<00:12:30.160><c> it's</c><00:12:30.480><c> estimated</c><00:12:30.880><c> to</c><00:12:31.120><c> cost</c><00:12:31.440><c> 26K</c>
+
+00:12:32.150 --> 00:12:32.160 align:start position:0%
+reduction, it's estimated to cost 26K
+ 
+
+00:12:32.160 --> 00:12:34.470 align:start position:0%
+reduction, it's estimated to cost 26K
+per<00:12:32.480><c> one</c><00:12:32.639><c> training</c><00:12:33.040><c> run.</c><00:12:33.440><c> This</c><00:12:33.680><c> budget</c><00:12:34.160><c> makes</c>
+
+00:12:34.470 --> 00:12:34.480 align:start position:0%
+per one training run. This budget makes
+ 
+
+00:12:34.480 --> 00:12:37.030 align:start position:0%
+per one training run. This budget makes
+Bitnet<00:12:35.200><c> incredibly</c><00:12:35.920><c> attractive,</c><00:12:36.639><c> especially</c>
+
+00:12:37.030 --> 00:12:37.040 align:start position:0%
+Bitnet incredibly attractive, especially
+ 
+
+00:12:37.040 --> 00:12:39.990 align:start position:0%
+Bitnet incredibly attractive, especially
+with<00:12:37.279><c> how</c><00:12:37.519><c> it</c><00:12:37.760><c> only</c><00:12:38.079><c> has</c><00:12:38.399><c> 0.4</c><00:12:38.959><c> 4</c><00:12:39.120><c> GB</c><00:12:39.519><c> of</c><00:12:39.680><c> memory</c>
+
+00:12:39.990 --> 00:12:40.000 align:start position:0%
+with how it only has 0.4 4 GB of memory
+ 
+
+00:12:40.000 --> 00:12:42.310 align:start position:0%
+with how it only has 0.4 4 GB of memory
+footprint<00:12:40.720><c> while</c><00:12:41.120><c> being</c><00:12:41.440><c> comparable</c><00:12:42.000><c> with</c>
+
+00:12:42.310 --> 00:12:42.320 align:start position:0%
+footprint while being comparable with
+ 
+
+00:12:42.320 --> 00:12:44.230 align:start position:0%
+footprint while being comparable with
+Quinn<00:12:42.720><c> 2.51.5B</c>
+
+00:12:44.230 --> 00:12:44.240 align:start position:0%
+Quinn 2.51.5B
+ 
+
+00:12:44.240 --> 00:12:46.470 align:start position:0%
+Quinn 2.51.5B
+which<00:12:44.560><c> is</c><00:12:44.880><c> five</c><00:12:45.120><c> times</c><00:12:45.360><c> its</c><00:12:45.680><c> size.</c><00:12:46.079><c> Not</c><00:12:46.240><c> to</c>
+
+00:12:46.470 --> 00:12:46.480 align:start position:0%
+which is five times its size. Not to
+ 
+
+00:12:46.480 --> 00:12:49.590 align:start position:0%
+which is five times its size. Not to
+mention<00:12:46.800><c> Quin</c><00:12:47.120><c> 2.51.5B</c><00:12:48.480><c> is</c><00:12:48.720><c> trained</c><00:12:48.959><c> with</c><00:12:49.279><c> 18</c>
+
+00:12:49.590 --> 00:12:49.600 align:start position:0%
+mention Quin 2.51.5B is trained with 18
+ 
+
+00:12:49.600 --> 00:12:52.389 align:start position:0%
+mention Quin 2.51.5B is trained with 18
+trillion<00:12:50.000><c> tokens</c><00:12:50.560><c> which</c><00:12:50.800><c> is</c><00:12:51.040><c> 4.5</c><00:12:51.839><c> times</c><00:12:52.160><c> more</c>
+
+00:12:52.389 --> 00:12:52.399 align:start position:0%
+trillion tokens which is 4.5 times more
+ 
+
+00:12:52.399 --> 00:12:54.389 align:start position:0%
+trillion tokens which is 4.5 times more
+than<00:12:52.560><c> Bitnet.</c><00:12:53.279><c> They</c><00:12:53.440><c> also</c><00:12:53.680><c> estimated</c><00:12:54.160><c> the</c>
+
+00:12:54.389 --> 00:12:54.399 align:start position:0%
+than Bitnet. They also estimated the
+ 
+
+00:12:54.399 --> 00:12:56.629 align:start position:0%
+than Bitnet. They also estimated the
+energy<00:12:54.880><c> used</c><00:12:55.120><c> in</c><00:12:55.360><c> this</c><00:12:55.519><c> table.</c><00:12:56.000><c> So</c><00:12:56.160><c> it</c><00:12:56.320><c> is</c><00:12:56.399><c> not</c>
+
+00:12:56.629 --> 00:12:56.639 align:start position:0%
+energy used in this table. So it is not
+ 
+
+00:12:56.639 --> 00:12:59.110 align:start position:0%
+energy used in this table. So it is not
+exactly<00:12:57.120><c> 20</c><00:12:57.360><c> times</c><00:12:57.600><c> less</c><00:12:57.920><c> energy</c><00:12:58.399><c> but</c><00:12:58.639><c> instead</c>
+
+00:12:59.110 --> 00:12:59.120 align:start position:0%
+exactly 20 times less energy but instead
+ 
+
+00:12:59.120 --> 00:13:01.829 align:start position:0%
+exactly 20 times less energy but instead
+around<00:12:59.519><c> 12.4</c><00:13:00.320><c> times</c><00:13:00.480><c> less.</c><00:13:00.959><c> However,</c><00:13:01.440><c> this</c><00:13:01.680><c> is</c>
+
+00:13:01.829 --> 00:13:01.839 align:start position:0%
+around 12.4 times less. However, this is
+ 
+
+00:13:01.839 --> 00:13:03.910 align:start position:0%
+around 12.4 times less. However, this is
+still<00:13:02.079><c> pretty</c><00:13:02.320><c> nuts.</c><00:13:02.800><c> 10</c><00:13:03.040><c> times</c><00:13:03.360><c> less</c><00:13:03.600><c> energy</c>
+
+00:13:03.910 --> 00:13:03.920 align:start position:0%
+still pretty nuts. 10 times less energy
+ 
+
+00:13:03.920 --> 00:13:05.750 align:start position:0%
+still pretty nuts. 10 times less energy
+cost<00:13:04.240><c> across</c><00:13:04.560><c> the</c><00:13:04.800><c> board</c><00:13:05.040><c> compared</c><00:13:05.360><c> to</c><00:13:05.519><c> all</c>
+
+00:13:05.750 --> 00:13:05.760 align:start position:0%
+cost across the board compared to all
+ 
+
+00:13:05.760 --> 00:13:07.750 align:start position:0%
+cost across the board compared to all
+the<00:13:06.000><c> other</c><00:13:06.160><c> models</c><00:13:06.720><c> while</c><00:13:07.120><c> having</c><00:13:07.360><c> the</c><00:13:07.600><c> same</c>
+
+00:13:07.750 --> 00:13:07.760 align:start position:0%
+the other models while having the same
+ 
+
+00:13:07.760 --> 00:13:10.710 align:start position:0%
+the other models while having the same
+performance<00:13:08.480><c> on</c><00:13:08.800><c> top</c><00:13:09.040><c> of</c><00:13:09.360><c> having</c><00:13:09.920><c> 5</c><00:13:10.160><c> to</c><00:13:10.480><c> 12</c>
+
+00:13:10.710 --> 00:13:10.720 align:start position:0%
+performance on top of having 5 to 12
+ 
+
+00:13:10.720 --> 00:13:12.870 align:start position:0%
+performance on top of having 5 to 12
+times<00:13:11.040><c> less</c><00:13:11.279><c> memory</c><00:13:11.680><c> usage.</c><00:13:12.160><c> The</c><00:13:12.320><c> scaling</c><00:13:12.639><c> law</c>
+
+00:13:12.870 --> 00:13:12.880 align:start position:0%
+times less memory usage. The scaling law
+ 
+
+00:13:12.880 --> 00:13:15.350 align:start position:0%
+times less memory usage. The scaling law
+it<00:13:13.120><c> demonstrates</c><00:13:13.600><c> is</c><00:13:14.000><c> extremely</c><00:13:14.560><c> promising.</c>
+
+00:13:15.350 --> 00:13:15.360 align:start position:0%
+it demonstrates is extremely promising.
+ 
+
+00:13:15.360 --> 00:13:18.150 align:start position:0%
+it demonstrates is extremely promising.
+Maybe<00:13:15.600><c> the</c><00:13:15.920><c> era</c><00:13:16.160><c> of</c><00:13:16.320><c> bitnet</c><00:13:16.959><c> is</c><00:13:17.279><c> indeed</c><00:13:17.839><c> upon</c>
+
+00:13:18.150 --> 00:13:18.160 align:start position:0%
+Maybe the era of bitnet is indeed upon
+ 
+
+00:13:18.160 --> 00:13:20.150 align:start position:0%
+Maybe the era of bitnet is indeed upon
+us.<00:13:18.480><c> The</c><00:13:18.720><c> next</c><00:13:18.880><c> thing</c><00:13:19.040><c> to</c><00:13:19.279><c> look</c><00:13:19.440><c> forward</c><00:13:19.839><c> about</c>
+
+00:13:20.150 --> 00:13:20.160 align:start position:0%
+us. The next thing to look forward about
+ 
+
+00:13:20.160 --> 00:13:22.230 align:start position:0%
+us. The next thing to look forward about
+bitnet<00:13:20.639><c> is</c><00:13:20.880><c> its</c><00:13:21.120><c> long</c><00:13:21.360><c> context</c><00:13:21.760><c> performance,</c>
+
+00:13:22.230 --> 00:13:22.240 align:start position:0%
+bitnet is its long context performance,
+ 
+
+00:13:22.240 --> 00:13:25.430 align:start position:0%
+bitnet is its long context performance,
+especially<00:13:22.720><c> a</c><00:13:22.959><c> 4.8's</c><00:13:23.760><c> 3bit</c><00:13:24.320><c> kv</c><00:13:24.720><c> cache</c><00:13:25.200><c> which</c>
+
+00:13:25.430 --> 00:13:25.440 align:start position:0%
+especially a 4.8's 3bit kv cache which
+ 
+
+00:13:25.440 --> 00:13:27.590 align:start position:0%
+especially a 4.8's 3bit kv cache which
+could<00:13:25.680><c> extend</c><00:13:26.000><c> the</c><00:13:26.160><c> context</c><00:13:26.480><c> window</c><00:13:26.880><c> 5</c><00:13:27.120><c> to</c><00:13:27.440><c> 12</c>
+
+00:13:27.590 --> 00:13:27.600 align:start position:0%
+could extend the context window 5 to 12
+ 
+
+00:13:27.600 --> 00:13:29.350 align:start position:0%
+could extend the context window 5 to 12
+times<00:13:28.079><c> while</c><00:13:28.399><c> using</c><00:13:28.639><c> the</c><00:13:28.880><c> same</c><00:13:29.040><c> amount</c><00:13:29.200><c> of</c>
+
+00:13:29.350 --> 00:13:29.360 align:start position:0%
+times while using the same amount of
+ 
+
+00:13:29.360 --> 00:13:31.190 align:start position:0%
+times while using the same amount of
+compute.<00:13:29.839><c> On</c><00:13:30.000><c> top</c><00:13:30.160><c> of</c><00:13:30.240><c> that,</c><00:13:30.560><c> there</c><00:13:30.800><c> is</c><00:13:30.959><c> still</c>
+
+00:13:31.190 --> 00:13:31.200 align:start position:0%
+compute. On top of that, there is still
+ 
+
+00:13:31.200 --> 00:13:32.949 align:start position:0%
+compute. On top of that, there is still
+free<00:13:31.440><c> performance</c><00:13:31.920><c> being</c><00:13:32.160><c> left</c><00:13:32.399><c> on</c><00:13:32.560><c> the</c><00:13:32.639><c> table</c>
+
+00:13:32.949 --> 00:13:32.959 align:start position:0%
+free performance being left on the table
+ 
+
+00:13:32.959 --> 00:13:35.030 align:start position:0%
+free performance being left on the table
+because<00:13:33.279><c> there</c><00:13:33.519><c> is</c><00:13:33.680><c> currently</c><00:13:34.079><c> no</c><00:13:34.480><c> hardware</c>
+
+00:13:35.030 --> 00:13:35.040 align:start position:0%
+because there is currently no hardware
+ 
+
+00:13:35.040 --> 00:13:38.790 align:start position:0%
+because there is currently no hardware
+optimized<00:13:35.519><c> for</c><00:13:35.760><c> their</c><00:13:36.160><c> 1.58bit</c><00:13:37.440><c> aka</c><00:13:38.160><c> turnary</c>
+
+00:13:38.790 --> 00:13:38.800 align:start position:0%
+optimized for their 1.58bit aka turnary
+ 
+
+00:13:38.800 --> 00:13:40.629 align:start position:0%
+optimized for their 1.58bit aka turnary
+operation.<00:13:39.519><c> So</c><00:13:39.600><c> with</c><00:13:39.760><c> the</c><00:13:39.920><c> current</c><00:13:40.160><c> hardware</c>
+
+00:13:40.629 --> 00:13:40.639 align:start position:0%
+operation. So with the current hardware
+ 
+
+00:13:40.639 --> 00:13:43.110 align:start position:0%
+operation. So with the current hardware
+technology,<00:13:41.440><c> Bitnet</c><00:13:42.000><c> is</c><00:13:42.240><c> still</c><00:13:42.480><c> not</c><00:13:42.800><c> running</c>
+
+00:13:43.110 --> 00:13:43.120 align:start position:0%
+technology, Bitnet is still not running
+ 
+
+00:13:43.120 --> 00:13:44.629 align:start position:0%
+technology, Bitnet is still not running
+optimally.<00:13:43.760><c> And</c><00:13:43.920><c> if</c><00:13:44.079><c> you</c><00:13:44.160><c> want</c><00:13:44.240><c> to</c><00:13:44.399><c> try</c><00:13:44.560><c> it</c>
+
+00:13:44.629 --> 00:13:44.639 align:start position:0%
+optimally. And if you want to try it
+ 
+
+00:13:44.639 --> 00:13:47.590 align:start position:0%
+optimally. And if you want to try it
+out,<00:13:44.880><c> the</c><00:13:45.040><c> Bitnet</c><00:13:45.600><c> B</c><00:13:45.839><c> 1.58B4T</c>
+
+00:13:47.590 --> 00:13:47.600 align:start position:0%
+out, the Bitnet B 1.58B4T
+ 
+
+00:13:47.600 --> 00:13:49.350 align:start position:0%
+out, the Bitnet B 1.58B4T
+models<00:13:48.000><c> are</c><00:13:48.160><c> now</c><00:13:48.399><c> available</c><00:13:48.720><c> on</c><00:13:48.959><c> hugging</c>
+
+00:13:49.350 --> 00:13:49.360 align:start position:0%
+models are now available on hugging
+ 
+
+00:13:49.360 --> 00:13:51.030 align:start position:0%
+models are now available on hugging
+phase.<00:13:49.760><c> You</c><00:13:49.920><c> can</c><00:13:50.000><c> download</c><00:13:50.320><c> it</c><00:13:50.560><c> yourself</c><00:13:50.800><c> or</c>
+
+00:13:51.030 --> 00:13:51.040 align:start position:0%
+phase. You can download it yourself or
+ 
+
+00:13:51.040 --> 00:13:52.870 align:start position:0%
+phase. You can download it yourself or
+try<00:13:51.279><c> out</c><00:13:51.440><c> their</c><00:13:51.600><c> demo</c><00:13:51.920><c> online</c><00:13:52.240><c> here.</c><00:13:52.720><c> There</c>
+
+00:13:52.870 --> 00:13:52.880 align:start position:0%
+try out their demo online here. There
+ 
+
+00:13:52.880 --> 00:13:54.629 align:start position:0%
+try out their demo online here. There
+are<00:13:53.040><c> also</c><00:13:53.200><c> a</c><00:13:53.440><c> ton</c><00:13:53.600><c> of</c><00:13:53.680><c> other</c><00:13:53.920><c> research</c><00:13:54.320><c> papers</c>
+
+00:13:54.629 --> 00:13:54.639 align:start position:0%
+are also a ton of other research papers
+ 
+
+00:13:54.639 --> 00:13:56.790 align:start position:0%
+are also a ton of other research papers
+that<00:13:54.880><c> dives</c><00:13:55.200><c> in</c><00:13:55.440><c> deeper</c><00:13:55.760><c> into</c><00:13:56.160><c> solving</c><00:13:56.560><c> the</c>
+
+00:13:56.790 --> 00:13:56.800 align:start position:0%
+that dives in deeper into solving the
+ 
+
+00:13:56.800 --> 00:13:58.790 align:start position:0%
+that dives in deeper into solving the
+turnary<00:13:57.279><c> operations</c><00:13:57.760><c> for</c><00:13:58.000><c> transformers</c>
+
+00:13:58.790 --> 00:13:58.800 align:start position:0%
+turnary operations for transformers
+ 
+
+00:13:58.800 --> 00:14:00.069 align:start position:0%
+turnary operations for transformers
+addressing<00:13:59.279><c> a</c><00:13:59.440><c> lot</c><00:13:59.519><c> of</c><00:13:59.680><c> interesting</c>
+
+00:14:00.069 --> 00:14:00.079 align:start position:0%
+addressing a lot of interesting
+ 
+
+00:14:00.079 --> 00:14:01.910 align:start position:0%
+addressing a lot of interesting
+technical<00:14:00.480><c> challenges</c><00:14:01.199><c> which</c><00:14:01.360><c> I</c><00:14:01.600><c> don't</c><00:14:01.839><c> have</c>
+
+00:14:01.910 --> 00:14:01.920 align:start position:0%
+technical challenges which I don't have
+ 
+
+00:14:01.920 --> 00:14:03.590 align:start position:0%
+technical challenges which I don't have
+a<00:14:02.079><c> chance</c><00:14:02.240><c> to</c><00:14:02.399><c> get</c><00:14:02.480><c> to</c><00:14:02.720><c> in</c><00:14:02.880><c> this</c><00:14:03.040><c> video.</c><00:14:03.440><c> So</c>
+
+00:14:03.590 --> 00:14:03.600 align:start position:0%
+a chance to get to in this video. So
+ 
+
+00:14:03.600 --> 00:14:05.269 align:start position:0%
+a chance to get to in this video. So
+instead<00:14:04.000><c> I'll</c><00:14:04.240><c> leave</c><00:14:04.320><c> a</c><00:14:04.560><c> list</c><00:14:04.639><c> of</c><00:14:04.800><c> them</c><00:14:05.040><c> here</c>
+
+00:14:05.269 --> 00:14:05.279 align:start position:0%
+instead I'll leave a list of them here
+ 
+
+00:14:05.279 --> 00:14:06.470 align:start position:0%
+instead I'll leave a list of them here
+so<00:14:05.440><c> you</c><00:14:05.600><c> can</c><00:14:05.760><c> check</c><00:14:05.839><c> it</c><00:14:06.000><c> out</c><00:14:06.079><c> if</c><00:14:06.320><c> you're</c>
+
+00:14:06.470 --> 00:14:06.480 align:start position:0%
+so you can check it out if you're
+ 
+
+00:14:06.480 --> 00:14:09.110 align:start position:0%
+so you can check it out if you're
+interested<00:14:07.120><c> or</c><00:14:07.600><c> you</c><00:14:07.839><c> can</c><00:14:08.000><c> also</c><00:14:08.320><c> ask</c><00:14:08.720><c> find</c><00:14:08.959><c> my</c>
+
+00:14:09.110 --> 00:14:09.120 align:start position:0%
+interested or you can also ask find my
+ 
+
+00:14:09.120 --> 00:14:10.949 align:start position:0%
+interested or you can also ask find my
+papers.ai<00:14:09.839><c> for</c><00:14:10.000><c> more.</c><00:14:10.320><c> And</c><00:14:10.560><c> thank</c><00:14:10.720><c> you</c><00:14:10.880><c> guys</c>
+
+00:14:10.949 --> 00:14:10.959 align:start position:0%
+papers.ai for more. And thank you guys
+ 
+
+00:14:10.959 --> 00:14:13.269 align:start position:0%
+papers.ai for more. And thank you guys
+for<00:14:11.199><c> watching.</c><00:14:11.680><c> A</c><00:14:11.920><c> big</c><00:14:12.079><c> shout</c><00:14:12.240><c> out</c><00:14:12.399><c> to</c><00:14:12.639><c> Andrew</c>
+
+00:14:13.269 --> 00:14:13.279 align:start position:0%
+for watching. A big shout out to Andrew
+ 
+
+00:14:13.279 --> 00:14:17.030 align:start position:0%
+for watching. A big shout out to Andrew
+Chelas,<00:14:14.160><c> Chris</c><00:14:14.480><c> Leoo,</c><00:14:15.519><c> Degan</c><00:14:15.839><c> Gan,</c><00:14:16.639><c> News</c>
+
+00:14:17.030 --> 00:14:17.040 align:start position:0%
+Chelas, Chris Leoo, Degan Gan, News
+ 
+
+00:14:17.040 --> 00:14:21.189 align:start position:0%
+Chelas, Chris Leoo, Degan Gan, News
+Research,<00:14:18.079><c> Kanan,</c><00:14:19.120><c> Robert</c><00:14:19.519><c> Zaviasa,</c><00:14:20.800><c> Lewis,</c>
+
+00:14:21.189 --> 00:14:21.199 align:start position:0%
+Research, Kanan, Robert Zaviasa, Lewis,
+ 
+
+00:14:21.199 --> 00:14:25.030 align:start position:0%
+Research, Kanan, Robert Zaviasa, Lewis,
+Muk,<00:14:22.000><c> Ben</c><00:14:22.320><c> Shainer,</c><00:14:23.199><c> Marcelo,</c><00:14:23.839><c> Ferraria,</c>
+
+00:14:25.030 --> 00:14:25.040 align:start position:0%
+Muk, Ben Shainer, Marcelo, Ferraria,
+ 
+
+00:14:25.040 --> 00:14:28.150 align:start position:0%
+Muk, Ben Shainer, Marcelo, Ferraria,
+Zane,<00:14:25.360><c> Sheep,</c><00:14:26.079><c> Poof,</c><00:14:26.399><c> and</c><00:14:26.639><c> Enu,</c><00:14:27.279><c> DX</c><00:14:27.760><c> Research</c>
+
+00:14:28.150 --> 00:14:28.160 align:start position:0%
+Zane, Sheep, Poof, and Enu, DX Research
+ 
+
+00:14:28.160 --> 00:14:29.829 align:start position:0%
+Zane, Sheep, Poof, and Enu, DX Research
+Group,<00:14:28.639><c> and</c><00:14:28.800><c> many</c><00:14:29.040><c> others</c><00:14:29.279><c> that</c><00:14:29.519><c> support</c><00:14:29.680><c> me</c>
+
+00:14:29.829 --> 00:14:29.839 align:start position:0%
+Group, and many others that support me
+ 
+
+00:14:29.839 --> 00:14:31.670 align:start position:0%
+Group, and many others that support me
+through<00:14:30.079><c> Patreon</c><00:14:30.480><c> or</c><00:14:30.720><c> YouTube.</c><00:14:31.199><c> Follow</c><00:14:31.440><c> me</c><00:14:31.519><c> on</c>
+
+00:14:31.670 --> 00:14:31.680 align:start position:0%
+through Patreon or YouTube. Follow me on
+ 
+
+00:14:31.680 --> 00:14:32.949 align:start position:0%
+through Patreon or YouTube. Follow me on
+Twitter<00:14:31.839><c> if</c><00:14:32.000><c> you</c><00:14:32.160><c> haven't</c><00:14:32.320><c> and</c><00:14:32.560><c> I'll</c><00:14:32.800><c> see</c>
+
+00:14:32.949 --> 00:14:32.959 align:start position:0%
+Twitter if you haven't and I'll see
+ 
+
+00:14:32.959 --> 00:14:35.839 align:start position:0%
+Twitter if you haven't and I'll see
+youall<00:14:33.279><c> in</c><00:14:33.519><c> the</c><00:14:33.680><c> next</c>
+

@@ -1,0 +1,80 @@
+Download Tanka today https://www.tanka.ai and enjoy 3 months of free Premium!
+You can also get $20 / team for each referrals
+
+I've been planning for a bitnet video for the longest time, and with the release of bitnet b1.58 2B4T gave me the perfect chance to brief you on the history of 1-bit LLM! Fun fact, the major bitnet research is mostly done by the same researchers.
+
+
+my latest project: Intuitive AI Academy, learn modern AI/LLMs Intuitively
+https://intuitiveai.academy/
+code "NYNM" for 50% off forever (limited to 50)
+
+My Newsletter
+https://mail.bycloud.ai/
+
+my project: find, discover & explain AI research semantically
+https://findmypapers.ai/
+
+My Patreon
+https://www.patreon.com/c/bycloud
+
+
+Quantifying the Capabilities of LLMs across Scale and Precision
+[Paper] https://arxiv.org/abs/2405.03146v2
+
+BitNet: Scaling 1-bit Transformers for Large Language Models
+[Paper] https://arxiv.org/abs/2310.11453v1 
+
+The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits
+[Paper] https://arxiv.org/abs/2402.17764v1 
+
+BitNet a4.8: 4-bit Activations for 1-bit LLMs
+[Paper] https://arxiv.org/abs/2411.04965v1
+
+Efficient Construction of Model Family through Progressive Training Using Model Expansion
+[Paper] https://arxiv.org/abs/2504.00623v1 
+
+BitNet b1.58 2B4T Technical Report
+[Paper] https://arxiv.org/abs/2504.12285
+[Web Demo] https://bitnet-demo.azurewebsites.net/
+[HuggingFace] https://huggingface.co/microsoft/bitnet-b1.58-2B-4T
+[Code] https://github.com/microsoft/BitNet
+
+[Additional Recs]
+T-MAC: CPU Renaissance via Table Lookup for Low-Bit LLM Deployment on Edge
+https://arxiv.org/abs/2407.00088v2
+
+FBI-LLM: Scaling Up Fully Binarized LLMs from Scratch via Autoregressive Distillation
+https://arxiv.org/abs/2407.07093v1
+
+Matmul or No Matmul in the Era of 1-bit LLMs
+https://arxiv.org/abs/2408.11939v2
+
+1-bit AI Infra: Part 1.1, Fast and Lossless BitNet b1.58 Inference on CPUs
+https://arxiv.org/abs/2410.16144v2
+
+Bitnet.cpp: Efficient Edge Inference for Ternary LLMs
+https://arxiv.org/abs/2502.11880v1
+
+Continual Quantization-Aware Pre-Training: When to transition from 16-bit to 1.58-bit pre-training for BitNet language models?
+https://arxiv.org/abs/2502.11895v1
+
+(NEW!) BitNet v2: Native 4-bit Activations with Hadamard Transformation for 1-bit LLMs
+https://arxiv.org/abs/2504.18415
+
+(NEW!) BitVLA: 1-bit Vision-Language-Action Models for Robotics Manipulation
+https://arxiv.org/abs/2506.07530
+
+
+Try out my new fav place to learn how to code https://scrimba.com/?via=bycloudAI
+
+This video is supported by the kind Patrons & YouTube Members: 
+🙏Nous Research, Chris LeDoux, Ben Shaener, DX Research Group, Poof N' Inu, Andrew Lescelius, Deagan, Robert Zawiasa, Ryszard Warzocha, Tobe2d, Louis Muk, Akkusativ, Kevin Tai, Mark Buckler, NO U, Tony Jimenez, Ângelo Fonseca, jiye, Anushka, Asad Dhamani, Binnie Yiu, Calvin Yan, Clayton Ford, Diego Silva, Etrotta, Gonzalo Fidalgo, Handenon, Hector, Jake Disco very, Michael Brenner, Nilly K, OlegWock, Daddy Wen, Shuhong Chen, Sid_Cipher, Stefan Lorenz, Sup, tantan assawade, Thipok Tham, Thomas Di Martino, Thomas Lin, Richárd Nagyfi, Paperboy, mika, Leo, Berhane-Meskel, Kadhai Pesalam, mayssam, Bill Mangrum, nyaa
+
+
+[Discord] https://discord.gg/NhJZGtH
+[Twitter] https://twitter.com/bycloudai
+[Patreon] https://www.patreon.com/bycloud
+[Business Inquiries] bycloud@smoothmedia.co
+[Profile & Banner Art] https://twitter.com/pygm7
+[Video Editor] Abhay
+[Ko-fi] https://ko-fi.com/bycloudai
