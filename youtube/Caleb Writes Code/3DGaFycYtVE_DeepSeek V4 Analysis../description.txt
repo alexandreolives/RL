@@ -1,0 +1,22 @@
+DeepSeek released their new flagship model V4 which yet again shocks the world but not in training cost but this time in inference cost by reducing compute and inference demand by a huge margin.
+
+As we continue our AI race between open labs and closed labs, V4 sets another leap into how LLMs are becoming more lean and intelligent since two nations have different incentive in how they should grow.
+
+#deepseek #ai #llm
+
+Sign up for Intuive AI (ByCloud):
+https://www.intuitiveai.academy/
+40% OFF Use Coupon Code: CALEB
+
+Chapters
+00:00 Intro
+00:45 Flagship Model
+01:32 Open vs Closed
+02:23 Cost of Intelligence
+03:24 Paper
+04:35 Sponsor: ByCloud
+05:15 Pricing
+06:18 Attention
+07:16 DSA
+08:23 CSA, HCA
+10:19 Conclusion

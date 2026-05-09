@@ -1,0 +1,26 @@
+Microsoft built an LLM where every weight is just −1, 0, or +1. No multiplication. No GPU required. This is BitNet b1.58 — the 1.58-bit ternary weight model that runs on plain CPUs and could break NVIDIA's grip on AI.
+
+In this video, we break down how ternary quantization works, why it eliminates floating-point math entirely, and what it means for GPU pricing, inference economics, and the future of AI hardware.
+
+🔬 Based on Microsoft Research's open-weight BitNet b1.58 (2B parameter model, 4T tokens).
+
+⏱️ TIMESTAMPS:
+0:00 — NVIDIA's Multiply-Accumulate Empire
+0:18 — What If You Delete Multiplication?
+0:53 — The Addition-Only Math Trick
+1:43 — Why It's Called 1.58-Bit (log₂3)
+2:08 — BitNet b1.58: Open Weights, Real Benchmarks
+2:32 — 10× Memory Savings: 80 GB → Under 10 GB
+2:45 — CPU-Only Inference with bitnet.cpp
+3:11 — Why NVIDIA Should Be Worried
+3:18 — NVIDIA's Moat Is Eroding
+3:51 — Training Still Needs GPUs (For Now)
+4:09 — Scaling Law Pushback
+4:37 — Inference Is Where the Money Lives
+4:57 — 1.58 Bits May Break NVIDIA's Grip
+
+📌 Key Topics: BitNet b1.58, ternary quantization, 1.58-bit LLM, CPU inference, NVIDIA moat, GPU pricing, AI hardware disruption, Microsoft Research 2026
+
+👍 Like & Subscribe for more deep-tech AI breakdowns.
+
+#BitNet #TernaryWeights #AIHardware #NVIDIA #Microsoft #LLM #Quantization #DeepTech

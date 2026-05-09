@@ -1,0 +1,44 @@
+DeepSeek-V3 trained a high-quality 671B parameter MoE model for $5.6M using 2,048 GPUs. Llama 3 405B used 16,384 H100s for similar benchmark quality. They both used similar training techniques, but their setups were completely different. The hardware makes a big difference.
+
+In this video we cover all the different techniques and architecture of trillion parameter LLM training.
+
+ZeRO splits the optimizer state, gradients, and weights across GPUs in three stages. This way, no GPU has to store the entire model. FlashAttention divides attention into SRAM blocks and avoids creating the N×N matrix entirely, reducing memory usage from O(N²) to O(N). Tensor parallelism divides matrix multiplications inside an 8-GPU NVLink node. If the setup is larger, the communication overhead can become problematic. Pipeline parallelism spreads layers across nodes using 1F1B and backward-split schedules to keep pipeline bubbles small. Mixture of Experts separates total parameter count from per-token compute, which is why every trillion-scale model uses it, including Switch Transformer, GPT-4, and DeepSeek-V3. FP8 with tile-wise scaling doubles H100 throughput and maintains a loss of only 0.25% compared to BF16 during DeepSeek-V3's full run of 14.8 trillion tokens. Ring Attention prefills 1 million tokens on Llama 3 405B in 77 seconds using 128 H100s.
+
+At 16,384 GPUs, the cluster frequently breaks down. Meta recorded 419 unexpected failures over 54 days while training Llama 3, averaging one every three hours. The orchestrator automatically handled all but three of those issues. DeepSeek-V3 took a different approach on H800s, avoiding tensor parallelism while cranking expert parallelism up to 64 and using a custom DualPipe schedule that overlaps expert routing with compute.
+
+GB200 NVL72 puts 72 GPUs in one NVLink domain, raising the tensor-parallelism limit 9 times. DiLoCo trains across two data centers 1,000 km apart at 96% scaling efficiency. Hardware-aware co-design hits Llama 3 quality with 11 times fewer GPU hours. Most of this stack wasn't even available five years ago.
+
+Chapters:
+----------------
+00:00  Frontier LLM Training: A Full-Stack Problem
+01:00  LLM Memory: 16 Bytes per Parameter, 32 TB
+02:30  Ring All-Reduce, LAMB, and the Critical Batch Size
+04:50  ZeRO Sharding: Optimizer States, Gradients, Parameters
+06:39  Gradient Checkpointing: Selective Activation Recomputation
+08:07  FlashAttention: SRAM Tiling and Softmax Rescaling
+09:35  Tensor and Sequence Parallelism Inside the NVLink Node
+11:57  Pipeline Parallelism: 1F1B, Interleaved, and Backward Split
+14:20  Ring Attention: Enabling Million-Token Context Training
+15:27  Mixture of Experts (MoE) and DeepSeek-V3's Bias Routing
+17:08  Mixed Precision Training: BF16, FP8, and FP4
+19:31  Llama 3 vs DeepSeek-V3: Two Parallelism Strategies
+21:37  Chinchilla 6ND Rule: Why Training Costs $750M
+22:58  Llama 3's 419 Hardware Failures and Hot-Spare Recovery
+24:27  End-to-End LLM Training: Data, Mesh, Control Plane
+27:05  GB200 NVL72, DiLoCo, and Hardware-Aware Co-Design
+
+References:
+-------------------
+- ZeRO: Memory Optimizations Toward Training Trillion Parameter Models (Rajbhandari et al. 2019) https://arxiv.org/abs/1910.02054
+- FlashAttention (Dao et al. 2022) https://arxiv.org/abs/2205.14135
+- Reducing Activation Recomputation in Large Transformer Models (Korthikanti et al. 2022) https://arxiv.org/abs/2205.05198
+- Zero Bubble Pipeline Parallelism (Qi et al. 2023) https://arxiv.org/abs/2401.10241
+- Ring Attention with Blockwise Transformers (Liu et al. 2023) https://arxiv.org/abs/2310.01889
+- Switch Transformers (Fedus et al. 2021) https://arxiv.org/abs/2101.03961
+- LAMB: Training BERT in 76 Minutes (You et al. 2019) https://arxiv.org/abs/1904.00962
+- Training Compute-Optimal Large Language Models / Chinchilla (Hoffmann et al. 2022) https://arxiv.org/abs/2203.15556
+- The Llama 3 Herd of Models (Grattafiori et al. 2024) https://arxiv.org/abs/2407.21783
+- DeepSeek-V3 Technical Report (DeepSeek-AI 2024) https://arxiv.org/abs/2412.19437
+- DiLoCo: Distributed Low-Communication Training of Language Models (Douillard et al. 2023) https://arxiv.org/abs/2311.08105
+
+#llm #deepseek #aitraining #largelanguagemodels #deeplearning #distributedtraining #nvidia #ai #meta #google #deepmind #openai #anthropic #llama

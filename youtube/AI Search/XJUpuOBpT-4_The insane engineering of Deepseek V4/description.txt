@@ -1,0 +1,37 @@
+Deepseek V4 explained. #ai #aitools #ainews #llm #agi #deepseek #claude #agi 
+
+Thanks to our sponsor Abacus AI. Try ChatLLM & DeepAgent today: http://chatllm.abacus.ai/?token=aisearch
+
+Deepseek v4: https://api-docs.deepseek.com/news/news260424
+LLMs explained: https://youtu.be/U2hZFMVNSE0
+Residual connections: https://youtu.be/2IfAVV7ewO0
+
+0:00 Deepseek V4 intro
+1:00 Deepseek V4 specs
+2:06 The challenge of 1M context
+4:16 Hybrid attention
+5:11 CSA & sparse selection
+6:50 HCA
+8:22 Sliding window attention
+10:44 Insane efficiency gains
+12:02 Signal explosion
+13:00 Residual connections
+13:52 mHC
+14:17 ChatLLM 
+15:24 mHC continued
+17:54 Muon
+19:26 Infra challenges
+22:31 Training challenges
+24:09 Anticipatory routing
+25:24 SOTA results
+
+Newsletter: https://aisearch.substack.com/
+Find AI tools & jobs: https://ai-search.io/
+Support: https://ko-fi.com/aisearch
+
+Here's my equipment, in case you're wondering:
+Lenovo Thinkbook: https://amzn.to/4jWeKwH
+Dell Precision 5690: https://www.dell.com/en-us/dt/ai-technologies/index.htm?utm_source=AISearchTools&utm_medium=youtube&utm_campaign=precisionai#tab0=0 
+GPU: Nvidia RTX 5000 Ada https://nvda.ws/3zfqGqS
+Mic: Shure SM7B https://amzn.to/3DErjt1
+Audio interface: Scarlett Solo https://amzn.to/3qELMeu

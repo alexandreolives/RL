@@ -1,0 +1,22 @@
+DeepSeek v4 is out! The new model has excellent performance and is highly efficient for long-context processing. Let's learn the core idea of the new compressed attention (CSA and HCA)!
+
+00:00 DeepSeek v4
+00:22 Attention review
+02:00 Multi-head attention
+03:43 Reducing KV cache (MQA/GQA/MLA)
+05:16 Token-level compression
+10:04 Compressed attention
+12:52 Sparse attention (DSA)
+13:32 Compressed Sparse Attention (CSA) and Heavily Compressed Attention (HCA)
+15:35 DeepSeek V4 Pro architecture with CSA/HCA
+
+Reference: 
+- [DeepSeek v4] https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro
+
+Other components in DeepSeek V4
+- Muon optimizer: https://youtu.be/bO5nvE289ec
+- Manifold-Constrained Hyper-Connections (mHC): https://youtu.be/jYn_1PpRzxI
+- Mixture of Experts (MoE): https://youtu.be/0QQlYR1r6pQ
+- DeepSeek Sparse Attention (DSA): https://youtu.be/Y-o545eYjXM
+
+Video made with manim https://www.manim.community/

@@ -1,0 +1,3032 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.080 --> 00:00:02.550 align:start position:0%
+ 
+Deepseek<00:00:00.719><c> just</c><00:00:00.960><c> released</c><00:00:01.280><c> its</c><00:00:01.600><c> latest</c><00:00:01.920><c> model.</c>
+
+00:00:02.550 --> 00:00:02.560 align:start position:0%
+Deepseek just released its latest model.
+ 
+
+00:00:02.560 --> 00:00:04.630 align:start position:0%
+Deepseek just released its latest model.
+This<00:00:02.800><c> new</c><00:00:02.960><c> model</c><00:00:03.360><c> delivers</c><00:00:03.840><c> state-of-the-art</c>
+
+00:00:04.630 --> 00:00:04.640 align:start position:0%
+This new model delivers state-of-the-art
+ 
+
+00:00:04.640 --> 00:00:06.710 align:start position:0%
+This new model delivers state-of-the-art
+performance<00:00:05.279><c> across</c><00:00:05.680><c> a</c><00:00:06.000><c> broad</c><00:00:06.240><c> range</c><00:00:06.480><c> of</c>
+
+00:00:06.710 --> 00:00:06.720 align:start position:0%
+performance across a broad range of
+ 
+
+00:00:06.720 --> 00:00:09.190 align:start position:0%
+performance across a broad range of
+benchmarks.<00:00:07.520><c> But</c><00:00:07.680><c> the</c><00:00:07.919><c> real</c><00:00:08.160><c> story</c><00:00:08.559><c> is</c><00:00:08.880><c> its</c>
+
+00:00:09.190 --> 00:00:09.200 align:start position:0%
+benchmarks. But the real story is its
+ 
+
+00:00:09.200 --> 00:00:11.910 align:start position:0%
+benchmarks. But the real story is its
+remarkable<00:00:09.920><c> long</c><00:00:10.240><c> context</c><00:00:10.800><c> efficiency.</c>
+
+00:00:11.910 --> 00:00:11.920 align:start position:0%
+remarkable long context efficiency.
+ 
+
+00:00:11.920 --> 00:00:14.870 align:start position:0%
+remarkable long context efficiency.
+Compared<00:00:12.320><c> to</c><00:00:12.480><c> the</c><00:00:12.639><c> previous</c><00:00:13.040><c> DeepSseek</c><00:00:13.679><c> V3.2,</c>
+
+00:00:14.870 --> 00:00:14.880 align:start position:0%
+Compared to the previous DeepSseek V3.2,
+ 
+
+00:00:14.880 --> 00:00:16.630 align:start position:0%
+Compared to the previous DeepSseek V3.2,
+the<00:00:15.120><c> new</c><00:00:15.280><c> model</c><00:00:15.679><c> dramatically</c><00:00:16.240><c> cuts</c>
+
+00:00:16.630 --> 00:00:16.640 align:start position:0%
+the new model dramatically cuts
+ 
+
+00:00:16.640 --> 00:00:19.269 align:start position:0%
+the new model dramatically cuts
+inference<00:00:17.199><c> compute</c><00:00:17.680><c> and</c><00:00:17.840><c> memory.</c><00:00:18.800><c> Let's</c><00:00:19.119><c> see</c>
+
+00:00:19.269 --> 00:00:19.279 align:start position:0%
+inference compute and memory. Let's see
+ 
+
+00:00:19.279 --> 00:00:21.750 align:start position:0%
+inference compute and memory. Let's see
+how<00:00:19.520><c> its</c><00:00:19.760><c> new</c><00:00:19.920><c> attention</c><00:00:20.480><c> design</c><00:00:21.039><c> makes</c><00:00:21.359><c> this</c>
+
+00:00:21.750 --> 00:00:21.760 align:start position:0%
+how its new attention design makes this
+ 
+
+00:00:21.760 --> 00:00:24.390 align:start position:0%
+how its new attention design makes this
+possible.<00:00:23.039><c> When</c><00:00:23.199><c> a</c><00:00:23.439><c> transformer</c><00:00:24.000><c> model</c>
+
+00:00:24.390 --> 00:00:24.400 align:start position:0%
+possible. When a transformer model
+ 
+
+00:00:24.400 --> 00:00:26.870 align:start position:0%
+possible. When a transformer model
+processes<00:00:24.880><c> a</c><00:00:25.039><c> sequence</c><00:00:25.439><c> of</c><00:00:25.600><c> tokens,</c><00:00:26.480><c> each</c>
+
+00:00:26.870 --> 00:00:26.880 align:start position:0%
+processes a sequence of tokens, each
+ 
+
+00:00:26.880 --> 00:00:29.429 align:start position:0%
+processes a sequence of tokens, each
+encoded<00:00:27.439><c> as</c><00:00:27.680><c> a</c><00:00:27.840><c> D-dimensional</c><00:00:28.560><c> vector,</c><00:00:29.279><c> the</c>
+
+00:00:29.429 --> 00:00:29.439 align:start position:0%
+encoded as a D-dimensional vector, the
+ 
+
+00:00:29.439 --> 00:00:32.069 align:start position:0%
+encoded as a D-dimensional vector, the
+attention<00:00:30.000><c> mechanism</c><00:00:30.720><c> enables</c><00:00:31.199><c> the</c><00:00:31.439><c> model</c><00:00:31.760><c> to</c>
+
+00:00:32.069 --> 00:00:32.079 align:start position:0%
+attention mechanism enables the model to
+ 
+
+00:00:32.079 --> 00:00:34.389 align:start position:0%
+attention mechanism enables the model to
+capture<00:00:32.480><c> context</c><00:00:33.200><c> and</c><00:00:33.520><c> build</c><00:00:33.760><c> a</c><00:00:33.920><c> richer</c>
+
+00:00:34.389 --> 00:00:34.399 align:start position:0%
+capture context and build a richer
+ 
+
+00:00:34.399 --> 00:00:37.190 align:start position:0%
+capture context and build a richer
+understanding<00:00:35.040><c> of</c><00:00:35.200><c> the</c><00:00:35.440><c> sequence.</c>
+
+00:00:37.190 --> 00:00:37.200 align:start position:0%
+understanding of the sequence.
+ 
+
+00:00:37.200 --> 00:00:40.150 align:start position:0%
+understanding of the sequence.
+But<00:00:37.440><c> this</c><00:00:37.760><c> creates</c><00:00:38.160><c> a</c><00:00:38.399><c> major</c><00:00:38.800><c> challenge.</c>
+
+00:00:40.150 --> 00:00:40.160 align:start position:0%
+But this creates a major challenge.
+ 
+
+00:00:40.160 --> 00:00:42.630 align:start position:0%
+But this creates a major challenge.
+Memory<00:00:40.640><c> usage</c><00:00:41.280><c> grows</c><00:00:41.680><c> linearly</c><00:00:42.320><c> with</c>
+
+00:00:42.630 --> 00:00:42.640 align:start position:0%
+Memory usage grows linearly with
+ 
+
+00:00:42.640 --> 00:00:45.910 align:start position:0%
+Memory usage grows linearly with
+sequence<00:00:43.040><c> lens.</c><00:00:44.320><c> Typically,</c><00:00:45.040><c> each</c><00:00:45.360><c> embedding</c>
+
+00:00:45.910 --> 00:00:45.920 align:start position:0%
+sequence lens. Typically, each embedding
+ 
+
+00:00:45.920 --> 00:00:48.470 align:start position:0%
+sequence lens. Typically, each embedding
+vector<00:00:46.480><c> has</c><00:00:46.719><c> a</c><00:00:46.960><c> dimensionality</c><00:00:47.840><c> of</c><00:00:48.079><c> several</c>
+
+00:00:48.470 --> 00:00:48.480 align:start position:0%
+vector has a dimensionality of several
+ 
+
+00:00:48.480 --> 00:00:51.670 align:start position:0%
+vector has a dimensionality of several
+thousand,<00:00:49.680><c> but</c><00:00:50.239><c> the</c><00:00:50.480><c> sequence</c><00:00:50.960><c> lens</c><00:00:51.440><c> can</c>
+
+00:00:51.670 --> 00:00:51.680 align:start position:0%
+thousand, but the sequence lens can
+ 
+
+00:00:51.680 --> 00:00:54.549 align:start position:0%
+thousand, but the sequence lens can
+easily<00:00:52.160><c> grow</c><00:00:52.559><c> to</c><00:00:52.879><c> millions.</c>
+
+00:00:54.549 --> 00:00:54.559 align:start position:0%
+easily grow to millions.
+ 
+
+00:00:54.559 --> 00:00:56.549 align:start position:0%
+easily grow to millions.
+Let's<00:00:54.879><c> first</c><00:00:55.120><c> briefly</c><00:00:55.600><c> review</c><00:00:55.920><c> the</c><00:00:56.160><c> standard</c>
+
+00:00:56.549 --> 00:00:56.559 align:start position:0%
+Let's first briefly review the standard
+ 
+
+00:00:56.559 --> 00:00:59.510 align:start position:0%
+Let's first briefly review the standard
+attention<00:00:56.960><c> mechanism</c><00:00:57.760><c> to</c><00:00:58.000><c> set</c><00:00:58.239><c> the</c><00:00:58.399><c> stage.</c>
+
+00:00:59.510 --> 00:00:59.520 align:start position:0%
+attention mechanism to set the stage.
+ 
+
+00:00:59.520 --> 00:01:02.549 align:start position:0%
+attention mechanism to set the stage.
+The<00:00:59.680><c> attention</c><00:01:00.320><c> layer</c><00:01:00.559><c> uses</c><00:01:00.960><c> query,</c><00:01:01.760><c> key,</c><00:01:02.320><c> and</c>
+
+00:01:02.549 --> 00:01:02.559 align:start position:0%
+The attention layer uses query, key, and
+ 
+
+00:01:02.559 --> 00:01:05.109 align:start position:0%
+The attention layer uses query, key, and
+value<00:01:02.879><c> matrices</c><00:01:03.680><c> to</c><00:01:03.920><c> linearly</c><00:01:04.479><c> project</c><00:01:04.879><c> each</c>
+
+00:01:05.109 --> 00:01:05.119 align:start position:0%
+value matrices to linearly project each
+ 
+
+00:01:05.119 --> 00:01:08.149 align:start position:0%
+value matrices to linearly project each
+hidden<00:01:05.519><c> state</c><00:01:05.840><c> into</c><00:01:06.159><c> query,</c><00:01:06.880><c> key,</c><00:01:07.520><c> and</c><00:01:07.840><c> value</c>
+
+00:01:08.149 --> 00:01:08.159 align:start position:0%
+hidden state into query, key, and value
+ 
+
+00:01:08.159 --> 00:01:09.670 align:start position:0%
+hidden state into query, key, and value
+vectors.
+
+00:01:09.670 --> 00:01:09.680 align:start position:0%
+vectors.
+ 
+
+00:01:09.680 --> 00:01:11.830 align:start position:0%
+vectors.
+We<00:01:09.920><c> compute</c><00:01:10.240><c> the</c><00:01:10.479><c> attention</c><00:01:10.960><c> output</c><00:01:11.600><c> by</c>
+
+00:01:11.830 --> 00:01:11.840 align:start position:0%
+We compute the attention output by
+ 
+
+00:01:11.840 --> 00:01:13.750 align:start position:0%
+We compute the attention output by
+taking<00:01:12.080><c> a</c><00:01:12.320><c> weighted</c><00:01:12.720><c> sum</c><00:01:13.040><c> of</c><00:01:13.200><c> the</c><00:01:13.439><c> value</c>
+
+00:01:13.750 --> 00:01:13.760 align:start position:0%
+taking a weighted sum of the value
+ 
+
+00:01:13.760 --> 00:01:16.230 align:start position:0%
+taking a weighted sum of the value
+vectors<00:01:14.640><c> where</c><00:01:14.880><c> the</c><00:01:15.040><c> weights</c><00:01:15.439><c> are</c><00:01:15.680><c> determined</c>
+
+00:01:16.230 --> 00:01:16.240 align:start position:0%
+vectors where the weights are determined
+ 
+
+00:01:16.240 --> 00:01:18.950 align:start position:0%
+vectors where the weights are determined
+by<00:01:16.479><c> the</c><00:01:16.640><c> scale</c><00:01:17.119><c> dotproduct</c><00:01:18.240><c> between</c><00:01:18.640><c> each</c>
+
+00:01:18.950 --> 00:01:18.960 align:start position:0%
+by the scale dotproduct between each
+ 
+
+00:01:18.960 --> 00:01:22.310 align:start position:0%
+by the scale dotproduct between each
+query<00:01:19.439><c> and</c><00:01:19.759><c> key</c><00:01:20.000><c> vector.</c><00:01:21.439><c> This</c><00:01:21.759><c> process</c>
+
+00:01:22.310 --> 00:01:22.320 align:start position:0%
+query and key vector. This process
+ 
+
+00:01:22.320 --> 00:01:24.710 align:start position:0%
+query and key vector. This process
+produces<00:01:22.799><c> a</c><00:01:23.040><c> C-dimensional</c><00:01:23.840><c> output</c><00:01:24.240><c> vector</c>
+
+00:01:24.710 --> 00:01:24.720 align:start position:0%
+produces a C-dimensional output vector
+ 
+
+00:01:24.720 --> 00:01:27.910 align:start position:0%
+produces a C-dimensional output vector
+for<00:01:25.040><c> each</c><00:01:25.280><c> token.</c><00:01:26.720><c> Therefore,</c><00:01:27.200><c> we</c><00:01:27.439><c> use</c><00:01:27.680><c> an</c>
+
+00:01:27.910 --> 00:01:27.920 align:start position:0%
+for each token. Therefore, we use an
+ 
+
+00:01:27.920 --> 00:01:31.109 align:start position:0%
+for each token. Therefore, we use an
+output<00:01:28.240><c> matrix</c><00:01:29.119><c> WO</c><00:01:30.000><c> to</c><00:01:30.240><c> project</c><00:01:30.560><c> the</c><00:01:30.799><c> output</c>
+
+00:01:31.109 --> 00:01:31.119 align:start position:0%
+output matrix WO to project the output
+ 
+
+00:01:31.119 --> 00:01:33.670 align:start position:0%
+output matrix WO to project the output
+vectors<00:01:31.840><c> back</c><00:01:32.079><c> to</c><00:01:32.320><c> the</c><00:01:32.479><c> same</c><00:01:32.720><c> dimensionality</c>
+
+00:01:33.670 --> 00:01:33.680 align:start position:0%
+vectors back to the same dimensionality
+ 
+
+00:01:33.680 --> 00:01:35.990 align:start position:0%
+vectors back to the same dimensionality
+as<00:01:34.000><c> the</c><00:01:34.159><c> hidden</c><00:01:34.560><c> states.</c>
+
+00:01:35.990 --> 00:01:36.000 align:start position:0%
+as the hidden states.
+ 
+
+00:01:36.000 --> 00:01:39.749 align:start position:0%
+as the hidden states.
+This<00:01:36.240><c> output</c><00:01:36.640><c> matrix</c><00:01:37.119><c> has</c><00:01:37.360><c> dimension</c><00:01:37.920><c> C</c><00:01:38.320><c> by</c><00:01:38.640><c> D.</c>
+
+00:01:39.749 --> 00:01:39.759 align:start position:0%
+This output matrix has dimension C by D.
+ 
+
+00:01:39.759 --> 00:01:42.069 align:start position:0%
+This output matrix has dimension C by D.
+We<00:01:40.000><c> then</c><00:01:40.240><c> add</c><00:01:40.560><c> these</c><00:01:40.880><c> residual</c><00:01:41.360><c> embeddings</c>
+
+00:01:42.069 --> 00:01:42.079 align:start position:0%
+We then add these residual embeddings
+ 
+
+00:01:42.079 --> 00:01:44.550 align:start position:0%
+We then add these residual embeddings
+back<00:01:42.320><c> to</c><00:01:42.479><c> the</c><00:01:42.720><c> original</c><00:01:43.119><c> token</c><00:01:43.439><c> embeddings</c><00:01:44.240><c> to</c>
+
+00:01:44.550 --> 00:01:44.560 align:start position:0%
+back to the original token embeddings to
+ 
+
+00:01:44.560 --> 00:01:47.429 align:start position:0%
+back to the original token embeddings to
+inject<00:01:44.960><c> the</c><00:01:45.280><c> contextual</c><00:01:45.920><c> information.</c>
+
+00:01:47.429 --> 00:01:47.439 align:start position:0%
+inject the contextual information.
+ 
+
+00:01:47.439 --> 00:01:49.270 align:start position:0%
+inject the contextual information.
+Self<00:01:47.680><c> attention</c><00:01:48.240><c> allows</c><00:01:48.560><c> the</c><00:01:48.720><c> model</c><00:01:49.040><c> to</c>
+
+00:01:49.270 --> 00:01:49.280 align:start position:0%
+Self attention allows the model to
+ 
+
+00:01:49.280 --> 00:01:51.830 align:start position:0%
+Self attention allows the model to
+enrich<00:01:49.759><c> each</c><00:01:50.079><c> embedding</c><00:01:50.720><c> with</c><00:01:51.040><c> context</c><00:01:51.600><c> from</c>
+
+00:01:51.830 --> 00:01:51.840 align:start position:0%
+enrich each embedding with context from
+ 
+
+00:01:51.840 --> 00:01:54.389 align:start position:0%
+enrich each embedding with context from
+the<00:01:52.079><c> entire</c><00:01:52.479><c> sequence,</c><00:01:53.280><c> ensuring</c><00:01:53.759><c> that</c><00:01:54.000><c> every</c>
+
+00:01:54.389 --> 00:01:54.399 align:start position:0%
+the entire sequence, ensuring that every
+ 
+
+00:01:54.399 --> 00:01:56.950 align:start position:0%
+the entire sequence, ensuring that every
+refined<00:01:54.799><c> embedding</c><00:01:55.600><c> captures</c><00:01:56.240><c> all</c><00:01:56.479><c> relevant</c>
+
+00:01:56.950 --> 00:01:56.960 align:start position:0%
+refined embedding captures all relevant
+ 
+
+00:01:56.960 --> 00:01:59.990 align:start position:0%
+refined embedding captures all relevant
+relationships<00:01:57.759><c> and</c><00:01:58.000><c> details.</c><00:01:59.280><c> But</c><00:01:59.600><c> relying</c>
+
+00:01:59.990 --> 00:02:00.000 align:start position:0%
+relationships and details. But relying
+ 
+
+00:02:00.000 --> 00:02:02.630 align:start position:0%
+relationships and details. But relying
+on<00:02:00.159><c> just</c><00:02:00.399><c> a</c><00:02:00.560><c> single</c><00:02:00.880><c> set</c><00:02:01.119><c> of</c><00:02:01.280><c> query,</c><00:02:02.000><c> key,</c><00:02:02.399><c> and</c>
+
+00:02:02.630 --> 00:02:02.640 align:start position:0%
+on just a single set of query, key, and
+ 
+
+00:02:02.640 --> 00:02:05.190 align:start position:0%
+on just a single set of query, key, and
+value<00:02:02.960><c> matrices</c><00:02:04.000><c> is</c><00:02:04.320><c> insufficient</c><00:02:04.960><c> to</c>
+
+00:02:05.190 --> 00:02:05.200 align:start position:0%
+value matrices is insufficient to
+ 
+
+00:02:05.200 --> 00:02:07.350 align:start position:0%
+value matrices is insufficient to
+capture<00:02:05.600><c> the</c><00:02:05.840><c> full</c><00:02:06.159><c> complexity</c><00:02:06.960><c> of</c>
+
+00:02:07.350 --> 00:02:07.360 align:start position:0%
+capture the full complexity of
+ 
+
+00:02:07.360 --> 00:02:10.710 align:start position:0%
+capture the full complexity of
+relationships<00:02:08.239><c> between</c><00:02:08.640><c> tokens.</c><00:02:10.080><c> To</c><00:02:10.399><c> address</c>
+
+00:02:10.710 --> 00:02:10.720 align:start position:0%
+relationships between tokens. To address
+ 
+
+00:02:10.720 --> 00:02:13.350 align:start position:0%
+relationships between tokens. To address
+this,<00:02:11.200><c> we</c><00:02:11.520><c> introduce</c><00:02:12.160><c> multiple</c><00:02:12.640><c> sets</c><00:02:13.040><c> of</c>
+
+00:02:13.350 --> 00:02:13.360 align:start position:0%
+this, we introduce multiple sets of
+ 
+
+00:02:13.360 --> 00:02:16.949 align:start position:0%
+this, we introduce multiple sets of
+query,<00:02:14.080><c> key,</c><00:02:14.720><c> and</c><00:02:14.959><c> value</c><00:02:15.360><c> matrices,</c><00:02:16.560><c> allowing</c>
+
+00:02:16.949 --> 00:02:16.959 align:start position:0%
+query, key, and value matrices, allowing
+ 
+
+00:02:16.959 --> 00:02:19.589 align:start position:0%
+query, key, and value matrices, allowing
+the<00:02:17.200><c> model</c><00:02:17.599><c> to</c><00:02:17.840><c> learn</c><00:02:18.319><c> and</c><00:02:18.640><c> represent</c><00:02:19.280><c> a</c>
+
+00:02:19.589 --> 00:02:19.599 align:start position:0%
+the model to learn and represent a
+ 
+
+00:02:19.599 --> 00:02:21.990 align:start position:0%
+the model to learn and represent a
+diverse<00:02:20.000><c> range</c><00:02:20.400><c> of</c><00:02:20.720><c> relationships</c><00:02:21.599><c> between</c>
+
+00:02:21.990 --> 00:02:22.000 align:start position:0%
+diverse range of relationships between
+ 
+
+00:02:22.000 --> 00:02:23.589 align:start position:0%
+diverse range of relationships between
+tokens.
+
+00:02:23.589 --> 00:02:23.599 align:start position:0%
+tokens.
+ 
+
+00:02:23.599 --> 00:02:26.390 align:start position:0%
+tokens.
+This<00:02:23.840><c> is</c><00:02:24.080><c> achieved</c><00:02:24.560><c> by</c><00:02:24.879><c> expanding</c><00:02:25.440><c> the</c><00:02:25.680><c> query</c>
+
+00:02:26.390 --> 00:02:26.400 align:start position:0%
+This is achieved by expanding the query
+ 
+
+00:02:26.400 --> 00:02:29.190 align:start position:0%
+This is achieved by expanding the query
+key<00:02:26.959><c> and</c><00:02:27.200><c> value</c><00:02:27.599><c> matrices</c><00:02:28.480><c> to</c><00:02:28.800><c> include</c>
+
+00:02:29.190 --> 00:02:29.200 align:start position:0%
+key and value matrices to include
+ 
+
+00:02:29.200 --> 00:02:33.030 align:start position:0%
+key and value matrices to include
+multiple<00:02:29.840><c> attention</c><00:02:30.400><c> heads.</c><00:02:31.680><c> Here</c><00:02:32.239><c> h</c><00:02:32.640><c> is</c><00:02:32.879><c> the</c>
+
+00:02:33.030 --> 00:02:33.040 align:start position:0%
+multiple attention heads. Here h is the
+ 
+
+00:02:33.040 --> 00:02:35.990 align:start position:0%
+multiple attention heads. Here h is the
+number<00:02:33.280><c> of</c><00:02:33.519><c> heads.</c><00:02:34.720><c> We</c><00:02:34.959><c> show</c><00:02:35.200><c> four</c><00:02:35.440><c> heads</c><00:02:35.840><c> in</c>
+
+00:02:35.990 --> 00:02:36.000 align:start position:0%
+number of heads. We show four heads in
+ 
+
+00:02:36.000 --> 00:02:38.309 align:start position:0%
+number of heads. We show four heads in
+the<00:02:36.239><c> illustration</c><00:02:37.040><c> but</c><00:02:37.280><c> in</c><00:02:37.519><c> practice</c><00:02:38.080><c> the</c>
+
+00:02:38.309 --> 00:02:38.319 align:start position:0%
+the illustration but in practice the
+ 
+
+00:02:38.319 --> 00:02:42.949 align:start position:0%
+the illustration but in practice the
+number<00:02:38.640><c> can</c><00:02:38.800><c> be</c><00:02:38.959><c> much</c><00:02:39.280><c> larger</c><00:02:40.160><c> such</c><00:02:40.400><c> as</c><00:02:41.360><c> 128.</c>
+
+00:02:42.949 --> 00:02:42.959 align:start position:0%
+number can be much larger such as 128.
+ 
+
+00:02:42.959 --> 00:02:45.430 align:start position:0%
+number can be much larger such as 128.
+We<00:02:43.200><c> split</c><00:02:43.440><c> the</c><00:02:43.680><c> query</c><00:02:44.319><c> key</c><00:02:44.800><c> and</c><00:02:45.120><c> value</c>
+
+00:02:45.430 --> 00:02:45.440 align:start position:0%
+We split the query key and value
+ 
+
+00:02:45.440 --> 00:02:48.390 align:start position:0%
+We split the query key and value
+matrices<00:02:46.239><c> into</c><00:02:46.640><c> edge</c><00:02:47.040><c> heads</c><00:02:47.680><c> and</c><00:02:48.000><c> compute</c>
+
+00:02:48.390 --> 00:02:48.400 align:start position:0%
+matrices into edge heads and compute
+ 
+
+00:02:48.400 --> 00:02:51.830 align:start position:0%
+matrices into edge heads and compute
+attention<00:02:49.040><c> for</c><00:02:49.360><c> each</c><00:02:49.599><c> head</c><00:02:50.160><c> separately.</c>
+
+00:02:51.830 --> 00:02:51.840 align:start position:0%
+attention for each head separately.
+ 
+
+00:02:51.840 --> 00:02:54.070 align:start position:0%
+attention for each head separately.
+This<00:02:52.160><c> gives</c><00:02:52.480><c> us</c><00:02:52.640><c> a</c><00:02:52.959><c> collection</c><00:02:53.280><c> of</c><00:02:53.519><c> attention</c>
+
+00:02:54.070 --> 00:02:54.080 align:start position:0%
+This gives us a collection of attention
+ 
+
+00:02:54.080 --> 00:02:59.270 align:start position:0%
+This gives us a collection of attention
+outputs<00:02:54.800><c> 01,</c><00:02:55.760><c> O2,</c><00:02:56.640><c> 03,</c><00:02:57.440><c> and</c><00:02:57.760><c> O4.</c>
+
+00:02:59.270 --> 00:02:59.280 align:start position:0%
+outputs 01, O2, 03, and O4.
+ 
+
+00:02:59.280 --> 00:03:01.270 align:start position:0%
+outputs 01, O2, 03, and O4.
+We<00:02:59.519><c> concatenate</c><00:03:00.160><c> the</c><00:03:00.400><c> outputs</c><00:03:00.879><c> of</c><00:03:01.120><c> the</c>
+
+00:03:01.270 --> 00:03:01.280 align:start position:0%
+We concatenate the outputs of the
+ 
+
+00:03:01.280 --> 00:03:03.670 align:start position:0%
+We concatenate the outputs of the
+multiple<00:03:01.680><c> heads</c><00:03:02.080><c> together</c><00:03:02.800><c> and</c><00:03:03.120><c> use</c><00:03:03.440><c> our</c>
+
+00:03:03.670 --> 00:03:03.680 align:start position:0%
+multiple heads together and use our
+ 
+
+00:03:03.680 --> 00:03:07.270 align:start position:0%
+multiple heads together and use our
+output<00:03:04.080><c> matrix</c><00:03:04.959><c> WO</c><00:03:05.920><c> to</c><00:03:06.159><c> produce</c><00:03:06.560><c> the</c><00:03:06.800><c> residual</c>
+
+00:03:07.270 --> 00:03:07.280 align:start position:0%
+output matrix WO to produce the residual
+ 
+
+00:03:07.280 --> 00:03:10.630 align:start position:0%
+output matrix WO to produce the residual
+embeddings<00:03:08.000><c> delta</c><00:03:08.480><c> H.</c><00:03:09.760><c> This</c><00:03:10.000><c> is</c><00:03:10.159><c> known</c><00:03:10.400><c> as</c>
+
+00:03:10.630 --> 00:03:10.640 align:start position:0%
+embeddings delta H. This is known as
+ 
+
+00:03:10.640 --> 00:03:13.190 align:start position:0%
+embeddings delta H. This is known as
+multi<00:03:11.040><c> head</c><00:03:11.280><c> attention.</c><00:03:12.720><c> Let's</c><00:03:12.959><c> now</c>
+
+00:03:13.190 --> 00:03:13.200 align:start position:0%
+multi head attention. Let's now
+ 
+
+00:03:13.200 --> 00:03:15.910 align:start position:0%
+multi head attention. Let's now
+visualize<00:03:13.680><c> this</c><00:03:14.000><c> more</c><00:03:14.239><c> concisely.</c><00:03:15.680><c> In</c>
+
+00:03:15.910 --> 00:03:15.920 align:start position:0%
+visualize this more concisely. In
+ 
+
+00:03:15.920 --> 00:03:18.149 align:start position:0%
+visualize this more concisely. In
+standard<00:03:16.319><c> multi</c><00:03:16.720><c> head</c><00:03:16.959><c> attention</c><00:03:17.840><c> during</c>
+
+00:03:18.149 --> 00:03:18.159 align:start position:0%
+standard multi head attention during
+ 
+
+00:03:18.159 --> 00:03:20.790 align:start position:0%
+standard multi head attention during
+inference<00:03:18.720><c> or</c><00:03:18.959><c> decoding</c><00:03:19.920><c> we</c><00:03:20.159><c> must</c><00:03:20.319><c> cache</c><00:03:20.640><c> the</c>
+
+00:03:20.790 --> 00:03:20.800 align:start position:0%
+inference or decoding we must cache the
+ 
+
+00:03:20.800 --> 00:03:23.589 align:start position:0%
+inference or decoding we must cache the
+key<00:03:21.280><c> and</c><00:03:21.599><c> value</c><00:03:21.920><c> vectors</c><00:03:22.560><c> from</c><00:03:22.879><c> all</c><00:03:23.120><c> previous</c>
+
+00:03:23.589 --> 00:03:23.599 align:start position:0%
+key and value vectors from all previous
+ 
+
+00:03:23.599 --> 00:03:25.270 align:start position:0%
+key and value vectors from all previous
+tokens.
+
+00:03:25.270 --> 00:03:25.280 align:start position:0%
+tokens.
+ 
+
+00:03:25.280 --> 00:03:27.350 align:start position:0%
+tokens.
+Therefore<00:03:25.760><c> the</c><00:03:26.000><c> total</c><00:03:26.400><c> key</c><00:03:26.640><c> value</c><00:03:26.959><c> cache</c>
+
+00:03:27.350 --> 00:03:27.360 align:start position:0%
+Therefore the total key value cache
+ 
+
+00:03:27.360 --> 00:03:31.509 align:start position:0%
+Therefore the total key value cache
+memory<00:03:27.920><c> is</c><00:03:28.239><c> two</c><00:03:28.959><c> for</c><00:03:29.280><c> keys</c><00:03:29.680><c> and</c><00:03:29.920><c> values</c><00:03:31.200><c> times</c>
+
+00:03:31.509 --> 00:03:31.519 align:start position:0%
+memory is two for keys and values times
+ 
+
+00:03:31.519 --> 00:03:33.910 align:start position:0%
+memory is two for keys and values times
+the<00:03:31.680><c> head</c><00:03:31.920><c> dimension</c><00:03:32.959><c> times</c><00:03:33.200><c> the</c><00:03:33.440><c> precision</c>
+
+00:03:33.910 --> 00:03:33.920 align:start position:0%
+the head dimension times the precision
+ 
+
+00:03:33.920 --> 00:03:37.430 align:start position:0%
+the head dimension times the precision
+in<00:03:34.239><c> bytes</c><00:03:35.280><c> times</c><00:03:35.599><c> the</c><00:03:35.840><c> number</c><00:03:36.000><c> of</c><00:03:36.239><c> heads</c><00:03:37.200><c> times</c>
+
+00:03:37.430 --> 00:03:37.440 align:start position:0%
+in bytes times the number of heads times
+ 
+
+00:03:37.440 --> 00:03:40.149 align:start position:0%
+in bytes times the number of heads times
+the<00:03:37.760><c> number</c><00:03:37.920><c> of</c><00:03:38.319><c> layers</c><00:03:39.200><c> times</c><00:03:39.519><c> the</c><00:03:39.760><c> sequence</c>
+
+00:03:40.149 --> 00:03:40.159 align:start position:0%
+the number of layers times the sequence
+ 
+
+00:03:40.159 --> 00:03:41.670 align:start position:0%
+the number of layers times the sequence
+lengths.
+
+00:03:41.670 --> 00:03:41.680 align:start position:0%
+lengths.
+ 
+
+00:03:41.680 --> 00:03:43.990 align:start position:0%
+lengths.
+This<00:03:41.920><c> is</c><00:03:42.080><c> a</c><00:03:42.239><c> lot</c><00:03:42.400><c> of</c><00:03:42.560><c> memory.</c><00:03:43.440><c> How</c><00:03:43.680><c> do</c><00:03:43.840><c> we</c>
+
+00:03:43.990 --> 00:03:44.000 align:start position:0%
+This is a lot of memory. How do we
+ 
+
+00:03:44.000 --> 00:03:47.509 align:start position:0%
+This is a lot of memory. How do we
+reduce<00:03:44.319><c> the</c><00:03:44.560><c> memory</c><00:03:45.040><c> cost?</c><00:03:46.480><c> One</c><00:03:46.720><c> simple</c><00:03:47.120><c> idea</c>
+
+00:03:47.509 --> 00:03:47.519 align:start position:0%
+reduce the memory cost? One simple idea
+ 
+
+00:03:47.519 --> 00:03:50.070 align:start position:0%
+reduce the memory cost? One simple idea
+is<00:03:47.760><c> to</c><00:03:48.000><c> reduce</c><00:03:48.319><c> the</c><00:03:48.560><c> number</c><00:03:48.720><c> of</c><00:03:48.959><c> heads</c><00:03:49.440><c> for</c><00:03:49.760><c> key</c>
+
+00:03:50.070 --> 00:03:50.080 align:start position:0%
+is to reduce the number of heads for key
+ 
+
+00:03:50.080 --> 00:03:53.910 align:start position:0%
+is to reduce the number of heads for key
+and<00:03:50.319><c> value</c><00:03:50.640><c> matrices</c><00:03:51.519><c> from</c><00:03:51.840><c> H</c><00:03:52.239><c> to</c><00:03:52.480><c> one.</c><00:03:53.680><c> In</c>
+
+00:03:53.910 --> 00:03:53.920 align:start position:0%
+and value matrices from H to one. In
+ 
+
+00:03:53.920 --> 00:03:55.830 align:start position:0%
+and value matrices from H to one. In
+this<00:03:54.080><c> setup,</c><00:03:54.560><c> we</c><00:03:54.799><c> generate</c><00:03:55.120><c> just</c><00:03:55.360><c> a</c><00:03:55.599><c> single</c>
+
+00:03:55.830 --> 00:03:55.840 align:start position:0%
+this setup, we generate just a single
+ 
+
+00:03:55.840 --> 00:03:58.470 align:start position:0%
+this setup, we generate just a single
+set<00:03:56.159><c> of</c><00:03:56.400><c> key</c><00:03:56.720><c> and</c><00:03:57.040><c> value</c><00:03:57.360><c> vectors</c><00:03:57.920><c> for</c><00:03:58.239><c> each</c>
+
+00:03:58.470 --> 00:03:58.480 align:start position:0%
+set of key and value vectors for each
+ 
+
+00:03:58.480 --> 00:04:01.670 align:start position:0%
+set of key and value vectors for each
+token.<00:03:59.760><c> The</c><00:04:00.000><c> key</c><00:04:00.319><c> and</c><00:04:00.560><c> value</c><00:04:00.879><c> vectors</c><00:04:01.439><c> are</c>
+
+00:04:01.670 --> 00:04:01.680 align:start position:0%
+token. The key and value vectors are
+ 
+
+00:04:01.680 --> 00:04:04.949 align:start position:0%
+token. The key and value vectors are
+then<00:04:01.920><c> shared</c><00:04:02.400><c> across</c><00:04:02.879><c> all</c><00:04:03.120><c> attention</c><00:04:03.680><c> hands.</c>
+
+00:04:04.949 --> 00:04:04.959 align:start position:0%
+then shared across all attention hands.
+ 
+
+00:04:04.959 --> 00:04:06.869 align:start position:0%
+then shared across all attention hands.
+This<00:04:05.200><c> approach</c><00:04:05.599><c> is</c><00:04:05.840><c> called</c><00:04:06.159><c> multi-query</c>
+
+00:04:06.869 --> 00:04:06.879 align:start position:0%
+This approach is called multi-query
+ 
+
+00:04:06.879 --> 00:04:11.190 align:start position:0%
+This approach is called multi-query
+attention<00:04:07.840><c> or</c><00:04:08.239><c> MQA</c><00:04:09.360><c> for</c><00:04:09.599><c> short.</c><00:04:10.879><c> Let's</c>
+
+00:04:11.190 --> 00:04:11.200 align:start position:0%
+attention or MQA for short. Let's
+ 
+
+00:04:11.200 --> 00:04:14.070 align:start position:0%
+attention or MQA for short. Let's
+compare<00:04:11.439><c> the</c><00:04:11.680><c> memory</c><00:04:12.080><c> requirements</c><00:04:12.720><c> of</c><00:04:13.120><c> MQA</c>
+
+00:04:14.070 --> 00:04:14.080 align:start position:0%
+compare the memory requirements of MQA
+ 
+
+00:04:14.080 --> 00:04:17.189 align:start position:0%
+compare the memory requirements of MQA
+with<00:04:14.319><c> the</c><00:04:14.560><c> standard</c><00:04:15.120><c> multi</c><00:04:15.519><c> head</c><00:04:15.840><c> attention.</c>
+
+00:04:17.189 --> 00:04:17.199 align:start position:0%
+with the standard multi head attention.
+ 
+
+00:04:17.199 --> 00:04:20.229 align:start position:0%
+with the standard multi head attention.
+Multi<00:04:17.600><c> head</c><00:04:17.919><c> attention</c><00:04:18.639><c> requires</c><00:04:19.199><c> 4</c><00:04:19.519><c> mgabytes</c>
+
+00:04:20.229 --> 00:04:20.239 align:start position:0%
+Multi head attention requires 4 mgabytes
+ 
+
+00:04:20.239 --> 00:04:24.230 align:start position:0%
+Multi head attention requires 4 mgabytes
+of<00:04:20.479><c> memory</c><00:04:21.120><c> per</c><00:04:21.359><c> token.</c><00:04:22.639><c> In</c><00:04:22.960><c> contrast,</c><00:04:23.520><c> MQA</c>
+
+00:04:24.230 --> 00:04:24.240 align:start position:0%
+of memory per token. In contrast, MQA
+ 
+
+00:04:24.240 --> 00:04:27.590 align:start position:0%
+of memory per token. In contrast, MQA
+requires<00:04:24.800><c> only</c><00:04:25.199><c> 31</c><00:04:25.759><c> kilob</c><00:04:26.479><c> of</c><00:04:26.800><c> memory</c><00:04:27.280><c> per</c>
+
+00:04:27.590 --> 00:04:27.600 align:start position:0%
+requires only 31 kilob of memory per
+ 
+
+00:04:27.600 --> 00:04:31.350 align:start position:0%
+requires only 31 kilob of memory per
+token.<00:04:28.800><c> It's</c><00:04:29.040><c> a</c><00:04:29.680><c> 128fold</c><00:04:30.479><c> reduction</c><00:04:31.040><c> in</c>
+
+00:04:31.350 --> 00:04:31.360 align:start position:0%
+token. It's a 128fold reduction in
+ 
+
+00:04:31.360 --> 00:04:35.270 align:start position:0%
+token. It's a 128fold reduction in
+memory<00:04:31.840><c> usage.</c><00:04:33.280><c> However,</c><00:04:33.759><c> there's</c><00:04:34.080><c> a</c><00:04:34.240><c> catch.</c>
+
+00:04:35.270 --> 00:04:35.280 align:start position:0%
+memory usage. However, there's a catch.
+ 
+
+00:04:35.280 --> 00:04:37.670 align:start position:0%
+memory usage. However, there's a catch.
+By<00:04:35.600><c> sharing</c><00:04:35.919><c> key</c><00:04:36.160><c> and</c><00:04:36.400><c> value</c><00:04:36.720><c> vectors</c><00:04:37.199><c> across</c>
+
+00:04:37.670 --> 00:04:37.680 align:start position:0%
+By sharing key and value vectors across
+ 
+
+00:04:37.680 --> 00:04:41.749 align:start position:0%
+By sharing key and value vectors across
+all<00:04:37.919><c> heads,</c><00:04:38.720><c> MQA</c><00:04:39.840><c> reduces</c><00:04:40.479><c> its</c><00:04:40.880><c> ability</c><00:04:41.520><c> to</c>
+
+00:04:41.749 --> 00:04:41.759 align:start position:0%
+all heads, MQA reduces its ability to
+ 
+
+00:04:41.759 --> 00:04:43.990 align:start position:0%
+all heads, MQA reduces its ability to
+model<00:04:42.160><c> nuance</c><00:04:42.720><c> relationships</c><00:04:43.520><c> between</c>
+
+00:04:43.990 --> 00:04:44.000 align:start position:0%
+model nuance relationships between
+ 
+
+00:04:44.000 --> 00:04:47.830 align:start position:0%
+model nuance relationships between
+tokens.<00:04:45.199><c> As</c><00:04:45.520><c> a</c><00:04:45.680><c> result,</c><00:04:46.320><c> MQA's</c><00:04:47.199><c> performance</c>
+
+00:04:47.830 --> 00:04:47.840 align:start position:0%
+tokens. As a result, MQA's performance
+ 
+
+00:04:47.840 --> 00:04:50.390 align:start position:0%
+tokens. As a result, MQA's performance
+degrades<00:04:48.560><c> considerably</c><00:04:49.600><c> compared</c><00:04:50.000><c> to</c><00:04:50.160><c> the</c>
+
+00:04:50.390 --> 00:04:50.400 align:start position:0%
+degrades considerably compared to the
+ 
+
+00:04:50.400 --> 00:04:53.350 align:start position:0%
+degrades considerably compared to the
+original<00:04:50.960><c> multi</c><00:04:51.360><c> head</c><00:04:51.680><c> attention.</c><00:04:53.120><c> This</c>
+
+00:04:53.350 --> 00:04:53.360 align:start position:0%
+original multi head attention. This
+ 
+
+00:04:53.360 --> 00:04:55.430 align:start position:0%
+original multi head attention. This
+limitation<00:04:54.080><c> has</c><00:04:54.400><c> inspired</c><00:04:55.040><c> several</c>
+
+00:04:55.430 --> 00:04:55.440 align:start position:0%
+limitation has inspired several
+ 
+
+00:04:55.440 --> 00:04:57.749 align:start position:0%
+limitation has inspired several
+subsequent<00:04:56.000><c> innovations</c><00:04:56.960><c> such</c><00:04:57.199><c> as</c><00:04:57.440><c> grouped</c>
+
+00:04:57.749 --> 00:04:57.759 align:start position:0%
+subsequent innovations such as grouped
+ 
+
+00:04:57.759 --> 00:05:01.110 align:start position:0%
+subsequent innovations such as grouped
+query<00:04:58.080><c> attention,</c><00:04:59.120><c> GQA,</c><00:05:00.160><c> and</c><00:05:00.400><c> multi-head</c>
+
+00:05:01.110 --> 00:05:01.120 align:start position:0%
+query attention, GQA, and multi-head
+ 
+
+00:05:01.120 --> 00:05:04.469 align:start position:0%
+query attention, GQA, and multi-head
+latent<00:05:01.520><c> attention,</c><00:05:02.479><c> MLA.</c>
+
+00:05:04.469 --> 00:05:04.479 align:start position:0%
+latent attention, MLA.
+ 
+
+00:05:04.479 --> 00:05:07.189 align:start position:0%
+latent attention, MLA.
+But<00:05:05.199><c> all</c><00:05:05.440><c> of</c><00:05:05.520><c> these</c><00:05:05.759><c> methods</c><00:05:06.400><c> focus</c><00:05:06.720><c> on</c><00:05:06.960><c> the</c>
+
+00:05:07.189 --> 00:05:07.199 align:start position:0%
+But all of these methods focus on the
+ 
+
+00:05:07.199 --> 00:05:10.390 align:start position:0%
+But all of these methods focus on the
+number<00:05:07.440><c> of</c><00:05:07.680><c> attention</c><00:05:08.160><c> heads.</c><00:05:09.600><c> Instead,</c>
+
+00:05:10.390 --> 00:05:10.400 align:start position:0%
+number of attention heads. Instead,
+ 
+
+00:05:10.400 --> 00:05:12.629 align:start position:0%
+number of attention heads. Instead,
+Deepseek's<00:05:11.120><c> new</c><00:05:11.360><c> attention</c><00:05:11.840><c> mechanism</c>
+
+00:05:12.629 --> 00:05:12.639 align:start position:0%
+Deepseek's new attention mechanism
+ 
+
+00:05:12.639 --> 00:05:14.629 align:start position:0%
+Deepseek's new attention mechanism
+shifts<00:05:13.039><c> the</c><00:05:13.280><c> focus</c><00:05:13.759><c> from</c><00:05:14.000><c> the</c><00:05:14.240><c> number</c><00:05:14.479><c> of</c>
+
+00:05:14.629 --> 00:05:14.639 align:start position:0%
+shifts the focus from the number of
+ 
+
+00:05:14.639 --> 00:05:17.909 align:start position:0%
+shifts the focus from the number of
+heads<00:05:15.280><c> to</c><00:05:15.440><c> the</c><00:05:15.680><c> sequence</c><00:05:16.080><c> lens.</c>
+
+00:05:17.909 --> 00:05:17.919 align:start position:0%
+heads to the sequence lens.
+ 
+
+00:05:17.919 --> 00:05:20.710 align:start position:0%
+heads to the sequence lens.
+So,<00:05:18.400><c> how</c><00:05:18.639><c> do</c><00:05:18.720><c> we</c><00:05:18.960><c> compress</c><00:05:19.440><c> the</c><00:05:19.680><c> KV</c><00:05:20.240><c> cache</c>
+
+00:05:20.710 --> 00:05:20.720 align:start position:0%
+So, how do we compress the KV cache
+ 
+
+00:05:20.720 --> 00:05:23.270 align:start position:0%
+So, how do we compress the KV cache
+along<00:05:21.120><c> the</c><00:05:21.360><c> sequence</c><00:05:21.759><c> dimension?</c>
+
+00:05:23.270 --> 00:05:23.280 align:start position:0%
+along the sequence dimension?
+ 
+
+00:05:23.280 --> 00:05:26.550 align:start position:0%
+along the sequence dimension?
+Here<00:05:23.680><c> we</c><00:05:23.919><c> have</c><00:05:24.080><c> a</c><00:05:24.240><c> sequence</c><00:05:24.639><c> of</c><00:05:24.960><c> 16</c><00:05:25.360><c> tokens.</c>
+
+00:05:26.550 --> 00:05:26.560 align:start position:0%
+Here we have a sequence of 16 tokens.
+ 
+
+00:05:26.560 --> 00:05:30.390 align:start position:0%
+Here we have a sequence of 16 tokens.
+Each<00:05:26.880><c> token</c><00:05:27.199><c> embedding</c><00:05:27.759><c> is</c><00:05:28.000><c> a</c><00:05:28.240><c> 7,168</c>
+
+00:05:30.390 --> 00:05:30.400 align:start position:0%
+Each token embedding is a 7,168
+ 
+
+00:05:30.400 --> 00:05:32.390 align:start position:0%
+Each token embedding is a 7,168
+dimensional<00:05:30.960><c> vector.</c>
+
+00:05:32.390 --> 00:05:32.400 align:start position:0%
+dimensional vector.
+ 
+
+00:05:32.400 --> 00:05:34.230 align:start position:0%
+dimensional vector.
+We<00:05:32.639><c> extract</c><00:05:32.960><c> the</c><00:05:33.120><c> key</c><00:05:33.360><c> value</c><00:05:33.680><c> information</c>
+
+00:05:34.230 --> 00:05:34.240 align:start position:0%
+We extract the key value information
+ 
+
+00:05:34.240 --> 00:05:37.350 align:start position:0%
+We extract the key value information
+using<00:05:34.560><c> a</c><00:05:34.800><c> matrix</c><00:05:35.360><c> W</c><00:05:35.680><c> KV.</c>
+
+00:05:37.350 --> 00:05:37.360 align:start position:0%
+using a matrix W KV.
+ 
+
+00:05:37.360 --> 00:05:40.230 align:start position:0%
+using a matrix W KV.
+This<00:05:37.680><c> maps</c><00:05:38.080><c> the</c><00:05:38.320><c> D-dimensional</c><00:05:39.280><c> hidden</c><00:05:39.759><c> state</c>
+
+00:05:40.230 --> 00:05:40.240 align:start position:0%
+This maps the D-dimensional hidden state
+ 
+
+00:05:40.240 --> 00:05:43.029 align:start position:0%
+This maps the D-dimensional hidden state
+to<00:05:40.560><c> a</c><00:05:40.720><c> lower</c><00:05:41.120><c> dimensional</c><00:05:41.600><c> vector</c><00:05:42.240><c> we</c><00:05:42.560><c> call</c><00:05:42.800><c> a</c>
+
+00:05:43.029 --> 00:05:43.039 align:start position:0%
+to a lower dimensional vector we call a
+ 
+
+00:05:43.039 --> 00:05:47.110 align:start position:0%
+to a lower dimensional vector we call a
+key<00:05:43.360><c> value</c><00:05:43.759><c> entry.</c><00:05:45.199><c> In</c><00:05:45.360><c> the</c><00:05:45.520><c> deepsev4</c><00:05:46.639><c> model,</c>
+
+00:05:47.110 --> 00:05:47.120 align:start position:0%
+key value entry. In the deepsev4 model,
+ 
+
+00:05:47.120 --> 00:05:51.029 align:start position:0%
+key value entry. In the deepsev4 model,
+the<00:05:47.440><c> dimension</c><00:05:48.000><c> C</c><00:05:48.400><c> is</c><00:05:48.639><c> set</c><00:05:48.880><c> to</c><00:05:49.199><c> 512.</c>
+
+00:05:51.029 --> 00:05:51.039 align:start position:0%
+the dimension C is set to 512.
+ 
+
+00:05:51.039 --> 00:05:53.110 align:start position:0%
+the dimension C is set to 512.
+The<00:05:51.360><c> computation</c><00:05:52.000><c> can</c><00:05:52.240><c> be</c><00:05:52.400><c> concisively</c>
+
+00:05:53.110 --> 00:05:53.120 align:start position:0%
+The computation can be concisively
+ 
+
+00:05:53.120 --> 00:05:55.749 align:start position:0%
+The computation can be concisively
+expressed<00:05:53.759><c> as</c><00:05:54.080><c> a</c><00:05:54.240><c> single</c><00:05:54.639><c> matrix</c><00:05:55.199><c> matrix</c>
+
+00:05:55.749 --> 00:05:55.759 align:start position:0%
+expressed as a single matrix matrix
+ 
+
+00:05:55.759 --> 00:05:57.749 align:start position:0%
+expressed as a single matrix matrix
+multiplication.
+
+00:05:57.749 --> 00:05:57.759 align:start position:0%
+multiplication.
+ 
+
+00:05:57.759 --> 00:06:00.550 align:start position:0%
+multiplication.
+Intuitively,<00:05:58.800><c> not</c><00:05:59.039><c> all</c><00:05:59.280><c> tokens</c><00:05:59.919><c> carry</c><00:06:00.320><c> the</c>
+
+00:06:00.550 --> 00:06:00.560 align:start position:0%
+Intuitively, not all tokens carry the
+ 
+
+00:06:00.560 --> 00:06:03.110 align:start position:0%
+Intuitively, not all tokens carry the
+same<00:06:00.720><c> level</c><00:06:01.120><c> of</c><00:06:01.440><c> importance.</c>
+
+00:06:03.110 --> 00:06:03.120 align:start position:0%
+same level of importance.
+ 
+
+00:06:03.120 --> 00:06:05.430 align:start position:0%
+same level of importance.
+Therefore,<00:06:03.680><c> we</c><00:06:04.000><c> can</c><00:06:04.160><c> compress</c><00:06:04.639><c> a</c><00:06:04.960><c> group</c><00:06:05.199><c> of</c>
+
+00:06:05.430 --> 00:06:05.440 align:start position:0%
+Therefore, we can compress a group of
+ 
+
+00:06:05.440 --> 00:06:09.430 align:start position:0%
+Therefore, we can compress a group of
+key<00:06:05.759><c> value</c><00:06:06.080><c> entries</c><00:06:06.720><c> into</c><00:06:07.199><c> one.</c><00:06:08.560><c> For</c><00:06:08.720><c> example,</c>
+
+00:06:09.430 --> 00:06:09.440 align:start position:0%
+key value entries into one. For example,
+ 
+
+00:06:09.440 --> 00:06:11.990 align:start position:0%
+key value entries into one. For example,
+by<00:06:09.759><c> compressing</c><00:06:10.319><c> groups</c><00:06:10.720><c> of</c><00:06:11.039><c> four</c><00:06:11.360><c> key</c><00:06:11.680><c> value</c>
+
+00:06:11.990 --> 00:06:12.000 align:start position:0%
+by compressing groups of four key value
+ 
+
+00:06:12.000 --> 00:06:15.430 align:start position:0%
+by compressing groups of four key value
+entries<00:06:12.560><c> into</c><00:06:13.039><c> one,</c><00:06:13.840><c> we</c><00:06:14.080><c> achieve</c><00:06:14.400><c> a</c><00:06:14.720><c> four-fold</c>
+
+00:06:15.430 --> 00:06:15.440 align:start position:0%
+entries into one, we achieve a four-fold
+ 
+
+00:06:15.440 --> 00:06:18.309 align:start position:0%
+entries into one, we achieve a four-fold
+reduction<00:06:16.000><c> in</c><00:06:16.319><c> memory</c><00:06:16.800><c> usage.</c>
+
+00:06:18.309 --> 00:06:18.319 align:start position:0%
+reduction in memory usage.
+ 
+
+00:06:18.319 --> 00:06:20.870 align:start position:0%
+reduction in memory usage.
+But<00:06:18.720><c> how</c><00:06:19.039><c> exactly</c><00:06:19.680><c> does</c><00:06:20.000><c> this</c><00:06:20.240><c> compression</c>
+
+00:06:20.870 --> 00:06:20.880 align:start position:0%
+But how exactly does this compression
+ 
+
+00:06:20.880 --> 00:06:23.909 align:start position:0%
+But how exactly does this compression
+work?<00:06:22.240><c> The</c><00:06:22.560><c> simplest</c><00:06:22.960><c> approach</c><00:06:23.360><c> is</c><00:06:23.600><c> to</c>
+
+00:06:23.909 --> 00:06:23.919 align:start position:0%
+work? The simplest approach is to
+ 
+
+00:06:23.919 --> 00:06:26.870 align:start position:0%
+work? The simplest approach is to
+average<00:06:24.319><c> the</c><00:06:24.560><c> four</c><00:06:24.880><c> KV</c><00:06:25.360><c> entries.</c>
+
+00:06:26.870 --> 00:06:26.880 align:start position:0%
+average the four KV entries.
+ 
+
+00:06:26.880 --> 00:06:30.390 align:start position:0%
+average the four KV entries.
+This<00:06:27.120><c> works,</c><00:06:27.759><c> but</c><00:06:28.080><c> clearly</c><00:06:28.560><c> it's</c><00:06:28.800><c> not</c><00:06:29.039><c> ideal.</c>
+
+00:06:30.390 --> 00:06:30.400 align:start position:0%
+This works, but clearly it's not ideal.
+ 
+
+00:06:30.400 --> 00:06:32.870 align:start position:0%
+This works, but clearly it's not ideal.
+Information<00:06:30.960><c> from</c><00:06:31.280><c> an</c><00:06:31.520><c> important</c><00:06:31.919><c> token</c><00:06:32.560><c> may</c>
+
+00:06:32.870 --> 00:06:32.880 align:start position:0%
+Information from an important token may
+ 
+
+00:06:32.880 --> 00:06:35.270 align:start position:0%
+Information from an important token may
+be<00:06:32.960><c> diluted</c><00:06:33.600><c> by</c><00:06:33.759><c> the</c><00:06:34.000><c> other</c><00:06:34.240><c> tokens</c><00:06:34.800><c> in</c><00:06:35.039><c> its</c>
+
+00:06:35.270 --> 00:06:35.280 align:start position:0%
+be diluted by the other tokens in its
+ 
+
+00:06:35.280 --> 00:06:38.790 align:start position:0%
+be diluted by the other tokens in its
+group.<00:06:36.639><c> To</c><00:06:36.960><c> address</c><00:06:37.280><c> this,</c><00:06:37.840><c> we</c><00:06:38.080><c> use</c><00:06:38.319><c> data</c>
+
+00:06:38.790 --> 00:06:38.800 align:start position:0%
+group. To address this, we use data
+ 
+
+00:06:38.800 --> 00:06:42.070 align:start position:0%
+group. To address this, we use data
+dependent<00:06:39.280><c> waiting.</c><00:06:40.560><c> More</c><00:06:40.880><c> specifically,</c><00:06:41.840><c> we</c>
+
+00:06:42.070 --> 00:06:42.080 align:start position:0%
+dependent waiting. More specifically, we
+ 
+
+00:06:42.080 --> 00:06:45.029 align:start position:0%
+dependent waiting. More specifically, we
+compute<00:06:42.400><c> a</c><00:06:42.639><c> scalar</c><00:06:43.120><c> score</c><00:06:43.680><c> for</c><00:06:44.000><c> each</c><00:06:44.240><c> token</c><00:06:44.800><c> in</c>
+
+00:06:45.029 --> 00:06:45.039 align:start position:0%
+compute a scalar score for each token in
+ 
+
+00:06:45.039 --> 00:06:47.670 align:start position:0%
+compute a scalar score for each token in
+the<00:06:45.199><c> group</c><00:06:45.680><c> using</c><00:06:46.000><c> a</c><00:06:46.240><c> dotproduct</c><00:06:47.120><c> between</c><00:06:47.440><c> its</c>
+
+00:06:47.670 --> 00:06:47.680 align:start position:0%
+the group using a dotproduct between its
+ 
+
+00:06:47.680 --> 00:06:50.950 align:start position:0%
+the group using a dotproduct between its
+hidden<00:06:48.080><c> state</c><00:06:48.639><c> and</c><00:06:48.880><c> a</c><00:06:49.039><c> learn</c><00:06:49.360><c> weight</c><00:06:49.600><c> vector.</c>
+
+00:06:50.950 --> 00:06:50.960 align:start position:0%
+hidden state and a learn weight vector.
+ 
+
+00:06:50.960 --> 00:06:52.790 align:start position:0%
+hidden state and a learn weight vector.
+We<00:06:51.199><c> then</c><00:06:51.440><c> pass</c><00:06:51.759><c> the</c><00:06:52.000><c> scores</c><00:06:52.400><c> through</c><00:06:52.639><c> a</c>
+
+00:06:52.790 --> 00:06:52.800 align:start position:0%
+We then pass the scores through a
+ 
+
+00:06:52.800 --> 00:06:56.469 align:start position:0%
+We then pass the scores through a
+softmax<00:06:53.520><c> function</c><00:06:54.080><c> to</c><00:06:54.400><c> obtain</c><00:06:54.800><c> weights</c><00:06:55.600><c> S1</c><00:06:56.160><c> to</c>
+
+00:06:56.469 --> 00:06:56.479 align:start position:0%
+softmax function to obtain weights S1 to
+ 
+
+00:06:56.479 --> 00:06:59.589 align:start position:0%
+softmax function to obtain weights S1 to
+S4.<00:06:57.840><c> These</c><00:06:58.160><c> weights</c><00:06:58.560><c> determine</c><00:06:59.120><c> how</c><00:06:59.360><c> much</c>
+
+00:06:59.589 --> 00:06:59.599 align:start position:0%
+S4. These weights determine how much
+ 
+
+00:06:59.599 --> 00:07:02.390 align:start position:0%
+S4. These weights determine how much
+each<00:06:59.919><c> token</c><00:07:00.560><c> contributes</c><00:07:01.280><c> to</c><00:07:01.520><c> the</c><00:07:01.759><c> compressed</c>
+
+00:07:02.390 --> 00:07:02.400 align:start position:0%
+each token contributes to the compressed
+ 
+
+00:07:02.400 --> 00:07:04.390 align:start position:0%
+each token contributes to the compressed
+KV<00:07:02.880><c> entry.</c>
+
+00:07:04.390 --> 00:07:04.400 align:start position:0%
+KV entry.
+ 
+
+00:07:04.400 --> 00:07:06.950 align:start position:0%
+KV entry.
+This<00:07:04.720><c> allows</c><00:07:05.120><c> the</c><00:07:05.280><c> model</c><00:07:05.759><c> to</c><00:07:06.080><c> adaptively</c>
+
+00:07:06.950 --> 00:07:06.960 align:start position:0%
+This allows the model to adaptively
+ 
+
+00:07:06.960 --> 00:07:10.070 align:start position:0%
+This allows the model to adaptively
+emphasize<00:07:07.919><c> the</c><00:07:08.240><c> most</c><00:07:08.560><c> informative</c><00:07:09.199><c> tokens</c>
+
+00:07:10.070 --> 00:07:10.080 align:start position:0%
+emphasize the most informative tokens
+ 
+
+00:07:10.080 --> 00:07:12.790 align:start position:0%
+emphasize the most informative tokens
+within<00:07:10.479><c> each</c><00:07:10.800><c> group</c><00:07:11.680><c> rather</c><00:07:12.080><c> than</c><00:07:12.400><c> treating</c>
+
+00:07:12.790 --> 00:07:12.800 align:start position:0%
+within each group rather than treating
+ 
+
+00:07:12.800 --> 00:07:15.589 align:start position:0%
+within each group rather than treating
+all<00:07:13.120><c> tokens</c><00:07:13.840><c> equally.</c>
+
+00:07:15.589 --> 00:07:15.599 align:start position:0%
+all tokens equally.
+ 
+
+00:07:15.599 --> 00:07:18.550 align:start position:0%
+all tokens equally.
+The<00:07:15.919><c> result</c><00:07:16.319><c> is</c><00:07:16.560><c> a</c><00:07:16.720><c> compressed</c><00:07:17.199><c> set</c><00:07:17.599><c> of</c><00:07:18.000><c> key</c>
+
+00:07:18.550 --> 00:07:18.560 align:start position:0%
+The result is a compressed set of key
+ 
+
+00:07:18.560 --> 00:07:21.510 align:start position:0%
+The result is a compressed set of key
+and<00:07:18.800><c> value</c><00:07:19.199><c> entries</c><00:07:20.080><c> that</c><00:07:20.400><c> captures</c><00:07:20.960><c> the</c><00:07:21.199><c> most</c>
+
+00:07:21.510 --> 00:07:21.520 align:start position:0%
+and value entries that captures the most
+ 
+
+00:07:21.520 --> 00:07:23.670 align:start position:0%
+and value entries that captures the most
+relevant<00:07:22.000><c> context</c><00:07:22.720><c> across</c><00:07:23.199><c> longer</c>
+
+00:07:23.670 --> 00:07:23.680 align:start position:0%
+relevant context across longer
+ 
+
+00:07:23.680 --> 00:07:25.589 align:start position:0%
+relevant context across longer
+sequences.
+
+00:07:25.589 --> 00:07:25.599 align:start position:0%
+sequences.
+ 
+
+00:07:25.599 --> 00:07:27.909 align:start position:0%
+sequences.
+But<00:07:26.080><c> these</c><00:07:26.319><c> key</c><00:07:26.639><c> value</c><00:07:26.960><c> entries</c><00:07:27.520><c> are</c>
+
+00:07:27.909 --> 00:07:27.919 align:start position:0%
+But these key value entries are
+ 
+
+00:07:27.919 --> 00:07:31.430 align:start position:0%
+But these key value entries are
+512dimensional<00:07:29.280><c> vectors.</c><00:07:30.560><c> Using</c><00:07:30.880><c> a</c><00:07:31.120><c> single</c>
+
+00:07:31.430 --> 00:07:31.440 align:start position:0%
+512dimensional vectors. Using a single
+ 
+
+00:07:31.440 --> 00:07:34.070 align:start position:0%
+512dimensional vectors. Using a single
+scalar<00:07:31.840><c> weight</c><00:07:32.479><c> means</c><00:07:32.800><c> that</c><00:07:33.120><c> every</c><00:07:33.440><c> dimension</c>
+
+00:07:34.070 --> 00:07:34.080 align:start position:0%
+scalar weight means that every dimension
+ 
+
+00:07:34.080 --> 00:07:37.350 align:start position:0%
+scalar weight means that every dimension
+of<00:07:34.240><c> a</c><00:07:34.479><c> token's</c><00:07:34.960><c> KB</c><00:07:35.440><c> vector</c><00:07:36.240><c> gets</c><00:07:36.560><c> scaled</c><00:07:37.120><c> by</c>
+
+00:07:37.350 --> 00:07:37.360 align:start position:0%
+of a token's KB vector gets scaled by
+ 
+
+00:07:37.360 --> 00:07:39.270 align:start position:0%
+of a token's KB vector gets scaled by
+the<00:07:37.599><c> same</c><00:07:37.759><c> amount.</c>
+
+00:07:39.270 --> 00:07:39.280 align:start position:0%
+the same amount.
+ 
+
+00:07:39.280 --> 00:07:41.670 align:start position:0%
+the same amount.
+Therefore,<00:07:39.840><c> we</c><00:07:40.160><c> generalize</c><00:07:40.800><c> these</c><00:07:41.199><c> scalar</c>
+
+00:07:41.670 --> 00:07:41.680 align:start position:0%
+Therefore, we generalize these scalar
+ 
+
+00:07:41.680 --> 00:07:44.950 align:start position:0%
+Therefore, we generalize these scalar
+weights<00:07:42.160><c> to</c><00:07:42.479><c> per</c><00:07:42.880><c> dimension</c><00:07:43.440><c> weights.</c>
+
+00:07:44.950 --> 00:07:44.960 align:start position:0%
+weights to per dimension weights.
+ 
+
+00:07:44.960 --> 00:07:47.670 align:start position:0%
+weights to per dimension weights.
+More<00:07:45.280><c> precisely,</c><00:07:46.240><c> the</c><00:07:46.560><c> model</c><00:07:46.960><c> computes</c><00:07:47.360><c> a</c>
+
+00:07:47.670 --> 00:07:47.680 align:start position:0%
+More precisely, the model computes a
+ 
+
+00:07:47.680 --> 00:07:50.150 align:start position:0%
+More precisely, the model computes a
+distinct<00:07:48.080><c> weight</c><00:07:48.560><c> for</c><00:07:48.880><c> each</c><00:07:49.280><c> dimension</c>
+
+00:07:50.150 --> 00:07:50.160 align:start position:0%
+distinct weight for each dimension
+ 
+
+00:07:50.160 --> 00:07:52.710 align:start position:0%
+distinct weight for each dimension
+across<00:07:50.639><c> the</c><00:07:50.960><c> 512dimensional</c>
+
+00:07:52.710 --> 00:07:52.720 align:start position:0%
+across the 512dimensional
+ 
+
+00:07:52.720 --> 00:07:56.950 align:start position:0%
+across the 512dimensional
+KV<00:07:53.280><c> vectors</c><00:07:54.240><c> using</c><00:07:54.560><c> the</c><00:07:54.720><c> softmax</c><00:07:55.440><c> function.</c>
+
+00:07:56.950 --> 00:07:56.960 align:start position:0%
+KV vectors using the softmax function.
+ 
+
+00:07:56.960 --> 00:07:58.950 align:start position:0%
+KV vectors using the softmax function.
+This<00:07:57.280><c> gives</c><00:07:57.520><c> the</c><00:07:57.759><c> model</c><00:07:58.240><c> fine</c><00:07:58.560><c> grained</c>
+
+00:07:58.950 --> 00:07:58.960 align:start position:0%
+This gives the model fine grained
+ 
+
+00:07:58.960 --> 00:08:02.150 align:start position:0%
+This gives the model fine grained
+control<00:07:59.599><c> over</c><00:07:59.919><c> which</c><00:08:00.160><c> features</c><00:08:00.639><c> to</c><00:08:00.960><c> retain</c>
+
+00:08:02.150 --> 00:08:02.160 align:start position:0%
+control over which features to retain
+ 
+
+00:08:02.160 --> 00:08:05.029 align:start position:0%
+control over which features to retain
+using<00:08:02.560><c> a</c><00:08:02.879><c> weighted</c><00:08:03.360><c> sum</c><00:08:04.000><c> with</c><00:08:04.319><c> learned</c><00:08:04.720><c> per</c>
+
+00:08:05.029 --> 00:08:05.039 align:start position:0%
+using a weighted sum with learned per
+ 
+
+00:08:05.039 --> 00:08:07.430 align:start position:0%
+using a weighted sum with learned per
+dimension<00:08:05.520><c> weights,</c><00:08:06.560><c> preserving</c><00:08:07.199><c> more</c>
+
+00:08:07.430 --> 00:08:07.440 align:start position:0%
+dimension weights, preserving more
+ 
+
+00:08:07.440 --> 00:08:10.150 align:start position:0%
+dimension weights, preserving more
+detailed<00:08:08.000><c> information</c><00:08:08.720><c> than</c><00:08:09.120><c> simple</c><00:08:09.680><c> scalar</c>
+
+00:08:10.150 --> 00:08:10.160 align:start position:0%
+detailed information than simple scalar
+ 
+
+00:08:10.160 --> 00:08:11.670 align:start position:0%
+detailed information than simple scalar
+waiting.
+
+00:08:11.670 --> 00:08:11.680 align:start position:0%
+waiting.
+ 
+
+00:08:11.680 --> 00:08:14.070 align:start position:0%
+waiting.
+This<00:08:12.000><c> element</c><00:08:12.400><c> wise</c><00:08:12.720><c> multiplication</c><00:08:13.680><c> can</c><00:08:13.919><c> be</c>
+
+00:08:14.070 --> 00:08:14.080 align:start position:0%
+This element wise multiplication can be
+ 
+
+00:08:14.080 --> 00:08:16.950 align:start position:0%
+This element wise multiplication can be
+more<00:08:14.400><c> compactly</c><00:08:15.120><c> represented</c><00:08:16.000><c> using</c><00:08:16.400><c> matrix</c>
+
+00:08:16.950 --> 00:08:16.960 align:start position:0%
+more compactly represented using matrix
+ 
+
+00:08:16.960 --> 00:08:18.790 align:start position:0%
+more compactly represented using matrix
+notation.
+
+00:08:18.790 --> 00:08:18.800 align:start position:0%
+notation.
+ 
+
+00:08:18.800 --> 00:08:21.589 align:start position:0%
+notation.
+This<00:08:19.120><c> matrix</c><00:08:19.840><c> which</c><00:08:20.160><c> produces</c><00:08:20.720><c> per</c><00:08:21.039><c> dimension</c>
+
+00:08:21.589 --> 00:08:21.599 align:start position:0%
+This matrix which produces per dimension
+ 
+
+00:08:21.599 --> 00:08:24.469 align:start position:0%
+This matrix which produces per dimension
+scores<00:08:22.240><c> before</c><00:08:22.639><c> the</c><00:08:22.879><c> softmax</c><00:08:23.520><c> function</c><00:08:24.240><c> is</c>
+
+00:08:24.469 --> 00:08:24.479 align:start position:0%
+scores before the softmax function is
+ 
+
+00:08:24.479 --> 00:08:27.029 align:start position:0%
+scores before the softmax function is
+denoted<00:08:25.280><c> wz.</c>
+
+00:08:27.029 --> 00:08:27.039 align:start position:0%
+denoted wz.
+ 
+
+00:08:27.039 --> 00:08:29.510 align:start position:0%
+denoted wz.
+However,<00:08:27.599><c> when</c><00:08:27.840><c> we</c><00:08:28.080><c> visualize</c><00:08:28.639><c> the</c><00:08:28.879><c> key</c><00:08:29.199><c> value</c>
+
+00:08:29.510 --> 00:08:29.520 align:start position:0%
+However, when we visualize the key value
+ 
+
+00:08:29.520 --> 00:08:32.310 align:start position:0%
+However, when we visualize the key value
+vector<00:08:30.080><c> compression</c><00:08:30.720><c> process,</c><00:08:31.759><c> we</c><00:08:32.000><c> notice</c>
+
+00:08:32.310 --> 00:08:32.320 align:start position:0%
+vector compression process, we notice
+ 
+
+00:08:32.320 --> 00:08:34.630 align:start position:0%
+vector compression process, we notice
+that<00:08:32.719><c> there</c><00:08:33.039><c> are</c><00:08:33.200><c> artificial</c><00:08:33.760><c> boundaries</c>
+
+00:08:34.630 --> 00:08:34.640 align:start position:0%
+that there are artificial boundaries
+ 
+
+00:08:34.640 --> 00:08:37.589 align:start position:0%
+that there are artificial boundaries
+between<00:08:35.039><c> the</c><00:08:35.360><c> compressed</c><00:08:35.839><c> vectors.</c>
+
+00:08:37.589 --> 00:08:37.599 align:start position:0%
+between the compressed vectors.
+ 
+
+00:08:37.599 --> 00:08:40.310 align:start position:0%
+between the compressed vectors.
+In<00:08:37.839><c> other</c><00:08:38.000><c> words,</c><00:08:38.719><c> each</c><00:08:39.039><c> compressed</c><00:08:39.599><c> vector</c>
+
+00:08:40.310 --> 00:08:40.320 align:start position:0%
+In other words, each compressed vector
+ 
+
+00:08:40.320 --> 00:08:42.949 align:start position:0%
+In other words, each compressed vector
+is<00:08:40.640><c> formed</c><00:08:41.039><c> from</c><00:08:41.279><c> a</c><00:08:41.519><c> separate</c><00:08:42.320><c> non-over</c>
+
+00:08:42.949 --> 00:08:42.959 align:start position:0%
+is formed from a separate non-over
+ 
+
+00:08:42.959 --> 00:08:46.470 align:start position:0%
+is formed from a separate non-over
+overlapping<00:08:43.440><c> group</c><00:08:43.760><c> of</c><00:08:44.159><c> key</c><00:08:44.480><c> value</c><00:08:44.800><c> vectors.</c>
+
+00:08:46.470 --> 00:08:46.480 align:start position:0%
+overlapping group of key value vectors.
+ 
+
+00:08:46.480 --> 00:08:49.269 align:start position:0%
+overlapping group of key value vectors.
+The<00:08:46.800><c> outcome</c><00:08:47.279><c> can</c><00:08:47.600><c> vary</c><00:08:48.000><c> greatly</c><00:08:48.800><c> depending</c>
+
+00:08:49.269 --> 00:08:49.279 align:start position:0%
+The outcome can vary greatly depending
+ 
+
+00:08:49.279 --> 00:08:52.550 align:start position:0%
+The outcome can vary greatly depending
+on<00:08:49.519><c> how</c><00:08:49.839><c> the</c><00:08:50.000><c> tokens</c><00:08:50.640><c> are</c><00:08:50.880><c> grouped.</c><00:08:52.320><c> To</c>
+
+00:08:52.550 --> 00:08:52.560 align:start position:0%
+on how the tokens are grouped. To
+ 
+
+00:08:52.560 --> 00:08:55.190 align:start position:0%
+on how the tokens are grouped. To
+address<00:08:52.880><c> this</c><00:08:53.200><c> limitation,</c><00:08:54.160><c> we</c><00:08:54.399><c> incorporate</c>
+
+00:08:55.190 --> 00:08:55.200 align:start position:0%
+address this limitation, we incorporate
+ 
+
+00:08:55.200 --> 00:08:57.990 align:start position:0%
+address this limitation, we incorporate
+overlapping<00:08:55.680><c> groups</c><00:08:56.160><c> of</c><00:08:56.399><c> vectors,</c><00:08:57.600><c> allowing</c>
+
+00:08:57.990 --> 00:08:58.000 align:start position:0%
+overlapping groups of vectors, allowing
+ 
+
+00:08:58.000 --> 00:09:00.790 align:start position:0%
+overlapping groups of vectors, allowing
+each<00:08:58.399><c> compressed</c><00:08:58.959><c> entry</c><00:08:59.600><c> to</c><00:08:59.839><c> draw</c><00:09:00.240><c> context</c>
+
+00:09:00.790 --> 00:09:00.800 align:start position:0%
+each compressed entry to draw context
+ 
+
+00:09:00.800 --> 00:09:03.590 align:start position:0%
+each compressed entry to draw context
+from<00:09:01.120><c> both</c><00:09:01.440><c> its</c><00:09:01.680><c> current</c><00:09:02.000><c> group</c><00:09:02.720><c> and</c><00:09:03.040><c> adjacent</c>
+
+00:09:03.590 --> 00:09:03.600 align:start position:0%
+from both its current group and adjacent
+ 
+
+00:09:03.600 --> 00:09:06.710 align:start position:0%
+from both its current group and adjacent
+groups<00:09:04.080><c> of</c><00:09:04.399><c> key</c><00:09:04.800><c> value</c><00:09:05.120><c> vectors.</c>
+
+00:09:06.710 --> 00:09:06.720 align:start position:0%
+groups of key value vectors.
+ 
+
+00:09:06.720 --> 00:09:09.509 align:start position:0%
+groups of key value vectors.
+We<00:09:07.040><c> first</c><00:09:07.360><c> expand</c><00:09:07.760><c> the</c><00:09:08.080><c> key</c><00:09:08.399><c> value</c><00:09:08.720><c> vectors</c>
+
+00:09:09.509 --> 00:09:09.519 align:start position:0%
+We first expand the key value vectors
+ 
+
+00:09:09.519 --> 00:09:11.829 align:start position:0%
+We first expand the key value vectors
+and<00:09:09.760><c> the</c><00:09:10.000><c> corresponding</c><00:09:10.640><c> weight</c><00:09:10.959><c> matrix</c><00:09:11.600><c> for</c>
+
+00:09:11.829 --> 00:09:11.839 align:start position:0%
+and the corresponding weight matrix for
+ 
+
+00:09:11.839 --> 00:09:14.550 align:start position:0%
+and the corresponding weight matrix for
+the<00:09:12.080><c> previous</c><00:09:12.480><c> group</c><00:09:13.360><c> so</c><00:09:13.519><c> that</c><00:09:13.839><c> each</c><00:09:14.160><c> key</c>
+
+00:09:14.550 --> 00:09:14.560 align:start position:0%
+the previous group so that each key
+ 
+
+00:09:14.560 --> 00:09:17.750 align:start position:0%
+the previous group so that each key
+value<00:09:14.880><c> vector</c><00:09:15.600><c> is</c><00:09:15.920><c> included</c><00:09:16.640><c> in</c><00:09:16.959><c> multiple</c>
+
+00:09:17.750 --> 00:09:17.760 align:start position:0%
+value vector is included in multiple
+ 
+
+00:09:17.760 --> 00:09:19.750 align:start position:0%
+value vector is included in multiple
+overlapping<00:09:18.240><c> windows.</c>
+
+00:09:19.750 --> 00:09:19.760 align:start position:0%
+overlapping windows.
+ 
+
+00:09:19.760 --> 00:09:22.550 align:start position:0%
+overlapping windows.
+For<00:09:20.080><c> each</c><00:09:20.560><c> overlapping</c><00:09:21.120><c> window,</c><00:09:21.920><c> we</c><00:09:22.160><c> compute</c>
+
+00:09:22.550 --> 00:09:22.560 align:start position:0%
+For each overlapping window, we compute
+ 
+
+00:09:22.560 --> 00:09:25.670 align:start position:0%
+For each overlapping window, we compute
+the<00:09:22.800><c> per</c><00:09:23.120><c> dimension</c><00:09:23.600><c> weights</c><00:09:24.080><c> as</c><00:09:24.399><c> before,</c>
+
+00:09:25.670 --> 00:09:25.680 align:start position:0%
+the per dimension weights as before,
+ 
+
+00:09:25.680 --> 00:09:28.550 align:start position:0%
+the per dimension weights as before,
+obtaining<00:09:26.240><c> a</c><00:09:26.560><c> new</c><00:09:26.800><c> set</c><00:09:27.120><c> of</c><00:09:27.440><c> softmax</c><00:09:28.080><c> weights</c>
+
+00:09:28.550 --> 00:09:28.560 align:start position:0%
+obtaining a new set of softmax weights
+ 
+
+00:09:28.560 --> 00:09:30.470 align:start position:0%
+obtaining a new set of softmax weights
+for<00:09:28.800><c> that</c><00:09:29.040><c> group.</c>
+
+00:09:30.470 --> 00:09:30.480 align:start position:0%
+for that group.
+ 
+
+00:09:30.480 --> 00:09:33.350 align:start position:0%
+for that group.
+Each<00:09:30.880><c> token's</c><00:09:31.440><c> weighted</c><00:09:31.920><c> key</c><00:09:32.240><c> value</c><00:09:32.560><c> vector</c>
+
+00:09:33.350 --> 00:09:33.360 align:start position:0%
+Each token's weighted key value vector
+ 
+
+00:09:33.360 --> 00:09:36.949 align:start position:0%
+Each token's weighted key value vector
+is<00:09:33.760><c> shared</c><00:09:34.240><c> across</c><00:09:35.040><c> overlapping</c><00:09:35.600><c> groups.</c><00:09:36.720><c> So</c>
+
+00:09:36.949 --> 00:09:36.959 align:start position:0%
+is shared across overlapping groups. So
+ 
+
+00:09:36.959 --> 00:09:39.910 align:start position:0%
+is shared across overlapping groups. So
+its<00:09:37.360><c> information</c><00:09:38.240><c> contributes</c><00:09:39.040><c> to</c><00:09:39.360><c> multiple</c>
+
+00:09:39.910 --> 00:09:39.920 align:start position:0%
+its information contributes to multiple
+ 
+
+00:09:39.920 --> 00:09:42.470 align:start position:0%
+its information contributes to multiple
+compressed<00:09:40.560><c> entries.</c>
+
+00:09:42.470 --> 00:09:42.480 align:start position:0%
+compressed entries.
+ 
+
+00:09:42.480 --> 00:09:44.710 align:start position:0%
+compressed entries.
+This<00:09:42.959><c> overlapping</c><00:09:43.519><c> compression</c><00:09:44.080><c> scheme</c>
+
+00:09:44.710 --> 00:09:44.720 align:start position:0%
+This overlapping compression scheme
+ 
+
+00:09:44.720 --> 00:09:47.030 align:start position:0%
+This overlapping compression scheme
+enables<00:09:45.279><c> a</c><00:09:45.519><c> smoother</c><00:09:46.000><c> transition</c><00:09:46.640><c> of</c>
+
+00:09:47.030 --> 00:09:47.040 align:start position:0%
+enables a smoother transition of
+ 
+
+00:09:47.040 --> 00:09:50.230 align:start position:0%
+enables a smoother transition of
+information<00:09:47.839><c> across</c><00:09:48.480><c> groups,</c><00:09:49.600><c> mitigating</c>
+
+00:09:50.230 --> 00:09:50.240 align:start position:0%
+information across groups, mitigating
+ 
+
+00:09:50.240 --> 00:09:52.870 align:start position:0%
+information across groups, mitigating
+the<00:09:50.480><c> harsh</c><00:09:50.880><c> boundaries</c><00:09:51.600><c> imposed</c><00:09:52.080><c> by</c><00:09:52.320><c> non-over</c>
+
+00:09:52.870 --> 00:09:52.880 align:start position:0%
+the harsh boundaries imposed by non-over
+ 
+
+00:09:52.880 --> 00:09:55.030 align:start position:0%
+the harsh boundaries imposed by non-over
+overlapping<00:09:53.360><c> compression</c><00:09:54.399><c> and</c><00:09:54.720><c> better</c>
+
+00:09:55.030 --> 00:09:55.040 align:start position:0%
+overlapping compression and better
+ 
+
+00:09:55.040 --> 00:09:57.430 align:start position:0%
+overlapping compression and better
+preserving<00:09:55.680><c> important</c><00:09:56.240><c> contextual</c><00:09:56.800><c> signals</c>
+
+00:09:57.430 --> 00:09:57.440 align:start position:0%
+preserving important contextual signals
+ 
+
+00:09:57.440 --> 00:09:59.430 align:start position:0%
+preserving important contextual signals
+throughout<00:09:57.839><c> the</c><00:09:58.080><c> sequence.</c>
+
+00:09:59.430 --> 00:09:59.440 align:start position:0%
+throughout the sequence.
+ 
+
+00:09:59.440 --> 00:10:01.910 align:start position:0%
+throughout the sequence.
+We<00:09:59.760><c> refer</c><00:10:00.000><c> to</c><00:10:00.240><c> this</c><00:10:00.480><c> process</c><00:10:01.040><c> as</c><00:10:01.279><c> the</c><00:10:01.440><c> token</c>
+
+00:10:01.910 --> 00:10:01.920 align:start position:0%
+We refer to this process as the token
+ 
+
+00:10:01.920 --> 00:10:04.310 align:start position:0%
+We refer to this process as the token
+level<00:10:02.320><c> compressor.</c>
+
+00:10:04.310 --> 00:10:04.320 align:start position:0%
+level compressor.
+ 
+
+00:10:04.320 --> 00:10:06.550 align:start position:0%
+level compressor.
+Now<00:10:04.640><c> we</c><00:10:04.880><c> are</c><00:10:05.040><c> ready</c><00:10:05.279><c> to</c><00:10:05.440><c> integrate</c><00:10:05.920><c> the</c><00:10:06.160><c> token</c>
+
+00:10:06.550 --> 00:10:06.560 align:start position:0%
+Now we are ready to integrate the token
+ 
+
+00:10:06.560 --> 00:10:08.790 align:start position:0%
+Now we are ready to integrate the token
+level<00:10:06.959><c> compressor</c><00:10:07.760><c> into</c><00:10:08.080><c> the</c><00:10:08.320><c> attention</c>
+
+00:10:08.790 --> 00:10:08.800 align:start position:0%
+level compressor into the attention
+ 
+
+00:10:08.800 --> 00:10:10.550 align:start position:0%
+level compressor into the attention
+computation.
+
+00:10:10.550 --> 00:10:10.560 align:start position:0%
+computation.
+ 
+
+00:10:10.560 --> 00:10:12.550 align:start position:0%
+computation.
+Let's<00:10:10.800><c> start</c><00:10:11.120><c> from</c><00:10:11.279><c> the</c><00:10:11.519><c> standard</c><00:10:11.920><c> multi</c><00:10:12.320><c> head</c>
+
+00:10:12.550 --> 00:10:12.560 align:start position:0%
+Let's start from the standard multi head
+ 
+
+00:10:12.560 --> 00:10:15.509 align:start position:0%
+Let's start from the standard multi head
+attention<00:10:12.959><c> diagram.</c><00:10:14.399><c> We</c><00:10:14.640><c> first</c><00:10:14.959><c> reduce</c><00:10:15.279><c> the</c>
+
+00:10:15.509 --> 00:10:15.519 align:start position:0%
+attention diagram. We first reduce the
+ 
+
+00:10:15.519 --> 00:10:18.310 align:start position:0%
+attention diagram. We first reduce the
+number<00:10:15.839><c> of</c><00:10:16.160><c> key</c><00:10:16.480><c> and</c><00:10:16.720><c> value</c><00:10:17.040><c> vectors</c><00:10:17.600><c> from</c><00:10:18.000><c> h</c>
+
+00:10:18.310 --> 00:10:18.320 align:start position:0%
+number of key and value vectors from h
+ 
+
+00:10:18.320 --> 00:10:21.829 align:start position:0%
+number of key and value vectors from h
+heads<00:10:18.800><c> to</c><00:10:19.120><c> one.</c><00:10:20.560><c> This</c><00:10:20.800><c> is</c><00:10:20.880><c> the</c><00:10:21.120><c> multi-query</c>
+
+00:10:21.829 --> 00:10:21.839 align:start position:0%
+heads to one. This is the multi-query
+ 
+
+00:10:21.839 --> 00:10:24.870 align:start position:0%
+heads to one. This is the multi-query
+attention<00:10:22.800><c> MQA.</c>
+
+00:10:24.870 --> 00:10:24.880 align:start position:0%
+attention MQA.
+ 
+
+00:10:24.880 --> 00:10:26.949 align:start position:0%
+attention MQA.
+Next,<00:10:25.200><c> we</c><00:10:25.440><c> project</c><00:10:25.760><c> each</c><00:10:26.000><c> hidden</c><00:10:26.399><c> state</c><00:10:26.640><c> to</c><00:10:26.800><c> a</c>
+
+00:10:26.949 --> 00:10:26.959 align:start position:0%
+Next, we project each hidden state to a
+ 
+
+00:10:26.959 --> 00:10:29.590 align:start position:0%
+Next, we project each hidden state to a
+shared<00:10:27.200><c> key</c><00:10:27.440><c> value</c><00:10:27.760><c> entry</c><00:10:28.399><c> using</c><00:10:28.720><c> the</c><00:10:28.959><c> matrix</c>
+
+00:10:29.590 --> 00:10:29.600 align:start position:0%
+shared key value entry using the matrix
+ 
+
+00:10:29.600 --> 00:10:31.430 align:start position:0%
+shared key value entry using the matrix
+WKV.
+
+00:10:31.430 --> 00:10:31.440 align:start position:0%
+WKV.
+ 
+
+00:10:31.440 --> 00:10:33.509 align:start position:0%
+WKV.
+Then,<00:10:31.680><c> we</c><00:10:31.920><c> compress</c><00:10:32.240><c> the</c><00:10:32.480><c> key</c><00:10:32.640><c> value</c><00:10:32.959><c> entries</c>
+
+00:10:33.509 --> 00:10:33.519 align:start position:0%
+Then, we compress the key value entries
+ 
+
+00:10:33.519 --> 00:10:36.069 align:start position:0%
+Then, we compress the key value entries
+across<00:10:33.920><c> the</c><00:10:34.079><c> sequence</c><00:10:34.480><c> lens</c><00:10:35.120><c> using</c><00:10:35.440><c> the</c><00:10:35.680><c> token</c>
+
+00:10:36.069 --> 00:10:36.079 align:start position:0%
+across the sequence lens using the token
+ 
+
+00:10:36.079 --> 00:10:37.990 align:start position:0%
+across the sequence lens using the token
+level<00:10:36.399><c> compressor.</c>
+
+00:10:37.990 --> 00:10:38.000 align:start position:0%
+level compressor.
+ 
+
+00:10:38.000 --> 00:10:39.750 align:start position:0%
+level compressor.
+Like<00:10:38.240><c> multi-query</c><00:10:38.959><c> attention,</c><00:10:39.519><c> the</c>
+
+00:10:39.750 --> 00:10:39.760 align:start position:0%
+Like multi-query attention, the
+ 
+
+00:10:39.760 --> 00:10:41.910 align:start position:0%
+Like multi-query attention, the
+compressed<00:10:40.240><c> key</c><00:10:40.480><c> value</c><00:10:40.720><c> entries</c><00:10:41.279><c> are</c><00:10:41.519><c> shared</c>
+
+00:10:41.910 --> 00:10:41.920 align:start position:0%
+compressed key value entries are shared
+ 
+
+00:10:41.920 --> 00:10:44.710 align:start position:0%
+compressed key value entries are shared
+across<00:10:42.240><c> all</c><00:10:42.560><c> attention</c><00:10:43.040><c> heads.</c>
+
+00:10:44.710 --> 00:10:44.720 align:start position:0%
+across all attention heads.
+ 
+
+00:10:44.720 --> 00:10:47.190 align:start position:0%
+across all attention heads.
+Thanks<00:10:45.040><c> to</c><00:10:45.200><c> token</c><00:10:45.600><c> level</c><00:10:45.920><c> compression,</c><00:10:46.880><c> each</c>
+
+00:10:47.190 --> 00:10:47.200 align:start position:0%
+Thanks to token level compression, each
+ 
+
+00:10:47.200 --> 00:10:49.350 align:start position:0%
+Thanks to token level compression, each
+attention<00:10:47.680><c> head</c><00:10:48.160><c> can</c><00:10:48.399><c> now</c><00:10:48.640><c> use</c><00:10:48.800><c> a</c><00:10:49.040><c> higher</c>
+
+00:10:49.350 --> 00:10:49.360 align:start position:0%
+attention head can now use a higher
+ 
+
+00:10:49.360 --> 00:10:52.389 align:start position:0%
+attention head can now use a higher
+dimensional<00:10:49.920><c> key</c><00:10:50.240><c> value</c><00:10:50.560><c> vector,</c><00:10:51.600><c> 512</c>
+
+00:10:52.389 --> 00:10:52.399 align:start position:0%
+dimensional key value vector, 512
+ 
+
+00:10:52.399 --> 00:10:54.550 align:start position:0%
+dimensional key value vector, 512
+dimensions<00:10:52.880><c> per</c><00:10:53.120><c> head</c><00:10:53.839><c> instead</c><00:10:54.160><c> of</c><00:10:54.320><c> the</c>
+
+00:10:54.550 --> 00:10:54.560 align:start position:0%
+dimensions per head instead of the
+ 
+
+00:10:54.560 --> 00:10:57.829 align:start position:0%
+dimensions per head instead of the
+typical<00:10:55.600><c> 128</c><00:10:56.079><c> dimensions.</c>
+
+00:10:57.829 --> 00:10:57.839 align:start position:0%
+typical 128 dimensions.
+ 
+
+00:10:57.839 --> 00:11:00.550 align:start position:0%
+typical 128 dimensions.
+But<00:10:58.399><c> this</c><00:10:58.640><c> poses</c><00:10:59.279><c> additional</c><00:10:59.839><c> computational</c>
+
+00:11:00.550 --> 00:11:00.560 align:start position:0%
+But this poses additional computational
+ 
+
+00:11:00.560 --> 00:11:03.590 align:start position:0%
+But this poses additional computational
+challenges.<00:11:02.000><c> For</c><00:11:02.079><c> example,</c><00:11:02.959><c> when</c><00:11:03.200><c> computing</c>
+
+00:11:03.590 --> 00:11:03.600 align:start position:0%
+challenges. For example, when computing
+ 
+
+00:11:03.600 --> 00:11:05.990 align:start position:0%
+challenges. For example, when computing
+the<00:11:03.839><c> query</c><00:11:04.240><c> vector,</c><00:11:05.040><c> we</c><00:11:05.279><c> need</c><00:11:05.360><c> to</c><00:11:05.600><c> transform</c>
+
+00:11:05.990 --> 00:11:06.000 align:start position:0%
+the query vector, we need to transform
+ 
+
+00:11:06.000 --> 00:11:08.710 align:start position:0%
+the query vector, we need to transform
+the<00:11:06.240><c> d-dimensional</c><00:11:07.040><c> vector</c><00:11:07.680><c> into</c><00:11:08.000><c> a</c><00:11:08.240><c> vector</c>
+
+00:11:08.710 --> 00:11:08.720 align:start position:0%
+the d-dimensional vector into a vector
+ 
+
+00:11:08.720 --> 00:11:11.910 align:start position:0%
+the d-dimensional vector into a vector
+with<00:11:09.120><c> C</c><00:11:09.519><c> *</c><00:11:09.839><c> H</c><00:11:10.240><c> dimensions.</c>
+
+00:11:11.910 --> 00:11:11.920 align:start position:0%
+with C * H dimensions.
+ 
+
+00:11:11.920 --> 00:11:14.150 align:start position:0%
+with C * H dimensions.
+Substituting<00:11:12.640><c> in</c><00:11:12.880><c> the</c><00:11:13.120><c> actual</c><00:11:13.519><c> parameter</c>
+
+00:11:14.150 --> 00:11:14.160 align:start position:0%
+Substituting in the actual parameter
+ 
+
+00:11:14.160 --> 00:11:17.910 align:start position:0%
+Substituting in the actual parameter
+values,<00:11:15.200><c> we</c><00:11:15.440><c> see</c><00:11:15.600><c> that</c><00:11:16.000><c> WQ</c><00:11:17.040><c> becomes</c><00:11:17.600><c> an</c>
+
+00:11:17.910 --> 00:11:17.920 align:start position:0%
+values, we see that WQ becomes an
+ 
+
+00:11:17.920 --> 00:11:20.470 align:start position:0%
+values, we see that WQ becomes an
+extremely<00:11:18.480><c> large</c><00:11:18.880><c> matrix.</c>
+
+00:11:20.470 --> 00:11:20.480 align:start position:0%
+extremely large matrix.
+ 
+
+00:11:20.480 --> 00:11:22.870 align:start position:0%
+extremely large matrix.
+To<00:11:20.720><c> make</c><00:11:20.880><c> this</c><00:11:21.120><c> more</c><00:11:21.440><c> parameter</c><00:11:22.079><c> efficient,</c>
+
+00:11:22.870 --> 00:11:22.880 align:start position:0%
+To make this more parameter efficient,
+ 
+
+00:11:22.880 --> 00:11:26.069 align:start position:0%
+To make this more parameter efficient,
+we<00:11:23.120><c> take</c><00:11:23.279><c> a</c><00:11:23.440><c> low</c><00:11:23.760><c> rank</c><00:11:24.079><c> approach.</c><00:11:25.519><c> We</c><00:11:25.839><c> first</c>
+
+00:11:26.069 --> 00:11:26.079 align:start position:0%
+we take a low rank approach. We first
+ 
+
+00:11:26.079 --> 00:11:29.030 align:start position:0%
+we take a low rank approach. We first
+project<00:11:26.480><c> the</c><00:11:26.640><c> hidden</c><00:11:27.040><c> state</c><00:11:27.440><c> H</c><00:11:28.160><c> to</c><00:11:28.399><c> obtain</c><00:11:28.720><c> a</c>
+
+00:11:29.030 --> 00:11:29.040 align:start position:0%
+project the hidden state H to obtain a
+ 
+
+00:11:29.040 --> 00:11:31.509 align:start position:0%
+project the hidden state H to obtain a
+compressed<00:11:29.519><c> latent</c><00:11:30.000><c> vector</c><00:11:30.399><c> for</c><00:11:30.640><c> the</c><00:11:30.800><c> queries</c>
+
+00:11:31.509 --> 00:11:31.519 align:start position:0%
+compressed latent vector for the queries
+ 
+
+00:11:31.519 --> 00:11:35.910 align:start position:0%
+compressed latent vector for the queries
+using<00:11:31.839><c> a</c><00:11:32.000><c> down</c><00:11:32.320><c> projection</c><00:11:32.800><c> matrix</c><00:11:33.680><c> WQ</c><00:11:34.399><c> down.</c>
+
+00:11:35.910 --> 00:11:35.920 align:start position:0%
+using a down projection matrix WQ down.
+ 
+
+00:11:35.920 --> 00:11:38.389 align:start position:0%
+using a down projection matrix WQ down.
+Then<00:11:36.240><c> we</c><00:11:36.480><c> produce</c><00:11:36.720><c> the</c><00:11:36.959><c> attention</c><00:11:37.360><c> queries</c><00:11:38.079><c> by</c>
+
+00:11:38.389 --> 00:11:38.399 align:start position:0%
+Then we produce the attention queries by
+ 
+
+00:11:38.399 --> 00:11:40.870 align:start position:0%
+Then we produce the attention queries by
+op<00:11:38.720><c> projecting</c><00:11:39.120><c> the</c><00:11:39.360><c> latent</c><00:11:39.760><c> vector</c><00:11:40.560><c> using</c>
+
+00:11:40.870 --> 00:11:40.880 align:start position:0%
+op projecting the latent vector using
+ 
+
+00:11:40.880 --> 00:11:45.590 align:start position:0%
+op projecting the latent vector using
+the<00:11:41.120><c> op</c><00:11:41.440><c> projection</c><00:11:41.920><c> matrix</c><00:11:42.800><c> WQ</c><00:11:43.600><c> up.</c><00:11:45.040><c> This</c><00:11:45.279><c> low</c>
+
+00:11:45.590 --> 00:11:45.600 align:start position:0%
+the op projection matrix WQ up. This low
+ 
+
+00:11:45.600 --> 00:11:48.230 align:start position:0%
+the op projection matrix WQ up. This low
+rank<00:11:45.920><c> approximation</c><00:11:46.959><c> reduces</c><00:11:47.440><c> the</c><00:11:47.680><c> parameter</c>
+
+00:11:48.230 --> 00:11:48.240 align:start position:0%
+rank approximation reduces the parameter
+ 
+
+00:11:48.240 --> 00:11:51.110 align:start position:0%
+rank approximation reduces the parameter
+count<00:11:48.880><c> to</c><00:11:49.120><c> just</c><00:11:49.519><c> 15.8%</c>
+
+00:11:51.110 --> 00:11:51.120 align:start position:0%
+count to just 15.8%
+ 
+
+00:11:51.120 --> 00:11:53.670 align:start position:0%
+count to just 15.8%
+of<00:11:51.440><c> what</c><00:11:51.680><c> would</c><00:11:51.920><c> be</c><00:11:52.079><c> required</c><00:11:52.720><c> for</c><00:11:52.959><c> the</c><00:11:53.200><c> full</c>
+
+00:11:53.670 --> 00:11:53.680 align:start position:0%
+of what would be required for the full
+ 
+
+00:11:53.680 --> 00:11:56.389 align:start position:0%
+of what would be required for the full
+WQ<00:11:54.480><c> matrix.</c>
+
+00:11:56.389 --> 00:11:56.399 align:start position:0%
+WQ matrix.
+ 
+
+00:11:56.399 --> 00:11:58.389 align:start position:0%
+WQ matrix.
+We<00:11:56.640><c> also</c><00:11:56.880><c> have</c><00:11:57.040><c> a</c><00:11:57.279><c> similar</c><00:11:57.600><c> problem</c><00:11:58.000><c> for</c><00:11:58.160><c> the</c>
+
+00:11:58.389 --> 00:11:58.399 align:start position:0%
+We also have a similar problem for the
+ 
+
+00:11:58.399 --> 00:12:01.110 align:start position:0%
+We also have a similar problem for the
+output<00:11:58.720><c> matrix</c><00:11:59.440><c> WO.</c>
+
+00:12:01.110 --> 00:12:01.120 align:start position:0%
+output matrix WO.
+ 
+
+00:12:01.120 --> 00:12:02.550 align:start position:0%
+output matrix WO.
+To<00:12:01.360><c> mitigate</c><00:12:01.760><c> the</c><00:12:02.079><c> substantial</c>
+
+00:12:02.550 --> 00:12:02.560 align:start position:0%
+To mitigate the substantial
+ 
+
+00:12:02.560 --> 00:12:04.630 align:start position:0%
+To mitigate the substantial
+computational<00:12:03.279><c> burden,</c><00:12:03.920><c> we</c><00:12:04.160><c> split</c><00:12:04.480><c> the</c>
+
+00:12:04.630 --> 00:12:04.640 align:start position:0%
+computational burden, we split the
+ 
+
+00:12:04.640 --> 00:12:07.829 align:start position:0%
+computational burden, we split the
+output<00:12:04.959><c> dimension</c><00:12:05.519><c> into</c><00:12:05.920><c> G</c><00:12:06.240><c> groups.</c><00:12:07.519><c> Each</c>
+
+00:12:07.829 --> 00:12:07.839 align:start position:0%
+output dimension into G groups. Each
+ 
+
+00:12:07.839 --> 00:12:10.949 align:start position:0%
+output dimension into G groups. Each
+group<00:12:08.160><c> now</c><00:12:08.399><c> has</c><00:12:08.639><c> a</c><00:12:08.800><c> dimension</c><00:12:09.360><c> of</c><00:12:09.680><c> C</c><00:12:10.079><c> *</c><00:12:10.399><c> H</c>
+
+00:12:10.949 --> 00:12:10.959 align:start position:0%
+group now has a dimension of C * H
+ 
+
+00:12:10.959 --> 00:12:14.230 align:start position:0%
+group now has a dimension of C * H
+divided<00:12:11.440><c> by</c><00:12:11.680><c> G.</c><00:12:12.959><c> We</c><00:12:13.200><c> introduce</c><00:12:13.680><c> a</c><00:12:13.920><c> down</c>
+
+00:12:14.230 --> 00:12:14.240 align:start position:0%
+divided by G. We introduce a down
+ 
+
+00:12:14.240 --> 00:12:17.829 align:start position:0%
+divided by G. We introduce a down
+projection<00:12:14.720><c> matrix</c><00:12:15.600><c> WO</c><00:12:16.240><c> down</c><00:12:17.120><c> which</c><00:12:17.360><c> maps</c>
+
+00:12:17.829 --> 00:12:17.839 align:start position:0%
+projection matrix WO down which maps
+ 
+
+00:12:17.839 --> 00:12:20.389 align:start position:0%
+projection matrix WO down which maps
+each<00:12:18.160><c> output</c><00:12:18.639><c> group</c><00:12:19.040><c> to</c><00:12:19.279><c> a</c><00:12:19.519><c> lower</c><00:12:19.920><c> dimensional</c>
+
+00:12:20.389 --> 00:12:20.399 align:start position:0%
+each output group to a lower dimensional
+ 
+
+00:12:20.399 --> 00:12:23.350 align:start position:0%
+each output group to a lower dimensional
+vector<00:12:20.880><c> of</c><00:12:21.200><c> size</c><00:12:21.760><c> NG.</c>
+
+00:12:23.350 --> 00:12:23.360 align:start position:0%
+vector of size NG.
+ 
+
+00:12:23.360 --> 00:12:25.750 align:start position:0%
+vector of size NG.
+Finally,<00:12:24.079><c> we</c><00:12:24.320><c> project</c><00:12:24.720><c> the</c><00:12:24.880><c> concatenated</c>
+
+00:12:25.750 --> 00:12:25.760 align:start position:0%
+Finally, we project the concatenated
+ 
+
+00:12:25.760 --> 00:12:28.389 align:start position:0%
+Finally, we project the concatenated
+output<00:12:26.399><c> to</c><00:12:26.639><c> the</c><00:12:26.880><c> final</c><00:12:27.200><c> attention</c><00:12:27.680><c> output</c>
+
+00:12:28.389 --> 00:12:28.399 align:start position:0%
+output to the final attention output
+ 
+
+00:12:28.399 --> 00:12:32.949 align:start position:0%
+output to the final attention output
+using<00:12:28.720><c> an</c><00:12:29.040><c> up</c><00:12:29.279><c> projection</c><00:12:29.760><c> matrix</c><00:12:30.639><c> W</c><00:12:31.440><c> up.</c><00:12:32.720><c> This</c>
+
+00:12:32.949 --> 00:12:32.959 align:start position:0%
+using an up projection matrix W up. This
+ 
+
+00:12:32.959 --> 00:12:35.190 align:start position:0%
+using an up projection matrix W up. This
+reduces<00:12:33.360><c> the</c><00:12:33.600><c> number</c><00:12:33.760><c> of</c><00:12:33.920><c> parameters</c><00:12:34.560><c> to</c><00:12:34.800><c> only</c>
+
+00:12:35.190 --> 00:12:35.200 align:start position:0%
+reduces the number of parameters to only
+ 
+
+00:12:35.200 --> 00:12:39.990 align:start position:0%
+reduces the number of parameters to only
+14.3%<00:12:36.639><c> of</c><00:12:36.880><c> the</c><00:12:37.040><c> full</c><00:12:37.519><c> WO</c><00:12:38.160><c> matrix.</c><00:12:39.600><c> We</c><00:12:39.760><c> call</c>
+
+00:12:39.990 --> 00:12:40.000 align:start position:0%
+14.3% of the full WO matrix. We call
+ 
+
+00:12:40.000 --> 00:12:43.590 align:start position:0%
+14.3% of the full WO matrix. We call
+this<00:12:40.240><c> strategy</c><00:12:40.800><c> grouped</c><00:12:41.279><c> output</c><00:12:41.839><c> projection.</c>
+
+00:12:43.590 --> 00:12:43.600 align:start position:0%
+this strategy grouped output projection.
+ 
+
+00:12:43.600 --> 00:12:45.829 align:start position:0%
+this strategy grouped output projection.
+But<00:12:43.839><c> even</c><00:12:44.079><c> with</c><00:12:44.320><c> token</c><00:12:44.720><c> compression,</c><00:12:45.519><c> we</c>
+
+00:12:45.829 --> 00:12:45.839 align:start position:0%
+But even with token compression, we
+ 
+
+00:12:45.839 --> 00:12:47.509 align:start position:0%
+But even with token compression, we
+still<00:12:46.000><c> need</c><00:12:46.160><c> to</c><00:12:46.399><c> calculate</c><00:12:46.800><c> the</c><00:12:46.959><c> attention</c>
+
+00:12:47.509 --> 00:12:47.519 align:start position:0%
+still need to calculate the attention
+ 
+
+00:12:47.519 --> 00:12:49.750 align:start position:0%
+still need to calculate the attention
+between<00:12:47.839><c> the</c><00:12:48.079><c> current</c><00:12:48.399><c> token</c><00:12:49.120><c> and</c><00:12:49.440><c> all</c>
+
+00:12:49.750 --> 00:12:49.760 align:start position:0%
+between the current token and all
+ 
+
+00:12:49.760 --> 00:12:53.030 align:start position:0%
+between the current token and all
+preceding<00:12:50.320><c> compressed</c><00:12:50.959><c> key</c><00:12:51.279><c> value</c><00:12:51.600><c> entries.</c>
+
+00:12:53.030 --> 00:12:53.040 align:start position:0%
+preceding compressed key value entries.
+ 
+
+00:12:53.040 --> 00:12:55.430 align:start position:0%
+preceding compressed key value entries.
+This<00:12:53.360><c> results</c><00:12:53.680><c> in</c><00:12:53.839><c> a</c><00:12:54.079><c> slower</c><00:12:54.560><c> tokens</c><00:12:55.200><c> per</c>
+
+00:12:55.430 --> 00:12:55.440 align:start position:0%
+This results in a slower tokens per
+ 
+
+00:12:55.440 --> 00:12:57.269 align:start position:0%
+This results in a slower tokens per
+second<00:12:55.760><c> throughput.</c>
+
+00:12:57.269 --> 00:12:57.279 align:start position:0%
+second throughput.
+ 
+
+00:12:57.279 --> 00:12:59.269 align:start position:0%
+second throughput.
+To<00:12:57.519><c> fix</c><00:12:57.760><c> this,</c><00:12:58.160><c> we</c><00:12:58.320><c> leverage</c><00:12:58.639><c> a</c><00:12:58.880><c> lightning</c>
+
+00:12:59.269 --> 00:12:59.279 align:start position:0%
+To fix this, we leverage a lightning
+ 
+
+00:12:59.279 --> 00:13:02.629 align:start position:0%
+To fix this, we leverage a lightning
+indexer.<00:13:00.639><c> The</c><00:13:00.880><c> core</c><00:13:01.200><c> idea</c><00:13:01.519><c> is</c><00:13:01.760><c> to</c><00:13:02.000><c> efficiently</c>
+
+00:13:02.629 --> 00:13:02.639 align:start position:0%
+indexer. The core idea is to efficiently
+ 
+
+00:13:02.639 --> 00:13:05.509 align:start position:0%
+indexer. The core idea is to efficiently
+score<00:13:03.120><c> each</c><00:13:03.440><c> compressed</c><00:13:03.920><c> KV</c><00:13:04.480><c> entry</c><00:13:05.200><c> and</c>
+
+00:13:05.509 --> 00:13:05.519 align:start position:0%
+score each compressed KV entry and
+ 
+
+00:13:05.519 --> 00:13:07.670 align:start position:0%
+score each compressed KV entry and
+select<00:13:05.920><c> only</c><00:13:06.160><c> the</c><00:13:06.399><c> most</c><00:13:06.639><c> relevant</c><00:13:07.040><c> ones</c><00:13:07.519><c> for</c>
+
+00:13:07.670 --> 00:13:07.680 align:start position:0%
+select only the most relevant ones for
+ 
+
+00:13:07.680 --> 00:13:10.310 align:start position:0%
+select only the most relevant ones for
+the<00:13:07.920><c> full</c><00:13:08.079><c> attention</c><00:13:08.639><c> computation.</c>
+
+00:13:10.310 --> 00:13:10.320 align:start position:0%
+the full attention computation.
+ 
+
+00:13:10.320 --> 00:13:12.710 align:start position:0%
+the full attention computation.
+This<00:13:10.639><c> selective</c><00:13:11.200><c> mechanism</c><00:13:11.920><c> is</c><00:13:12.160><c> known</c><00:13:12.399><c> as</c>
+
+00:13:12.710 --> 00:13:12.720 align:start position:0%
+This selective mechanism is known as
+ 
+
+00:13:12.720 --> 00:13:16.550 align:start position:0%
+This selective mechanism is known as
+deepsek<00:13:13.360><c> sparse</c><00:13:13.839><c> attention</c><00:13:14.720><c> or</c><00:13:15.040><c> DSA.</c>
+
+00:13:16.550 --> 00:13:16.560 align:start position:0%
+deepsek sparse attention or DSA.
+ 
+
+00:13:16.560 --> 00:13:19.030 align:start position:0%
+deepsek sparse attention or DSA.
+Please<00:13:16.959><c> refer</c><00:13:17.279><c> to</c><00:13:17.519><c> our</c><00:13:17.839><c> previous</c><00:13:18.240><c> video</c><00:13:18.560><c> for</c><00:13:18.880><c> a</c>
+
+00:13:19.030 --> 00:13:19.040 align:start position:0%
+Please refer to our previous video for a
+ 
+
+00:13:19.040 --> 00:13:21.110 align:start position:0%
+Please refer to our previous video for a
+deeper<00:13:19.519><c> introduction.</c>
+
+00:13:21.110 --> 00:13:21.120 align:start position:0%
+deeper introduction.
+ 
+
+00:13:21.120 --> 00:13:22.949 align:start position:0%
+deeper introduction.
+By<00:13:21.440><c> combining</c><00:13:21.920><c> compressed</c><00:13:22.399><c> key</c><00:13:22.720><c> value</c>
+
+00:13:22.949 --> 00:13:22.959 align:start position:0%
+By combining compressed key value
+ 
+
+00:13:22.959 --> 00:13:25.829 align:start position:0%
+By combining compressed key value
+entries<00:13:23.519><c> with</c><00:13:23.839><c> DSA's</c><00:13:24.880><c> sparse</c><00:13:25.360><c> selection</c>
+
+00:13:25.829 --> 00:13:25.839 align:start position:0%
+entries with DSA's sparse selection
+ 
+
+00:13:25.839 --> 00:13:28.310 align:start position:0%
+entries with DSA's sparse selection
+mechanism,<00:13:26.880><c> we</c><00:13:27.120><c> arrive</c><00:13:27.360><c> at</c><00:13:27.680><c> compressed</c>
+
+00:13:28.310 --> 00:13:28.320 align:start position:0%
+mechanism, we arrive at compressed
+ 
+
+00:13:28.320 --> 00:13:32.629 align:start position:0%
+mechanism, we arrive at compressed
+sparse<00:13:28.800><c> attention</c><00:13:29.839><c> CSA</c><00:13:30.639><c> for</c><00:13:30.959><c> short.</c><00:13:32.320><c> We've</c>
+
+00:13:32.629 --> 00:13:32.639 align:start position:0%
+sparse attention CSA for short. We've
+ 
+
+00:13:32.639 --> 00:13:34.470 align:start position:0%
+sparse attention CSA for short. We've
+skipped<00:13:32.959><c> a</c><00:13:33.120><c> few</c><00:13:33.279><c> implementation</c><00:13:34.000><c> details</c>
+
+00:13:34.470 --> 00:13:34.480 align:start position:0%
+skipped a few implementation details
+ 
+
+00:13:34.480 --> 00:13:37.670 align:start position:0%
+skipped a few implementation details
+here.<00:13:35.279><c> Let</c><00:13:35.519><c> me</c><00:13:35.680><c> briefly</c><00:13:36.079><c> walk</c><00:13:36.320><c> through</c><00:13:36.560><c> them.</c>
+
+00:13:37.670 --> 00:13:37.680 align:start position:0%
+here. Let me briefly walk through them.
+ 
+
+00:13:37.680 --> 00:13:39.350 align:start position:0%
+here. Let me briefly walk through them.
+When<00:13:38.000><c> generating</c><00:13:38.480><c> tokens</c><00:13:38.959><c> auto</c>
+
+00:13:39.350 --> 00:13:39.360 align:start position:0%
+When generating tokens auto
+ 
+
+00:13:39.360 --> 00:13:41.590 align:start position:0%
+When generating tokens auto
+reggressively,<00:13:40.320><c> in</c><00:13:40.560><c> addition</c><00:13:40.880><c> to</c><00:13:41.120><c> attending</c>
+
+00:13:41.590 --> 00:13:41.600 align:start position:0%
+reggressively, in addition to attending
+ 
+
+00:13:41.600 --> 00:13:44.550 align:start position:0%
+reggressively, in addition to attending
+to<00:13:41.839><c> past</c><00:13:42.160><c> compressed</c><00:13:42.720><c> KV</c><00:13:43.200><c> entries,</c><00:13:44.079><c> we</c><00:13:44.320><c> must</c>
+
+00:13:44.550 --> 00:13:44.560 align:start position:0%
+to past compressed KV entries, we must
+ 
+
+00:13:44.560 --> 00:13:46.949 align:start position:0%
+to past compressed KV entries, we must
+also<00:13:44.880><c> attend</c><00:13:45.200><c> to</c><00:13:45.360><c> tokens</c><00:13:46.000><c> within</c><00:13:46.399><c> a</c><00:13:46.639><c> local</c>
+
+00:13:46.949 --> 00:13:46.959 align:start position:0%
+also attend to tokens within a local
+ 
+
+00:13:46.959 --> 00:13:48.710 align:start position:0%
+also attend to tokens within a local
+window<00:13:47.519><c> that</c><00:13:47.760><c> have</c><00:13:48.000><c> not</c><00:13:48.240><c> yet</c><00:13:48.480><c> been</c>
+
+00:13:48.710 --> 00:13:48.720 align:start position:0%
+window that have not yet been
+ 
+
+00:13:48.720 --> 00:13:50.310 align:start position:0%
+window that have not yet been
+compressed.
+
+00:13:50.310 --> 00:13:50.320 align:start position:0%
+compressed.
+ 
+
+00:13:50.320 --> 00:13:52.629 align:start position:0%
+compressed.
+To<00:13:50.560><c> prevent</c><00:13:50.959><c> exploding</c><00:13:51.519><c> attention</c><00:13:52.000><c> logits</c>
+
+00:13:52.629 --> 00:13:52.639 align:start position:0%
+To prevent exploding attention logits
+ 
+
+00:13:52.639 --> 00:13:54.870 align:start position:0%
+To prevent exploding attention logits
+and<00:13:52.959><c> enhance</c><00:13:53.279><c> a</c><00:13:53.440><c> training</c><00:13:53.760><c> stability,</c><00:13:54.639><c> we</c>
+
+00:13:54.870 --> 00:13:54.880 align:start position:0%
+and enhance a training stability, we
+ 
+
+00:13:54.880 --> 00:13:57.670 align:start position:0%
+and enhance a training stability, we
+apply<00:13:55.279><c> normalization</c><00:13:56.160><c> to</c><00:13:56.399><c> each</c><00:13:56.639><c> query</c><00:13:57.040><c> head</c>
+
+00:13:57.670 --> 00:13:57.680 align:start position:0%
+apply normalization to each query head
+ 
+
+00:13:57.680 --> 00:14:01.350 align:start position:0%
+apply normalization to each query head
+and<00:13:57.920><c> to</c><00:13:58.160><c> the</c><00:13:58.320><c> compressed</c><00:13:58.880><c> key</c><00:13:59.199><c> value</c><00:13:59.440><c> entries.</c>
+
+00:14:01.350 --> 00:14:01.360 align:start position:0%
+and to the compressed key value entries.
+ 
+
+00:14:01.360 --> 00:14:03.829 align:start position:0%
+and to the compressed key value entries.
+Like<00:14:01.519><c> in</c><00:14:01.760><c> multi</c><00:14:02.079><c> head</c><00:14:02.320><c> latent</c><00:14:02.720><c> attention,</c><00:14:03.600><c> we</c>
+
+00:14:03.829 --> 00:14:03.839 align:start position:0%
+Like in multi head latent attention, we
+ 
+
+00:14:03.839 --> 00:14:06.230 align:start position:0%
+Like in multi head latent attention, we
+apply<00:14:04.160><c> rotary</c><00:14:04.720><c> position</c><00:14:05.040><c> embeddings</c><00:14:05.760><c> to</c><00:14:06.000><c> part</c>
+
+00:14:06.230 --> 00:14:06.240 align:start position:0%
+apply rotary position embeddings to part
+ 
+
+00:14:06.240 --> 00:14:08.470 align:start position:0%
+apply rotary position embeddings to part
+of<00:14:06.399><c> the</c><00:14:06.560><c> query</c><00:14:07.120><c> and</c><00:14:07.440><c> key</c><00:14:07.760><c> value</c><00:14:08.079><c> entry</c>
+
+00:14:08.470 --> 00:14:08.480 align:start position:0%
+of the query and key value entry
+ 
+
+00:14:08.480 --> 00:14:11.590 align:start position:0%
+of the query and key value entry
+vectors.<00:14:09.920><c> Finally,</c><00:14:10.399><c> we</c><00:14:10.639><c> introduce</c><00:14:11.040><c> a</c><00:14:11.279><c> set</c><00:14:11.440><c> of</c>
+
+00:14:11.590 --> 00:14:11.600 align:start position:0%
+vectors. Finally, we introduce a set of
+ 
+
+00:14:11.600 --> 00:14:14.629 align:start position:0%
+vectors. Finally, we introduce a set of
+learnable<00:14:12.079><c> attention</c><00:14:12.560><c> sync</c><00:14:12.880><c> logits.</c><00:14:14.320><c> These</c>
+
+00:14:14.629 --> 00:14:14.639 align:start position:0%
+learnable attention sync logits. These
+ 
+
+00:14:14.639 --> 00:14:17.350 align:start position:0%
+learnable attention sync logits. These
+sync<00:14:14.959><c> logits</c><00:14:15.680><c> serve</c><00:14:16.000><c> as</c><00:14:16.240><c> dedicated</c><00:14:16.720><c> entries</c>
+
+00:14:17.350 --> 00:14:17.360 align:start position:0%
+sync logits serve as dedicated entries
+ 
+
+00:14:17.360 --> 00:14:19.910 align:start position:0%
+sync logits serve as dedicated entries
+that<00:14:17.680><c> absorb</c><00:14:18.160><c> excess</c><00:14:18.639><c> attention</c><00:14:19.120><c> mass</c>
+
+00:14:19.910 --> 00:14:19.920 align:start position:0%
+that absorb excess attention mass
+ 
+
+00:14:19.920 --> 00:14:21.910 align:start position:0%
+that absorb excess attention mass
+thereby<00:14:20.480><c> encouraging</c><00:14:21.199><c> more</c><00:14:21.519><c> stable</c>
+
+00:14:21.910 --> 00:14:21.920 align:start position:0%
+thereby encouraging more stable
+ 
+
+00:14:21.920 --> 00:14:25.670 align:start position:0%
+thereby encouraging more stable
+training.<00:14:23.120><c> Deepseek</c><00:14:23.760><c> v4</c><00:14:24.639><c> also</c><00:14:25.040><c> uses</c><00:14:25.440><c> a</c>
+
+00:14:25.670 --> 00:14:25.680 align:start position:0%
+training. Deepseek v4 also uses a
+ 
+
+00:14:25.680 --> 00:14:28.150 align:start position:0%
+training. Deepseek v4 also uses a
+complimentary<00:14:26.320><c> mechanism</c><00:14:27.680><c> heavily</c>
+
+00:14:28.150 --> 00:14:28.160 align:start position:0%
+complimentary mechanism heavily
+ 
+
+00:14:28.160 --> 00:14:31.829 align:start position:0%
+complimentary mechanism heavily
+compressed<00:14:28.560><c> attention</c><00:14:29.440><c> or</c><00:14:29.920><c> HCA.</c>
+
+00:14:31.829 --> 00:14:31.839 align:start position:0%
+compressed attention or HCA.
+ 
+
+00:14:31.839 --> 00:14:33.670 align:start position:0%
+compressed attention or HCA.
+Compared<00:14:32.240><c> to</c><00:14:32.399><c> the</c><00:14:32.560><c> compression</c><00:14:33.040><c> ratio</c><00:14:33.360><c> of</c>
+
+00:14:33.670 --> 00:14:33.680 align:start position:0%
+Compared to the compression ratio of
+ 
+
+00:14:33.680 --> 00:14:38.470 align:start position:0%
+Compared to the compression ratio of
+four<00:14:34.079><c> in</c><00:14:34.480><c> CSA,</c><00:14:35.600><c> HCA</c><00:14:36.560><c> compresses</c><00:14:37.199><c> every</c><00:14:38.000><c> 128</c>
+
+00:14:38.470 --> 00:14:38.480 align:start position:0%
+four in CSA, HCA compresses every 128
+ 
+
+00:14:38.480 --> 00:14:41.829 align:start position:0%
+four in CSA, HCA compresses every 128
+tokens<00:14:39.199><c> into</c><00:14:39.519><c> a</c><00:14:39.760><c> single</c><00:14:40.079><c> key</c><00:14:40.399><c> value</c><00:14:40.639><c> entry.</c>
+
+00:14:41.829 --> 00:14:41.839 align:start position:0%
+tokens into a single key value entry.
+ 
+
+00:14:41.839 --> 00:14:43.829 align:start position:0%
+tokens into a single key value entry.
+This<00:14:42.079><c> aggressive</c><00:14:42.639><c> compression</c><00:14:43.360><c> not</c><00:14:43.600><c> only</c>
+
+00:14:43.829 --> 00:14:43.839 align:start position:0%
+This aggressive compression not only
+ 
+
+00:14:43.839 --> 00:14:46.310 align:start position:0%
+This aggressive compression not only
+dramatically<00:14:44.480><c> reduces</c><00:14:44.959><c> the</c><00:14:45.199><c> size</c><00:14:45.440><c> of</c><00:14:45.680><c> the</c><00:14:45.839><c> KV</c>
+
+00:14:46.310 --> 00:14:46.320 align:start position:0%
+dramatically reduces the size of the KV
+ 
+
+00:14:46.320 --> 00:14:49.269 align:start position:0%
+dramatically reduces the size of the KV
+cache,<00:14:47.120><c> but</c><00:14:47.440><c> also</c><00:14:47.839><c> enables</c><00:14:48.320><c> the</c><00:14:48.560><c> model</c><00:14:48.959><c> to</c>
+
+00:14:49.269 --> 00:14:49.279 align:start position:0%
+cache, but also enables the model to
+ 
+
+00:14:49.279 --> 00:14:51.590 align:start position:0%
+cache, but also enables the model to
+efficiently<00:14:49.839><c> aggregate</c><00:14:50.480><c> information</c><00:14:51.279><c> from</c>
+
+00:14:51.590 --> 00:14:51.600 align:start position:0%
+efficiently aggregate information from
+ 
+
+00:14:51.600 --> 00:14:54.870 align:start position:0%
+efficiently aggregate information from
+extremely<00:14:52.160><c> long</c><00:14:52.480><c> sequences.</c><00:14:53.920><c> By</c><00:14:54.240><c> summarizing</c>
+
+00:14:54.870 --> 00:14:54.880 align:start position:0%
+extremely long sequences. By summarizing
+ 
+
+00:14:54.880 --> 00:14:57.750 align:start position:0%
+extremely long sequences. By summarizing
+large<00:14:55.199><c> spans</c><00:14:55.680><c> of</c><00:14:55.920><c> tokens</c><00:14:56.560><c> into</c><00:14:56.959><c> compact</c><00:14:57.519><c> key</c>
+
+00:14:57.750 --> 00:14:57.760 align:start position:0%
+large spans of tokens into compact key
+ 
+
+00:14:57.760 --> 00:15:01.430 align:start position:0%
+large spans of tokens into compact key
+value<00:14:58.079><c> summaries,</c><00:14:59.199><c> HCA</c><00:15:00.160><c> allows</c><00:15:00.480><c> the</c><00:15:00.720><c> model</c><00:15:01.120><c> to</c>
+
+00:15:01.430 --> 00:15:01.440 align:start position:0%
+value summaries, HCA allows the model to
+ 
+
+00:15:01.440 --> 00:15:04.389 align:start position:0%
+value summaries, HCA allows the model to
+reason<00:15:01.839><c> over</c><00:15:02.240><c> much</c><00:15:02.639><c> longer</c><00:15:03.040><c> context</c><00:15:04.000><c> without</c>
+
+00:15:04.389 --> 00:15:04.399 align:start position:0%
+reason over much longer context without
+ 
+
+00:15:04.399 --> 00:15:07.030 align:start position:0%
+reason over much longer context without
+a<00:15:04.639><c> proportional</c><00:15:05.360><c> increase</c><00:15:05.839><c> in</c><00:15:06.240><c> computation</c>
+
+00:15:07.030 --> 00:15:07.040 align:start position:0%
+a proportional increase in computation
+ 
+
+00:15:07.040 --> 00:15:08.870 align:start position:0%
+a proportional increase in computation
+or<00:15:07.360><c> memory.</c>
+
+00:15:08.870 --> 00:15:08.880 align:start position:0%
+or memory.
+ 
+
+00:15:08.880 --> 00:15:11.430 align:start position:0%
+or memory.
+Because<00:15:09.360><c> HCA's</c><00:15:10.240><c> compression</c><00:15:10.880><c> is</c><00:15:11.120><c> so</c>
+
+00:15:11.430 --> 00:15:11.440 align:start position:0%
+Because HCA's compression is so
+ 
+
+00:15:11.440 --> 00:15:14.230 align:start position:0%
+Because HCA's compression is so
+aggressive,<00:15:12.399><c> dense</c><00:15:12.800><c> attention</c><00:15:13.519><c> over</c><00:15:13.920><c> all</c>
+
+00:15:14.230 --> 00:15:14.240 align:start position:0%
+aggressive, dense attention over all
+ 
+
+00:15:14.240 --> 00:15:17.350 align:start position:0%
+aggressive, dense attention over all
+compressed<00:15:14.800><c> entries</c><00:15:15.440><c> is</c><00:15:15.839><c> already</c><00:15:16.320><c> efficient,</c>
+
+00:15:17.350 --> 00:15:17.360 align:start position:0%
+compressed entries is already efficient,
+ 
+
+00:15:17.360 --> 00:15:20.150 align:start position:0%
+compressed entries is already efficient,
+no<00:15:17.680><c> sparse</c><00:15:18.079><c> selection</c><00:15:18.560><c> needed.</c>
+
+00:15:20.150 --> 00:15:20.160 align:start position:0%
+no sparse selection needed.
+ 
+
+00:15:20.160 --> 00:15:23.189 align:start position:0%
+no sparse selection needed.
+Together,<00:15:20.800><c> CSA</c><00:15:21.440><c> and</c><00:15:21.680><c> HCA</c><00:15:22.720><c> form</c><00:15:23.040><c> a</c>
+
+00:15:23.189 --> 00:15:23.199 align:start position:0%
+Together, CSA and HCA form a
+ 
+
+00:15:23.199 --> 00:15:27.110 align:start position:0%
+Together, CSA and HCA form a
+complimentary<00:15:23.920><c> pair.</c><00:15:25.360><c> CSA</c><00:15:26.160><c> preserves</c><00:15:26.720><c> local</c>
+
+00:15:27.110 --> 00:15:27.120 align:start position:0%
+complimentary pair. CSA preserves local
+ 
+
+00:15:27.120 --> 00:15:29.670 align:start position:0%
+complimentary pair. CSA preserves local
+detail<00:15:27.680><c> through</c><00:15:27.920><c> sparse</c><00:15:28.320><c> selection,</c><00:15:29.360><c> while</c>
+
+00:15:29.670 --> 00:15:29.680 align:start position:0%
+detail through sparse selection, while
+ 
+
+00:15:29.680 --> 00:15:32.550 align:start position:0%
+detail through sparse selection, while
+HCA<00:15:30.720><c> maintains</c><00:15:31.279><c> broad</c><00:15:31.600><c> global</c><00:15:32.000><c> context</c>
+
+00:15:32.550 --> 00:15:32.560 align:start position:0%
+HCA maintains broad global context
+ 
+
+00:15:32.560 --> 00:15:34.949 align:start position:0%
+HCA maintains broad global context
+through<00:15:32.880><c> heavy</c><00:15:33.279><c> compression.</c>
+
+00:15:34.949 --> 00:15:34.959 align:start position:0%
+through heavy compression.
+ 
+
+00:15:34.959 --> 00:15:37.269 align:start position:0%
+through heavy compression.
+Let's<00:15:35.279><c> zoom</c><00:15:35.600><c> out</c><00:15:35.839><c> to</c><00:15:36.160><c> see</c><00:15:36.320><c> how</c><00:15:36.560><c> these</c><00:15:36.880><c> pieces</c>
+
+00:15:37.269 --> 00:15:37.279 align:start position:0%
+Let's zoom out to see how these pieces
+ 
+
+00:15:37.279 --> 00:15:40.550 align:start position:0%
+Let's zoom out to see how these pieces
+fit<00:15:37.600><c> together</c><00:15:38.160><c> in</c><00:15:38.399><c> the</c><00:15:38.560><c> pro</c><00:15:38.880><c> architecture.</c>
+
+00:15:40.550 --> 00:15:40.560 align:start position:0%
+fit together in the pro architecture.
+ 
+
+00:15:40.560 --> 00:15:42.470 align:start position:0%
+fit together in the pro architecture.
+We<00:15:40.800><c> start</c><00:15:40.959><c> with</c><00:15:41.120><c> the</c><00:15:41.360><c> token</c><00:15:41.680><c> embedding</c><00:15:42.240><c> as</c>
+
+00:15:42.470 --> 00:15:42.480 align:start position:0%
+We start with the token embedding as
+ 
+
+00:15:42.480 --> 00:15:44.069 align:start position:0%
+We start with the token embedding as
+inputs.
+
+00:15:44.069 --> 00:15:44.079 align:start position:0%
+inputs.
+ 
+
+00:15:44.079 --> 00:15:45.990 align:start position:0%
+inputs.
+Each<00:15:44.399><c> transformer</c><00:15:45.040><c> block</c><00:15:45.360><c> contains</c><00:15:45.760><c> an</c>
+
+00:15:45.990 --> 00:15:46.000 align:start position:0%
+Each transformer block contains an
+ 
+
+00:15:46.000 --> 00:15:48.150 align:start position:0%
+Each transformer block contains an
+attention<00:15:46.639><c> layer</c><00:15:46.959><c> followed</c><00:15:47.279><c> by</c><00:15:47.440><c> a</c><00:15:47.600><c> mixture</c><00:15:47.920><c> of</c>
+
+00:15:48.150 --> 00:15:48.160 align:start position:0%
+attention layer followed by a mixture of
+ 
+
+00:15:48.160 --> 00:15:51.590 align:start position:0%
+attention layer followed by a mixture of
+experts<00:15:48.880><c> layer.</c><00:15:49.839><c> The</c><00:15:50.079><c> first</c><00:15:50.320><c> two</c><00:15:50.720><c> layers</c><00:15:51.120><c> use</c>
+
+00:15:51.590 --> 00:15:51.600 align:start position:0%
+experts layer. The first two layers use
+ 
+
+00:15:51.600 --> 00:15:54.870 align:start position:0%
+experts layer. The first two layers use
+HCA<00:15:52.720><c> to</c><00:15:53.040><c> build</c><00:15:53.199><c> a</c><00:15:53.440><c> cheap</c><00:15:53.680><c> global</c><00:15:54.079><c> summary</c><00:15:54.639><c> of</c>
+
+00:15:54.870 --> 00:15:54.880 align:start position:0%
+HCA to build a cheap global summary of
+ 
+
+00:15:54.880 --> 00:15:57.749 align:start position:0%
+HCA to build a cheap global summary of
+the<00:15:55.120><c> entire</c><00:15:55.600><c> sequence,</c><00:15:56.560><c> letting</c><00:15:57.040><c> information</c>
+
+00:15:57.749 --> 00:15:57.759 align:start position:0%
+the entire sequence, letting information
+ 
+
+00:15:57.759 --> 00:16:00.710 align:start position:0%
+the entire sequence, letting information
+mix<00:15:58.160><c> across</c><00:15:58.639><c> long</c><00:15:59.040><c> context</c><00:15:59.920><c> before</c><00:16:00.240><c> the</c><00:16:00.399><c> model</c>
+
+00:16:00.710 --> 00:16:00.720 align:start position:0%
+mix across long context before the model
+ 
+
+00:16:00.720 --> 00:16:03.749 align:start position:0%
+mix across long context before the model
+commits<00:16:01.199><c> to</c><00:16:01.440><c> fine-</c><00:16:01.759><c> grain</c><00:16:02.079><c> processing.</c><00:16:03.519><c> In</c>
+
+00:16:03.749 --> 00:16:03.759 align:start position:0%
+commits to fine- grain processing. In
+ 
+
+00:16:03.759 --> 00:16:06.069 align:start position:0%
+commits to fine- grain processing. In
+the<00:16:03.920><c> middle</c><00:16:04.240><c> portion</c><00:16:04.639><c> of</c><00:16:04.800><c> the</c><00:16:05.040><c> model,</c><00:16:05.759><c> the</c>
+
+00:16:06.069 --> 00:16:06.079 align:start position:0%
+the middle portion of the model, the
+ 
+
+00:16:06.079 --> 00:16:09.509 align:start position:0%
+the middle portion of the model, the
+architecture<00:16:06.800><c> alternates</c><00:16:07.519><c> between</c><00:16:08.160><c> HCA</c><00:16:09.279><c> and</c>
+
+00:16:09.509 --> 00:16:09.519 align:start position:0%
+architecture alternates between HCA and
+ 
+
+00:16:09.519 --> 00:16:13.269 align:start position:0%
+architecture alternates between HCA and
+the<00:16:09.759><c> more</c><00:16:10.000><c> selective</c><00:16:10.959><c> CSA</c><00:16:11.759><c> layers.</c>
+
+00:16:13.269 --> 00:16:13.279 align:start position:0%
+the more selective CSA layers.
+ 
+
+00:16:13.279 --> 00:16:15.670 align:start position:0%
+the more selective CSA layers.
+This<00:16:13.600><c> design</c><00:16:14.240><c> enables</c><00:16:14.720><c> the</c><00:16:14.959><c> network</c><00:16:15.440><c> to</c>
+
+00:16:15.670 --> 00:16:15.680 align:start position:0%
+This design enables the network to
+ 
+
+00:16:15.680 --> 00:16:18.389 align:start position:0%
+This design enables the network to
+repeatedly<00:16:16.399><c> switch</c><00:16:16.959><c> between</c><00:16:17.360><c> forming</c><00:16:17.920><c> broad</c>
+
+00:16:18.389 --> 00:16:18.399 align:start position:0%
+repeatedly switch between forming broad
+ 
+
+00:16:18.399 --> 00:16:20.870 align:start position:0%
+repeatedly switch between forming broad
+global<00:16:18.800><c> summaries</c><00:16:19.360><c> of</c><00:16:19.600><c> the</c><00:16:19.759><c> sequence</c><00:16:20.560><c> and</c>
+
+00:16:20.870 --> 00:16:20.880 align:start position:0%
+global summaries of the sequence and
+ 
+
+00:16:20.880 --> 00:16:23.350 align:start position:0%
+global summaries of the sequence and
+engaging<00:16:21.440><c> in</c><00:16:21.680><c> focused</c><00:16:22.399><c> highresolution</c>
+
+00:16:23.350 --> 00:16:23.360 align:start position:0%
+engaging in focused highresolution
+ 
+
+00:16:23.360 --> 00:16:25.430 align:start position:0%
+engaging in focused highresolution
+interactions.
+
+00:16:25.430 --> 00:16:25.440 align:start position:0%
+interactions.
+ 
+
+00:16:25.440 --> 00:16:27.670 align:start position:0%
+interactions.
+By<00:16:25.680><c> alternating</c><00:16:26.320><c> between</c><00:16:26.639><c> these</c><00:16:26.959><c> two</c><00:16:27.199><c> forms</c>
+
+00:16:27.670 --> 00:16:27.680 align:start position:0%
+By alternating between these two forms
+ 
+
+00:16:27.680 --> 00:16:30.550 align:start position:0%
+By alternating between these two forms
+of<00:16:27.920><c> compressed</c><00:16:28.480><c> attention,</c><00:16:29.440><c> Deepseek</c><00:16:30.079><c> V4</c>
+
+00:16:30.550 --> 00:16:30.560 align:start position:0%
+of compressed attention, Deepseek V4
+ 
+
+00:16:30.560 --> 00:16:32.790 align:start position:0%
+of compressed attention, Deepseek V4
+incrementally<00:16:31.440><c> refineses</c><00:16:31.920><c> its</c><00:16:32.320><c> internal</c>
+
+00:16:32.790 --> 00:16:32.800 align:start position:0%
+incrementally refineses its internal
+ 
+
+00:16:32.800 --> 00:16:35.430 align:start position:0%
+incrementally refineses its internal
+representations,<00:16:34.240><c> efficiently</c><00:16:34.880><c> shuttling</c>
+
+00:16:35.430 --> 00:16:35.440 align:start position:0%
+representations, efficiently shuttling
+ 
+
+00:16:35.440 --> 00:16:37.749 align:start position:0%
+representations, efficiently shuttling
+information<00:16:36.160><c> across</c><00:16:36.639><c> multiple</c><00:16:37.120><c> levels</c><00:16:37.519><c> of</c>
+
+00:16:37.749 --> 00:16:37.759 align:start position:0%
+information across multiple levels of
+ 
+
+00:16:37.759 --> 00:16:40.230 align:start position:0%
+information across multiple levels of
+abstraction<00:16:38.880><c> without</c><00:16:39.279><c> incurring</c><00:16:39.759><c> the</c><00:16:40.000><c> full</c>
+
+00:16:40.230 --> 00:16:40.240 align:start position:0%
+abstraction without incurring the full
+ 
+
+00:16:40.240 --> 00:16:43.990 align:start position:0%
+abstraction without incurring the full
+quadratic<00:16:40.880><c> computation</c><00:16:41.680><c> at</c><00:16:42.079><c> every</c><00:16:42.560><c> layer.</c>
+
+00:16:43.990 --> 00:16:44.000 align:start position:0%
+quadratic computation at every layer.
+ 
+
+00:16:44.000 --> 00:16:46.069 align:start position:0%
+quadratic computation at every layer.
+Finally,<00:16:44.480><c> the</c><00:16:44.720><c> last</c><00:16:45.120><c> layer</c><00:16:45.440><c> uses</c><00:16:45.839><c> full</c>
+
+00:16:46.069 --> 00:16:46.079 align:start position:0%
+Finally, the last layer uses full
+ 
+
+00:16:46.079 --> 00:16:48.710 align:start position:0%
+Finally, the last layer uses full
+attention<00:16:46.800><c> to</c><00:16:47.120><c> reintegrate</c><00:16:47.920><c> everything</c><00:16:48.399><c> at</c>
+
+00:16:48.710 --> 00:16:48.720 align:start position:0%
+attention to reintegrate everything at
+ 
+
+00:16:48.720 --> 00:16:51.030 align:start position:0%
+attention to reintegrate everything at
+full<00:16:48.959><c> token</c><00:16:49.360><c> resolution.</c>
+
+00:16:51.030 --> 00:16:51.040 align:start position:0%
+full token resolution.
+ 
+
+00:16:51.040 --> 00:16:53.430 align:start position:0%
+full token resolution.
+This<00:16:51.360><c> recovers</c><00:16:51.920><c> details</c><00:16:52.560><c> that</c><00:16:52.880><c> compression</c>
+
+00:16:53.430 --> 00:16:53.440 align:start position:0%
+This recovers details that compression
+ 
+
+00:16:53.440 --> 00:16:55.670 align:start position:0%
+This recovers details that compression
+may<00:16:53.680><c> have</c><00:16:53.839><c> blurred,</c><00:16:54.639><c> producing</c><00:16:55.120><c> the</c><00:16:55.360><c> most</c>
+
+00:16:55.670 --> 00:16:55.680 align:start position:0%
+may have blurred, producing the most
+ 
+
+00:16:55.680 --> 00:16:58.389 align:start position:0%
+may have blurred, producing the most
+accurate<00:16:56.320><c> output</c><00:16:56.720><c> logits.</c>
+
+00:16:58.389 --> 00:16:58.399 align:start position:0%
+accurate output logits.
+ 
+
+00:16:58.399 --> 00:17:00.870 align:start position:0%
+accurate output logits.
+This<00:16:58.639><c> schedule</c><00:16:59.120><c> balances</c><00:16:59.759><c> efficiency</c><00:17:00.480><c> with</c>
+
+00:17:00.870 --> 00:17:00.880 align:start position:0%
+This schedule balances efficiency with
+ 
+
+00:17:00.880 --> 00:17:04.549 align:start position:0%
+This schedule balances efficiency with
+expressivity,<00:17:02.240><c> early</c><00:17:02.639><c> global</c><00:17:03.040><c> context,</c><00:17:04.079><c> mid</c>
+
+00:17:04.549 --> 00:17:04.559 align:start position:0%
+expressivity, early global context, mid
+ 
+
+00:17:04.559 --> 00:17:06.949 align:start position:0%
+expressivity, early global context, mid
+layer<00:17:04.880><c> iterative</c><00:17:05.520><c> refinement,</c><00:17:06.559><c> and</c><00:17:06.720><c> a</c>
+
+00:17:06.949 --> 00:17:06.959 align:start position:0%
+layer iterative refinement, and a
+ 
+
+00:17:06.959 --> 00:17:09.510 align:start position:0%
+layer iterative refinement, and a
+precise<00:17:07.520><c> final</c><00:17:08.000><c> readout.</c>
+
+00:17:09.510 --> 00:17:09.520 align:start position:0%
+precise final readout.
+ 
+
+00:17:09.520 --> 00:17:11.590 align:start position:0%
+precise final readout.
+I<00:17:09.760><c> hope</c><00:17:09.919><c> you</c><00:17:10.160><c> enjoy</c><00:17:10.480><c> this</c><00:17:10.720><c> overview</c><00:17:11.280><c> of</c>
+
+00:17:11.590 --> 00:17:11.600 align:start position:0%
+I hope you enjoy this overview of
+ 
+
+00:17:11.600 --> 00:17:13.669 align:start position:0%
+I hope you enjoy this overview of
+compressed<00:17:12.079><c> attention.</c><00:17:13.120><c> Thanks</c><00:17:13.439><c> for</c>
+
+00:17:13.669 --> 00:17:13.679 align:start position:0%
+compressed attention. Thanks for
+ 
+
+00:17:13.679 --> 00:17:16.959 align:start position:0%
+compressed attention. Thanks for
+watching<00:17:14.000><c> and</c><00:17:14.240><c> I'll</c><00:17:14.480><c> see</c><00:17:14.640><c> you</c><00:17:14.799><c> next</c>
+
