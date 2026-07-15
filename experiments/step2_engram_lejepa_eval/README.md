@@ -21,7 +21,8 @@ them with `--jepa-mode lejepa_proxy`.
 
 Folders:
 - `notes/`: method notes and interpretation
-- `scripts/`: reserved for step-2 dedicated runners
+- `scripts/run_real_lejepa_campaign.sh`: three-GPU deterministic training and
+  paper-task evaluation using the archived control plans/checkpoints
 - `configs/`: reserved for step-2 configs
 
 Primary docs:
