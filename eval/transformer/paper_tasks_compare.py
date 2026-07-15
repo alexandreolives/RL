@@ -72,7 +72,7 @@ def choice_scores(
 
 
 def eval_arc(model: TransformerMolecule, *, limit: int, max_len: int, device: torch.device) -> dict:
-    ds = load_dataset("ai2_arc", "ARC-Challenge", split="validation")
+    ds = load_dataset("allenai/ai2_arc", "ARC-Challenge", split="validation")
     correct = 0
     total = 0
     for row in ds:
@@ -95,7 +95,7 @@ def eval_arc(model: TransformerMolecule, *, limit: int, max_len: int, device: to
 
 
 def eval_arc_easy(model: TransformerMolecule, *, limit: int, max_len: int, device: torch.device) -> dict:
-    ds = load_dataset("ai2_arc", "ARC-Easy", split="validation")
+    ds = load_dataset("allenai/ai2_arc", "ARC-Easy", split="validation")
     correct = 0
     total = 0
     for row in ds:
@@ -118,7 +118,7 @@ def eval_arc_easy(model: TransformerMolecule, *, limit: int, max_len: int, devic
 
 
 def eval_hellaswag(model: TransformerMolecule, *, limit: int, max_len: int, device: torch.device) -> dict:
-    ds = load_dataset("hellaswag", split="validation")
+    ds = load_dataset("Rowan/hellaswag", split="validation")
     correct = 0
     total = 0
     for row in ds:
@@ -175,7 +175,7 @@ def eval_mmlu(model: TransformerMolecule, *, limit: int, max_len: int, device: t
 
 
 def eval_piqa(model: TransformerMolecule, *, limit: int, max_len: int, device: torch.device) -> dict:
-    ds = safe_load_dataset("piqa", split="validation")
+    ds = safe_load_dataset("ybisk/piqa", split="validation")
     if ds is None:
         return {"accuracy": float("nan"), "n": 0, "skipped": "dataset_unavailable"}
     correct = 0
@@ -197,7 +197,7 @@ def eval_piqa(model: TransformerMolecule, *, limit: int, max_len: int, device: t
 
 
 def eval_winogrande(model: TransformerMolecule, *, limit: int, max_len: int, device: torch.device) -> dict:
-    ds = safe_load_dataset("winogrande", "winogrande_xl", split="validation")
+    ds = safe_load_dataset("allenai/winogrande", "winogrande_xl", split="validation")
     if ds is None:
         return {"accuracy": float("nan"), "n": 0, "skipped": "dataset_unavailable"}
     correct = 0
@@ -221,7 +221,7 @@ def eval_winogrande(model: TransformerMolecule, *, limit: int, max_len: int, dev
 
 
 def eval_openbookqa(model: TransformerMolecule, *, limit: int, max_len: int, device: torch.device) -> dict:
-    ds = safe_load_dataset("openbookqa", "main", split="validation")
+    ds = safe_load_dataset("allenai/openbookqa", "main", split="validation")
     if ds is None:
         return {"accuracy": float("nan"), "n": 0, "skipped": "dataset_unavailable"}
     correct = 0

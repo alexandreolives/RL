@@ -527,7 +527,8 @@ def main() -> None:
         torch.backends.cudnn.benchmark = False
 
     if args.dataset == "wikitext":
-        dataset_name = "wikitext"
+        # Datasets 5 no longer resolves the legacy un-namespaced alias.
+        dataset_name = "Salesforce/wikitext"
         dataset_config = args.dataset_config
     else:
         dataset_name = args.dataset
