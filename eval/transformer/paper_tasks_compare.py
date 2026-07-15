@@ -28,7 +28,27 @@ def load_model(ckpt_path: Path, device: torch.device) -> TransformerMolecule:
     elif isinstance(cfg, dict):
         raise RuntimeError("Checkpoint config must be dataclass object, got dict")
     model = TransformerMolecule(cfg).to(device)
-    model.load_state_dict(payload["state_dict"], strict=True)
+    incompatible = model.load_state_dict(payload["state_dict"], strict=False)
+    # Checkpoints produced before f94aaef do not contain the Lightning Indexer
+    # parameters. They are dormant for the baseline/Engram controls because
+    # those configs do not use compressed attention. Reject every other schema
+    # mismatch so compatibility does not silently hide a real model change.
+    allowed_missing_fragments = (
+        ".attn.lightning_indexer.",
+        ".attn.lightning_q.",
+        ".attn.lightning_k.",
+    )
+    unexpected = list(incompatible.unexpected_keys)
+    disallowed_missing = [
+        key
+        for key in incompatible.missing_keys
+        if not any(fragment in key for fragment in allowed_missing_fragments)
+    ]
+    if unexpected or disallowed_missing:
+        raise RuntimeError(
+            "Unsupported checkpoint schema mismatch: "
+            f"missing={disallowed_missing}, unexpected={unexpected}"
+        )
     model.eval()
     return model
 
