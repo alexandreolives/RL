@@ -312,7 +312,7 @@ def train_variant(
         device,
         model_size="tiny",
         input_mode=input_mode,
-        attention_backend="flash" if device.type == "cuda" else "auto",
+        attention_backend="auto",
         byte_patching=byte_patching,
         byte_patch_size=byte_patch_size,
     )
