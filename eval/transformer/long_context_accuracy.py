@@ -7,8 +7,14 @@ from statistics import mean
 import torch
 
 from eval.transformer.common import resolve_device, set_seed
-from models.example import build_config, build_deepseek_v4_v4_config, build_deepseek_v4_v5_config
-from models.molecules import TransformerMolecule
+from models.example import (
+    build_config,
+    build_deepseek_v4_v4_config,
+    build_deepseek_v4_v5_config,
+    build_deepseek_v4_v6_config,
+    build_model,
+)
+from models.molecules import DeepseekV4ReferenceMolecule, TransformerMolecule
 
 
 PASSKEY_MARKER = 250
@@ -25,7 +31,7 @@ def build_long_context_model(
     *,
     input_mode: str = "byte",
     attention_backend: str = "auto",
-) -> TransformerMolecule:
+) -> TransformerMolecule | DeepseekV4ReferenceMolecule:
     cfg = build_config(
         use_engram=True,
         use_dsa=False,
@@ -201,14 +207,22 @@ def build_long_context_model(
         cfg.engram.conv_enabled = False
         cfg.engram.long_conv_enabled = False
         cfg.engram.insert_layers = (0, 1, 2)
-    elif name in {"v4", "deepseek_v4_v4", "deepseek_v4_public_exact"}:
+    elif name in {"v4", "deepseek_v4_v4"}:
         cfg = build_deepseek_v4_v4_config(attention_backend=attention_backend, input_mode=input_mode)
-    elif name in {"v5", "deepseek_v4_v5", "deepseek_v4_public_solid"}:
+    elif name in {"v5", "deepseek_v4_v5"}:
         cfg = build_deepseek_v4_v5_config(attention_backend=attention_backend, input_mode=input_mode)
+    elif name in {
+        "v6",
+        "deepseek_v4_v6",
+        "deepseek_v4_reference",
+        "deepseek_v4_public_exact",
+        "deepseek_v4_public_solid",
+    }:
+        cfg = build_deepseek_v4_v6_config(attention_backend=attention_backend, input_mode=input_mode)
     else:
         raise ValueError(f"Unknown variant: {name}")
 
-    return TransformerMolecule(cfg).to(device).eval()
+    return build_model(cfg).to(device).eval()
 
 
 def make_passkey_batch(batch: int, seq_len: int, *, device: torch.device) -> tuple[torch.Tensor, torch.Tensor, torch.Tensor]:
@@ -410,7 +424,7 @@ def main() -> None:
     parser.add_argument(
         "--variants",
         nargs="+",
-        default=["baseline", "engram", "engram_noconv", "engram_fullconv", "full", "full_noconv", "v1", "v2", "v3", "v4", "v5"],
+        default=["baseline", "engram", "engram_noconv", "engram_fullconv", "full", "full_noconv", "v1", "v2", "v3", "v4", "v5", "v6"],
     )
     args = parser.parse_args()
 

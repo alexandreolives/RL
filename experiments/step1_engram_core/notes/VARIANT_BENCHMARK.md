@@ -313,3 +313,46 @@ Takeaways:
 - `v3` is the only variant to move `variable_tracking` off exact chance in this run, but the gain is still small and not consistent enough to call it a win.
 - `v4` still does not outperform the simpler variants on this proxy, so architecture similarity to the public DeepSeek-V4 spec is not enough by itself.
 - The main lesson is that the V4-like stack is now being tested fairly, but it still needs either more tuning or a better proxy than `passkey`-style recall.
+
+## V6 Reference Backend
+
+Date: 2026-07-15
+
+`v6` supersedes `v5` for new DeepSeek-V4 architecture experiments. The older
+variants remain available so their recorded results stay reproducible, but
+their aliases no longer claim exact public compatibility.
+
+Unlike the native approximations, `v6` adapts
+`transformers.DeepseekV4ForCausalLM` behind the repository's existing model
+interface. It therefore uses the maintained reference implementations of:
+
+- per-query sliding causal attention plus CSA/HCA long-range entries
+- shared K=V multi-query attention and interleaved trailing partial RoPE
+- inverse output RoPE and the non-renormalized attention sink
+- stateful CSA/HCA buffers, overlap state, compressed pools, and counters
+- collapse/sublayer/expand mHC dataflow with Sinkhorn projection
+- hash-routed bootstrap layers and sparse top-k expert execution
+
+The adapter adds deterministic balanced hash routes for fresh random models;
+loading a checkpoint can replace that persistent `tid2eid` table. It also adds
+a cache subclass whose `clone()` and `reset()` cover compressor and indexer
+state, not only sliding K/V tensors.
+
+Regression checks cover:
+
+- full-context versus token-by-token logits (`atol=2e-5`, `rtol=2e-5`)
+- live sliding attention during compressor warm-up
+- K=V cache storage identity
+- deep cache cloning and complete reset
+- finite gradients through attention and routed experts
+
+Run them with:
+
+```bash
+PYTHONPATH=src:. .venv/bin/python -m unittest tests.test_deepseek_v4_v6 -v
+```
+
+Limits remain explicit: the default configs are small and randomly initialized,
+official checkpoint weights are not bundled, production FP8/FP4 kernels are
+outside this repository, and the current Hugging Face causal-LM runtime does
+not execute the training-only MTP checkpoint module.

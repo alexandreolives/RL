@@ -30,8 +30,14 @@ PYTHONPATH=src:. .venv/bin/python eval/transformer/retrieval.py
 
 - The probes are synthetic and do not measure task accuracy.
 - The numbers are noisy on CPU and should not be treated as final throughput.
-- `mHC`, `DSA`, and `Engram` are still approximations of the papers, not
-  faithful reproductions.
+- The native `v1`–`v5`, `mHC`, `DSA`, and `Engram` paths remain research
+  approximations. `v6` delegates DeepSeek-V4 mechanics to the maintained
+  Hugging Face implementation.
+- `v6` defaults to reduced, randomly initialized configurations. It validates
+  architecture behavior, not official checkpoint quality or production-kernel
+  throughput.
+- The current Hugging Face causal-LM runtime does not execute the checkpoint's
+  training-only MTP module.
 - The paper-level evaluations still need real datasets and benchmark harnesses.
 - The current default `engram` path uses adaptive convolution:
   convolution is enabled on shorter sequences and disabled on longer ones.

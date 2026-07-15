@@ -23,7 +23,14 @@ from eval.transformer.long_context_accuracy import (
     make_variable_tracking_token_batch,
 )
 from models.atoms.norms import RMSNorm
-from models.example import apply_model_size, build_config, build_deepseek_v4_v4_config, build_deepseek_v4_v5_config
+from models.example import (
+    apply_model_size,
+    build_config,
+    build_deepseek_v4_v4_config,
+    build_deepseek_v4_v5_config,
+    build_deepseek_v4_v6_config,
+    build_model,
+)
 from models.molecules import TransformerMolecule
 
 
@@ -346,10 +353,18 @@ def build_train_model(
         cfg.engram.conv_enabled = False
         cfg.engram.long_conv_enabled = False
         cfg.engram.insert_layers = (0, 1, 2)
-    elif name in {"v4", "deepseek_v4_v4", "deepseek_v4_public_exact"}:
+    elif name in {"v4", "deepseek_v4_v4"}:
         cfg = build_deepseek_v4_v4_config(attention_backend=attention_backend, input_mode=input_mode)
-    elif name in {"v5", "deepseek_v4_v5", "deepseek_v4_public_solid"}:
+    elif name in {"v5", "deepseek_v4_v5"}:
         cfg = build_deepseek_v4_v5_config(attention_backend=attention_backend, input_mode=input_mode)
+    elif name in {
+        "v6",
+        "deepseek_v4_v6",
+        "deepseek_v4_reference",
+        "deepseek_v4_public_exact",
+        "deepseek_v4_public_solid",
+    }:
+        cfg = build_deepseek_v4_v6_config(attention_backend=attention_backend, input_mode=input_mode)
     elif name == "full_noconv":
         cfg = build_config(
             use_engram=True,
@@ -374,7 +389,7 @@ def build_train_model(
         raise ValueError(f"Unknown variant: {name}")
 
     cfg = apply_model_size(cfg, model_size, input_mode=input_mode)
-    return TransformerMolecule(cfg).to(device)
+    return build_model(cfg).to(device)
 
 
 def train_variant(
@@ -525,7 +540,7 @@ def main() -> None:
     parser.add_argument(
         "--variants",
         nargs="+",
-        default=["baseline", "engram", "engram_layerhash", "v1", "v2", "v3", "v4", "v5"],
+        default=["baseline", "engram", "engram_layerhash", "v1", "v2", "v3", "v4", "v5", "v6"],
     )
     args = parser.parse_args()
 

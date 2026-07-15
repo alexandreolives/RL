@@ -32,9 +32,12 @@ theater.
 - LeJEPA-on-text extension and ablation results.
 - A configurable Transformer stack split into reusable `atoms` and assembled
   `molecules`, with symbolic-token and byte-first input modes.
-- Experimental DeepSeek-V4-inspired variants (`v1` through `v5`) combining
+- Historical DeepSeek-V4-inspired variants (`v1` through `v5`) combining
   sliding, compressed sparse, and heavily compressed attention; sparse/hash
   MoE; mHC residual streams; partial/scaled RoPE; and per-layer dynamic caches.
+- A corrected `v6` adapter backed by the maintained Hugging Face DeepSeek-V4
+  implementation, with the official causal masks, CSA/HCA state, interleaved
+  RoPE, shared K=V attention, mHC dataflow, attention sink, and sparse experts.
 - Synthetic long-context probes and train/eval comparisons for passkey,
   multi-query retrieval, and variable tracking.
 - OCR-like multimodal foundation (in progress), designed to be adapted to the
@@ -46,6 +49,12 @@ Main tracker: [experiments/ROADMAP.md](experiments/ROADMAP.md).
 
 - Several results are explicitly marked as proxy/smoke and should not be
   interpreted as paper-faithful reproduction.
+- `v1` through `v5` are retained for historical comparisons and remain local
+  approximations. Use `v6` for new DeepSeek-V4 experiments.
+- `v6` uses randomly initialized, compute-scaled configs by default; it does
+  not include official model weights or production inference kernels.
+- `v6` is intentionally a pure DeepSeek-V4 control: Engram, LeJEPA, OCR,
+  multimodal fusion, and BLT-style byte patching are not enabled in it.
 - Some launchers are optimized for Docker-based workflows; platform notes are
   provided separately.
 - Multimodal OCR-like work is active and not final.
@@ -112,13 +121,14 @@ running the Python commands.
 ```python
 from models.example import build_variant
 
-model = build_variant("v5", attention_backend="auto")
+model = build_variant("v6", attention_backend="eager")
 ```
 
 `build_variant` also exposes the controlled comparison variants such as
 `baseline`, `engram`, `engram_noconv`, `engram_layerhash`, `dsa`, `mhc`, and
 `full`. For lower-level control, construct a `TransformerConfig` from
-`models.atoms.config` and pass it to `TransformerMolecule`.
+`models.atoms.config`. The `v6` adapter requires `transformers==5.13.1`, pinned
+in `pyproject.toml` and `uv.lock`.
 
 ## Run the lightweight evaluations
 
@@ -135,6 +145,7 @@ Other entry points include:
 ```bash
 PYTHONPATH=src:. .venv/bin/python eval/transformer/ablation.py
 PYTHONPATH=src:. .venv/bin/python eval/transformer/train_long_context_compare.py --help
+PYTHONPATH=src:. .venv/bin/python -m unittest tests.test_deepseek_v4_v6 -v
 ```
 
 These are synthetic research probes. See

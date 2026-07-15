@@ -5,6 +5,7 @@ from dataclasses import dataclass, field
 class AttentionConfig:
     num_heads: int = 8
     num_kv_heads: int | None = None
+    head_dim: int | None = None
     q_lora_rank: int | None = None
     q_lora_norm: bool = False
     kv_norm: bool = False
@@ -124,3 +125,4 @@ class TransformerConfig:
     layer_types: tuple[str, ...] | None = None
     mlp_layer_types: tuple[str, ...] | None = None
     num_hash_layers: int | None = None
+    implementation: str = "native"

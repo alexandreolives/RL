@@ -76,7 +76,7 @@ def main() -> None:
     parser.add_argument(
         "--variants",
         nargs="+",
-        default=["baseline", "engram", "engram_noconv", "dsa", "mhc", "full", "full_noconv", "v1", "v2", "v3", "v4", "v5"],
+        default=["baseline", "engram", "engram_noconv", "dsa", "mhc", "full", "full_noconv", "v1", "v2", "v3", "v4", "v5", "v6"],
     )
     args = parser.parse_args()
     device = resolve_device(args.device)

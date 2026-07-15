@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import json
 
-from models.example import build_config, build_deepseek_v4_v4_config, build_deepseek_v4_v5_config
+from models.example import build_config, build_deepseek_v4_v4_config, build_deepseek_v4_v5_config, build_deepseek_v4_v6_config, build_model
 from models.molecules import TransformerMolecule
 
 from eval.transformer.common import make_batch, run_forward
@@ -97,6 +97,9 @@ def build_ablation_models():
 
     cfg = build_deepseek_v4_v5_config()
     variants["v5"] = TransformerMolecule(cfg).eval()
+
+    cfg = build_deepseek_v4_v6_config()
+    variants["v6"] = build_model(cfg).eval()
 
     cfg = build_config(use_engram=True, use_dsa=False, use_mhc=True, use_moe=False, activation="swiglu")
     cfg.engram.conv_kernel_size = 1

@@ -1,5 +1,5 @@
 from models.atoms.config import AttentionConfig, MoEConfig, MultimodalConfig, TransformerConfig, EngramConfig, ByteConfig
-from models.molecules import TransformerMolecule
+from models.molecules import DeepseekV4ReferenceMolecule, TransformerMolecule
 
 
 def build_deepseek_v4_attention_schedule(depth: int) -> tuple[str, ...]:
@@ -247,6 +247,72 @@ def build_deepseek_v4_v5_config(
     return cfg
 
 
+def build_deepseek_v4_v6_config(
+    *,
+    attention_backend: str = "auto",
+    input_mode: str = "symbolic",
+) -> TransformerConfig:
+    """Build the corrected V4 variant backed by Hugging Face Transformers."""
+
+    cfg = build_config(
+        use_engram=False,
+        use_dsa=False,
+        use_mhc=True,
+        use_moe=True,
+        activation="swiglu",
+        attention_backend=attention_backend,
+    )
+    cfg.implementation = "hf_deepseek_v4"
+    cfg.multimodal.enabled = False
+    cfg.use_byte_first = input_mode == "byte"
+    cfg.use_mhc_streams = True
+    cfg.hc_mult = 4
+    cfg.mhc_sinkhorn_iters = 20
+    cfg.mhc_eps = 1e-6
+    cfg.use_cache = False
+    cfg.num_nextn_predict_layers = 1
+
+    cfg.attention.num_heads = 8
+    cfg.attention.num_kv_heads = 1
+    cfg.attention.head_dim = cfg.d_model // cfg.attention.num_heads
+    cfg.attention.q_lora_rank = 128
+    cfg.attention.sliding_window = 128
+    cfg.attention.partial_rotary_factor = 0.125
+    cfg.attention.compress_rates = {
+        "compressed_sparse_attention": 4,
+        "heavily_compressed_attention": 128,
+    }
+    cfg.attention.compress_rope_base = 160_000
+    cfg.attention.o_groups = 8
+    cfg.attention.o_lora_rank = 128
+    cfg.attention.index_n_heads = 8
+    cfg.attention.index_head_dim = 128
+    cfg.attention.index_topk = 64
+
+    cfg.moe.num_experts = 8
+    cfg.moe.top_k = 6
+    cfg.moe.shared_expert = True
+    cfg.moe.scoring_func = "sqrtsoftplus"
+    cfg.moe.topk_method = "noaux_tc"
+    cfg.moe.norm_topk_prob = True
+    cfg.moe.routed_scaling_factor = 2.5
+    cfg.moe.swiglu_limit = 10.0
+
+    # Let the maintained HF config generate the checkpoint-compatible layer
+    # and hash-MoE schedules for the selected depth.
+    cfg.layer_types = None
+    cfg.mlp_layer_types = None
+    cfg.num_hash_layers = 3
+    if input_mode == "byte":
+        cfg.bytes.use_byte_patching = False
+        cfg.bytes.patch_size = 1
+    elif input_mode == "symbolic":
+        cfg.vocab_size = 260
+    else:
+        raise ValueError(f"Unknown input_mode: {input_mode}")
+    return cfg
+
+
 def apply_model_size(cfg: TransformerConfig, model_size: str, *, input_mode: str) -> TransformerConfig:
     if model_size == "tiny":
         cfg.d_model = 192
@@ -257,6 +323,8 @@ def apply_model_size(cfg: TransformerConfig, model_size: str, *, input_mode: str
         cfg.attention.local_window = 128
         cfg.attention.index_n_heads = cfg.attention.num_heads
         cfg.attention.index_head_dim = cfg.d_model // cfg.attention.num_heads
+        if cfg.attention.head_dim is not None:
+            cfg.attention.head_dim = cfg.d_model // cfg.attention.num_heads
         if cfg.attention.q_lora_rank is not None:
             cfg.attention.q_lora_rank = min(cfg.attention.q_lora_rank, 64)
         if cfg.attention.csa_overlap:
@@ -284,6 +352,8 @@ def apply_model_size(cfg: TransformerConfig, model_size: str, *, input_mode: str
         cfg.attention.local_window = 192
         cfg.attention.index_n_heads = cfg.attention.num_heads
         cfg.attention.index_head_dim = cfg.d_model // cfg.attention.num_heads
+        if cfg.attention.head_dim is not None:
+            cfg.attention.head_dim = cfg.d_model // cfg.attention.num_heads
         if cfg.attention.q_lora_rank is not None:
             cfg.attention.q_lora_rank = min(cfg.attention.q_lora_rank, 96)
         if cfg.attention.csa_overlap:
@@ -380,12 +450,22 @@ def build_config(
     )
 
 
-def build_demo_model() -> TransformerMolecule:
+def build_model(config: TransformerConfig) -> TransformerMolecule | DeepseekV4ReferenceMolecule:
+    if config.implementation == "hf_deepseek_v4":
+        return DeepseekV4ReferenceMolecule(config)
+    return TransformerMolecule(config)
+
+
+def build_demo_model() -> TransformerMolecule | DeepseekV4ReferenceMolecule:
     cfg = build_config()
-    return TransformerMolecule(cfg)
+    return build_model(cfg)
 
 
-def build_variant(name: str, *, attention_backend: str = "auto") -> TransformerMolecule:
+def build_variant(
+    name: str,
+    *,
+    attention_backend: str = "auto",
+) -> TransformerMolecule | DeepseekV4ReferenceMolecule:
     key = name.lower()
     if key == "baseline":
         cfg = build_config(use_engram=False, use_dsa=False, use_mhc=False, use_moe=False, activation="gelu", attention_backend=attention_backend)
@@ -416,10 +496,18 @@ def build_variant(name: str, *, attention_backend: str = "auto") -> TransformerM
         cfg = build_deepseek_v4_v2_config(attention_backend=attention_backend, input_mode="symbolic")
     elif key in {"v3", "deepseek_v4_v3", "deepseek_v4_public_like"}:
         cfg = build_deepseek_v4_v3_config(attention_backend=attention_backend, input_mode="symbolic")
-    elif key in {"v4", "deepseek_v4_v4", "deepseek_v4_public_exact"}:
+    elif key in {"v4", "deepseek_v4_v4"}:
         cfg = build_deepseek_v4_v4_config(attention_backend=attention_backend, input_mode="symbolic")
-    elif key in {"v5", "deepseek_v4_v5", "deepseek_v4_public_solid"}:
+    elif key in {"v5", "deepseek_v4_v5"}:
         cfg = build_deepseek_v4_v5_config(attention_backend=attention_backend, input_mode="symbolic")
+    elif key in {
+        "v6",
+        "deepseek_v4_v6",
+        "deepseek_v4_reference",
+        "deepseek_v4_public_exact",
+        "deepseek_v4_public_solid",
+    }:
+        cfg = build_deepseek_v4_v6_config(attention_backend=attention_backend, input_mode="symbolic")
     elif key == "dsa":
         cfg = build_config(use_engram=False, use_dsa=True, use_mhc=False, use_moe=False, activation="gelu", attention_backend=attention_backend)
     elif key == "mhc":
@@ -431,4 +519,4 @@ def build_variant(name: str, *, attention_backend: str = "auto") -> TransformerM
         cfg.engram.conv_enabled = False
     else:
         raise ValueError(f"Unknown variant: {name}")
-    return TransformerMolecule(cfg)
+    return build_model(cfg)
