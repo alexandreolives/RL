@@ -77,6 +77,6 @@ Observed values:
 
 The implementation passes its complete targeted test suite remotely and
 produces finite non-zero encoder gradients during a real CUDA backward pass.
-The next scientific validation remains a deterministic multi-seed comparison
-of `baseline`, `engram_noconv`, and `engram_noconv + lejepa` on fixed data
-plans. No model-quality conclusion should be drawn from this smoke test alone.
+The subsequent deterministic nine-seed comparison is now complete and is
+documented in `LEJEPA_REAL_RESULTS_2026-07-15.md`. No model-quality conclusion
+should be drawn from this smoke test alone.

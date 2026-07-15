@@ -1,7 +1,7 @@
 # Step 2 — LeJEPA on Text
 
 Status: implementation `done`; remote CUDA smoke `passed`; paper-aligned
-multi-seed evaluation `pending`
+multi-seed evaluation `completed`
 
 Scope:
 - `engram_noconv + lejepa` paper-aligned auxiliary objective
@@ -26,6 +26,7 @@ Folders:
 - `configs/`: reserved for step-2 configs
 
 Primary docs:
+- `notes/LEJEPA_REAL_RESULTS_2026-07-15.md`
 - `notes/REMOTE_GPU_VALIDATION_2026-07-15.md`
 - `notes/LEJEPA_RESULTS_2026-04-22.md`
 - `notes/DETERMINISTIC_PROXY_RUNBOOK.md`

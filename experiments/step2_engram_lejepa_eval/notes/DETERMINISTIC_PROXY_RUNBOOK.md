@@ -66,8 +66,9 @@ Default eval args:
 
 ## Current decision
 
-Until the paper-aligned multi-seed run is complete, `engram_noconv` remains the
-preferred default based only on the historical proxy experiment.
+The paper-aligned nine-seed run is complete. It found a small, statistically
+inconclusive regression against `engram_noconv`, which therefore remains the
+preferred default. See `LEJEPA_REAL_RESULTS_2026-07-15.md`.
 
 ## Note on JEPA/LeJEPA in this setup
 
@@ -77,6 +78,7 @@ did not implement SIGReg or true pre-encoder views. Adding that proxy on top of
 current paper-aligned `lejepa` mode.
 
 Practical implication:
-- keep `engram_noconv` as default for now.
-- run a new deterministic multi-seed comparison with `--jepa-mode lejepa`
-  before deciding whether the paper-aligned objective helps text.
+- keep `engram_noconv` as the default for this text-byte protocol.
+- treat `lejepa_proxy` as historical reproduction mode only.
+- use the paper-aligned `lejepa` mode for future hyperparameter ablations, not
+  as the current performance default.

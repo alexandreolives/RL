@@ -50,9 +50,9 @@ Main tracker: [experiments/ROADMAP.md](experiments/ROADMAP.md).
 
 - Several results are explicitly marked as proxy/smoke and should not be
   interpreted as paper-faithful reproduction.
-- The archived Step 2 LeJEPA numbers predate the paper-aligned implementation
-  and measure `lejepa_proxy`; new `lejepa` benchmark results have not yet been
-  collected.
+- The paper-aligned Step 2 nine-seed evaluation is complete. Real LeJEPA did
+  not improve on `engram_noconv` under the tested text-byte configuration; the
+  older near-neutral results still refer specifically to `lejepa_proxy`.
 - `v1` through `v5` are retained for historical comparisons and remain local
   approximations. Use `v6` for new DeepSeek-V4 experiments.
 - `v6` uses randomly initialized, compute-scaled configs by default; it does
@@ -189,6 +189,7 @@ notes before interpreting their metrics.
 
 - Step 1 overview: [experiments/step1_engram_core/README.md](experiments/step1_engram_core/README.md)
 - Step 1 trace: [experiments/step1_engram_core/notes/ENGRAM_STEP_TRACE.md](experiments/step1_engram_core/notes/ENGRAM_STEP_TRACE.md)
+- Paper-aligned Step 2 results: [experiments/step2_engram_lejepa_eval/notes/LEJEPA_REAL_RESULTS_2026-07-15.md](experiments/step2_engram_lejepa_eval/notes/LEJEPA_REAL_RESULTS_2026-07-15.md)
 - Historical Step 2 proxy results: [experiments/step2_engram_lejepa_eval/notes/LEJEPA_RESULTS_2026-04-22.md](experiments/step2_engram_lejepa_eval/notes/LEJEPA_RESULTS_2026-04-22.md)
 - Step 2 remote GPU validation: [experiments/step2_engram_lejepa_eval/notes/REMOTE_GPU_VALIDATION_2026-07-15.md](experiments/step2_engram_lejepa_eval/notes/REMOTE_GPU_VALIDATION_2026-07-15.md)
 - Step 3 overview: [experiments/step3_ocr_like/README.md](experiments/step3_ocr_like/README.md)
