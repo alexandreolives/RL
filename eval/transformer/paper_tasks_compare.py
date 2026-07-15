@@ -10,6 +10,7 @@ import torch.nn.functional as F
 from datasets import load_dataset
 
 from eval.transformer.common import resolve_device
+from models.atoms.attention import flash_attn_func
 from models.molecules import TransformerMolecule
 
 
@@ -27,6 +28,8 @@ def load_model(ckpt_path: Path, device: torch.device) -> TransformerMolecule:
         cfg = cfg
     elif isinstance(cfg, dict):
         raise RuntimeError("Checkpoint config must be dataclass object, got dict")
+    if cfg.attention.backend == "flash" and flash_attn_func is None:
+        cfg.attention.backend = "auto"
     model = TransformerMolecule(cfg).to(device)
     incompatible = model.load_state_dict(payload["state_dict"], strict=False)
     # Checkpoints produced before f94aaef do not contain the Lightning Indexer
