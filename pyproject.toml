@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "RL world-model experiments under tight compute budgets"
 requires-python = ">=3.12"
 dependencies = [
+  "datasets",
   "einops",
   "gymnasium",
   "matplotlib",

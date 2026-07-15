@@ -11,6 +11,7 @@ from torch import nn
 from datasets import load_dataset
 
 from eval.transformer.common import resolve_device, set_seed
+from eval.transformer.lejepa import lejepa_loss, make_masked_views
 from eval.transformer.train_long_context_compare import build_train_model
 
 
@@ -166,7 +167,7 @@ def _jepa_latent_loss(
     return F.mse_loss(pred, tgt)
 
 
-def _lejepa_latent_loss(
+def _lejepa_proxy_latent_loss(
     hidden: torch.Tensor,
     predictor: JEPAPredictor,
     *,
@@ -194,6 +195,26 @@ def _lejepa_latent_loss(
     return pred_loss + (isotropy_weight * iso_loss)
 
 
+def _forward_hidden(model: torch.nn.Module, input_ids: torch.Tensor) -> tuple[torch.Tensor, torch.Tensor]:
+    if model.config.use_byte_first:
+        return model(byte_ids=input_ids, return_hidden=True)
+    return model(token_ids=input_ids, return_hidden=True)
+
+
+def _align_lm_targets(model: torch.nn.Module, targets: torch.Tensor, logits_length: int) -> torch.Tensor:
+    """Align next-byte targets when byte patching shortens the sequence."""
+    if targets.size(1) == logits_length:
+        return targets
+    patch_size = int(model.config.bytes.patch_size)
+    indices = list(range(patch_size - 1, targets.size(1), patch_size))
+    if len(indices) < logits_length:
+        indices.append(targets.size(1) - 1)
+    aligned = targets[:, indices[:logits_length]]
+    if aligned.size(1) != logits_length:
+        raise RuntimeError("Could not align LM targets with byte-patched hidden states")
+    return aligned
+
+
 def step_loss(
     model: torch.nn.Module,
     batch_ids: torch.Tensor,
@@ -203,23 +224,53 @@ def step_loss(
     jepa_weight: float = 0.0,
     jepa_mask_ratio: float = 0.4,
     lejepa_isotropy_weight: float = 0.1,
+    lejepa_lambda: float = 0.1,
+    lejepa_num_views: int = 2,
+    lejepa_num_slices: int = 256,
+    lejepa_num_knots: int = 17,
+    lejepa_t_max: float = 5.0,
+    view_seed: int = 0,
 ) -> tuple[torch.Tensor, torch.Tensor, torch.Tensor]:
     inp = batch_ids[:, :-1]
     tgt = batch_ids[:, 1:]
-    logits, hidden = model(byte_ids=inp, return_hidden=True)
+    logits, hidden = _forward_hidden(model, inp)
+    tgt = _align_lm_targets(model, tgt, logits.size(1))
     lm_loss = F.cross_entropy(logits.reshape(-1, logits.size(-1)), tgt.reshape(-1))
-    if jepa_predictor is None or jepa_weight <= 0.0 or jepa_mode == "none":
+    if jepa_weight <= 0.0 or jepa_mode == "none":
         zero = lm_loss.new_zeros(())
         return lm_loss, zero, lm_loss
     if jepa_mode == "jepa":
+        if jepa_predictor is None:
+            raise ValueError("jepa mode requires a predictor")
         jepa_loss = _jepa_latent_loss(hidden, jepa_predictor, mask_ratio=jepa_mask_ratio)
-    elif jepa_mode == "lejepa":
-        jepa_loss = _lejepa_latent_loss(
+    elif jepa_mode == "lejepa_proxy":
+        if jepa_predictor is None:
+            raise ValueError("lejepa_proxy mode requires a predictor")
+        jepa_loss = _lejepa_proxy_latent_loss(
             hidden,
             jepa_predictor,
             mask_ratio=jepa_mask_ratio,
             isotropy_weight=lejepa_isotropy_weight,
         )
+    elif jepa_mode == "lejepa":
+        # Bytes 256..259 are reserved by the 260-entry byte/symbol vocabulary,
+        # so 256 is an unambiguous mask token for raw UTF-8 input.
+        views = make_masked_views(
+            inp,
+            num_views=lejepa_num_views,
+            mask_ratio=jepa_mask_ratio,
+            mask_token_id=256,
+            seed=view_seed,
+        )
+        embeddings = [_forward_hidden(model, view)[1].mean(dim=1) for view in views]
+        jepa_loss = lejepa_loss(
+            embeddings,
+            lambd=lejepa_lambda,
+            global_step=view_seed,
+            num_slices=lejepa_num_slices,
+            num_knots=lejepa_num_knots,
+            t_max=lejepa_t_max,
+        ).total
     else:
         raise ValueError(f"Unknown jepa_mode: {jepa_mode}")
     total = lm_loss + (jepa_weight * jepa_loss)
@@ -247,6 +298,11 @@ def train_variant(
     jepa_mask_ratio: float,
     jepa_proj_dim: int,
     lejepa_isotropy_weight: float,
+    lejepa_lambda: float,
+    lejepa_num_views: int,
+    lejepa_num_slices: int,
+    lejepa_num_knots: int,
+    lejepa_t_max: float,
     train_plan: list[tuple[int, int]] | None = None,
     eval_plan: list[tuple[int, int]] | None = None,
 ) -> dict:
@@ -257,12 +313,11 @@ def train_variant(
         model_size="tiny",
         input_mode=input_mode,
         attention_backend="flash" if device.type == "cuda" else "auto",
+        byte_patching=byte_patching,
+        byte_patch_size=byte_patch_size,
     )
-    if hasattr(model.config, "bytes"):
-        model.config.bytes.use_byte_patching = bool(byte_patching)
-        model.config.bytes.patch_size = int(byte_patch_size)
     jepa_predictor = None
-    if jepa_mode != "none" and jepa_loss_weight > 0.0:
+    if jepa_mode in {"jepa", "lejepa_proxy"} and jepa_loss_weight > 0.0:
         jepa_predictor = JEPAPredictor(model.config.d_model, proj_dim=jepa_proj_dim).to(device)
     model.train()
 
@@ -305,6 +360,12 @@ def train_variant(
             jepa_weight=jepa_loss_weight,
             jepa_mask_ratio=jepa_mask_ratio,
             lejepa_isotropy_weight=lejepa_isotropy_weight,
+            lejepa_lambda=lejepa_lambda,
+            lejepa_num_views=lejepa_num_views,
+            lejepa_num_slices=lejepa_num_slices,
+            lejepa_num_knots=lejepa_num_knots,
+            lejepa_t_max=lejepa_t_max,
+            view_seed=seed * 1_000_003 + i,
         )
         loss.backward()
         opt.step()
@@ -327,6 +388,12 @@ def train_variant(
                 jepa_weight=jepa_loss_weight,
                 jepa_mask_ratio=jepa_mask_ratio,
                 lejepa_isotropy_weight=lejepa_isotropy_weight,
+                lejepa_lambda=lejepa_lambda,
+                lejepa_num_views=lejepa_num_views,
+                lejepa_num_slices=lejepa_num_slices,
+                lejepa_num_knots=lejepa_num_knots,
+                lejepa_t_max=lejepa_t_max,
+                view_seed=seed * 1_000_003 + 10_000_019 + i,
             )
             eval_losses.append(float(loss.item()))
             eval_lm_losses.append(float(lm_loss.item()))
@@ -341,7 +408,26 @@ def train_variant(
             "variant": variant,
             "seed": seed,
             "state_dict": model.state_dict(),
+            "jepa_predictor_state_dict": (
+                jepa_predictor.state_dict() if jepa_predictor is not None else None
+            ),
+            "optimizer_state_dict": opt.state_dict(),
             "config": model.config,
+            "objective": {
+                "jepa_mode": jepa_mode,
+                "jepa_loss_weight": float(jepa_loss_weight),
+                "jepa_mask_ratio": float(jepa_mask_ratio),
+                "jepa_proj_dim": int(jepa_proj_dim),
+                "lejepa_isotropy_weight": float(lejepa_isotropy_weight),
+                "lejepa_lambda": float(lejepa_lambda),
+                "lejepa_num_views": int(lejepa_num_views),
+                "lejepa_num_slices": int(lejepa_num_slices),
+                "lejepa_num_knots": int(lejepa_num_knots),
+                "lejepa_t_max": float(lejepa_t_max),
+            },
+            "completed_steps": int(train_steps),
+            "torch_rng_state": torch.get_rng_state(),
+            "cuda_rng_state_all": torch.cuda.get_rng_state_all() if torch.cuda.is_available() else None,
         },
         ckpt_path,
     )
@@ -358,6 +444,11 @@ def train_variant(
         "jepa_mask_ratio": float(jepa_mask_ratio),
         "jepa_proj_dim": int(jepa_proj_dim),
         "lejepa_isotropy_weight": float(lejepa_isotropy_weight),
+        "lejepa_lambda": float(lejepa_lambda),
+        "lejepa_num_views": int(lejepa_num_views),
+        "lejepa_num_slices": int(lejepa_num_slices),
+        "lejepa_num_knots": int(lejepa_num_knots),
+        "lejepa_t_max": float(lejepa_t_max),
         "seq_len": seq_len,
         "batch_size": batch_size,
         "train_steps": train_steps,
@@ -409,11 +500,21 @@ def main() -> None:
         default=None,
         help="Write the generated deterministic train/eval sample plans to this JSON file.",
     )
-    parser.add_argument("--jepa-mode", choices=["none", "jepa", "lejepa"], default="none")
+    parser.add_argument(
+        "--jepa-mode",
+        choices=["none", "jepa", "lejepa_proxy", "lejepa"],
+        default="none",
+        help="lejepa is the SIGReg implementation; lejepa_proxy preserves the historical proxy.",
+    )
     parser.add_argument("--jepa-loss-weight", type=float, default=0.0)
     parser.add_argument("--jepa-mask-ratio", type=float, default=0.4)
     parser.add_argument("--jepa-proj-dim", type=int, default=256)
     parser.add_argument("--lejepa-isotropy-weight", type=float, default=0.1)
+    parser.add_argument("--lejepa-lambda", type=float, default=0.1)
+    parser.add_argument("--lejepa-num-views", type=int, default=2)
+    parser.add_argument("--lejepa-num-slices", type=int, default=256)
+    parser.add_argument("--lejepa-num-knots", type=int, default=17)
+    parser.add_argument("--lejepa-t-max", type=float, default=5.0)
     args = parser.parse_args()
 
     device = resolve_device(args.device)
@@ -482,6 +583,11 @@ def main() -> None:
             jepa_mask_ratio=args.jepa_mask_ratio,
             jepa_proj_dim=args.jepa_proj_dim,
             lejepa_isotropy_weight=args.lejepa_isotropy_weight,
+            lejepa_lambda=args.lejepa_lambda,
+            lejepa_num_views=args.lejepa_num_views,
+            lejepa_num_slices=args.lejepa_num_slices,
+            lejepa_num_knots=args.lejepa_num_knots,
+            lejepa_t_max=args.lejepa_t_max,
             train_plan=train_plan,
             eval_plan=eval_plan,
         )

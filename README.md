@@ -29,7 +29,8 @@ theater.
 
 - Step-based experiment organization in `experiments/`.
 - Engram core brick and deterministic multi-seed proxy evaluations.
-- LeJEPA-on-text extension and ablation results.
+- A paper-aligned LeJEPA-on-text objective with pre-encoder masked views,
+  prediction across views without stop-gradient, and Epps-Pulley SIGReg.
 - A configurable Transformer stack split into reusable `atoms` and assembled
   `molecules`, with symbolic-token and byte-first input modes.
 - Historical DeepSeek-V4-inspired variants (`v1` through `v5`) combining
@@ -49,6 +50,9 @@ Main tracker: [experiments/ROADMAP.md](experiments/ROADMAP.md).
 
 - Several results are explicitly marked as proxy/smoke and should not be
   interpreted as paper-faithful reproduction.
+- The archived Step 2 LeJEPA numbers predate the paper-aligned implementation
+  and measure `lejepa_proxy`; new `lejepa` benchmark results have not yet been
+  collected.
 - `v1` through `v5` are retained for historical comparisons and remain local
   approximations. Use `v6` for new DeepSeek-V4 experiments.
 - `v6` uses randomly initialized, compute-scaled configs by default; it does
@@ -148,6 +152,21 @@ PYTHONPATH=src:. .venv/bin/python eval/transformer/train_long_context_compare.py
 PYTHONPATH=src:. .venv/bin/python -m unittest tests.test_deepseek_v4_v6 -v
 ```
 
+Run the paper-aligned LeJEPA auxiliary objective on two independently masked
+text views:
+
+```bash
+PYTHONPATH=src:. .venv/bin/python eval/transformer/train_text_lm_compare.py \
+  --variants baseline engram_noconv --jepa-mode lejepa \
+  --jepa-loss-weight 0.05 --jepa-mask-ratio 0.4 \
+  --lejepa-lambda 0.1 --lejepa-num-views 2
+```
+
+`--lejepa-lambda` is the paper's interpolation between view prediction and
+SIGReg. `--jepa-loss-weight` is specific to this repository's hybrid LM +
+LeJEPA experiment. The historical approximation remains available as
+`--jepa-mode lejepa_proxy` only for reproducing archived results.
+
 These are synthetic research probes. See
 [eval/transformer/README.md](eval/transformer/README.md) and the experiment
 notes before interpreting their metrics.
@@ -170,7 +189,7 @@ notes before interpreting their metrics.
 
 - Step 1 overview: [experiments/step1_engram_core/README.md](experiments/step1_engram_core/README.md)
 - Step 1 trace: [experiments/step1_engram_core/notes/ENGRAM_STEP_TRACE.md](experiments/step1_engram_core/notes/ENGRAM_STEP_TRACE.md)
-- Step 2 results: [experiments/step2_engram_lejepa_eval/notes/LEJEPA_RESULTS_2026-04-22.md](experiments/step2_engram_lejepa_eval/notes/LEJEPA_RESULTS_2026-04-22.md)
+- Historical Step 2 proxy results: [experiments/step2_engram_lejepa_eval/notes/LEJEPA_RESULTS_2026-04-22.md](experiments/step2_engram_lejepa_eval/notes/LEJEPA_RESULTS_2026-04-22.md)
 - Step 3 overview: [experiments/step3_ocr_like/README.md](experiments/step3_ocr_like/README.md)
 
 ## Runtime notes

@@ -181,6 +181,8 @@ def build_train_model(
     model_size: str,
     input_mode: str,
     attention_backend: str,
+    byte_patching: bool = False,
+    byte_patch_size: int = 1,
 ) -> TransformerMolecule:
     cfg = build_config(
         use_engram=True,
@@ -389,6 +391,10 @@ def build_train_model(
         raise ValueError(f"Unknown variant: {name}")
 
     cfg = apply_model_size(cfg, model_size, input_mode=input_mode)
+    if input_mode == "byte":
+        # This must happen before model construction so BytePatcher is created.
+        cfg.bytes.use_byte_patching = bool(byte_patching)
+        cfg.bytes.patch_size = int(byte_patch_size)
     return build_model(cfg).to(device)
 
 

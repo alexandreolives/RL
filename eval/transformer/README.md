@@ -17,6 +17,11 @@ real tasks.
 - `retrieval.py`: repeats a synthetic byte pattern at multiple positions and
   reports simple vector statistics at the related patch locations.
 - `common.py`: shared model/batch helpers.
+- `lejepa.py`: paper-aligned LeJEPA Algorithm 1/2 implementation, including
+  Epps-Pulley SIGReg and deterministic pre-encoder text views.
+- `train_text_lm_compare.py`: hybrid causal-LM comparison runner. Its
+  `lejepa` mode uses the implementation above; `lejepa_proxy` is retained only
+  for historical comparisons.
 
 ## Run
 
@@ -24,6 +29,9 @@ real tasks.
 PYTHONPATH=src:. .venv/bin/python eval/transformer/ablation.py
 PYTHONPATH=src:. .venv/bin/python eval/transformer/needle.py
 PYTHONPATH=src:. .venv/bin/python eval/transformer/retrieval.py
+PYTHONPATH=src:. .venv/bin/python eval/transformer/train_text_lm_compare.py \
+  --variants baseline --jepa-mode lejepa --jepa-loss-weight 0.05 \
+  --lejepa-lambda 0.1
 ```
 
 ## Current limits

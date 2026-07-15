@@ -66,16 +66,17 @@ Default eval args:
 
 ## Current decision
 
-Given current deterministic proxy results, `engram_noconv` is the preferred
-default variant for internal experiments.
+Until the paper-aligned multi-seed run is complete, `engram_noconv` remains the
+preferred default based only on the historical proxy experiment.
 
 ## Note on JEPA/LeJEPA in this setup
 
-In this repo's current proxy (text-byte LM), adding a lightweight LeJEPA
-auxiliary objective on top of `engram_noconv` is approximately neutral.
+The archived run used the lightweight objective now named `lejepa_proxy`; it
+did not implement SIGReg or true pre-encoder views. Adding that proxy on top of
+`engram_noconv` was approximately neutral. These numbers do not describe the
+current paper-aligned `lejepa` mode.
 
 Practical implication:
 - keep `engram_noconv` as default for now.
-- revisit JEPA-style objectives when moving to richer multimodal/perceptual
-  inputs (documents, video, world-model streams), where latent prediction is
-  more naturally aligned.
+- run a new deterministic multi-seed comparison with `--jepa-mode lejepa`
+  before deciding whether the paper-aligned objective helps text.

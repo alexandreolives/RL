@@ -1,12 +1,16 @@
 # LeJEPA Results (2026-04-22)
 
+> Historical proxy only: these runs used the objective now exposed as
+> `--jepa-mode lejepa_proxy`. They did not use Epps-Pulley SIGReg or masked
+> pre-encoder views and are not results for the paper-aligned implementation.
+
 Scope:
 - comparison on 9 deterministic seeds (`0..8`)
 - same train plans as step 1
 - compared models:
   - `baseline`
   - `engram_noconv`
-  - `engram_noconv + lejepa`
+  - `engram_noconv + lejepa_proxy`
 
 Eval tasks:
 - `arc_challenge`, `arc_easy`, `hellaswag`, `mmlu`, `winogrande`, `openbookqa`
@@ -21,7 +25,7 @@ Eval tasks:
 - `winogrande`: `0.000000`
 - `openbookqa`: `+0.054222`
 
-`engram_noconv + lejepa`:
+`engram_noconv + lejepa_proxy`:
 - `arc_challenge`: `-0.000372`
 - `arc_easy`: `-0.002604`
 - `hellaswag`: `+0.020399`
@@ -41,7 +45,7 @@ Eval tasks:
 ## Seed-level mean delta (6 tasks)
 
 - `engram_noconv`: `+0.008995 ± 0.003899`
-- `engram_noconv + lejepa`: `+0.008472 ± 0.003623`
+- `engram_noconv + lejepa_proxy`: `+0.008472 ± 0.003623`
 
 Conclusion:
 - in this text-byte proxy, LeJEPA is near-neutral overall.

@@ -3,7 +3,8 @@
 ## Status global
 
 - `Step 1`: done (baseline/engram/engram_noconv text-byte)
-- `Step 2`: done (LeJEPA on text-byte, near-neutral)
+- `Step 2`: implementation done; paper-aligned text-byte evaluation pending
+  (the archived near-neutral result is for `lejepa_proxy`)
 - `Step 3`: in progress (OCR-like foundation)
 
 ## Step 3 — OCR-like Foundation (`experiments/step3_ocr_like`)
@@ -49,4 +50,3 @@ Metrics:
 - factual EM/F1
 - reasoning accuracy
 - latency + VRAM
-
