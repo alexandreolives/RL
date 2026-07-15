@@ -5,10 +5,12 @@ from torch import nn
 
 from ..atoms.config import TransformerConfig
 from ..atoms.embeddings import TokenEmbedding, ByteEmbedding, ModalityEmbedding
+from ..atoms.cache import DeepseekV4LayerCache, DynamicCache
 from ..atoms.bytes import BytePatcher
 from ..atoms.engram import build_engram_lookup_state
 from ..atoms.layers import TransformerBlock
 from ..atoms.norms import RMSNorm
+from ..atoms.residual import DeepseekV4HyperHead
 
 
 class TransformerMolecule(nn.Module):
@@ -41,15 +43,44 @@ class TransformerMolecule(nn.Module):
         )
 
         self.dropout = nn.Dropout(config.dropout)
+        self.use_mhc_streams = config.use_mhc_streams
+        self.hc_mult = config.hc_mult if config.use_mhc_streams else 1
         self.blocks = nn.ModuleList()
-        for idx in range(config.depth):
+        total_depth = config.depth + max(0, config.num_nextn_predict_layers)
+        for idx in range(total_depth):
+            layer_type = None
+            if config.layer_types is not None and idx < len(config.layer_types):
+                layer_type = config.layer_types[idx]
+            elif idx >= config.depth:
+                layer_type = "sliding_attention"
+            mlp_type = None
+            if config.mlp_layer_types is not None and idx < len(config.mlp_layer_types):
+                mlp_type = config.mlp_layer_types[idx]
+            elif idx >= config.depth:
+                mlp_type = "moe"
             is_global = True
             if config.attention.local_window is not None:
                 # Gemma-like hybrid attention: sparse local blocks with periodic global ones
                 is_global = (idx % 4 == 0) or (idx == config.depth - 1)
-            self.blocks.append(TransformerBlock(config, layer_idx=idx, is_global_layer=is_global))
+            if layer_type in {"sliding_attention", "compressed_sparse_attention", "heavily_compressed_attention"}:
+                is_global = False
+            self.blocks.append(
+                TransformerBlock(
+                    config,
+                    layer_idx=idx,
+                    is_global_layer=is_global,
+                    attn_kind=layer_type,
+                    mlp_kind=mlp_type,
+                )
+            )
         self.has_engram = any(block.engram is not None for block in self.blocks)
         self.output_vocab_size = config.bytes.vocab_size if config.use_byte_first else config.vocab_size
+
+        self.hc_head = (
+            DeepseekV4HyperHead(config.hc_mult, config.d_model, eps=config.mhc_eps)
+            if config.use_mhc_streams
+            else None
+        )
 
         self.final_norm = RMSNorm(config.d_model, eps=config.rms_norm_eps) if config.use_rmsnorm else nn.LayerNorm(config.d_model)
         self.lm_head = nn.Linear(config.d_model, self.output_vocab_size, bias=False)
@@ -85,6 +116,8 @@ class TransformerMolecule(nn.Module):
         x = pieces[0] if len(pieces) == 1 else torch.cat(pieces, dim=1)
         if modality_ids is not None and self.modality_embedding is not None:
             x = x + self.modality_embedding(modality_ids)
+        if self.use_mhc_streams:
+            x = x.unsqueeze(2).expand(-1, -1, self.hc_mult, -1).contiguous()
         return self.dropout(x), memory_ids
 
     def forward(
@@ -94,8 +127,11 @@ class TransformerMolecule(nn.Module):
         byte_ids: torch.Tensor | None = None,
         modality_ids: torch.Tensor | None = None,
         attn_mask: torch.Tensor | None = None,
+        past_key_values: list[DeepseekV4LayerCache | None] | None = None,
+        use_cache: bool | None = None,
         return_hidden: bool = False,
-    ) -> torch.Tensor | tuple[torch.Tensor, torch.Tensor]:
+        return_cache: bool = False,
+    ) -> torch.Tensor | tuple[torch.Tensor, torch.Tensor] | tuple[torch.Tensor, DynamicCache] | tuple[torch.Tensor, torch.Tensor, DynamicCache]:
         x, memory_ids = self.embed(token_ids=token_ids, byte_ids=byte_ids, modality_ids=modality_ids)
         engram_lookup_state = None
         if self.has_engram and memory_ids is not None:
@@ -109,10 +145,59 @@ class TransformerMolecule(nn.Module):
                 compressed_vocab_size=self.config.engram.compressed_vocab_size,
                 compression_reserved_ids=self.config.engram.compression_reserved_ids,
             )
-        for block in self.blocks:
-            x = block(x, token_ids=memory_ids, attn_mask=attn_mask, engram_lookup_state=engram_lookup_state)
-        hidden = self.final_norm(x)
+        use_cache = self.config.use_cache if use_cache is None else use_cache
+        cache_obj: DynamicCache | None = None
+        cache_layers: list[DeepseekV4LayerCache | None] | None = None
+        if past_key_values is not None:
+            if isinstance(past_key_values, DynamicCache):
+                cache_obj = past_key_values
+                cache_layers = list(cache_obj.layers)
+            else:
+                cache_layers = list(past_key_values)
+            use_cache = True
+        elif use_cache:
+            cache_obj = DynamicCache(
+                layer_types=self.config.layer_types,
+                depth=len(self.blocks),
+                max_seq_len=self.config.cache_max_length or self.config.max_seq_len,
+                detach=not self.training,
+            )
+            cache_layers = cache_obj.layers
+
+        current_x = x
+        current_ids = memory_ids
+        current_mask = attn_mask
+        for idx, block in enumerate(self.blocks):
+            layer_cache = cache_layers[idx] if cache_layers is not None and idx < len(cache_layers) else None
+            block_input = current_x
+            block_out = block(
+                block_input,
+                token_ids=current_ids,
+                attn_mask=current_mask,
+                engram_lookup_state=engram_lookup_state,
+                cache=layer_cache,
+            )
+            current_x = block_out
+            if cache_layers is not None and idx < len(cache_layers):
+                cache_layers[idx].update(block_input, token_ids=current_ids, attn_mask=current_mask)
+        if self.hc_head is not None:
+            current_x = self.hc_head(current_x)
+        hidden = self.final_norm(current_x)
         logits = self.lm_head(hidden)
+        def wrap_cache() -> DynamicCache:
+            wrapped = cache_obj if cache_obj is not None else DynamicCache(
+                layer_types=self.config.layer_types,
+                depth=len(self.blocks),
+                max_seq_len=self.config.cache_max_length or self.config.max_seq_len,
+                detach=not self.training,
+            )
+            if cache_layers is not None:
+                wrapped.layers = cache_layers
+            return wrapped
+        if return_hidden and return_cache:
+            return logits, hidden, wrap_cache()
         if return_hidden:
             return logits, hidden
+        if return_cache:
+            return logits, wrap_cache()
         return logits

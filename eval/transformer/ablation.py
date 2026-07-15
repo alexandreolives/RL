@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import json
 
-from models.example import build_config
+from models.example import build_config, build_deepseek_v4_v4_config, build_deepseek_v4_v5_config
 from models.molecules import TransformerMolecule
 
 from eval.transformer.common import make_batch, run_forward
@@ -33,6 +33,70 @@ def build_ablation_models():
 
     cfg = build_config(use_engram=True, use_dsa=True, use_mhc=True, use_moe=True, activation="swiglu")
     variants["full"] = TransformerMolecule(cfg).eval()
+
+    cfg = build_config(use_engram=True, use_dsa=True, use_mhc=True, use_moe=True, activation="swiglu")
+    cfg.engram.conv_enabled = False
+    variants["full_noconv"] = TransformerMolecule(cfg).eval()
+
+    cfg = build_config(use_engram=False, use_dsa=True, use_mhc=True, use_moe=True, activation="swiglu")
+    cfg.use_multibranch_residual = False
+    cfg.residual_branches = 4
+    cfg.attention.qk_norm = True
+    cfg.attention.num_kv_heads = 1
+    cfg.attention.local_window = 128
+    cfg.attention.dsa_top_k = 64
+    cfg.moe.num_experts = 8
+    cfg.moe.top_k = 4
+    variants["v1"] = TransformerMolecule(cfg).eval()
+
+    cfg = build_config(use_engram=True, use_dsa=True, use_mhc=True, use_moe=True, activation="swiglu")
+    cfg.use_multibranch_residual = False
+    cfg.residual_branches = 4
+    cfg.attention.qk_norm = True
+    cfg.attention.num_kv_heads = 1
+    cfg.attention.local_window = 128
+    cfg.attention.dsa_top_k = 64
+    cfg.moe.num_experts = 8
+    cfg.moe.top_k = 4
+    cfg.engram.use_layerwise_hash = True
+    cfg.engram.conv_enabled = False
+    cfg.engram.long_conv_enabled = False
+    cfg.engram.insert_layers = (0, 2, 4)
+    variants["v2"] = TransformerMolecule(cfg).eval()
+
+    cfg = build_config(use_engram=True, use_dsa=True, use_mhc=True, use_moe=True, activation="swiglu")
+    cfg.use_multibranch_residual = False
+    cfg.residual_branches = 4
+    cfg.attention.qk_norm = True
+    cfg.attention.num_kv_heads = 1
+    cfg.attention.local_window = 128
+    cfg.attention.dsa_top_k = 64
+    cfg.moe.num_experts = 8
+    cfg.moe.top_k = 6
+    cfg.moe.scoring_func = "sqrtsoftplus"
+    cfg.moe.norm_topk_prob = True
+    cfg.moe.routed_scaling_factor = 2.5
+    cfg.layer_types = (
+        "sliding_attention",
+        "sliding_attention",
+        "sliding_attention",
+        "compressed_sparse_attention",
+        "compressed_sparse_attention",
+        "compressed_sparse_attention",
+        "heavily_compressed_attention",
+        "heavily_compressed_attention",
+    )
+    cfg.engram.use_layerwise_hash = True
+    cfg.engram.conv_enabled = False
+    cfg.engram.long_conv_enabled = False
+    cfg.engram.insert_layers = (0, 1, 2)
+    variants["v3"] = TransformerMolecule(cfg).eval()
+
+    cfg = build_deepseek_v4_v4_config()
+    variants["v4"] = TransformerMolecule(cfg).eval()
+
+    cfg = build_deepseek_v4_v5_config()
+    variants["v5"] = TransformerMolecule(cfg).eval()
 
     cfg = build_config(use_engram=True, use_dsa=False, use_mhc=True, use_moe=False, activation="swiglu")
     cfg.engram.conv_kernel_size = 1

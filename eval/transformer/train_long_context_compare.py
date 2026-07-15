@@ -23,7 +23,7 @@ from eval.transformer.long_context_accuracy import (
     make_variable_tracking_token_batch,
 )
 from models.atoms.norms import RMSNorm
-from models.example import build_config
+from models.example import apply_model_size, build_config, build_deepseek_v4_v4_config, build_deepseek_v4_v5_config
 from models.molecules import TransformerMolecule
 
 
@@ -230,9 +230,150 @@ def build_train_model(
         cfg.engram.conv_enabled = False
     elif name == "engram_fullconv":
         cfg.engram.long_conv_enabled = True
+    elif name == "full":
+        cfg = build_config(
+            use_engram=True,
+            use_dsa=True,
+            use_mhc=True,
+            use_moe=True,
+            activation="swiglu",
+            attention_backend=attention_backend,
+        )
+        cfg.multimodal.enabled = False
+        if input_mode == "byte":
+            cfg.use_byte_first = True
+            cfg.bytes.use_byte_patching = False
+            cfg.bytes.patch_size = 1
+        elif input_mode == "symbolic":
+            cfg.use_byte_first = False
+            cfg.vocab_size = 260
+        else:
+            raise ValueError(f"Unknown input_mode: {input_mode}")
+    elif name in {"deepseek_v4_like", "v1", "deepseek_v4_v1"}:
+        cfg.engram.enabled = False
+        cfg.use_mhc = True
+        cfg.use_dsa = True
+        cfg.use_multibranch_residual = False
+        cfg.residual_branches = 4
+        cfg.activation = "swiglu"
+        cfg.attention.qk_norm = True
+        cfg.attention.num_kv_heads = 1
+        cfg.attention.local_window = 128
+        cfg.attention.dsa_top_k = 64
+        cfg.attention.dsa_indexer_hidden = 128
+        cfg.moe.enabled = True
+        cfg.moe.num_experts = 8
+        cfg.moe.top_k = 4
+        cfg.moe.shared_expert = True
+        cfg.moe.router_jitter = 0.0
+    elif name in {"v2", "deepseek_v4_v2"}:
+        cfg = build_config(
+            use_engram=True,
+            use_dsa=True,
+            use_mhc=True,
+            use_moe=True,
+            activation="swiglu",
+            attention_backend=attention_backend,
+        )
+        cfg.multimodal.enabled = False
+        if input_mode == "byte":
+            cfg.use_byte_first = True
+            cfg.bytes.use_byte_patching = False
+            cfg.bytes.patch_size = 1
+        elif input_mode == "symbolic":
+            cfg.use_byte_first = False
+            cfg.vocab_size = 260
+        else:
+            raise ValueError(f"Unknown input_mode: {input_mode}")
+        cfg.attention.qk_norm = True
+        cfg.attention.num_kv_heads = 1
+        cfg.attention.local_window = 128
+        cfg.attention.dsa_top_k = 64
+        cfg.attention.dsa_indexer_hidden = 128
+        cfg.use_multibranch_residual = False
+        cfg.residual_branches = 4
+        cfg.moe.num_experts = 8
+        cfg.moe.top_k = 4
+        cfg.moe.shared_expert = True
+        cfg.moe.router_jitter = 0.0
+        cfg.engram.use_layerwise_hash = True
+        cfg.engram.conv_enabled = False
+        cfg.engram.long_conv_enabled = False
+        cfg.engram.insert_layers = (0, 2, 4)
+    elif name in {"v3", "deepseek_v4_v3", "deepseek_v4_public_like"}:
+        cfg = build_config(
+            use_engram=True,
+            use_dsa=True,
+            use_mhc=True,
+            use_moe=True,
+            activation="swiglu",
+            attention_backend=attention_backend,
+        )
+        cfg.multimodal.enabled = False
+        if input_mode == "byte":
+            cfg.use_byte_first = True
+            cfg.bytes.use_byte_patching = False
+            cfg.bytes.patch_size = 1
+        elif input_mode == "symbolic":
+            cfg.use_byte_first = False
+            cfg.vocab_size = 260
+        else:
+            raise ValueError(f"Unknown input_mode: {input_mode}")
+        cfg.layer_types = (
+            "sliding_attention",
+            "sliding_attention",
+            "sliding_attention",
+            "compressed_sparse_attention",
+            "compressed_sparse_attention",
+            "compressed_sparse_attention",
+            "heavily_compressed_attention",
+            "heavily_compressed_attention",
+        )
+        cfg.attention.qk_norm = True
+        cfg.attention.num_kv_heads = 1
+        cfg.attention.local_window = 128
+        cfg.attention.dsa_top_k = 64
+        cfg.attention.dsa_indexer_hidden = 128
+        cfg.use_multibranch_residual = False
+        cfg.residual_branches = 4
+        cfg.moe.num_experts = 8
+        cfg.moe.top_k = 6
+        cfg.moe.shared_expert = True
+        cfg.moe.scoring_func = "sqrtsoftplus"
+        cfg.moe.norm_topk_prob = True
+        cfg.moe.routed_scaling_factor = 2.5
+        cfg.engram.use_layerwise_hash = True
+        cfg.engram.conv_enabled = False
+        cfg.engram.long_conv_enabled = False
+        cfg.engram.insert_layers = (0, 1, 2)
+    elif name in {"v4", "deepseek_v4_v4", "deepseek_v4_public_exact"}:
+        cfg = build_deepseek_v4_v4_config(attention_backend=attention_backend, input_mode=input_mode)
+    elif name in {"v5", "deepseek_v4_v5", "deepseek_v4_public_solid"}:
+        cfg = build_deepseek_v4_v5_config(attention_backend=attention_backend, input_mode=input_mode)
+    elif name == "full_noconv":
+        cfg = build_config(
+            use_engram=True,
+            use_dsa=True,
+            use_mhc=True,
+            use_moe=True,
+            activation="swiglu",
+            attention_backend=attention_backend,
+        )
+        cfg.multimodal.enabled = False
+        if input_mode == "byte":
+            cfg.use_byte_first = True
+            cfg.bytes.use_byte_patching = False
+            cfg.bytes.patch_size = 1
+        elif input_mode == "symbolic":
+            cfg.use_byte_first = False
+            cfg.vocab_size = 260
+        else:
+            raise ValueError(f"Unknown input_mode: {input_mode}")
+        cfg.engram.conv_enabled = False
     else:
         raise ValueError(f"Unknown variant: {name}")
 
+    cfg = apply_model_size(cfg, model_size, input_mode=input_mode)
     return TransformerMolecule(cfg).to(device)
 
 
@@ -384,7 +525,7 @@ def main() -> None:
     parser.add_argument(
         "--variants",
         nargs="+",
-        default=["baseline", "engram", "engram_layerhash"],
+        default=["baseline", "engram", "engram_layerhash", "v1", "v2", "v3", "v4", "v5"],
     )
     args = parser.parse_args()
 
