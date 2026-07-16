@@ -14,6 +14,7 @@ VARIANTS="${VARIANTS:-${VARIANT}}"
 MODEL_SIZE="${MODEL_SIZE:-tiny}"
 TRAIN_STEPS="${TRAIN_STEPS:-400}"
 EVAL_STEPS="${EVAL_STEPS:-64}"
+BATCH_SIZE="${BATCH_SIZE:-8}"
 BATCH_PLAN_IN="${BATCH_PLAN_IN-/historical-artifacts/text_lm_compare_det/plan_seed}"
 LIMIT="${LIMIT:-512}"
 MAX_LEN="${MAX_LEN:-2048}"
@@ -57,7 +58,7 @@ train_seed() {
     --model-size "${MODEL_SIZE}" \
     --seed "${seed}" \
     --seq-len 256 \
-    --batch-size 8 \
+    --batch-size "${BATCH_SIZE}" \
     --train-steps "${TRAIN_STEPS}" \
     --eval-steps "${EVAL_STEPS}" \
     --input-mode byte \
