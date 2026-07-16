@@ -199,6 +199,7 @@ notes before interpreting their metrics.
 - Step 4 AttnRes campaign: [experiments/step4_engram_attnres/README.md](experiments/step4_engram_attnres/README.md)
 - Step 4 AttnRes results: [experiments/step4_engram_attnres/notes/ATTNRES_RESULTS_2026-07-16.md](experiments/step4_engram_attnres/notes/ATTNRES_RESULTS_2026-07-16.md)
 - Step 4 fused AttnRes v1 results: [experiments/step4_engram_attnres/notes/ATTNRES_V1_RESULTS_2026-07-16.md](experiments/step4_engram_attnres/notes/ATTNRES_V1_RESULTS_2026-07-16.md)
+- Step 4 gated-bypass AttnRes v2 results: [experiments/step4_engram_attnres/notes/ATTNRES_V2_RESULTS_2026-07-16.md](experiments/step4_engram_attnres/notes/ATTNRES_V2_RESULTS_2026-07-16.md)
 - Step 3 overview: [experiments/step3_ocr_like/README.md](experiments/step3_ocr_like/README.md)
 
 ## Runtime notes

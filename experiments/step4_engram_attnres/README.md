@@ -55,6 +55,10 @@ Completed fused-v1 results:
 
 [notes/ATTNRES_V1_RESULTS_2026-07-16.md](notes/ATTNRES_V1_RESULTS_2026-07-16.md)
 
+Completed gated-bypass v2 results:
+
+[notes/ATTNRES_V2_RESULTS_2026-07-16.md](notes/ATTNRES_V2_RESULTS_2026-07-16.md)
+
 ## Corrective v1
 
 `engram_noconv_attnres_v1` keeps attention and MLP outputs as the AttnRes depth
@@ -84,3 +88,6 @@ experiments/step4_engram_attnres/scripts/run_attnres_v2_campaign.sh
 
 Run `PHASE=eval` only if the paired LM comparison removes the regression versus
 `engram_noconv`.
+
+The completed LM campaign did not meet that criterion, so no downstream v2
+evaluation was launched.
