@@ -87,6 +87,8 @@ Repository references:
   [papers/notes/INFO_COMPRESSION_PLAN.md](papers/notes/INFO_COMPRESSION_PLAN.md)
 - Additional bycloud-sourced references and recap:
   [papers/notes/BYCLOUD_ML_RECAP.md](papers/notes/BYCLOUD_ML_RECAP.md)
+- Attention Residuals and proposed Engram ablation:
+  [papers/notes/ATTENTION_RESIDUALS_ENGRAM_CANDIDATE.md](papers/notes/ATTENTION_RESIDUALS_ENGRAM_CANDIDATE.md)
 
 ## Quick start
 

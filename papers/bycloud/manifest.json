@@ -495,5 +495,25 @@
     "status": "downloaded",
     "content_type": "application/pdf",
     "size": 2770964
+  },
+  {
+    "video": "20260518_iw1VF8HOCrk_An Insanely Elegant LLM Architecture Breakthrough Just Dropped.description",
+    "source_url": "https://arxiv.org/abs/2603.15031",
+    "download_url": "https://arxiv.org/pdf/2603.15031.pdf",
+    "kind": "arxiv_abs",
+    "dest": "papers/bycloud/20260518_iw1VF8HOCrk_An_Insanely_Elegant_LLM_Architecture_Breakthrough_Just_Dropped__2603.15031.pdf",
+    "status": "downloaded",
+    "content_type": "application/pdf",
+    "size": 1065095
+  },
+  {
+    "video": "20260518_iw1VF8HOCrk_An Insanely Elegant LLM Architecture Breakthrough Just Dropped.description",
+    "source_url": "https://arxiv.org/abs/2512.24880",
+    "download_url": "https://arxiv.org/pdf/2512.24880.pdf",
+    "kind": "arxiv_abs",
+    "dest": "papers/bycloud/20260217_Gb0jLRC8uWM_DeepSeek_Just_Added_Parameters_Where_There_Were_None__2512.24880.pdf",
+    "status": "reused_existing",
+    "content_type": "application/pdf",
+    "size": 635294
   }
 ]

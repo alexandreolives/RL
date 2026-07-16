@@ -33,6 +33,8 @@ Base de travail utilisée:
    URL: https://www.youtube.com/watch?v=vhXDKif9mPU
 12. AI News: DeepSeek-R1 V2, the new open source SoTA!
    URL: https://www.youtube.com/watch?v=_5Xv3kXyBDE
+13. An Insanely Elegant LLM Architecture Breakthrough Just Dropped
+   URL: https://www.youtube.com/watch?v=iw1VF8HOCrk
 
 ## Ce qui revient souvent et vaut la peine d'être retenu
 
@@ -274,6 +276,38 @@ Liens:
 - HF DeepSeek-R1-0528: https://huggingface.co/deepseek-ai/DeepSeek-R1-0528
 - HF distilled Qwen3 8B: https://huggingface.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B
 
+### 13. Attention Residuals
+
+Pourquoi c'est intéressant:
+- Kimi/Moonshot remplace l'accumulation résiduelle uniforme à travers la
+  profondeur par une attention softmax sur les représentations antérieures.
+- `Block AttnRes` résume les couches par blocs pour conserver l'essentiel du
+  gain avec beaucoup moins de mémoire et de communication.
+
+Point à retenir:
+- Le résiduel standard peut diluer la contribution des couches anciennes à
+  mesure que la profondeur augmente; AttnRes rend leur réutilisation sélective
+  et dépendante de l'entrée.
+- Le papier rapporte qu'un Block AttnRes atteint la perte d'un baseline utilisant
+  environ `1.25x` plus de calcul dans son protocole de scaling.
+- C'est un candidat plausible à combiner avec Engram : les couches profondes
+  pourraient relire les états où la mémoire Engram a été injectée. Cette
+  combinaison n'est toutefois testée ni dans la vidéo ni dans le papier.
+
+Critique méthodologique à garder:
+- Les résultats principaux viennent de Kimi Linear `48B/3B` entraîné sur `1.4T`
+  tokens; ils ne préjugent pas du gain sur nos petits modèles peu profonds.
+- La vidéo compare surtout AttnRes à mHC. Elle les dit théoriquement combinables,
+  mais anticipe aussi des rendements décroissants.
+- Le bon test local est une ablation appariée `baseline`, `AttnRes`, `Engram` et
+  `Engram + AttnRes`, avec coût et mémoire rapportés.
+
+Papiers / liens:
+- Attention Residuals: https://arxiv.org/abs/2603.15031
+- Code officiel: https://github.com/MoonshotAI/Attention-Residuals
+- mHC: https://arxiv.org/abs/2512.24880
+- Note de test: `papers/notes/ATTENTION_RESIDUALS_ENGRAM_CANDIDATE.md`
+
 ## Résumé actionnable pour du ML futur
 
 Si je devais condenser tout ça en priorités de recherche / produit:
@@ -300,10 +334,10 @@ Si je devais condenser tout ça en priorités de recherche / produit:
 
 ## Où retrouver les artefacts
 
-- Dossier local: `.cache/bycloud/`
+- Dossier local: `youtube/bycloud/`
 - Fichiers disponibles par vidéo:
-  - `*.info.json`
-  - `*.description`
+  - `info.json`
+  - `description.txt`
   - `*.en.vtt`
   - `*.en-orig.vtt`
 

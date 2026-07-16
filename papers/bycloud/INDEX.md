@@ -7,7 +7,7 @@ Source de vérité technique:
 - dossier des PDFs: [papers/bycloud](.)
 
 Résumé:
-- `42` PDFs téléchargés
+- `43` PDFs téléchargés
 - `8` liens non convertis en PDF local
 
 ## PDFs disponibles
@@ -130,6 +130,9 @@ Résumé:
 - [20260508_1PvcLTuY-P4_AI_Simulated_OS_Is_Absurd__2604.06425.pdf](20260508_1PvcLTuY-P4_AI_Simulated_OS_Is_Absurd__2604.06425.pdf)
   vidéo source: `20260508_1PvcLTuY-P4_AI Simulated OS Is Absurd`
   URL source: `https://arxiv.org/abs/2604.06425`
+- [20260518_iw1VF8HOCrk_An_Insanely_Elegant_LLM_Architecture_Breakthrough_Just_Dropped__2603.15031.pdf](20260518_iw1VF8HOCrk_An_Insanely_Elegant_LLM_Architecture_Breakthrough_Just_Dropped__2603.15031.pdf)
+  vidéo source: `20260518_iw1VF8HOCrk_An Insanely Elegant LLM Architecture Breakthrough Just Dropped`
+  URL source: `https://arxiv.org/abs/2603.15031`
 - [20260427_lLkE9w1NJs0_A_new_way_to_fine-tune_LLMs_just_dropped__1703.03864.pdf](20260427_lLkE9w1NJs0_A_new_way_to_fine-tune_LLMs_just_dropped__1703.03864.pdf)
   vidéo source: `20260427_lLkE9w1NJs0_A new way to fine-tune LLMs just dropped`
   URL source: `https://arxiv.org/abs/1703.03864`
@@ -158,4 +161,3 @@ Résumé:
   raison probable: billet de blog, pas un PDF
 - `error` `https://openreview.net/forum?id=tO3ASKZlok`
   raison probable: page de discussion, pas un PDF direct
-
