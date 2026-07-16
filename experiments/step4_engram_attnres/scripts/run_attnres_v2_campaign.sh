@@ -14,7 +14,7 @@ VARIANTS="${VARIANTS:-${VARIANT}}"
 MODEL_SIZE="${MODEL_SIZE:-tiny}"
 TRAIN_STEPS="${TRAIN_STEPS:-400}"
 EVAL_STEPS="${EVAL_STEPS:-64}"
-BATCH_PLAN_IN="${BATCH_PLAN_IN:-/historical-artifacts/text_lm_compare_det/plan_seed}"
+BATCH_PLAN_IN="${BATCH_PLAN_IN-/historical-artifacts/text_lm_compare_det/plan_seed}"
 LIMIT="${LIMIT:-512}"
 MAX_LEN="${MAX_LEN:-2048}"
 
