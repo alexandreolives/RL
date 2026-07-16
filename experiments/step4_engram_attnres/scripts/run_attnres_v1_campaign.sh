@@ -31,6 +31,8 @@ run_container() {
     -w /workspace \
     -e PYTHONPATH=/workspace/.remote-deps:/workspace:/workspace/src \
     -e CUBLAS_WORKSPACE_CONFIG=:4096:8 \
+    -e HF_HUB_OFFLINE=1 \
+    -e HF_DATASETS_OFFLINE=1 \
     --entrypoint python \
     "${IMAGE}" "$@"
 }
