@@ -208,6 +208,10 @@ class EngramMemory(nn.Module):
         lookup_state: dict[str, torch.Tensor] | None = None,
     ) -> torch.Tensor:
         mem = self._lookup_memory(token_ids, lookup_state=lookup_state)
+        if mem.size(0) != x.size(0):
+            if x.size(0) % mem.size(0) != 0:
+                raise ValueError("Engram memory and hidden batch dimensions are incompatible")
+            mem = mem.repeat_interleave(x.size(0) // mem.size(0), dim=0)
         normed_x = self.query_norm(x)
         q = self.query_proj(normed_x).view(x.size(0), x.size(1), self.heads, self.memory_dim)
         controls = self.control_proj(normed_x).view(x.size(0), x.size(1), self.heads, self.num_orders + 1)
