@@ -202,6 +202,7 @@ notes before interpreting their metrics.
   - v1: [ATTNRES_V1_RESULTS_2026-07-16.md](experiments/step4_engram_attnres/notes/ATTNRES_V1_RESULTS_2026-07-16.md)
   - v2: [ATTNRES_V2_RESULTS_2026-07-16.md](experiments/step4_engram_attnres/notes/ATTNRES_V2_RESULTS_2026-07-16.md)
   - v3: [ATTNRES_V3_RESULTS_2026-07-16.md](experiments/step4_engram_attnres/notes/ATTNRES_V3_RESULTS_2026-07-16.md)
+  - v6 mHC + Engram + AttnRes screening: [V6_MHC_ENGRAM_ATTRES_SCREEN_2026-07-17.md](experiments/step4_engram_attnres/notes/V6_MHC_ENGRAM_ATTRES_SCREEN_2026-07-17.md)
 
 ## Runtime notes
 

@@ -107,3 +107,6 @@ The completed v3 LM result is recorded in
 [notes/ATTNRES_V3_RESULTS_2026-07-16.md](notes/ATTNRES_V3_RESULTS_2026-07-16.md).
 It improves v2 but remains below standalone Engram, so downstream evaluation
 was not launched.
+
+The native v6 mHC `M=4` + Engram + AttnRes screening is recorded in
+[notes/V6_MHC_ENGRAM_ATTRES_SCREEN_2026-07-17.md](notes/V6_MHC_ENGRAM_ATTRES_SCREEN_2026-07-17.md).
