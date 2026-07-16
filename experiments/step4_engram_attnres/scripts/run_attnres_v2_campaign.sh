@@ -16,6 +16,7 @@ TRAIN_STEPS="${TRAIN_STEPS:-400}"
 EVAL_STEPS="${EVAL_STEPS:-64}"
 BATCH_SIZE="${BATCH_SIZE:-8}"
 BATCH_PLAN_IN="${BATCH_PLAN_IN-/historical-artifacts/text_lm_compare_det/plan_seed}"
+COST_ROOT="${COST_ROOT:-${OUT_ROOT}/cost}"
 LIMIT="${LIMIT:-512}"
 MAX_LEN="${MAX_LEN:-2048}"
 
@@ -28,6 +29,7 @@ if [[ "${#gpu_array[@]}" -eq 0 ]]; then
 fi
 
 mkdir -p "${REPO}/${OUT_ROOT}/logs" "${REPO}/${OUT_ROOT}/train" "${REPO}/${OUT_ROOT}/eval"
+mkdir -p "${REPO}/${COST_ROOT}"
 
 run_container() {
   local gpu="$1"
@@ -52,6 +54,10 @@ train_seed() {
   if [[ -n "${BATCH_PLAN_IN}" ]]; then
     plan_args=(--batch-plan-in "${BATCH_PLAN_IN}${seed}.json")
   fi
+  local cost_log="${REPO}/${COST_ROOT}/gpu${gpu}_seed${seed}.csv"
+  local start_ns="$(date +%s%N)"
+  (while true; do /usr/lib/wsl/lib/nvidia-smi -i "${gpu}" --query-gpu=power.draw,memory.used --format=csv,noheader,nounits 2>/dev/null >>"${cost_log}" || true; sleep 5; done) &
+  local sampler_pid=$!
   run_container "${gpu}" -m eval.transformer.train_text_lm_compare \
     --device cuda \
     --variants "${variant_array[@]}" \
@@ -66,6 +72,12 @@ train_seed() {
     --byte-patch-size 1 \
     "${plan_args[@]}" \
     --out-dir "${OUT_ROOT}/train"
+  local status=$?
+  kill "${sampler_pid}" 2>/dev/null || true
+  wait "${sampler_pid}" 2>/dev/null || true
+  local end_ns="$(date +%s%N)"
+  awk -F, -v gpu="${gpu}" -v seed="${seed}" -v start="${start_ns}" -v end="${end_ns}" 'BEGIN { power=memory=peak=n=0 } { gsub(/ /,"",$1); gsub(/ /,"",$2); power+=$1; memory+=$2; if ($2>peak) peak=$2; n++ } END { if (n) printf "{\"gpu\":%s,\"seed\":%s,\"elapsed_seconds\":%.3f,\"avg_power_w\":%.3f,\"avg_memory_mib\":%.1f,\"peak_memory_mib\":%.1f,\"samples\":%d}\n", gpu, seed, (end-start)/1e9, power/n, memory/n, peak, n }' "${cost_log}" >"${REPO}/${COST_ROOT}/cost_seed${seed}.json"
+  return "${status}"
 }
 
 eval_seed() {
