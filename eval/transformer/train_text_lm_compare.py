@@ -293,6 +293,7 @@ def train_variant(
     input_mode: str,
     byte_patching: bool,
     byte_patch_size: int,
+    model_size: str,
     jepa_mode: str,
     jepa_loss_weight: float,
     jepa_mask_ratio: float,
@@ -310,7 +311,7 @@ def train_variant(
     model = build_train_model(
         variant,
         device,
-        model_size="tiny",
+        model_size=model_size,
         input_mode=input_mode,
         attention_backend="auto",
         byte_patching=byte_patching,
@@ -473,6 +474,7 @@ def main() -> None:
     parser.add_argument("--dataset", default="wikitext", choices=["wikitext"])
     parser.add_argument("--dataset-config", default="wikitext-2-raw-v1")
     parser.add_argument("--variants", nargs="+", default=["baseline", "engram"])
+    parser.add_argument("--model-size", choices=["tiny", "small", "base"], default="tiny")
     parser.add_argument("--seed", type=int, default=0)
     parser.add_argument("--seq-len", type=int, default=256)
     parser.add_argument("--batch-size", type=int, default=8)
@@ -579,6 +581,7 @@ def main() -> None:
             input_mode=args.input_mode,
             byte_patching=args.byte_patching,
             byte_patch_size=args.byte_patch_size,
+            model_size=args.model_size,
             jepa_mode=args.jepa_mode,
             jepa_loss_weight=args.jepa_loss_weight,
             jepa_mask_ratio=args.jepa_mask_ratio,

@@ -10,11 +10,17 @@ GPU_IDS="${GPU_IDS:-0 1 2}"
 PHASE="${PHASE:-train}"
 OUT_ROOT="${OUT_ROOT:-artifacts/attnres_engram_v2_multiseed}"
 VARIANT="${VARIANT:-engram_noconv_attnres_v2}"
+VARIANTS="${VARIANTS:-${VARIANT}}"
+MODEL_SIZE="${MODEL_SIZE:-tiny}"
+TRAIN_STEPS="${TRAIN_STEPS:-400}"
+EVAL_STEPS="${EVAL_STEPS:-64}"
+BATCH_PLAN_IN="${BATCH_PLAN_IN:-/historical-artifacts/text_lm_compare_det/plan_seed}"
 LIMIT="${LIMIT:-512}"
 MAX_LEN="${MAX_LEN:-2048}"
 
 read -r -a seed_array <<< "${SEEDS}"
 read -r -a gpu_array <<< "${GPU_IDS}"
+read -r -a variant_array <<< "${VARIANTS}"
 if [[ "${#gpu_array[@]}" -eq 0 ]]; then
   echo "GPU_IDS cannot be empty" >&2
   exit 2
@@ -41,18 +47,23 @@ run_container() {
 train_seed() {
   local seed="$1"
   local gpu="$2"
+  local plan_args=()
+  if [[ -n "${BATCH_PLAN_IN}" ]]; then
+    plan_args=(--batch-plan-in "${BATCH_PLAN_IN}${seed}.json")
+  fi
   run_container "${gpu}" -m eval.transformer.train_text_lm_compare \
     --device cuda \
-    --variants "${VARIANT}" \
+    --variants "${variant_array[@]}" \
+    --model-size "${MODEL_SIZE}" \
     --seed "${seed}" \
     --seq-len 256 \
     --batch-size 8 \
-    --train-steps 400 \
-    --eval-steps 64 \
+    --train-steps "${TRAIN_STEPS}" \
+    --eval-steps "${EVAL_STEPS}" \
     --input-mode byte \
     --no-byte-patching \
     --byte-patch-size 1 \
-    --batch-plan-in "/historical-artifacts/text_lm_compare_det/plan_seed${seed}.json" \
+    "${plan_args[@]}" \
     --out-dir "${OUT_ROOT}/train"
 }
 
