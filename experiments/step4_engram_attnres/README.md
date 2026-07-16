@@ -102,3 +102,8 @@ script by setting `VARIANT` and `OUT_ROOT`:
 VARIANT=engram_noconv_attnres_v3 OUT_ROOT=artifacts/attnres_engram_v3_multiseed \
   experiments/step4_engram_attnres/scripts/run_attnres_v2_campaign.sh
 ```
+
+The completed v3 LM result is recorded in
+[notes/ATTNRES_V3_RESULTS_2026-07-16.md](notes/ATTNRES_V3_RESULTS_2026-07-16.md).
+It improves v2 but remains below standalone Engram, so downstream evaluation
+was not launched.

@@ -88,6 +88,10 @@ Le bypass gated v2 reste lui aussi moins bon qu'Engram sur le test LM. La phase
 aval a donc été arrêtée selon le critère prévu. Résultats :
 `experiments/step4_engram_attnres/notes/ATTNRES_V2_RESULTS_2026-07-16.md`.
 
+Le v3 à gate bornée améliore v2 mais reste moins bon qu'Engram sur les 9 seeds.
+La famille du bypass cumulatif est donc rejetée sous ce protocole :
+`experiments/step4_engram_attnres/notes/ATTNRES_V3_RESULTS_2026-07-16.md`.
+
 ## Ce que dit réellement la vidéo
 
 La vidéo ne mentionne pas Engram. Elle compare AttnRes à mHC :
