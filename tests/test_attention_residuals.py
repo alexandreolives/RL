@@ -156,3 +156,39 @@ def test_fused_v1_keeps_engram_inside_attention_source() -> None:
     assert captured["count"] == 9
     memory_grad = model.blocks[1].engram.order_embeddings["2"].weight.grad
     assert memory_grad is not None and memory_grad.abs().sum() > 0
+
+
+def test_v2_routes_engram_through_separate_gated_bypass() -> None:
+    torch.manual_seed(13)
+    model = build_train_model(
+        "engram_noconv_attnres_v2",
+        torch.device("cpu"),
+        model_size="tiny",
+        input_mode="symbolic",
+        attention_backend="eager",
+    )
+    captured = {}
+
+    def capture_sources(_module, args) -> None:
+        captured["count"] = len(args[0])
+
+    handle = model.final_attn_res.register_forward_pre_hook(capture_sources)
+    try:
+        token_ids = torch.randint(0, 260, (2, 12))
+        logits = model(token_ids=token_ids, use_cache=False)
+        loss = torch.nn.functional.cross_entropy(
+            logits[:, :-1].reshape(-1, 260), token_ids[:, 1:].reshape(-1)
+        )
+        loss.backward()
+    finally:
+        handle.remove()
+
+    assert model.config.attnres_engram_mode == "bypass"
+    assert captured["count"] == 9
+    for layer_idx in model.config.engram.insert_layers:
+        block = model.blocks[layer_idx]
+        torch.testing.assert_close(block.engram_bypass_gate, torch.ones_like(block.engram_bypass_gate))
+        assert block.engram_bypass_gate.grad is not None
+        assert block.engram_bypass_gate.grad.abs().sum() > 0
+        memory_grad = block.engram.order_embeddings["2"].weight.grad
+        assert memory_grad is not None and memory_grad.abs().sum() > 0

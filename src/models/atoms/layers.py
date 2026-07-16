@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import torch
 from torch import nn
 
 from .attention import MultiHeadAttention
@@ -29,7 +30,7 @@ class TransformerBlock(nn.Module):
         self.use_mhc_streams = config.use_mhc_streams
         self.use_attnres = config.use_attnres
         self.attnres_engram_mode = getattr(config, "attnres_engram_mode", "source")
-        if self.attnres_engram_mode not in {"source", "fused"}:
+        if self.attnres_engram_mode not in {"source", "fused", "bypass"}:
             raise ValueError(f"Unknown AttnRes Engram mode: {self.attnres_engram_mode}")
         self.hc_mult = config.hc_mult if self.use_mhc_streams else 1
         attn_cfg = config.attention
@@ -167,6 +168,11 @@ class TransformerBlock(nn.Module):
             if self.use_attnres and self.engram is not None
             else None
         )
+        self.engram_bypass_gate = (
+            nn.Parameter(torch.ones(config.d_model))
+            if self.attnres_engram_mode == "bypass" and self.engram is not None
+            else None
+        )
         self.attn_res_ffn = (
             FullAttentionResidual(config.d_model, eps=config.rms_norm_eps)
             if self.use_attnres
@@ -263,6 +269,7 @@ class TransformerBlock(nn.Module):
         self,
         sources: list,
         *,
+        engram_bypass=None,
         token_ids=None,
         attn_mask=None,
         engram_lookup_state=None,
@@ -276,6 +283,8 @@ class TransformerBlock(nn.Module):
 
         use_dsa = self.attn.use_dsa and self.attn.local_window is not None and self.attn_kind == "compressed_sparse_attention"
         attn_x = self.attn_res_attn(sources)
+        if engram_bypass is not None:
+            attn_x = attn_x + engram_bypass
         attn_out = self.attn(
             self.norm1(attn_x),
             attn_mask=attn_mask,
@@ -290,12 +299,18 @@ class TransformerBlock(nn.Module):
             if token_ids is None:
                 raise ValueError("Engram-enabled block requires token_ids/byte_ids for n-gram lookup")
             engram_x = self.attn_res_engram(sources)
+            if engram_bypass is not None:
+                engram_x = engram_x + engram_bypass
             engram_out = self.engram(
                 self.norm2(engram_x),
                 token_ids=token_ids,
                 lookup_state=engram_lookup_state,
             )
-            if self.attnres_engram_mode == "fused":
+            if self.attnres_engram_mode == "bypass":
+                if engram_bypass is None:
+                    raise RuntimeError("AttnRes Engram bypass state was not initialized")
+                engram_bypass = engram_bypass + self.engram_bypass_gate * engram_out
+            elif self.attnres_engram_mode == "fused":
                 # Keep Engram as a strong additive injection within the current
                 # transformed delta instead of a separate softmax competitor.
                 sources[-1] = sources[-1] + engram_out
@@ -303,9 +318,11 @@ class TransformerBlock(nn.Module):
                 sources.append(engram_out)
 
         ff_x = self.attn_res_ffn(sources)
+        if engram_bypass is not None:
+            ff_x = ff_x + engram_bypass
         if isinstance(self.ff, SparseMoE):
             ff_out = self.ff(self.norm2(ff_x), token_ids=token_ids)
         else:
             ff_out = self.ff(self.norm2(ff_x))
         sources.append(ff_out)
-        return sources, attn_x
+        return sources, attn_x, engram_bypass

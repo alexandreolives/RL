@@ -44,6 +44,7 @@ class TransformerMolecule(nn.Module):
 
         self.dropout = nn.Dropout(config.dropout)
         self.use_attnres = config.use_attnres
+        self.attnres_engram_mode = getattr(config, "attnres_engram_mode", "source")
         if self.use_attnres and (config.use_mhc or config.use_mhc_streams or config.use_multibranch_residual):
             raise ValueError("Full AttnRes cannot be combined with mHC/multibranch residuals")
         self.use_mhc_streams = config.use_mhc_streams
@@ -176,13 +177,15 @@ class TransformerMolecule(nn.Module):
 
         current_x = x
         attnres_sources = [x] if self.use_attnres else None
+        engram_bypass = torch.zeros_like(x) if self.use_attnres and self.attnres_engram_mode == "bypass" else None
         current_ids = memory_ids
         current_mask = attn_mask
         for idx, block in enumerate(self.blocks):
             layer_cache = cache_layers[idx] if cache_layers is not None and idx < len(cache_layers) else None
             if attnres_sources is not None:
-                attnres_sources, block_input = block.forward_attnres(
+                attnres_sources, block_input, engram_bypass = block.forward_attnres(
                     attnres_sources,
+                    engram_bypass=engram_bypass,
                     token_ids=current_ids,
                     attn_mask=current_mask,
                     engram_lookup_state=engram_lookup_state,
@@ -201,6 +204,8 @@ class TransformerMolecule(nn.Module):
                 cache_layers[idx].update(block_input, token_ids=current_ids, attn_mask=current_mask)
         if attnres_sources is not None:
             current_x = self.final_attn_res(attnres_sources)
+            if engram_bypass is not None:
+                current_x = current_x + engram_bypass
         if self.hc_head is not None:
             current_x = self.hc_head(current_x)
         hidden = self.final_norm(current_x)

@@ -249,6 +249,10 @@ def build_train_model(
         cfg.engram.conv_enabled = False
         cfg.use_attnres = True
         cfg.attnres_engram_mode = "fused"
+    elif name == "engram_noconv_attnres_v2":
+        cfg.engram.conv_enabled = False
+        cfg.use_attnres = True
+        cfg.attnres_engram_mode = "bypass"
     elif name == "engram_fullconv":
         cfg.engram.long_conv_enabled = True
     elif name == "full":

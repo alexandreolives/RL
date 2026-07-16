@@ -68,3 +68,19 @@ Run the paired v1 campaign after the original campaign has released the GPUs:
 ```bash
 experiments/step4_engram_attnres/scripts/run_attnres_v1_campaign.sh
 ```
+
+## Corrective v2
+
+`engram_noconv_attnres_v2` keeps Engram outside the depth-wise softmax. AttnRes
+routes only embedding, attention, and MLP sources; Engram updates accumulate in
+a separately gated additive bypass applied after every AttnRes aggregation and
+after the final aggregation.
+
+The campaign defaults to the nine-seed LM phase only:
+
+```bash
+experiments/step4_engram_attnres/scripts/run_attnres_v2_campaign.sh
+```
+
+Run `PHASE=eval` only if the paired LM comparison removes the regression versus
+`engram_noconv`.
