@@ -47,6 +47,10 @@ The decisive interaction on a loss metric is:
 A negative value means the combination improves loss beyond the sum of the two
 individual architectural effects. Accuracy uses the opposite sign convention.
 
+Completed original-design results:
+
+[notes/ATTNRES_RESULTS_2026-07-16.md](notes/ATTNRES_RESULTS_2026-07-16.md)
+
 ## Corrective v1
 
 `engram_noconv_attnres_v1` keeps attention and MLP outputs as the AttnRes depth

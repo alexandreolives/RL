@@ -75,6 +75,11 @@ gradients atteignent à la fois les pseudo-requêtes et les embeddings Engram.
 La campagne multi-seed reproductible est décrite dans
 `experiments/step4_engram_attnres/README.md`.
 
+La première campagne est terminée. AttnRes seul améliore le baseline, mais la
+combinaison où Engram devient une source softmax indépendante est antagoniste.
+Résultats complets :
+`experiments/step4_engram_attnres/notes/ATTNRES_RESULTS_2026-07-16.md`.
+
 ## Ce que dit réellement la vidéo
 
 La vidéo ne mentionne pas Engram. Elle compare AttnRes à mHC :
