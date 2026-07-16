@@ -192,3 +192,16 @@ def test_v2_routes_engram_through_separate_gated_bypass() -> None:
         assert block.engram_bypass_gate.grad.abs().sum() > 0
         memory_grad = block.engram.order_embeddings["2"].weight.grad
         assert memory_grad is not None and memory_grad.abs().sum() > 0
+
+
+def test_v3_uses_bounded_low_gain_bypass() -> None:
+    torch.manual_seed(17)
+    model = build_train_model("engram_noconv_attnres_v3", torch.device("cpu"), model_size="tiny", input_mode="symbolic", attention_backend="eager")
+    block = model.blocks[1]
+    assert model.config.attnres_engram_mode == "bounded_bypass"
+    torch.testing.assert_close(torch.sigmoid(block.engram_bypass_gate_logit), torch.full((192,), 0.1), atol=1e-6, rtol=1e-6)
+    token_ids = torch.randint(0, 260, (2, 12))
+    logits = model(token_ids=token_ids, use_cache=False)
+    loss = torch.nn.functional.cross_entropy(logits[:, :-1].reshape(-1, 260), token_ids[:, 1:].reshape(-1))
+    loss.backward()
+    assert block.engram_bypass_gate_logit.grad is not None

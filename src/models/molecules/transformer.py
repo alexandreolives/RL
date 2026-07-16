@@ -177,7 +177,7 @@ class TransformerMolecule(nn.Module):
 
         current_x = x
         attnres_sources = [x] if self.use_attnres else None
-        engram_bypass = torch.zeros_like(x) if self.use_attnres and self.attnres_engram_mode == "bypass" else None
+        engram_bypass = torch.zeros_like(x) if self.use_attnres and self.attnres_engram_mode in {"bypass", "bounded_bypass"} else None
         current_ids = memory_ids
         current_mask = attn_mask
         for idx, block in enumerate(self.blocks):

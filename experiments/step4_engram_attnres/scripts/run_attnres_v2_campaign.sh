@@ -9,6 +9,7 @@ SEEDS="${SEEDS:-0 1 2 3 4 5 6 7 8}"
 GPU_IDS="${GPU_IDS:-0 1 2}"
 PHASE="${PHASE:-train}"
 OUT_ROOT="${OUT_ROOT:-artifacts/attnres_engram_v2_multiseed}"
+VARIANT="${VARIANT:-engram_noconv_attnres_v2}"
 LIMIT="${LIMIT:-512}"
 MAX_LEN="${MAX_LEN:-2048}"
 
@@ -42,7 +43,7 @@ train_seed() {
   local gpu="$2"
   run_container "${gpu}" -m eval.transformer.train_text_lm_compare \
     --device cuda \
-    --variants engram_noconv_attnres_v2 \
+    --variants "${VARIANT}" \
     --seed "${seed}" \
     --seq-len 256 \
     --batch-size 8 \
@@ -61,7 +62,7 @@ eval_seed() {
   run_container "${gpu}" -m eval.transformer.paper_tasks_compare \
     --device cuda \
     --baseline-ckpt "/historical-artifacts/text_lm_compare_det/engram_noconv_seed${seed}/model.pt" \
-    --engram-ckpt "${OUT_ROOT}/train/engram_noconv_attnres_v2_seed${seed}/model.pt" \
+    --engram-ckpt "${OUT_ROOT}/train/${VARIANT}_seed${seed}/model.pt" \
     --limit "${LIMIT}" \
     --max-len "${MAX_LEN}" \
     --out "${OUT_ROOT}/eval/v2_vs_engram_seed${seed}.json"

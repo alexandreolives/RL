@@ -491,6 +491,11 @@ def build_variant(
         cfg = build_config(use_engram=True, use_dsa=False, use_mhc=False, use_moe=False, use_attnres=True, activation="gelu", attention_backend=attention_backend)
         cfg.engram.conv_enabled = False
         cfg.attnres_engram_mode = "bypass"
+    elif key == "engram_noconv_attnres_v3":
+        cfg = build_config(use_engram=True, use_dsa=False, use_mhc=False, use_moe=False, use_attnres=True, activation="gelu", attention_backend=attention_backend)
+        cfg.engram.conv_enabled = False
+        cfg.attnres_engram_mode = "bounded_bypass"
+        cfg.attnres_engram_gate_init = 0.1
     elif key == "engram_layerhash":
         cfg = build_config(use_engram=True, use_dsa=False, use_mhc=False, use_moe=False, activation="gelu", attention_backend=attention_backend)
         cfg.engram.use_layerwise_hash = True

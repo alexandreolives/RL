@@ -91,3 +91,14 @@ Run `PHASE=eval` only if the paired LM comparison removes the regression versus
 
 The completed LM campaign did not meet that criterion, so no downstream v2
 evaluation was launched.
+
+## Corrective v3
+
+`engram_noconv_attnres_v3` uses the same external bypass with a bounded
+sigmoid gate initialized to 0.1. It can be launched with the existing campaign
+script by setting `VARIANT` and `OUT_ROOT`:
+
+```bash
+VARIANT=engram_noconv_attnres_v3 OUT_ROOT=artifacts/attnres_engram_v3_multiseed \
+  experiments/step4_engram_attnres/scripts/run_attnres_v2_campaign.sh
+```

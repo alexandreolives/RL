@@ -30,7 +30,7 @@ class TransformerBlock(nn.Module):
         self.use_mhc_streams = config.use_mhc_streams
         self.use_attnres = config.use_attnres
         self.attnres_engram_mode = getattr(config, "attnres_engram_mode", "source")
-        if self.attnres_engram_mode not in {"source", "fused", "bypass"}:
+        if self.attnres_engram_mode not in {"source", "fused", "bypass", "bounded_bypass"}:
             raise ValueError(f"Unknown AttnRes Engram mode: {self.attnres_engram_mode}")
         self.hc_mult = config.hc_mult if self.use_mhc_streams else 1
         attn_cfg = config.attention
@@ -169,8 +169,13 @@ class TransformerBlock(nn.Module):
             else None
         )
         self.engram_bypass_gate = (
-            nn.Parameter(torch.ones(config.d_model))
+            nn.Parameter(torch.full((config.d_model,), config.attnres_engram_gate_init))
             if self.attnres_engram_mode == "bypass" and self.engram is not None
+            else None
+        )
+        self.engram_bypass_gate_logit = (
+            nn.Parameter(torch.full((config.d_model,), torch.logit(torch.tensor(config.attnres_engram_gate_init))))
+            if self.attnres_engram_mode == "bounded_bypass" and self.engram is not None
             else None
         )
         self.attn_res_ffn = (
@@ -306,7 +311,11 @@ class TransformerBlock(nn.Module):
                 token_ids=token_ids,
                 lookup_state=engram_lookup_state,
             )
-            if self.attnres_engram_mode == "bypass":
+            if self.attnres_engram_mode == "bounded_bypass":
+                if engram_bypass is None:
+                    raise RuntimeError("AttnRes Engram bypass state was not initialized")
+                engram_bypass = engram_bypass + torch.sigmoid(self.engram_bypass_gate_logit) * engram_out
+            elif self.attnres_engram_mode == "bypass":
                 if engram_bypass is None:
                     raise RuntimeError("AttnRes Engram bypass state was not initialized")
                 engram_bypass = engram_bypass + self.engram_bypass_gate * engram_out
