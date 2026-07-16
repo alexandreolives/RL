@@ -54,3 +54,9 @@ sources, but fuses each Engram output additively into the current attention
 source. Engram therefore no longer competes as an independent softmax slot.
 The original `engram_noconv_attnres` remains available as the reproducible
 separate-source design.
+
+Run the paired v1 campaign after the original campaign has released the GPUs:
+
+```bash
+experiments/step4_engram_attnres/scripts/run_attnres_v1_campaign.sh
+```
