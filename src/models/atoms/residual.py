@@ -28,9 +28,9 @@ class FullAttentionResidual(nn.Module):
             raise ValueError("FullAttentionResidual requires at least one source")
         values = torch.stack(sources, dim=0)
         keys = self.norm(values)
-        logits = torch.einsum("d,nbtd->nbt", self.query, keys)
+        logits = torch.einsum("d,nb...d->nb...", self.query, keys)
         weights = torch.softmax(logits.float(), dim=0).to(values.dtype)
-        return torch.einsum("nbt,nbtd->btd", weights, values)
+        return torch.einsum("nb...,nb...d->b...d", weights, values)
 
 
 class MultiBranchResidual(nn.Module):

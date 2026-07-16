@@ -229,6 +229,19 @@ def build_train_model(
     elif name == "attnres":
         cfg.engram.enabled = False
         cfg.use_attnres = True
+    elif name == "mhc":
+        cfg.engram.enabled = False
+        cfg.use_mhc = True
+        cfg.use_mhc_streams = True
+        cfg.hc_mult = 4
+        cfg.residual_branches = 4
+    elif name == "mhc_attnres":
+        cfg.engram.enabled = False
+        cfg.use_mhc = True
+        cfg.use_mhc_streams = True
+        cfg.hc_mult = 4
+        cfg.residual_branches = 4
+        cfg.use_attnres = True
     elif name == "engram":
         pass
     elif name == "engram_layerhash":
@@ -388,6 +401,19 @@ def build_train_model(
         "deepseek_v4_public_solid",
     }:
         cfg = build_deepseek_v4_v6_config(attention_backend=attention_backend, input_mode=input_mode)
+    elif name in {"v6_engram", "deepseek_v4_v6_engram"}:
+        cfg = build_deepseek_v4_v6_config(attention_backend=attention_backend, input_mode=input_mode)
+        cfg.implementation = "native"
+        cfg.engram.enabled = True
+        cfg.engram.conv_enabled = False
+        cfg.engram.insert_layers = (1, 4)
+    elif name in {"v6_engram_attnres", "deepseek_v4_v6_engram_attnres"}:
+        cfg = build_deepseek_v4_v6_config(attention_backend=attention_backend, input_mode=input_mode)
+        cfg.implementation = "native"
+        cfg.engram.enabled = True
+        cfg.engram.conv_enabled = False
+        cfg.engram.insert_layers = (1, 4)
+        cfg.use_attnres = True
     elif name == "full_noconv":
         cfg = build_config(
             use_engram=True,

@@ -45,7 +45,7 @@ class TransformerMolecule(nn.Module):
         self.dropout = nn.Dropout(config.dropout)
         self.use_attnres = config.use_attnres
         self.attnres_engram_mode = getattr(config, "attnres_engram_mode", "source")
-        if self.use_attnres and (config.use_mhc or config.use_mhc_streams or config.use_multibranch_residual):
+        if self.use_attnres and (config.use_mhc and not config.use_mhc_streams or config.use_multibranch_residual):
             raise ValueError("Full AttnRes cannot be combined with mHC/multibranch residuals")
         self.use_mhc_streams = config.use_mhc_streams
         self.hc_mult = config.hc_mult if config.use_mhc_streams else 1

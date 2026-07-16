@@ -530,6 +530,19 @@ def build_variant(
         "deepseek_v4_public_solid",
     }:
         cfg = build_deepseek_v4_v6_config(attention_backend=attention_backend, input_mode="symbolic")
+    elif key in {"v6_engram", "deepseek_v4_v6_engram"}:
+        cfg = build_deepseek_v4_v6_config(attention_backend=attention_backend, input_mode="symbolic")
+        cfg.implementation = "native"
+        cfg.engram.enabled = True
+        cfg.engram.conv_enabled = False
+        cfg.engram.insert_layers = (1, 4)
+    elif key in {"v6_engram_attnres", "deepseek_v4_v6_engram_attnres"}:
+        cfg = build_deepseek_v4_v6_config(attention_backend=attention_backend, input_mode="symbolic")
+        cfg.implementation = "native"
+        cfg.engram.enabled = True
+        cfg.engram.conv_enabled = False
+        cfg.engram.insert_layers = (1, 4)
+        cfg.use_attnres = True
     elif key == "dsa":
         cfg = build_config(use_engram=False, use_dsa=True, use_mhc=False, use_moe=False, activation="gelu", attention_backend=attention_backend)
     elif key == "mhc":

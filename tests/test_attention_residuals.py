@@ -126,6 +126,37 @@ def test_attnres_rejects_mhc_combination() -> None:
         raise AssertionError("AttnRes + mHC should require a separately defined composition")
 
 
+def test_mhc_attnres_streams_build_and_backward() -> None:
+    torch.manual_seed(19)
+    model = build_train_model("mhc_attnres", torch.device("cpu"), model_size="tiny", input_mode="symbolic", attention_backend="eager")
+    assert model.config.use_mhc_streams and model.config.hc_mult == 4
+    token_ids = torch.randint(0, 260, (2, 12))
+    logits = model(token_ids=token_ids, use_cache=False)
+    loss = torch.nn.functional.cross_entropy(logits[:, :-1].reshape(-1, 260), token_ids[:, 1:].reshape(-1))
+    loss.backward()
+    assert model.final_attn_res.query.grad is not None
+
+
+def test_v6_engram_uses_native_mhc_four_stream_backbone() -> None:
+    model = build_train_model("v6_engram", torch.device("cpu"), model_size="tiny", input_mode="symbolic", attention_backend="eager")
+    assert model.config.implementation == "native"
+    assert model.config.use_mhc_streams and model.config.hc_mult == 4
+    assert model.config.engram.enabled
+    assert any(block.engram is not None for block in model.blocks)
+
+
+def test_v6_engram_attnres_forward_backward() -> None:
+    torch.manual_seed(23)
+    model = build_train_model("v6_engram_attnres", torch.device("cpu"), model_size="tiny", input_mode="symbolic", attention_backend="eager")
+    assert model.config.use_attnres and model.config.use_mhc_streams
+    token_ids = torch.randint(0, 260, (2, 12))
+    logits = model(token_ids=token_ids, use_cache=False)
+    loss = torch.nn.functional.cross_entropy(logits[:, :-1].reshape(-1, 260), token_ids[:, 1:].reshape(-1))
+    loss.backward()
+    assert model.final_attn_res.query.grad is not None
+    assert model.blocks[1].engram.order_embeddings["2"].weight.grad is not None
+
+
 def test_fused_v1_keeps_engram_inside_attention_source() -> None:
     torch.manual_seed(11)
     model = build_train_model(

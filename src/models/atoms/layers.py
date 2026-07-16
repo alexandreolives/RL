@@ -283,21 +283,31 @@ class TransformerBlock(nn.Module):
         """Append this block's raw sublayer outputs to a Full AttnRes history."""
         if not self.use_attnres:
             raise RuntimeError("forward_attnres requires config.use_attnres=True")
-        if self.use_mhc_streams or self.branch is not None:
+        if self.use_mhc_streams and self.attn_hc is None:
+            raise ValueError("AttnRes + mHC streams requires hyper-connections")
+        if self.use_mhc_streams:
+            shape = None
+        elif self.branch is not None:
             raise ValueError("Full AttnRes cannot be combined with mHC/multibranch residuals")
 
         use_dsa = self.attn.use_dsa and self.attn.local_window is not None and self.attn_kind == "compressed_sparse_attention"
         attn_x = self.attn_res_attn(sources)
         if engram_bypass is not None:
             attn_x = attn_x + engram_bypass
+        attn_flat, shape = self._flatten_streams(attn_x)
+        stream_ids = token_ids.repeat_interleave(self.hc_mult, dim=0) if token_ids is not None and shape is not None else token_ids
+        stream_mask = attn_mask.repeat_interleave(self.hc_mult, dim=0) if attn_mask is not None and shape is not None else attn_mask
         attn_out = self.attn(
-            self.norm1(attn_x),
-            attn_mask=attn_mask,
+            self.norm1(attn_flat),
+            attn_mask=stream_mask,
             attn_kind=self.attn_kind,
             use_dsa=use_dsa,
             global_stride=4,
             cache=cache,
         )
+        attn_out = self._unflatten_streams(attn_out, shape)
+        if self.use_mhc_streams:
+            attn_out = self.attn_hc(attn_x, attn_out)
         sources.append(attn_out)
 
         if self.engram is not None:
@@ -306,11 +316,15 @@ class TransformerBlock(nn.Module):
             engram_x = self.attn_res_engram(sources)
             if engram_bypass is not None:
                 engram_x = engram_x + engram_bypass
+            engram_flat, engram_shape = self._flatten_streams(engram_x)
             engram_out = self.engram(
-                self.norm2(engram_x),
-                token_ids=token_ids,
-                lookup_state=engram_lookup_state,
+                self.norm2(engram_flat),
+                token_ids=stream_ids,
+                # The cached lookup tensors are batch-shaped; recompute for
+                # repeated mHC streams until a stream-aware cache is added.
+                lookup_state=None if engram_shape is not None else engram_lookup_state,
             )
+            engram_out = self._unflatten_streams(engram_out, engram_shape)
             if self.attnres_engram_mode == "bounded_bypass":
                 if engram_bypass is None:
                     raise RuntimeError("AttnRes Engram bypass state was not initialized")
@@ -329,9 +343,13 @@ class TransformerBlock(nn.Module):
         ff_x = self.attn_res_ffn(sources)
         if engram_bypass is not None:
             ff_x = ff_x + engram_bypass
+        ff_flat, ff_shape = self._flatten_streams(ff_x)
         if isinstance(self.ff, SparseMoE):
-            ff_out = self.ff(self.norm2(ff_x), token_ids=token_ids)
+            ff_out = self.ff(self.norm2(ff_flat), token_ids=stream_ids)
         else:
-            ff_out = self.ff(self.norm2(ff_x))
+            ff_out = self.ff(self.norm2(ff_flat))
+        ff_out = self._unflatten_streams(ff_out, ff_shape)
+        if self.use_mhc_streams:
+            ff_out = self.ffn_hc(ff_x, ff_out)
         sources.append(ff_out)
         return sources, attn_x, engram_bypass
