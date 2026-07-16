@@ -198,6 +198,7 @@ notes before interpreting their metrics.
 - Step 2 remote GPU validation: [experiments/step2_engram_lejepa_eval/notes/REMOTE_GPU_VALIDATION_2026-07-15.md](experiments/step2_engram_lejepa_eval/notes/REMOTE_GPU_VALIDATION_2026-07-15.md)
 - Step 4 AttnRes campaign: [experiments/step4_engram_attnres/README.md](experiments/step4_engram_attnres/README.md)
 - Step 4 AttnRes results: [experiments/step4_engram_attnres/notes/ATTNRES_RESULTS_2026-07-16.md](experiments/step4_engram_attnres/notes/ATTNRES_RESULTS_2026-07-16.md)
+- Step 4 fused AttnRes v1 results: [experiments/step4_engram_attnres/notes/ATTNRES_V1_RESULTS_2026-07-16.md](experiments/step4_engram_attnres/notes/ATTNRES_V1_RESULTS_2026-07-16.md)
 - Step 3 overview: [experiments/step3_ocr_like/README.md](experiments/step3_ocr_like/README.md)
 
 ## Runtime notes

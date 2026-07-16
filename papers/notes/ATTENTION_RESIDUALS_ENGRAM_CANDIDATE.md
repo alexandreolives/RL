@@ -80,6 +80,10 @@ combinaison où Engram devient une source softmax indépendante est antagoniste.
 Résultats complets :
 `experiments/step4_engram_attnres/notes/ATTNRES_RESULTS_2026-07-16.md`.
 
+Le correctif fusionné v1 réduit la régression LM sans la supprimer et n'apporte
+pas de gain aval mesurable. Résultats :
+`experiments/step4_engram_attnres/notes/ATTNRES_V1_RESULTS_2026-07-16.md`.
+
 ## Ce que dit réellement la vidéo
 
 La vidéo ne mentionne pas Engram. Elle compare AttnRes à mHC :

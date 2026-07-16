@@ -98,6 +98,10 @@ keep Engram as a strong additive/gated injection and let AttnRes route only the
 attention/MLP deltas. That is exactly the `v1` fused design prepared for the
 next campaign.
 
+Follow-up: the fused v1 campaign is also complete. It improves v0 on LM loss
+but remains worse than Engram and does not improve downstream results:
+[ATTNRES_V1_RESULTS_2026-07-16.md](ATTNRES_V1_RESULTS_2026-07-16.md).
+
 ## Artifacts
 
 Remote root:
@@ -108,4 +112,3 @@ Remote root:
 - downstream JSON files: `eval/`;
 - per-seed logs: `logs/`;
 - campaign log: `artifacts/attnres_engram_campaign.log`.
-

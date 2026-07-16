@@ -51,6 +51,10 @@ Completed original-design results:
 
 [notes/ATTNRES_RESULTS_2026-07-16.md](notes/ATTNRES_RESULTS_2026-07-16.md)
 
+Completed fused-v1 results:
+
+[notes/ATTNRES_V1_RESULTS_2026-07-16.md](notes/ATTNRES_V1_RESULTS_2026-07-16.md)
+
 ## Corrective v1
 
 `engram_noconv_attnres_v1` keeps attention and MLP outputs as the AttnRes depth
