@@ -183,8 +183,8 @@ notes before interpreting their metrics.
 - `eval/transformer/`: local evaluation and training utilities.
 - `experiments/step1_engram_core/`: baseline/engram/engram_noconv experiments.
 - `experiments/step2_engram_lejepa_eval/`: LeJEPA extension.
-- `experiments/step4_engram_attnres/`: controlled Engram × Full AttnRes ablation.
 - `experiments/step3_ocr_like/`: OCR-like multimodal stack.
+- `experiments/step4_engram_attnres/`: controlled Engram × Full AttnRes ablation.
 - `docker/`: optional container runtime notes and Dockerfiles.
 - `docs/`: publishing and onboarding notes.
 - `docs/ARCHITECTURE.md`: repository boundaries and contracts.
@@ -196,12 +196,12 @@ notes before interpreting their metrics.
 - Paper-aligned Step 2 results: [experiments/step2_engram_lejepa_eval/notes/LEJEPA_REAL_RESULTS_2026-07-15.md](experiments/step2_engram_lejepa_eval/notes/LEJEPA_REAL_RESULTS_2026-07-15.md)
 - Historical Step 2 proxy results: [experiments/step2_engram_lejepa_eval/notes/LEJEPA_RESULTS_2026-04-22.md](experiments/step2_engram_lejepa_eval/notes/LEJEPA_RESULTS_2026-04-22.md)
 - Step 2 remote GPU validation: [experiments/step2_engram_lejepa_eval/notes/REMOTE_GPU_VALIDATION_2026-07-15.md](experiments/step2_engram_lejepa_eval/notes/REMOTE_GPU_VALIDATION_2026-07-15.md)
-- Step 4 AttnRes campaign: [experiments/step4_engram_attnres/README.md](experiments/step4_engram_attnres/README.md)
-- Step 4 AttnRes results: [experiments/step4_engram_attnres/notes/ATTNRES_RESULTS_2026-07-16.md](experiments/step4_engram_attnres/notes/ATTNRES_RESULTS_2026-07-16.md)
-- Step 4 fused AttnRes v1 results: [experiments/step4_engram_attnres/notes/ATTNRES_V1_RESULTS_2026-07-16.md](experiments/step4_engram_attnres/notes/ATTNRES_V1_RESULTS_2026-07-16.md)
-- Step 4 gated-bypass AttnRes v2 results: [experiments/step4_engram_attnres/notes/ATTNRES_V2_RESULTS_2026-07-16.md](experiments/step4_engram_attnres/notes/ATTNRES_V2_RESULTS_2026-07-16.md)
-- Step 4 bounded-gate AttnRes v3 results: [experiments/step4_engram_attnres/notes/ATTNRES_V3_RESULTS_2026-07-16.md](experiments/step4_engram_attnres/notes/ATTNRES_V3_RESULTS_2026-07-16.md)
 - Step 3 overview: [experiments/step3_ocr_like/README.md](experiments/step3_ocr_like/README.md)
+- Step 4 AttnRes campaign: [experiments/step4_engram_attnres/README.md](experiments/step4_engram_attnres/README.md)
+  - v0: [ATTNRES_RESULTS_2026-07-16.md](experiments/step4_engram_attnres/notes/ATTNRES_RESULTS_2026-07-16.md)
+  - v1: [ATTNRES_V1_RESULTS_2026-07-16.md](experiments/step4_engram_attnres/notes/ATTNRES_V1_RESULTS_2026-07-16.md)
+  - v2: [ATTNRES_V2_RESULTS_2026-07-16.md](experiments/step4_engram_attnres/notes/ATTNRES_V2_RESULTS_2026-07-16.md)
+  - v3: [ATTNRES_V3_RESULTS_2026-07-16.md](experiments/step4_engram_attnres/notes/ATTNRES_V3_RESULTS_2026-07-16.md)
 
 ## Runtime notes
 
