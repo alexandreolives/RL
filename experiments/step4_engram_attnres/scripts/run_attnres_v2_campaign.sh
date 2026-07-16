@@ -15,6 +15,7 @@ MODEL_SIZE="${MODEL_SIZE:-tiny}"
 TRAIN_STEPS="${TRAIN_STEPS:-400}"
 EVAL_STEPS="${EVAL_STEPS:-64}"
 BATCH_SIZE="${BATCH_SIZE:-8}"
+SEQ_LEN="${SEQ_LEN:-256}"
 BATCH_PLAN_IN="${BATCH_PLAN_IN-/historical-artifacts/text_lm_compare_det/plan_seed}"
 COST_ROOT="${COST_ROOT:-${OUT_ROOT}/cost}"
 LIMIT="${LIMIT:-512}"
@@ -63,7 +64,7 @@ train_seed() {
     --variants "${variant_array[@]}" \
     --model-size "${MODEL_SIZE}" \
     --seed "${seed}" \
-    --seq-len 256 \
+    --seq-len "${SEQ_LEN}" \
     --batch-size "${BATCH_SIZE}" \
     --train-steps "${TRAIN_STEPS}" \
     --eval-steps "${EVAL_STEPS}" \
