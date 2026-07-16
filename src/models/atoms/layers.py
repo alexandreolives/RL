@@ -7,7 +7,7 @@ from .config import TransformerConfig
 from .mlp import FeedForward
 from .moe import SparseMoE
 from .norms import RMSNorm
-from .residual import DeepseekV4HyperConnection, MultiBranchResidual, MHCResidual
+from .residual import DeepseekV4HyperConnection, FullAttentionResidual, MultiBranchResidual, MHCResidual
 from .engram import EngramMemory
 from .cache import DeepseekV4LayerCache
 
@@ -27,6 +27,7 @@ class TransformerBlock(nn.Module):
         self.attn_kind = attn_kind
         self.mlp_kind = mlp_kind
         self.use_mhc_streams = config.use_mhc_streams
+        self.use_attnres = config.use_attnres
         self.hc_mult = config.hc_mult if self.use_mhc_streams else 1
         attn_cfg = config.attention
         if attn_kind in {"sliding_attention", "compressed_sparse_attention", "heavily_compressed_attention"}:
@@ -153,6 +154,21 @@ class TransformerBlock(nn.Module):
             self.attn_hc = None
             self.ffn_hc = None
             self.branch = None
+        self.attn_res_attn = (
+            FullAttentionResidual(config.d_model, eps=config.rms_norm_eps)
+            if self.use_attnres
+            else None
+        )
+        self.attn_res_engram = (
+            FullAttentionResidual(config.d_model, eps=config.rms_norm_eps)
+            if self.use_attnres and self.engram is not None
+            else None
+        )
+        self.attn_res_ffn = (
+            FullAttentionResidual(config.d_model, eps=config.rms_norm_eps)
+            if self.use_attnres
+            else None
+        )
 
     def _apply_residual_branch(self, x, update):
         if self.branch is None:
@@ -182,6 +198,8 @@ class TransformerBlock(nn.Module):
         return x.reshape(bsz, hc_mult, seq_len, d_model).transpose(1, 2).contiguous()
 
     def forward(self, x, *, token_ids=None, attn_mask=None, engram_lookup_state=None, cache: DeepseekV4LayerCache | None = None):
+        if self.use_attnres:
+            raise RuntimeError("AttnRes blocks must be called through forward_attnres")
         use_dsa = self.attn.use_dsa and self.attn.local_window is not None and self.attn_kind == "compressed_sparse_attention"
         if self.use_mhc_streams:
             stream_token_ids = token_ids.repeat_interleave(self.hc_mult, dim=0) if token_ids is not None else None
@@ -237,3 +255,49 @@ class TransformerBlock(nn.Module):
             ff_out = self.ff(self.norm2(x))
         x = self._apply_residual_branch(x, ff_out)
         return x
+
+    def forward_attnres(
+        self,
+        sources: list,
+        *,
+        token_ids=None,
+        attn_mask=None,
+        engram_lookup_state=None,
+        cache: DeepseekV4LayerCache | None = None,
+    ):
+        """Append this block's raw sublayer outputs to a Full AttnRes history."""
+        if not self.use_attnres:
+            raise RuntimeError("forward_attnres requires config.use_attnres=True")
+        if self.use_mhc_streams or self.branch is not None:
+            raise ValueError("Full AttnRes cannot be combined with mHC/multibranch residuals")
+
+        use_dsa = self.attn.use_dsa and self.attn.local_window is not None and self.attn_kind == "compressed_sparse_attention"
+        attn_x = self.attn_res_attn(sources)
+        attn_out = self.attn(
+            self.norm1(attn_x),
+            attn_mask=attn_mask,
+            attn_kind=self.attn_kind,
+            use_dsa=use_dsa,
+            global_stride=4,
+            cache=cache,
+        )
+        sources.append(attn_out)
+
+        if self.engram is not None:
+            if token_ids is None:
+                raise ValueError("Engram-enabled block requires token_ids/byte_ids for n-gram lookup")
+            engram_x = self.attn_res_engram(sources)
+            engram_out = self.engram(
+                self.norm2(engram_x),
+                token_ids=token_ids,
+                lookup_state=engram_lookup_state,
+            )
+            sources.append(engram_out)
+
+        ff_x = self.attn_res_ffn(sources)
+        if isinstance(self.ff, SparseMoE):
+            ff_out = self.ff(self.norm2(ff_x), token_ids=token_ids)
+        else:
+            ff_out = self.ff(self.norm2(ff_x))
+        sources.append(ff_out)
+        return sources, attn_x

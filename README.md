@@ -131,7 +131,8 @@ model = build_variant("v6", attention_backend="eager")
 ```
 
 `build_variant` also exposes the controlled comparison variants such as
-`baseline`, `engram`, `engram_noconv`, `engram_layerhash`, `dsa`, `mhc`, and
+`baseline`, `attnres`, `engram`, `engram_noconv`, `engram_attnres`,
+`engram_noconv_attnres`, `engram_layerhash`, `dsa`, `mhc`, and
 `full`. For lower-level control, construct a `TransformerConfig` from
 `models.atoms.config`. The `v6` adapter requires `transformers==5.13.1`, pinned
 in `pyproject.toml` and `uv.lock`.
@@ -182,6 +183,7 @@ notes before interpreting their metrics.
 - `eval/transformer/`: local evaluation and training utilities.
 - `experiments/step1_engram_core/`: baseline/engram/engram_noconv experiments.
 - `experiments/step2_engram_lejepa_eval/`: LeJEPA extension.
+- `experiments/step4_engram_attnres/`: controlled Engram × Full AttnRes ablation.
 - `experiments/step3_ocr_like/`: OCR-like multimodal stack.
 - `docker/`: optional container runtime notes and Dockerfiles.
 - `docs/`: publishing and onboarding notes.
@@ -194,6 +196,7 @@ notes before interpreting their metrics.
 - Paper-aligned Step 2 results: [experiments/step2_engram_lejepa_eval/notes/LEJEPA_REAL_RESULTS_2026-07-15.md](experiments/step2_engram_lejepa_eval/notes/LEJEPA_REAL_RESULTS_2026-07-15.md)
 - Historical Step 2 proxy results: [experiments/step2_engram_lejepa_eval/notes/LEJEPA_RESULTS_2026-04-22.md](experiments/step2_engram_lejepa_eval/notes/LEJEPA_RESULTS_2026-04-22.md)
 - Step 2 remote GPU validation: [experiments/step2_engram_lejepa_eval/notes/REMOTE_GPU_VALIDATION_2026-07-15.md](experiments/step2_engram_lejepa_eval/notes/REMOTE_GPU_VALIDATION_2026-07-15.md)
+- Step 4 AttnRes campaign: [experiments/step4_engram_attnres/README.md](experiments/step4_engram_attnres/README.md)
 - Step 3 overview: [experiments/step3_ocr_like/README.md](experiments/step3_ocr_like/README.md)
 
 ## Runtime notes

@@ -393,6 +393,7 @@ def build_config(
     use_dsa: bool = True,
     use_mhc: bool = True,
     use_moe: bool = True,
+    use_attnres: bool = False,
     use_multibranch_residual: bool = False,
     activation: str = "swiglu",
     attention_backend: str = "auto",
@@ -404,6 +405,7 @@ def build_config(
         activation=activation,
         use_rmsnorm=True,
         use_mhc=use_mhc,
+        use_attnres=use_attnres,
         use_multibranch_residual=use_multibranch_residual,
         residual_branches=4,
         use_byte_first=True,
@@ -469,10 +471,17 @@ def build_variant(
     key = name.lower()
     if key == "baseline":
         cfg = build_config(use_engram=False, use_dsa=False, use_mhc=False, use_moe=False, activation="gelu", attention_backend=attention_backend)
+    elif key == "attnres":
+        cfg = build_config(use_engram=False, use_dsa=False, use_mhc=False, use_moe=False, use_attnres=True, activation="gelu", attention_backend=attention_backend)
     elif key in {"engram", "engram_adaptive"}:
         cfg = build_config(use_engram=True, use_dsa=False, use_mhc=False, use_moe=False, activation="gelu", attention_backend=attention_backend)
     elif key == "engram_noconv":
         cfg = build_config(use_engram=True, use_dsa=False, use_mhc=False, use_moe=False, activation="gelu", attention_backend=attention_backend)
+        cfg.engram.conv_enabled = False
+    elif key == "engram_attnres":
+        cfg = build_config(use_engram=True, use_dsa=False, use_mhc=False, use_moe=False, use_attnres=True, activation="gelu", attention_backend=attention_backend)
+    elif key == "engram_noconv_attnres":
+        cfg = build_config(use_engram=True, use_dsa=False, use_mhc=False, use_moe=False, use_attnres=True, activation="gelu", attention_backend=attention_backend)
         cfg.engram.conv_enabled = False
     elif key == "engram_layerhash":
         cfg = build_config(use_engram=True, use_dsa=False, use_mhc=False, use_moe=False, activation="gelu", attention_backend=attention_backend)

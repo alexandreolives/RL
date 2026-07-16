@@ -226,6 +226,9 @@ def build_train_model(
 
     if name == "baseline":
         cfg.engram.enabled = False
+    elif name == "attnres":
+        cfg.engram.enabled = False
+        cfg.use_attnres = True
     elif name == "engram":
         pass
     elif name == "engram_layerhash":
@@ -237,6 +240,11 @@ def build_train_model(
         cfg.engram.official_gating = True
     elif name == "engram_noconv":
         cfg.engram.conv_enabled = False
+    elif name == "engram_attnres":
+        cfg.use_attnres = True
+    elif name == "engram_noconv_attnres":
+        cfg.engram.conv_enabled = False
+        cfg.use_attnres = True
     elif name == "engram_fullconv":
         cfg.engram.long_conv_enabled = True
     elif name == "full":

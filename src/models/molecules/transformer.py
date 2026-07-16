@@ -10,7 +10,7 @@ from ..atoms.bytes import BytePatcher
 from ..atoms.engram import build_engram_lookup_state
 from ..atoms.layers import TransformerBlock
 from ..atoms.norms import RMSNorm
-from ..atoms.residual import DeepseekV4HyperHead
+from ..atoms.residual import DeepseekV4HyperHead, FullAttentionResidual
 
 
 class TransformerMolecule(nn.Module):
@@ -43,6 +43,9 @@ class TransformerMolecule(nn.Module):
         )
 
         self.dropout = nn.Dropout(config.dropout)
+        self.use_attnres = config.use_attnres
+        if self.use_attnres and (config.use_mhc or config.use_mhc_streams or config.use_multibranch_residual):
+            raise ValueError("Full AttnRes cannot be combined with mHC/multibranch residuals")
         self.use_mhc_streams = config.use_mhc_streams
         self.hc_mult = config.hc_mult if config.use_mhc_streams else 1
         self.blocks = nn.ModuleList()
@@ -83,6 +86,11 @@ class TransformerMolecule(nn.Module):
         )
 
         self.final_norm = RMSNorm(config.d_model, eps=config.rms_norm_eps) if config.use_rmsnorm else nn.LayerNorm(config.d_model)
+        self.final_attn_res = (
+            FullAttentionResidual(config.d_model, eps=config.rms_norm_eps)
+            if self.use_attnres
+            else None
+        )
         self.lm_head = nn.Linear(config.d_model, self.output_vocab_size, bias=False)
 
     def embed(
@@ -146,6 +154,8 @@ class TransformerMolecule(nn.Module):
                 compression_reserved_ids=self.config.engram.compression_reserved_ids,
             )
         use_cache = self.config.use_cache if use_cache is None else use_cache
+        if return_cache:
+            use_cache = True
         cache_obj: DynamicCache | None = None
         cache_layers: list[DeepseekV4LayerCache | None] | None = None
         if past_key_values is not None:
@@ -165,21 +175,32 @@ class TransformerMolecule(nn.Module):
             cache_layers = cache_obj.layers
 
         current_x = x
+        attnres_sources = [x] if self.use_attnres else None
         current_ids = memory_ids
         current_mask = attn_mask
         for idx, block in enumerate(self.blocks):
             layer_cache = cache_layers[idx] if cache_layers is not None and idx < len(cache_layers) else None
-            block_input = current_x
-            block_out = block(
-                block_input,
-                token_ids=current_ids,
-                attn_mask=current_mask,
-                engram_lookup_state=engram_lookup_state,
-                cache=layer_cache,
-            )
-            current_x = block_out
+            if attnres_sources is not None:
+                attnres_sources, block_input = block.forward_attnres(
+                    attnres_sources,
+                    token_ids=current_ids,
+                    attn_mask=current_mask,
+                    engram_lookup_state=engram_lookup_state,
+                    cache=layer_cache,
+                )
+            else:
+                block_input = current_x
+                current_x = block(
+                    block_input,
+                    token_ids=current_ids,
+                    attn_mask=current_mask,
+                    engram_lookup_state=engram_lookup_state,
+                    cache=layer_cache,
+                )
             if cache_layers is not None and idx < len(cache_layers):
                 cache_layers[idx].update(block_input, token_ids=current_ids, attn_mask=current_mask)
+        if attnres_sources is not None:
+            current_x = self.final_attn_res(attnres_sources)
         if self.hc_head is not None:
             current_x = self.hc_head(current_x)
         hidden = self.final_norm(current_x)

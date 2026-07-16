@@ -4,6 +4,34 @@ import torch
 import torch.nn.functional as F
 from torch import nn
 
+from .norms import RMSNorm
+
+
+class FullAttentionResidual(nn.Module):
+    """Full depth-wise Attention Residuals from arXiv:2603.15031.
+
+    Each instance owns the input-independent pseudo-query for one sublayer.
+    Sources are the token embedding followed by the raw outputs of all previous
+    sublayers. The zero query initialization is required by the paper and makes
+    the initial aggregation an equal-weight average.
+    """
+
+    def __init__(self, d_model: int, *, eps: float = 1e-6) -> None:
+        super().__init__()
+        self.norm = RMSNorm(d_model, eps=eps)
+        # A direct Parameter avoids consuming RNG state before zeroing a Linear,
+        # keeping all shared backbone weights paired across ablation variants.
+        self.query = nn.Parameter(torch.zeros(d_model))
+
+    def forward(self, sources: list[torch.Tensor]) -> torch.Tensor:
+        if not sources:
+            raise ValueError("FullAttentionResidual requires at least one source")
+        values = torch.stack(sources, dim=0)
+        keys = self.norm(values)
+        logits = torch.einsum("d,nbtd->nbt", self.query, keys)
+        weights = torch.softmax(logits.float(), dim=0).to(values.dtype)
+        return torch.einsum("nbt,nbtd->btd", weights, values)
+
 
 class MultiBranchResidual(nn.Module):
     """Lightweight residual mixer inspired by multi-branch residual/hyper-connection ideas."""

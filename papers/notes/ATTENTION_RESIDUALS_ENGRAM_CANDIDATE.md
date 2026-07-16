@@ -53,6 +53,28 @@ blocs préservent l'essentiel du gain sur les échelles testées.
 Ces résultats proviennent du papier Kimi et ne sont pas encore reproduits dans
 ce dépôt.
 
+## État de l'implémentation locale
+
+Full AttnRes est maintenant disponible dans le backbone natif. Chaque attention,
+module Engram et MLP produit une source distincte; la sous-couche suivante
+agrège toutes les sources antérieures avec sa propre pseudo-requête. Une
+agrégation finale précède également la normalisation de sortie.
+
+Variantes contrôlées :
+
+- `baseline` ;
+- `attnres` ;
+- `engram_noconv` ;
+- `engram_noconv_attnres`.
+
+Les pseudo-requêtes sont initialisées directement à zéro, sans consommation du
+générateur aléatoire. Les poids partagés sont donc strictement identiques entre
+les bras appariés pour une même seed. Le test unitaire vérifie également que les
+gradients atteignent à la fois les pseudo-requêtes et les embeddings Engram.
+
+La campagne multi-seed reproductible est décrite dans
+`experiments/step4_engram_attnres/README.md`.
+
 ## Ce que dit réellement la vidéo
 
 La vidéo ne mentionne pas Engram. Elle compare AttnRes à mHC :

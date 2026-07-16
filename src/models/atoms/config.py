@@ -108,6 +108,7 @@ class TransformerConfig:
     dropout: float = 0.0
     rms_norm_eps: float = 1e-6
     use_rmsnorm: bool = True
+    use_attnres: bool = False
     use_multibranch_residual: bool = False
     residual_branches: int = 2
     use_mhc: bool = False

@@ -7,3 +7,4 @@ from .layers import TransformerBlock
 from .moe import SparseMoE
 from .engram import EngramMemory
 from .bytes import BytePatcher
+from .residual import FullAttentionResidual
