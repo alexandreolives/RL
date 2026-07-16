@@ -109,6 +109,7 @@ class TransformerConfig:
     rms_norm_eps: float = 1e-6
     use_rmsnorm: bool = True
     use_attnres: bool = False
+    attnres_engram_mode: str = "source"
     use_multibranch_residual: bool = False
     residual_branches: int = 2
     use_mhc: bool = False

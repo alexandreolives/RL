@@ -124,3 +124,35 @@ def test_attnres_rejects_mhc_combination() -> None:
         assert "mHC" in str(exc)
     else:
         raise AssertionError("AttnRes + mHC should require a separately defined composition")
+
+
+def test_fused_v1_keeps_engram_inside_attention_source() -> None:
+    torch.manual_seed(11)
+    model = build_train_model(
+        "engram_noconv_attnres_v1",
+        torch.device("cpu"),
+        model_size="tiny",
+        input_mode="symbolic",
+        attention_backend="eager",
+    )
+    captured = {}
+
+    def capture_sources(_module, args) -> None:
+        captured["count"] = len(args[0])
+
+    handle = model.final_attn_res.register_forward_pre_hook(capture_sources)
+    try:
+        token_ids = torch.randint(0, 260, (2, 12))
+        logits = model(token_ids=token_ids, use_cache=False)
+        loss = torch.nn.functional.cross_entropy(
+            logits[:, :-1].reshape(-1, 260), token_ids[:, 1:].reshape(-1)
+        )
+        loss.backward()
+    finally:
+        handle.remove()
+
+    # Embedding + two standard sublayers for each of four blocks. Engram is
+    # fused into the current attention source and does not add two extra slots.
+    assert captured["count"] == 9
+    memory_grad = model.blocks[1].engram.order_embeddings["2"].weight.grad
+    assert memory_grad is not None and memory_grad.abs().sum() > 0

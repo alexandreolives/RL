@@ -132,7 +132,7 @@ model = build_variant("v6", attention_backend="eager")
 
 `build_variant` also exposes the controlled comparison variants such as
 `baseline`, `attnres`, `engram`, `engram_noconv`, `engram_attnres`,
-`engram_noconv_attnres`, `engram_layerhash`, `dsa`, `mhc`, and
+`engram_noconv_attnres`, `engram_noconv_attnres_v1`, `engram_layerhash`, `dsa`, `mhc`, and
 `full`. For lower-level control, construct a `TransformerConfig` from
 `models.atoms.config`. The `v6` adapter requires `transformers==5.13.1`, pinned
 in `pyproject.toml` and `uv.lock`.

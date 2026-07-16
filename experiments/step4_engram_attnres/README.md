@@ -46,3 +46,11 @@ The decisive interaction on a loss metric is:
 
 A negative value means the combination improves loss beyond the sum of the two
 individual architectural effects. Accuracy uses the opposite sign convention.
+
+## Corrective v1
+
+`engram_noconv_attnres_v1` keeps attention and MLP outputs as the AttnRes depth
+sources, but fuses each Engram output additively into the current attention
+source. Engram therefore no longer competes as an independent softmax slot.
+The original `engram_noconv_attnres` remains available as the reproducible
+separate-source design.

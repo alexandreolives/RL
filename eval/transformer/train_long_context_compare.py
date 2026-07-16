@@ -245,6 +245,10 @@ def build_train_model(
     elif name == "engram_noconv_attnres":
         cfg.engram.conv_enabled = False
         cfg.use_attnres = True
+    elif name == "engram_noconv_attnres_v1":
+        cfg.engram.conv_enabled = False
+        cfg.use_attnres = True
+        cfg.attnres_engram_mode = "fused"
     elif name == "engram_fullconv":
         cfg.engram.long_conv_enabled = True
     elif name == "full":

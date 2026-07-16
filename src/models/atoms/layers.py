@@ -28,6 +28,9 @@ class TransformerBlock(nn.Module):
         self.mlp_kind = mlp_kind
         self.use_mhc_streams = config.use_mhc_streams
         self.use_attnres = config.use_attnres
+        self.attnres_engram_mode = getattr(config, "attnres_engram_mode", "source")
+        if self.attnres_engram_mode not in {"source", "fused"}:
+            raise ValueError(f"Unknown AttnRes Engram mode: {self.attnres_engram_mode}")
         self.hc_mult = config.hc_mult if self.use_mhc_streams else 1
         attn_cfg = config.attention
         if attn_kind in {"sliding_attention", "compressed_sparse_attention", "heavily_compressed_attention"}:
@@ -292,7 +295,12 @@ class TransformerBlock(nn.Module):
                 token_ids=token_ids,
                 lookup_state=engram_lookup_state,
             )
-            sources.append(engram_out)
+            if self.attnres_engram_mode == "fused":
+                # Keep Engram as a strong additive injection within the current
+                # transformed delta instead of a separate softmax competitor.
+                sources[-1] = sources[-1] + engram_out
+            else:
+                sources.append(engram_out)
 
         ff_x = self.attn_res_ffn(sources)
         if isinstance(self.ff, SparseMoE):
