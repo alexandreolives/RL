@@ -114,7 +114,7 @@ regression before another full downstream campaign is worthwhile.
 
 Remote root:
 
-`/home/alexandre/RL-d3a0407/artifacts/attnres_engram_v1_multiseed/`
+`<repo>/artifacts/attnres_engram_v1_multiseed/`
 
 - checkpoints and LM metrics: `train/`;
 - downstream JSON files: `eval/`;

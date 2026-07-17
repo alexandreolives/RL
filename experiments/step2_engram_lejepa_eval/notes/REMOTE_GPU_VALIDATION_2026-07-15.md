@@ -16,7 +16,7 @@ results for `lejepa_proxy`, not for this implementation.
 ## Remote environment
 
 - host: `DESKTOP-AETC9GV`, reached through the `wsl2` SSH alias
-- isolated checkout: `/home/alexandre/RL-d3a0407`
+- isolated checkout: `<repo>`
 - container image: `faster-qwen3-tts-openai:latest`
 - GPU selected: NVIDIA GeForce RTX 3060 Ti, 8 GiB
 - PyTorch: `2.6.0+cu124`

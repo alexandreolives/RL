@@ -33,4 +33,4 @@ are different. A longer run is warranted before downstream evaluation.
 
 ## Artifacts
 
-`/home/alexandre/RL-d3a0407/artifacts/v6_mhc_engram_screen2/`
+`<repo>/artifacts/v6_mhc_engram_screen2/`

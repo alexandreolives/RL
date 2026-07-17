@@ -71,7 +71,7 @@ short gate-scale sweep before another nine-seed campaign.
 
 Remote root:
 
-`/home/alexandre/RL-d3a0407/artifacts/attnres_engram_v2_multiseed/`
+`<repo>/artifacts/attnres_engram_v2_multiseed/`
 
 - checkpoints and LM metrics: `train/`;
 - per-seed logs: `logs/`;

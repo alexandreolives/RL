@@ -45,4 +45,4 @@ before spending another nine-seed campaign.
 
 ## Artifacts
 
-`/home/alexandre/RL-d3a0407/artifacts/attnres_engram_v3_multiseed/`
+`<repo>/artifacts/attnres_engram_v3_multiseed/`

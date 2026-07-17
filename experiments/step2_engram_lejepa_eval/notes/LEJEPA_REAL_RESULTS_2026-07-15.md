@@ -96,7 +96,7 @@ evidence does not justify enabling it by default.
 - training wall time: approximately `9m35s`
 - paper-task evaluation wall time: approximately `24m00s`
 - total campaign wall time: approximately `33m35s`
-- remote checkout: `/home/alexandre/RL-d3a0407`
+- remote checkout: `<repo>`
 - campaign log: `artifacts/lejepa_real_multiseed/campaign.log`
 - training outputs: `artifacts/lejepa_real_multiseed/train/`
 - evaluation outputs: `artifacts/lejepa_real_multiseed/eval/`

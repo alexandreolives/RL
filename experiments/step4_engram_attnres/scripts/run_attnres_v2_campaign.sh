@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-REPO="${REPO:-/home/alexandre/RL-d3a0407}"
-HISTORICAL_ARTIFACTS="${HISTORICAL_ARTIFACTS:-/home/alexandre/RL/engram/artifacts}"
-HF_CACHE="${HF_CACHE:-/home/alexandre/.cache/huggingface}"
+REPO="${REPO:-$(pwd)}"
+HISTORICAL_ARTIFACTS="${HISTORICAL_ARTIFACTS:-$REPO/artifacts}"
+HF_CACHE="${HF_CACHE:-$HOME/.cache/huggingface}"
 IMAGE="${IMAGE:-faster-qwen3-tts-openai:latest}"
 SEEDS="${SEEDS:-0 1 2 3 4 5 6 7 8}"
 GPU_IDS="${GPU_IDS:-0 1 2}"

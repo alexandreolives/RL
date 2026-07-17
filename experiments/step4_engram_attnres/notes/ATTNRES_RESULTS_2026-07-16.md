@@ -106,7 +106,7 @@ but remains worse than Engram and does not improve downstream results:
 
 Remote root:
 
-`/home/alexandre/RL-d3a0407/artifacts/attnres_engram_multiseed/`
+`<repo>/artifacts/attnres_engram_multiseed/`
 
 - training checkpoints and metrics: `train/`;
 - downstream JSON files: `eval/`;
