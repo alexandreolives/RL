@@ -13,10 +13,9 @@ Behavior:
 - nothing is deleted on either side
 - the script refuses to run if the local and remote HEAD commits differ
 
-Default behavior is a copy from:
-  /home/alexandre/Documents/Aphelis/agent/RL
-to:
-  wsl2:/home/alexandre/RL
+Defaults use the current directory as the source and `$DEST_PATH` (or
+`/home/$USER/RL/`) on host `wsl2` as the destination. Override with
+`REPO_ROOT`, `DEST_HOST`, and `DEST_PATH` when needed.
 
 The destination is created if missing.
 EOF
@@ -33,9 +32,9 @@ if [[ $# -ne 0 ]]; then
   exit 1
 fi
 
-repo_root="/home/alexandre/Documents/Aphelis/agent/RL"
-dest_host="wsl2"
-dest_path="/home/alexandre/RL/"
+repo_root="${REPO_ROOT:-$(pwd)}"
+dest_host="${DEST_HOST:-wsl2}"
+dest_path="${DEST_PATH:-/home/$USER/RL/}"
 
 local_head="$(git -C "$repo_root" rev-parse HEAD)"
 remote_head="$(ssh "$dest_host" "git -C '$dest_path' rev-parse HEAD")"
