@@ -53,6 +53,36 @@ class ScheduledSquaredActivation(nn.Module):
         return relu + (gelu - relu) * alpha
 
 
+class StochasticScheduledSquaredActivation(ScheduledSquaredActivation):
+    """Choose one squared activation per forward according to ``alpha``.
+
+    During training, GELU² is selected with probability ``alpha`` and ReLU²
+    otherwise. Evaluation is deterministic. Unlike the interpolated schedule,
+    this computes only one activation per forward.
+    """
+
+    def __init__(self, alpha: float = 0.0) -> None:
+        super().__init__(alpha)
+        self._alpha_value = float(alpha)
+        self._use_gelu = self._alpha_value >= 0.5
+
+    def set_alpha(self, alpha: float) -> None:
+        super().set_alpha(alpha)
+        self._alpha_value = float(max(0.0, min(1.0, alpha)))
+        if self._alpha_value in {0.0, 1.0}:
+            self._use_gelu = self._alpha_value == 1.0
+
+    def sample_branch(self) -> None:
+        """Sample the branch once, outside the latency-critical forward."""
+        self._use_gelu = torch.rand(()).item() < self._alpha_value
+
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        use_gelu = self._use_gelu if self.training else self._alpha_value >= 0.5
+        if use_gelu:
+            return torch.nn.functional.gelu(x, approximate="tanh").square()
+        return torch.relu(x).square()
+
+
 def build_activation(name: str) -> nn.Module:
     key = name.lower()
     if key in {"gelu", "gelu_pytorch_tanh"}:
@@ -65,6 +95,8 @@ def build_activation(name: str) -> nn.Module:
         return SquaredGELU()
     if key in {"squared_schedule", "scheduled_squared"}:
         return ScheduledSquaredActivation()
+    if key in {"squared_stochastic_schedule", "stochastic_squared"}:
+        return StochasticScheduledSquaredActivation()
     if key in {"silu", "swish"}:
         return nn.SiLU()
     if key == "geglu":

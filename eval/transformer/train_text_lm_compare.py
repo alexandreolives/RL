@@ -354,12 +354,14 @@ def train_variant(
     train_lm_losses: list[float] = []
     train_jepa_losses: list[float] = []
     for i in range(train_steps):
-        if activation == "squared_schedule":
+        if activation in {"squared_schedule", "squared_stochastic_schedule"}:
             alpha = (i + 1) / max(1, activation_schedule_steps or train_steps)
             alpha = min(1.0, alpha)
             for module in model.modules():
                 if hasattr(module, "set_alpha"):
                     module.set_alpha(alpha)
+                if hasattr(module, "sample_branch"):
+                    module.sample_branch()
         batch = train_batches[i % len(train_batches)]
         opt.zero_grad(set_to_none=True)
         lm_loss, jepa_loss, loss = step_loss(
@@ -505,7 +507,7 @@ def main() -> None:
     parser.add_argument("--byte-patch-size", type=int, default=1)
     parser.add_argument(
         "--activation",
-        choices=["gelu", "squared_relu", "squared_gelu", "squared_schedule"],
+        choices=["gelu", "squared_relu", "squared_gelu", "squared_schedule", "squared_stochastic_schedule"],
         default="gelu",
         help="Feed-forward activation for activation ablations.",
     )

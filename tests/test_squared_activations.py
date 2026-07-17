@@ -1,6 +1,10 @@
 import torch
 
-from models.atoms.activations import ScheduledSquaredActivation, build_activation
+from models.atoms.activations import (
+    ScheduledSquaredActivation,
+    StochasticScheduledSquaredActivation,
+    build_activation,
+)
 from eval.transformer.train_long_context_compare import build_train_model
 
 
@@ -45,3 +49,19 @@ def test_long_context_training_model_uses_requested_activation():
     )
     scheduled = [m for m in model.modules() if isinstance(m, ScheduledSquaredActivation)]
     assert scheduled
+
+
+def test_stochastic_schedule_uses_single_deterministic_eval_branch():
+    x = torch.linspace(-2, 2, 17)
+    schedule = StochasticScheduledSquaredActivation(alpha=0.25).eval()
+    assert torch.allclose(schedule(x), build_activation("squared_relu")(x))
+    schedule.set_alpha(0.75)
+    assert torch.allclose(schedule(x), build_activation("squared_gelu")(x))
+
+
+def test_stochastic_schedule_training_reaches_both_endpoints():
+    x = torch.linspace(-2, 2, 17)
+    schedule = StochasticScheduledSquaredActivation(alpha=0.0).train()
+    assert torch.allclose(schedule(x), build_activation("squared_relu")(x))
+    schedule.set_alpha(1.0)
+    assert torch.allclose(schedule(x), build_activation("squared_gelu")(x))

@@ -513,11 +513,13 @@ def train_variant(
     acc_history = []
     cache_cursor = 0
     for _step in range(train_steps):
-        if activation == "squared_schedule":
+        if activation in {"squared_schedule", "squared_stochastic_schedule"}:
             alpha = min(1.0, (_step + 1) / max(1, activation_schedule_steps or train_steps))
             for module in unwrap_model(model).modules():
                 if hasattr(module, "set_alpha"):
                     module.set_alpha(alpha)
+                if hasattr(module, "sample_branch"):
+                    module.sample_branch()
         optimizer.zero_grad(set_to_none=True)
         step_losses = []
         step_accs = []
@@ -602,7 +604,7 @@ def main() -> None:
     parser.add_argument(
         "--activation",
         default="gelu",
-        choices=["gelu", "squared_relu", "squared_gelu", "squared_schedule"],
+        choices=["gelu", "squared_relu", "squared_gelu", "squared_schedule", "squared_stochastic_schedule"],
     )
     parser.add_argument("--activation-schedule-steps", type=int, default=0)
     parser.add_argument("--train-steps", type=int, default=100)
