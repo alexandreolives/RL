@@ -1,3 +1,9 @@
+"""Evaluation-only long-context probes.
+
+This module never trains a model. Use ``train_long_context_compare`` for
+learned comparisons; ``--steps`` here is the number of evaluation batches.
+"""
+
 from __future__ import annotations
 
 import argparse
@@ -420,7 +426,12 @@ def main() -> None:
     parser.add_argument("--task", default="passkey", choices=["passkey", "multi_query", "variable_tracking"])
     parser.add_argument("--seq-len", type=int, default=2048)
     parser.add_argument("--batch", type=int, default=16)
-    parser.add_argument("--steps", type=int, default=8)
+    parser.add_argument(
+        "--steps",
+        type=int,
+        default=8,
+        help="Number of evaluation batches. This command does not train the model.",
+    )
     parser.add_argument(
         "--variants",
         nargs="+",
@@ -445,6 +456,7 @@ def main() -> None:
                 "seq_len": args.seq_len,
                 "batch": args.batch,
                 "steps": args.steps,
+                "evaluation_only": True,
                 "device": str(device),
                 "accuracy": round(metrics["accuracy"], 6),
                 "target_prob": round(metrics["target_prob"], 6),
