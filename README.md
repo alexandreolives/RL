@@ -49,6 +49,9 @@ Main tracker: [experiments/ROADMAP.md](experiments/ROADMAP.md).
 For the public-release and reproducibility checklist, see
 [docs/PUBLICATION_AUDIT.md](docs/PUBLICATION_AUDIT.md).
 
+The broader hybrid recurrent MoE/ternary research proposal and its falsifiable
+test plan are documented in [docs/RESEARCH_PROGRAM.md](docs/RESEARCH_PROGRAM.md).
+
 ## Current status and limitations
 
 - Several results are explicitly marked as proxy/smoke and should not be
