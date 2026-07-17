@@ -470,9 +470,18 @@ def train_variant(
     distributed: bool,
     rank: int,
     world_size: int,
+    activation: str = "gelu",
+    activation_schedule_steps: int = 0,
 ) -> dict:
     set_seed(seed + rank * 1000)
-    model = build_train_model(name, device, model_size=model_size, input_mode=input_mode, attention_backend=attention_backend)
+    model = build_train_model(
+        name,
+        device,
+        model_size=model_size,
+        input_mode=input_mode,
+        attention_backend=attention_backend,
+        activation=activation,
+    )
     if distributed:
         model = DistributedDataParallel(
             model,
@@ -504,6 +513,11 @@ def train_variant(
     acc_history = []
     cache_cursor = 0
     for _step in range(train_steps):
+        if activation == "squared_schedule":
+            alpha = min(1.0, (_step + 1) / max(1, activation_schedule_steps or train_steps))
+            for module in unwrap_model(model).modules():
+                if hasattr(module, "set_alpha"):
+                    module.set_alpha(alpha)
         optimizer.zero_grad(set_to_none=True)
         step_losses = []
         step_accs = []
@@ -548,6 +562,8 @@ def train_variant(
         "model_size": model_size,
         "input_mode": input_mode,
         "attention_backend": attention_backend,
+        "activation": activation,
+        "activation_schedule_steps": activation_schedule_steps,
         "engram_lr_scale": engram_lr_scale,
         "engram_embedding_weight_decay": engram_embedding_weight_decay,
         "seed": seed,
@@ -583,6 +599,12 @@ def main() -> None:
     parser.add_argument("--batch", type=int, default=4)
     parser.add_argument("--grad-accum", type=int, default=2)
     parser.add_argument("--model-size", default="tiny", choices=["tiny", "small", "base"])
+    parser.add_argument(
+        "--activation",
+        default="gelu",
+        choices=["gelu", "squared_relu", "squared_gelu", "squared_schedule"],
+    )
+    parser.add_argument("--activation-schedule-steps", type=int, default=0)
     parser.add_argument("--train-steps", type=int, default=100)
     parser.add_argument("--eval-steps", type=int, default=12)
     parser.add_argument("--lr", type=float, default=3e-4)
@@ -626,6 +648,8 @@ def main() -> None:
                 distributed=distributed,
                 rank=rank,
                 world_size=world_size,
+                activation=args.activation,
+                activation_schedule_steps=args.activation_schedule_steps,
             )
             for seed in seeds
         ]
@@ -653,6 +677,8 @@ def main() -> None:
                 "model_size": args.model_size,
                 "input_mode": args.input_mode,
                 "attention_backend": args.attention_backend,
+                "activation": args.activation,
+                "activation_schedule_steps": args.activation_schedule_steps,
                 "engram_lr_scale": args.engram_lr_scale,
                 "engram_embedding_weight_decay": args.engram_embedding_weight_decay,
                 "seeds": seeds,
