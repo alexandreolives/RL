@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import time
 from statistics import mean
 
 import torch
@@ -513,6 +514,9 @@ def train_variant(
     loss_history = []
     acc_history = []
     cache_cursor = 0
+    if device.type == "cuda":
+        torch.cuda.synchronize(device)
+    train_started = time.perf_counter()
     for _step in range(train_steps):
         if activation == "squared_schedule":
             alpha = min(1.0, (_step + 1) / max(1, activation_schedule_steps or train_steps))
@@ -547,6 +551,10 @@ def train_variant(
         loss_history.append(sync_mean(mean(step_losses), device=device, enabled=distributed))
         acc_history.append(sync_mean(mean(step_accs), device=device, enabled=distributed))
 
+    if device.type == "cuda":
+        torch.cuda.synchronize(device)
+    train_elapsed_seconds = time.perf_counter() - train_started
+
     base_model = unwrap_model(model)
     if activation == "squared_stochastic_schedule":
         final_alpha = min(1.0, train_steps / max(1, activation_schedule_steps or train_steps))
@@ -577,6 +585,8 @@ def train_variant(
         "engram_embedding_weight_decay": engram_embedding_weight_decay,
         "seed": seed,
         "train_steps": train_steps,
+        "train_elapsed_seconds": round(train_elapsed_seconds, 6),
+        "train_steps_per_second": round(train_steps / train_elapsed_seconds, 6),
         "eval_steps": eval_steps,
         "fixed_batch": fixed_batch,
         "train_cache_size": effective_cache_size,
