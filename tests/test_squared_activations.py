@@ -25,6 +25,15 @@ def test_squared_schedule_endpoints():
     assert torch.allclose(schedule(x), gelu)
 
 
+def test_squared_schedule_supports_bfloat16():
+    x = torch.linspace(-2, 2, 17, dtype=torch.bfloat16, requires_grad=True)
+    schedule = ScheduledSquaredActivation(alpha=0.5)
+    y = schedule(x)
+    assert y.dtype == torch.bfloat16
+    y.sum().backward()
+    assert x.grad is not None
+
+
 def test_long_context_training_model_uses_requested_activation():
     model = build_train_model(
         "engram_noconv",

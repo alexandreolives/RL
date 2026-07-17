@@ -47,7 +47,10 @@ class ScheduledSquaredActivation(nn.Module):
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         relu = torch.relu(x).square()
         gelu = torch.nn.functional.gelu(x, approximate="tanh").square()
-        return torch.lerp(relu, gelu, self.alpha.to(dtype=x.dtype, device=x.device))
+        # Multiplicative interpolation supports bf16 autocast on CUDA, whereas
+        # torch.lerp requires a float32 tensor weight on some PyTorch builds.
+        alpha = self.alpha.to(dtype=x.dtype, device=x.device)
+        return relu + (gelu - relu) * alpha
 
 
 def build_activation(name: str) -> nn.Module:
