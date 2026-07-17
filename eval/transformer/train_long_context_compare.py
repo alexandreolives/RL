@@ -183,13 +183,14 @@ def build_train_model(
     attention_backend: str,
     byte_patching: bool = False,
     byte_patch_size: int = 1,
+    activation: str = "gelu",
 ) -> TransformerMolecule:
     cfg = build_config(
         use_engram=True,
         use_dsa=False,
         use_mhc=False,
         use_moe=False,
-        activation="gelu",
+        activation=activation,
         attention_backend=attention_backend,
     )
     cfg.multimodal.enabled = False

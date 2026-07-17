@@ -306,6 +306,7 @@ def train_variant(
     lejepa_t_max: float,
     train_plan: list[tuple[int, int]] | None = None,
     eval_plan: list[tuple[int, int]] | None = None,
+    activation: str = "gelu",
 ) -> dict:
     set_seed(seed)
     model = build_train_model(
@@ -316,6 +317,7 @@ def train_variant(
         attention_backend="auto",
         byte_patching=byte_patching,
         byte_patch_size=byte_patch_size,
+        activation=activation,
     )
     jepa_predictor = None
     if jepa_mode in {"jepa", "lejepa_proxy"} and jepa_loss_weight > 0.0:
@@ -491,6 +493,12 @@ def main() -> None:
     )
     parser.add_argument("--byte-patch-size", type=int, default=1)
     parser.add_argument(
+        "--activation",
+        choices=["gelu", "squared_relu", "squared_gelu", "squared_schedule"],
+        default="gelu",
+        help="Feed-forward activation for activation ablations.",
+    )
+    parser.add_argument(
         "--batch-plan-in",
         type=Path,
         default=None,
@@ -581,6 +589,7 @@ def main() -> None:
             input_mode=args.input_mode,
             byte_patching=args.byte_patching,
             byte_patch_size=args.byte_patch_size,
+            activation=args.activation,
             model_size=args.model_size,
             jepa_mode=args.jepa_mode,
             jepa_loss_weight=args.jepa_loss_weight,
