@@ -307,6 +307,7 @@ def train_variant(
     train_plan: list[tuple[int, int]] | None = None,
     eval_plan: list[tuple[int, int]] | None = None,
     activation: str = "gelu",
+    activation_schedule_steps: int = 0,
 ) -> dict:
     set_seed(seed)
     model = build_train_model(
@@ -353,6 +354,12 @@ def train_variant(
     train_lm_losses: list[float] = []
     train_jepa_losses: list[float] = []
     for i in range(train_steps):
+        if activation == "squared_schedule":
+            alpha = (i + 1) / max(1, activation_schedule_steps or train_steps)
+            alpha = min(1.0, alpha)
+            for module in model.modules():
+                if hasattr(module, "set_alpha"):
+                    module.set_alpha(alpha)
         batch = train_batches[i % len(train_batches)]
         opt.zero_grad(set_to_none=True)
         lm_loss, jepa_loss, loss = step_loss(
@@ -491,6 +498,10 @@ def main() -> None:
         default=False,
         help="Enable/disable byte patching when input-mode=byte.",
     )
+    parser.add_argument(
+        "--activation-schedule-steps", type=int, default=0,
+        help="Steps over which squared_schedule interpolates ReLU² to GELU².",
+    )
     parser.add_argument("--byte-patch-size", type=int, default=1)
     parser.add_argument(
         "--activation",
@@ -590,6 +601,7 @@ def main() -> None:
             byte_patching=args.byte_patching,
             byte_patch_size=args.byte_patch_size,
             activation=args.activation,
+            activation_schedule_steps=args.activation_schedule_steps,
             model_size=args.model_size,
             jepa_mode=args.jepa_mode,
             jepa_loss_weight=args.jepa_loss_weight,
