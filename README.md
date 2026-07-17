@@ -66,6 +66,20 @@ For the public-release and reproducibility checklist, see
   provided separately.
 - Multimodal OCR-like work is active and not final.
 
+### Reviewer snapshot
+
+The most recent controlled symbolic-input screening used two seeds, 100
+optimization steps, and sequence lengths 256/512/2048. It is a diagnostic
+signal, not a claim of language-model superiority. At that scale,
+`engram_noconv` was the strongest proxy on the long-context slice and
+`v6_engram_attnres` consistently improved over `v6_engram`. The comparison is
+not parameter- or FLOP-matched and uses randomly initialized models; do not
+compare these numbers with published LLM benchmarks.
+
+For an auditable review, start from a fresh checkout, install the pinned
+dependencies, run the test command below, and then reproduce a small CPU
+probe. Generated checkpoints and logs are intentionally excluded from Git.
+
 See:
 - [experiments/step1_engram_core/notes/PAPER_COMPARE.md](experiments/step1_engram_core/notes/PAPER_COMPARE.md)
 - [experiments/step3_ocr_like/README.md](experiments/step3_ocr_like/README.md)
@@ -120,6 +134,17 @@ Sanity check:
 ```bash
 PYTHONPATH=src:. .venv/bin/python -c "import torch; from models.example import build_variant; model = build_variant('baseline'); print(torch.__version__, sum(p.numel() for p in model.parameters()))"
 ```
+
+Tests (the `PYTHONPATH` is required because the repository exposes `src/` and
+the evaluation helpers as import roots):
+
+```bash
+PYTHONPATH=src:. pytest -q
+```
+
+If the optional DeepSeek-V4 Hugging Face integration is unavailable in the
+local environment, run the native tests or use the documented Docker image;
+the integration is not required for the baseline/Engram probes.
 
 On Windows PowerShell, activate the environment with
 `.venv\Scripts\Activate.ps1` and set `$env:PYTHONPATH = "src;."` before
