@@ -64,6 +64,32 @@ an inference policy hypothesis, not a guarantee of correctness.
 Tests: predicted versus required depth, rejection/correction rate, latency at
 different confidence thresholds, and comparison with fixed-depth inference.
 
+### 6. Expert lifecycle for continual RL
+
+For an RL agent, experts can follow an explicit lifecycle:
+
+1. **Birth:** expand the MoE only when novelty, saturation, or sustained
+   routing imbalance is detected; initialize conservatively with a brief
+   learning-rate warm-up.
+2. **Exploration:** give new experts a temporary novelty bonus in the router
+   while they collect evidence, using `SquaredReLU` as the fast exploratory
+   activation.
+3. **Maturation:** once quality and load stability thresholds are met, morph
+   the activation toward a gated family such as GeGLU or SwiGLU. Log the
+   morphing coefficient and keep a reversible control.
+4. **Memory:** maintain an EMA shadow of mature experts and optionally reduce
+   their learning rate. EMA is a stability mechanism, not a complete solution
+   to catastrophic forgetting; replay and retention controls remain necessary.
+
+Expansion must have a parameter budget, retirement policy, and rollback path;
+“grow forever” is not a scientific or operational objective.
+
+Tests: expansion versus fixed capacity, novelty-triggered versus periodic
+expansion, router novelty bonus on/off, smooth morphing versus hard
+replacement, EMA on/off, expert retirement, and continual-RL replay controls.
+Report reward, regret after distribution shifts, expert load/Gini, active
+parameters, expansion count, and recovery time after a task switch.
+
 ## Evaluation matrix
 
 Every claim should be evaluated across short and long contexts, multiple
@@ -76,7 +102,7 @@ standard deviation, wall time, peak memory, active parameters, and energy.
 - Engram, mHC, Attention Residuals, LeJEPA, and DeepSeek-V4-inspired controls
   exist as separate research components.
 - The squared activation primitives are implemented and unit-tested.
-- MoE-LoRA routing, recurrent depth, ternary QAT, and speculative verification
-  remain experimental work items.
+- MoE-LoRA routing, dynamic expert lifecycle, recurrent depth, ternary QAT,
+  and speculative verification remain experimental work items.
 - No result in this repository should be presented as evidence of a superior
   general-purpose LLM without the controls above.
