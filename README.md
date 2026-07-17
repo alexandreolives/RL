@@ -46,6 +46,9 @@ theater.
 
 Main tracker: [experiments/ROADMAP.md](experiments/ROADMAP.md).
 
+For the public-release and reproducibility checklist, see
+[docs/PUBLICATION_AUDIT.md](docs/PUBLICATION_AUDIT.md).
+
 ## Current status and limitations
 
 - Several results are explicitly marked as proxy/smoke and should not be
