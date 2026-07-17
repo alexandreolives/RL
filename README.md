@@ -216,6 +216,8 @@ notes before interpreting their metrics.
 - `experiments/step2_engram_lejepa_eval/`: LeJEPA extension.
 - `experiments/step3_ocr_like/`: OCR-like multimodal stack.
 - `experiments/step4_engram_attnres/`: controlled Engram × Full AttnRes ablation.
+- `experiments/step5_dynamic_activations/`: Squared ReLU/GELU transition and
+  efficiency experiments.
 - `docker/`: optional container runtime notes and Dockerfiles.
 - `docs/`: publishing and onboarding notes.
 - `docs/ARCHITECTURE.md`: repository boundaries and contracts.

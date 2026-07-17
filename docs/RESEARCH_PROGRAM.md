@@ -102,6 +102,8 @@ standard deviation, wall time, peak memory, active parameters, and energy.
 - Engram, mHC, Attention Residuals, LeJEPA, and DeepSeek-V4-inspired controls
   exist as separate research components.
 - The squared activation primitives are implemented and unit-tested.
+- Dynamic-activation experiments and current findings are tracked in
+  `experiments/step5_dynamic_activations/`.
 - MoE-LoRA routing, dynamic expert lifecycle, recurrent depth, ternary QAT,
   and speculative verification remain experimental work items.
 - No result in this repository should be presented as evidence of a superior
