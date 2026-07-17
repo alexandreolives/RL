@@ -83,6 +83,32 @@ class StochasticScheduledSquaredActivation(ScheduledSquaredActivation):
         return torch.relu(x).square()
 
 
+def set_stochastic_squared_branch(root: nn.Module, *, use_gelu: bool) -> int:
+    """Hot-swap stochastic scheduled FFNs to a native single activation.
+
+    The feed-forward module keeps its ``activation_name`` tag, so this can be
+    called once per optimizer step. No schedule wrapper remains on the forward
+    path after the swap. Returns the number of replaced activations.
+    """
+
+    modules = getattr(root, "_stochastic_squared_ffns", None)
+    if modules is None:
+        modules = tuple(
+            module
+            for module in root.modules()
+            if getattr(module, "activation_name", "") == "squared_stochastic_schedule"
+        )
+        # Bypass nn.Module.__setattr__: this is an execution cache, not a new
+        # registered module hierarchy.
+        object.__setattr__(root, "_stochastic_squared_ffns", modules)
+
+    replaced = 0
+    for module in modules:
+        module.act = SquaredGELU() if use_gelu else SquaredReLU()
+        replaced += 1
+    return replaced
+
+
 def build_activation(name: str) -> nn.Module:
     key = name.lower()
     if key in {"gelu", "gelu_pytorch_tanh"}:

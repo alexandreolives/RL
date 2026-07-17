@@ -23,6 +23,7 @@ from eval.transformer.long_context_accuracy import (
     make_variable_tracking_token_batch,
 )
 from models.atoms.norms import RMSNorm
+from models.atoms.activations import set_stochastic_squared_branch
 from models.example import (
     apply_model_size,
     build_config,
@@ -513,13 +514,16 @@ def train_variant(
     acc_history = []
     cache_cursor = 0
     for _step in range(train_steps):
-        if activation in {"squared_schedule", "squared_stochastic_schedule"}:
+        if activation == "squared_schedule":
             alpha = min(1.0, (_step + 1) / max(1, activation_schedule_steps or train_steps))
             for module in unwrap_model(model).modules():
                 if hasattr(module, "set_alpha"):
                     module.set_alpha(alpha)
-                if hasattr(module, "sample_branch"):
-                    module.sample_branch()
+        elif activation == "squared_stochastic_schedule":
+            alpha = min(1.0, (_step + 1) / max(1, activation_schedule_steps or train_steps))
+            set_stochastic_squared_branch(
+                unwrap_model(model), use_gelu=torch.rand(()).item() < alpha
+            )
         optimizer.zero_grad(set_to_none=True)
         step_losses = []
         step_accs = []
@@ -544,6 +548,9 @@ def train_variant(
         acc_history.append(sync_mean(mean(step_accs), device=device, enabled=distributed))
 
     base_model = unwrap_model(model)
+    if activation == "squared_stochastic_schedule":
+        final_alpha = min(1.0, train_steps / max(1, activation_schedule_steps or train_steps))
+        set_stochastic_squared_branch(base_model, use_gelu=final_alpha >= 0.5)
     if distributed:
         dist.barrier()
     if rank != 0:

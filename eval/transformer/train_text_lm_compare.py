@@ -13,6 +13,7 @@ from datasets import load_dataset
 from eval.transformer.common import resolve_device, set_seed
 from eval.transformer.lejepa import lejepa_loss, make_masked_views
 from eval.transformer.train_long_context_compare import build_train_model
+from models.atoms.activations import set_stochastic_squared_branch
 
 
 class JEPAPredictor(nn.Module):
@@ -354,14 +355,15 @@ def train_variant(
     train_lm_losses: list[float] = []
     train_jepa_losses: list[float] = []
     for i in range(train_steps):
-        if activation in {"squared_schedule", "squared_stochastic_schedule"}:
+        if activation == "squared_schedule":
             alpha = (i + 1) / max(1, activation_schedule_steps or train_steps)
             alpha = min(1.0, alpha)
             for module in model.modules():
                 if hasattr(module, "set_alpha"):
                     module.set_alpha(alpha)
-                if hasattr(module, "sample_branch"):
-                    module.sample_branch()
+        elif activation == "squared_stochastic_schedule":
+            alpha = min(1.0, (i + 1) / max(1, activation_schedule_steps or train_steps))
+            set_stochastic_squared_branch(model, use_gelu=torch.rand(()).item() < alpha)
         batch = train_batches[i % len(train_batches)]
         opt.zero_grad(set_to_none=True)
         lm_loss, jepa_loss, loss = step_loss(
@@ -385,6 +387,9 @@ def train_variant(
         train_lm_losses.append(float(lm_loss.item()))
         train_jepa_losses.append(float(jepa_loss.item()))
 
+    if activation == "squared_stochastic_schedule":
+        final_alpha = min(1.0, train_steps / max(1, activation_schedule_steps or train_steps))
+        set_stochastic_squared_branch(model, use_gelu=final_alpha >= 0.5)
     model.eval()
     eval_losses: list[float] = []
     eval_lm_losses: list[float] = []
