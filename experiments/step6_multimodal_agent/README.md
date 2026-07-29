@@ -25,6 +25,14 @@ Run the complete M1 checks from the repository root:
 PYTHONPATH=src:. .venv/bin/pytest -q
 ```
 
+Depth-equivalence ablation (one configuration per process):
+
+```bash
+PYTHONPATH=src:experiments/step6_multimodal_agent/scripts .venv/bin/python \
+  experiments/step6_multimodal_agent/scripts/run_depth_ablation.py \
+  --depth 2 --iterations 1 --episodes 50 --seeds 5
+```
+
 Run the CPU smoke training:
 
 ```bash
