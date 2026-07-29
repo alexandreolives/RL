@@ -12,7 +12,7 @@ résultats sont archivés.
 - [x] Fixer seeds, budgets de paramètres/FLOPs, protocole d'évaluation et
   format JSON des métriques.
 - [x] Ajouter smoke tests CPU, test de déterminisme et vérification des shapes.
-- [ ] Documenter versions Python/PyTorch/Transformers et commande de repro.
+- [x] Documenter versions Python/PyTorch/Transformers et commande de repro.
 - [x] Ajouter un rapport automatique : loss, reward, latence, mémoire, FLOPs,
   énergie si disponible.
 
@@ -20,8 +20,8 @@ résultats sont archivés.
 
 - [x] Implémenter l'interface typed du routeur et le mode déterministe `off`.
 - [ ] Implémenter un routeur MLP top-k sur un pool d'experts fixe.
-- [ ] Journaliser indices, poids, entropie, charge, overflow et switch rate.
-- [ ] Ajouter les contrôles single-expert et random-router.
+- [x] Journaliser indices, poids, entropie, charge, overflow et switch rate.
+- [x] Ajouter les contrôles single-expert et random-router.
 
 ## M1 — Agent multimodal minimal
 
