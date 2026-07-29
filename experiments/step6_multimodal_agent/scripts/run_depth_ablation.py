@@ -17,13 +17,15 @@ def main() -> None:
     parser.add_argument("--seeds", type=int, default=5)
     parser.add_argument("--episodes", type=int, default=50)
     parser.add_argument("--sequence-length", type=int, default=32)
+    parser.add_argument("--ff-dim", type=int, default=128)
     args = parser.parse_args()
     torch.set_num_threads(1)
     torch.set_num_interop_threads(1)
     scores = [train("loop", args.episodes, seed, "parity", args.sequence_length,
-                    loop_depth=args.depth, loop_iterations=args.iterations)
+                    loop_depth=args.depth, loop_iterations=args.iterations,
+                    loop_ff_dim=args.ff_dim)
               for seed in range(args.seeds)]
-    model = LoopMemoryActor(depth=args.depth, max_iterations=args.iterations)
+    model = LoopMemoryActor(depth=args.depth, max_iterations=args.iterations, ff_dim=args.ff_dim)
     result = {
         "depth": args.depth,
         "iterations": args.iterations,
@@ -34,6 +36,7 @@ def main() -> None:
         "mean": sum(scores) / len(scores),
         "std": statistics.stdev(scores) if len(scores) > 1 else 0.0,
         "parameters": sum(p.numel() for p in model.parameters()),
+        "ff_dim": args.ff_dim,
     }
     print(json.dumps(result, indent=2))
 

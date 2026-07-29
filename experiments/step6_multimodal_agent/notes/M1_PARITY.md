@@ -139,3 +139,9 @@ parameters / 0.114 ms for the recurrent baseline and 41,856 parameters /
 0.297 ms for the Loop state core. The Loop timing excludes the shared
 multimodal encoder and is therefore not an end-to-end comparison; a matched
 policy/encoder benchmark is still required for a cost claim.
+
+Width-matched control: Loop 1×2 with `ff_dim=64` has 71,430 parameters,
+closer to the GRU's 62,790, and scores `[1.00, 0.90, 1.00, 0.85, 0.25]`
+(mean **0.80**, std **0.314**) on the same 5×50 length-32 protocol. Reducing
+width does not remove the Loop's seed sensitivity; parameter count alone is
+not the explanation for the observed variance.

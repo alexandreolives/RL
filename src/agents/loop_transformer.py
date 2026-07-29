@@ -37,9 +37,9 @@ class LoopTransformerCore(nn.Module):
 class StatefulLoopCore(nn.Module):
     """Streaming wrapper that carries the latest latent state across calls."""
 
-    def __init__(self, d_model: int = 64, *, heads: int = 4, max_iterations: int = 2, depth: int = 1) -> None:
+    def __init__(self, d_model: int = 64, *, heads: int = 4, ff_dim: int = 128, max_iterations: int = 2, depth: int = 1) -> None:
         super().__init__()
-        self.core = LoopTransformerCore(d_model, heads=heads, max_iterations=max_iterations, depth=depth)
+        self.core = LoopTransformerCore(d_model, heads=heads, ff_dim=ff_dim, max_iterations=max_iterations, depth=depth)
         # A learned write gate makes the carried state genuinely recurrent:
         # the attention block proposes an update, while the gate controls how
         # much of it is committed for the next streamed observation.

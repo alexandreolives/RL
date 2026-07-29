@@ -24,10 +24,10 @@ def obs_tensor(obs):
 
 
 class LoopMemoryActor(nn.Module):
-    def __init__(self, *, depth: int = 1, max_iterations: int = 2):
+    def __init__(self, *, depth: int = 1, max_iterations: int = 2, ff_dim: int = 128):
         super().__init__()
         self.encoder = MultimodalActorCritic()
-        self.loop = StatefulLoopCore(depth=depth, max_iterations=max_iterations)
+        self.loop = StatefulLoopCore(depth=depth, max_iterations=max_iterations, ff_dim=ff_dim)
         self.policy = nn.Linear(64, 2)
         self.value = nn.Linear(64, 1)
 
@@ -37,9 +37,9 @@ class LoopMemoryActor(nn.Module):
         return self.policy(latent), self.value(latent).squeeze(-1), state
 
 
-def train(name: str, episodes: int, seed: int, task: str, sequence_length: int, *, loop_depth: int = 1, loop_iterations: int = 2) -> float:
+def train(name: str, episodes: int, seed: int, task: str, sequence_length: int, *, loop_depth: int = 1, loop_iterations: int = 2, loop_ff_dim: int = 128) -> float:
     torch.manual_seed(seed)
-    model = RecurrentMultimodalActorCritic() if name == "gru" else LoopMemoryActor(depth=loop_depth, max_iterations=loop_iterations)
+    model = RecurrentMultimodalActorCritic() if name == "gru" else LoopMemoryActor(depth=loop_depth, max_iterations=loop_iterations, ff_dim=loop_ff_dim)
     optimizer = torch.optim.Adam(model.parameters(), lr=3e-3)
     rewards = []
     for _ in range(episodes):
@@ -83,9 +83,11 @@ def main():
     parser.add_argument("--sequence-length", type=int, default=16)
     parser.add_argument("--loop-depth", type=int, default=1)
     parser.add_argument("--loop-iterations", type=int, default=2)
+    parser.add_argument("--loop-ff-dim", type=int, default=128)
     args = parser.parse_args()
     result = {name: train(name, args.episodes, args.seed, args.task, args.sequence_length,
-                          loop_depth=args.loop_depth, loop_iterations=args.loop_iterations)
+                          loop_depth=args.loop_depth, loop_iterations=args.loop_iterations,
+                          loop_ff_dim=args.loop_ff_dim)
               for name in ("gru", "loop")}
     print(json.dumps(result, indent=2))
 
