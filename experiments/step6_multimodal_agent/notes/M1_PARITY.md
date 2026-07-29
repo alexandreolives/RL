@@ -151,3 +151,10 @@ each shared block, providing a gradient highway for deeper unrolling. A quick
 3-seed smoke at depth 2 reached mean **0.917** (std **0.104**) for both one
 and two iterations. This is a stability mechanism, not yet a statistically
 validated gain; the earlier five-seed tables remain the baseline reference.
+
+Full five-seed recheck after LayerScale (length 32, 50 episodes/seed, depth
+2 × 2) scored `[0.95, 0.95, 1.00, 0.95, 1.00]`, mean **0.97**, std **0.027**.
+The pre-LayerScale equivalent was mean 0.86, std 0.171. The GRU control under
+the same short protocol is mean 0.92, std 0.027. This is a meaningful
+stability improvement for the Loop, although not a parameter/FLOP-matched
+superiority claim (the Loop has 113,286 parameters here).
