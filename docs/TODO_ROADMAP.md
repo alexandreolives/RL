@@ -19,7 +19,7 @@ résultats sont archivés.
 ## M0 — Routeur
 
 - [x] Implémenter l'interface typed du routeur et le mode déterministe `off`.
-- [ ] Implémenter un routeur MLP top-k sur un pool d'experts fixe.
+- [x] Implémenter un routeur MLP top-k sur un pool d'experts fixe.
 - [x] Journaliser indices, poids, entropie, charge, overflow et switch rate.
 - [x] Ajouter les contrôles single-expert et random-router.
 
