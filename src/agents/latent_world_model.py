@@ -1,0 +1,30 @@
+from __future__ import annotations
+
+import torch
+from torch import nn
+
+
+class ActionConditionedLatentPredictor(nn.Module):
+    """Small JEPA-style predictor for next latent state under an action."""
+
+    def __init__(self, latent_dim: int = 64, num_actions: int = 2, hidden_dim: int = 128) -> None:
+        super().__init__()
+        self.action_embedding = nn.Embedding(num_actions, latent_dim)
+        self.predictor = nn.Sequential(
+            nn.Linear(2 * latent_dim, hidden_dim),
+            nn.GELU(),
+            nn.Linear(hidden_dim, latent_dim),
+        )
+
+    def forward(self, latent: torch.Tensor, action: torch.Tensor) -> torch.Tensor:
+        if latent.ndim != 2 or action.ndim != 1 or latent.size(0) != action.size(0):
+            raise ValueError("latent must be (batch, dim) and action must be (batch,)")
+        return self.predictor(torch.cat((latent, self.action_embedding(action.long())), dim=-1))
+
+
+def latent_prediction_loss(predicted: torch.Tensor, target: torch.Tensor) -> torch.Tensor:
+    """Squared latent prediction loss; normalization is intentionally external."""
+
+    if predicted.shape != target.shape:
+        raise ValueError("predicted and target latent tensors must have identical shapes")
+    return (predicted - target.detach()).square().mean()
