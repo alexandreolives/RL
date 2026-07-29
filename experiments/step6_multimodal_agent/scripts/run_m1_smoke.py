@@ -8,7 +8,7 @@ import numpy as np
 import torch
 from torch.distributions import Categorical
 
-from agents.multimodal_baseline import MultimodalActorCritic
+from agents.multimodal_baseline import MultimodalActorCritic, RecurrentMultimodalActorCritic
 from agents.multimodal_env import MultimodalMemoryEnv
 
 
@@ -21,18 +21,22 @@ def tensor_obs(obs: dict[str, np.ndarray]) -> dict[str, torch.Tensor]:
     }
 
 
-def run(seed: int, episodes: int, horizon: int) -> dict[str, float | int]:
+def run(seed: int, episodes: int, horizon: int, recurrent: bool = False) -> dict[str, float | int | bool]:
     torch.manual_seed(seed)
     env = MultimodalMemoryEnv(horizon=horizon, seed=seed)
-    model = MultimodalActorCritic()
+    model = RecurrentMultimodalActorCritic() if recurrent else MultimodalActorCritic()
     optimizer = torch.optim.Adam(model.parameters(), lr=3e-3)
     rewards: list[float] = []
     for _ in range(episodes):
         obs, _ = env.reset()
         log_probs, values, episode_rewards = [], [], []
+        state = None
         terminated = False
         while not terminated:
-            logits, value, _ = model(**tensor_obs(obs))
+            if recurrent:
+                logits, value, state = model(**tensor_obs(obs), state=state)
+            else:
+                logits, value, _ = model(**tensor_obs(obs))
             dist = Categorical(logits=logits)
             action = dist.sample()
             obs, reward, terminated, _, _ = env.step(int(action.item()))
@@ -48,7 +52,7 @@ def run(seed: int, episodes: int, horizon: int) -> dict[str, float | int]:
         loss.backward()
         optimizer.step()
         rewards.append(episode_rewards[-1])
-    return {"seed": seed, "episodes": episodes, "horizon": horizon, "mean_reward_last20": float(np.mean(rewards[-20:]))}
+    return {"seed": seed, "episodes": episodes, "horizon": horizon, "recurrent": recurrent, "mean_reward_last20": float(np.mean(rewards[-20:]))}
 
 
 def main() -> None:
@@ -56,9 +60,10 @@ def main() -> None:
     parser.add_argument("--seed", type=int, default=0)
     parser.add_argument("--episodes", type=int, default=100)
     parser.add_argument("--horizon", type=int, default=8)
+    parser.add_argument("--recurrent", action="store_true")
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
-    result = run(args.seed, args.episodes, args.horizon)
+    result = run(args.seed, args.episodes, args.horizon, recurrent=args.recurrent)
     if args.output:
         args.output.parent.mkdir(parents=True, exist_ok=True)
         args.output.write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")

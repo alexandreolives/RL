@@ -1,6 +1,6 @@
 """Controlled environments and agent baselines for the multimodal roadmap."""
 
 from .multimodal_env import MultimodalMemoryEnv
-from .multimodal_baseline import MultimodalActorCritic
+from .multimodal_baseline import MultimodalActorCritic, RecurrentMultimodalActorCritic
 
-__all__ = ["MultimodalMemoryEnv", "MultimodalActorCritic"]
+__all__ = ["MultimodalMemoryEnv", "MultimodalActorCritic", "RecurrentMultimodalActorCritic"]

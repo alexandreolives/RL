@@ -1,7 +1,7 @@
 import numpy as np
 import torch
 
-from agents.multimodal_baseline import MultimodalActorCritic
+from agents.multimodal_baseline import MultimodalActorCritic, RecurrentMultimodalActorCritic
 from agents.multimodal_env import MultimodalMemoryEnv
 
 
@@ -31,3 +31,21 @@ def test_multimodal_baseline_fuses_all_views():
     assert logits.shape == (1, 2)
     assert value.shape == (1,)
     assert latent.shape == (1, 64)
+
+
+def test_recurrent_baseline_keeps_state_across_steps():
+    env = MultimodalMemoryEnv(seed=2)
+    obs, _ = env.reset(seed=2)
+    model = RecurrentMultimodalActorCritic()
+    state = None
+    for _ in range(2):
+        batch = {
+            "image": torch.from_numpy(obs["image"]).unsqueeze(0),
+            "bytes_view": torch.from_numpy(obs["bytes"]).unsqueeze(0),
+            "symbolic": torch.from_numpy(obs["symbolic"]).unsqueeze(0),
+            "phase": torch.from_numpy(obs["phase"]).unsqueeze(0),
+            "state": state,
+        }
+        _, _, state = model(**batch)
+        obs, _, _, _, _ = env.step(0)
+    assert state.shape == (1, 64)
