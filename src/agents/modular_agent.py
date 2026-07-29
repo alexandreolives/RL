@@ -20,14 +20,17 @@ class ModularMultimodalAgent(nn.Module):
         image_size: int = 8,
         use_engram: bool = False,
         use_jepa: bool = False,
-        use_loop: bool = False,
+        use_loop: bool = True,
         use_spectral: bool = False,
+        loop_depth: int = 2,
+        loop_iterations: int = 2,
     ) -> None:
         super().__init__()
         self.encoder = MultimodalActorCritic(latent_dim=latent_dim, image_size=image_size)
         self.engram = EngramLatentAdapter(latent_dim) if use_engram else None
         self.jepa = ActionConditionedLatentPredictor(latent_dim) if use_jepa else None
-        self.loop = LoopTransformerCore(latent_dim, max_iterations=2) if use_loop else None
+        self.loop = (LoopTransformerCore(latent_dim, max_iterations=loop_iterations, depth=loop_depth)
+                     if use_loop else None)
         self.spectral = SpectralAttentionLoop(latent_dim) if use_spectral else None
         self.policy = nn.Linear(latent_dim, 2)
         self.value = nn.Linear(latent_dim, 1)
@@ -47,7 +50,7 @@ class ModularMultimodalAgent(nn.Module):
             sequence = self.engram(sequence, bytes_view[:, :1])
         if self.spectral is not None:
             sequence, _, _ = self.spectral(sequence, force_attention=False)
-        elif self.loop is not None:
+        if self.loop is not None:
             sequence, _ = self.loop(sequence)
         latent = sequence[:, -1]
         predicted = self.jepa(latent, action) if self.jepa is not None and action is not None else None
