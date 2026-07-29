@@ -18,12 +18,13 @@ def main() -> None:
     parser.add_argument("--episodes", type=int, default=50)
     parser.add_argument("--sequence-length", type=int, default=32)
     parser.add_argument("--ff-dim", type=int, default=128)
+    parser.add_argument("--device", default="cpu")
     args = parser.parse_args()
     torch.set_num_threads(1)
     torch.set_num_interop_threads(1)
     scores = [train("loop", args.episodes, seed, "parity", args.sequence_length,
                     loop_depth=args.depth, loop_iterations=args.iterations,
-                    loop_ff_dim=args.ff_dim)
+                    loop_ff_dim=args.ff_dim, device=args.device)
               for seed in range(args.seeds)]
     model = LoopMemoryActor(depth=args.depth, max_iterations=args.iterations, ff_dim=args.ff_dim)
     result = {

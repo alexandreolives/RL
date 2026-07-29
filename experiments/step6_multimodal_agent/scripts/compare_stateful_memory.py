@@ -14,12 +14,12 @@ from agents.multimodal_baseline import MultimodalActorCritic, RecurrentMultimoda
 from agents.multimodal_env import MultimodalMemoryEnv, MultimodalParityEnv
 
 
-def obs_tensor(obs):
+def obs_tensor(obs, device="cpu"):
     return {
-        "image": torch.from_numpy(obs["image"]).unsqueeze(0),
-        "bytes_view": torch.from_numpy(obs["bytes"]).unsqueeze(0),
-        "symbolic": torch.from_numpy(obs["symbolic"]).unsqueeze(0),
-        "phase": torch.from_numpy(obs["phase"]).unsqueeze(0),
+        "image": torch.from_numpy(obs["image"]).unsqueeze(0).to(device),
+        "bytes_view": torch.from_numpy(obs["bytes"]).unsqueeze(0).to(device),
+        "symbolic": torch.from_numpy(obs["symbolic"]).unsqueeze(0).to(device),
+        "phase": torch.from_numpy(obs["phase"]).unsqueeze(0).to(device),
     }
 
 
@@ -37,9 +37,10 @@ class LoopMemoryActor(nn.Module):
         return self.policy(latent), self.value(latent).squeeze(-1), state
 
 
-def train(name: str, episodes: int, seed: int, task: str, sequence_length: int, *, loop_depth: int = 1, loop_iterations: int = 2, loop_ff_dim: int = 128) -> float:
+def train(name: str, episodes: int, seed: int, task: str, sequence_length: int, *, loop_depth: int = 1, loop_iterations: int = 2, loop_ff_dim: int = 128, device: str = "cpu") -> float:
     torch.manual_seed(seed)
     model = RecurrentMultimodalActorCritic() if name == "gru" else LoopMemoryActor(depth=loop_depth, max_iterations=loop_iterations, ff_dim=loop_ff_dim)
+    model = model.to(device)
     optimizer = torch.optim.Adam(model.parameters(), lr=3e-3)
     rewards = []
     for _ in range(episodes):
@@ -52,9 +53,9 @@ def train(name: str, episodes: int, seed: int, task: str, sequence_length: int, 
         total_steps = env.horizon - 1 if task == "cue" else env.sequence_length - 1
         for _ in range(total_steps):
             if name == "gru":
-                logits, value, state = model(**obs_tensor(obs), state=state)
+                logits, value, state = model(**obs_tensor(obs, device), state=state)
             else:
-                logits, value, state = model(obs_tensor(obs), state)
+                logits, value, state = model(obs_tensor(obs, device), state)
             dist = torch.distributions.Categorical(logits=logits)
             action = dist.sample()
             obs, reward, done, _, _ = env.step(int(action.item()))
@@ -84,10 +85,11 @@ def main():
     parser.add_argument("--loop-depth", type=int, default=1)
     parser.add_argument("--loop-iterations", type=int, default=2)
     parser.add_argument("--loop-ff-dim", type=int, default=128)
+    parser.add_argument("--device", default="cpu")
     args = parser.parse_args()
     result = {name: train(name, args.episodes, args.seed, args.task, args.sequence_length,
                           loop_depth=args.loop_depth, loop_iterations=args.loop_iterations,
-                          loop_ff_dim=args.loop_ff_dim)
+                          loop_ff_dim=args.loop_ff_dim, device=args.device)
               for name in ("gru", "loop")}
     print(json.dumps(result, indent=2))
 
