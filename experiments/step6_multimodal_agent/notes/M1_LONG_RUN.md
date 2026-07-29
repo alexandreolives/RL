@@ -10,3 +10,7 @@ The untrained halting-gate smoke over 100 batches produced iteration counts
 `1: 3` and `4: 97`. This confirms the hard budget and early-exit path; it is
 not a calibration result. A trained halting objective is required before
 claiming compute-adaptive behavior.
+
+The next controlled task is `MultimodalParityEnv` (sequence lengths 8, 16 and
+32). It prevents the shortcut of memorizing a single cue and is the required
+environment for the final recurrent/JEPA ablation.
