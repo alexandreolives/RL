@@ -33,6 +33,21 @@ PYTHONPATH=src:experiments/step6_multimodal_agent/scripts .venv/bin/python \
   --depth 2 --iterations 1 --episodes 50 --seeds 5
 ```
 
+Sur WSL2 avec l'image CUDA préexistante `rl-m1:fast` :
+
+```bash
+docker run --rm --gpus all --entrypoint /opt/venv/bin/python \
+  -v "$PWD":/workspace -w /workspace \
+  -e PYTHONPATH=/workspace/src:/workspace/experiments/step6_multimodal_agent/scripts \
+  rl-m1:fast experiments/step6_multimodal_agent/scripts/run_depth_ablation.py \
+  --depth 2 --iterations 2 --episodes 50 --seeds 3 \
+  --sequence-length 32 --device cuda
+```
+
+The image already contains PyTorch CUDA; `gymnasium` is included in the
+derived `rl-m1:fast` image, so rebuilding the large CUDA base image is not
+needed for M1 smoke runs.
+
 Run the CPU smoke training:
 
 ```bash
