@@ -37,6 +37,20 @@ Tests: fixed versus adaptive iterations, accuracy versus iteration count,
 stability of hidden-state norms, early-halt calibration, and a no-recurrence
 control at matched active FLOPs.
 
+### 2a. Hybrid spectral/attention loop
+
+The shared recurrent block may use a cheap global spectral mixer (for example
+an FFT/Fourier mixing layer) in early iterations, followed by attention for
+content-dependent refinement. This is an optimization hypothesis, not an
+assumption that Fourier mixing replaces attention. Test fixed and dynamic
+switches by iteration, modality, context length, and router uncertainty, with
+an attention-only fallback.
+
+Controls: attention-only, spectral-only, fixed spectral→attention,
+attention→spectral, and learned dynamic switching. Match active FLOPs and
+report long-dependency accuracy, gradient/norm stability, aliasing, latency,
+memory, and FFT overhead separately.
+
 ### 3. Ternary / 1.58-bit deployment path
 
 The intended deployment representation is ternary weights in `{-1, 0, +1}`,

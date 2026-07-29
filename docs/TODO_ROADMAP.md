@@ -54,6 +54,21 @@ résultats sont archivés.
 - [ ] Ajouter gate de halting avec budget maximal et sortie anticipée.
 - [ ] Mesurer gain par itération, stabilité des normes, calibration et latence.
 
+## M1 — Boucles hybrides spectral/attention
+
+- [ ] Implémenter un bloc de mixage spectral (Fourier/FFT ou approximation
+  réelle) compatible avec la même interface latent que l'attention.
+- [ ] Tester un schedule `spectral → attention` au début des boucles, puis
+  `attention → spectral` et alternance par itération.
+- [ ] Ajouter un switch dynamique piloté par profondeur, modalité, longueur de
+  contexte ou incertitude du routeur.
+- [ ] Comparer à budget actif égal : attention seule, spectral seul, hybride
+  fixe et hybride dynamique.
+- [ ] Mesurer qualité, dépendances longues, aliasing, stabilité numérique,
+  latence FFT, mémoire et coût sur séquences courtes/longues.
+- [ ] Vérifier que le switch ne dégrade pas les gradients ni la calibration du
+  halting ; conserver un fallback attention-only.
+
 ## M2 — MoE-LoRA à croissance dynamique (objectif A)
 
 - [ ] Implémenter experts LoRA indépendants, capacité maximale et top-k dispatch.
