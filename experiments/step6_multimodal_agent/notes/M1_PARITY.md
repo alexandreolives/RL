@@ -62,3 +62,18 @@ Controlled five-seed run (one process, 50 episodes/seed, length 16) produced:
 The variance is large and the GRU mean remains higher. The gated Loop is
 therefore operational but not yet a reliable improvement; longer training and
 matched compute/parameter controls are still required.
+
+The same single-process protocol with 100 episodes/seed converged for both
+models:
+
+| Seed | GRU | Loop gated |
+|---:|---:|---:|
+| 0 | 1.00 | 1.00 |
+| 1 | 1.00 | 1.00 |
+| 2 | 1.00 | 0.90 |
+| 3 | 0.95 | 1.00 |
+| 4 | 0.95 | 1.00 |
+| **mean** | **0.98** | **0.98** |
+
+This removes the earlier process-level artifact, but does not show a quality
+advantage: both controls reach the task ceiling at this length and budget.
