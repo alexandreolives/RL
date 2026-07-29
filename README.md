@@ -52,6 +52,11 @@ For the public-release and reproducibility checklist, see
 The broader hybrid recurrent MoE/ternary research proposal and its falsifiable
 test plan are documented in [docs/RESEARCH_PROGRAM.md](docs/RESEARCH_PROGRAM.md).
 
+The long-term target is a **multimodal adaptive agent**: a MoE-LoRA system
+that can grow new experts, repeatedly refine a latent state with a Loop
+Transformer, predict action-conditioned futures in a JEPA/Simulus-style world
+model, and eventually deploy through ternary weights.
+
 ## Current status and limitations
 
 - Several results are explicitly marked as proxy/smoke and should not be

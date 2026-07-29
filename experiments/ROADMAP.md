@@ -5,17 +5,19 @@
 Ces deux axes sont désormais des objectifs principaux du dépôt, distincts des
 benchmarks OCR et des briques d'ablation.
 
-### A — Modèle à croissance dynamique
+### A — Agent MoE-LoRA à croissance dynamique
 
-Construire un agent RL dont la capacité augmente pendant l'entraînement :
-détection de nouveauté ou de saturation, naissance d'experts, spécialisation,
-maturation, EMA des experts stables, puis retrait ou rollback sous contrainte
-de budget. La comparaison de référence sera un modèle à capacité fixe avec le
-même budget de calcul cumulé.
+Construire un agent RL multimodal dont la capacité augmente pendant
+l'entraînement : un routeur MoE sélectionne des experts LoRA spécialisés, puis
+déclenche sur nouveauté ou saturation la naissance de nouveaux experts. Chaque
+expert suit un cycle de vie explicite : spécialisation, maturation, EMA des
+experts stables, puis retrait ou rollback sous contrainte de budget. La
+comparaison de référence sera un modèle à capacité fixe avec le même budget de
+calcul cumulé.
 
 Critères de validation : reward et regret après changement de tâche, oubli
-catastrophique, équilibre du routeur, nombre d'expansions, paramètres actifs,
-coût cumulé et temps de récupération.
+catastrophique, interférence entre domaines, équilibre du routeur, nombre
+d'expansions, paramètres actifs, coût cumulé et temps de récupération.
 
 Statut : **planifié, non implémenté**.
 
@@ -49,6 +51,26 @@ post-entraînement. Aucun gain matériel ne sera revendiqué sans kernel ou
 mesure hardware correspondante.
 
 Statut : **planifié, kernel ternaire et QAT à implémenter**.
+
+### D — Agent multimodal latent JEPA × Simulus
+
+Construire l'agent complet autour d'un espace latent partagé pour texte,
+octets, images et documents. Un encodeur transforme chaque observation en
+flux latent modulaire ; un prédicteur JEPA/Simulus anticipe les états futurs
+conditionnés par les actions ; une politique, une valeur ou un planificateur
+utilise ces états pour agir. L'objectif est l'apprentissage d'un modèle du
+monde exploitable, pas seulement l'amélioration d'un proxy de langage.
+
+Le premier environnement sera contrôlé (observations visuelles et
+symboliques, actions et transitions connues), avant un transfert vers des
+documents et scènes plus réalistes. Les comparaisons incluront reconstruction
+pixel, JEPA sans action, JEPA action-conditionné et flux modulaires Simulus.
+
+Critères de validation : prédiction d'état latent, réussite de planification,
+robustesse aux changements de dynamique/caméra/composition, transfert entre
+modalités, mémoire latente retenue, reward et coût par étape.
+
+Statut : **objectif central, environnement et boucle d'action à construire**.
 
 ## Status global
 
