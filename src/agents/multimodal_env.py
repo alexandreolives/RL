@@ -18,12 +18,13 @@ class MultimodalMemoryEnv(gym.Env):
 
     metadata = {"render_modes": []}
 
-    def __init__(self, *, horizon: int = 8, image_size: int = 8, seed: int | None = None) -> None:
+    def __init__(self, *, horizon: int = 8, image_size: int = 8, seed: int | None = None, reveal_each_step: bool = False) -> None:
         super().__init__()
         if horizon < 2 or image_size < 2:
             raise ValueError("horizon must be >= 2 and image_size must be >= 2")
         self.horizon = horizon
         self.image_size = image_size
+        self.reveal_each_step = reveal_each_step
         self.observation_space = spaces.Dict(
             {
                 "image": spaces.Box(0.0, 1.0, (1, image_size, image_size), dtype=np.float32),
@@ -38,7 +39,7 @@ class MultimodalMemoryEnv(gym.Env):
         self._step = 0
 
     def _observation(self) -> dict[str, np.ndarray]:
-        visible = self._step == 0
+        visible = self.reveal_each_step or self._step == 0
         cue = self._cue if visible else 0
         image = np.zeros((1, self.image_size, self.image_size), dtype=np.float32)
         image[:, : max(1, self.image_size // 4), : max(1, self.image_size // 4)] = cue
