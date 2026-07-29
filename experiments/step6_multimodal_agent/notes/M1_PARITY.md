@@ -77,3 +77,24 @@ models:
 
 This removes the earlier process-level artifact, but does not show a quality
 advantage: both controls reach the task ceiling at this length and budget.
+
+Long-context validation (length 32, 100 episodes/seed, five seeds) produced:
+
+| Seed | GRU | Loop gated |
+|---:|---:|---:|
+| 0 | 0.95 | 1.00 |
+| 1 | 0.85 | 0.30 |
+| 2 | 0.95 | 1.00 |
+| 3 | 0.95 | 1.00 |
+| 4 | 1.00 | 0.95 |
+| **mean** | **0.94** | **0.85** |
+
+At length 32 the Loop remains competitive but has higher seed variance and a
+lower mean than the GRU. This is the current M1 limitation, not evidence of a
+general architectural advantage.
+
+CPU forward diagnostic (batch 1, 200 calls, one PyTorch thread) measured 62,790
+parameters / 0.114 ms for the recurrent baseline and 41,856 parameters /
+0.297 ms for the Loop state core. The Loop timing excludes the shared
+multimodal encoder and is therefore not an end-to-end comparison; a matched
+policy/encoder benchmark is still required for a cost claim.
