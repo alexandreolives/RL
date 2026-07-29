@@ -63,6 +63,18 @@ The variance is large and the GRU mean remains higher. The gated Loop is
 therefore operational but not yet a reliable improvement; longer training and
 matched compute/parameter controls are still required.
 
+End-to-end CPU forward benchmark (multimodal encoder + memory + policy/value,
+batch 1, 500 no-grad calls, one PyTorch thread) measured:
+
+| Agent | Parameters | Latency |
+|---|---:|---:|
+| GRU baseline | 62,790 | 0.0815 ms |
+| Loop gated | 79,686 | 0.3581 ms |
+
+The current Loop is therefore about 4.4× slower end-to-end and has more
+parameters. It should not be presented as a compute optimization yet; this is
+the baseline to beat with a lighter shared block or GPU kernel.
+
 The same single-process protocol with 100 episodes/seed converged for both
 models:
 
