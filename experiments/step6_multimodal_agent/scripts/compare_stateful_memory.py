@@ -63,7 +63,7 @@ def train(name: str, episodes: int, seed: int, task: str, sequence_length: int, 
             values.append(value.squeeze())
             if done:
                 break
-        returns = torch.full((len(values),), float(reward))
+        returns = torch.full((len(values),), float(reward), device=device)
         values_t = torch.stack(values)
         loss = -(torch.stack(logs) * (returns - values_t.detach())).mean() + 0.5 * (returns - values_t).square().mean()
         optimizer.zero_grad(); loss.backward(); optimizer.step()
