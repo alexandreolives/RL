@@ -8,8 +8,9 @@
 
 ## Available extraction
 
-The video description was retrieved with `yt-dlp`. YouTube returned HTTP 429
-for automatic subtitles in this environment, so no transcript is claimed.
+The video description and the generated English transcript were retrieved with
+`yt-dlp` 2026.07.04. The raw transcript is archived as
+[`rD20wJkPUB4.en.vtt`](rD20wJkPUB4.en.vtt).
 
 Description summary:
 
