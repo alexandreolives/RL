@@ -52,3 +52,28 @@ class StatefulLoopCore(nn.Module):
         sequence = latent.unsqueeze(1) if state is None else torch.stack((state, latent), dim=1)
         output, _ = self.core(sequence)
         return output[:, -1], output[:, -1]
+
+
+class AdaptiveLoopCore(nn.Module):
+    """Shared loop with a learned halt gate and a hard iteration budget."""
+
+    def __init__(self, d_model: int = 64, *, heads: int = 4, max_iterations: int = 4, halt_threshold: float = 0.5) -> None:
+        super().__init__()
+        self.core = LoopTransformerCore(d_model, heads=heads, max_iterations=max_iterations)
+        self.halt = nn.Linear(d_model, 1)
+        self.max_iterations = max_iterations
+        self.halt_threshold = halt_threshold
+
+    def forward(self, latent: torch.Tensor) -> tuple[torch.Tensor, torch.Tensor]:
+        if latent.ndim != 3:
+            raise ValueError("latent must have shape (batch, sequence, d_model)")
+        state = latent
+        halt_probability = latent.new_zeros(latent.size(0))
+        used = latent.new_zeros((), dtype=torch.long)
+        for index in range(self.max_iterations):
+            state = self.core.norm(state + self.core.block(state))
+            halt_probability = torch.sigmoid(self.halt(state.mean(dim=1)).squeeze(-1))
+            used = used + 1
+            if index + 1 < self.max_iterations and bool(torch.all(halt_probability >= self.halt_threshold)):
+                break
+        return state, used

@@ -1,7 +1,7 @@
 import pytest
 import torch
 
-from agents.loop_transformer import LoopTransformerCore, StatefulLoopCore
+from agents.loop_transformer import AdaptiveLoopCore, LoopTransformerCore, StatefulLoopCore
 
 
 def test_shared_loop_returns_each_iteration_state():
@@ -24,3 +24,10 @@ def test_stateful_loop_carries_previous_latent():
     second, next_state = core(current * 0, state)
     assert first.shape == second.shape == (2, 16)
     assert not torch.equal(state, next_state)
+
+
+def test_adaptive_loop_respects_hard_budget():
+    core = AdaptiveLoopCore(d_model=16, heads=4, max_iterations=3)
+    output, used = core(torch.randn(2, 5, 16))
+    assert output.shape == (2, 5, 16)
+    assert 1 <= int(used) <= 3

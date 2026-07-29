@@ -51,7 +51,7 @@ résultats sont archivés.
 - [ ] Implémenter un bloc Transformer partagé réappliqué `N` fois.
 - [ ] Ajouter état récurrent, résidu stable, normalisation et gradient checkpoint.
 - [ ] Comparer profondeur fixe, profondeur variable et modèle non récurrent.
-- [ ] Ajouter gate de halting avec budget maximal et sortie anticipée.
+- [x] Ajouter gate de halting avec budget maximal et sortie anticipée.
 - [ ] Mesurer gain par itération, stabilité des normes, calibration et latence.
 
 ## M1 — Boucles hybrides spectral/attention
