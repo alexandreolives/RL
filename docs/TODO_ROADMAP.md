@@ -111,6 +111,22 @@ résultats sont archivés.
   débruitage spectral initial, attention conditionnelle tardive et nombre
   adaptatif d'étapes. Ne pas extrapoler les résultats agent/LLM à la diffusion.
 
+## M2 — Prédiction multi-token / Markov et experts diffusion
+
+- [ ] Ajouter des têtes MTP `k=2,4,8` sur le tronc partagé, avec perte auxiliaire
+  et contrôle next-token-only.
+- [ ] Tester une factorisation causale des tokens futurs, une tête indépendante
+  et une dépendance Markov/probabiliste entre propositions.
+- [ ] Ajouter vérification spéculative par le modèle principal et mesurer taux
+  d'acceptation, tokens acceptés par passe, qualité et accélération réelle.
+- [ ] Adapter le mécanisme au byte-level et aux flux latents multimodaux.
+- [ ] Implémenter un expert diffusion latent à 1–4 étapes avec conditionnement
+  timestep, puis le router seulement sur les états incertains.
+- [ ] Comparer expert diffusion isolé, expert Transformer et combinaison
+  diffusion→attention dans le Loop Transformer.
+- [ ] Mesurer coût moyen/pire cas, calibration, cohérence temporelle et qualité
+  sans attribuer à tort les résultats à Z.ai ou à un papier particulier.
+
 ## M2 — Multimodal documents/OCR
 
 - [ ] Finaliser ingestion PDF/image, OCR, layout et ordre de lecture.
