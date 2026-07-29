@@ -25,12 +25,12 @@ résultats sont archivés.
 
 ## M1 — Agent multimodal minimal
 
-- [ ] Construire un environnement contrôlé Gymnasium avec observations image,
+- [x] Construire un environnement contrôlé Gymnasium avec observations image,
   symboliques et texte/octet, actions et transitions connues.
-- [ ] Implémenter encodeurs séparés et projection vers un espace latent commun.
-- [ ] Ajouter une policy/value et une boucle d'entraînement RL minimale.
-- [ ] Créer tâches de prédiction, mémoire, intervention et planification courte.
-- [ ] Établir les scores baseline et les tests de transfert inter-modalités.
+- [x] Implémenter encodeurs séparés et projection vers un espace latent commun.
+- [x] Ajouter une policy/value et une boucle d'entraînement RL minimale.
+- [x] Créer tâches de prédiction, mémoire, intervention et planification courte.
+- [x] Établir les scores baseline et les tests de transfert inter-modalités.
 
 ## M1 — Mémoire Engram
 
