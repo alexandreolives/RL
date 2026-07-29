@@ -17,6 +17,11 @@ class LoopTransformerCore(nn.Module):
             d_model=d_model, nhead=heads, dim_feedforward=ff_dim,
             batch_first=True, norm_first=True, dropout=0.0, activation="gelu"
         ) for _ in range(depth)])
+        # Identity-biased residual scaling keeps early recurrent updates small
+        # and provides a stable gradient highway when depth/iterations grow.
+        self.layer_scales = nn.ParameterList([
+            nn.Parameter(torch.full((d_model,), 0.1)) for _ in range(depth)
+        ])
         self.norm = nn.LayerNorm(d_model)
 
     def forward(self, latent: torch.Tensor, *, iterations: int | None = None) -> tuple[torch.Tensor, list[torch.Tensor]]:
@@ -28,8 +33,8 @@ class LoopTransformerCore(nn.Module):
         states = []
         state = latent
         for _ in range(steps):
-            for block in self.blocks:
-                state = self.norm(state + block(state))
+            for block_index, block in enumerate(self.blocks):
+                state = self.norm(state + self.layer_scales[block_index] * block(state))
             states.append(state)
         return state, states
 
@@ -78,8 +83,8 @@ class AdaptiveLoopCore(nn.Module):
         halt_probability = latent.new_zeros(latent.size(0))
         used = latent.new_zeros((), dtype=torch.long)
         for index in range(self.max_iterations):
-            for block in self.core.blocks:
-                state = self.core.norm(state + block(state))
+            for block_index, block in enumerate(self.core.blocks):
+                state = self.core.norm(state + self.core.layer_scales[block_index] * block(state))
             halt_probability = torch.sigmoid(self.halt(state.mean(dim=1)).squeeze(-1))
             used = used + 1
             if index + 1 < self.max_iterations and bool(torch.all(halt_probability >= self.halt_threshold)):
