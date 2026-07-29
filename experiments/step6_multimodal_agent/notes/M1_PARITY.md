@@ -36,3 +36,14 @@ smoke-validated without changing the external interface. At length 16 and
 100-episode runs also returned **1.00 / 1.00**. These are training-smoke
 results, not a publication claim: they must be repeated with fixed budgets,
 longer sequences and at least five seeds.
+
+Additional low-thread smoke (the local BLAS runtime otherwise terminates long
+processes) gave:
+
+| Length | Episodes | Seed | GRU | Loop gated |
+|---:|---:|---:|---:|---:|
+| 16 | 20 | 0 | 0.75 | 0.90 |
+| 32 | 20 | 0 | 0.65 | 0.80 |
+
+These short runs suggest the gated update remains viable at longer context,
+but are diagnostic only because the training budget is small.
