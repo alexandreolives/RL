@@ -19,3 +19,9 @@ Stateful GRU versus Loop comparison:
 ```bash
 PYTHONPATH=src:. .venv/bin/python experiments/step6_multimodal_agent/scripts/compare_stateful_memory.py
 ```
+
+Halting calibration smoke:
+
+```bash
+PYTHONPATH=src:. .venv/bin/python experiments/step6_multimodal_agent/scripts/measure_halting.py
+```
