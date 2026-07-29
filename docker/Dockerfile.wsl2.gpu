@@ -27,4 +27,7 @@ RUN pip install --no-cache-dir --break-system-packages \
 COPY requirements.txt /tmp/requirements.txt
 RUN pip install --no-cache-dir --break-system-packages -r /tmp/requirements.txt
 
+# Include the checked-out project so the image can run the M1 scripts/tests.
+COPY . /workspace
+
 CMD ["/bin/bash"]
