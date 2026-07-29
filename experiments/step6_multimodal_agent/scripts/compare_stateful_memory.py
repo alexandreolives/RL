@@ -24,10 +24,10 @@ def obs_tensor(obs):
 
 
 class LoopMemoryActor(nn.Module):
-    def __init__(self):
+    def __init__(self, *, depth: int = 1, max_iterations: int = 2):
         super().__init__()
         self.encoder = MultimodalActorCritic()
-        self.loop = StatefulLoopCore()
+        self.loop = StatefulLoopCore(depth=depth, max_iterations=max_iterations)
         self.policy = nn.Linear(64, 2)
         self.value = nn.Linear(64, 1)
 
@@ -37,9 +37,9 @@ class LoopMemoryActor(nn.Module):
         return self.policy(latent), self.value(latent).squeeze(-1), state
 
 
-def train(name: str, episodes: int, seed: int, task: str, sequence_length: int) -> float:
+def train(name: str, episodes: int, seed: int, task: str, sequence_length: int, *, loop_depth: int = 1, loop_iterations: int = 2) -> float:
     torch.manual_seed(seed)
-    model = RecurrentMultimodalActorCritic() if name == "gru" else LoopMemoryActor()
+    model = RecurrentMultimodalActorCritic() if name == "gru" else LoopMemoryActor(depth=loop_depth, max_iterations=loop_iterations)
     optimizer = torch.optim.Adam(model.parameters(), lr=3e-3)
     rewards = []
     for _ in range(episodes):
@@ -81,8 +81,12 @@ def main():
     parser.add_argument("--seed", type=int, default=0)
     parser.add_argument("--task", choices=["cue", "parity"], default="cue")
     parser.add_argument("--sequence-length", type=int, default=16)
+    parser.add_argument("--loop-depth", type=int, default=1)
+    parser.add_argument("--loop-iterations", type=int, default=2)
     args = parser.parse_args()
-    result = {name: train(name, args.episodes, args.seed, args.task, args.sequence_length) for name in ("gru", "loop")}
+    result = {name: train(name, args.episodes, args.seed, args.task, args.sequence_length,
+                          loop_depth=args.loop_depth, loop_iterations=args.loop_iterations)
+              for name in ("gru", "loop")}
     print(json.dumps(result, indent=2))
 
 

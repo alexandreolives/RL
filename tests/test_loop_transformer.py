@@ -17,6 +17,14 @@ def test_loop_rejects_invalid_depth():
         LoopTransformerCore(d_model=16, heads=4, max_iterations=2)(torch.randn(1, 2, 16), iterations=3)
 
 
+def test_loop_supports_shared_stack_depth():
+    core = LoopTransformerCore(d_model=16, heads=4, max_iterations=2, depth=2)
+    output, states = core(torch.randn(2, 5, 16), iterations=1)
+    assert output.shape == (2, 5, 16)
+    assert len(core.blocks) == 2
+    assert len(states) == 1
+
+
 def test_stateful_loop_carries_previous_latent():
     core = StatefulLoopCore(d_model=16, heads=4)
     current = torch.randn(2, 16)

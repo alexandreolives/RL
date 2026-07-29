@@ -105,6 +105,20 @@ At length 32 the Loop remains competitive but has higher seed variance and a
 lower mean than the GRU. This is the current M1 limitation, not evidence of a
 general architectural advantage.
 
+Depth-equivalence smoke (length 32, 50 episodes, seed 0) now exposes the
+internal Loop stack explicitly:
+
+| Loop depth × iterations | Effective depth | GRU | Loop |
+|---:|---:|---:|---:|
+| 1 × 2 | 2 | 0.90 | 1.00 |
+| 2 × 1 | 2 | 0.90 | 0.95 |
+| 2 × 2 | 4 | 0.90 | 0.95 |
+
+This is only one seed, but it confirms that the previous one-block comparison
+was incomplete. The implementation now supports a Nanbeige-style shared stack;
+the next scientific run should repeat these rows over five seeds and report
+parameter/FLOP-matched controls.
+
 CPU forward diagnostic (batch 1, 200 calls, one PyTorch thread) measured 62,790
 parameters / 0.114 ms for the recurrent baseline and 41,856 parameters /
 0.297 ms for the Loop state core. The Loop timing excludes the shared

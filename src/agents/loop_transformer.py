@@ -7,20 +7,16 @@ from torch import nn
 class LoopTransformerCore(nn.Module):
     """Shared Transformer block applied repeatedly to a latent sequence."""
 
-    def __init__(self, d_model: int = 64, *, heads: int = 4, ff_dim: int = 128, max_iterations: int = 4) -> None:
+    def __init__(self, d_model: int = 64, *, heads: int = 4, ff_dim: int = 128, max_iterations: int = 4, depth: int = 1) -> None:
         super().__init__()
-        if d_model % heads or max_iterations < 1:
-            raise ValueError("d_model must be divisible by heads and max_iterations >= 1")
+        if d_model % heads or max_iterations < 1 or depth < 1:
+            raise ValueError("d_model must be divisible by heads; depth and max_iterations >= 1")
         self.max_iterations = max_iterations
-        self.block = nn.TransformerEncoderLayer(
-            d_model=d_model,
-            nhead=heads,
-            dim_feedforward=ff_dim,
-            batch_first=True,
-            norm_first=True,
-            dropout=0.0,
-            activation="gelu",
-        )
+        self.depth = depth
+        self.blocks = nn.ModuleList([nn.TransformerEncoderLayer(
+            d_model=d_model, nhead=heads, dim_feedforward=ff_dim,
+            batch_first=True, norm_first=True, dropout=0.0, activation="gelu"
+        ) for _ in range(depth)])
         self.norm = nn.LayerNorm(d_model)
 
     def forward(self, latent: torch.Tensor, *, iterations: int | None = None) -> tuple[torch.Tensor, list[torch.Tensor]]:
@@ -32,7 +28,8 @@ class LoopTransformerCore(nn.Module):
         states = []
         state = latent
         for _ in range(steps):
-            state = self.norm(state + self.block(state))
+            for block in self.blocks:
+                state = self.norm(state + block(state))
             states.append(state)
         return state, states
 
@@ -40,9 +37,9 @@ class LoopTransformerCore(nn.Module):
 class StatefulLoopCore(nn.Module):
     """Streaming wrapper that carries the latest latent state across calls."""
 
-    def __init__(self, d_model: int = 64, *, heads: int = 4, max_iterations: int = 2) -> None:
+    def __init__(self, d_model: int = 64, *, heads: int = 4, max_iterations: int = 2, depth: int = 1) -> None:
         super().__init__()
-        self.core = LoopTransformerCore(d_model, heads=heads, max_iterations=max_iterations)
+        self.core = LoopTransformerCore(d_model, heads=heads, max_iterations=max_iterations, depth=depth)
         # A learned write gate makes the carried state genuinely recurrent:
         # the attention block proposes an update, while the gate controls how
         # much of it is committed for the next streamed observation.
@@ -67,9 +64,9 @@ class StatefulLoopCore(nn.Module):
 class AdaptiveLoopCore(nn.Module):
     """Shared loop with a learned halt gate and a hard iteration budget."""
 
-    def __init__(self, d_model: int = 64, *, heads: int = 4, max_iterations: int = 4, halt_threshold: float = 0.5) -> None:
+    def __init__(self, d_model: int = 64, *, heads: int = 4, max_iterations: int = 4, depth: int = 1, halt_threshold: float = 0.5) -> None:
         super().__init__()
-        self.core = LoopTransformerCore(d_model, heads=heads, max_iterations=max_iterations)
+        self.core = LoopTransformerCore(d_model, heads=heads, max_iterations=max_iterations, depth=depth)
         self.halt = nn.Linear(d_model, 1)
         self.max_iterations = max_iterations
         self.halt_threshold = halt_threshold
@@ -81,7 +78,8 @@ class AdaptiveLoopCore(nn.Module):
         halt_probability = latent.new_zeros(latent.size(0))
         used = latent.new_zeros((), dtype=torch.long)
         for index in range(self.max_iterations):
-            state = self.core.norm(state + self.core.block(state))
+            for block in self.core.blocks:
+                state = self.core.norm(state + block(state))
             halt_probability = torch.sigmoid(self.halt(state.mean(dim=1)).squeeze(-1))
             used = used + 1
             if index + 1 < self.max_iterations and bool(torch.all(halt_probability >= self.halt_threshold)):
