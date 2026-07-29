@@ -47,3 +47,18 @@ processes) gave:
 
 These short runs suggest the gated update remains viable at longer context,
 but are diagnostic only because the training budget is small.
+
+Controlled five-seed run (one process, 50 episodes/seed, length 16) produced:
+
+| Seed | GRU | Loop gated |
+|---:|---:|---:|
+| 0 | 0.95 | 0.95 |
+| 1 | 0.90 | 0.65 |
+| 2 | 1.00 | 0.15 |
+| 3 | 0.35 | 0.55 |
+| 4 | 0.95 | 1.00 |
+| **mean** | **0.83** | **0.66** |
+
+The variance is large and the GRU mean remains higher. The gated Loop is
+therefore operational but not yet a reliable improvement; longer training and
+matched compute/parameter controls are still required.
