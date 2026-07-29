@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from dataclasses import asdict, dataclass
+from dataclasses import asdict, dataclass, is_dataclass
 import json
 from pathlib import Path
 
@@ -29,3 +29,22 @@ class RunRecord:
 
     def write_json(self, path: str | Path) -> None:
         Path(path).write_text(json.dumps(asdict(self), indent=2) + "\n", encoding="utf-8")
+
+
+def write_run_manifest(
+    path: str | Path,
+    *,
+    record: RunRecord,
+    config: object,
+    schema_version: int = 1,
+) -> None:
+    """Write the stable M0 manifest consumed by experiment runners."""
+
+    if not is_dataclass(config):
+        raise TypeError("config must be a dataclass instance")
+    payload = {
+        "schema_version": schema_version,
+        "run": asdict(record),
+        "config": asdict(config),
+    }
+    Path(path).write_text(json.dumps(payload, indent=2, default=str) + "\n", encoding="utf-8")

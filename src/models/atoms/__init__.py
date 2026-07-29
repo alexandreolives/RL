@@ -9,4 +9,4 @@ from .engram import EngramMemory
 from .bytes import BytePatcher
 from .residual import FullAttentionResidual
 from .contracts import ModularAgentConfig, RouterDecision
-from .experiment import RunRecord, parameter_count
+from .experiment import RunRecord, parameter_count, write_run_manifest
