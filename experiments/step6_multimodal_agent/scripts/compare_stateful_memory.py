@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 from dataclasses import dataclass
 
 import numpy as np
@@ -70,6 +71,11 @@ def train(name: str, episodes: int, seed: int, task: str, sequence_length: int) 
 
 
 def main():
+    # Small M1 runs are often more reproducible with one BLAS worker.  The
+    # default can be overridden explicitly for a larger host/GPU.
+    threads = int(os.environ.get("M1_TORCH_THREADS", "1"))
+    torch.set_num_threads(max(1, threads))
+    torch.set_num_interop_threads(1)
     parser = argparse.ArgumentParser()
     parser.add_argument("--episodes", type=int, default=200)
     parser.add_argument("--seed", type=int, default=0)
