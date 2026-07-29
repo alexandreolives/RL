@@ -72,6 +72,25 @@ modalités, mémoire latente retenue, reward et coût par étape.
 
 Statut : **objectif central, environnement et boucle d'action à construire**.
 
+### Matrice d'ablation interne
+
+Dans cet environnement, toutes les architectures seront entraînées avec le
+même encodeur d'entrée, la même policy/value, le même nombre de paramètres
+actifs et le même budget de transitions :
+
+1. baseline Transformer sans mémoire latente dédiée ;
+2. baseline + Engram ;
+3. JEPA latent action-free ;
+4. JEPA latent conditionné par action ;
+5. Engram + JEPA ;
+6. flux modulaires Simulus/M³ ;
+7. JEPA + Simulus + Loop Transformer.
+
+Chaque ligne sera comparée sur prédiction d'état, réussite de planification,
+rappel long, transfert entre modalités, reward, latence, mémoire et énergie.
+Les variantes combinées ne seront conservées que si leur gain subsiste face à
+leurs contrôles séparés et à un modèle de capacité équivalente.
+
 ## Status global
 
 - `Step 1`: done (baseline/engram/engram_noconv text-byte)
