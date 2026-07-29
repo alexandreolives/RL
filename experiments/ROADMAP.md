@@ -33,6 +33,23 @@ des normes latentes, coût/latence et robustesse sur dépendances longues.
 
 Statut : **planifié, module générique à implémenter**.
 
+### C — Quantification ternaire / 1,58 bit
+
+Construire une voie QAT progressive vers des poids ternaires
+`{-1, 0, +1}`, avec facteurs d'échelle appris. Le modèle haute précision
+servira de contrôle ; la contrainte sera introduite graduellement avant une
+éventuelle étape de déploiement avec kernel ternaire dédié. Cette voie doit
+être testée séparément sur le Transformer dense, le Loop Transformer et les
+experts dynamiques afin d'identifier les interactions réelles.
+
+Critères de validation : perte et perplexité, dérive numérique, distribution
+des poids/activations, paramètres et mémoire, latence, énergie par token ou
+par étape RL, et rapport qualité/coût face à FP16/BF16 et à la quantification
+post-entraînement. Aucun gain matériel ne sera revendiqué sans kernel ou
+mesure hardware correspondante.
+
+Statut : **planifié, kernel ternaire et QAT à implémenter**.
+
 ## Status global
 
 - `Step 1`: done (baseline/engram/engram_noconv text-byte)
