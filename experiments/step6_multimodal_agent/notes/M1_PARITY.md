@@ -15,3 +15,17 @@ Seed-0 smoke results:
 The longer task exposes a capacity/training issue rather than proving a model
 ranking. It is substantially more informative than the single-cue task and is
 the target for the next multi-seed run.
+
+Three-seed follow-up at length 16 (100 episodes each):
+
+| Seed | GRU | Loop stateful |
+|---:|---:|---:|
+| 0 | 1.00 | 0.80 |
+| 1 | 1.00 | 0.45 |
+| 2 | 1.00 | 0.30 |
+| **mean** | **1.00** | **0.517** |
+
+The GRU control is more reliable on this under-trained parity setup. This is
+useful negative evidence for the current Loop implementation: the shared
+attention core needs better optimization or a more suitable state update
+before it can replace a recurrent control.
