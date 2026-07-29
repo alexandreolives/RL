@@ -53,6 +53,8 @@ The broader hybrid recurrent MoE/ternary research proposal and its falsifiable
 test plan are documented in [docs/RESEARCH_PROGRAM.md](docs/RESEARCH_PROGRAM.md).
 The routing design and its ablation protocol are specified in
 [docs/ROUTER_TECHNICAL_NOTE.md](docs/ROUTER_TECHNICAL_NOTE.md).
+The exhaustive milestone checklist is tracked in
+[docs/TODO_ROADMAP.md](docs/TODO_ROADMAP.md).
 
 The long-term target is a **multimodal adaptive agent**: a MoE-LoRA system
 that can grow new experts, repeatedly refine a latent state with a Loop
