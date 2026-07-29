@@ -90,6 +90,34 @@ replacement, EMA on/off, expert retirement, and continual-RL replay controls.
 Report reward, regret after distribution shifts, expert load/Gini, active
 parameters, expansion count, and recovery time after a task switch.
 
+### 7. Action-conditioned latent world model (JEPA × Simulus)
+
+The Simulus paper pack contains *M^3: A Modular World Model over Streams of
+Tokens*, which is the closest existing branch to this proposal. Its modular
+streams provide a useful interface for separating state, memory, and control
+signals. The JEPA hypothesis complements it: encode an observation into a
+latent state, predict the future latent state conditioned on an action, and
+use the predicted states for policy learning or planning instead of decoding
+every pixel or token.
+
+This is a connection of mechanisms, not a claim that the current repository
+already implements Simulus or a complete world model. The missing end-to-end
+loop is: observation encoder → modular latent streams → action-conditioned
+predictor/recurrent core → policy/value or planner. Engram, Attention
+Residuals/mHC, recurrence, and dynamic activations should be treated as
+orthogonal ablations on that loop, with identical data and active-FLOP
+budgets.
+
+Tests: latent sufficiency probes, next-state prediction, action-conditioned
+counterfactuals, short-horizon planning success, long-horizon rollout error,
+transfer under dynamics/camera/object-composition shifts, information retained
+versus latent bandwidth, and wall-time/energy per environment step. Compare a
+pixel/autoencoder baseline, an action-free JEPA predictor, a JEPA predictor
+with actions, and the modular Simulus-style stream variant. Record collapse
+statistics (variance/covariance), calibration, reward, active parameters, and
+compute so representation quality is not confused with language-model or
+tracking performance.
+
 ## Evaluation matrix
 
 Every claim should be evaluated across short and long contexts, multiple

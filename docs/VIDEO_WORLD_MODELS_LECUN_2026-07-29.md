@@ -124,6 +124,10 @@ questions doivent être séparées des expériences d’architecture du modèle.
    une autre dynamique, caméra ou composition d’objets.
 6. Comparer ensuite les activations dynamiques, Engram, AttnRes/mHC et la
    récurrence avec un budget de calcul égal.
+7. Intégrer la branche [JEPA + Simulus](../papers/targets/jepa_simulus/README.md) :
+   flux latents modulaires, prédiction du prochain état latent conditionnée par
+   l'action, puis planification/politique. La branche Simulus est une inspiration
+   architecturale et non une implémentation déjà validée dans ce dépôt.
 
 ## Références historiques à conserver
 
