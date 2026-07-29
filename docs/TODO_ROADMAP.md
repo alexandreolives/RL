@@ -115,10 +115,20 @@ résultats sont archivés.
 
 - [ ] Ajouter des têtes MTP `k=2,4,8` sur le tronc partagé, avec perte auxiliaire
   et contrôle next-token-only.
+- [ ] Ajouter les configurations de décodage par blocs `B=8` et `B=16`, avec
+  partage des états/KV et comparaison à `B=1`.
 - [ ] Tester une factorisation causale des tokens futurs, une tête indépendante
   et une dépendance Markov/probabiliste entre propositions.
 - [ ] Ajouter vérification spéculative par le modèle principal et mesurer taux
   d'acceptation, tokens acceptés par passe, qualité et accélération réelle.
+- [ ] Ajouter un score de confiance par position et un arrêt précoce lorsque
+  la probabilité d'acceptation ou la confiance Markov conditionnelle tombe sous
+  un seuil ; comparer seuil fixe, seuil calibré et budget adaptatif.
+- [ ] Tester l'arrêt au token `j` dans chaque bloc (`1 ≤ j ≤ B`) et le fallback
+  immédiat au bloc suivant lorsque `j` est rejeté.
+- [ ] Mesurer longueur acceptée, distribution des arrêts, taux de rejet,
+  qualité de l'échantillonnage et coût de la vérification, sans confondre
+  confiance du draft avec probabilité correcte du modèle cible.
 - [ ] Adapter le mécanisme au byte-level et aux flux latents multimodaux.
 - [ ] Implémenter un expert diffusion latent à 1–4 étapes avec conditionnement
   timestep, puis le router seulement sur les états incertains.

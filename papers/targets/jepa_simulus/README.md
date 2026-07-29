@@ -44,7 +44,11 @@ experts de diffusion, mais ils ne doivent pas être confondus :
 - [Multi-Token Residual Prediction](https://arxiv.org/abs/2605.18817) : module de prédiction de résidu entre étapes de débruitage pour diffusion de langage, avec modes direct et spéculatif.
 - [Fast and Expressive Multi-Token Prediction with Probabilistic Circuits](https://arxiv.org/abs/2511.11346) : distributions jointes de tokens futurs via circuits probabilistes, incluant des structures de type Markov et des variantes compatibles avec la spéculation.
 - [On multi-token prediction for efficient LLM inference](https://arxiv.org/abs/2502.09419) : analyse des capacités MTP latentes des modèles entraînés en next-token.
+- [GLM-5.2 — Z.ai technical blog](https://z.ai/blog/glm-5.2) : MTP multi-step avec paramètres partagés, partage d'index/KV et rejection sampling ; Z.ai rapporte une hausse de 20 % de la longueur acceptée dans son ablation.
+- [Kimi K3 serving notes](https://vllm-project.github.io/vllm/blog/k3.html) : décrit une confidence head qui prédit l'acceptation des tokens proposés et élague les propositions faibles avant vérification.
 
 À ce stade, aucune source primaire consultée ne confirme que le travail
 Markov/multi-token ci-dessus provient de Z.ai. L'attribution Z.ai reste donc une
-hypothèse à vérifier avant publication.
+hypothèse à vérifier avant publication. Les deux sources industrielles ci-dessus
+confirment toutefois le mécanisme général « proposer plusieurs tokens, estimer
+la confiance/acceptation, arrêter ou vérifier tôt ».
