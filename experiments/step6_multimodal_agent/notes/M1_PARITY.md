@@ -145,3 +145,9 @@ closer to the GRU's 62,790, and scores `[1.00, 0.90, 1.00, 0.85, 0.25]`
 (mean **0.80**, std **0.314**) on the same 5×50 length-32 protocol. Reducing
 width does not remove the Loop's seed sensitivity; parameter count alone is
 not the explanation for the observed variance.
+
+The Loop now uses identity-biased LayerScale residuals (initial scale 0.1) on
+each shared block, providing a gradient highway for deeper unrolling. A quick
+3-seed smoke at depth 2 reached mean **0.917** (std **0.104**) for both one
+and two iterations. This is a stability mechanism, not yet a statistically
+validated gain; the earlier five-seed tables remain the baseline reference.
