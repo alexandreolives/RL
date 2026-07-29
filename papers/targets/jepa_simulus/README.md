@@ -48,6 +48,7 @@ experts de diffusion, mais ils ne doivent pas être confondus :
 - [Kimi K3 serving notes](https://vllm-project.github.io/vllm/blog/k3.html) : décrit une confidence head qui prédit l'acceptation des tokens proposés et élague les propositions faibles avant vérification.
 - [Kimi K3 technical report](https://arxiv.org/abs/2607.24653) : architecture multimodale avec Kimi Delta Attention (KDA), hybridation KDA/MLA, Attention Residuals et Stable LatentMoE.
 - [Kimi K3 source repository](https://github.com/MoonshotAI/Kimi-K3) : rapport technique et artefacts officiels.
+- [DSpark: Confidence-Scheduled Speculative Decoding with Semi-Autoregressive Generation](https://arxiv.org/abs/2607.05147) : draft multi-token semi-autoregressif, dépendances intra-bloc et vérification adaptative selon la survie du préfixe.
 
 À ce stade, aucune source primaire consultée ne confirme que le travail
 Markov/multi-token ci-dessus provient de Z.ai. L'attribution Z.ai reste donc une

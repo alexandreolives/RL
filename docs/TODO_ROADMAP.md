@@ -163,6 +163,23 @@ résultats sont archivés.
 - [ ] Mesurer coût moyen/pire cas, calibration, cohérence temporelle et qualité
   sans attribuer à tort les résultats à Z.ai ou à un papier particulier.
 
+## M2 — DSpark : vérification semi-autoregressive adaptative
+
+- [ ] Implémenter un drafter parallèle qui propose un bloc de `B=8` puis `B=16`
+  tokens depuis un tronc partagé.
+- [ ] Ajouter un petit module séquentiel intra-bloc pour réintroduire la
+  dépendance entre tokens proposés et mesurer la suffix decay.
+- [ ] Estimer la probabilité de survie de chaque préfixe et vérifier seulement
+  le préfixe utile ; comparer à la vérification du bloc complet.
+- [ ] Calibrer le seuil selon difficulté, longueur de contexte et charge/
+  throughput du serveur, sans changer la distribution finale vérifiée.
+- [ ] Comparer MTP indépendant, DSpark-like, EAGLE et autoregressif à qualité
+  identique : longueur acceptée, tokens/passe, latence p50/p95, débit et coût.
+- [ ] Réutiliser les KV/index du premier pas lorsque possible et mesurer le
+  gain mémoire séparément du gain de calcul.
+- [ ] Tester l'analogie avec le Loop Transformer : FFT/SSM/routeur rapide en
+  proposition, attention récurrente en vérification, puis halting adaptatif.
+
 ## M2 — Multimodal documents/OCR
 
 - [ ] Finaliser ingestion PDF/image, OCR, layout et ordre de lecture.

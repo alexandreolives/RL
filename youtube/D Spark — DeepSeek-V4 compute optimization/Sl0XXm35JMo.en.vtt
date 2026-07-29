@@ -1,0 +1,4040 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.510 align:start position:0%
+ 
+I<00:00:00.200><c> still</c><00:00:00.440><c> cannot</c><00:00:00.680><c> believe</c><00:00:00.920><c> the</c><00:00:01.040><c> fact</c><00:00:01.280><c> that</c>
+
+00:00:01.510 --> 00:00:01.520 align:start position:0%
+I still cannot believe the fact that
+ 
+
+00:00:01.520 --> 00:00:03.710 align:start position:0%
+I still cannot believe the fact that
+after<00:00:01.840><c> spending</c><00:00:02.120><c> a</c><00:00:02.200><c> total</c><00:00:02.520><c> of</c><00:00:02.760><c> 45</c><00:00:03.440><c> minutes</c>
+
+00:00:03.710 --> 00:00:03.720 align:start position:0%
+after spending a total of 45 minutes
+ 
+
+00:00:03.720 --> 00:00:05.670 align:start position:0%
+after spending a total of 45 minutes
+going<00:00:03.960><c> through</c><00:00:04.120><c> a</c><00:00:04.160><c> staggering</c><00:00:04.720><c> 58</c><00:00:05.440><c> page</c>
+
+00:00:05.670 --> 00:00:05.680 align:start position:0%
+going through a staggering 58 page
+ 
+
+00:00:05.680 --> 00:00:07.830 align:start position:0%
+going through a staggering 58 page
+report<00:00:06.080><c> explaining</c><00:00:06.560><c> the</c><00:00:06.680><c> latest</c><00:00:07.040><c> DeepSpeed</c><00:00:07.600><c> 4</c>
+
+00:00:07.830 --> 00:00:07.840 align:start position:0%
+report explaining the latest DeepSpeed 4
+ 
+
+00:00:07.840 --> 00:00:09.230 align:start position:0%
+report explaining the latest DeepSpeed 4
+release,<00:00:08.320><c> which</c><00:00:08.480><c> includes</c><00:00:08.920><c> its</c><00:00:09.080><c> new</c>
+
+00:00:09.230 --> 00:00:09.240 align:start position:0%
+release, which includes its new
+ 
+
+00:00:09.240 --> 00:00:11.030 align:start position:0%
+release, which includes its new
+attention<00:00:09.640><c> mechanism</c><00:00:10.240><c> all</c><00:00:10.400><c> the</c><00:00:10.520><c> way</c><00:00:10.720><c> to</c><00:00:10.880><c> its</c>
+
+00:00:11.030 --> 00:00:11.040 align:start position:0%
+attention mechanism all the way to its
+ 
+
+00:00:11.040 --> 00:00:13.030 align:start position:0%
+attention mechanism all the way to its
+new<00:00:11.240><c> infrastructure</c><00:00:11.880><c> implementations,</c><00:00:12.840><c> they</c>
+
+00:00:13.030 --> 00:00:13.040 align:start position:0%
+new infrastructure implementations, they
+ 
+
+00:00:13.040 --> 00:00:14.510 align:start position:0%
+new infrastructure implementations, they
+still<00:00:13.200><c> have</c><00:00:13.360><c> something</c><00:00:13.720><c> up</c><00:00:13.840><c> their</c><00:00:14.000><c> sleeves</c>
+
+00:00:14.510 --> 00:00:14.520 align:start position:0%
+still have something up their sleeves
+ 
+
+00:00:14.520 --> 00:00:16.550 align:start position:0%
+still have something up their sleeves
+ready<00:00:14.760><c> to</c><00:00:14.880><c> share</c><00:00:15.240><c> that</c><00:00:15.520><c> is</c><00:00:15.720><c> related</c><00:00:16.320><c> to</c><00:00:16.440><c> their</c>
+
+00:00:16.550 --> 00:00:16.560 align:start position:0%
+ready to share that is related to their
+ 
+
+00:00:16.560 --> 00:00:18.990 align:start position:0%
+ready to share that is related to their
+development<00:00:17.080><c> of</c><00:00:17.200><c> V4.</c><00:00:17.800><c> And</c><00:00:17.960><c> when</c><00:00:18.160><c> I</c><00:00:18.240><c> say</c><00:00:18.480><c> share,</c>
+
+00:00:18.990 --> 00:00:19.000 align:start position:0%
+development of V4. And when I say share,
+ 
+
+00:00:19.000 --> 00:00:20.790 align:start position:0%
+development of V4. And when I say share,
+it's<00:00:19.160><c> not</c><00:00:19.400><c> some</c><00:00:19.600><c> simple</c><00:00:20.080><c> features</c><00:00:20.560><c> that</c><00:00:20.680><c> can</c>
+
+00:00:20.790 --> 00:00:20.800 align:start position:0%
+it's not some simple features that can
+ 
+
+00:00:20.800 --> 00:00:22.950 align:start position:0%
+it's not some simple features that can
+be<00:00:20.960><c> explained</c><00:00:21.520><c> in</c><00:00:21.680><c> a</c><00:00:21.760><c> Twitter</c><00:00:22.120><c> thread.</c><00:00:22.640><c> I</c><00:00:22.800><c> am</c>
+
+00:00:22.950 --> 00:00:22.960 align:start position:0%
+be explained in a Twitter thread. I am
+ 
+
+00:00:22.960 --> 00:00:25.390 align:start position:0%
+be explained in a Twitter thread. I am
+talking<00:00:23.240><c> about</c><00:00:23.560><c> an</c><00:00:23.720><c> additional</c><00:00:24.440><c> 33</c><00:00:25.080><c> page</c>
+
+00:00:25.390 --> 00:00:25.400 align:start position:0%
+talking about an additional 33 page
+ 
+
+00:00:25.400 --> 00:00:27.430 align:start position:0%
+talking about an additional 33 page
+technical<00:00:25.760><c> report</c><00:00:26.160><c> outlining</c><00:00:26.640><c> their</c><00:00:26.880><c> insane</c>
+
+00:00:27.430 --> 00:00:27.440 align:start position:0%
+technical report outlining their insane
+ 
+
+00:00:27.440 --> 00:00:29.470 align:start position:0%
+technical report outlining their insane
+inference<00:00:27.920><c> implementation,</c><00:00:29.040><c> which</c><00:00:29.280><c> is</c>
+
+00:00:29.470 --> 00:00:29.480 align:start position:0%
+inference implementation, which is
+ 
+
+00:00:29.480 --> 00:00:31.950 align:start position:0%
+inference implementation, which is
+capable<00:00:29.840><c> of</c><00:00:30.000><c> giving</c><00:00:30.320><c> V4</c><00:00:30.800><c> 50%</c><00:00:31.720><c> higher</c>
+
+00:00:31.950 --> 00:00:31.960 align:start position:0%
+capable of giving V4 50% higher
+ 
+
+00:00:31.960 --> 00:00:33.590 align:start position:0%
+capable of giving V4 50% higher
+throughput<00:00:32.480><c> in</c><00:00:32.560><c> production</c><00:00:33.200><c> and</c><00:00:33.360><c> even</c>
+
+00:00:33.590 --> 00:00:33.600 align:start position:0%
+throughput in production and even
+ 
+
+00:00:33.600 --> 00:00:35.910 align:start position:0%
+throughput in production and even
+hitting<00:00:33.880><c> 660%</c><00:00:35.040><c> higher</c><00:00:35.320><c> in</c><00:00:35.440><c> stricter</c>
+
+00:00:35.910 --> 00:00:35.920 align:start position:0%
+hitting 660% higher in stricter
+ 
+
+00:00:35.920 --> 00:00:37.430 align:start position:0%
+hitting 660% higher in stricter
+settings.<00:00:36.520><c> I</c><00:00:36.640><c> don't</c><00:00:36.840><c> know</c><00:00:37.000><c> how</c><00:00:37.120><c> they</c><00:00:37.280><c> have</c>
+
+00:00:37.430 --> 00:00:37.440 align:start position:0%
+settings. I don't know how they have
+ 
+
+00:00:37.440 --> 00:00:39.310 align:start position:0%
+settings. I don't know how they have
+this<00:00:37.600><c> insane</c><00:00:38.000><c> capacity</c><00:00:38.560><c> to</c><00:00:38.680><c> publish</c><00:00:39.040><c> another</c>
+
+00:00:39.310 --> 00:00:39.320 align:start position:0%
+this insane capacity to publish another
+ 
+
+00:00:39.320 --> 00:00:41.350 align:start position:0%
+this insane capacity to publish another
+research<00:00:39.680><c> paper</c><00:00:40.040><c> right</c><00:00:40.360><c> after</c><00:00:40.760><c> an</c><00:00:40.920><c> already</c>
+
+00:00:41.350 --> 00:00:41.360 align:start position:0%
+research paper right after an already
+ 
+
+00:00:41.360 --> 00:00:43.510 align:start position:0%
+research paper right after an already
+huge<00:00:41.760><c> technical</c><00:00:42.080><c> report</c><00:00:42.440><c> a</c><00:00:42.520><c> few</c><00:00:42.760><c> months</c><00:00:43.040><c> back.</c>
+
+00:00:43.510 --> 00:00:43.520 align:start position:0%
+huge technical report a few months back.
+ 
+
+00:00:43.520 --> 00:00:45.390 align:start position:0%
+huge technical report a few months back.
+But<00:00:43.760><c> by</c><00:00:43.960><c> now,</c><00:00:44.480><c> you</c><00:00:44.680><c> would</c><00:00:44.880><c> have</c><00:00:45.080><c> probably</c>
+
+00:00:45.390 --> 00:00:45.400 align:start position:0%
+But by now, you would have probably
+ 
+
+00:00:45.400 --> 00:00:46.990 align:start position:0%
+But by now, you would have probably
+realized<00:00:45.800><c> that</c><00:00:46.040><c> all</c><00:00:46.160><c> the</c><00:00:46.320><c> things</c><00:00:46.560><c> DeepSpeed</c>
+
+00:00:46.990 --> 00:00:47.000 align:start position:0%
+realized that all the things DeepSpeed
+ 
+
+00:00:47.000 --> 00:00:49.510 align:start position:0%
+realized that all the things DeepSpeed
+open-sourced<00:00:47.560><c> so</c><00:00:47.720><c> far</c><00:00:48.240><c> are</c><00:00:48.520><c> actually</c><00:00:48.960><c> not</c>
+
+00:00:49.510 --> 00:00:49.520 align:start position:0%
+open-sourced so far are actually not
+ 
+
+00:00:49.520 --> 00:00:52.190 align:start position:0%
+open-sourced so far are actually not
+meant<00:00:49.840><c> for</c><00:00:50.160><c> us</c><00:00:50.480><c> GPU</c><00:00:51.000><c> pores.</c><00:00:51.480><c> From</c><00:00:51.680><c> open-source</c>
+
+00:00:52.190 --> 00:00:52.200 align:start position:0%
+meant for us GPU pores. From open-source
+ 
+
+00:00:52.200 --> 00:00:53.950 align:start position:0%
+meant for us GPU pores. From open-source
+low-level<00:00:52.640><c> libraries</c><00:00:53.080><c> like</c><00:00:53.200><c> Deep</c><00:00:53.440><c> Gem</c><00:00:53.840><c> to</c>
+
+00:00:53.950 --> 00:00:53.960 align:start position:0%
+low-level libraries like Deep Gem to
+ 
+
+00:00:53.960 --> 00:00:56.350 align:start position:0%
+low-level libraries like Deep Gem to
+their<00:00:54.120><c> distributed</c><00:00:54.680><c> file</c><00:00:54.920><c> system</c><00:00:55.320><c> 3FS,</c>
+
+00:00:56.350 --> 00:00:56.360 align:start position:0%
+their distributed file system 3FS,
+ 
+
+00:00:56.360 --> 00:00:58.430 align:start position:0%
+their distributed file system 3FS,
+notice<00:00:56.760><c> how</c><00:00:57.000><c> none</c><00:00:57.360><c> of</c><00:00:57.480><c> these</c><00:00:57.760><c> are</c><00:00:58.040><c> actually</c>
+
+00:00:58.430 --> 00:00:58.440 align:start position:0%
+notice how none of these are actually
+ 
+
+00:00:58.440 --> 00:01:00.710 align:start position:0%
+notice how none of these are actually
+that<00:00:58.880><c> beneficial</c><00:00:59.560><c> for</c><00:01:00.080><c> us</c><00:01:00.280><c> everyday</c>
+
+00:01:00.710 --> 00:01:00.720 align:start position:0%
+that beneficial for us everyday
+ 
+
+00:01:00.720 --> 00:01:02.710 align:start position:0%
+that beneficial for us everyday
+individuals.<00:01:01.440><c> Like</c><00:01:01.800><c> all</c><00:01:02.000><c> these</c><00:01:02.240><c> libraries</c>
+
+00:01:02.710 --> 00:01:02.720 align:start position:0%
+individuals. Like all these libraries
+ 
+
+00:01:02.720 --> 00:01:04.189 align:start position:0%
+individuals. Like all these libraries
+are<00:01:02.840><c> meant</c><00:01:03.120><c> for</c><00:01:03.280><c> people</c><00:01:03.600><c> that</c><00:01:03.800><c> have</c><00:01:04.120><c> a</c>
+
+00:01:04.189 --> 00:01:04.199 align:start position:0%
+are meant for people that have a
+ 
+
+00:01:04.199 --> 00:01:06.230 align:start position:0%
+are meant for people that have a
+million-dollar<00:01:04.920><c> GPU</c><00:01:05.320><c> cluster</c><00:01:05.640><c> setup</c><00:01:06.040><c> and</c>
+
+00:01:06.230 --> 00:01:06.240 align:start position:0%
+million-dollar GPU cluster setup and
+ 
+
+00:01:06.240 --> 00:01:07.950 align:start position:0%
+million-dollar GPU cluster setup and
+would<00:01:06.440><c> need</c><00:01:06.680><c> to</c><00:01:06.760><c> transfer</c><00:01:07.120><c> a</c><00:01:07.200><c> few</c><00:01:07.440><c> terabytes</c>
+
+00:01:07.950 --> 00:01:07.960 align:start position:0%
+would need to transfer a few terabytes
+ 
+
+00:01:07.960 --> 00:01:10.190 align:start position:0%
+would need to transfer a few terabytes
+of<00:01:08.120><c> information</c><00:01:08.880><c> in</c><00:01:09.040><c> just</c><00:01:09.200><c> a</c><00:01:09.280><c> few</c><00:01:09.480><c> seconds.</c>
+
+00:01:10.190 --> 00:01:10.200 align:start position:0%
+of information in just a few seconds.
+ 
+
+00:01:10.200 --> 00:01:11.990 align:start position:0%
+of information in just a few seconds.
+However,<00:01:10.760><c> not</c><00:01:11.000><c> being</c><00:01:11.240><c> able</c><00:01:11.440><c> to</c><00:01:11.560><c> use</c><00:01:11.800><c> it</c>
+
+00:01:11.990 --> 00:01:12.000 align:start position:0%
+However, not being able to use it
+ 
+
+00:01:12.000 --> 00:01:13.830 align:start position:0%
+However, not being able to use it
+doesn't<00:01:12.240><c> mean</c><00:01:12.480><c> we</c><00:01:12.640><c> cannot</c><00:01:13.200><c> appreciate</c><00:01:13.760><c> the</c>
+
+00:01:13.830 --> 00:01:13.840 align:start position:0%
+doesn't mean we cannot appreciate the
+ 
+
+00:01:13.840 --> 00:01:15.390 align:start position:0%
+doesn't mean we cannot appreciate the
+work,<00:01:14.160><c> right?</c><00:01:14.520><c> It's</c><00:01:14.720><c> like</c><00:01:14.880><c> you</c><00:01:15.000><c> don't</c><00:01:15.160><c> have</c><00:01:15.320><c> to</c>
+
+00:01:15.390 --> 00:01:15.400 align:start position:0%
+work, right? It's like you don't have to
+ 
+
+00:01:15.400 --> 00:01:17.310 align:start position:0%
+work, right? It's like you don't have to
+draw<00:01:15.640><c> like</c><00:01:15.880><c> Monet</c><00:01:16.400><c> to</c><00:01:16.640><c> appreciate</c><00:01:17.160><c> their</c>
+
+00:01:17.310 --> 00:01:17.320 align:start position:0%
+draw like Monet to appreciate their
+ 
+
+00:01:17.320 --> 00:01:18.950 align:start position:0%
+draw like Monet to appreciate their
+paintings.<00:01:17.920><c> And</c><00:01:18.040><c> DeepSpeed</c><00:01:18.440><c> sharing</c><00:01:18.760><c> their</c>
+
+00:01:18.950 --> 00:01:18.960 align:start position:0%
+paintings. And DeepSpeed sharing their
+ 
+
+00:01:18.960 --> 00:01:20.830 align:start position:0%
+paintings. And DeepSpeed sharing their
+knowledge<00:01:19.440><c> feels</c><00:01:19.800><c> just</c><00:01:20.080><c> like</c><00:01:20.320><c> watching</c><00:01:20.760><c> a</c>
+
+00:01:20.830 --> 00:01:20.840 align:start position:0%
+knowledge feels just like watching a
+ 
+
+00:01:20.840 --> 00:01:23.110 align:start position:0%
+knowledge feels just like watching a
+master<00:01:21.240><c> at</c><00:01:21.360><c> work.</c><00:01:21.840><c> So</c><00:01:21.960><c> in</c><00:01:22.040><c> today's</c><00:01:22.400><c> video,</c><00:01:22.880><c> let</c>
+
+00:01:23.110 --> 00:01:23.120 align:start position:0%
+master at work. So in today's video, let
+ 
+
+00:01:23.120 --> 00:01:25.310 align:start position:0%
+master at work. So in today's video, let
+us<00:01:23.280><c> dive</c><00:01:23.520><c> into</c><00:01:23.800><c> how</c><00:01:24.040><c> DeepSpeed</c><00:01:24.600><c> found</c><00:01:24.920><c> ways</c><00:01:25.200><c> to</c>
+
+00:01:25.310 --> 00:01:25.320 align:start position:0%
+us dive into how DeepSpeed found ways to
+ 
+
+00:01:25.320 --> 00:01:27.550 align:start position:0%
+us dive into how DeepSpeed found ways to
+take<00:01:25.560><c> LLM</c><00:01:25.920><c> inferencing</c><00:01:26.520><c> to</c><00:01:26.640><c> a</c><00:01:26.720><c> speed</c><00:01:27.080><c> that</c><00:01:27.320><c> no</c>
+
+00:01:27.550 --> 00:01:27.560 align:start position:0%
+take LLM inferencing to a speed that no
+ 
+
+00:01:27.560 --> 00:01:29.630 align:start position:0%
+take LLM inferencing to a speed that no
+other<00:01:27.760><c> models</c><00:01:28.160><c> have</c><00:01:28.480><c> ever</c><00:01:28.720><c> come</c><00:01:28.960><c> close</c><00:01:29.400><c> out</c><00:01:29.560><c> of</c>
+
+00:01:29.630 --> 00:01:29.640 align:start position:0%
+other models have ever come close out of
+ 
+
+00:01:29.640 --> 00:01:31.710 align:start position:0%
+other models have ever come close out of
+the<00:01:29.760><c> box.</c><00:01:30.440><c> But</c><00:01:30.520><c> before</c><00:01:30.800><c> we</c><00:01:30.920><c> dive</c><00:01:31.160><c> into</c><00:01:31.440><c> it,</c><00:01:31.600><c> if</c>
+
+00:01:31.710 --> 00:01:31.720 align:start position:0%
+the box. But before we dive into it, if
+ 
+
+00:01:31.720 --> 00:01:32.870 align:start position:0%
+the box. But before we dive into it, if
+you<00:01:31.800><c> have</c><00:01:31.960><c> actually</c><00:01:32.240><c> tried</c><00:01:32.440><c> to</c><00:01:32.520><c> build</c><00:01:32.760><c> AI</c>
+
+00:01:32.870 --> 00:01:32.880 align:start position:0%
+you have actually tried to build AI
+ 
+
+00:01:32.880 --> 00:01:34.670 align:start position:0%
+you have actually tried to build AI
+workflows<00:01:33.360><c> for</c><00:01:33.480><c> your</c><00:01:33.600><c> work</c><00:01:33.840><c> or</c><00:01:33.960><c> projects,</c><00:01:34.560><c> you</c>
+
+00:01:34.670 --> 00:01:34.680 align:start position:0%
+workflows for your work or projects, you
+ 
+
+00:01:34.680 --> 00:01:36.070 align:start position:0%
+workflows for your work or projects, you
+would<00:01:34.880><c> know</c><00:01:35.080><c> the</c><00:01:35.200><c> pain</c><00:01:35.480><c> is</c><00:01:35.640><c> usually</c><00:01:35.880><c> not</c>
+
+00:01:36.070 --> 00:01:36.080 align:start position:0%
+would know the pain is usually not
+ 
+
+00:01:36.080 --> 00:01:37.830 align:start position:0%
+would know the pain is usually not
+trying<00:01:36.280><c> to</c><00:01:36.360><c> prompt</c><00:01:36.600><c> engineer</c><00:01:37.080><c> the</c><00:01:37.200><c> model,</c><00:01:37.680><c> but</c>
+
+00:01:37.830 --> 00:01:37.840 align:start position:0%
+trying to prompt engineer the model, but
+ 
+
+00:01:37.840 --> 00:01:39.110 align:start position:0%
+trying to prompt engineer the model, but
+everything<00:01:38.200><c> that</c><00:01:38.360><c> you</c><00:01:38.400><c> have</c><00:01:38.520><c> to</c><00:01:38.640><c> gather</c><00:01:39.000><c> and</c>
+
+00:01:39.110 --> 00:01:39.120 align:start position:0%
+everything that you have to gather and
+ 
+
+00:01:39.120 --> 00:01:40.870 align:start position:0%
+everything that you have to gather and
+connect<00:01:39.440><c> them</c><00:01:39.600><c> with</c><00:01:39.760><c> logic</c><00:01:40.160><c> from</c><00:01:40.400><c> all</c><00:01:40.600><c> kinds</c>
+
+00:01:40.870 --> 00:01:40.880 align:start position:0%
+connect them with logic from all kinds
+ 
+
+00:01:40.880 --> 00:01:42.550 align:start position:0%
+connect them with logic from all kinds
+of<00:01:41.000><c> places.</c><00:01:41.560><c> So</c><00:01:41.720><c> what</c><00:01:41.840><c> if</c><00:01:41.960><c> instead</c><00:01:42.280><c> of</c><00:01:42.400><c> you</c>
+
+00:01:42.550 --> 00:01:42.560 align:start position:0%
+of places. So what if instead of you
+ 
+
+00:01:42.560 --> 00:01:44.550 align:start position:0%
+of places. So what if instead of you
+manually<00:01:43.200><c> moving</c><00:01:43.480><c> outputs</c><00:01:43.840><c> between</c><00:01:44.200><c> apps,</c>
+
+00:01:44.550 --> 00:01:44.560 align:start position:0%
+manually moving outputs between apps,
+ 
+
+00:01:44.560 --> 00:01:46.430 align:start position:0%
+manually moving outputs between apps,
+there<00:01:44.840><c> is</c><00:01:45.040><c> an</c><00:01:45.240><c> app</c><00:01:45.480><c> that</c><00:01:45.680><c> helps</c><00:01:46.000><c> you</c><00:01:46.160><c> bridge</c>
+
+00:01:46.430 --> 00:01:46.440 align:start position:0%
+there is an app that helps you bridge
+ 
+
+00:01:46.440 --> 00:01:47.990 align:start position:0%
+there is an app that helps you bridge
+all<00:01:46.560><c> these</c><00:01:46.800><c> things</c><00:01:47.120><c> together.</c><00:01:47.640><c> This</c><00:01:47.800><c> is</c><00:01:47.880><c> where</c>
+
+00:01:47.990 --> 00:01:48.000 align:start position:0%
+all these things together. This is where
+ 
+
+00:01:48.000 --> 00:01:50.550 align:start position:0%
+all these things together. This is where
+today's<00:01:48.280><c> sponsor</c><00:01:48.880><c> Make</c><00:01:49.320><c> comes</c><00:01:49.640><c> in.</c><00:01:50.040><c> Make</c><00:01:50.360><c> is</c><00:01:50.480><c> a</c>
+
+00:01:50.550 --> 00:01:50.560 align:start position:0%
+today's sponsor Make comes in. Make is a
+ 
+
+00:01:50.560 --> 00:01:52.150 align:start position:0%
+today's sponsor Make comes in. Make is a
+visual-first<00:01:51.200><c> platform</c><00:01:51.600><c> for</c><00:01:51.840><c> actually</c>
+
+00:01:52.150 --> 00:01:52.160 align:start position:0%
+visual-first platform for actually
+ 
+
+00:01:52.160 --> 00:01:54.070 align:start position:0%
+visual-first platform for actually
+building<00:01:52.480><c> complex</c><00:01:52.920><c> AI</c><00:01:53.120><c> automations</c><00:01:53.720><c> in</c><00:01:53.840><c> real</c>
+
+00:01:54.070 --> 00:01:54.080 align:start position:0%
+building complex AI automations in real
+ 
+
+00:01:54.080 --> 00:01:56.390 align:start position:0%
+building complex AI automations in real
+time.<00:01:54.480><c> They</c><00:01:54.560><c> support</c><00:01:54.920><c> up</c><00:01:55.040><c> to</c><00:01:55.160><c> 3,000</c><00:01:55.840><c> apps</c><00:01:56.200><c> with</c>
+
+00:01:56.390 --> 00:01:56.400 align:start position:0%
+time. They support up to 3,000 apps with
+ 
+
+00:01:56.400 --> 00:01:58.310 align:start position:0%
+time. They support up to 3,000 apps with
+internal<00:01:56.960><c> logic</c><00:01:57.280><c> modules</c><00:01:57.680><c> or</c><00:01:57.800><c> tools</c><00:01:58.120><c> for</c><00:01:58.240><c> you</c>
+
+00:01:58.310 --> 00:01:58.320 align:start position:0%
+internal logic modules or tools for you
+ 
+
+00:01:58.320 --> 00:02:00.110 align:start position:0%
+internal logic modules or tools for you
+to<00:01:58.440><c> orchestrate</c><00:01:58.920><c> your</c><00:01:59.040><c> workflow.</c><00:01:59.520><c> So,</c><00:01:59.640><c> here</c><00:02:00.040><c> I</c>
+
+00:02:00.110 --> 00:02:00.120 align:start position:0%
+to orchestrate your workflow. So, here I
+ 
+
+00:02:00.120 --> 00:02:01.870 align:start position:0%
+to orchestrate your workflow. So, here I
+built<00:02:00.360><c> a</c><00:02:00.400><c> scenario</c><00:02:00.920><c> of</c><00:02:01.040><c> a</c><00:02:01.080><c> feedback</c><00:02:01.520><c> form</c><00:02:01.760><c> for</c>
+
+00:02:01.870 --> 00:02:01.880 align:start position:0%
+built a scenario of a feedback form for
+ 
+
+00:02:01.880 --> 00:02:03.990 align:start position:0%
+built a scenario of a feedback form for
+my<00:02:02.000><c> platform</c><00:02:02.480><c> intuitive.ai.academy.</c><00:02:03.920><c> I</c>
+
+00:02:03.990 --> 00:02:04.000 align:start position:0%
+my platform intuitive.ai.academy. I
+ 
+
+00:02:04.000 --> 00:02:05.630 align:start position:0%
+my platform intuitive.ai.academy. I
+connect<00:02:04.320><c> a</c><00:02:04.400><c> make</c><00:02:04.640><c> to</c><00:02:04.760><c> that</c><00:02:04.920><c> feedback</c><00:02:05.360><c> form</c>
+
+00:02:05.630 --> 00:02:05.640 align:start position:0%
+connect a make to that feedback form
+ 
+
+00:02:05.640 --> 00:02:07.310 align:start position:0%
+connect a make to that feedback form
+which<00:02:05.840><c> will</c><00:02:06.000><c> automatically</c><00:02:06.720><c> scrape</c><00:02:06.960><c> the</c><00:02:07.080><c> form</c>
+
+00:02:07.310 --> 00:02:07.320 align:start position:0%
+which will automatically scrape the form
+ 
+
+00:02:07.320 --> 00:02:09.190 align:start position:0%
+which will automatically scrape the form
+every<00:02:07.560><c> week</c><00:02:07.880><c> and</c><00:02:08.039><c> observe</c><00:02:08.440><c> the</c><00:02:08.560><c> responses</c><00:02:09.119><c> I</c>
+
+00:02:09.190 --> 00:02:09.200 align:start position:0%
+every week and observe the responses I
+ 
+
+00:02:09.200 --> 00:02:10.710 align:start position:0%
+every week and observe the responses I
+get.<00:02:09.479><c> For</c><00:02:09.640><c> every</c><00:02:09.840><c> feedback</c><00:02:10.240><c> that</c><00:02:10.360><c> a</c><00:02:10.399><c> user</c>
+
+00:02:10.710 --> 00:02:10.720 align:start position:0%
+get. For every feedback that a user
+ 
+
+00:02:10.720 --> 00:02:12.470 align:start position:0%
+get. For every feedback that a user
+enters,<00:02:11.200><c> it'll</c><00:02:11.400><c> automatically</c><00:02:12.040><c> be</c><00:02:12.200><c> sent</c><00:02:12.400><c> to</c>
+
+00:02:12.470 --> 00:02:12.480 align:start position:0%
+enters, it'll automatically be sent to
+ 
+
+00:02:12.480 --> 00:02:14.190 align:start position:0%
+enters, it'll automatically be sent to
+my<00:02:12.560><c> Discord</c><00:02:13.000><c> server's</c><00:02:13.320><c> development</c><00:02:13.880><c> channel</c>
+
+00:02:14.190 --> 00:02:14.200 align:start position:0%
+my Discord server's development channel
+ 
+
+00:02:14.200 --> 00:02:16.030 align:start position:0%
+my Discord server's development channel
+to<00:02:14.280><c> keep</c><00:02:14.480><c> me</c><00:02:14.640><c> updated,</c><00:02:15.200><c> which</c><00:02:15.440><c> is</c><00:02:15.640><c> the</c><00:02:15.760><c> first</c>
+
+00:02:16.030 --> 00:02:16.040 align:start position:0%
+to keep me updated, which is the first
+ 
+
+00:02:16.040 --> 00:02:17.630 align:start position:0%
+to keep me updated, which is the first
+route.<00:02:16.360><c> The</c><00:02:16.480><c> second</c><00:02:16.800><c> route</c><00:02:17.080><c> will</c><00:02:17.280><c> send</c><00:02:17.520><c> the</c>
+
+00:02:17.630 --> 00:02:17.640 align:start position:0%
+route. The second route will send the
+ 
+
+00:02:17.640 --> 00:02:19.470 align:start position:0%
+route. The second route will send the
+user<00:02:17.959><c> a</c><00:02:18.040><c> referral</c><00:02:18.480><c> coupon</c><00:02:19.000><c> when</c><00:02:19.120><c> they</c><00:02:19.240><c> give</c>
+
+00:02:19.470 --> 00:02:19.480 align:start position:0%
+user a referral coupon when they give
+ 
+
+00:02:19.480 --> 00:02:20.990 align:start position:0%
+user a referral coupon when they give
+feedback<00:02:19.880><c> on</c><00:02:20.040><c> how</c><00:02:20.200><c> they</c><00:02:20.360><c> will</c><00:02:20.480><c> recommend</c><00:02:20.920><c> the</c>
+
+00:02:20.990 --> 00:02:21.000 align:start position:0%
+feedback on how they will recommend the
+ 
+
+00:02:21.000 --> 00:02:22.390 align:start position:0%
+feedback on how they will recommend the
+platform<00:02:21.360><c> to</c><00:02:21.480><c> their</c><00:02:21.640><c> friends.</c><00:02:22.080><c> And</c><00:02:22.200><c> there's</c>
+
+00:02:22.390 --> 00:02:22.400 align:start position:0%
+platform to their friends. And there's
+ 
+
+00:02:22.400 --> 00:02:23.949 align:start position:0%
+platform to their friends. And there's
+this<00:02:22.600><c> calendar</c><00:02:22.959><c> that</c><00:02:23.120><c> will</c><00:02:23.280><c> increment</c><00:02:23.760><c> for</c>
+
+00:02:23.949 --> 00:02:23.959 align:start position:0%
+this calendar that will increment for
+ 
+
+00:02:23.959 --> 00:02:25.550 align:start position:0%
+this calendar that will increment for
+every<00:02:24.160><c> submission.</c><00:02:24.800><c> It</c><00:02:25.000><c> will</c><00:02:25.120><c> follow</c><00:02:25.360><c> that</c>
+
+00:02:25.550 --> 00:02:25.560 align:start position:0%
+every submission. It will follow that
+ 
+
+00:02:25.560 --> 00:02:27.190 align:start position:0%
+every submission. It will follow that
+counter<00:02:25.959><c> and</c><00:02:26.120><c> pull</c><00:02:26.360><c> from</c><00:02:26.520><c> the</c><00:02:26.600><c> corresponding</c>
+
+00:02:27.190 --> 00:02:27.200 align:start position:0%
+counter and pull from the corresponding
+ 
+
+00:02:27.200 --> 00:02:28.550 align:start position:0%
+counter and pull from the corresponding
+row<00:02:27.320><c> in</c><00:02:27.400><c> the</c><00:02:27.520><c> Google</c><00:02:27.800><c> Sheets</c><00:02:28.040><c> with</c><00:02:28.160><c> a</c><00:02:28.200><c> unique</c>
+
+00:02:28.550 --> 00:02:28.560 align:start position:0%
+row in the Google Sheets with a unique
+ 
+
+00:02:28.560 --> 00:02:30.550 align:start position:0%
+row in the Google Sheets with a unique
+coupons.<00:02:29.120><c> They</c><00:02:29.240><c> use</c><00:02:29.440><c> ChatGPT</c><00:02:29.920><c> to</c><00:02:30.040><c> format</c><00:02:30.400><c> an</c>
+
+00:02:30.550 --> 00:02:30.560 align:start position:0%
+coupons. They use ChatGPT to format an
+ 
+
+00:02:30.560 --> 00:02:32.270 align:start position:0%
+coupons. They use ChatGPT to format an
+email<00:02:30.880><c> and</c><00:02:31.040><c> send</c><00:02:31.200><c> it</c><00:02:31.320><c> to</c><00:02:31.360><c> the</c><00:02:31.480><c> user.</c><00:02:31.920><c> The</c><00:02:32.000><c> third</c>
+
+00:02:32.270 --> 00:02:32.280 align:start position:0%
+email and send it to the user. The third
+ 
+
+00:02:32.280 --> 00:02:33.949 align:start position:0%
+email and send it to the user. The third
+route<00:02:32.480><c> pulls</c><00:02:32.800><c> everyone</c><00:02:33.200><c> that</c><00:02:33.320><c> gives</c><00:02:33.520><c> the</c><00:02:33.680><c> app</c>
+
+00:02:33.949 --> 00:02:33.959 align:start position:0%
+route pulls everyone that gives the app
+ 
+
+00:02:33.959 --> 00:02:36.190 align:start position:0%
+route pulls everyone that gives the app
+rating<00:02:34.280><c> below</c><00:02:34.560><c> two</c><00:02:35.080><c> have</c><00:02:35.280><c> an</c><00:02:35.440><c> AI</c><00:02:35.640><c> agent</c><00:02:36.040><c> look</c>
+
+00:02:36.190 --> 00:02:36.200 align:start position:0%
+rating below two have an AI agent look
+ 
+
+00:02:36.200 --> 00:02:37.590 align:start position:0%
+rating below two have an AI agent look
+at<00:02:36.360><c> their</c><00:02:36.520><c> feedback</c><00:02:36.959><c> with</c><00:02:37.080><c> reference</c><00:02:37.480><c> to</c><00:02:37.520><c> the</c>
+
+00:02:37.590 --> 00:02:37.600 align:start position:0%
+at their feedback with reference to the
+ 
+
+00:02:37.600 --> 00:02:39.949 align:start position:0%
+at their feedback with reference to the
+content<00:02:38.040><c> library,</c><00:02:38.600><c> create</c><00:02:38.880><c> a</c><00:02:38.920><c> Calendly</c><00:02:39.560><c> link,</c>
+
+00:02:39.949 --> 00:02:39.959 align:start position:0%
+content library, create a Calendly link,
+ 
+
+00:02:39.959 --> 00:02:41.430 align:start position:0%
+content library, create a Calendly link,
+and<00:02:40.080><c> send</c><00:02:40.280><c> an</c><00:02:40.360><c> email</c><00:02:40.640><c> asking</c><00:02:40.880><c> for</c><00:02:41.000><c> potential</c>
+
+00:02:41.430 --> 00:02:41.440 align:start position:0%
+and send an email asking for potential
+ 
+
+00:02:41.440 --> 00:02:43.070 align:start position:0%
+and send an email asking for potential
+improvements<00:02:42.080><c> and</c><00:02:42.240><c> if</c><00:02:42.360><c> they're</c><00:02:42.600><c> willing</c><00:02:42.959><c> to</c>
+
+00:02:43.070 --> 00:02:43.080 align:start position:0%
+improvements and if they're willing to
+ 
+
+00:02:43.080 --> 00:02:44.949 align:start position:0%
+improvements and if they're willing to
+do<00:02:43.320><c> an</c><00:02:43.520><c> user</c><00:02:43.840><c> interview.</c><00:02:44.360><c> So,</c><00:02:44.480><c> if</c><00:02:44.640><c> you</c><00:02:44.720><c> also</c>
+
+00:02:44.949 --> 00:02:44.959 align:start position:0%
+do an user interview. So, if you also
+ 
+
+00:02:44.959 --> 00:02:46.630 align:start position:0%
+do an user interview. So, if you also
+want<00:02:45.120><c> to</c><00:02:45.200><c> build</c><00:02:45.440><c> real</c><00:02:45.680><c> AI</c><00:02:45.880><c> systems</c><00:02:46.280><c> easily</c>
+
+00:02:46.630 --> 00:02:46.640 align:start position:0%
+want to build real AI systems easily
+ 
+
+00:02:46.640 --> 00:02:48.150 align:start position:0%
+want to build real AI systems easily
+just<00:02:46.800><c> like</c><00:02:46.959><c> this,</c><00:02:47.320><c> you</c><00:02:47.440><c> can</c><00:02:47.560><c> get</c><00:02:47.680><c> a</c><00:02:47.760><c> one-month</c>
+
+00:02:48.150 --> 00:02:48.160 align:start position:0%
+just like this, you can get a one-month
+ 
+
+00:02:48.160 --> 00:02:50.590 align:start position:0%
+just like this, you can get a one-month
+free<00:02:48.320><c> pro</c><00:02:48.520><c> plan</c><00:02:48.760><c> with</c><00:02:48.920><c> 10,000</c><00:02:49.480><c> operations,</c><00:02:50.360><c> no</c>
+
+00:02:50.590 --> 00:02:50.600 align:start position:0%
+free pro plan with 10,000 operations, no
+ 
+
+00:02:50.600 --> 00:02:52.310 align:start position:0%
+free pro plan with 10,000 operations, no
+credit<00:02:50.840><c> card</c><00:02:51.040><c> required,</c><00:02:51.720><c> through</c><00:02:51.920><c> the</c><00:02:52.080><c> link</c>
+
+00:02:52.310 --> 00:02:52.320 align:start position:0%
+credit card required, through the link
+ 
+
+00:02:52.320 --> 00:02:53.750 align:start position:0%
+credit card required, through the link
+down<00:02:52.480><c> in</c><00:02:52.560><c> the</c><00:02:52.600><c> description.</c><00:02:53.160><c> And</c><00:02:53.360><c> thank</c><00:02:53.640><c> you</c>
+
+00:02:53.750 --> 00:02:53.760 align:start position:0%
+down in the description. And thank you
+ 
+
+00:02:53.760 --> 00:02:56.030 align:start position:0%
+down in the description. And thank you
+Make<00:02:54.080><c> for</c><00:02:54.240><c> sponsoring</c><00:02:54.680><c> this</c><00:02:54.840><c> video.</c><00:02:55.320><c> Anyways,</c>
+
+00:02:56.030 --> 00:02:56.040 align:start position:0%
+Make for sponsoring this video. Anyways,
+ 
+
+00:02:56.040 --> 00:02:57.910 align:start position:0%
+Make for sponsoring this video. Anyways,
+new<00:02:56.200><c> release</c><00:02:56.520><c> from</c><00:02:56.680><c> DeepSeek</c><00:02:57.120><c> is</c><00:02:57.360><c> called</c><00:02:57.680><c> Deep</c>
+
+00:02:57.910 --> 00:02:57.920 align:start position:0%
+new release from DeepSeek is called Deep
+ 
+
+00:02:57.920 --> 00:02:59.830 align:start position:0%
+new release from DeepSeek is called Deep
+Spec.<00:02:58.360><c> It's</c><00:02:58.600><c> a</c><00:02:58.760><c> GitHub</c><00:02:59.200><c> repository</c>
+
+00:02:59.830 --> 00:02:59.840 align:start position:0%
+Spec. It's a GitHub repository
+ 
+
+00:02:59.840 --> 00:03:01.630 align:start position:0%
+Spec. It's a GitHub repository
+containing<00:03:00.440><c> a</c><00:03:00.519><c> full-stack</c><00:03:01.080><c> codebase</c><00:03:01.519><c> for</c>
+
+00:03:01.630 --> 00:03:01.640 align:start position:0%
+containing a full-stack codebase for
+ 
+
+00:03:01.640 --> 00:03:03.430 align:start position:0%
+containing a full-stack codebase for
+training<00:03:02.040><c> and</c><00:03:02.160><c> evaluating</c><00:03:02.760><c> speculative</c>
+
+00:03:03.430 --> 00:03:03.440 align:start position:0%
+training and evaluating speculative
+ 
+
+00:03:03.440 --> 00:03:05.590 align:start position:0%
+training and evaluating speculative
+decoding<00:03:03.920><c> algorithms,</c><00:03:04.560><c> including</c><00:03:05.120><c> the</c><00:03:05.239><c> paper</c>
+
+00:03:05.590 --> 00:03:05.600 align:start position:0%
+decoding algorithms, including the paper
+ 
+
+00:03:05.600 --> 00:03:07.630 align:start position:0%
+decoding algorithms, including the paper
+D<00:03:05.880><c> Spark,</c><00:03:06.320><c> which</c><00:03:06.640><c> is</c><00:03:06.920><c> the</c><00:03:07.040><c> main</c><00:03:07.280><c> character</c>
+
+00:03:07.630 --> 00:03:07.640 align:start position:0%
+D Spark, which is the main character
+ 
+
+00:03:07.640 --> 00:03:09.270 align:start position:0%
+D Spark, which is the main character
+today.<00:03:08.000><c> And</c><00:03:08.160><c> I</c><00:03:08.239><c> wasn't</c><00:03:08.600><c> really</c><00:03:08.760><c> joking</c><00:03:09.080><c> about</c>
+
+00:03:09.270 --> 00:03:09.280 align:start position:0%
+today. And I wasn't really joking about
+ 
+
+00:03:09.280 --> 00:03:11.070 align:start position:0%
+today. And I wasn't really joking about
+this<00:03:09.440><c> release</c><00:03:09.840><c> being</c><00:03:10.080><c> an</c><00:03:10.320><c> art</c><00:03:10.600><c> form.</c><00:03:10.959><c> The</c>
+
+00:03:11.070 --> 00:03:11.080 align:start position:0%
+this release being an art form. The
+ 
+
+00:03:11.080 --> 00:03:13.310 align:start position:0%
+this release being an art form. The
+readme<00:03:11.519><c> literally</c><00:03:11.959><c> says</c><00:03:12.200><c> the</c><00:03:12.320><c> default</c><00:03:12.800><c> Qwen</c><00:03:13.040><c> 3</c>
+
+00:03:13.310 --> 00:03:13.320 align:start position:0%
+readme literally says the default Qwen 3
+ 
+
+00:03:13.320 --> 00:03:16.270 align:start position:0%
+readme literally says the default Qwen 3
+4B<00:03:13.880><c> target</c><00:03:14.280><c> cache</c><00:03:14.680><c> would</c><00:03:14.959><c> take</c><00:03:15.160><c> around</c><00:03:15.640><c> 38</c>
+
+00:03:16.270 --> 00:03:16.280 align:start position:0%
+4B target cache would take around 38
+ 
+
+00:03:16.280 --> 00:03:20.030 align:start position:0%
+4B target cache would take around 38
+terabytes.<00:03:17.040><c> 38</c><00:03:18.080><c> terabytes,</c>
+
+00:03:20.030 --> 00:03:20.040 align:start position:0%
+terabytes. 38 terabytes,
+ 
+
+00:03:20.040 --> 00:03:22.430 align:start position:0%
+terabytes. 38 terabytes,
+just<00:03:20.519><c> for</c><00:03:20.920><c> a</c><00:03:21.080><c> cache,</c><00:03:21.560><c> by</c><00:03:21.720><c> the</c><00:03:21.840><c> way.</c><00:03:22.200><c> And</c><00:03:22.320><c> the</c>
+
+00:03:22.430 --> 00:03:22.440 align:start position:0%
+just for a cache, by the way. And the
+ 
+
+00:03:22.440 --> 00:03:24.949 align:start position:0%
+just for a cache, by the way. And the
+default<00:03:22.880><c> setup</c><00:03:23.200><c> they</c><00:03:23.360><c> assumed</c><00:03:23.920><c> is</c><00:03:24.320><c> an</c><00:03:24.680><c> eight</c>
+
+00:03:24.949 --> 00:03:24.959 align:start position:0%
+default setup they assumed is an eight
+ 
+
+00:03:24.959 --> 00:03:27.430 align:start position:0%
+default setup they assumed is an eight
+GPU<00:03:25.480><c> node.</c><00:03:25.920><c> So,</c><00:03:26.000><c> that</c><00:03:26.200><c> is</c><00:03:26.320><c> around</c><00:03:26.560><c> $10,000</c>
+
+00:03:27.430 --> 00:03:27.440 align:start position:0%
+GPU node. So, that is around $10,000
+ 
+
+00:03:27.440 --> 00:03:30.830 align:start position:0%
+GPU node. So, that is around $10,000
+worth<00:03:27.680><c> of</c><00:03:27.840><c> SSD</c><00:03:28.239><c> storage</c><00:03:28.760><c> and</c><00:03:28.880><c> a</c><00:03:28.959><c> $100,000</c><00:03:30.440><c> GPU</c>
+
+00:03:30.830 --> 00:03:30.840 align:start position:0%
+worth of SSD storage and a $100,000 GPU
+ 
+
+00:03:30.840 --> 00:03:33.470 align:start position:0%
+worth of SSD storage and a $100,000 GPU
+setup<00:03:31.239><c> if</c><00:03:31.400><c> it's</c><00:03:31.640><c> made</c><00:03:31.880><c> out</c><00:03:32.080><c> of</c><00:03:32.280><c> A100s.</c><00:03:33.239><c> But</c>
+
+00:03:33.470 --> 00:03:33.480 align:start position:0%
+setup if it's made out of A100s. But
+ 
+
+00:03:33.480 --> 00:03:35.350 align:start position:0%
+setup if it's made out of A100s. But
+this<00:03:33.720><c> doesn't</c><00:03:34.080><c> make</c><00:03:34.320><c> D</c><00:03:34.480><c> Spark</c><00:03:34.920><c> any</c><00:03:35.120><c> less</c>
+
+00:03:35.350 --> 00:03:35.360 align:start position:0%
+this doesn't make D Spark any less
+ 
+
+00:03:35.360 --> 00:03:37.150 align:start position:0%
+this doesn't make D Spark any less
+interesting<00:03:35.959><c> just</c><00:03:36.160><c> because</c><00:03:36.560><c> it</c><00:03:36.680><c> is</c><00:03:36.840><c> not</c>
+
+00:03:37.150 --> 00:03:37.160 align:start position:0%
+interesting just because it is not
+ 
+
+00:03:37.160 --> 00:03:38.670 align:start position:0%
+interesting just because it is not
+usable<00:03:37.519><c> by</c><00:03:37.720><c> everyone.</c><00:03:38.200><c> Like,</c><00:03:38.400><c> what</c><00:03:38.519><c> do</c><00:03:38.600><c> you</c>
+
+00:03:38.670 --> 00:03:38.680 align:start position:0%
+usable by everyone. Like, what do you
+ 
+
+00:03:38.680 --> 00:03:40.949 align:start position:0%
+usable by everyone. Like, what do you
+mean<00:03:38.880><c> this</c><00:03:39.080><c> setup</c><00:03:39.480><c> can</c><00:03:39.680><c> get</c><00:03:39.959><c> 50%</c><00:03:40.760><c> higher</c>
+
+00:03:40.949 --> 00:03:40.959 align:start position:0%
+mean this setup can get 50% higher
+ 
+
+00:03:40.959 --> 00:03:43.390 align:start position:0%
+mean this setup can get 50% higher
+throughput,<00:03:41.640><c> not</c><00:03:41.880><c> from</c><00:03:42.120><c> GPU,</c><00:03:42.880><c> not</c><00:03:43.160><c> from</c>
+
+00:03:43.390 --> 00:03:43.400 align:start position:0%
+throughput, not from GPU, not from
+ 
+
+00:03:43.400 --> 00:03:46.030 align:start position:0%
+throughput, not from GPU, not from
+hardware<00:03:43.760><c> acceleration,</c><00:03:44.720><c> but</c><00:03:44.959><c> by</c><00:03:45.160><c> generating</c>
+
+00:03:46.030 --> 00:03:46.040 align:start position:0%
+hardware acceleration, but by generating
+ 
+
+00:03:46.040 --> 00:03:48.070 align:start position:0%
+hardware acceleration, but by generating
+smarter.<00:03:46.720><c> So,</c><00:03:46.920><c> to</c><00:03:47.040><c> understand</c><00:03:47.480><c> why</c><00:03:47.640><c> D</c><00:03:47.800><c> Spark</c>
+
+00:03:48.070 --> 00:03:48.080 align:start position:0%
+smarter. So, to understand why D Spark
+ 
+
+00:03:48.080 --> 00:03:49.910 align:start position:0%
+smarter. So, to understand why D Spark
+is<00:03:48.239><c> so</c><00:03:48.440><c> powerful,</c><00:03:49.120><c> we</c><00:03:49.280><c> need</c><00:03:49.519><c> to</c><00:03:49.640><c> first</c>
+
+00:03:49.910 --> 00:03:49.920 align:start position:0%
+is so powerful, we need to first
+ 
+
+00:03:49.920 --> 00:03:51.509 align:start position:0%
+is so powerful, we need to first
+understand<00:03:50.320><c> the</c><00:03:50.400><c> very</c><00:03:50.600><c> basic</c><00:03:50.920><c> problem</c><00:03:51.320><c> with</c>
+
+00:03:51.509 --> 00:03:51.519 align:start position:0%
+understand the very basic problem with
+ 
+
+00:03:51.519 --> 00:03:52.710 align:start position:0%
+understand the very basic problem with
+LLM
+
+00:03:52.710 --> 00:03:52.720 align:start position:0%
+LLM
+ 
+
+00:03:52.720 --> 00:03:55.030 align:start position:0%
+LLM
+As<00:03:53.000><c> all</c><00:03:53.240><c> modern</c><00:03:53.560><c> LMs</c><00:03:54.040><c> reads</c><00:03:54.280><c> the</c><00:03:54.360><c> context</c><00:03:54.920><c> and</c>
+
+00:03:55.030 --> 00:03:55.040 align:start position:0%
+As all modern LMs reads the context and
+ 
+
+00:03:55.040 --> 00:03:57.150 align:start position:0%
+As all modern LMs reads the context and
+generate<00:03:55.400><c> text</c><00:03:55.760><c> one</c><00:03:56.000><c> token</c><00:03:56.320><c> at</c><00:03:56.440><c> a</c><00:03:56.480><c> time,</c><00:03:56.920><c> then</c>
+
+00:03:57.150 --> 00:03:57.160 align:start position:0%
+generate text one token at a time, then
+ 
+
+00:03:57.160 --> 00:03:59.190 align:start position:0%
+generate text one token at a time, then
+reads<00:03:57.480><c> the</c><00:03:57.600><c> context</c><00:03:58.120><c> plus</c><00:03:58.360><c> that</c><00:03:58.560><c> new</c><00:03:58.760><c> token</c><00:03:59.080><c> to</c>
+
+00:03:59.190 --> 00:03:59.200 align:start position:0%
+reads the context plus that new token to
+ 
+
+00:03:59.200 --> 00:04:00.790 align:start position:0%
+reads the context plus that new token to
+generate<00:03:59.560><c> the</c><00:03:59.640><c> next</c><00:03:59.960><c> one,</c><00:04:00.320><c> it</c><00:04:00.400><c> doesn't</c><00:04:00.640><c> really</c>
+
+00:04:00.790 --> 00:04:00.800 align:start position:0%
+generate the next one, it doesn't really
+ 
+
+00:04:00.800 --> 00:04:02.830 align:start position:0%
+generate the next one, it doesn't really
+matter<00:04:01.120><c> how</c><00:04:01.360><c> powerful</c><00:04:01.800><c> the</c><00:04:01.880><c> model</c><00:04:02.240><c> is,</c><00:04:02.760><c> the</c>
+
+00:04:02.830 --> 00:04:02.840 align:start position:0%
+matter how powerful the model is, the
+ 
+
+00:04:02.840 --> 00:04:04.590 align:start position:0%
+matter how powerful the model is, the
+generation<00:04:03.280><c> process</c><00:04:03.720><c> is</c><00:04:03.840><c> basically</c><00:04:04.160><c> stuck</c><00:04:04.440><c> on</c>
+
+00:04:04.590 --> 00:04:04.600 align:start position:0%
+generation process is basically stuck on
+ 
+
+00:04:04.600 --> 00:04:06.470 align:start position:0%
+generation process is basically stuck on
+this<00:04:04.800><c> sequential</c><00:04:05.360><c> autoregressive</c><00:04:05.960><c> process.</c>
+
+00:04:06.470 --> 00:04:06.480 align:start position:0%
+this sequential autoregressive process.
+ 
+
+00:04:06.480 --> 00:04:08.230 align:start position:0%
+this sequential autoregressive process.
+But<00:04:06.680><c> this</c><00:04:06.840><c> gets</c><00:04:07.080><c> worse</c><00:04:07.360><c> as</c><00:04:07.520><c> models</c><00:04:07.959><c> become</c>
+
+00:04:08.230 --> 00:04:08.240 align:start position:0%
+But this gets worse as models become
+ 
+
+00:04:08.240 --> 00:04:10.070 align:start position:0%
+But this gets worse as models become
+more<00:04:08.480><c> agentic</c><00:04:09.120><c> and</c><00:04:09.280><c> reasoning</c><00:04:09.680><c> heavy.</c>
+
+00:04:10.070 --> 00:04:10.080 align:start position:0%
+more agentic and reasoning heavy.
+ 
+
+00:04:10.080 --> 00:04:11.510 align:start position:0%
+more agentic and reasoning heavy.
+Because<00:04:10.320><c> reasoning</c><00:04:10.680><c> models</c><00:04:11.040><c> would</c><00:04:11.200><c> straight</c>
+
+00:04:11.510 --> 00:04:11.520 align:start position:0%
+Because reasoning models would straight
+ 
+
+00:04:11.520 --> 00:04:13.070 align:start position:0%
+Because reasoning models would straight
+up<00:04:11.640><c> need</c><00:04:11.800><c> to</c><00:04:11.920><c> generate</c><00:04:12.160><c> a</c><00:04:12.200><c> lot</c><00:04:12.440><c> more</c><00:04:12.600><c> tokens</c><00:04:13.000><c> to</c>
+
+00:04:13.070 --> 00:04:13.080 align:start position:0%
+up need to generate a lot more tokens to
+ 
+
+00:04:13.080 --> 00:04:14.790 align:start position:0%
+up need to generate a lot more tokens to
+do<00:04:13.240><c> tasks</c><00:04:13.680><c> that</c><00:04:13.760><c> are</c><00:04:13.840><c> much</c><00:04:14.120><c> more</c><00:04:14.280><c> difficult.</c>
+
+00:04:14.790 --> 00:04:14.800 align:start position:0%
+do tasks that are much more difficult.
+ 
+
+00:04:14.800 --> 00:04:16.110 align:start position:0%
+do tasks that are much more difficult.
+So<00:04:14.920><c> the</c><00:04:15.040><c> better</c><00:04:15.280><c> the</c><00:04:15.400><c> model</c><00:04:15.640><c> gets</c><00:04:15.880><c> at</c>
+
+00:04:16.110 --> 00:04:16.120 align:start position:0%
+So the better the model gets at
+ 
+
+00:04:16.120 --> 00:04:18.150 align:start position:0%
+So the better the model gets at
+thinking,<00:04:16.760><c> the</c><00:04:16.880><c> more</c><00:04:17.120><c> painful</c><00:04:17.600><c> the</c><00:04:17.680><c> decoding</c>
+
+00:04:18.150 --> 00:04:18.160 align:start position:0%
+thinking, the more painful the decoding
+ 
+
+00:04:18.160 --> 00:04:20.509 align:start position:0%
+thinking, the more painful the decoding
+bottleneck<00:04:18.640><c> becomes.</c><00:04:19.200><c> However,</c><00:04:20.000><c> there</c><00:04:20.160><c> is</c><00:04:20.440><c> a</c>
+
+00:04:20.509 --> 00:04:20.519 align:start position:0%
+bottleneck becomes. However, there is a
+ 
+
+00:04:20.519 --> 00:04:22.270 align:start position:0%
+bottleneck becomes. However, there is a
+clever<00:04:20.920><c> loophole</c><00:04:21.320><c> researchers</c><00:04:21.760><c> discovered</c>
+
+00:04:22.270 --> 00:04:22.280 align:start position:0%
+clever loophole researchers discovered
+ 
+
+00:04:22.280 --> 00:04:23.950 align:start position:0%
+clever loophole researchers discovered
+that<00:04:22.400><c> can</c><00:04:22.560><c> speed</c><00:04:22.840><c> up</c><00:04:22.960><c> this</c><00:04:23.160><c> process.</c><00:04:23.760><c> They</c>
+
+00:04:23.950 --> 00:04:23.960 align:start position:0%
+that can speed up this process. They
+ 
+
+00:04:23.960 --> 00:04:25.590 align:start position:0%
+that can speed up this process. They
+made<00:04:24.200><c> an</c><00:04:24.360><c> observation</c><00:04:24.960><c> that</c><00:04:25.120><c> generating</c>
+
+00:04:25.590 --> 00:04:25.600 align:start position:0%
+made an observation that generating
+ 
+
+00:04:25.600 --> 00:04:27.310 align:start position:0%
+made an observation that generating
+future<00:04:25.880><c> tokens</c><00:04:26.240><c> is</c><00:04:26.400><c> sequential,</c><00:04:27.120><c> but</c>
+
+00:04:27.310 --> 00:04:27.320 align:start position:0%
+future tokens is sequential, but
+ 
+
+00:04:27.320 --> 00:04:29.030 align:start position:0%
+future tokens is sequential, but
+checking<00:04:27.680><c> a</c><00:04:27.760><c> pre-existing</c><00:04:28.520><c> sequence</c><00:04:28.880><c> of</c>
+
+00:04:29.030 --> 00:04:29.040 align:start position:0%
+checking a pre-existing sequence of
+ 
+
+00:04:29.040 --> 00:04:30.750 align:start position:0%
+checking a pre-existing sequence of
+future<00:04:29.400><c> tokens</c><00:04:29.880><c> does</c><00:04:30.120><c> not</c><00:04:30.320><c> have</c><00:04:30.520><c> to</c><00:04:30.640><c> be</c>
+
+00:04:30.750 --> 00:04:30.760 align:start position:0%
+future tokens does not have to be
+ 
+
+00:04:30.760 --> 00:04:32.390 align:start position:0%
+future tokens does not have to be
+sequential<00:04:31.360><c> in</c><00:04:31.440><c> the</c><00:04:31.520><c> same</c><00:04:31.760><c> way.</c><00:04:31.919><c> Because</c><00:04:32.240><c> when</c>
+
+00:04:32.390 --> 00:04:32.400 align:start position:0%
+sequential in the same way. Because when
+ 
+
+00:04:32.400 --> 00:04:34.390 align:start position:0%
+sequential in the same way. Because when
+an<00:04:32.560><c> LM</c><00:04:32.880><c> generates</c><00:04:33.240><c> text</c><00:04:33.480><c> normally,</c><00:04:34.040><c> it</c><00:04:34.160><c> has</c><00:04:34.320><c> to</c>
+
+00:04:34.390 --> 00:04:34.400 align:start position:0%
+an LM generates text normally, it has to
+ 
+
+00:04:34.400 --> 00:04:36.550 align:start position:0%
+an LM generates text normally, it has to
+sample<00:04:34.760><c> token</c><00:04:35.120><c> one</c><00:04:35.360><c> before</c><00:04:35.640><c> it</c><00:04:35.720><c> can</c><00:04:35.960><c> know</c><00:04:36.280><c> what</c>
+
+00:04:36.550 --> 00:04:36.560 align:start position:0%
+sample token one before it can know what
+ 
+
+00:04:36.560 --> 00:04:38.470 align:start position:0%
+sample token one before it can know what
+token<00:04:36.919><c> two</c><00:04:37.160><c> should</c><00:04:37.360><c> condition</c><00:04:37.919><c> on.</c><00:04:38.320><c> So</c>
+
+00:04:38.470 --> 00:04:38.480 align:start position:0%
+token two should condition on. So
+ 
+
+00:04:38.480 --> 00:04:40.230 align:start position:0%
+token two should condition on. So
+generation<00:04:39.080><c> is</c><00:04:39.200><c> sequential</c><00:04:39.760><c> because</c><00:04:40.040><c> the</c>
+
+00:04:40.230 --> 00:04:40.240 align:start position:0%
+generation is sequential because the
+ 
+
+00:04:40.240 --> 00:04:42.590 align:start position:0%
+generation is sequential because the
+input<00:04:40.560><c> itself</c><00:04:40.880><c> keeps</c><00:04:41.280><c> changing</c><00:04:41.880><c> one</c><00:04:42.120><c> token</c><00:04:42.480><c> at</c>
+
+00:04:42.590 --> 00:04:42.600 align:start position:0%
+input itself keeps changing one token at
+ 
+
+00:04:42.600 --> 00:04:44.190 align:start position:0%
+input itself keeps changing one token at
+a<00:04:42.640><c> time.</c><00:04:43.000><c> But</c><00:04:43.240><c> if</c><00:04:43.440><c> someone,</c><00:04:43.960><c> like</c><00:04:44.120><c> a</c>
+
+00:04:44.190 --> 00:04:44.200 align:start position:0%
+a time. But if someone, like a
+ 
+
+00:04:44.200 --> 00:04:45.470 align:start position:0%
+a time. But if someone, like a
+lightweight<00:04:44.640><c> draft</c><00:04:44.919><c> model</c><00:04:45.240><c> that</c><00:04:45.360><c> can</c>
+
+00:04:45.470 --> 00:04:45.480 align:start position:0%
+lightweight draft model that can
+ 
+
+00:04:45.480 --> 00:04:47.470 align:start position:0%
+lightweight draft model that can
+generate<00:04:45.800><c> super</c><00:04:46.160><c> fast,</c><00:04:46.720><c> already</c><00:04:47.080><c> gives</c><00:04:47.400><c> the</c>
+
+00:04:47.470 --> 00:04:47.480 align:start position:0%
+generate super fast, already gives the
+ 
+
+00:04:47.480 --> 00:04:49.430 align:start position:0%
+generate super fast, already gives the
+model<00:04:47.840><c> a</c><00:04:47.919><c> potential</c><00:04:48.360><c> continuation</c><00:04:49.160><c> of</c><00:04:49.280><c> the</c>
+
+00:04:49.430 --> 00:04:49.440 align:start position:0%
+model a potential continuation of the
+ 
+
+00:04:49.440 --> 00:04:51.590 align:start position:0%
+model a potential continuation of the
+future<00:04:50.080><c> tokens,</c><00:04:50.640><c> then</c><00:04:50.919><c> the</c><00:04:51.040><c> model</c><00:04:51.280><c> does</c><00:04:51.440><c> not</c>
+
+00:04:51.590 --> 00:04:51.600 align:start position:0%
+future tokens, then the model does not
+ 
+
+00:04:51.600 --> 00:04:53.270 align:start position:0%
+future tokens, then the model does not
+need<00:04:51.800><c> to</c><00:04:51.880><c> generate</c><00:04:52.240><c> those</c><00:04:52.440><c> tokens</c><00:04:52.840><c> one</c><00:04:53.080><c> by</c>
+
+00:04:53.270 --> 00:04:53.280 align:start position:0%
+need to generate those tokens one by
+ 
+
+00:04:53.280 --> 00:04:55.470 align:start position:0%
+need to generate those tokens one by
+one.<00:04:53.640><c> It</c><00:04:53.760><c> can</c><00:04:53.960><c> take</c><00:04:54.280><c> the</c><00:04:54.480><c> entire</c><00:04:55.040><c> proposed</c>
+
+00:04:55.470 --> 00:04:55.480 align:start position:0%
+one. It can take the entire proposed
+ 
+
+00:04:55.480 --> 00:04:57.750 align:start position:0%
+one. It can take the entire proposed
+continuation<00:04:56.400><c> as</c><00:04:56.640><c> input</c><00:04:57.160><c> and</c><00:04:57.320><c> compute</c><00:04:57.680><c> the</c>
+
+00:04:57.750 --> 00:04:57.760 align:start position:0%
+continuation as input and compute the
+ 
+
+00:04:57.760 --> 00:04:59.430 align:start position:0%
+continuation as input and compute the
+probability<00:04:58.520><c> of</c><00:04:58.720><c> every</c><00:04:58.919><c> next</c><00:04:59.200><c> token</c>
+
+00:04:59.430 --> 00:04:59.440 align:start position:0%
+probability of every next token
+ 
+
+00:04:59.440 --> 00:05:01.390 align:start position:0%
+probability of every next token
+transition<00:05:00.000><c> in</c><00:05:00.120><c> the</c><00:05:00.240><c> single</c><00:05:00.640><c> forward</c><00:05:01.000><c> pass.</c>
+
+00:05:01.390 --> 00:05:01.400 align:start position:0%
+transition in the single forward pass.
+ 
+
+00:05:01.400 --> 00:05:03.470 align:start position:0%
+transition in the single forward pass.
+So<00:05:01.600><c> if</c><00:05:01.800><c> a</c><00:05:01.880><c> draft</c><00:05:02.240><c> model</c><00:05:02.560><c> says</c><00:05:02.800><c> the</c><00:05:02.919><c> next</c><00:05:03.280><c> eight</c>
+
+00:05:03.470 --> 00:05:03.480 align:start position:0%
+So if a draft model says the next eight
+ 
+
+00:05:03.480 --> 00:05:06.230 align:start position:0%
+So if a draft model says the next eight
+tokens<00:05:03.840><c> are</c><00:05:04.120><c> a</c><00:05:04.200><c> b</c><00:05:04.440><c> c</c><00:05:04.600><c> d</c><00:05:04.800><c> e</c><00:05:04.919><c> f</c><00:05:05.080><c> g</c><00:05:05.400><c> h,</c><00:05:05.840><c> the</c><00:05:05.919><c> target</c>
+
+00:05:06.230 --> 00:05:06.240 align:start position:0%
+tokens are a b c d e f g h, the target
+ 
+
+00:05:06.240 --> 00:05:07.909 align:start position:0%
+tokens are a b c d e f g h, the target
+model<00:05:06.480><c> can</c><00:05:06.640><c> check</c><00:05:06.919><c> all</c><00:05:07.080><c> of</c><00:05:07.200><c> these</c><00:05:07.400><c> positions</c>
+
+00:05:07.909 --> 00:05:07.919 align:start position:0%
+model can check all of these positions
+ 
+
+00:05:07.919 --> 00:05:09.550 align:start position:0%
+model can check all of these positions
+together.<00:05:08.360><c> For</c><00:05:08.520><c> instance,</c><00:05:09.000><c> it'll</c><00:05:09.200><c> be</c><00:05:09.320><c> able</c><00:05:09.520><c> to</c>
+
+00:05:09.550 --> 00:05:09.560 align:start position:0%
+together. For instance, it'll be able to
+ 
+
+00:05:09.560 --> 00:05:11.350 align:start position:0%
+together. For instance, it'll be able to
+compute<00:05:09.960><c> these</c><00:05:10.200><c> in</c><00:05:10.320><c> parallel.</c><00:05:11.000><c> Given</c><00:05:11.240><c> the</c>
+
+00:05:11.350 --> 00:05:11.360 align:start position:0%
+compute these in parallel. Given the
+ 
+
+00:05:11.360 --> 00:05:13.510 align:start position:0%
+compute these in parallel. Given the
+original<00:05:11.760><c> context,</c><00:05:12.400><c> would</c><00:05:12.640><c> it</c><00:05:12.760><c> accept</c><00:05:13.240><c> a?</c>
+
+00:05:13.510 --> 00:05:13.520 align:start position:0%
+original context, would it accept a?
+ 
+
+00:05:13.520 --> 00:05:15.390 align:start position:0%
+original context, would it accept a?
+Given<00:05:13.840><c> the</c><00:05:14.000><c> context</c><00:05:14.520><c> plus</c><00:05:14.800><c> a,</c><00:05:15.080><c> would</c><00:05:15.240><c> it</c>
+
+00:05:15.390 --> 00:05:15.400 align:start position:0%
+Given the context plus a, would it
+ 
+
+00:05:15.400 --> 00:05:17.550 align:start position:0%
+Given the context plus a, would it
+accept<00:05:15.840><c> b?</c><00:05:16.200><c> Given</c><00:05:16.480><c> the</c><00:05:16.600><c> context</c><00:05:17.040><c> plus</c><00:05:17.280><c> a</c><00:05:17.400><c> and</c>
+
+00:05:17.550 --> 00:05:17.560 align:start position:0%
+accept b? Given the context plus a and
+ 
+
+00:05:17.560 --> 00:05:19.830 align:start position:0%
+accept b? Given the context plus a and
+b,<00:05:17.840><c> would</c><00:05:18.000><c> it</c><00:05:18.080><c> accept</c><00:05:18.480><c> c?</c><00:05:18.840><c> And</c><00:05:19.000><c> so</c><00:05:19.240><c> on.</c><00:05:19.640><c> All</c><00:05:19.760><c> of</c>
+
+00:05:19.830 --> 00:05:19.840 align:start position:0%
+b, would it accept c? And so on. All of
+ 
+
+00:05:19.840 --> 00:05:21.990 align:start position:0%
+b, would it accept c? And so on. All of
+these<00:05:20.080><c> token</c><00:05:20.360><c> positions</c><00:05:20.919><c> are</c><00:05:21.120><c> still</c><00:05:21.400><c> causally</c>
+
+00:05:21.990 --> 00:05:22.000 align:start position:0%
+these token positions are still causally
+ 
+
+00:05:22.000 --> 00:05:24.070 align:start position:0%
+these token positions are still causally
+masked,<00:05:22.520><c> so</c><00:05:22.720><c> each</c><00:05:22.960><c> position</c><00:05:23.440><c> only</c><00:05:23.680><c> sees</c><00:05:24.000><c> the</c>
+
+00:05:24.070 --> 00:05:24.080 align:start position:0%
+masked, so each position only sees the
+ 
+
+00:05:24.080 --> 00:05:25.590 align:start position:0%
+masked, so each position only sees the
+tokens<00:05:24.480><c> before</c><00:05:24.880><c> it.</c><00:05:25.000><c> But</c><00:05:25.200><c> inside</c><00:05:25.560><c> a</c>
+
+00:05:25.590 --> 00:05:25.600 align:start position:0%
+tokens before it. But inside a
+ 
+
+00:05:25.600 --> 00:05:27.630 align:start position:0%
+tokens before it. But inside a
+transformer<00:05:26.160><c> forward</c><00:05:26.520><c> pass,</c><00:05:27.000><c> all</c><00:05:27.160><c> positions</c>
+
+00:05:27.630 --> 00:05:27.640 align:start position:0%
+transformer forward pass, all positions
+ 
+
+00:05:27.640 --> 00:05:29.470 align:start position:0%
+transformer forward pass, all positions
+in<00:05:27.760><c> the</c><00:05:27.880><c> sequence</c><00:05:28.400><c> are</c><00:05:28.560><c> processed</c><00:05:29.200><c> at</c><00:05:29.400><c> the</c>
+
+00:05:29.470 --> 00:05:29.480 align:start position:0%
+in the sequence are processed at the
+ 
+
+00:05:29.480 --> 00:05:31.190 align:start position:0%
+in the sequence are processed at the
+same<00:05:29.720><c> time,</c><00:05:30.120><c> which</c><00:05:30.360><c> means</c><00:05:30.680><c> the</c><00:05:30.800><c> causal</c>
+
+00:05:31.190 --> 00:05:31.200 align:start position:0%
+same time, which means the causal
+ 
+
+00:05:31.200 --> 00:05:33.430 align:start position:0%
+same time, which means the causal
+dependency<00:05:31.840><c> is</c><00:05:32.040><c> handled</c><00:05:32.560><c> by</c><00:05:32.720><c> the</c><00:05:32.960><c> attention</c>
+
+00:05:33.430 --> 00:05:33.440 align:start position:0%
+dependency is handled by the attention
+ 
+
+00:05:33.440 --> 00:05:34.990 align:start position:0%
+dependency is handled by the attention
+mask,<00:05:33.960><c> not</c><00:05:34.200><c> by</c><00:05:34.360><c> running</c><00:05:34.640><c> the</c><00:05:34.720><c> model</c>
+
+00:05:34.990 --> 00:05:35.000 align:start position:0%
+mask, not by running the model
+ 
+
+00:05:35.000 --> 00:05:37.070 align:start position:0%
+mask, not by running the model
+separately<00:05:35.560><c> and</c><00:05:35.760><c> sample</c><00:05:36.120><c> for</c><00:05:36.280><c> every</c><00:05:36.520><c> token.</c>
+
+00:05:37.070 --> 00:05:37.080 align:start position:0%
+separately and sample for every token.
+ 
+
+00:05:37.080 --> 00:05:38.830 align:start position:0%
+separately and sample for every token.
+This<00:05:37.240><c> implies</c><00:05:37.680><c> that</c><00:05:37.840><c> verification</c><00:05:38.560><c> can</c><00:05:38.720><c> be</c>
+
+00:05:38.830 --> 00:05:38.840 align:start position:0%
+This implies that verification can be
+ 
+
+00:05:38.840 --> 00:05:41.110 align:start position:0%
+This implies that verification can be
+parallelized<00:05:39.720><c> and</c><00:05:39.919><c> it</c><00:05:40.040><c> is</c><00:05:40.200><c> much</c><00:05:40.520><c> cheaper</c><00:05:40.880><c> than</c>
+
+00:05:41.110 --> 00:05:41.120 align:start position:0%
+parallelized and it is much cheaper than
+ 
+
+00:05:41.120 --> 00:05:43.030 align:start position:0%
+parallelized and it is much cheaper than
+generating<00:05:41.640><c> those</c><00:05:41.840><c> tokens</c><00:05:42.240><c> normally</c><00:05:42.760><c> on</c><00:05:42.960><c> the</c>
+
+00:05:43.030 --> 00:05:43.040 align:start position:0%
+generating those tokens normally on the
+ 
+
+00:05:43.040 --> 00:05:44.350 align:start position:0%
+generating those tokens normally on the
+big<00:05:43.280><c> model.</c><00:05:43.680><c> When</c><00:05:43.800><c> the</c><00:05:43.880><c> draft</c><00:05:44.080><c> model</c>
+
+00:05:44.350 --> 00:05:44.360 align:start position:0%
+big model. When the draft model
+ 
+
+00:05:44.360 --> 00:05:46.390 align:start position:0%
+big model. When the draft model
+generates<00:05:44.720><c> all</c><00:05:44.840><c> the</c><00:05:44.919><c> future</c><00:05:45.200><c> tokens</c><00:05:45.720><c> fast</c><00:05:46.240><c> and</c>
+
+00:05:46.390 --> 00:05:46.400 align:start position:0%
+generates all the future tokens fast and
+ 
+
+00:05:46.400 --> 00:05:48.470 align:start position:0%
+generates all the future tokens fast and
+cheaply,<00:05:46.919><c> so</c><00:05:47.080><c> we</c><00:05:47.240><c> went</c><00:05:47.600><c> from</c><00:05:47.880><c> if</c><00:05:48.040><c> you</c><00:05:48.160><c> wanted</c>
+
+00:05:48.470 --> 00:05:48.480 align:start position:0%
+cheaply, so we went from if you wanted
+ 
+
+00:05:48.480 --> 00:05:49.590 align:start position:0%
+cheaply, so we went from if you wanted
+to<00:05:48.560><c> generate</c><00:05:48.960><c> eight</c><00:05:49.120><c> tokens</c>
+
+00:05:49.590 --> 00:05:49.600 align:start position:0%
+to generate eight tokens
+ 
+
+00:05:49.600 --> 00:05:51.150 align:start position:0%
+to generate eight tokens
+autoregressively,<00:05:50.560><c> you</c><00:05:50.720><c> would</c><00:05:50.800><c> need</c><00:05:51.040><c> eight</c>
+
+00:05:51.150 --> 00:05:51.160 align:start position:0%
+autoregressively, you would need eight
+ 
+
+00:05:51.160 --> 00:05:52.590 align:start position:0%
+autoregressively, you would need eight
+separate<00:05:51.560><c> forward</c><00:05:51.840><c> passes</c><00:05:52.280><c> through</c><00:05:52.480><c> the</c>
+
+00:05:52.590 --> 00:05:52.600 align:start position:0%
+separate forward passes through the
+ 
+
+00:05:52.600 --> 00:05:54.750 align:start position:0%
+separate forward passes through the
+target<00:05:52.920><c> model</c><00:05:53.480><c> to</c><00:05:53.920><c> if</c><00:05:54.080><c> a</c><00:05:54.160><c> draft</c><00:05:54.480><c> model</c>
+
+00:05:54.750 --> 00:05:54.760 align:start position:0%
+target model to if a draft model
+ 
+
+00:05:54.760 --> 00:05:56.670 align:start position:0%
+target model to if a draft model
+proposes<00:05:55.320><c> those</c><00:05:55.560><c> eight</c><00:05:55.720><c> tokens</c><00:05:56.120><c> first,</c><00:05:56.600><c> the</c>
+
+00:05:56.670 --> 00:05:56.680 align:start position:0%
+proposes those eight tokens first, the
+ 
+
+00:05:56.680 --> 00:05:58.390 align:start position:0%
+proposes those eight tokens first, the
+target<00:05:57.000><c> model</c><00:05:57.320><c> can</c><00:05:57.560><c> verify</c><00:05:57.960><c> them</c><00:05:58.160><c> with</c>
+
+00:05:58.390 --> 00:05:58.400 align:start position:0%
+target model can verify them with
+ 
+
+00:05:58.400 --> 00:06:00.190 align:start position:0%
+target model can verify them with
+roughly<00:05:58.840><c> one</c><00:05:59.120><c> forward</c><00:05:59.440><c> pass</c><00:05:59.760><c> over</c><00:06:00.000><c> the</c>
+
+00:06:00.190 --> 00:06:00.200 align:start position:0%
+roughly one forward pass over the
+ 
+
+00:06:00.200 --> 00:06:01.950 align:start position:0%
+roughly one forward pass over the
+extended<00:06:00.800><c> sequence.</c><00:06:01.360><c> And</c><00:06:01.480><c> if</c><00:06:01.600><c> the</c><00:06:01.720><c> draft</c>
+
+00:06:01.950 --> 00:06:01.960 align:start position:0%
+extended sequence. And if the draft
+ 
+
+00:06:01.960 --> 00:06:03.350 align:start position:0%
+extended sequence. And if the draft
+model<00:06:02.200><c> is</c><00:06:02.320><c> super</c><00:06:02.640><c> accurate,</c><00:06:03.120><c> then</c><00:06:03.280><c> you</c>
+
+00:06:03.350 --> 00:06:03.360 align:start position:0%
+model is super accurate, then you
+ 
+
+00:06:03.360 --> 00:06:05.030 align:start position:0%
+model is super accurate, then you
+basically<00:06:03.720><c> only</c><00:06:03.960><c> need</c><00:06:04.240><c> one</c><00:06:04.480><c> forward</c><00:06:04.760><c> pass</c>
+
+00:06:05.030 --> 00:06:05.040 align:start position:0%
+basically only need one forward pass
+ 
+
+00:06:05.040 --> 00:06:06.510 align:start position:0%
+basically only need one forward pass
+from<00:06:05.200><c> the</c><00:06:05.280><c> big</c><00:06:05.480><c> model</c><00:06:05.880><c> and</c><00:06:06.120><c> eight</c><00:06:06.280><c> forward</c>
+
+00:06:06.510 --> 00:06:06.520 align:start position:0%
+from the big model and eight forward
+ 
+
+00:06:06.520 --> 00:06:08.390 align:start position:0%
+from the big model and eight forward
+passes<00:06:06.960><c> from</c><00:06:07.120><c> the</c><00:06:07.200><c> draft</c><00:06:07.440><c> model</c><00:06:07.760><c> to</c><00:06:07.880><c> reproduce</c>
+
+00:06:08.390 --> 00:06:08.400 align:start position:0%
+passes from the draft model to reproduce
+ 
+
+00:06:08.400 --> 00:06:10.710 align:start position:0%
+passes from the draft model to reproduce
+the<00:06:08.520><c> big</c><00:06:08.760><c> model's</c><00:06:09.120><c> output.</c><00:06:09.600><c> This</c><00:06:09.840><c> naive</c><00:06:10.320><c> setup</c>
+
+00:06:10.710 --> 00:06:10.720 align:start position:0%
+the big model's output. This naive setup
+ 
+
+00:06:10.720 --> 00:06:12.910 align:start position:0%
+the big model's output. This naive setup
+is<00:06:11.000><c> called</c><00:06:11.320><c> speculative</c><00:06:12.040><c> decoding.</c><00:06:12.680><c> I</c><00:06:12.720><c> have</c><00:06:12.840><c> a</c>
+
+00:06:12.910 --> 00:06:12.920 align:start position:0%
+is called speculative decoding. I have a
+ 
+
+00:06:12.920 --> 00:06:14.670 align:start position:0%
+is called speculative decoding. I have a
+more<00:06:13.120><c> in-depth</c><00:06:13.560><c> video</c><00:06:13.880><c> covering</c><00:06:14.240><c> it</c><00:06:14.440><c> you</c><00:06:14.560><c> can</c>
+
+00:06:14.670 --> 00:06:14.680 align:start position:0%
+more in-depth video covering it you can
+ 
+
+00:06:14.680 --> 00:06:16.910 align:start position:0%
+more in-depth video covering it you can
+check<00:06:14.920><c> it</c><00:06:15.040><c> out.</c><00:06:15.320><c> And</c><00:06:15.560><c> the</c><00:06:15.680><c> 38</c><00:06:16.320><c> terabytes</c><00:06:16.760><c> of</c>
+
+00:06:16.910 --> 00:06:16.920 align:start position:0%
+check it out. And the 38 terabytes of
+ 
+
+00:06:16.920 --> 00:06:18.909 align:start position:0%
+check it out. And the 38 terabytes of
+target<00:06:17.320><c> cash</c><00:06:17.640><c> I</c><00:06:17.760><c> mentioned</c><00:06:18.240><c> earlier</c><00:06:18.720><c> is</c>
+
+00:06:18.909 --> 00:06:18.919 align:start position:0%
+target cash I mentioned earlier is
+ 
+
+00:06:18.919 --> 00:06:20.830 align:start position:0%
+target cash I mentioned earlier is
+basically<00:06:19.240><c> a</c><00:06:19.320><c> huge</c><00:06:19.680><c> precomputed</c><00:06:20.320><c> cash</c><00:06:20.640><c> of</c><00:06:20.760><c> the</c>
+
+00:06:20.830 --> 00:06:20.840 align:start position:0%
+basically a huge precomputed cash of the
+ 
+
+00:06:20.840 --> 00:06:22.670 align:start position:0%
+basically a huge precomputed cash of the
+target<00:06:21.160><c> models</c><00:06:21.520><c> activations</c><00:06:22.120><c> or</c><00:06:22.360><c> output</c>
+
+00:06:22.670 --> 00:06:22.680 align:start position:0%
+target models activations or output
+ 
+
+00:06:22.680 --> 00:06:24.390 align:start position:0%
+target models activations or output
+distributions,<00:06:23.440><c> which</c><00:06:23.600><c> is</c><00:06:23.760><c> used</c><00:06:24.040><c> to</c><00:06:24.160><c> train</c>
+
+00:06:24.390 --> 00:06:24.400 align:start position:0%
+distributions, which is used to train
+ 
+
+00:06:24.400 --> 00:06:25.990 align:start position:0%
+distributions, which is used to train
+the<00:06:24.480><c> draft</c><00:06:24.760><c> model</c><00:06:25.120><c> without</c><00:06:25.360><c> repeatedly</c>
+
+00:06:25.990 --> 00:06:26.000 align:start position:0%
+the draft model without repeatedly
+ 
+
+00:06:26.000 --> 00:06:27.630 align:start position:0%
+the draft model without repeatedly
+re-running<00:06:26.480><c> the</c><00:06:26.560><c> full</c><00:06:26.800><c> target</c><00:06:27.120><c> model</c><00:06:27.440><c> from</c>
+
+00:06:27.630 --> 00:06:27.640 align:start position:0%
+re-running the full target model from
+ 
+
+00:06:27.640 --> 00:06:30.710 align:start position:0%
+re-running the full target model from
+scratch.<00:06:28.200><c> So,</c><00:06:28.560><c> the</c><00:06:28.880><c> idea</c><00:06:29.240><c> sounds</c><00:06:29.880><c> fantastical</c>
+
+00:06:30.710 --> 00:06:30.720 align:start position:0%
+scratch. So, the idea sounds fantastical
+ 
+
+00:06:30.720 --> 00:06:32.190 align:start position:0%
+scratch. So, the idea sounds fantastical
+in<00:06:30.840><c> a</c><00:06:30.880><c> way</c><00:06:31.040><c> that</c><00:06:31.200><c> it</c><00:06:31.320><c> feels</c><00:06:31.560><c> like</c><00:06:31.720><c> there</c><00:06:31.919><c> are</c><00:06:32.000><c> so</c>
+
+00:06:32.190 --> 00:06:32.200 align:start position:0%
+in a way that it feels like there are so
+ 
+
+00:06:32.200 --> 00:06:33.990 align:start position:0%
+in a way that it feels like there are so
+many<00:06:32.400><c> things</c><00:06:32.680><c> it</c><00:06:32.840><c> needs</c><00:06:33.080><c> to</c><00:06:33.200><c> get</c><00:06:33.440><c> right</c><00:06:33.720><c> for</c><00:06:33.880><c> it</c>
+
+00:06:33.990 --> 00:06:34.000 align:start position:0%
+many things it needs to get right for it
+ 
+
+00:06:34.000 --> 00:06:36.270 align:start position:0%
+many things it needs to get right for it
+to<00:06:34.120><c> be</c><00:06:34.240><c> able</c><00:06:34.440><c> to</c><00:06:34.520><c> generate</c><00:06:35.040><c> fast,</c><00:06:35.640><c> which</c><00:06:35.840><c> means</c>
+
+00:06:36.270 --> 00:06:36.280 align:start position:0%
+to be able to generate fast, which means
+ 
+
+00:06:36.280 --> 00:06:38.350 align:start position:0%
+to be able to generate fast, which means
+a<00:06:36.400><c> good</c><00:06:36.720><c> approach</c><00:06:37.200><c> basically</c><00:06:37.680><c> needs</c><00:06:37.960><c> to</c><00:06:38.040><c> solve</c>
+
+00:06:38.350 --> 00:06:38.360 align:start position:0%
+a good approach basically needs to solve
+ 
+
+00:06:38.360 --> 00:06:40.430 align:start position:0%
+a good approach basically needs to solve
+three<00:06:38.800><c> annoying</c><00:06:39.320><c> parts</c><00:06:39.600><c> of</c><00:06:39.720><c> speculative</c>
+
+00:06:40.430 --> 00:06:40.440 align:start position:0%
+three annoying parts of speculative
+ 
+
+00:06:40.440 --> 00:06:42.390 align:start position:0%
+three annoying parts of speculative
+decoding<00:06:41.080><c> at</c><00:06:41.200><c> the</c><00:06:41.280><c> same</c><00:06:41.440><c> time.</c><00:06:41.919><c> First,</c><00:06:42.320><c> the</c>
+
+00:06:42.390 --> 00:06:42.400 align:start position:0%
+decoding at the same time. First, the
+ 
+
+00:06:42.400 --> 00:06:44.590 align:start position:0%
+decoding at the same time. First, the
+draft<00:06:42.640><c> model</c><00:06:42.919><c> has</c><00:06:43.240><c> to</c><00:06:43.320><c> be</c><00:06:43.520><c> cheap</c><00:06:43.880><c> and</c><00:06:44.080><c> fast.</c><00:06:44.560><c> A</c>
+
+00:06:44.590 --> 00:06:44.600 align:start position:0%
+draft model has to be cheap and fast. A
+ 
+
+00:06:44.600 --> 00:06:46.470 align:start position:0%
+draft model has to be cheap and fast. A
+second,<00:06:45.040><c> that</c><00:06:45.160><c> the</c><00:06:45.240><c> draft</c><00:06:45.560><c> tokens</c><00:06:46.000><c> have</c><00:06:46.120><c> to</c><00:06:46.240><c> be</c>
+
+00:06:46.470 --> 00:06:46.480 align:start position:0%
+second, that the draft tokens have to be
+ 
+
+00:06:46.480 --> 00:06:48.710 align:start position:0%
+second, that the draft tokens have to be
+accurate<00:06:46.919><c> enough</c><00:06:47.160><c> to</c><00:06:47.280><c> survive</c><00:06:47.840><c> verification.</c>
+
+00:06:48.710 --> 00:06:48.720 align:start position:0%
+accurate enough to survive verification.
+ 
+
+00:06:48.720 --> 00:06:50.710 align:start position:0%
+accurate enough to survive verification.
+And<00:06:48.919><c> third,</c><00:06:49.480><c> the</c><00:06:49.560><c> system</c><00:06:49.960><c> cannot</c><00:06:50.320><c> waste</c><00:06:50.600><c> too</c>
+
+00:06:50.710 --> 00:06:50.720 align:start position:0%
+And third, the system cannot waste too
+ 
+
+00:06:50.720 --> 00:06:52.710 align:start position:0%
+And third, the system cannot waste too
+much<00:06:51.000><c> big</c><00:06:51.200><c> model</c><00:06:51.520><c> compute</c><00:06:51.840><c> verifying</c><00:06:52.360><c> tokens</c>
+
+00:06:52.710 --> 00:06:52.720 align:start position:0%
+much big model compute verifying tokens
+ 
+
+00:06:52.720 --> 00:06:54.150 align:start position:0%
+much big model compute verifying tokens
+that<00:06:52.840><c> are</c><00:06:53.000><c> obviously</c><00:06:53.560><c> going</c><00:06:53.840><c> to</c><00:06:53.960><c> get</c>
+
+00:06:54.150 --> 00:06:54.160 align:start position:0%
+that are obviously going to get
+ 
+
+00:06:54.160 --> 00:06:56.270 align:start position:0%
+that are obviously going to get
+rejected.<00:06:54.840><c> If</c><00:06:55.040><c> any</c><00:06:55.240><c> of</c><00:06:55.360><c> these</c><00:06:55.680><c> three</c><00:06:55.919><c> things</c>
+
+00:06:56.270 --> 00:06:56.280 align:start position:0%
+rejected. If any of these three things
+ 
+
+00:06:56.280 --> 00:06:57.990 align:start position:0%
+rejected. If any of these three things
+fail,<00:06:56.760><c> the</c><00:06:56.880><c> whole</c><00:06:57.120><c> speedup</c><00:06:57.520><c> would</c><00:06:57.640><c> start</c><00:06:57.919><c> to</c>
+
+00:06:57.990 --> 00:06:58.000 align:start position:0%
+fail, the whole speedup would start to
+ 
+
+00:06:58.000 --> 00:06:59.630 align:start position:0%
+fail, the whole speedup would start to
+collapse.<00:06:58.520><c> And</c><00:06:58.640><c> to</c><00:06:58.720><c> understand</c><00:06:59.200><c> these</c><00:06:59.440><c> part</c>
+
+00:06:59.630 --> 00:06:59.640 align:start position:0%
+collapse. And to understand these part
+ 
+
+00:06:59.640 --> 00:07:01.230 align:start position:0%
+collapse. And to understand these part
+better,<00:07:00.080><c> we</c><00:07:00.200><c> need</c><00:07:00.360><c> to</c><00:07:00.440><c> first</c><00:07:00.680><c> look</c><00:07:00.840><c> at</c><00:07:01.040><c> the</c>
+
+00:07:01.230 --> 00:07:01.240 align:start position:0%
+better, we need to first look at the
+ 
+
+00:07:01.240 --> 00:07:03.150 align:start position:0%
+better, we need to first look at the
+older<00:07:01.560><c> approaches.</c><00:07:02.240><c> The</c><00:07:02.320><c> most</c><00:07:02.560><c> basic</c><00:07:02.880><c> draft</c>
+
+00:07:03.150 --> 00:07:03.160 align:start position:0%
+older approaches. The most basic draft
+ 
+
+00:07:03.160 --> 00:07:05.230 align:start position:0%
+older approaches. The most basic draft
+model<00:07:03.520><c> is</c><00:07:03.760><c> just</c><00:07:04.080><c> a</c><00:07:04.160><c> smaller</c><00:07:04.640><c> model.</c><00:07:05.000><c> So,</c><00:07:05.120><c> if</c>
+
+00:07:05.230 --> 00:07:05.240 align:start position:0%
+model is just a smaller model. So, if
+ 
+
+00:07:05.240 --> 00:07:06.909 align:start position:0%
+model is just a smaller model. So, if
+your<00:07:05.360><c> target</c><00:07:05.680><c> model</c><00:07:05.919><c> is</c><00:07:06.040><c> huge,</c><00:07:06.480><c> you</c><00:07:06.640><c> use</c><00:07:06.840><c> a</c>
+
+00:07:06.909 --> 00:07:06.919 align:start position:0%
+your target model is huge, you use a
+ 
+
+00:07:06.919 --> 00:07:09.110 align:start position:0%
+your target model is huge, you use a
+tiny<00:07:07.280><c> model</c><00:07:07.600><c> to</c><00:07:07.760><c> guess</c><00:07:08.040><c> its</c><00:07:08.280><c> future</c><00:07:08.640><c> tokens.</c>
+
+00:07:09.110 --> 00:07:09.120 align:start position:0%
+tiny model to guess its future tokens.
+ 
+
+00:07:09.120 --> 00:07:10.950 align:start position:0%
+tiny model to guess its future tokens.
+But<00:07:09.240><c> the</c><00:07:09.360><c> issue</c><00:07:09.600><c> is</c><00:07:09.720><c> that</c><00:07:10.000><c> this</c><00:07:10.200><c> tiny</c><00:07:10.480><c> model</c><00:07:10.800><c> is</c>
+
+00:07:10.950 --> 00:07:10.960 align:start position:0%
+But the issue is that this tiny model is
+ 
+
+00:07:10.960 --> 00:07:12.590 align:start position:0%
+But the issue is that this tiny model is
+trying<00:07:11.160><c> to</c><00:07:11.240><c> imitate</c><00:07:11.600><c> the</c><00:07:11.680><c> big</c><00:07:11.880><c> model</c><00:07:12.200><c> from</c><00:07:12.400><c> the</c>
+
+00:07:12.590 --> 00:07:12.600 align:start position:0%
+trying to imitate the big model from the
+ 
+
+00:07:12.600 --> 00:07:14.270 align:start position:0%
+trying to imitate the big model from the
+outside.<00:07:13.240><c> So,</c><00:07:13.240><c> it</c><00:07:13.360><c> does</c><00:07:13.480><c> not</c><00:07:13.640><c> directly</c><00:07:14.040><c> see</c>
+
+00:07:14.270 --> 00:07:14.280 align:start position:0%
+outside. So, it does not directly see
+ 
+
+00:07:14.280 --> 00:07:15.830 align:start position:0%
+outside. So, it does not directly see
+what<00:07:14.480><c> the</c><00:07:14.520><c> big</c><00:07:14.760><c> model</c><00:07:15.120><c> is</c><00:07:15.360><c> thinking</c>
+
+00:07:15.830 --> 00:07:15.840 align:start position:0%
+what the big model is thinking
+ 
+
+00:07:15.840 --> 00:07:17.630 align:start position:0%
+what the big model is thinking
+internally.<00:07:16.520><c> So,</c><00:07:16.720><c> there</c><00:07:16.919><c> are</c><00:07:17.040><c> methods</c><00:07:17.480><c> like</c>
+
+00:07:17.630 --> 00:07:17.640 align:start position:0%
+internally. So, there are methods like
+ 
+
+00:07:17.640 --> 00:07:19.670 align:start position:0%
+internally. So, there are methods like
+multi-token<00:07:18.200><c> prediction</c><00:07:18.760><c> and</c><00:07:19.120><c> Eagle</c><00:07:19.480><c> that</c>
+
+00:07:19.670 --> 00:07:19.680 align:start position:0%
+multi-token prediction and Eagle that
+ 
+
+00:07:19.680 --> 00:07:21.550 align:start position:0%
+multi-token prediction and Eagle that
+make<00:07:19.880><c> the</c><00:07:19.960><c> drafter</c><00:07:20.440><c> much</c><00:07:20.800><c> more</c><00:07:21.000><c> connected</c><00:07:21.480><c> to</c>
+
+00:07:21.550 --> 00:07:21.560 align:start position:0%
+make the drafter much more connected to
+ 
+
+00:07:21.560 --> 00:07:23.190 align:start position:0%
+make the drafter much more connected to
+the<00:07:21.680><c> target</c><00:07:22.000><c> model.</c><00:07:22.480><c> What</c><00:07:22.600><c> they</c><00:07:22.760><c> do</c><00:07:23.000><c> is</c>
+
+00:07:23.190 --> 00:07:23.200 align:start position:0%
+the target model. What they do is
+ 
+
+00:07:23.200 --> 00:07:24.870 align:start position:0%
+the target model. What they do is
+instead<00:07:23.520><c> of</c><00:07:23.640><c> using</c><00:07:23.919><c> a</c><00:07:24.000><c> completely</c><00:07:24.480><c> separate</c>
+
+00:07:24.870 --> 00:07:24.880 align:start position:0%
+instead of using a completely separate
+ 
+
+00:07:24.880 --> 00:07:27.070 align:start position:0%
+instead of using a completely separate
+small<00:07:25.120><c> model,</c><00:07:25.600><c> they</c><00:07:25.800><c> attach</c><00:07:26.360><c> a</c><00:07:26.480><c> lightweight</c>
+
+00:07:27.070 --> 00:07:27.080 align:start position:0%
+small model, they attach a lightweight
+ 
+
+00:07:27.080 --> 00:07:29.110 align:start position:0%
+small model, they attach a lightweight
+draft<00:07:27.360><c> module</c><00:07:27.800><c> to</c><00:07:27.960><c> the</c><00:07:28.080><c> main</c><00:07:28.360><c> model</c><00:07:28.800><c> and</c><00:07:28.960><c> let</c>
+
+00:07:29.110 --> 00:07:29.120 align:start position:0%
+draft module to the main model and let
+ 
+
+00:07:29.120 --> 00:07:30.750 align:start position:0%
+draft module to the main model and let
+it<00:07:29.240><c> consume</c><00:07:29.720><c> the</c><00:07:29.840><c> target</c><00:07:30.160><c> model's</c><00:07:30.480><c> hidden</c>
+
+00:07:30.750 --> 00:07:30.760 align:start position:0%
+it consume the target model's hidden
+ 
+
+00:07:30.760 --> 00:07:32.270 align:start position:0%
+it consume the target model's hidden
+representations<00:07:31.560><c> to</c><00:07:31.680><c> make</c><00:07:31.919><c> future</c>
+
+00:07:32.270 --> 00:07:32.280 align:start position:0%
+representations to make future
+ 
+
+00:07:32.280 --> 00:07:34.350 align:start position:0%
+representations to make future
+predictions.<00:07:33.000><c> And</c><00:07:33.240><c> this</c><00:07:33.480><c> makes</c><00:07:33.800><c> a</c><00:07:33.919><c> lot</c><00:07:34.240><c> of</c>
+
+00:07:34.350 --> 00:07:34.360 align:start position:0%
+predictions. And this makes a lot of
+ 
+
+00:07:34.360 --> 00:07:36.070 align:start position:0%
+predictions. And this makes a lot of
+sense<00:07:34.800><c> because</c><00:07:35.080><c> the</c><00:07:35.200><c> target</c><00:07:35.520><c> model's</c><00:07:35.840><c> hidden</c>
+
+00:07:36.070 --> 00:07:36.080 align:start position:0%
+sense because the target model's hidden
+ 
+
+00:07:36.080 --> 00:07:38.030 align:start position:0%
+sense because the target model's hidden
+state<00:07:36.360><c> already</c><00:07:36.720><c> contains</c><00:07:37.200><c> rich</c><00:07:37.440><c> information</c>
+
+00:07:38.030 --> 00:07:38.040 align:start position:0%
+state already contains rich information
+ 
+
+00:07:38.040 --> 00:07:39.870 align:start position:0%
+state already contains rich information
+about<00:07:38.360><c> what</c><00:07:38.560><c> token</c><00:07:38.880><c> could</c><00:07:39.040><c> come</c><00:07:39.280><c> next.</c><00:07:39.800><c> So,</c>
+
+00:07:39.870 --> 00:07:39.880 align:start position:0%
+about what token could come next. So,
+ 
+
+00:07:39.880 --> 00:07:41.590 align:start position:0%
+about what token could come next. So,
+the<00:07:40.000><c> The</c><00:07:40.240><c> model</c><00:07:40.560><c> does</c><00:07:40.760><c> not</c><00:07:40.919><c> need</c><00:07:41.080><c> to</c><00:07:41.160><c> do</c><00:07:41.360><c> all</c>
+
+00:07:41.590 --> 00:07:41.600 align:start position:0%
+the The model does not need to do all
+ 
+
+00:07:41.600 --> 00:07:43.470 align:start position:0%
+the The model does not need to do all
+the<00:07:41.720><c> reasoning</c><00:07:42.120><c> from</c><00:07:42.280><c> scratch,</c><00:07:42.800><c> and</c><00:07:42.960><c> in</c><00:07:43.080><c> fact,</c>
+
+00:07:43.470 --> 00:07:43.480 align:start position:0%
+the reasoning from scratch, and in fact,
+ 
+
+00:07:43.480 --> 00:07:45.550 align:start position:0%
+the reasoning from scratch, and in fact,
+the<00:07:43.560><c> DeepSeek</c><00:07:44.160><c> is</c><00:07:44.560><c> arguably</c><00:07:45.080><c> the</c><00:07:45.160><c> first</c><00:07:45.400><c> lab</c>
+
+00:07:45.550 --> 00:07:45.560 align:start position:0%
+the DeepSeek is arguably the first lab
+ 
+
+00:07:45.560 --> 00:07:47.790 align:start position:0%
+the DeepSeek is arguably the first lab
+to<00:07:45.680><c> actually</c><00:07:46.000><c> use</c><00:07:46.200><c> MTP</c><00:07:46.760><c> at</c><00:07:46.920><c> frontier</c><00:07:47.320><c> level.</c>
+
+00:07:47.790 --> 00:07:47.800 align:start position:0%
+to actually use MTP at frontier level.
+ 
+
+00:07:47.800 --> 00:07:49.430 align:start position:0%
+to actually use MTP at frontier level.
+So,<00:07:47.920><c> DeepSpark</c><00:07:48.440><c> is</c><00:07:48.600><c> not</c><00:07:48.840><c> simply</c><00:07:49.240><c> an</c>
+
+00:07:49.430 --> 00:07:49.440 align:start position:0%
+So, DeepSpark is not simply an
+ 
+
+00:07:49.440 --> 00:07:51.950 align:start position:0%
+So, DeepSpark is not simply an
+alternative<00:07:50.000><c> to</c><00:07:50.120><c> MTP,</c><00:07:50.840><c> it</c><00:07:51.000><c> is</c><00:07:51.160><c> an</c><00:07:51.320><c> improvement</c>
+
+00:07:51.950 --> 00:07:51.960 align:start position:0%
+alternative to MTP, it is an improvement
+ 
+
+00:07:51.960 --> 00:07:54.230 align:start position:0%
+alternative to MTP, it is an improvement
+built<00:07:52.160><c> on</c><00:07:52.320><c> top</c><00:07:52.600><c> of</c><00:07:52.800><c> MTP,</c><00:07:53.440><c> which</c><00:07:53.720><c> makes</c><00:07:54.000><c> this</c>
+
+00:07:54.230 --> 00:07:54.240 align:start position:0%
+built on top of MTP, which makes this
+ 
+
+00:07:54.240 --> 00:07:55.990 align:start position:0%
+built on top of MTP, which makes this
+research<00:07:54.640><c> even</c><00:07:54.840><c> better.</c><00:07:55.160><c> But,</c><00:07:55.400><c> what</c><00:07:55.600><c> is</c><00:07:55.760><c> there</c>
+
+00:07:55.990 --> 00:07:56.000 align:start position:0%
+research even better. But, what is there
+ 
+
+00:07:56.000 --> 00:07:58.590 align:start position:0%
+research even better. But, what is there
+to<00:07:56.120><c> improve</c><00:07:56.440><c> about</c><00:07:56.760><c> MTP?</c><00:07:57.560><c> Well,</c><00:07:57.880><c> it</c><00:07:58.040><c> still</c><00:07:58.280><c> has</c>
+
+00:07:58.590 --> 00:07:58.600 align:start position:0%
+to improve about MTP? Well, it still has
+ 
+
+00:07:58.600 --> 00:08:00.550 align:start position:0%
+to improve about MTP? Well, it still has
+one<00:07:58.880><c> major</c><00:07:59.200><c> limitation.</c><00:07:59.840><c> The</c><00:07:59.960><c> draft</c><00:08:00.240><c> model</c>
+
+00:08:00.550 --> 00:08:00.560 align:start position:0%
+one major limitation. The draft model
+ 
+
+00:08:00.560 --> 00:08:02.350 align:start position:0%
+one major limitation. The draft model
+still<00:08:00.800><c> generates</c><00:08:01.280><c> sequentially.</c><00:08:02.120><c> If</c><00:08:02.240><c> you</c>
+
+00:08:02.350 --> 00:08:02.360 align:start position:0%
+still generates sequentially. If you
+ 
+
+00:08:02.360 --> 00:08:04.030 align:start position:0%
+still generates sequentially. If you
+want<00:08:02.640><c> eight</c><00:08:02.800><c> draft</c><00:08:03.080><c> tokens,</c><00:08:03.600><c> you</c><00:08:03.720><c> usually</c>
+
+00:08:04.030 --> 00:08:04.040 align:start position:0%
+want eight draft tokens, you usually
+ 
+
+00:08:04.040 --> 00:08:05.870 align:start position:0%
+want eight draft tokens, you usually
+need<00:08:04.240><c> to</c><00:08:04.360><c> run</c><00:08:04.680><c> eight</c><00:08:04.840><c> drafting</c><00:08:05.240><c> steps,</c><00:08:05.720><c> and</c>
+
+00:08:05.870 --> 00:08:05.880 align:start position:0%
+need to run eight drafting steps, and
+ 
+
+00:08:05.880 --> 00:08:07.750 align:start position:0%
+need to run eight drafting steps, and
+the<00:08:05.920><c> drafting</c><00:08:06.360><c> cost</c><00:08:06.800><c> grows</c><00:08:07.280><c> with</c><00:08:07.400><c> the</c><00:08:07.480><c> number</c>
+
+00:08:07.750 --> 00:08:07.760 align:start position:0%
+the drafting cost grows with the number
+ 
+
+00:08:07.760 --> 00:08:09.830 align:start position:0%
+the drafting cost grows with the number
+of<00:08:07.840><c> draft</c><00:08:08.160><c> tokens.</c><00:08:08.720><c> So,</c><00:08:08.960><c> the</c><00:08:09.080><c> more</c><00:08:09.280><c> ambitious</c>
+
+00:08:09.830 --> 00:08:09.840 align:start position:0%
+of draft tokens. So, the more ambitious
+ 
+
+00:08:09.840 --> 00:08:11.870 align:start position:0%
+of draft tokens. So, the more ambitious
+your<00:08:10.040><c> speculative</c><00:08:10.720><c> block</c><00:08:11.040><c> it</c><00:08:11.120><c> becomes,</c><00:08:11.720><c> the</c>
+
+00:08:11.870 --> 00:08:11.880 align:start position:0%
+your speculative block it becomes, the
+ 
+
+00:08:11.880 --> 00:08:13.790 align:start position:0%
+your speculative block it becomes, the
+more<00:08:12.160><c> the</c><00:08:12.280><c> drafter</c><00:08:12.680><c> itself</c><00:08:13.120><c> starts</c><00:08:13.480><c> eating</c>
+
+00:08:13.790 --> 00:08:13.800 align:start position:0%
+more the drafter itself starts eating
+ 
+
+00:08:13.800 --> 00:08:15.310 align:start position:0%
+more the drafter itself starts eating
+into<00:08:14.080><c> the</c><00:08:14.160><c> speed</c><00:08:14.480><c> up.</c><00:08:14.680><c> So,</c><00:08:14.800><c> the</c><00:08:14.880><c> speed</c><00:08:15.160><c> up</c>
+
+00:08:15.310 --> 00:08:15.320 align:start position:0%
+into the speed up. So, the speed up
+ 
+
+00:08:15.320 --> 00:08:16.909 align:start position:0%
+into the speed up. So, the speed up
+actually<00:08:15.640><c> decreases</c><00:08:16.240><c> the</c><00:08:16.360><c> longer</c><00:08:16.800><c> you</c>
+
+00:08:16.909 --> 00:08:16.919 align:start position:0%
+actually decreases the longer you
+ 
+
+00:08:16.919 --> 00:08:19.270 align:start position:0%
+actually decreases the longer you
+generate,<00:08:17.360><c> and</c><00:08:17.600><c> this</c><00:08:18.120><c> is</c><00:08:18.400><c> the</c><00:08:18.520><c> first</c><00:08:18.919><c> side</c><00:08:19.200><c> of</c>
+
+00:08:19.270 --> 00:08:19.280 align:start position:0%
+generate, and this is the first side of
+ 
+
+00:08:19.280 --> 00:08:21.470 align:start position:0%
+generate, and this is the first side of
+the<00:08:19.400><c> tradeoff.</c><00:08:20.000><c> Then,</c><00:08:20.400><c> we</c><00:08:20.600><c> have</c><00:08:20.800><c> methods</c><00:08:21.240><c> like</c>
+
+00:08:21.470 --> 00:08:21.480 align:start position:0%
+the tradeoff. Then, we have methods like
+ 
+
+00:08:21.480 --> 00:08:23.590 align:start position:0%
+the tradeoff. Then, we have methods like
+DeepFlash,<00:08:22.080><c> where</c><00:08:22.400><c> it</c><00:08:22.560><c> goes</c><00:08:22.840><c> in</c><00:08:23.040><c> the</c><00:08:23.240><c> opposite</c>
+
+00:08:23.590 --> 00:08:23.600 align:start position:0%
+DeepFlash, where it goes in the opposite
+ 
+
+00:08:23.600 --> 00:08:25.190 align:start position:0%
+DeepFlash, where it goes in the opposite
+direction.<00:08:24.200><c> Instead</c><00:08:24.440><c> of</c><00:08:24.520><c> drafting</c><00:08:24.919><c> future</c>
+
+00:08:25.190 --> 00:08:25.200 align:start position:0%
+direction. Instead of drafting future
+ 
+
+00:08:25.200 --> 00:08:27.270 align:start position:0%
+direction. Instead of drafting future
+tokens<00:08:25.600><c> one</c><00:08:25.800><c> by</c><00:08:26.000><c> one,</c><00:08:26.360><c> it</c><00:08:26.480><c> uses</c><00:08:26.760><c> a</c><00:08:26.800><c> parallel</c>
+
+00:08:27.270 --> 00:08:27.280 align:start position:0%
+tokens one by one, it uses a parallel
+ 
+
+00:08:27.280 --> 00:08:29.030 align:start position:0%
+tokens one by one, it uses a parallel
+block<00:08:27.560><c> generation</c><00:08:28.040><c> approach</c><00:08:28.400><c> inspired</c><00:08:28.919><c> by</c>
+
+00:08:29.030 --> 00:08:29.040 align:start position:0%
+block generation approach inspired by
+ 
+
+00:08:29.040 --> 00:08:30.909 align:start position:0%
+block generation approach inspired by
+diffusion<00:08:29.520><c> language</c><00:08:29.880><c> models.</c><00:08:30.400><c> So,</c><00:08:30.600><c> it</c><00:08:30.760><c> can</c>
+
+00:08:30.909 --> 00:08:30.919 align:start position:0%
+diffusion language models. So, it can
+ 
+
+00:08:30.919 --> 00:08:32.830 align:start position:0%
+diffusion language models. So, it can
+propose<00:08:31.400><c> all</c><00:08:31.600><c> the</c><00:08:31.680><c> draft</c><00:08:31.919><c> tokens</c><00:08:32.280><c> in</c><00:08:32.560><c> one</c>
+
+00:08:32.830 --> 00:08:32.840 align:start position:0%
+propose all the draft tokens in one
+ 
+
+00:08:32.840 --> 00:08:34.469 align:start position:0%
+propose all the draft tokens in one
+forward<00:08:33.159><c> pass,</c><00:08:33.640><c> and</c><00:08:33.760><c> this</c><00:08:33.960><c> is</c><00:08:34.080><c> much</c><00:08:34.320><c> more</c>
+
+00:08:34.469 --> 00:08:34.479 align:start position:0%
+forward pass, and this is much more
+ 
+
+00:08:34.479 --> 00:08:36.390 align:start position:0%
+forward pass, and this is much more
+GPU-friendly,<00:08:35.280><c> because</c><00:08:35.599><c> you</c><00:08:35.800><c> only</c><00:08:36.080><c> pay</c><00:08:36.280><c> for</c>
+
+00:08:36.390 --> 00:08:36.400 align:start position:0%
+GPU-friendly, because you only pay for
+ 
+
+00:08:36.400 --> 00:08:38.190 align:start position:0%
+GPU-friendly, because you only pay for
+the<00:08:36.479><c> draft</c><00:08:36.719><c> computation</c><00:08:37.360><c> once,</c><00:08:37.800><c> and</c><00:08:37.960><c> you</c><00:08:38.039><c> get</c>
+
+00:08:38.190 --> 00:08:38.200 align:start position:0%
+the draft computation once, and you get
+ 
+
+00:08:38.200 --> 00:08:40.550 align:start position:0%
+the draft computation once, and you get
+a<00:08:38.280><c> whole</c><00:08:38.560><c> block</c><00:08:38.919><c> of</c><00:08:39.080><c> future</c><00:08:39.440><c> tokens.</c><00:08:40.000><c> However,</c>
+
+00:08:40.550 --> 00:08:40.560 align:start position:0%
+a whole block of future tokens. However,
+ 
+
+00:08:40.560 --> 00:08:42.630 align:start position:0%
+a whole block of future tokens. However,
+we<00:08:40.800><c> now</c><00:08:41.039><c> have</c><00:08:41.280><c> the</c><00:08:41.479><c> opposite</c><00:08:41.840><c> problem.</c><00:08:42.280><c> If</c><00:08:42.479><c> all</c>
+
+00:08:42.630 --> 00:08:42.640 align:start position:0%
+we now have the opposite problem. If all
+ 
+
+00:08:42.640 --> 00:08:44.110 align:start position:0%
+we now have the opposite problem. If all
+future<00:08:42.919><c> positions</c><00:08:43.400><c> are</c><00:08:43.520><c> predicted</c><00:08:44.000><c> in</c>
+
+00:08:44.110 --> 00:08:44.120 align:start position:0%
+future positions are predicted in
+ 
+
+00:08:44.120 --> 00:08:46.070 align:start position:0%
+future positions are predicted in
+parallel,<00:08:44.720><c> then</c><00:08:44.960><c> later</c><00:08:45.280><c> tokens</c><00:08:45.680><c> do</c><00:08:45.839><c> not</c>
+
+00:08:46.070 --> 00:08:46.080 align:start position:0%
+parallel, then later tokens do not
+ 
+
+00:08:46.080 --> 00:08:47.510 align:start position:0%
+parallel, then later tokens do not
+actually<00:08:46.360><c> know</c><00:08:46.520><c> what</c><00:08:46.760><c> earlier</c><00:08:47.040><c> tokens</c><00:08:47.400><c> were</c>
+
+00:08:47.510 --> 00:08:47.520 align:start position:0%
+actually know what earlier tokens were
+ 
+
+00:08:47.520 --> 00:08:49.350 align:start position:0%
+actually know what earlier tokens were
+sampled.<00:08:48.040><c> If</c><00:08:48.200><c> not</c><00:08:48.440><c> enough</c><00:08:48.720><c> iterations</c><00:08:49.240><c> were</c>
+
+00:08:49.350 --> 00:08:49.360 align:start position:0%
+sampled. If not enough iterations were
+ 
+
+00:08:49.360 --> 00:08:51.590 align:start position:0%
+sampled. If not enough iterations were
+spent<00:08:49.720><c> on</c><00:08:49.920><c> generating,</c><00:08:50.680><c> each</c><00:08:50.920><c> token</c><00:08:51.280><c> could</c><00:08:51.480><c> be</c>
+
+00:08:51.590 --> 00:08:51.600 align:start position:0%
+spent on generating, each token could be
+ 
+
+00:08:51.600 --> 00:08:53.750 align:start position:0%
+spent on generating, each token could be
+predicted<00:08:52.160><c> to</c><00:08:52.400><c> independently,</c><00:08:53.360><c> producing</c>
+
+00:08:53.750 --> 00:08:53.760 align:start position:0%
+predicted to independently, producing
+ 
+
+00:08:53.760 --> 00:08:55.910 align:start position:0%
+predicted to independently, producing
+continuations<00:08:54.440><c> that</c><00:08:54.760><c> don't</c><00:08:55.040><c> make</c><00:08:55.280><c> sense.</c><00:08:55.800><c> On</c>
+
+00:08:55.910 --> 00:08:55.920 align:start position:0%
+continuations that don't make sense. On
+ 
+
+00:08:55.920 --> 00:08:57.829 align:start position:0%
+continuations that don't make sense. On
+top<00:08:56.080><c> of</c><00:08:56.240><c> that,</c><00:08:56.560><c> the</c><00:08:56.640><c> later</c><00:08:56.880><c> positions</c><00:08:57.400><c> become</c>
+
+00:08:57.829 --> 00:08:57.839 align:start position:0%
+top of that, the later positions become
+ 
+
+00:08:57.839 --> 00:08:59.590 align:start position:0%
+top of that, the later positions become
+less<00:08:58.080><c> reliable</c><00:08:58.680><c> because</c><00:08:58.920><c> they</c><00:08:59.080><c> are</c><00:08:59.240><c> missing</c>
+
+00:08:59.590 --> 00:08:59.600 align:start position:0%
+less reliable because they are missing
+ 
+
+00:08:59.600 --> 00:09:02.310 align:start position:0%
+less reliable because they are missing
+the<00:08:59.720><c> dependency</c><00:09:00.520><c> on</c><00:09:00.760><c> the</c><00:09:00.960><c> actual</c><00:09:01.360><c> prefix.</c><00:09:02.080><c> So,</c>
+
+00:09:02.310 --> 00:09:02.320 align:start position:0%
+the dependency on the actual prefix. So,
+ 
+
+00:09:02.320 --> 00:09:04.470 align:start position:0%
+the dependency on the actual prefix. So,
+DeepSeek's<00:09:02.920><c> DeepSpark</c><00:09:03.520><c> came</c><00:09:03.800><c> in</c><00:09:04.040><c> as</c><00:09:04.280><c> an</c>
+
+00:09:04.470 --> 00:09:04.480 align:start position:0%
+DeepSeek's DeepSpark came in as an
+ 
+
+00:09:04.480 --> 00:09:06.390 align:start position:0%
+DeepSeek's DeepSpark came in as an
+in-between<00:09:05.040><c> of</c><00:09:05.200><c> the</c><00:09:05.360><c> two</c><00:09:05.680><c> that</c><00:09:05.960><c> takes</c><00:09:06.280><c> the</c>
+
+00:09:06.390 --> 00:09:06.400 align:start position:0%
+in-between of the two that takes the
+ 
+
+00:09:06.400 --> 00:09:08.230 align:start position:0%
+in-between of the two that takes the
+best<00:09:06.640><c> of</c><00:09:06.800><c> both</c><00:09:07.080><c> worlds,</c><00:09:07.560><c> and</c><00:09:07.680><c> they</c><00:09:07.800><c> call</c><00:09:08.120><c> this</c>
+
+00:09:08.230 --> 00:09:08.240 align:start position:0%
+best of both worlds, and they call this
+ 
+
+00:09:08.240 --> 00:09:10.510 align:start position:0%
+best of both worlds, and they call this
+approach<00:09:08.760><c> a</c><00:09:08.800><c> semi-autoregressive</c><00:09:10.040><c> drafting.</c>
+
+00:09:10.510 --> 00:09:10.520 align:start position:0%
+approach a semi-autoregressive drafting.
+ 
+
+00:09:10.520 --> 00:09:12.790 align:start position:0%
+approach a semi-autoregressive drafting.
+First,<00:09:11.080><c> DeepSpark</c><00:09:11.600><c> uses</c><00:09:11.960><c> a</c><00:09:12.040><c> heavy</c><00:09:12.440><c> parallel</c>
+
+00:09:12.790 --> 00:09:12.800 align:start position:0%
+First, DeepSpark uses a heavy parallel
+ 
+
+00:09:12.800 --> 00:09:14.430 align:start position:0%
+First, DeepSpark uses a heavy parallel
+backbone<00:09:13.200><c> to</c><00:09:13.280><c> produce</c><00:09:13.640><c> a</c><00:09:13.760><c> whole</c><00:09:14.040><c> block</c><00:09:14.320><c> of</c>
+
+00:09:14.430 --> 00:09:14.440 align:start position:0%
+backbone to produce a whole block of
+ 
+
+00:09:14.440 --> 00:09:16.310 align:start position:0%
+backbone to produce a whole block of
+draft<00:09:14.720><c> representations</c><00:09:15.440><c> quickly,</c><00:09:15.960><c> similar</c>
+
+00:09:16.310 --> 00:09:16.320 align:start position:0%
+draft representations quickly, similar
+ 
+
+00:09:16.320 --> 00:09:17.990 align:start position:0%
+draft representations quickly, similar
+to<00:09:16.400><c> the</c><00:09:16.480><c> DeepFlash</c><00:09:17.040><c> advantage</c><00:09:17.680><c> where</c><00:09:17.800><c> you</c><00:09:17.880><c> get</c>
+
+00:09:17.990 --> 00:09:18.000 align:start position:0%
+to the DeepFlash advantage where you get
+ 
+
+00:09:18.000 --> 00:09:19.950 align:start position:0%
+to the DeepFlash advantage where you get
+the<00:09:18.080><c> future</c><00:09:18.360><c> block</c><00:09:18.640><c> in</c><00:09:18.839><c> one</c><00:09:19.080><c> parallel</c><00:09:19.480><c> pass.</c>
+
+00:09:19.950 --> 00:09:19.960 align:start position:0%
+the future block in one parallel pass.
+ 
+
+00:09:19.960 --> 00:09:22.270 align:start position:0%
+the future block in one parallel pass.
+Then,<00:09:20.320><c> DeepSpark</c><00:09:20.960><c> adds</c><00:09:21.240><c> a</c><00:09:21.320><c> tiny</c><00:09:21.760><c> sequential</c>
+
+00:09:22.270 --> 00:09:22.280 align:start position:0%
+Then, DeepSpark adds a tiny sequential
+ 
+
+00:09:22.280 --> 00:09:24.150 align:start position:0%
+Then, DeepSpark adds a tiny sequential
+module<00:09:22.680><c> on</c><00:09:22.920><c> top.</c><00:09:23.280><c> This</c><00:09:23.480><c> tiny</c><00:09:23.760><c> sequential</c>
+
+00:09:24.150 --> 00:09:24.160 align:start position:0%
+module on top. This tiny sequential
+ 
+
+00:09:24.160 --> 00:09:25.790 align:start position:0%
+module on top. This tiny sequential
+module<00:09:24.520><c> walks</c><00:09:24.880><c> through</c><00:09:25.160><c> the</c><00:09:25.240><c> draft</c><00:09:25.640><c> and</c>
+
+00:09:25.790 --> 00:09:25.800 align:start position:0%
+module walks through the draft and
+ 
+
+00:09:25.800 --> 00:09:28.110 align:start position:0%
+module walks through the draft and
+biases<00:09:26.320><c> each</c><00:09:26.520><c> token</c><00:09:26.960><c> towards</c><00:09:27.480><c> what</c><00:09:27.839><c> came</c>
+
+00:09:28.110 --> 00:09:28.120 align:start position:0%
+biases each token towards what came
+ 
+
+00:09:28.120 --> 00:09:30.150 align:start position:0%
+biases each token towards what came
+before,<00:09:28.600><c> which</c><00:09:28.839><c> means</c><00:09:29.280><c> we</c><00:09:29.440><c> have</c><00:09:29.680><c> a</c><00:09:29.800><c> heavy</c>
+
+00:09:30.150 --> 00:09:30.160 align:start position:0%
+before, which means we have a heavy
+ 
+
+00:09:30.160 --> 00:09:31.710 align:start position:0%
+before, which means we have a heavy
+parallel<00:09:30.640><c> module</c><00:09:31.120><c> proposing</c><00:09:31.600><c> the</c>
+
+00:09:31.710 --> 00:09:31.720 align:start position:0%
+parallel module proposing the
+ 
+
+00:09:31.720 --> 00:09:33.670 align:start position:0%
+parallel module proposing the
+continuation,<00:09:32.800><c> and</c><00:09:33.120><c> a</c><00:09:33.200><c> lightweight</c>
+
+00:09:33.670 --> 00:09:33.680 align:start position:0%
+continuation, and a lightweight
+ 
+
+00:09:33.680 --> 00:09:35.910 align:start position:0%
+continuation, and a lightweight
+sequential<00:09:34.280><c> editor</c><00:09:34.640><c> that</c><00:09:34.960><c> fixes</c><00:09:35.440><c> the</c><00:09:35.560><c> local</c>
+
+00:09:35.910 --> 00:09:35.920 align:start position:0%
+sequential editor that fixes the local
+ 
+
+00:09:35.920 --> 00:09:37.630 align:start position:0%
+sequential editor that fixes the local
+coherence.<00:09:36.640><c> And</c><00:09:36.760><c> because</c><00:09:37.120><c> the</c><00:09:37.240><c> parallel</c>
+
+00:09:37.630 --> 00:09:37.640 align:start position:0%
+coherence. And because the parallel
+ 
+
+00:09:37.640 --> 00:09:39.390 align:start position:0%
+coherence. And because the parallel
+backbone<00:09:38.040><c> already</c><00:09:38.400><c> captures</c><00:09:38.920><c> the</c><00:09:39.040><c> broader</c>
+
+00:09:39.390 --> 00:09:39.400 align:start position:0%
+backbone already captures the broader
+ 
+
+00:09:39.400 --> 00:09:41.630 align:start position:0%
+backbone already captures the broader
+context,<00:09:40.120><c> the</c><00:09:40.240><c> sequential</c><00:09:40.840><c> module</c><00:09:41.160><c> does</c><00:09:41.400><c> not</c>
+
+00:09:41.630 --> 00:09:41.640 align:start position:0%
+context, the sequential module does not
+ 
+
+00:09:41.640 --> 00:09:43.350 align:start position:0%
+context, the sequential module does not
+need<00:09:41.800><c> to</c><00:09:41.880><c> be</c><00:09:42.000><c> a</c><00:09:42.080><c> full</c><00:09:42.320><c> transformer</c><00:09:42.960><c> at</c><00:09:43.120><c> every</c>
+
+00:09:43.350 --> 00:09:43.360 align:start position:0%
+need to be a full transformer at every
+ 
+
+00:09:43.360 --> 00:09:45.710 align:start position:0%
+need to be a full transformer at every
+position.<00:09:44.280><c> It</c><00:09:44.440><c> can</c><00:09:44.560><c> be</c><00:09:44.800><c> much</c><00:09:45.160><c> cheaper.</c><00:09:45.640><c> The</c>
+
+00:09:45.710 --> 00:09:45.720 align:start position:0%
+position. It can be much cheaper. The
+ 
+
+00:09:45.720 --> 00:09:47.190 align:start position:0%
+position. It can be much cheaper. The
+paper<00:09:46.000><c> tests</c><00:09:46.400><c> lightweight</c><00:09:46.840><c> sequential</c>
+
+00:09:47.190 --> 00:09:47.200 align:start position:0%
+paper tests lightweight sequential
+ 
+
+00:09:47.200 --> 00:09:49.190 align:start position:0%
+paper tests lightweight sequential
+designs<00:09:47.640><c> like</c><00:09:47.800><c> an</c><00:09:47.960><c> RNN</c><00:09:48.440><c> head,</c><00:09:48.800><c> with</c><00:09:48.920><c> the</c><00:09:49.000><c> main</c>
+
+00:09:49.190 --> 00:09:49.200 align:start position:0%
+designs like an RNN head, with the main
+ 
+
+00:09:49.200 --> 00:09:50.910 align:start position:0%
+designs like an RNN head, with the main
+version<00:09:49.560><c> using</c><00:09:49.840><c> a</c><00:09:49.920><c> Markov</c><00:09:50.400><c> head.</c><00:09:50.680><c> What</c><00:09:50.800><c> the</c>
+
+00:09:50.910 --> 00:09:50.920 align:start position:0%
+version using a Markov head. What the
+ 
+
+00:09:50.920 --> 00:09:53.030 align:start position:0%
+version using a Markov head. What the
+Markov<00:09:51.320><c> head</c><00:09:51.600><c> does</c><00:09:51.880><c> here</c><00:09:52.160><c> is</c><00:09:52.440><c> it</c><00:09:52.640><c> basically</c>
+
+00:09:53.030 --> 00:09:53.040 align:start position:0%
+Markov head does here is it basically
+ 
+
+00:09:53.040 --> 00:09:54.990 align:start position:0%
+Markov head does here is it basically
+makes<00:09:53.280><c> the</c><00:09:53.400><c> next</c><00:09:53.680><c> token</c><00:09:53.920><c> distribution</c><00:09:54.600><c> biased</c>
+
+00:09:54.990 --> 00:09:55.000 align:start position:0%
+makes the next token distribution biased
+ 
+
+00:09:55.000 --> 00:09:56.870 align:start position:0%
+makes the next token distribution biased
+to<00:09:55.080><c> based</c><00:09:55.440><c> on</c><00:09:55.680><c> the</c><00:09:55.800><c> previous</c><00:09:56.160><c> token.</c><00:09:56.600><c> So,</c><00:09:56.760><c> if</c>
+
+00:09:56.870 --> 00:09:56.880 align:start position:0%
+to based on the previous token. So, if
+ 
+
+00:09:56.880 --> 00:09:59.030 align:start position:0%
+to based on the previous token. So, if
+the<00:09:56.960><c> previous</c><00:09:57.320><c> token</c><00:09:57.720><c> is</c><00:09:58.080><c> off,</c><00:09:58.520><c> it</c><00:09:58.640><c> can</c><00:09:58.800><c> push</c>
+
+00:09:59.030 --> 00:09:59.040 align:start position:0%
+the previous token is off, it can push
+ 
+
+00:09:59.040 --> 00:10:01.030 align:start position:0%
+the previous token is off, it can push
+the<00:09:59.120><c> next</c><00:09:59.400><c> token</c><00:09:59.680><c> towards</c><00:10:00.160><c> course.</c><00:10:00.720><c> If</c><00:10:00.920><c> the</c>
+
+00:10:01.030 --> 00:10:01.040 align:start position:0%
+the next token towards course. If the
+ 
+
+00:10:01.040 --> 00:10:02.670 align:start position:0%
+the next token towards course. If the
+previous<00:10:01.400><c> token</c><00:10:01.680><c> is</c><00:10:01.840><c> no,</c><00:10:02.160><c> it</c><00:10:02.280><c> can</c><00:10:02.400><c> push</c><00:10:02.600><c> the</c>
+
+00:10:02.670 --> 00:10:02.680 align:start position:0%
+previous token is no, it can push the
+ 
+
+00:10:02.680 --> 00:10:04.270 align:start position:0%
+previous token is no, it can push the
+next<00:10:02.960><c> token</c><00:10:03.280><c> towards</c><00:10:03.680><c> problem.</c><00:10:04.200><c> And</c><00:10:04.200><c> the</c>
+
+00:10:04.270 --> 00:10:04.280 align:start position:0%
+next token towards problem. And the
+ 
+
+00:10:04.280 --> 00:10:06.190 align:start position:0%
+next token towards problem. And the
+reason<00:10:04.640><c> why</c><00:10:04.840><c> he</c><00:10:05.000><c> can</c><00:10:05.120><c> use</c><00:10:05.280><c> a</c><00:10:05.320><c> Markov</c><00:10:05.760><c> head</c><00:10:05.960><c> here</c>
+
+00:10:06.190 --> 00:10:06.200 align:start position:0%
+reason why he can use a Markov head here
+ 
+
+00:10:06.200 --> 00:10:08.550 align:start position:0%
+reason why he can use a Markov head here
+is<00:10:06.400><c> that</c><00:10:06.680><c> this</c><00:10:06.920><c> is</c><00:10:07.240><c> a</c><00:10:07.360><c> simpler</c><00:10:07.920><c> task</c><00:10:08.360><c> than</c>
+
+00:10:08.550 --> 00:10:08.560 align:start position:0%
+is that this is a simpler task than
+ 
+
+00:10:08.560 --> 00:10:10.630 align:start position:0%
+is that this is a simpler task than
+generating<00:10:09.120><c> a</c><00:10:09.200><c> full</c><00:10:09.560><c> next</c><00:10:09.840><c> token.</c><00:10:10.280><c> So,</c><00:10:10.440><c> less</c>
+
+00:10:10.630 --> 00:10:10.640 align:start position:0%
+generating a full next token. So, less
+ 
+
+00:10:10.640 --> 00:10:13.230 align:start position:0%
+generating a full next token. So, less
+complexity<00:10:11.480><c> and</c><00:10:11.760><c> compute</c><00:10:12.400><c> is</c><00:10:12.600><c> needed,</c><00:10:13.000><c> which</c>
+
+00:10:13.230 --> 00:10:13.240 align:start position:0%
+complexity and compute is needed, which
+ 
+
+00:10:13.240 --> 00:10:15.230 align:start position:0%
+complexity and compute is needed, which
+means<00:10:13.600><c> not</c><00:10:13.800><c> only</c><00:10:14.000><c> does</c><00:10:14.240><c> D-Spark</c><00:10:14.720><c> get</c><00:10:14.840><c> the</c><00:10:14.960><c> fast</c>
+
+00:10:15.230 --> 00:10:15.240 align:start position:0%
+means not only does D-Spark get the fast
+ 
+
+00:10:15.240 --> 00:10:17.390 align:start position:0%
+means not only does D-Spark get the fast
+block<00:10:15.440><c> generation</c><00:10:15.880><c> behavior</c><00:10:16.360><c> of</c><00:10:16.520><c> D-Flash,</c><00:10:17.160><c> it</c>
+
+00:10:17.390 --> 00:10:17.400 align:start position:0%
+block generation behavior of D-Flash, it
+ 
+
+00:10:17.400 --> 00:10:19.550 align:start position:0%
+block generation behavior of D-Flash, it
+also<00:10:17.720><c> recovers</c><00:10:18.280><c> some</c><00:10:18.440><c> of</c><00:10:18.480><c> the</c><00:10:18.560><c> consistency</c><00:10:19.360><c> of</c>
+
+00:10:19.550 --> 00:10:19.560 align:start position:0%
+also recovers some of the consistency of
+ 
+
+00:10:19.560 --> 00:10:21.390 align:start position:0%
+also recovers some of the consistency of
+MTP.<00:10:20.240><c> And</c><00:10:20.400><c> in</c><00:10:20.520><c> their</c><00:10:20.680><c> results,</c><00:10:21.240><c> the</c>
+
+00:10:21.390 --> 00:10:21.400 align:start position:0%
+MTP. And in their results, the
+ 
+
+00:10:21.400 --> 00:10:23.150 align:start position:0%
+MTP. And in their results, the
+improvements<00:10:22.120><c> are</c><00:10:22.360><c> really</c><00:10:22.560><c> impressive.</c>
+
+00:10:23.150 --> 00:10:23.160 align:start position:0%
+improvements are really impressive.
+ 
+
+00:10:23.160 --> 00:10:26.630 align:start position:0%
+improvements are really impressive.
+Across<00:10:23.520><c> 203B,</c><00:10:24.600><c> 8B,</c><00:10:25.080><c> and</c><00:10:25.240><c> 14B,</c><00:10:26.080><c> D-Spark</c>
+
+00:10:26.630 --> 00:10:26.640 align:start position:0%
+Across 203B, 8B, and 14B, D-Spark
+ 
+
+00:10:26.640 --> 00:10:29.070 align:start position:0%
+Across 203B, 8B, and 14B, D-Spark
+improves<00:10:27.120><c> accepted</c><00:10:27.680><c> length</c><00:10:28.000><c> by</c><00:10:28.160><c> around</c><00:10:28.520><c> 30%</c>
+
+00:10:29.070 --> 00:10:29.080 align:start position:0%
+improves accepted length by around 30%
+ 
+
+00:10:29.080 --> 00:10:32.190 align:start position:0%
+improves accepted length by around 30%
+over<00:10:29.360><c> Eagle</c><00:10:29.640><c> 3</c><00:10:30.000><c> and</c><00:10:30.120><c> around</c><00:10:30.480><c> 16%</c><00:10:31.200><c> to</c><00:10:31.320><c> 18%</c><00:10:31.960><c> over</c>
+
+00:10:32.190 --> 00:10:32.200 align:start position:0%
+over Eagle 3 and around 16% to 18% over
+ 
+
+00:10:32.200 --> 00:10:35.030 align:start position:0%
+over Eagle 3 and around 16% to 18% over
+D-Flash.<00:10:32.880><c> Absolutely</c><00:10:33.680><c> mugging</c><00:10:34.280><c> any</c><00:10:34.480><c> previous</c>
+
+00:10:35.030 --> 00:10:35.040 align:start position:0%
+D-Flash. Absolutely mugging any previous
+ 
+
+00:10:35.040 --> 00:10:36.910 align:start position:0%
+D-Flash. Absolutely mugging any previous
+speculative<00:10:35.560><c> decoding</c><00:10:36.000><c> methods.</c><00:10:36.480><c> But</c><00:10:36.680><c> keep</c>
+
+00:10:36.910 --> 00:10:36.920 align:start position:0%
+speculative decoding methods. But keep
+ 
+
+00:10:36.920 --> 00:10:38.830 align:start position:0%
+speculative decoding methods. But keep
+in<00:10:37.000><c> mind,</c><00:10:37.360><c> the</c><00:10:37.480><c> acceptance</c><00:10:38.080><c> rate</c><00:10:38.400><c> is</c><00:10:38.600><c> not</c>
+
+00:10:38.830 --> 00:10:38.840 align:start position:0%
+in mind, the acceptance rate is not
+ 
+
+00:10:38.840 --> 00:10:40.630 align:start position:0%
+in mind, the acceptance rate is not
+everything.<00:10:39.320><c> In</c><00:10:39.480><c> real</c><00:10:39.680><c> production</c><00:10:40.120><c> serving,</c>
+
+00:10:40.630 --> 00:10:40.640 align:start position:0%
+everything. In real production serving,
+ 
+
+00:10:40.640 --> 00:10:42.030 align:start position:0%
+everything. In real production serving,
+the<00:10:40.760><c> problem</c><00:10:41.080><c> is</c><00:10:41.200><c> just</c><00:10:41.440><c> not</c><00:10:41.680><c> whether</c><00:10:41.960><c> the</c>
+
+00:10:42.030 --> 00:10:42.040 align:start position:0%
+the problem is just not whether the
+ 
+
+00:10:42.040 --> 00:10:43.950 align:start position:0%
+the problem is just not whether the
+draft<00:10:42.280><c> model</c><00:10:42.560><c> can</c><00:10:42.720><c> produce</c><00:10:43.080><c> good</c><00:10:43.320><c> tokens.</c><00:10:43.839><c> The</c>
+
+00:10:43.950 --> 00:10:43.960 align:start position:0%
+draft model can produce good tokens. The
+ 
+
+00:10:43.960 --> 00:10:45.910 align:start position:0%
+draft model can produce good tokens. The
+problem<00:10:44.280><c> is</c><00:10:44.520><c> also</c><00:10:44.839><c> whether</c><00:10:45.080><c> those</c><00:10:45.320><c> tokens</c><00:10:45.680><c> are</c>
+
+00:10:45.910 --> 00:10:45.920 align:start position:0%
+problem is also whether those tokens are
+ 
+
+00:10:45.920 --> 00:10:48.070 align:start position:0%
+problem is also whether those tokens are
+worth<00:10:46.360><c> verifying</c><00:10:46.960><c> right</c><00:10:47.160><c> now.</c><00:10:47.560><c> And</c><00:10:47.720><c> this</c><00:10:47.880><c> is</c>
+
+00:10:48.070 --> 00:10:48.080 align:start position:0%
+worth verifying right now. And this is
+ 
+
+00:10:48.080 --> 00:10:50.310 align:start position:0%
+worth verifying right now. And this is
+where<00:10:48.240><c> D-Spark</c><00:10:48.839><c> shines</c><00:10:49.360><c> much</c><00:10:49.640><c> more</c><00:10:49.880><c> than</c><00:10:50.080><c> just</c>
+
+00:10:50.310 --> 00:10:50.320 align:start position:0%
+where D-Spark shines much more than just
+ 
+
+00:10:50.320 --> 00:10:52.030 align:start position:0%
+where D-Spark shines much more than just
+a<00:10:50.400><c> better</c><00:10:50.720><c> drafter.</c><00:10:51.280><c> It</c><00:10:51.320><c> actually</c><00:10:51.600><c> comes</c><00:10:51.880><c> with</c>
+
+00:10:52.030 --> 00:10:52.040 align:start position:0%
+a better drafter. It actually comes with
+ 
+
+00:10:52.040 --> 00:10:53.150 align:start position:0%
+a better drafter. It actually comes with
+something<00:10:52.360><c> called</c><00:10:52.600><c> the</c><00:10:52.680><c> confidence</c>
+
+00:10:53.150 --> 00:10:53.160 align:start position:0%
+something called the confidence
+ 
+
+00:10:53.160 --> 00:10:54.829 align:start position:0%
+something called the confidence
+scheduled<00:10:53.600><c> verification,</c><00:10:54.520><c> which</c><00:10:54.720><c> is</c>
+
+00:10:54.829 --> 00:10:54.839 align:start position:0%
+scheduled verification, which is
+ 
+
+00:10:54.839 --> 00:10:56.390 align:start position:0%
+scheduled verification, which is
+probably<00:10:55.120><c> the</c><00:10:55.200><c> most</c><00:10:55.480><c> deep</c><00:10:55.680><c> seek</c><00:10:55.960><c> part</c><00:10:56.200><c> of</c><00:10:56.320><c> the</c>
+
+00:10:56.390 --> 00:10:56.400 align:start position:0%
+probably the most deep seek part of the
+ 
+
+00:10:56.400 --> 00:10:58.230 align:start position:0%
+probably the most deep seek part of the
+whole<00:10:56.600><c> paper.</c><00:10:57.120><c> So,</c><00:10:57.320><c> imagine</c><00:10:57.680><c> this.</c><00:10:57.960><c> If</c><00:10:58.120><c> you</c>
+
+00:10:58.230 --> 00:10:58.240 align:start position:0%
+whole paper. So, imagine this. If you
+ 
+
+00:10:58.240 --> 00:11:00.430 align:start position:0%
+whole paper. So, imagine this. If you
+put<00:10:58.520><c> speculative</c><00:10:59.120><c> decoding</c><00:10:59.720><c> in</c><00:10:59.839><c> the</c><00:10:59.960><c> clean</c>
+
+00:11:00.430 --> 00:11:00.440 align:start position:0%
+put speculative decoding in the clean
+ 
+
+00:11:00.440 --> 00:11:02.150 align:start position:0%
+put speculative decoding in the clean
+offline<00:11:00.880><c> benchmark</c><00:11:01.440><c> and</c><00:11:01.560><c> a</c><00:11:01.600><c> draft</c><00:11:01.880><c> model</c>
+
+00:11:02.150 --> 00:11:02.160 align:start position:0%
+offline benchmark and a draft model
+ 
+
+00:11:02.160 --> 00:11:03.829 align:start position:0%
+offline benchmark and a draft model
+generates<00:11:02.560><c> eight</c><00:11:02.680><c> tokens,</c><00:11:03.400><c> then</c><00:11:03.520><c> it</c><00:11:03.640><c> makes</c>
+
+00:11:03.829 --> 00:11:03.839 align:start position:0%
+generates eight tokens, then it makes
+ 
+
+00:11:03.839 --> 00:11:05.470 align:start position:0%
+generates eight tokens, then it makes
+sense<00:11:04.040><c> that</c><00:11:04.280><c> all</c><00:11:04.440><c> of</c><00:11:04.520><c> those</c><00:11:04.839><c> eight</c><00:11:05.000><c> tokens</c>
+
+00:11:05.470 --> 00:11:05.480 align:start position:0%
+sense that all of those eight tokens
+ 
+
+00:11:05.480 --> 00:11:07.430 align:start position:0%
+sense that all of those eight tokens
+would<00:11:05.680><c> be</c><00:11:05.839><c> verified,</c><00:11:06.360><c> right?</c><00:11:06.640><c> But</c><00:11:06.839><c> in</c><00:11:07.000><c> a</c><00:11:07.080><c> real</c>
+
+00:11:07.430 --> 00:11:07.440 align:start position:0%
+would be verified, right? But in a real
+ 
+
+00:11:07.440 --> 00:11:09.590 align:start position:0%
+would be verified, right? But in a real
+serving<00:11:07.839><c> system,</c><00:11:08.440><c> this</c><00:11:08.680><c> is</c><00:11:08.880><c> actually</c><00:11:09.320><c> not</c>
+
+00:11:09.590 --> 00:11:09.600 align:start position:0%
+serving system, this is actually not
+ 
+
+00:11:09.600 --> 00:11:11.710 align:start position:0%
+serving system, this is actually not
+ideal<00:11:10.120><c> because</c><00:11:10.400><c> not</c><00:11:10.640><c> every</c><00:11:10.839><c> request</c><00:11:11.320><c> has</c><00:11:11.600><c> the</c>
+
+00:11:11.710 --> 00:11:11.720 align:start position:0%
+ideal because not every request has the
+ 
+
+00:11:11.720 --> 00:11:13.790 align:start position:0%
+ideal because not every request has the
+same<00:11:12.040><c> predictability.</c><00:11:13.040><c> A</c><00:11:13.080><c> coding</c><00:11:13.440><c> request</c>
+
+00:11:13.790 --> 00:11:13.800 align:start position:0%
+same predictability. A coding request
+ 
+
+00:11:13.800 --> 00:11:15.030 align:start position:0%
+same predictability. A coding request
+might<00:11:14.040><c> have</c><00:11:14.240><c> a</c><00:11:14.280><c> very</c><00:11:14.560><c> structured</c>
+
+00:11:15.030 --> 00:11:15.040 align:start position:0%
+might have a very structured
+ 
+
+00:11:15.040 --> 00:11:16.829 align:start position:0%
+might have a very structured
+continuation,<00:11:15.960><c> so</c><00:11:16.040><c> the</c><00:11:16.120><c> draft</c><00:11:16.360><c> model</c><00:11:16.640><c> can</c>
+
+00:11:16.829 --> 00:11:16.839 align:start position:0%
+continuation, so the draft model can
+ 
+
+00:11:16.839 --> 00:11:19.150 align:start position:0%
+continuation, so the draft model can
+constantly<00:11:17.480><c> predict</c><00:11:17.839><c> a</c><00:11:17.960><c> longer</c><00:11:18.400><c> prefix.</c><00:11:18.960><c> But</c>
+
+00:11:19.150 --> 00:11:19.160 align:start position:0%
+constantly predict a longer prefix. But
+ 
+
+00:11:19.160 --> 00:11:21.470 align:start position:0%
+constantly predict a longer prefix. But
+an<00:11:19.360><c> open-ended</c><00:11:20.120><c> chat</c><00:11:20.400><c> response</c><00:11:20.880><c> might</c><00:11:21.160><c> branch</c>
+
+00:11:21.470 --> 00:11:21.480 align:start position:0%
+an open-ended chat response might branch
+ 
+
+00:11:21.480 --> 00:11:23.350 align:start position:0%
+an open-ended chat response might branch
+into<00:11:21.760><c> many</c><00:11:22.000><c> possible</c><00:11:22.400><c> continuations,</c>
+
+00:11:23.350 --> 00:11:23.360 align:start position:0%
+into many possible continuations,
+ 
+
+00:11:23.360 --> 00:11:25.110 align:start position:0%
+into many possible continuations,
+meaning<00:11:23.680><c> the</c><00:11:23.800><c> later</c><00:11:24.080><c> draft</c><00:11:24.320><c> tokens</c><00:11:24.680><c> are</c><00:11:24.839><c> much</c>
+
+00:11:25.110 --> 00:11:25.120 align:start position:0%
+meaning the later draft tokens are much
+ 
+
+00:11:25.120 --> 00:11:27.310 align:start position:0%
+meaning the later draft tokens are much
+more<00:11:25.360><c> likely</c><00:11:25.720><c> to</c><00:11:25.839><c> get</c><00:11:26.040><c> rejected.</c><00:11:26.800><c> So,</c><00:11:27.040><c> using</c>
+
+00:11:27.310 --> 00:11:27.320 align:start position:0%
+more likely to get rejected. So, using
+ 
+
+00:11:27.320 --> 00:11:29.670 align:start position:0%
+more likely to get rejected. So, using
+the<00:11:27.440><c> same</c><00:11:27.800><c> fixed</c><00:11:28.320><c> draft</c><00:11:28.800><c> length</c><00:11:29.200><c> for</c><00:11:29.440><c> every</c>
+
+00:11:29.670 --> 00:11:29.680 align:start position:0%
+the same fixed draft length for every
+ 
+
+00:11:29.680 --> 00:11:32.190 align:start position:0%
+the same fixed draft length for every
+request<00:11:30.320><c> it</c><00:11:30.720><c> feels</c><00:11:31.240><c> a</c><00:11:31.320><c> bit</c><00:11:31.560><c> wrong.</c><00:11:31.960><c> But</c><00:11:32.080><c> it</c>
+
+00:11:32.190 --> 00:11:32.200 align:start position:0%
+request it feels a bit wrong. But it
+ 
+
+00:11:32.200 --> 00:11:33.630 align:start position:0%
+request it feels a bit wrong. But it
+gets<00:11:32.480><c> even</c><00:11:32.680><c> more</c><00:11:32.840><c> complicated</c><00:11:33.440><c> when</c><00:11:33.560><c> you</c>
+
+00:11:33.630 --> 00:11:33.640 align:start position:0%
+gets even more complicated when you
+ 
+
+00:11:33.640 --> 00:11:35.470 align:start position:0%
+gets even more complicated when you
+consider<00:11:34.080><c> the</c><00:11:34.200><c> hardware</c><00:11:34.640><c> side</c><00:11:34.880><c> of</c><00:11:35.000><c> things.</c>
+
+00:11:35.470 --> 00:11:35.480 align:start position:0%
+consider the hardware side of things.
+ 
+
+00:11:35.480 --> 00:11:37.870 align:start position:0%
+consider the hardware side of things.
+So,<00:11:35.920><c> when</c><00:11:36.080><c> the</c><00:11:36.160><c> GPUs</c><00:11:36.640><c> are</c><00:11:36.840><c> lightly</c><00:11:37.280><c> loaded,</c>
+
+00:11:37.870 --> 00:11:37.880 align:start position:0%
+So, when the GPUs are lightly loaded,
+ 
+
+00:11:37.880 --> 00:11:40.070 align:start position:0%
+So, when the GPUs are lightly loaded,
+verifying<00:11:38.440><c> extra</c><00:11:38.720><c> draft</c><00:11:39.040><c> tokens</c><00:11:39.520><c> is</c><00:11:39.760><c> not</c><00:11:39.960><c> that</c>
+
+00:11:40.070 --> 00:11:40.080 align:start position:0%
+verifying extra draft tokens is not that
+ 
+
+00:11:40.080 --> 00:11:41.750 align:start position:0%
+verifying extra draft tokens is not that
+expensive.<00:11:40.640><c> But,</c><00:11:40.800><c> when</c><00:11:40.920><c> the</c><00:11:41.000><c> serving</c><00:11:41.360><c> system</c>
+
+00:11:41.750 --> 00:11:41.760 align:start position:0%
+expensive. But, when the serving system
+ 
+
+00:11:41.760 --> 00:11:43.710 align:start position:0%
+expensive. But, when the serving system
+is<00:11:41.880><c> already</c><00:11:42.200><c> packed</c><00:11:42.520><c> with</c><00:11:42.720><c> requests,</c><00:11:43.440><c> every</c>
+
+00:11:43.710 --> 00:11:43.720 align:start position:0%
+is already packed with requests, every
+ 
+
+00:11:43.720 --> 00:11:45.590 align:start position:0%
+is already packed with requests, every
+low<00:11:43.960><c> confidence</c><00:11:44.480><c> verification</c><00:11:45.040><c> token</c><00:11:45.400><c> is</c>
+
+00:11:45.590 --> 00:11:45.600 align:start position:0%
+low confidence verification token is
+ 
+
+00:11:45.600 --> 00:11:47.950 align:start position:0%
+low confidence verification token is
+stealing<00:11:46.000><c> capacity</c><00:11:46.560><c> from</c><00:11:46.920><c> another</c><00:11:47.280><c> user.</c><00:11:47.840><c> And</c>
+
+00:11:47.950 --> 00:11:47.960 align:start position:0%
+stealing capacity from another user. And
+ 
+
+00:11:47.960 --> 00:11:49.750 align:start position:0%
+stealing capacity from another user. And
+if<00:11:48.160><c> that</c><00:11:48.360><c> token</c><00:11:48.680><c> gets</c><00:11:48.880><c> rejected,</c><00:11:49.560><c> you</c>
+
+00:11:49.750 --> 00:11:49.760 align:start position:0%
+if that token gets rejected, you
+ 
+
+00:11:49.760 --> 00:11:51.870 align:start position:0%
+if that token gets rejected, you
+basically<00:11:50.240><c> wasted</c><00:11:50.760><c> precious</c><00:11:51.240><c> target</c><00:11:51.640><c> model</c>
+
+00:11:51.870 --> 00:11:51.880 align:start position:0%
+basically wasted precious target model
+ 
+
+00:11:51.880 --> 00:11:53.750 align:start position:0%
+basically wasted precious target model
+compute<00:11:52.320><c> on</c><00:11:52.440><c> a</c><00:11:52.520><c> suffix</c><00:11:53.000><c> that</c><00:11:53.200><c> was</c><00:11:53.400><c> going</c><00:11:53.640><c> to</c>
+
+00:11:53.750 --> 00:11:53.760 align:start position:0%
+compute on a suffix that was going to
+ 
+
+00:11:53.760 --> 00:11:55.750 align:start position:0%
+compute on a suffix that was going to
+die<00:11:53.960><c> anyway.</c><00:11:54.480><c> So,</c><00:11:54.600><c> the</c><00:11:54.720><c> problem</c><00:11:55.120><c> shifts</c><00:11:55.480><c> to</c>
+
+00:11:55.750 --> 00:11:55.760 align:start position:0%
+die anyway. So, the problem shifts to
+ 
+
+00:11:55.760 --> 00:11:57.550 align:start position:0%
+die anyway. So, the problem shifts to
+how<00:11:56.000><c> many</c><00:11:56.200><c> tokens</c><00:11:56.640><c> should</c><00:11:56.800><c> the</c><00:11:56.920><c> target</c><00:11:57.240><c> model</c>
+
+00:11:57.550 --> 00:11:57.560 align:start position:0%
+how many tokens should the target model
+ 
+
+00:11:57.560 --> 00:11:59.710 align:start position:0%
+how many tokens should the target model
+verify<00:11:58.080><c> under</c><00:11:58.480><c> the</c><00:11:58.640><c> current</c><00:11:59.000><c> server</c><00:11:59.280><c> load.</c>
+
+00:11:59.710 --> 00:11:59.720 align:start position:0%
+verify under the current server load.
+ 
+
+00:11:59.720 --> 00:12:01.430 align:start position:0%
+verify under the current server load.
+DeepSeek<00:12:00.120><c> approaches</c><00:12:00.600><c> this</c><00:12:00.800><c> by</c><00:12:00.920><c> giving</c><00:12:01.240><c> every</c>
+
+00:12:01.430 --> 00:12:01.440 align:start position:0%
+DeepSeek approaches this by giving every
+ 
+
+00:12:01.440 --> 00:12:03.510 align:start position:0%
+DeepSeek approaches this by giving every
+drafted<00:12:01.880><c> token</c><00:12:02.240><c> a</c><00:12:02.320><c> confidence</c><00:12:02.880><c> score.</c><00:12:03.400><c> This</c>
+
+00:12:03.510 --> 00:12:03.520 align:start position:0%
+drafted token a confidence score. This
+ 
+
+00:12:03.520 --> 00:12:05.310 align:start position:0%
+drafted token a confidence score. This
+confidence<00:12:04.000><c> score</c><00:12:04.280><c> estimates</c><00:12:04.720><c> how</c><00:12:04.920><c> likely</c>
+
+00:12:05.310 --> 00:12:05.320 align:start position:0%
+confidence score estimates how likely
+ 
+
+00:12:05.320 --> 00:12:06.870 align:start position:0%
+confidence score estimates how likely
+each<00:12:05.520><c> token</c><00:12:05.840><c> is</c><00:12:06.000><c> going</c><00:12:06.240><c> to</c><00:12:06.360><c> survive</c><00:12:06.760><c> the</c>
+
+00:12:06.870 --> 00:12:06.880 align:start position:0%
+each token is going to survive the
+ 
+
+00:12:06.880 --> 00:12:08.910 align:start position:0%
+each token is going to survive the
+verification<00:12:07.560><c> process,</c><00:12:08.200><c> assuming</c><00:12:08.720><c> all</c>
+
+00:12:08.910 --> 00:12:08.920 align:start position:0%
+verification process, assuming all
+ 
+
+00:12:08.920 --> 00:12:10.990 align:start position:0%
+verification process, assuming all
+previous<00:12:09.320><c> draft</c><00:12:09.640><c> tokens</c><00:12:10.080><c> were</c><00:12:10.280><c> accepted.</c><00:12:10.880><c> So,</c>
+
+00:12:10.990 --> 00:12:11.000 align:start position:0%
+previous draft tokens were accepted. So,
+ 
+
+00:12:11.000 --> 00:12:13.230 align:start position:0%
+previous draft tokens were accepted. So,
+if<00:12:11.200><c> token</c><00:12:11.520><c> one</c><00:12:11.760><c> has</c><00:12:12.000><c> high</c><00:12:12.200><c> confidence,</c><00:12:12.920><c> token</c>
+
+00:12:13.230 --> 00:12:13.240 align:start position:0%
+if token one has high confidence, token
+ 
+
+00:12:13.240 --> 00:12:14.870 align:start position:0%
+if token one has high confidence, token
+two<00:12:13.400><c> has</c><00:12:13.600><c> high</c><00:12:13.760><c> confidence,</c><00:12:14.360><c> token</c><00:12:14.640><c> three</c>
+
+00:12:14.870 --> 00:12:14.880 align:start position:0%
+two has high confidence, token three
+ 
+
+00:12:14.880 --> 00:12:16.990 align:start position:0%
+two has high confidence, token three
+starts<00:12:15.240><c> dropping,</c><00:12:15.800><c> and</c><00:12:15.920><c> token</c><00:12:16.240><c> four</c><00:12:16.480><c> looks</c>
+
+00:12:16.990 --> 00:12:17.000 align:start position:0%
+starts dropping, and token four looks
+ 
+
+00:12:17.000 --> 00:12:18.750 align:start position:0%
+starts dropping, and token four looks
+doomed,<00:12:17.600><c> the</c><00:12:17.680><c> system</c><00:12:18.080><c> can</c><00:12:18.280><c> just</c><00:12:18.480><c> stop</c>
+
+00:12:18.750 --> 00:12:18.760 align:start position:0%
+doomed, the system can just stop
+ 
+
+00:12:18.760 --> 00:12:20.590 align:start position:0%
+doomed, the system can just stop
+verifying<00:12:19.240><c> at</c><00:12:19.440><c> token</c><00:12:19.760><c> three,</c><00:12:20.160><c> dropping</c>
+
+00:12:20.590 --> 00:12:20.600 align:start position:0%
+verifying at token three, dropping
+ 
+
+00:12:20.600 --> 00:12:22.590 align:start position:0%
+verifying at token three, dropping
+everything<00:12:21.000><c> that</c><00:12:21.160><c> comes</c><00:12:21.560><c> after</c><00:12:21.920><c> token</c><00:12:22.200><c> four.</c>
+
+00:12:22.590 --> 00:12:22.600 align:start position:0%
+everything that comes after token four.
+ 
+
+00:12:22.600 --> 00:12:24.910 align:start position:0%
+everything that comes after token four.
+So,<00:12:22.720><c> if</c><00:12:22.880><c> there</c><00:12:23.080><c> are</c><00:12:23.280><c> in</c><00:12:23.440><c> total</c><00:12:23.840><c> 50</c><00:12:24.160><c> tokens,</c><00:12:24.720><c> you</c>
+
+00:12:24.910 --> 00:12:24.920 align:start position:0%
+So, if there are in total 50 tokens, you
+ 
+
+00:12:24.920 --> 00:12:26.390 align:start position:0%
+So, if there are in total 50 tokens, you
+pretty<00:12:25.080><c> much</c><00:12:25.320><c> saved</c><00:12:25.480><c> the</c><00:12:25.560><c> compute</c><00:12:25.960><c> needed</c><00:12:26.280><c> for</c>
+
+00:12:26.390 --> 00:12:26.400 align:start position:0%
+pretty much saved the compute needed for
+ 
+
+00:12:26.400 --> 00:12:28.830 align:start position:0%
+pretty much saved the compute needed for
+verifying<00:12:26.960><c> an</c><00:12:27.120><c> additional</c><00:12:27.760><c> 46</c><00:12:28.240><c> tokens.</c><00:12:28.680><c> As</c>
+
+00:12:28.830 --> 00:12:28.840 align:start position:0%
+verifying an additional 46 tokens. As
+ 
+
+00:12:28.840 --> 00:12:30.790 align:start position:0%
+verifying an additional 46 tokens. As
+speculative<00:12:29.440><c> decoding</c><00:12:30.040><c> normally</c><00:12:30.280><c> has</c><00:12:30.560><c> this</c>
+
+00:12:30.790 --> 00:12:30.800 align:start position:0%
+speculative decoding normally has this
+ 
+
+00:12:30.800 --> 00:12:32.310 align:start position:0%
+speculative decoding normally has this
+hidden<00:12:31.080><c> failure</c><00:12:31.400><c> mode</c><00:12:31.640><c> where</c><00:12:31.800><c> you</c><00:12:31.920><c> drafted</c>
+
+00:12:32.310 --> 00:12:32.320 align:start position:0%
+hidden failure mode where you drafted
+ 
+
+00:12:32.320 --> 00:12:34.030 align:start position:0%
+hidden failure mode where you drafted
+too<00:12:32.440><c> many</c><00:12:32.640><c> tokens,</c><00:12:33.200><c> and</c><00:12:33.320><c> the</c><00:12:33.400><c> target</c><00:12:33.680><c> model</c>
+
+00:12:34.030 --> 00:12:34.040 align:start position:0%
+too many tokens, and the target model
+ 
+
+00:12:34.040 --> 00:12:35.790 align:start position:0%
+too many tokens, and the target model
+wastes<00:12:34.320><c> a</c><00:12:34.400><c> lot</c><00:12:34.600><c> of</c><00:12:34.720><c> time</c><00:12:34.960><c> verifying</c><00:12:35.440><c> a</c><00:12:35.480><c> bunch</c>
+
+00:12:35.790 --> 00:12:35.800 align:start position:0%
+wastes a lot of time verifying a bunch
+ 
+
+00:12:35.800 --> 00:12:38.070 align:start position:0%
+wastes a lot of time verifying a bunch
+of<00:12:36.000><c> low</c><00:12:36.200><c> quality</c><00:12:36.680><c> suffix</c><00:12:37.120><c> tokens.</c><00:12:37.640><c> So,</c><00:12:37.800><c> even</c>
+
+00:12:38.070 --> 00:12:38.080 align:start position:0%
+of low quality suffix tokens. So, even
+ 
+
+00:12:38.080 --> 00:12:39.550 align:start position:0%
+of low quality suffix tokens. So, even
+though<00:12:38.240><c> verification</c><00:12:38.880><c> can</c><00:12:39.040><c> be</c><00:12:39.160><c> done</c><00:12:39.440><c> in</c>
+
+00:12:39.550 --> 00:12:39.560 align:start position:0%
+though verification can be done in
+ 
+
+00:12:39.560 --> 00:12:41.030 align:start position:0%
+though verification can be done in
+parallel,<00:12:40.200><c> it</c><00:12:40.320><c> still</c><00:12:40.520><c> doesn't</c><00:12:40.760><c> mean</c><00:12:40.920><c> the</c>
+
+00:12:41.030 --> 00:12:41.040 align:start position:0%
+parallel, it still doesn't mean the
+ 
+
+00:12:41.040 --> 00:12:43.270 align:start position:0%
+parallel, it still doesn't mean the
+compute<00:12:41.640><c> is</c><00:12:41.960><c> free.</c><00:12:42.360><c> And</c><00:12:42.520><c> this</c><00:12:42.720><c> saving</c><00:12:43.040><c> really</c>
+
+00:12:43.270 --> 00:12:43.280 align:start position:0%
+compute is free. And this saving really
+ 
+
+00:12:43.280 --> 00:12:45.470 align:start position:0%
+compute is free. And this saving really
+shows<00:12:43.680><c> when</c><00:12:43.839><c> a</c><00:12:43.920><c> lot</c><00:12:44.160><c> of</c><00:12:44.280><c> LLM</c><00:12:44.640><c> use</c><00:12:44.839><c> cases</c><00:12:45.240><c> now</c>
+
+00:12:45.470 --> 00:12:45.480 align:start position:0%
+shows when a lot of LLM use cases now
+ 
+
+00:12:45.480 --> 00:12:47.590 align:start position:0%
+shows when a lot of LLM use cases now
+are<00:12:45.680><c> long</c><00:12:45.880><c> horizon</c><00:12:46.280><c> tasks</c><00:12:46.760><c> on</c><00:12:47.040><c> top</c><00:12:47.400><c> of</c>
+
+00:12:47.590 --> 00:12:47.600 align:start position:0%
+are long horizon tasks on top of
+ 
+
+00:12:47.600 --> 00:12:49.470 align:start position:0%
+are long horizon tasks on top of
+extremely<00:12:48.160><c> large</c><00:12:48.440><c> serving</c><00:12:48.839><c> demand.</c><00:12:49.320><c> But,</c>
+
+00:12:49.470 --> 00:12:49.480 align:start position:0%
+extremely large serving demand. But,
+ 
+
+00:12:49.480 --> 00:12:51.870 align:start position:0%
+extremely large serving demand. But,
+even<00:12:49.800><c> this</c><00:12:50.040><c> min-maxing</c><00:12:50.880><c> is</c><00:12:51.120><c> still</c><00:12:51.320><c> not</c><00:12:51.520><c> enough</c>
+
+00:12:51.870 --> 00:12:51.880 align:start position:0%
+even this min-maxing is still not enough
+ 
+
+00:12:51.880 --> 00:12:53.910 align:start position:0%
+even this min-maxing is still not enough
+because<00:12:52.160><c> a</c><00:12:52.240><c> token</c><00:12:52.680><c> with</c><00:12:52.880><c> 60%</c><00:12:53.520><c> survival</c>
+
+00:12:53.910 --> 00:12:53.920 align:start position:0%
+because a token with 60% survival
+ 
+
+00:12:53.920 --> 00:12:55.590 align:start position:0%
+because a token with 60% survival
+probability<00:12:54.600><c> might</c><00:12:54.920><c> still</c><00:12:55.160><c> be</c><00:12:55.360><c> worth</c>
+
+00:12:55.590 --> 00:12:55.600 align:start position:0%
+probability might still be worth
+ 
+
+00:12:55.600 --> 00:12:58.190 align:start position:0%
+probability might still be worth
+verifying<00:12:56.160><c> when</c><00:12:56.280><c> the</c><00:12:56.360><c> GPU</c><00:12:56.839><c> is</c><00:12:57.120><c> underloaded.</c>
+
+00:12:58.190 --> 00:12:58.200 align:start position:0%
+verifying when the GPU is underloaded.
+ 
+
+00:12:58.200 --> 00:13:00.550 align:start position:0%
+verifying when the GPU is underloaded.
+same<00:12:58.440><c> token</c><00:12:58.839><c> might</c><00:12:59.040><c> be</c><00:12:59.240><c> absolutely</c><00:12:59.960><c> not</c><00:13:00.320><c> worth</c>
+
+00:13:00.550 --> 00:13:00.560 align:start position:0%
+same token might be absolutely not worth
+ 
+
+00:13:00.560 --> 00:13:02.190 align:start position:0%
+same token might be absolutely not worth
+verifying<00:13:01.040><c> when</c><00:13:01.160><c> the</c><00:13:01.240><c> system</c><00:13:01.600><c> is</c><00:13:01.800><c> already</c>
+
+00:13:02.190 --> 00:13:02.200 align:start position:0%
+verifying when the system is already
+ 
+
+00:13:02.200 --> 00:13:04.630 align:start position:0%
+verifying when the system is already
+maxed<00:13:02.600><c> out.</c><00:13:02.839><c> So,</c><00:13:02.960><c> as</c><00:13:03.200><c> greedy</c><00:13:03.560><c> as</c><00:13:03.760><c> DeepSeek</c><00:13:04.320><c> is</c>
+
+00:13:04.630 --> 00:13:04.640 align:start position:0%
+maxed out. So, as greedy as DeepSeek is
+ 
+
+00:13:04.640 --> 00:13:06.950 align:start position:0%
+maxed out. So, as greedy as DeepSeek is
+at<00:13:04.800><c> min-maxing</c><00:13:05.400><c> compute,</c><00:13:06.040><c> they</c><00:13:06.240><c> did</c><00:13:06.440><c> not</c><00:13:06.680><c> stop</c>
+
+00:13:06.950 --> 00:13:06.960 align:start position:0%
+at min-maxing compute, they did not stop
+ 
+
+00:13:06.960 --> 00:13:07.910 align:start position:0%
+at min-maxing compute, they did not stop
+here.<00:13:07.280><c> And</c><00:13:07.360><c> this</c><00:13:07.520><c> is</c><00:13:07.600><c> where</c><00:13:07.760><c> the</c>
+
+00:13:07.910 --> 00:13:07.920 align:start position:0%
+here. And this is where the
+ 
+
+00:13:07.920 --> 00:13:09.630 align:start position:0%
+here. And this is where the
+hardware-aware<00:13:08.680><c> scheduler</c><00:13:09.200><c> comes</c><00:13:09.440><c> in.</c>
+
+00:13:09.630 --> 00:13:09.640 align:start position:0%
+hardware-aware scheduler comes in.
+ 
+
+00:13:09.640 --> 00:13:11.150 align:start position:0%
+hardware-aware scheduler comes in.
+DeepSeek<00:13:10.120><c> incorporates</c><00:13:10.800><c> the</c><00:13:10.880><c> current</c>
+
+00:13:11.150 --> 00:13:11.160 align:start position:0%
+DeepSeek incorporates the current
+ 
+
+00:13:11.160 --> 00:13:12.990 align:start position:0%
+DeepSeek incorporates the current
+serving<00:13:11.480><c> load</c><00:13:11.680><c> to</c><00:13:11.800><c> decide</c><00:13:12.160><c> how</c><00:13:12.360><c> aggressively</c>
+
+00:13:12.990 --> 00:13:13.000 align:start position:0%
+serving load to decide how aggressively
+ 
+
+00:13:13.000 --> 00:13:14.829 align:start position:0%
+serving load to decide how aggressively
+it<00:13:13.120><c> should</c><00:13:13.320><c> verify</c><00:13:13.720><c> drafted</c><00:13:14.080><c> tokens.</c><00:13:14.520><c> So,</c><00:13:14.680><c> if</c>
+
+00:13:14.829 --> 00:13:14.839 align:start position:0%
+it should verify drafted tokens. So, if
+ 
+
+00:13:14.839 --> 00:13:16.510 align:start position:0%
+it should verify drafted tokens. So, if
+the<00:13:14.960><c> server</c><00:13:15.320><c> is</c><00:13:15.520><c> lightly</c><00:13:15.839><c> loaded,</c><00:13:16.320><c> it</c><00:13:16.400><c> can</c>
+
+00:13:16.510 --> 00:13:16.520 align:start position:0%
+the server is lightly loaded, it can
+ 
+
+00:13:16.520 --> 00:13:18.829 align:start position:0%
+the server is lightly loaded, it can
+afford<00:13:16.839><c> to</c><00:13:16.920><c> verify</c><00:13:17.400><c> a</c><00:13:17.480><c> longer</c><00:13:17.920><c> prefix</c><00:13:18.520><c> because</c>
+
+00:13:18.829 --> 00:13:18.839 align:start position:0%
+afford to verify a longer prefix because
+ 
+
+00:13:18.839 --> 00:13:20.870 align:start position:0%
+afford to verify a longer prefix because
+the<00:13:19.040><c> extra</c><00:13:19.320><c> verification</c><00:13:19.960><c> tokens</c><00:13:20.520><c> are</c><00:13:20.680><c> not</c>
+
+00:13:20.870 --> 00:13:20.880 align:start position:0%
+the extra verification tokens are not
+ 
+
+00:13:20.880 --> 00:13:22.590 align:start position:0%
+the extra verification tokens are not
+really<00:13:21.120><c> blocking</c><00:13:21.560><c> much.</c><00:13:22.000><c> But,</c><00:13:22.080><c> if</c><00:13:22.200><c> the</c><00:13:22.280><c> server</c>
+
+00:13:22.590 --> 00:13:22.600 align:start position:0%
+really blocking much. But, if the server
+ 
+
+00:13:22.600 --> 00:13:24.230 align:start position:0%
+really blocking much. But, if the server
+is<00:13:22.720><c> heavily</c><00:13:23.040><c> loaded,</c><00:13:23.520><c> it</c><00:13:23.560><c> becomes</c><00:13:24.000><c> much</c>
+
+00:13:24.230 --> 00:13:24.240 align:start position:0%
+is heavily loaded, it becomes much
+ 
+
+00:13:24.240 --> 00:13:25.950 align:start position:0%
+is heavily loaded, it becomes much
+stricter<00:13:24.760><c> and</c><00:13:24.920><c> only</c><00:13:25.120><c> verifies</c><00:13:25.600><c> the</c><00:13:25.720><c> high</c>
+
+00:13:25.950 --> 00:13:25.960 align:start position:0%
+stricter and only verifies the high
+ 
+
+00:13:25.960 --> 00:13:27.830 align:start position:0%
+stricter and only verifies the high
+confidence<00:13:26.480><c> prefix.</c><00:13:27.160><c> So,</c><00:13:27.320><c> the</c><00:13:27.400><c> same</c><00:13:27.600><c> draft</c>
+
+00:13:27.830 --> 00:13:27.840 align:start position:0%
+confidence prefix. So, the same draft
+ 
+
+00:13:27.840 --> 00:13:29.790 align:start position:0%
+confidence prefix. So, the same draft
+model<00:13:28.120><c> can</c><00:13:28.280><c> behave</c><00:13:28.640><c> differently</c><00:13:29.120><c> depending</c>
+
+00:13:29.790 --> 00:13:29.800 align:start position:0%
+model can behave differently depending
+ 
+
+00:13:29.800 --> 00:13:32.150 align:start position:0%
+model can behave differently depending
+on<00:13:30.040><c> the</c><00:13:30.240><c> actual</c><00:13:30.600><c> GPU</c><00:13:31.000><c> workload.</c><00:13:31.640><c> And</c><00:13:31.800><c> figure</c>
+
+00:13:32.150 --> 00:13:32.160 align:start position:0%
+on the actual GPU workload. And figure
+ 
+
+00:13:32.160 --> 00:13:33.910 align:start position:0%
+on the actual GPU workload. And figure
+eight<00:13:32.400><c> from</c><00:13:32.560><c> the</c><00:13:32.640><c> paper</c><00:13:32.960><c> shows</c><00:13:33.280><c> this</c><00:13:33.480><c> exact</c>
+
+00:13:33.910 --> 00:13:33.920 align:start position:0%
+eight from the paper shows this exact
+ 
+
+00:13:33.920 --> 00:13:35.990 align:start position:0%
+eight from the paper shows this exact
+behavior<00:13:34.400><c> in</c><00:13:34.520><c> production.</c><00:13:35.080><c> As</c><00:13:35.240><c> concurrency</c>
+
+00:13:35.990 --> 00:13:36.000 align:start position:0%
+behavior in production. As concurrency
+ 
+
+00:13:36.000 --> 00:13:38.310 align:start position:0%
+behavior in production. As concurrency
+rises,<00:13:36.600><c> DeepSpark</c><00:13:37.120><c> automatically</c><00:13:37.800><c> reduces</c>
+
+00:13:38.310 --> 00:13:38.320 align:start position:0%
+rises, DeepSpark automatically reduces
+ 
+
+00:13:38.320 --> 00:13:40.230 align:start position:0%
+rises, DeepSpark automatically reduces
+the<00:13:38.400><c> verification</c><00:13:39.080><c> budget</c><00:13:39.440><c> per</c><00:13:39.600><c> request,</c>
+
+00:13:40.230 --> 00:13:40.240 align:start position:0%
+the verification budget per request,
+ 
+
+00:13:40.240 --> 00:13:42.150 align:start position:0%
+the verification budget per request,
+preventing<00:13:40.800><c> the</c><00:13:40.880><c> system</c><00:13:41.240><c> from</c><00:13:41.480><c> wasting</c><00:13:41.880><c> batch</c>
+
+00:13:42.150 --> 00:13:42.160 align:start position:0%
+preventing the system from wasting batch
+ 
+
+00:13:42.160 --> 00:13:44.550 align:start position:0%
+preventing the system from wasting batch
+capacity<00:13:42.760><c> on</c><00:13:43.000><c> low</c><00:13:43.200><c> value</c><00:13:43.560><c> draft</c><00:13:43.840><c> tokens.</c><00:13:44.360><c> This</c>
+
+00:13:44.550 --> 00:13:44.560 align:start position:0%
+capacity on low value draft tokens. This
+ 
+
+00:13:44.560 --> 00:13:46.710 align:start position:0%
+capacity on low value draft tokens. This
+also<00:13:44.800><c> suggests</c><00:13:45.240><c> that</c><00:13:45.480><c> benchmarks</c><00:13:46.200><c> are</c><00:13:46.440><c> not</c>
+
+00:13:46.710 --> 00:13:46.720 align:start position:0%
+also suggests that benchmarks are not
+ 
+
+00:13:46.720 --> 00:13:48.390 align:start position:0%
+also suggests that benchmarks are not
+properly<00:13:47.240><c> reflecting</c><00:13:47.800><c> production</c>
+
+00:13:48.390 --> 00:13:48.400 align:start position:0%
+properly reflecting production
+ 
+
+00:13:48.400 --> 00:13:50.030 align:start position:0%
+properly reflecting production
+inference,<00:13:48.880><c> too.</c><00:13:49.200><c> Especially</c><00:13:49.640><c> with</c><00:13:49.840><c> how</c>
+
+00:13:50.030 --> 00:13:50.040 align:start position:0%
+inference, too. Especially with how
+ 
+
+00:13:50.040 --> 00:13:52.350 align:start position:0%
+inference, too. Especially with how
+messy<00:13:50.360><c> and</c><00:13:50.520><c> inconsistent</c><00:13:51.240><c> user</c><00:13:51.520><c> requests</c><00:13:52.080><c> can</c>
+
+00:13:52.350 --> 00:13:52.360 align:start position:0%
+messy and inconsistent user requests can
+ 
+
+00:13:52.360 --> 00:13:53.950 align:start position:0%
+messy and inconsistent user requests can
+be<00:13:52.520><c> from</c><00:13:52.720><c> time</c><00:13:52.960><c> to</c><00:13:53.040><c> time.</c><00:13:53.360><c> Which</c><00:13:53.520><c> brings</c><00:13:53.760><c> us</c><00:13:53.880><c> to</c>
+
+00:13:53.950 --> 00:13:53.960 align:start position:0%
+be from time to time. Which brings us to
+ 
+
+00:13:53.960 --> 00:13:56.350 align:start position:0%
+be from time to time. Which brings us to
+the<00:13:54.080><c> key</c><00:13:54.280><c> idea</c><00:13:54.640><c> of</c><00:13:54.760><c> this</c><00:13:55.040><c> paper,</c><00:13:55.760><c> treating</c>
+
+00:13:56.350 --> 00:13:56.360 align:start position:0%
+the key idea of this paper, treating
+ 
+
+00:13:56.360 --> 00:13:58.790 align:start position:0%
+the key idea of this paper, treating
+speculative<00:13:56.960><c> decoding</c><00:13:57.640><c> as</c><00:13:58.000><c> a</c><00:13:58.120><c> dynamic</c>
+
+00:13:58.790 --> 00:13:58.800 align:start position:0%
+speculative decoding as a dynamic
+ 
+
+00:13:58.800 --> 00:14:00.910 align:start position:0%
+speculative decoding as a dynamic
+serving<00:13:59.160><c> policy.</c><00:13:59.760><c> Not</c><00:13:59.920><c> only</c><00:14:00.200><c> is</c><00:14:00.400><c> DeepSpark</c><00:14:00.840><c> a</c>
+
+00:14:00.910 --> 00:14:00.920 align:start position:0%
+serving policy. Not only is DeepSpark a
+ 
+
+00:14:00.920 --> 00:14:03.070 align:start position:0%
+serving policy. Not only is DeepSpark a
+better<00:14:01.200><c> speculative</c><00:14:01.840><c> decoding</c><00:14:02.240><c> approach,</c><00:14:02.920><c> it</c>
+
+00:14:03.070 --> 00:14:03.080 align:start position:0%
+better speculative decoding approach, it
+ 
+
+00:14:03.080 --> 00:14:05.070 align:start position:0%
+better speculative decoding approach, it
+is<00:14:03.320><c> also</c><00:14:03.720><c> workload</c><00:14:04.200><c> aware.</c><00:14:04.680><c> But,</c><00:14:04.800><c> as</c><00:14:04.960><c> you</c>
+
+00:14:05.070 --> 00:14:05.080 align:start position:0%
+is also workload aware. But, as you
+ 
+
+00:14:05.080 --> 00:14:06.910 align:start position:0%
+is also workload aware. But, as you
+would<00:14:05.240><c> imagine,</c><00:14:05.880><c> the</c><00:14:06.000><c> implementation</c><00:14:06.760><c> of</c>
+
+00:14:06.910 --> 00:14:06.920 align:start position:0%
+would imagine, the implementation of
+ 
+
+00:14:06.920 --> 00:14:08.190 align:start position:0%
+would imagine, the implementation of
+DeepSpark<00:14:07.440><c> would</c><00:14:07.600><c> definitely</c><00:14:07.920><c> be</c><00:14:08.120><c> a</c>
+
+00:14:08.190 --> 00:14:08.200 align:start position:0%
+DeepSpark would definitely be a
+ 
+
+00:14:08.200 --> 00:14:10.390 align:start position:0%
+DeepSpark would definitely be a
+nightmare<00:14:08.720><c> fuel.</c><00:14:09.240><c> With</c><00:14:09.440><c> how</c><00:14:09.680><c> LM</c><00:14:10.040><c> serving</c>
+
+00:14:10.390 --> 00:14:10.400 align:start position:0%
+nightmare fuel. With how LM serving
+ 
+
+00:14:10.400 --> 00:14:11.910 align:start position:0%
+nightmare fuel. With how LM serving
+engines<00:14:10.720><c> are</c><00:14:10.880><c> heavily</c><00:14:11.200><c> optimized</c><00:14:11.640><c> around</c>
+
+00:14:11.910 --> 00:14:11.920 align:start position:0%
+engines are heavily optimized around
+ 
+
+00:14:11.920 --> 00:14:14.230 align:start position:0%
+engines are heavily optimized around
+batching,<00:14:12.640><c> the</c><00:14:12.760><c> extreme</c><00:14:13.200><c> DeepSpark</c><00:14:13.640><c> dynamics</c>
+
+00:14:14.230 --> 00:14:14.240 align:start position:0%
+batching, the extreme DeepSpark dynamics
+ 
+
+00:14:14.240 --> 00:14:16.470 align:start position:0%
+batching, the extreme DeepSpark dynamics
+makes<00:14:14.560><c> efficiency</c><00:14:15.200><c> optimization</c><00:14:15.920><c> so</c><00:14:16.200><c> much</c>
+
+00:14:16.470 --> 00:14:16.480 align:start position:0%
+makes efficiency optimization so much
+ 
+
+00:14:16.480 --> 00:14:18.390 align:start position:0%
+makes efficiency optimization so much
+harder<00:14:16.920><c> and</c><00:14:17.080><c> can</c><00:14:17.240><c> also</c><00:14:17.480><c> easily</c><00:14:17.840><c> erase</c><00:14:18.280><c> the</c>
+
+00:14:18.390 --> 00:14:18.400 align:start position:0%
+harder and can also easily erase the
+ 
+
+00:14:18.400 --> 00:14:20.270 align:start position:0%
+harder and can also easily erase the
+speed<00:14:18.760><c> up</c><00:14:18.920><c> that</c><00:14:19.080><c> was</c><00:14:19.280><c> present</c><00:14:19.760><c> before</c><00:14:20.040><c> this</c>
+
+00:14:20.270 --> 00:14:20.280 align:start position:0%
+speed up that was present before this
+ 
+
+00:14:20.280 --> 00:14:22.350 align:start position:0%
+speed up that was present before this
+method<00:14:20.640><c> was</c><00:14:20.840><c> in</c><00:14:21.000><c> place.</c><00:14:21.480><c> So,</c><00:14:21.720><c> that's</c><00:14:22.000><c> why</c><00:14:22.160><c> they</c>
+
+00:14:22.350 --> 00:14:22.360 align:start position:0%
+method was in place. So, that's why they
+ 
+
+00:14:22.360 --> 00:14:24.710 align:start position:0%
+method was in place. So, that's why they
+wrote<00:14:22.600><c> the</c><00:14:22.720><c> library</c><00:14:23.320><c> DeepSpec.</c><00:14:24.080><c> And</c><00:14:24.280><c> under</c><00:14:24.480><c> no</c>
+
+00:14:24.710 --> 00:14:24.720 align:start position:0%
+wrote the library DeepSpec. And under no
+ 
+
+00:14:24.720 --> 00:14:26.430 align:start position:0%
+wrote the library DeepSpec. And under no
+particular<00:14:25.320><c> reason</c><00:14:25.840><c> that</c><00:14:26.000><c> is</c><00:14:26.080><c> directly</c>
+
+00:14:26.430 --> 00:14:26.440 align:start position:0%
+particular reason that is directly
+ 
+
+00:14:26.440 --> 00:14:28.670 align:start position:0%
+particular reason that is directly
+beneficial<00:14:27.040><c> to</c><00:14:27.160><c> them,</c><00:14:27.680><c> open-sourcing</c><00:14:28.440><c> it</c>
+
+00:14:28.670 --> 00:14:28.680 align:start position:0%
+beneficial to them, open-sourcing it
+ 
+
+00:14:28.680 --> 00:14:30.790 align:start position:0%
+beneficial to them, open-sourcing it
+along<00:14:29.040><c> with</c><00:14:29.200><c> the</c><00:14:29.360><c> DeepSpark</c><00:14:29.920><c> paper.</c><00:14:30.440><c> And</c><00:14:30.640><c> all</c>
+
+00:14:30.790 --> 00:14:30.800 align:start position:0%
+along with the DeepSpark paper. And all
+ 
+
+00:14:30.800 --> 00:14:33.110 align:start position:0%
+along with the DeepSpark paper. And all
+they<00:14:31.000><c> want</c><00:14:31.320><c> is</c><00:14:31.760><c> to</c><00:14:32.000><c> foster</c><00:14:32.560><c> collective</c>
+
+00:14:33.110 --> 00:14:33.120 align:start position:0%
+they want is to foster collective
+ 
+
+00:14:33.120 --> 00:14:34.990 align:start position:0%
+they want is to foster collective
+advancement<00:14:33.839><c> within</c><00:14:34.240><c> the</c><00:14:34.480><c> open-source</c>
+
+00:14:34.990 --> 00:14:35.000 align:start position:0%
+advancement within the open-source
+ 
+
+00:14:35.000 --> 00:14:37.030 align:start position:0%
+advancement within the open-source
+community.<00:14:35.760><c> How</c><00:14:35.920><c> can</c><00:14:36.120><c> you</c><00:14:36.240><c> not</c><00:14:36.520><c> love</c><00:14:36.839><c> this</c>
+
+00:14:37.030 --> 00:14:37.040 align:start position:0%
+community. How can you not love this
+ 
+
+00:14:37.040 --> 00:14:38.550 align:start position:0%
+community. How can you not love this
+company?<00:14:37.480><c> So,</c><00:14:37.680><c> when</c><00:14:37.880><c> all</c><00:14:38.040><c> of</c><00:14:38.120><c> this</c><00:14:38.280><c> comes</c>
+
+00:14:38.550 --> 00:14:38.560 align:start position:0%
+company? So, when all of this comes
+ 
+
+00:14:38.560 --> 00:14:40.950 align:start position:0%
+company? So, when all of this comes
+together,<00:14:39.120><c> the</c><00:14:39.320><c> gains</c><00:14:39.760><c> are</c><00:14:39.960><c> kind</c><00:14:40.240><c> of</c><00:14:40.360><c> absurd.</c>
+
+00:14:40.950 --> 00:14:40.960 align:start position:0%
+together, the gains are kind of absurd.
+ 
+
+00:14:40.960 --> 00:14:42.910 align:start position:0%
+together, the gains are kind of absurd.
+On<00:14:41.120><c> DeepSee</c><00:14:41.440><c> V4</c><00:14:41.800><c> Flash,</c><00:14:42.280><c> DeepSpark</c><00:14:42.720><c> gets</c>
+
+00:14:42.910 --> 00:14:42.920 align:start position:0%
+On DeepSee V4 Flash, DeepSpark gets
+ 
+
+00:14:42.920 --> 00:14:45.390 align:start position:0%
+On DeepSee V4 Flash, DeepSpark gets
+around<00:14:43.240><c> 51%</c><00:14:44.040><c> higher</c><00:14:44.320><c> aggregate</c><00:14:44.800><c> throughput,</c>
+
+00:14:45.390 --> 00:14:45.400 align:start position:0%
+around 51% higher aggregate throughput,
+ 
+
+00:14:45.400 --> 00:14:46.710 align:start position:0%
+around 51% higher aggregate throughput,
+which<00:14:45.600><c> measures</c><00:14:46.000><c> the</c><00:14:46.120><c> total</c><00:14:46.360><c> number</c><00:14:46.600><c> of</c>
+
+00:14:46.710 --> 00:14:46.720 align:start position:0%
+which measures the total number of
+ 
+
+00:14:46.720 --> 00:14:48.670 align:start position:0%
+which measures the total number of
+tokens<00:14:47.080><c> generated</c><00:14:47.520><c> across</c><00:14:47.920><c> all</c><00:14:48.160><c> users</c><00:14:48.520><c> per</c>
+
+00:14:48.670 --> 00:14:48.680 align:start position:0%
+tokens generated across all users per
+ 
+
+00:14:48.680 --> 00:14:51.230 align:start position:0%
+tokens generated across all users per
+second,<00:14:49.320><c> maintaining</c><00:14:49.920><c> at</c><00:14:50.120><c> least</c><00:14:50.480><c> 80</c><00:14:50.760><c> tokens</c>
+
+00:14:51.230 --> 00:14:51.240 align:start position:0%
+second, maintaining at least 80 tokens
+ 
+
+00:14:51.240 --> 00:14:53.310 align:start position:0%
+second, maintaining at least 80 tokens
+per<00:14:51.480><c> second</c><00:14:52.080><c> per</c><00:14:52.360><c> user.</c><00:14:52.800><c> And</c><00:14:52.960><c> under</c><00:14:53.200><c> a</c>
+
+00:14:53.310 --> 00:14:53.320 align:start position:0%
+per second per user. And under a
+ 
+
+00:14:53.320 --> 00:14:56.030 align:start position:0%
+per second per user. And under a
+stricter<00:14:53.880><c> 120</c><00:14:54.520><c> tokens</c><00:14:54.839><c> per</c><00:14:55.000><c> second</c><00:14:55.440><c> setting</c>
+
+00:14:56.030 --> 00:14:56.040 align:start position:0%
+stricter 120 tokens per second setting
+ 
+
+00:14:56.040 --> 00:14:57.670 align:start position:0%
+stricter 120 tokens per second setting
+where<00:14:56.160><c> the</c><00:14:56.240><c> system</c><00:14:56.600><c> is</c><00:14:56.760><c> required</c><00:14:57.240><c> to</c><00:14:57.360><c> keep</c>
+
+00:14:57.670 --> 00:14:57.680 align:start position:0%
+where the system is required to keep
+ 
+
+00:14:57.680 --> 00:15:00.110 align:start position:0%
+where the system is required to keep
+each<00:14:57.920><c> user's</c><00:14:58.320><c> generation</c><00:14:58.760><c> speed</c><00:14:59.200><c> at</c><00:14:59.560><c> or</c><00:14:59.760><c> above</c>
+
+00:15:00.110 --> 00:15:00.120 align:start position:0%
+each user's generation speed at or above
+ 
+
+00:15:00.120 --> 00:15:03.230 align:start position:0%
+each user's generation speed at or above
+120<00:15:00.880><c> tokens</c><00:15:01.240><c> per</c><00:15:01.360><c> second,</c><00:15:02.040><c> the</c><00:15:02.240><c> older</c><00:15:02.520><c> MTP-1</c>
+
+00:15:03.230 --> 00:15:03.240 align:start position:0%
+120 tokens per second, the older MTP-1
+ 
+
+00:15:03.240 --> 00:15:05.110 align:start position:0%
+120 tokens per second, the older MTP-1
+baseline<00:15:03.640><c> completely</c><00:15:04.200><c> hits</c><00:15:04.440><c> a</c><00:15:04.520><c> wall</c><00:15:04.839><c> as</c><00:15:05.000><c> it</c>
+
+00:15:05.110 --> 00:15:05.120 align:start position:0%
+baseline completely hits a wall as it
+ 
+
+00:15:05.120 --> 00:15:06.829 align:start position:0%
+baseline completely hits a wall as it
+starts<00:15:05.400><c> to</c><00:15:05.480><c> spend</c><00:15:05.880><c> too</c><00:15:06.080><c> much</c><00:15:06.320><c> target</c><00:15:06.640><c> model</c>
+
+00:15:06.829 --> 00:15:06.839 align:start position:0%
+starts to spend too much target model
+ 
+
+00:15:06.839 --> 00:15:08.710 align:start position:0%
+starts to spend too much target model
+compute<00:15:07.320><c> verifying</c><00:15:07.880><c> low</c><00:15:08.080><c> quality</c><00:15:08.480><c> draft</c>
+
+00:15:08.710 --> 00:15:08.720 align:start position:0%
+compute verifying low quality draft
+ 
+
+00:15:08.720 --> 00:15:10.030 align:start position:0%
+compute verifying low quality draft
+tokens<00:15:09.080><c> that</c><00:15:09.240><c> will</c><00:15:09.360><c> eventually</c><00:15:09.839><c> get</c>
+
+00:15:10.030 --> 00:15:10.040 align:start position:0%
+tokens that will eventually get
+ 
+
+00:15:10.040 --> 00:15:12.150 align:start position:0%
+tokens that will eventually get
+rejected,<00:15:10.680><c> which</c><00:15:10.920><c> causes</c><00:15:11.360><c> it</c><00:15:11.560><c> unable</c><00:15:12.040><c> to</c>
+
+00:15:12.150 --> 00:15:12.160 align:start position:0%
+rejected, which causes it unable to
+ 
+
+00:15:12.160 --> 00:15:14.150 align:start position:0%
+rejected, which causes it unable to
+maintain<00:15:12.560><c> both</c><00:15:12.880><c> speed</c><00:15:13.200><c> guarantee</c><00:15:13.760><c> and</c><00:15:13.920><c> high</c>
+
+00:15:14.150 --> 00:15:14.160 align:start position:0%
+maintain both speed guarantee and high
+ 
+
+00:15:14.160 --> 00:15:15.990 align:start position:0%
+maintain both speed guarantee and high
+throughput<00:15:14.680><c> at</c><00:15:14.800><c> the</c><00:15:14.880><c> same</c><00:15:15.080><c> time.</c><00:15:15.480><c> DeepSpark,</c>
+
+00:15:15.990 --> 00:15:16.000 align:start position:0%
+throughput at the same time. DeepSpark,
+ 
+
+00:15:16.000 --> 00:15:18.190 align:start position:0%
+throughput at the same time. DeepSpark,
+by<00:15:16.160><c> contrast,</c><00:15:16.839><c> avoids</c><00:15:17.320><c> this</c><00:15:17.520><c> collapse</c><00:15:18.040><c> by</c>
+
+00:15:18.190 --> 00:15:18.200 align:start position:0%
+by contrast, avoids this collapse by
+ 
+
+00:15:18.200 --> 00:15:19.950 align:start position:0%
+by contrast, avoids this collapse by
+trimming<00:15:18.640><c> verification</c><00:15:19.320><c> to</c><00:15:19.520><c> only</c><00:15:19.800><c> the</c>
+
+00:15:19.950 --> 00:15:19.960 align:start position:0%
+trimming verification to only the
+ 
+
+00:15:19.960 --> 00:15:22.350 align:start position:0%
+trimming verification to only the
+high-confidence<00:15:20.800><c> prefix</c><00:15:21.400><c> and</c><00:15:21.600><c> reaches</c><00:15:22.040><c> up</c><00:15:22.240><c> to</c>
+
+00:15:22.350 --> 00:15:22.360 align:start position:0%
+high-confidence prefix and reaches up to
+ 
+
+00:15:22.360 --> 00:15:24.070 align:start position:0%
+high-confidence prefix and reaches up to
+661%
+
+00:15:24.070 --> 00:15:24.080 align:start position:0%
+661%
+ 
+
+00:15:24.080 --> 00:15:25.710 align:start position:0%
+661%
+higher<00:15:24.320><c> throughput</c><00:15:24.880><c> than</c><00:15:25.040><c> the</c><00:15:25.200><c> collapsed</c>
+
+00:15:25.710 --> 00:15:25.720 align:start position:0%
+higher throughput than the collapsed
+ 
+
+00:15:25.720 --> 00:15:27.710 align:start position:0%
+higher throughput than the collapsed
+baseline.<00:15:26.240><c> On</c><00:15:26.360><c> Deep</c><00:15:26.560><c> Seek</c><00:15:26.720><c> V4</c><00:15:27.040><c> Pro,</c><00:15:27.400><c> it</c><00:15:27.520><c> gets</c>
+
+00:15:27.710 --> 00:15:27.720 align:start position:0%
+baseline. On Deep Seek V4 Pro, it gets
+ 
+
+00:15:27.720 --> 00:15:30.230 align:start position:0%
+baseline. On Deep Seek V4 Pro, it gets
+around<00:15:28.080><c> 52%</c><00:15:28.880><c> higher</c><00:15:29.080><c> throughput</c><00:15:29.560><c> at</c><00:15:29.720><c> 35</c>
+
+00:15:30.230 --> 00:15:30.240 align:start position:0%
+around 52% higher throughput at 35
+ 
+
+00:15:30.240 --> 00:15:32.990 align:start position:0%
+around 52% higher throughput at 35
+tokens<00:15:30.600><c> per</c><00:15:30.720><c> second</c><00:15:31.160><c> and</c><00:15:31.360><c> up</c><00:15:31.480><c> to</c><00:15:31.640><c> 406%</c><00:15:32.800><c> higher</c>
+
+00:15:32.990 --> 00:15:33.000 align:start position:0%
+tokens per second and up to 406% higher
+ 
+
+00:15:33.000 --> 00:15:34.550 align:start position:0%
+tokens per second and up to 406% higher
+throughput<00:15:33.480><c> under</c><00:15:33.680><c> the</c><00:15:33.800><c> stricter</c><00:15:34.240><c> serving</c>
+
+00:15:34.550 --> 00:15:34.560 align:start position:0%
+throughput under the stricter serving
+ 
+
+00:15:34.560 --> 00:15:36.070 align:start position:0%
+throughput under the stricter serving
+conditions<00:15:35.120><c> that</c><00:15:35.240><c> we</c><00:15:35.360><c> just</c><00:15:35.560><c> talked</c><00:15:35.800><c> about.</c>
+
+00:15:36.070 --> 00:15:36.080 align:start position:0%
+conditions that we just talked about.
+ 
+
+00:15:36.080 --> 00:15:37.990 align:start position:0%
+conditions that we just talked about.
+And<00:15:36.240><c> at</c><00:15:36.440><c> matched</c><00:15:36.880><c> aggregate</c><00:15:37.360><c> throughput,</c><00:15:37.960><c> a</c>
+
+00:15:37.990 --> 00:15:38.000 align:start position:0%
+And at matched aggregate throughput, a
+ 
+
+00:15:38.000 --> 00:15:40.150 align:start position:0%
+And at matched aggregate throughput, a
+single<00:15:38.400><c> user</c><00:15:38.640><c> generation</c><00:15:39.080><c> speed</c><00:15:39.400><c> improves</c><00:15:40.000><c> by</c>
+
+00:15:40.150 --> 00:15:40.160 align:start position:0%
+single user generation speed improves by
+ 
+
+00:15:40.160 --> 00:15:43.470 align:start position:0%
+single user generation speed improves by
+around<00:15:40.520><c> 57%</c><00:15:41.560><c> to</c><00:15:41.760><c> 85%.</c><00:15:42.720><c> So,</c><00:15:42.920><c> if</c><00:15:43.160><c> you</c><00:15:43.320><c> are</c>
+
+00:15:43.470 --> 00:15:43.480 align:start position:0%
+around 57% to 85%. So, if you are
+ 
+
+00:15:43.480 --> 00:15:45.990 align:start position:0%
+around 57% to 85%. So, if you are
+serving<00:15:43.880><c> a</c><00:15:43.960><c> Frontier</c><00:15:44.360><c> model</c><00:15:44.600><c> at</c><00:15:44.760><c> scale,</c><00:15:45.240><c> 50%</c>
+
+00:15:45.990 --> 00:15:46.000 align:start position:0%
+serving a Frontier model at scale, 50%
+ 
+
+00:15:46.000 --> 00:15:47.590 align:start position:0%
+serving a Frontier model at scale, 50%
+higher<00:15:46.200><c> throughput</c><00:15:46.600><c> is</c><00:15:46.720><c> a</c><00:15:46.800><c> ridiculous</c><00:15:47.320><c> amount</c>
+
+00:15:47.590 --> 00:15:47.600 align:start position:0%
+higher throughput is a ridiculous amount
+ 
+
+00:15:47.600 --> 00:15:49.430 align:start position:0%
+higher throughput is a ridiculous amount
+of<00:15:47.720><c> saved</c><00:15:48.080><c> hardware</c><00:15:48.600><c> as</c><00:15:48.800><c> you're</c><00:15:49.000><c> literally</c>
+
+00:15:49.430 --> 00:15:49.440 align:start position:0%
+of saved hardware as you're literally
+ 
+
+00:15:49.440 --> 00:15:51.630 align:start position:0%
+of saved hardware as you're literally
+using<00:15:49.720><c> fewer</c><00:15:50.040><c> GPUs</c><00:15:50.680><c> for</c><00:15:50.800><c> the</c><00:15:50.920><c> same</c><00:15:51.120><c> traffic.</c>
+
+00:15:51.630 --> 00:15:51.640 align:start position:0%
+using fewer GPUs for the same traffic.
+ 
+
+00:15:51.640 --> 00:15:53.270 align:start position:0%
+using fewer GPUs for the same traffic.
+This<00:15:51.840><c> completely</c><00:15:52.320><c> changed</c><00:15:52.800><c> the</c><00:15:52.880><c> serving</c>
+
+00:15:53.270 --> 00:15:53.280 align:start position:0%
+This completely changed the serving
+ 
+
+00:15:53.280 --> 00:15:55.590 align:start position:0%
+This completely changed the serving
+parade<00:15:53.680><c> of</c><00:15:53.760><c> Frontier,</c><00:15:54.360><c> which</c><00:15:54.600><c> is</c><00:15:54.800><c> the</c><00:15:54.920><c> set</c><00:15:55.360><c> of</c>
+
+00:15:55.590 --> 00:15:55.600 align:start position:0%
+parade of Frontier, which is the set of
+ 
+
+00:15:55.600 --> 00:15:57.150 align:start position:0%
+parade of Frontier, which is the set of
+best<00:15:55.920><c> possible</c><00:15:56.320><c> trade-offs</c><00:15:56.800><c> between</c>
+
+00:15:57.150 --> 00:15:57.160 align:start position:0%
+best possible trade-offs between
+ 
+
+00:15:57.160 --> 00:15:58.630 align:start position:0%
+best possible trade-offs between
+competing<00:15:57.760><c> goals</c><00:15:58.080><c> like</c><00:15:58.240><c> speed</c><00:15:58.520><c> and</c>
+
+00:15:58.630 --> 00:15:58.640 align:start position:0%
+competing goals like speed and
+ 
+
+00:15:58.640 --> 00:16:00.430 align:start position:0%
+competing goals like speed and
+throughput<00:15:59.240><c> where</c><00:15:59.400><c> improving</c><00:16:00.040><c> one</c><00:16:00.280><c> would</c>
+
+00:16:00.430 --> 00:16:00.440 align:start position:0%
+throughput where improving one would
+ 
+
+00:16:00.440 --> 00:16:02.470 align:start position:0%
+throughput where improving one would
+necessarily<00:16:01.080><c> make</c><00:16:01.280><c> the</c><00:16:01.480><c> other</c><00:16:01.760><c> worse.</c><00:16:02.240><c> While</c>
+
+00:16:02.470 --> 00:16:02.480 align:start position:0%
+necessarily make the other worse. While
+ 
+
+00:16:02.480 --> 00:16:04.190 align:start position:0%
+necessarily make the other worse. While
+this<00:16:02.640><c> optimization</c><00:16:03.360><c> doesn't</c><00:16:03.880><c> really</c>
+
+00:16:04.190 --> 00:16:04.200 align:start position:0%
+this optimization doesn't really
+ 
+
+00:16:04.200 --> 00:16:06.230 align:start position:0%
+this optimization doesn't really
+automatically<00:16:04.880><c> translate</c><00:16:05.360><c> to</c><00:16:05.480><c> other</c><00:16:05.680><c> systems</c>
+
+00:16:06.230 --> 00:16:06.240 align:start position:0%
+automatically translate to other systems
+ 
+
+00:16:06.240 --> 00:16:07.990 align:start position:0%
+automatically translate to other systems
+right<00:16:06.440><c> away</c><00:16:06.800><c> as</c><00:16:07.000><c> every</c><00:16:07.200><c> model</c><00:16:07.520><c> has</c><00:16:07.720><c> different</c>
+
+00:16:07.990 --> 00:16:08.000 align:start position:0%
+right away as every model has different
+ 
+
+00:16:08.000 --> 00:16:09.590 align:start position:0%
+right away as every model has different
+specs<00:16:08.320><c> and</c><00:16:08.480><c> every</c><00:16:08.720><c> server</c><00:16:09.040><c> has</c><00:16:09.240><c> a</c><00:16:09.280><c> different</c>
+
+00:16:09.590 --> 00:16:09.600 align:start position:0%
+specs and every server has a different
+ 
+
+00:16:09.600 --> 00:16:11.670 align:start position:0%
+specs and every server has a different
+setup,<00:16:10.120><c> the</c><00:16:10.240><c> release</c><00:16:10.600><c> of</c><00:16:10.800><c> Deep</c><00:16:11.040><c> Seek</c><00:16:11.440><c> would</c>
+
+00:16:11.670 --> 00:16:11.680 align:start position:0%
+setup, the release of Deep Seek would
+ 
+
+00:16:11.680 --> 00:16:13.550 align:start position:0%
+setup, the release of Deep Seek would
+still<00:16:11.880><c> be</c><00:16:12.040><c> a</c><00:16:12.120><c> huge</c><00:16:12.480><c> parallel</c><00:16:12.840><c> that</c><00:16:13.080><c> improves</c>
+
+00:16:13.550 --> 00:16:13.560 align:start position:0%
+still be a huge parallel that improves
+ 
+
+00:16:13.560 --> 00:16:15.630 align:start position:0%
+still be a huge parallel that improves
+serving<00:16:14.080><c> not</c><00:16:14.320><c> just</c><00:16:14.560><c> for</c><00:16:14.720><c> Deep</c><00:16:14.960><c> Seek</c><00:16:15.160><c> models,</c>
+
+00:16:15.630 --> 00:16:15.640 align:start position:0%
+serving not just for Deep Seek models,
+ 
+
+00:16:15.640 --> 00:16:18.350 align:start position:0%
+serving not just for Deep Seek models,
+but<00:16:15.880><c> also</c><00:16:16.240><c> other</c><00:16:16.480><c> open</c><00:16:16.760><c> weights.</c><00:16:17.240><c> And</c><00:16:17.440><c> that</c><00:16:18.040><c> is</c>
+
+00:16:18.350 --> 00:16:18.360 align:start position:0%
+but also other open weights. And that is
+ 
+
+00:16:18.360 --> 00:16:20.310 align:start position:0%
+but also other open weights. And that is
+the<00:16:18.480><c> blessing</c><00:16:18.960><c> of</c><00:16:19.120><c> the</c><00:16:19.240><c> whale.</c><00:16:19.760><c> What</c><00:16:19.880><c> do</c><00:16:20.040><c> you</c>
+
+00:16:20.310 --> 00:16:20.320 align:start position:0%
+the blessing of the whale. What do you
+ 
+
+00:16:20.320 --> 00:16:21.990 align:start position:0%
+the blessing of the whale. What do you
+think<00:16:20.560><c> about</c><00:16:20.800><c> Deep</c><00:16:21.000><c> Spark?</c><00:16:21.440><c> Let</c><00:16:21.560><c> me</c><00:16:21.640><c> know</c><00:16:21.800><c> down</c>
+
+00:16:21.990 --> 00:16:22.000 align:start position:0%
+think about Deep Spark? Let me know down
+ 
+
+00:16:22.000 --> 00:16:24.720 align:start position:0%
+think about Deep Spark? Let me know down
+in<00:16:22.080><c> the</c><00:16:22.120><c> comments.</c>
+
