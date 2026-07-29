@@ -2,8 +2,26 @@
 
 ## Priorités architecturales majeures
 
-Ces deux axes sont désormais des objectifs principaux du dépôt, distincts des
+Ces axes sont désormais des objectifs principaux du dépôt, distincts des
 benchmarks OCR et des briques d'ablation.
+
+### Principe d'architecture modulaire
+
+Chaque brique doit être remplaçable et désactivable sans modifier les autres
+interfaces. Le pipeline de référence sera composé de :
+
+`observation encoder → latent streams → memory (Engram) → predictor (JEPA) →
+recurrent core (Loop Transformer) → router/MoE-LoRA → policy/value → quantizer`.
+
+Chaque étape expose une configuration explicite, des tenseurs d'entrée/sortie
+documentés et un contrôle `off` servant de baseline. Les expériences doivent
+permettre les combinaisons par fichier de configuration, enregistrer les
+paramètres actifs et comparer chaque ajout seul avant toute combinaison.
+
+Une brique n'est retenue que si son gain persiste dans son ablation isolée,
+avec budget de données, paramètres actifs et FLOPs contrôlé. Les checkpoints,
+graines et métriques doivent rester compatibles entre variantes afin de rendre
+les régressions réversibles et auditables.
 
 ### A — Agent MoE-LoRA à croissance dynamique
 

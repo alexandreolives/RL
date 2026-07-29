@@ -6,6 +6,15 @@ already exists or matches a published model.
 
 ## Proposed system
 
+### Experimental modularity contract
+
+The agent must remain a composition of replaceable blocks: observation
+encoder, latent streams, Engram memory, JEPA predictor, recurrent core,
+MoE-LoRA router, policy/value heads, and quantization wrapper. Every block
+needs a documented input/output contract, an explicit disabled mode, and a
+configuration entry. New combinations are evaluated only after the isolated
+ablation has been run under matched data, active parameters, and FLOPs.
+
 ### 1. Modular MoE-LoRA experts
 
 Each domain expert is represented by an independent LoRA adapter. A learned
