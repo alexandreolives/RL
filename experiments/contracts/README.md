@@ -14,6 +14,7 @@ Each run should write under:
 
 Expected files:
 - `metrics.json` (required)
+- `manifest.json` (recommended M0 run/config snapshot)
 - `model.pt` (optional, for training runs)
 - extra reports (`*.json`, `*.txt`) as needed
 
@@ -25,6 +26,10 @@ Expected files:
 - `train_steps` and/or `eval_steps`
 - primary quality metrics (task-dependent)
 - runtime metric (`train_time_sec` or latency)
+
+The reusable `RunRecord` and `write_run_manifest` helpers live in
+`src/models/atoms/experiment.py`. Manifests use `schema_version: 1` and keep
+the serialized modular configuration alongside run metadata.
 
 ## Notes
 

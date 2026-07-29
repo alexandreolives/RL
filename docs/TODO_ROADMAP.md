@@ -6,19 +6,19 @@ résultats sont archivés.
 
 ## M0 — Socle commun et auditabilité
 
-- [ ] Définir les contrats tensoriels entre encodeur, flux latent, mémoire,
+- [x] Définir les contrats tensoriels entre encodeur, flux latent, mémoire,
   prédicteur, boucle, routeur et policy/value.
-- [ ] Ajouter des configs versionnées pour chaque composant et un mode `off`.
-- [ ] Fixer seeds, budgets de paramètres/FLOPs, protocole d'évaluation et
+- [x] Ajouter des configs versionnées pour chaque composant et un mode `off`.
+- [x] Fixer seeds, budgets de paramètres/FLOPs, protocole d'évaluation et
   format JSON des métriques.
-- [ ] Ajouter smoke tests CPU, test de déterminisme et vérification des shapes.
+- [x] Ajouter smoke tests CPU, test de déterminisme et vérification des shapes.
 - [ ] Documenter versions Python/PyTorch/Transformers et commande de repro.
-- [ ] Ajouter un rapport automatique : loss, reward, latence, mémoire, FLOPs,
+- [x] Ajouter un rapport automatique : loss, reward, latence, mémoire, FLOPs,
   énergie si disponible.
 
 ## M0 — Routeur
 
-- [ ] Implémenter l'interface typed du routeur et le mode déterministe `off`.
+- [x] Implémenter l'interface typed du routeur et le mode déterministe `off`.
 - [ ] Implémenter un routeur MLP top-k sur un pool d'experts fixe.
 - [ ] Journaliser indices, poids, entropie, charge, overflow et switch rate.
 - [ ] Ajouter les contrôles single-expert et random-router.

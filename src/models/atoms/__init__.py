@@ -10,3 +10,4 @@ from .bytes import BytePatcher
 from .residual import FullAttentionResidual
 from .contracts import ModularAgentConfig, RouterDecision
 from .experiment import RunRecord, parameter_count, write_run_manifest
+from .router import TopKRouter, build_single_expert_router
