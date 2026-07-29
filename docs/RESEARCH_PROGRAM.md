@@ -51,6 +51,13 @@ attention→spectral, and learned dynamic switching. Match active FLOPs and
 report long-dependency accuracy, gradient/norm stability, aliasing, latency,
 memory, and FFT overhead separately.
 
+This can be combined with gradual QAT: the spectral path reduces average
+compute while ternary/low-bit weights reduce the cost of each activated path.
+These effects must be reported separately, including worst-case quality and
+the rate at which the gate escalates to attention. A diffusion backbone is a
+possible transfer target because it already performs iterative refinement, but
+the denoising objective and conditioning require a dedicated control suite.
+
 ### 3. Ternary / 1.58-bit deployment path
 
 The intended deployment representation is ternary weights in `{-1, 0, +1}`,

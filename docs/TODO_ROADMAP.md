@@ -96,6 +96,21 @@ résultats sont archivés.
 - [ ] Ajouter un kernel ternaire de référence avant toute revendication hardware.
 - [ ] Mesurer latence/énergie réelle sur CPU et GPU compatibles.
 
+## M2 — Calcul adaptatif spectral + QAT
+
+- [ ] Mesurer séparément le gain du chemin FFT (coût moyen) et la perte due à
+  la quantification (qualité par boucle/token).
+- [ ] Appliquer la QAT au chemin spectral et au chemin attention, puis tester
+  un switch FFT→attention avec poids/activations quantifiés.
+- [ ] Entraîner la gate sur un budget de calcul ou d'énergie, pas seulement sur
+  la loss, avec pénalité si l'attention est activée inutilement.
+- [ ] Comparer qualité moyenne, pire cas, taux d'activation attention, latence,
+  mémoire et énergie à budget fixe.
+- [ ] Garder un chemin haute précision attention-only comme contrôle de qualité.
+- [ ] Tester séparément la compatibilité avec un backbone de diffusion :
+  débruitage spectral initial, attention conditionnelle tardive et nombre
+  adaptatif d'étapes. Ne pas extrapoler les résultats agent/LLM à la diffusion.
+
 ## M2 — Multimodal documents/OCR
 
 - [ ] Finaliser ingestion PDF/image, OCR, layout et ordre de lecture.
