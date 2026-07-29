@@ -29,3 +29,10 @@ The GRU control is more reliable on this under-trained parity setup. This is
 useful negative evidence for the current Loop implementation: the shared
 attention core needs better optimization or a more suitable state update
 before it can replace a recurrent control.
+
+Revised state update (learned write gate around the carried latent) was then
+smoke-validated without changing the external interface. At length 16 and
+100 episodes, seed 0 reached GRU **1.00** and Loop **1.00**; two additional
+100-episode runs also returned **1.00 / 1.00**. These are training-smoke
+results, not a publication claim: they must be repeated with fixed budgets,
+longer sequences and at least five seeds.

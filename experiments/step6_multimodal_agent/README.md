@@ -12,12 +12,12 @@ action-conditioned JEPA predictor, shared Loop Transformer and spectral loop
 behind independent flags. Each block remains testable in isolation.
 
 Current validation status (2026-07-29): the implementation and CPU test suite
-pass (`53 passed`). On the streamed parity task at sequence length 16, the
-three-seed mean is GRU **1.00** versus stateful Loop **0.517** (see
-`notes/M1_PARITY.md`). This is a useful negative control: the current Loop
-core is functional but is not yet a replacement for the trained GRU. Longer
-training, a stronger recurrent state update and matched compute budgets remain
-required before claiming an architectural gain.
+pass (`53 passed`). The initial stateful Loop scored 0.517 versus GRU 1.00 on
+the three-seed length-16 parity smoke. A learned write gate was then added to
+the carried state; the revised smoke reached 1.00/1.00 on three 100-episode
+runs. See `notes/M1_PARITY.md`: these are encouraging calibration results,
+not yet a claim of generalization. Longer sequences, matched compute budgets
+and at least five seeds remain required.
 
 Run the complete M1 checks from the repository root:
 

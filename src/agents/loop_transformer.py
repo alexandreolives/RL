@@ -43,6 +43,10 @@ class StatefulLoopCore(nn.Module):
     def __init__(self, d_model: int = 64, *, heads: int = 4, max_iterations: int = 2) -> None:
         super().__init__()
         self.core = LoopTransformerCore(d_model, heads=heads, max_iterations=max_iterations)
+        # A learned write gate makes the carried state genuinely recurrent:
+        # the attention block proposes an update, while the gate controls how
+        # much of it is committed for the next streamed observation.
+        self.update_gate = nn.Linear(2 * d_model, d_model)
 
     def forward(self, latent: torch.Tensor, state: torch.Tensor | None = None) -> tuple[torch.Tensor, torch.Tensor]:
         if latent.ndim != 2:
@@ -51,7 +55,13 @@ class StatefulLoopCore(nn.Module):
             raise ValueError("state must have the same shape as latent")
         sequence = latent.unsqueeze(1) if state is None else torch.stack((state, latent), dim=1)
         output, _ = self.core(sequence)
-        return output[:, -1], output[:, -1]
+        candidate = output[:, -1]
+        if state is None:
+            next_state = candidate
+        else:
+            gate = torch.sigmoid(self.update_gate(torch.cat((state, latent), dim=-1)))
+            next_state = gate * candidate + (1.0 - gate) * state
+        return next_state, next_state
 
 
 class AdaptiveLoopCore(nn.Module):
