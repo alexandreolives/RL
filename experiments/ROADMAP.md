@@ -1,5 +1,38 @@
 # Multimodal Roadmap (DeepSeek OCR-like)
 
+## Priorités architecturales majeures
+
+Ces deux axes sont désormais des objectifs principaux du dépôt, distincts des
+benchmarks OCR et des briques d'ablation.
+
+### A — Modèle à croissance dynamique
+
+Construire un agent RL dont la capacité augmente pendant l'entraînement :
+détection de nouveauté ou de saturation, naissance d'experts, spécialisation,
+maturation, EMA des experts stables, puis retrait ou rollback sous contrainte
+de budget. La comparaison de référence sera un modèle à capacité fixe avec le
+même budget de calcul cumulé.
+
+Critères de validation : reward et regret après changement de tâche, oubli
+catastrophique, équilibre du routeur, nombre d'expansions, paramètres actifs,
+coût cumulé et temps de récupération.
+
+Statut : **planifié, non implémenté**.
+
+### B — Loop Transformer / réseau récurrent
+
+Implémenter un bloc Transformer partagé, réappliqué plusieurs fois au même
+état latent, avec profondeur fixe puis profondeur adaptative via une gate de
+halting. L'objectif est de mesurer si la récurrence permet une amélioration
+compute-adaptive du raisonnement et de la planification, sans attribuer à la
+boucle une capacité implicite non démontrée.
+
+Critères de validation : comparaison non récurrente à FLOPs actifs égaux,
+performance selon le nombre d'itérations, calibration de l'arrêt, stabilité
+des normes latentes, coût/latence et robustesse sur dépendances longues.
+
+Statut : **planifié, module générique à implémenter**.
+
 ## Status global
 
 - `Step 1`: done (baseline/engram/engram_noconv text-byte)
