@@ -119,6 +119,21 @@ was incomplete. The implementation now supports a Nanbeige-style shared stack;
 the next scientific run should repeat these rows over five seeds and report
 parameter/FLOP-matched controls.
 
+Completed five-seed depth ablation (length 32, 50 episodes/seed):
+
+| Model/configuration | Parameters | Mean | Std |
+|---|---:|---:|---:|
+| GRU baseline | 62,790 | **0.92** | 0.027 |
+| Loop 1×2 (effective depth 2) | 79,686 | 0.67 | 0.413 |
+| Loop 2×1 (effective depth 2) | 113,158 | 0.82 | 0.347 |
+| Loop 2×2 (effective depth 4) | 113,158 | 0.86 | 0.171 |
+
+The GRU remains the strongest and most stable at this short budget. Increasing
+the shared stack depth substantially reduces Loop variance and closes the gap,
+but does not yet beat the recurrent control. These controls are now directly
+comparable by explicit effective depth; parameter matching remains a separate
+experiment because the deeper Loop has more weights.
+
 CPU forward diagnostic (batch 1, 200 calls, one PyTorch thread) measured 62,790
 parameters / 0.114 ms for the recurrent baseline and 41,856 parameters /
 0.297 ms for the Loop state core. The Loop timing excludes the shared
