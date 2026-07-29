@@ -1,7 +1,7 @@
 import pytest
 import torch
 
-from agents.latent_world_model import ActionConditionedLatentPredictor, latent_prediction_loss
+from agents.latent_world_model import ActionConditionedLatentPredictor, latent_prediction_loss, variance_covariance_regularizer
 
 
 def test_action_conditioned_predictor_and_loss():
@@ -14,3 +14,8 @@ def test_action_conditioned_predictor_and_loss():
 def test_predictor_rejects_bad_batch_shape():
     with pytest.raises(ValueError):
         ActionConditionedLatentPredictor()(torch.randn(2, 64), torch.zeros(1, dtype=torch.long))
+
+
+def test_variance_covariance_regularizer_is_finite():
+    loss = variance_covariance_regularizer(torch.randn(8, 16))
+    assert torch.isfinite(loss)

@@ -2,7 +2,7 @@
 
 from .multimodal_env import MultimodalMemoryEnv
 from .multimodal_baseline import MultimodalActorCritic, RecurrentMultimodalActorCritic
-from .latent_world_model import ActionConditionedLatentPredictor, latent_prediction_loss
+from .latent_world_model import ActionConditionedLatentPredictor, latent_prediction_loss, variance_covariance_regularizer
 from .loop_transformer import LoopTransformerCore, StatefulLoopCore
 from .spectral_loop import FourierMixer, SpectralAttentionLoop
 from .memory import EngramLatentAdapter
@@ -14,6 +14,7 @@ __all__ = [
     "RecurrentMultimodalActorCritic",
     "ActionConditionedLatentPredictor",
     "latent_prediction_loss",
+    "variance_covariance_regularizer",
     "LoopTransformerCore",
     "StatefulLoopCore",
     "FourierMixer",

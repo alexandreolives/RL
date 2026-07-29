@@ -28,3 +28,17 @@ def latent_prediction_loss(predicted: torch.Tensor, target: torch.Tensor) -> tor
     if predicted.shape != target.shape:
         raise ValueError("predicted and target latent tensors must have identical shapes")
     return (predicted - target.detach()).square().mean()
+
+
+def variance_covariance_regularizer(latent: torch.Tensor, *, target_std: float = 1.0) -> torch.Tensor:
+    """VICReg-style variance/covariance penalty for small latent batches."""
+
+    if latent.ndim != 2 or latent.size(0) < 2:
+        raise ValueError("latent must have shape (batch, dim) with batch >= 2")
+    centered = latent - latent.mean(dim=0, keepdim=True)
+    std = torch.sqrt(centered.var(dim=0, unbiased=False) + 1e-4)
+    variance_loss = torch.relu(target_std - std).mean()
+    covariance = centered.T @ centered / (latent.size(0) - 1)
+    off_diag = covariance - torch.diag(torch.diag(covariance))
+    covariance_loss = off_diag.square().mean()
+    return variance_loss + covariance_loss
