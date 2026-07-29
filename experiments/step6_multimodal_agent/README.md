@@ -23,6 +23,12 @@ Stateful GRU versus Loop comparison:
 PYTHONPATH=src:. .venv/bin/python experiments/step6_multimodal_agent/scripts/compare_stateful_memory.py
 ```
 
+Parité séquentielle :
+
+```bash
+PYTHONPATH=src:. .venv/bin/python experiments/step6_multimodal_agent/scripts/compare_stateful_memory.py --task parity --sequence-length 16
+```
+
 Halting calibration smoke:
 
 ```bash

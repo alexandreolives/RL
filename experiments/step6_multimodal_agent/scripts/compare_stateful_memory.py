@@ -10,7 +10,7 @@ from torch import nn
 
 from agents.loop_transformer import StatefulLoopCore
 from agents.multimodal_baseline import MultimodalActorCritic, RecurrentMultimodalActorCritic
-from agents.multimodal_env import MultimodalMemoryEnv
+from agents.multimodal_env import MultimodalMemoryEnv, MultimodalParityEnv
 
 
 def obs_tensor(obs):
@@ -36,18 +36,20 @@ class LoopMemoryActor(nn.Module):
         return self.policy(latent), self.value(latent).squeeze(-1), state
 
 
-def train(name: str, episodes: int, seed: int) -> float:
+def train(name: str, episodes: int, seed: int, task: str, sequence_length: int) -> float:
     torch.manual_seed(seed)
     model = RecurrentMultimodalActorCritic() if name == "gru" else LoopMemoryActor()
     optimizer = torch.optim.Adam(model.parameters(), lr=3e-3)
     rewards = []
     for _ in range(episodes):
-        env = MultimodalMemoryEnv(horizon=8, seed=seed, reveal_each_step=False)
+        env = (MultimodalMemoryEnv(horizon=8, seed=seed, reveal_each_step=False)
+               if task == "cue" else MultimodalParityEnv(sequence_length=sequence_length, seed=seed))
         obs, _ = env.reset()
         state = None
         logs, values = [], []
         reward = 0.0
-        for _ in range(env.horizon - 1):
+        total_steps = env.horizon - 1 if task == "cue" else env.sequence_length - 1
+        for _ in range(total_steps):
             if name == "gru":
                 logits, value, state = model(**obs_tensor(obs), state=state)
             else:
@@ -71,8 +73,10 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--episodes", type=int, default=200)
     parser.add_argument("--seed", type=int, default=0)
+    parser.add_argument("--task", choices=["cue", "parity"], default="cue")
+    parser.add_argument("--sequence-length", type=int, default=16)
     args = parser.parse_args()
-    result = {name: train(name, args.episodes, args.seed) for name in ("gru", "loop")}
+    result = {name: train(name, args.episodes, args.seed, args.task, args.sequence_length) for name in ("gru", "loop")}
     print(json.dumps(result, indent=2))
 
 
