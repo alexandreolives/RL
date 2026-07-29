@@ -1,0 +1,39 @@
+L'avenir de l'IA selon Yann LeCun : World Models, LLM, Open Source et Souveraineté
+
+L’IA générative (LLM) a-t-elle déjà atteint ses limites ? Pourquoi ChatGPT ne comprendra jamais vraiment la physique du monde réel ? 🚨
+
+Pour ce dernier épisode de la saison 1 d'À la French, Jean-Baptiste Kempf, Steeve Morin et Mehdi Medjaoui reçoivent le "taulier" absolu de l'Intelligence Artificielle : Yann LeCun, Prix Turing 2018,déclaré  l’un 3 des Pères de l’IA, ex-Chief AI Scientist chez Meta et inventeur des réseaux de neurones convolutifs.
+
+Ensemble, ils s'attaquent aux fondements mathématiques et philosophiques du Deep Learning pour décrypter ce qui succédera aux modèles  d’IA Générative actuels et qui mènera vers l’Intelligence générale Artificielle.
+
+Découvrez pourquoi :
+
+Prédire le prochain mot (token) ne signifie pas savoir raisonner.
+L'IA générative n'est pas la bonne approche pour comprendre aussi bien la vidéo et le monde physique.
+
+Un chat possède un modèle mental du monde bien supérieur à nos robots les plus avancés.
+
+L'apprentissage contrastif, utilisé partout aujourd'hui, montre d'énormes limites (et comment contourner le fameux "collapse").
+
+Générer des pixels est une impasse technique pour l'avenir de l'IA.
+Oui, car l'avenir de l'intelligence artificielle ne réside pas dans les LLM, mais dans les World Models (modèles du monde) et l'architecture JEPA (Joint Embedding Predictive Architecture). Yann LeCun nous explique comment ces systèmes apprennent des représentations abstraites dans l'espace latent, en filtrant l'imprédictibilité du monde réel.
+
+Nous plongeons "sous le capot" avec une masterclass allant de la régularisation gaussienne isotrope aux matrices de covariance, sans oublier un retour passionnant sur l'histoire de la tech : les débuts de l'IA sur Amiga 1000, l'âge sombre ("l'hiver de l'IA") des années 90 dans les Bell Labs, et la création du laboratoire FAIR à Paris.
+
+Enfin, si vous vous souciez de la monoculture technologique, cet épisode est un incontournable. Yann LeCun nous présente  successivement AMILabs et pourquoi il a voulu créer la société à Paris, et puis  Tapestry, un projet audacieux d'apprentissage fédéré visant à garantir une IA souveraine, ouverte et respectueuse de la diversité culturelle mondiale, loin du monopole de quelques géants californiens ou chinois.
+
+⏳ Chapitrage de l'épisode : 
+
+00:00 - Introduction du "taulier" de l'IA : Yann LeCun 
+03:00 - Histoire : Lisp, Amiga 1000, Léon Bottou et les années Bell Labs
+11:00 - L'hiver de l'IA (AI Winter) et l'importance cruciale des outils logiciels 
+19:00 - LLM vs World Models : Pourquoi l'IA générative ne raisonne pas
+24:00 - C'est quoi concrètement un "World Model" ? 
+38:00 - Le problème du "collapse" (effondrement) dans l'apprentissage de l'espace latent
+56:00 - Les maths sous le capot : Régularisation gaussienne isotrope par projection 
+01:10:00 - Robotique et physique intuitive : pourquoi votre chat est plus intelligent qu'un LLM 01:16:00 - La création de FAIR à Paris et la force des talents européens
+01:20:00 - Projet Tapestry : Apprentissage fédéré pour une IA souveraine et diverse
+01:28:00 - Le rôle crucial de l'Open Source (LLaMA) et conclusion
+
+🔗 Ressources et liens : Découvrez le projet Tapestry (Federated AI) : [Insérer le lien GitHub/Projet] Soutenez le podcast et abonnez-vous à la chaîne pour ne rater aucun épisode de À la French !
+#IA #YannLeCun #DeepLearning #WorldModels #Meta #ALaFrenchPodcast #Tech #MachineLearning #SouverainetéNumérique #OpenSource #LLM #IntelligenceArtificielle

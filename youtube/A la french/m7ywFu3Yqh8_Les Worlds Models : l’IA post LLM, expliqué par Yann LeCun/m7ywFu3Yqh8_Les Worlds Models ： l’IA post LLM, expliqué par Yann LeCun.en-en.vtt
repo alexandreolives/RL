@@ -1,0 +1,6563 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.876
+Welcome to À LA FRENCH.
+In this episode,
+
+00:00:01.888 --> 00:00:03.820
+we welcome our last
+guest of the season.
+
+00:00:04.144 --> 00:00:05.880
+And this guest is a pioneer.
+
+00:00:06.380 --> 00:00:08.580
+He is the leader. He is the final boss.
+
+00:00:09.100 --> 00:00:11.256
+The final boss of AI as we know it today.
+
+00:00:11.280 --> 00:00:13.320
+He is creating today a
+global platform.
+
+00:00:13.500 --> 00:00:15.960
+He does World Models.
+
+00:00:16.550 --> 00:00:19.190
+And this guest, we will discuss with
+him for an hour and a half.
+
+00:00:19.385 --> 00:00:22.040
+And exclusively in
+À LA FRENCH, let's go!
+
+00:00:37.710 --> 00:00:45.710
+Important announcement.
+
+00:00:45.930 --> 00:00:47.760
+When we announced the
+À LA FRENCH evening on June 12,
+
+00:00:47.784 --> 00:00:50.290
+in less than 24 hours,
+the 250 places were sold.
+
+00:00:50.389 --> 00:00:52.356
+So we had a great
+evening, but hundreds of
+
+00:00:52.368 --> 00:00:54.666
+people couldn't come
+and were on a waiting list.
+
+00:00:54.690 --> 00:00:55.976
+And we don't like frustration.
+
+00:00:56.000 --> 00:00:59.270
+So we decided to do it again, but bigger, for the À LA FRENCH conference.
+
+00:00:59.690 --> 00:01:01.350
+On December 3, we'll see you there.
+
+00:01:01.690 --> 00:01:04.268
+We will be 1200, coming
+from all over France to celebrate
+
+00:01:04.280 --> 00:01:06.870
+French tech and a certain vision of tech.
+
+00:01:07.070 --> 00:01:08.266
+We are a nation of engineers.
+
+00:01:08.290 --> 00:01:11.130
+We invented Minitel before
+the Internet, the TGV before Hyperloops,
+
+00:01:11.590 --> 00:01:14.350
+DivX, X264, VLC, before
+streaming on Netflix.
+
+00:01:14.630 --> 00:01:16.950
+We are not going to let anyone tell us
+how we do tech, are we?
+
+00:01:16.951 --> 00:01:20.111
+Come on, the conference that has a certain idea of technology, will be on December 3rd.
+
+00:01:20.240 --> 00:01:22.692
+One day for the YouTube show community, announcement
+
+00:01:22.704 --> 00:01:24.990
+preview, guest
+rare, gifts, games.
+
+00:01:25.354 --> 00:01:26.730
+And pay attention, this is going to be very French.
+
+00:01:26.880 --> 00:01:28.601
+This is going to be the most incredible tech conference
+
+00:01:28.613 --> 00:01:29.986
+to which you
+have never attended.
+
+00:01:30.010 --> 00:01:32.250
+And we will celebrate together
+a certain idea of technology.
+
+00:01:32.390 --> 00:01:34.246
+You can go to
+alafrench.org right now,
+
+00:01:34.270 --> 00:01:36.790
+reserve your seats with reduced rates for those who cannot afford it
+
+00:01:36.791 --> 00:01:38.630
+and support rates for those who can.
+
+00:01:38.830 --> 00:01:40.750
+So we will meet on December 3rd live.
+
+00:01:40.970 --> 00:01:42.690
+And in the meantime, we're going back to the episode.
+
+00:01:43.660 --> 00:01:51.660
+We are in À LA FRENCH
+and you know the game.
+
+00:01:51.920 --> 00:01:54.540
+To guess the guest, in 4 points,
+if you know it immediately,
+
+00:01:54.700 --> 00:01:56.116
+3 points if you need hints, 2
+
+00:01:56.128 --> 00:02:00.500
+points if you need more hints,
+and 1 point when everything has already been said.
+
+00:02:01.080 --> 00:02:02.440
+Are you ready to play, Steve?
+
+00:02:02.441 --> 00:02:02.840
+I'm ready.
+
+00:02:02.960 --> 00:02:03.600
+Ready for what?
+
+00:02:03.601 --> 00:02:04.000
+Me, I'm going to win.
+
+00:02:04.001 --> 00:02:04.180
+Okay, let's go.
+
+00:02:04.760 --> 00:02:05.480
+So, in 4 points.
+
+00:02:05.619 --> 00:02:08.180
+Our guest is an
+extremely well-known researcher.
+
+00:02:08.280 --> 00:02:08.759
+No, we're joking.
+
+00:02:08.840 --> 00:02:09.840
+It's Yann LeCun.
+
+00:02:16.905 --> 00:02:18.170
+Okay, we won't waste any time.
+
+00:02:18.171 --> 00:02:18.650
+Welcome, Yann.
+
+00:02:18.770 --> 00:02:19.550
+It's a pleasure to be here.
+
+00:02:19.650 --> 00:02:20.190
+Thank you for inviting me.
+
+00:02:20.394 --> 00:02:22.354
+In addition, Neon Noir is
+a place you know.
+
+00:02:22.575 --> 00:02:23.990
+You come here from time to time, when you come to France.
+
+00:02:24.010 --> 00:02:25.370
+Yes, 2-3 times, I've already been here.
+
+00:02:25.610 --> 00:02:26.610
+It's changed a lot.
+
+00:02:26.710 --> 00:02:29.750
+It's become populated, furnished, expanded.
+
+00:02:31.110 --> 00:02:33.770
+You know with Yann
+for longer than we do.
+
+00:02:33.771 --> 00:02:37.090
+Since the very beginning of ZML.
+
+00:02:38.150 --> 00:02:39.990
+We were introduced by Gabriel.
+
+00:02:40.110 --> 00:02:41.250
+By Gabriel Synnaeve.
+
+00:02:42.725 --> 00:02:47.270
+And then, for the story, we got into
+it, got into it in the sense... "Heyyyy !"
+
+00:02:47.271 --> 00:02:48.830
+We got into a fight.
+
+00:02:49.505 --> 00:02:51.585
+We got into a fight about
+programming languages.
+
+00:02:51.810 --> 00:02:51.950
+Yes.
+
+00:02:52.310 --> 00:02:54.830
+And in particular, what is called multi-stage programming.
+
+00:02:55.470 --> 00:02:58.430
+So, referring to a language called Terra,
+
+00:02:59.239 --> 00:03:02.010
+which was a kind of super set of Lua.
+
+00:03:02.470 --> 00:03:02.610
+Yes.
+
+00:03:02.969 --> 00:03:05.510
+So, the idea is to have
+metaprogramming in the language.
+
+00:03:06.015 --> 00:03:07.815
+You see, actually, you have only one control flow.
+
+00:03:08.090 --> 00:03:10.530
+where you program the language
+using the language itself.
+
+00:03:10.555 --> 00:03:13.550
+In contrast to a macro, or a template, or all metaprogramming.
+
+00:03:13.600 --> 00:03:15.110
+And so, he had told me... "ah!!"
+
+00:03:15.360 --> 00:03:17.310
+And I see you too, Yann,
+every time,
+
+00:03:17.410 --> 00:03:20.710
+because whenever Steve makes
+a very Frenchmaxing tweet,
+
+00:03:21.085 --> 00:03:24.102
+with raclette or
+things like that, in
+
+00:03:24.182 --> 00:03:27.090
+Savoie, all of that, there's a
+little like from Yann LeCun.
+
+00:03:27.670 --> 00:03:28.130
+That's kind of it.
+
+00:03:28.150 --> 00:03:29.150
+I can always count on it.
+
+00:03:29.659 --> 00:03:30.550
+At first, I was happy.
+
+00:03:30.630 --> 00:03:31.150
+I looked.
+
+00:03:31.310 --> 00:03:31.930
+Now, I said yes.
+
+00:03:31.931 --> 00:03:33.550
+Is that, the French Maxing?
+
+00:03:33.551 --> 00:03:35.100
+Frenchmaxxing, it's nothing now.
+
+00:03:35.124 --> 00:03:36.490
+It's a maximization of France.
+
+00:03:36.870 --> 00:03:37.230
+Maximization.
+
+00:03:37.825 --> 00:03:39.786
+As Victor Hugo said, who
+used, I don't know what word,
+
+00:03:39.810 --> 00:03:41.446
+then someone told him: "But
+that's not a French word."
+
+00:03:41.470 --> 00:03:42.630
+He said, "Well, now, if."
+
+00:03:45.570 --> 00:03:48.650
+It's still cool to be called
+Hugo when you can define what.
+
+00:03:48.690 --> 00:03:49.746
+The dictionary, it's me.
+
+00:03:49.770 --> 00:03:53.270
+But this discussion, the reason
+for which we had discussed this,
+
+00:03:53.370 --> 00:03:55.410
+is because I
+am a big fan of LISP.
+
+00:03:55.859 --> 00:03:57.890
+And LISP, it's a
+language... Exactly.
+
+00:03:58.099 --> 00:03:59.099
+Data is code.
+
+00:03:59.310 --> 00:04:03.370
+Yes, data is code, and
+then you can tinker.
+
+00:04:03.490 --> 00:04:05.370
+It's a
+programmable programming language.
+
+00:04:05.699 --> 00:04:07.539
+There are a lot of parentheses
+that we're going to use.
+
+00:04:08.330 --> 00:04:09.490
+That's not a problem.
+
+00:04:10.310 --> 00:04:11.586
+Me, I've never been able to get used to it.
+
+00:04:11.610 --> 00:04:11.850
+Is that true?
+
+00:04:11.851 --> 00:04:13.066
+I've done a lot of closures.
+
+00:04:13.090 --> 00:04:14.650
+Were you an Emacs guy?
+
+00:04:14.651 --> 00:04:17.870
+No, but in Emacs, I was a customer.
+
+00:04:18.029 --> 00:04:19.390
+I wasn't a programmer at Emacs.
+
+00:04:19.470 --> 00:04:22.410
+However, when I did a lot of Clojure, which I love,
+
+00:04:23.890 --> 00:04:26.234
+in fact, pushed by someone
+who is called Pierre-Yves Ritschard
+
+00:04:26.259 --> 00:04:28.310
+who is the CTO
+of Poolside, now.
+
+00:04:30.430 --> 00:04:33.950
+I really felt like I was creating a language, you see, a language of the future.
+
+00:04:34.670 --> 00:04:36.426
+Finally, somewhere in the past,
+since syntax is all that matters.
+
+00:04:36.450 --> 00:04:36.890
+It's a bit in the past.
+
+00:04:36.950 --> 00:04:38.466
+But damn, I've never managed to get it right.
+
+00:04:38.490 --> 00:04:42.031
+Parentheses, they make me... I did everything, the colorings, the gadgets and all that.
+
+00:04:42.650 --> 00:04:44.030
+I've never managed to get it right.
+
+00:04:44.610 --> 00:04:45.610
+And a little known fact,
+
+00:04:45.730 --> 00:04:51.690
+in 87, when I finished my doctorate,
+
+00:04:52.415 --> 00:04:55.550
+I met a young student from polytechnique called Léon Botou.
+
+00:04:56.050 --> 00:04:57.070
+Oh!
+
+00:04:57.071 --> 00:05:02.270
+And then, he said, I would like to do a
+project for my final year at Polytechnique.
+
+00:05:02.690 --> 00:05:03.730
+Will I
+do an internship with you?
+
+00:05:03.731 --> 00:05:05.501
+I told him, you can't, because
+I haven't finished my thesis.
+
+00:05:05.525 --> 00:05:07.326
+It's not a problem, I
+won't tell the school.
+
+00:05:07.350 --> 00:05:11.426
+And I told him, well,
+listen, I'm starting to write
+
+00:05:11.438 --> 00:05:15.350
+a new neural network simulator.
+
+00:05:15.670 --> 00:05:16.750
+Do you want to help me?
+
+00:05:16.751 --> 00:05:19.410
+And I said, I would really like
+to have an interface language.
+
+00:05:20.390 --> 00:05:25.650
+I thought about using
+Forth and things like that.
+
+00:05:26.410 --> 00:05:29.111
+Instead of inventing a language,
+it might actually be a LISP.
+
+00:05:29.135 --> 00:05:31.470
+So, I would really like a LISP interpreter.
+
+00:05:32.350 --> 00:05:34.690
+And we both had Amiga 1000s.
+
+00:05:34.870 --> 00:05:36.550
+I see that you don't have
+one on your table here.
+
+00:05:36.551 --> 00:05:37.551
+But that's a shame.
+
+00:05:37.815 --> 00:05:40.490
+Yes, next time, that will be fixed.
+
+00:05:40.590 --> 00:05:42.946
+But anyway, I didn't insult
+you, I brought you a BeBox.
+
+00:05:42.970 --> 00:05:43.510
+A BeBox.
+
+00:05:43.690 --> 00:05:46.950
+But actually, the BeBox
+is a copy of the Amiga.
+
+00:05:48.170 --> 00:05:48.490
+Exactly.
+
+00:05:48.550 --> 00:05:49.550
+There you go.
+
+00:05:49.635 --> 00:05:51.090
+And you did it on purpose, of course.
+
+00:05:52.510 --> 00:05:54.746
+So no, but we have a
+conversation on Twitter, actually.
+
+00:05:54.770 --> 00:05:56.910
+Yann had bounced back
+and actually, he had explained.
+
+00:05:56.911 --> 00:05:59.710
+Maybe it's a bit difficult to
+find Amigas today, right?
+
+00:05:59.711 --> 00:06:01.250
+Less than BeBoxes, I
+can tell you. That one...
+
+00:06:01.690 --> 00:06:04.010
+You can find emulators and all that.
+
+00:06:04.129 --> 00:06:05.590
+But you can also buy them.
+
+00:06:05.740 --> 00:06:09.744
+And Léon, in three weeks,
+wrote a tablet-list
+
+00:06:09.756 --> 00:06:12.890
+in C, which I used
+as a front-end.
+
+00:06:12.990 --> 00:06:15.070
+Then, I went to do my postdoc in Toronto.
+
+00:06:15.225 --> 00:06:17.528
+And actually, we used that system, which
+
+00:06:17.540 --> 00:06:19.910
+initially was called SN,
+Simulateur Neuronal,
+
+00:06:20.490 --> 00:06:23.050
+which later became Lush,
+when we open-sourced it in 2002.
+
+00:06:23.500 --> 00:06:26.267
+And I used it in all my research with my
+
+00:06:26.347 --> 00:06:28.830
+students until 2011,
+where then we switched to Torch.
+
+00:06:29.830 --> 00:06:30.830
+In Lua, so.
+
+00:06:31.140 --> 00:06:35.010
+So, it was based on Lua and then,
+PyTorch, but that was much later.
+
+00:06:36.030 --> 00:06:37.570
+So, there was a long lifespan.
+
+00:06:37.710 --> 00:06:39.190
+There were successive versions.
+
+00:06:40.440 --> 00:06:41.270
+What were we following?
+
+00:06:41.271 --> 00:06:45.630
+It was written about backpropagation, multi-layer networks, etc.
+
+00:06:45.631 --> 00:06:49.270
+justement, the backpropagation of the gradient, is a bit the foundation
+
+00:06:49.271 --> 00:06:51.475
+of how today,
+the learning engine
+
+00:06:51.487 --> 00:06:53.750
+neural networks
+is a bit based on that.
+
+00:06:53.870 --> 00:06:57.750
+Already, back then, your thesis, it's about the
+core of neural networks.
+
+00:06:58.035 --> 00:07:01.590
+So, what is it?
+Is it 87, the end of the thesis?
+
+00:07:01.591 --> 00:07:04.410
+For the few Padawans who haven't
+yet... Are you born?
+
+00:07:04.411 --> 00:07:07.130
+Just, just, just.
+
+00:07:07.570 --> 00:07:09.710
+But then, you go to Bell Labs, right?
+
+00:07:09.711 --> 00:07:13.150
+No, first, I do a postdoc at the
+University of Toronto with Jeff Hinton.
+
+00:07:13.440 --> 00:07:14.210
+Ah yes, okay.
+
+00:07:14.211 --> 00:07:17.210
+No, and after, I went
+to Bell Labs, in late 88.
+
+00:07:17.820 --> 00:07:20.050
+Okay, you stay there for 15
+years, right, approximately?
+
+00:07:20.051 --> 00:07:22.030
+So, 12 years at AT&amp;T.
+
+00:07:22.730 --> 00:07:24.810
+So, Bell Labs is the
+research lab of AT&amp;T.
+
+00:07:24.994 --> 00:07:28.690
+It later changed its name because
+AT&amp;T split up, anyway,
+
+00:07:28.885 --> 00:07:30.770
+but about a dozen years.
+
+00:07:30.771 --> 00:07:32.531
+And it is there that you
+really mature and that you
+
+00:07:32.543 --> 00:07:34.770
+develop convolutional neural networks, what?
+
+00:07:34.771 --> 00:07:35.410
+Really, is this the year?
+
+00:07:35.411 --> 00:07:37.371
+Yes, yes.
+Finally, I had already started in Toronto.
+
+00:07:37.950 --> 00:07:42.030
+And even in my thesis, actually, I had networks with local connections and all that.
+
+00:07:42.450 --> 00:07:43.470
+So, it was already a bit there.
+
+00:07:43.471 --> 00:07:46.490
+But yes, that's where we
+actually did it.
+
+00:07:46.855 --> 00:07:50.490
+And then, Léon, on his side,
+was doing a thesis in France.
+
+00:07:50.610 --> 00:07:53.210
+And he made it work for
+speech recognition.
+
+00:07:53.775 --> 00:07:55.790
+He also worked on
+convolutional networks.
+
+00:07:56.790 --> 00:08:03.290
+And we ended up making products, in fact, that used convolutional networks
+
+00:08:03.291 --> 00:08:05.610
+for reading checks,
+things like that.
+
+00:08:05.975 --> 00:08:08.990
+The applications... Yes,
+for letters, addresses.
+
+00:08:09.410 --> 00:08:12.130
+Yes, addresses, it has
+never been a commercial thing.
+
+00:08:12.131 --> 00:08:12.790
+It was a prototype.
+
+00:08:12.791 --> 00:08:13.791
+Ah yes? Ah okay.
+
+00:08:13.980 --> 00:08:16.225
+But the commercial applications,
+the main one,
+
+00:08:16.237 --> 00:08:18.630
+was for reading
+amounts on checks
+
+00:08:18.631 --> 00:08:20.970
+and things like
+that, financial documents.
+
+00:08:21.710 --> 00:08:23.675
+Yes, reports on
+you, really, where we do
+
+00:08:23.687 --> 00:08:25.786
+the recognition of alphanumeric signs
+and everything.
+
+00:08:25.810 --> 00:08:27.250
+It's really for checks.
+
+00:08:27.700 --> 00:08:30.562
+And that had a commercial
+life between the
+
+00:08:30.574 --> 00:08:33.650
+mid-1990s and
+early 2000s.
+
+00:08:34.140 --> 00:08:35.496
+But I was no longer involved.
+
+00:08:35.520 --> 00:08:39.789
+Because from 1996,
+in fact, AT&amp;T separated.
+
+00:08:40.330 --> 00:08:43.230
+And then, it was the early
+years of the Internet.
+
+00:08:44.090 --> 00:08:46.717
+And the part of AT&amp;T that
+commercialized these systems
+
+00:08:46.729 --> 00:08:49.230
+of reading checks, in
+fact, was separated from us.
+
+00:08:49.879 --> 00:08:52.750
+And the patents belonged to them.
+
+00:08:53.499 --> 00:08:56.070
+And where, physically?
+
+00:08:56.071 --> 00:08:57.071
+In New Jersey.
+
+00:08:57.889 --> 00:08:59.983
+And so, you stayed
+in New Jersey,
+
+00:08:59.995 --> 00:09:02.470
+2003-2013, is that right, New
+York University, NYU?
+
+00:09:02.471 --> 00:09:06.229
+I spent a short time
+at the NEC Research
+
+00:09:06.241 --> 00:09:09.870
+Institute, in the large Japanese
+company, NEC.
+
+00:09:10.870 --> 00:09:12.430
+And then, that lab, it kind of fell apart.
+
+00:09:12.570 --> 00:09:16.750
+So, I left pretty quickly and I
+became a professor at NYU in 2003.
+
+00:09:17.695 --> 00:09:21.870
+And ten years later,
+2013, I joined Facebook.
+
+00:09:22.110 --> 00:09:23.806
+But part-time,
+I was still a professor.
+
+00:09:23.830 --> 00:09:25.750
+I am still a professor at NYU.
+
+00:09:26.504 --> 00:09:29.330
+Actually, it's quite interesting
+because the world of academic research
+
+00:09:29.331 --> 00:09:31.811
+and the world of research
+in the company are quite linked.
+
+00:09:31.874 --> 00:09:36.450
+In any case, and me, sometimes, I think,
+is this the world, the open source,
+
+00:09:36.610 --> 00:09:39.276
+or in any case, the free sharing
+of information, of research,
+
+00:09:39.300 --> 00:09:41.670
+is this not what
+drives, what sometimes obliges companies
+
+00:09:41.671 --> 00:09:45.210
+to keep a foot in publications
+or in this kind of things?
+
+00:09:45.211 --> 00:09:48.111
+No, in fact, what drives in
+large part… No, the direct, the bar.
+
+00:09:50.410 --> 00:09:53.446
+What drives companies in
+large part to have relationships with the university,
+
+00:09:53.470 --> 00:09:55.550
+in any case, in the United States,
+is access to talent.
+
+00:09:56.235 --> 00:09:59.730
+That is, they want to have
+a pipeline, you see, of interns,
+
+00:09:59.731 --> 00:10:03.950
+to have a relationship with professors who
+are working on subjects that interest them,
+
+00:10:04.205 --> 00:10:06.526
+because you are a good student
+who could come and work for us,
+
+00:10:06.550 --> 00:10:08.550
+and teach us how
+to use your methods, etc.
+
+00:10:09.150 --> 00:10:12.570
+So, it's a really good
+reason for the relationship.
+
+00:10:13.970 --> 00:10:18.610
+And in the United States, doctoral
+students, for example,
+
+00:10:19.370 --> 00:10:22.250
+so there is no equivalent
+to the numbers that there are in France.
+
+00:10:22.251 --> 00:10:25.190
+where doctoral students
+can do this on-site, in industry.
+
+00:10:25.191 --> 00:10:26.431
+There is no such thing in the United States.
+
+00:10:26.910 --> 00:10:29.010
+But on the other hand, the three months of summer,
+
+00:10:29.365 --> 00:10:30.946
+students can
+do whatever they want.
+
+00:10:30.970 --> 00:10:32.990
+So, they are not tied to the university.
+
+00:10:33.290 --> 00:10:35.950
+And most of them will do
+internships in industry.
+
+00:10:37.250 --> 00:10:40.610
+And so, they are a bit like
+the bees of American technology.
+
+00:10:40.611 --> 00:10:43.070
+Because you need to circulate
+ideas, techniques.
+
+00:10:43.464 --> 00:10:45.450
+And one of the things you are also known for,
+
+00:10:45.570 --> 00:10:50.110
+is that you created the Lab Le
+Faire, Facebook AI Research.
+
+00:10:50.970 --> 00:10:52.470
+You are trying to promote the American model, there.
+
+00:10:52.471 --> 00:10:55.490
+But no, and in fact,
+honestly, today,
+
+00:10:55.610 --> 00:10:57.350
+I don't know, half of the ecosystem,
+
+00:10:57.590 --> 00:10:59.870
+well, a good part of
+the French ecosystem in AI,
+
+00:11:00.029 --> 00:11:00.870
+are from Fer.
+
+00:11:00.871 --> 00:11:02.950
+Anyway, there is a, clearly, Fer mafia.
+
+00:11:03.410 --> 00:11:07.331
+So, there are quite a few researchers
+and engineers who have passed through Fer,
+
+00:11:07.550 --> 00:11:09.910
+who then went on to
+found boxes, etc.
+
+00:11:10.130 --> 00:11:14.310
+or began to
+work in other labs.
+
+00:11:14.609 --> 00:11:20.310
+But there is also the fact that fer
+had a cruising speed until last year.
+
+00:11:20.959 --> 00:11:23.830
+it had about forty doctoral
+students in residence.
+
+00:11:24.780 --> 00:11:28.290
+So, since the doctorate lasts three years,
+
+00:11:28.630 --> 00:11:31.510
+that means there were about twelve each year,
+
+00:11:32.070 --> 00:11:33.690
+who had completed their doctorate at Fer
+
+00:11:34.575 --> 00:11:37.531
+with access to computing resources, etc.
+
+00:11:37.532 --> 00:11:40.070
+with access to the best
+researchers in the field and everything.
+
+00:11:40.071 --> 00:11:44.650
+And so, all these people, of course, have completely disrupted the ecosystem.
+
+00:11:44.651 --> 00:11:47.830
+I think that the creation
+of FAIR Paris in 2015.
+
+00:11:48.529 --> 00:11:51.650
+had a huge effect
+on the French ecosystem,
+
+00:11:52.510 --> 00:11:53.790
+finally, Parisian, in particular
+
+00:11:53.950 --> 00:11:55.590
+French, in general and in Europe, in fact.
+
+00:11:55.650 --> 00:12:01.010
+So, it gave ideas
+to talented young students
+
+00:12:01.609 --> 00:12:04.750
+that, in fact, to do a doctorate in AI,
+
+00:12:04.830 --> 00:12:06.990
+it's the coolest thing they could imagine.
+
+00:12:07.140 --> 00:12:09.330
+Fifteen years ago, the coolest thing that people were doing
+
+00:12:09.331 --> 00:12:11.670
+young students
+who were graduating from school,
+
+00:12:12.115 --> 00:12:13.235
+it's about doing the finances.
+
+00:12:14.050 --> 00:12:14.570
+And that has changed.
+
+00:12:14.945 --> 00:12:16.790
+It's no longer about finance
+now, it's about AI.
+
+00:12:16.814 --> 00:12:19.731
+We had received Neil Zeghidour, who told us they wanted to do a thesis
+
+00:12:19.859 --> 00:12:21.586
+and in short, they hadn't necessarily been taken,
+
+00:12:21.610 --> 00:12:23.850
+but he was told, listen, there is
+this thesis... No, no, it's the opposite.
+
+00:12:24.190 --> 00:12:26.661
+They wanted to write a thesis on
+neural networks, at the time,
+
+00:12:26.685 --> 00:12:29.470
+and there were so few, it hadn't even returned to Hype,
+
+00:12:29.625 --> 00:12:32.206
+what they told him, well, listen,
+if you're really interested, go ahead.
+
+00:12:32.230 --> 00:12:36.610
+Then, finally, actually, it was...
+You, you had seen that 40 years ago, but...
+
+00:12:36.611 --> 00:12:39.430
+Yes, no, but it's true
+that there was a period phase
+
+00:12:39.431 --> 00:12:42.690
+for the neuron zone between the end
+of the 1980s and the mid-1990s.
+
+00:12:42.850 --> 00:12:45.210
+Then, everyone
+lost interest.
+
+00:12:45.310 --> 00:12:46.430
+It became a bit taboo.
+
+00:12:46.915 --> 00:12:49.370
+And it has somewhat
+reappeared at the end of the 2000s
+
+00:12:49.371 --> 00:12:53.730
+because of the media battle we had
+with Yoshua Bengio and Geoffrey Hinton.
+
+00:12:54.855 --> 00:12:55.830
+The deep learning, you know.
+
+00:12:55.870 --> 00:12:58.930
+We renamed this deep learning and
+then we mainly proposed new methods.
+
+00:12:59.030 --> 00:13:00.710
+Then we finally made it work too.
+
+00:13:00.924 --> 00:13:05.790
+And so, it finally convinced the
+communities initially, speech recognition,
+
+00:13:05.950 --> 00:13:08.070
+then, image recognition, of course.
+
+00:13:08.515 --> 00:13:09.515
+And then, thirdly,
+
+00:13:10.719 --> 00:13:12.759
+the understanding of
+natural language, what, NLP,
+
+00:13:12.950 --> 00:13:16.810
+that deep learning, was
+really something that worked.
+
+00:13:17.420 --> 00:13:21.710
+So, it revolutionized these three fields.
+
+00:13:22.145 --> 00:13:26.350
+But it's true that in France,
+in the academic environment, in 2015,
+
+00:13:26.910 --> 00:13:29.950
+there were practically no one doing it in universities.
+
+00:13:30.250 --> 00:13:33.171
+They were still... Academics
+are a bit conservative.
+
+00:13:33.195 --> 00:13:35.510
+And then, in France, we like
+maths and deep learning,
+
+00:13:35.630 --> 00:13:36.786
+it's not easy to
+do math, you know.
+
+00:13:36.810 --> 00:13:39.450
+It's not easier if we use methods, like kernel methods,
+
+00:13:39.879 --> 00:13:40.590
+Bayesian stuff, all that.
+
+00:13:40.650 --> 00:13:41.890
+One can do beautiful math.
+
+00:13:41.990 --> 00:13:44.530
+It doesn't work as well, but...
+Well, we can write books.
+
+00:13:44.531 --> 00:13:45.170
+But it's beautiful math, you know.
+
+00:13:45.270 --> 00:13:45.790
+But these are beautiful mathematics.
+
+00:13:45.990 --> 00:13:48.910
+How is it that this has become a bit obsolete,
+
+00:13:48.990 --> 00:13:53.150
+but that there was less interest starting from the early 2000s?
+
+00:13:53.151 --> 00:13:54.790
+No, it's rather the mid-1990s.
+
+00:13:54.930 --> 00:13:55.810
+Mid-1990s, what is it due to?
+
+00:13:55.811 --> 00:13:57.330
+It started to decline in 1996.
+
+00:13:57.510 --> 00:13:59.090
+Because it was too complicated?
+
+00:13:59.091 --> 00:14:00.310
+Did it require too much power?
+
+00:14:00.311 --> 00:14:01.750
+There are many reasons.
+
+00:14:02.110 --> 00:14:06.170
+I'm not the best person to analyze
+that, because I was right in the middle of it,
+
+00:14:06.779 --> 00:14:09.270
+but I think there are
+a combination of reasons.
+
+00:14:09.330 --> 00:14:11.510
+The first, is that
+it is indeed complicated
+
+00:14:11.511 --> 00:14:16.264
+and there were no tools
+software, portable, etc.
+
+00:14:16.344 --> 00:14:17.510
+that people used.
+
+00:14:17.795 --> 00:14:23.530
+Everyone used completely different computer platforms.
+
+00:14:23.929 --> 00:14:28.146
+You couldn't do a neural network on PCs, it's not possible.
+
+00:14:28.170 --> 00:14:29.830
+It was either Sun workstations,
+
+00:14:29.950 --> 00:14:31.090
+be it Silicon Graphics,
+
+00:14:31.190 --> 00:14:33.530
+soit des choses comme
+cela, des propriétaires.
+
+00:14:33.610 --> 00:14:37.010
+There is IRIX, AIX, HPUX,
+ all that, etc.
+
+00:14:38.210 --> 00:14:41.330
+So, we were under Sun, then
+we switched to Silicon Graphics, after,
+
+00:14:41.470 --> 00:14:43.711
+because they had a better performance in terms of time.
+
+00:14:44.240 --> 00:14:45.710
+And there wasn't the software,
+there wasn't Python,
+
+00:14:45.870 --> 00:14:49.031
+there weren't all those gadgets open
+source that we could use now.
+
+00:14:49.235 --> 00:14:50.942
+And the only open source
+tool that there was, were things
+
+00:14:50.943 --> 00:14:54.110
+like GCC, Emacs and others,
+but not really for that.
+
+00:14:54.250 --> 00:14:56.339
+So, actually, we, with Léon, had written
+
+00:14:56.340 --> 00:14:58.330
+a complete system
+with a LISP interpreter,
+
+00:14:59.030 --> 00:15:02.070
+all at once with
+a LISP compiler and all that.
+
+00:15:02.595 --> 00:15:05.191
+But we couldn't
+really exchange our software.
+
+00:15:05.870 --> 00:15:08.330
+There was no platform,
+
+00:15:08.790 --> 00:15:10.650
+there was no SourceForge,
+there was no GitHub,
+there was no Internet.
+
+00:15:10.651 --> 00:15:13.950
+It happened later.
+
+00:15:14.454 --> 00:15:18.214
+So, in fact, everyone had to invest
+
+00:15:18.379 --> 00:15:21.611
+six months, a year to
+create a platform
+
+00:15:21.691 --> 00:15:23.698
+software to make neural networks work.
+
+00:15:23.795 --> 00:15:25.530
+Most people were making mischief,
+
+00:15:25.630 --> 00:15:27.070
+because it is very
+easy to do silly things
+
+00:15:27.071 --> 00:15:29.330
+when implementing backprop for the first time,
+
+00:15:29.630 --> 00:15:31.150
+we do an hour of sign language or something.
+
+00:15:32.110 --> 00:15:34.070
+So, it was a big
+investment for people.
+
+00:15:34.071 --> 00:15:38.330
+And so, most people
+did not want to do that.
+
+00:15:38.550 --> 00:15:39.690
+So, what were they doing?
+
+00:15:39.691 --> 00:15:41.225
+They used MATLAB
+and then they did something
+
+00:15:41.249 --> 00:15:44.010
+simple, but building a neural network with MATLAB,
+
+00:15:44.050 --> 00:15:45.771
+at the time, that wasn't really possible.
+
+00:15:45.795 --> 00:15:48.010
+There really weren't the tools.
+
+00:15:48.990 --> 00:15:51.046
+Except for people who
+were investing the time in the tools.
+
+00:15:51.070 --> 00:15:52.788
+What we did with Léon,
+that's what gave us
+
+00:15:52.812 --> 00:15:54.406
+super powers, it was that we made our own tools.
+
+00:15:54.430 --> 00:15:54.790
+Okay.
+
+00:15:55.315 --> 00:15:58.990
+And this allowed us to
+make convolutional networks,
+
+00:15:59.450 --> 00:16:00.450
+see how they worked.
+
+00:16:01.789 --> 00:16:04.650
+A whole graphical library
+and all that, of visualization and everything,
+
+00:16:04.730 --> 00:16:06.490
+which was actually more powerful than what we have today.
+
+00:16:06.630 --> 00:16:07.790
+In fact, it's amazing.
+
+00:16:09.109 --> 00:16:13.530
+And so, it meant that there was no communication
+
+00:16:13.531 --> 00:16:15.550
+that there is now,
+which is instantaneous,
+
+00:16:15.690 --> 00:16:18.309
+where you download the latest
+code that is associated to
+
+00:16:18.310 --> 00:16:21.530
+paper and you can make
+the last network turn.
+
+00:16:22.530 --> 00:16:24.390
+There, one had to spend six months, a year,
+
+00:16:24.619 --> 00:16:25.619
+to implement something.
+
+00:16:26.449 --> 00:16:27.849
+So, it really was necessary to believe in it.
+
+00:16:28.045 --> 00:16:29.605
+That means you had the garbage.
+
+00:16:30.204 --> 00:16:34.710
+and you would reimplement cleanroom the papers.
+
+00:16:34.970 --> 00:16:37.550
+There were people who wanted
+to reimplement convolutional networks.
+
+00:16:37.690 --> 00:16:38.850
+There weren't many.
+
+00:16:40.099 --> 00:16:41.690
+And there was this legend that,
+
+00:16:42.560 --> 00:16:44.870
+you see, I was more or less
+the only one who knew how to make them work,
+
+00:16:44.990 --> 00:16:45.690
+which was completely wrong.
+
+00:16:45.910 --> 00:16:47.286
+But it wasn't that complicated.
+
+00:16:47.310 --> 00:16:49.070
+But it's true that it
+required tools.
+
+00:16:49.250 --> 00:16:49.930
+At the same time, it's the name.
+
+00:16:50.050 --> 00:16:50.630
+Yann the qu'un.
+
+00:16:51.029 --> 00:16:52.190
+You see, we believe there's only one.
+
+00:16:52.191 --> 00:16:53.250
+There's only one.
+
+00:16:53.910 --> 00:16:57.050
+But that means you had people above you,
+
+00:16:57.170 --> 00:16:59.313
+in management
+at Bell Labs, etc.,
+
+00:16:59.314 --> 00:17:01.650
+who believed in it, after all, and who weren't afraid
+
+00:17:01.651 --> 00:17:04.450
+to have the means, the time, for all that?
+
+00:17:04.451 --> 00:17:05.829
+The way Bell Labs operated.
+
+00:17:05.990 --> 00:17:09.410
+So, the director of the lab, a
+guy named Larry Jackel,
+
+00:17:10.250 --> 00:17:12.589
+who had created the group in 1985, I think,
+
+00:17:13.989 --> 00:17:16.050
+based on neural networks.
+
+00:17:17.484 --> 00:17:18.855
+In fact, he's a physicist, by profession.
+
+00:17:18.879 --> 00:17:21.190
+And then, he had a new department,
+
+00:17:21.349 --> 00:17:22.629
+so he wondered what to do.
+
+00:17:22.750 --> 00:17:23.750
+Because at Bell Labs,
+
+00:17:24.669 --> 00:17:26.297
+we hired intelligent people, we gave them
+
+00:17:26.321 --> 00:17:28.189
+the means to succeed,
+ and we gave them peace.
+
+00:17:28.270 --> 00:17:29.270
+OK.
+
+00:17:29.530 --> 00:17:30.110
+It's cool, that.
+
+00:17:30.350 --> 00:17:32.901
+If he was asking for resources,
+obviously, he was asking questions.
+
+00:17:32.925 --> 00:17:33.925
+But basically,
+
+00:17:34.554 --> 00:17:37.091
+we let people work on what they wanted.
+
+00:17:37.170 --> 00:17:39.399
+So, he went completely off track and asked
+
+00:17:39.479 --> 00:17:40.990
+on what I would have worked,
+what is the cool thing.
+
+00:17:41.120 --> 00:17:43.310
+And he met John Hopfield,
+
+00:17:43.950 --> 00:17:44.810
+who was a professor at Princeton,
+
+00:17:44.950 --> 00:17:48.130
+but who had a part-time job at Bell Labs.
+
+00:17:48.429 --> 00:17:49.890
+It was between Princeton and Caltech.
+
+00:17:50.890 --> 00:17:52.150
+And he asked me
+on what I would have worked.
+
+00:17:52.290 --> 00:17:53.370
+And John Hopfield said to him.
+
+00:17:54.309 --> 00:17:54.970
+that he was a physicist,
+
+00:17:55.090 --> 00:17:57.991
+that he was working on hardware
+for neural networks,
+
+00:17:58.274 --> 00:18:00.510
+special chips for
+making neural networks.
+
+00:18:00.630 --> 00:18:01.990
+This concept is not new.
+
+00:18:02.569 --> 00:18:08.810
+John Hopfield, a Nobel laureate in physics with Geoffrey Hinton two years ago
+
+00:18:08.909 --> 00:18:13.450
+for what are called Hopfield and Geoffrey
+networks, and Boltzmann machines.
+
+00:18:15.159 --> 00:18:16.450
+It was originally a biophysicist.
+
+00:18:17.099 --> 00:18:21.010
+And so Larry got into that.
+
+00:18:21.110 --> 00:18:22.430
+He hired a few people.
+
+00:18:22.674 --> 00:18:24.490
+And then I came in in 88.
+
+00:18:26.029 --> 00:18:28.290
+And then I started working on
+convolutional networks pretty quickly.
+
+00:18:28.291 --> 00:18:30.491
+because I had already
+worked on that in Toronto.
+
+00:18:30.639 --> 00:18:32.750
+They had character-based databases.
+
+00:18:33.254 --> 00:18:35.110
+And so, in two months, I was there.
+
+00:18:35.350 --> 00:18:38.479
+I beat all the
+performance records
+
+00:18:38.480 --> 00:18:41.110
+on the
+character-based things.
+
+00:18:41.459 --> 00:18:45.870
+And there was something, a funny story,
+
+00:18:45.990 --> 00:18:49.689
+it was that before... When
+I was still a post-doc in Toronto,
+
+00:18:50.210 --> 00:18:53.350
+Larry Jackel asked me «
+Listen, you're coming in October,
+
+00:18:53.450 --> 00:18:56.970
+we'd like to order a computer for you,
+
+00:18:56.971 --> 00:19:00.030
+so that you can work when
+you arrive, that it's there when you arrive.
+
+00:19:00.270 --> 00:19:01.533
+What do you use at the moment ? »
+
+00:19:01.534 --> 00:19:03.030
+I said « We use a Sun 4,
+
+00:19:03.170 --> 00:19:05.330
+there's one that just arrived in Toronto,
+
+00:19:05.331 --> 00:19:08.681
+it's great, all of that, it's a huge flop, it's hallucinatory. »
+
+00:19:08.682 --> 00:19:13.090
+He says « Ok ».
+
+00:19:13.091 --> 00:19:15.070
+And then, it was a Sun 4
+
+00:19:15.071 --> 00:19:19.470
+which was the central server
+of the entire IT department.
+
+00:19:19.490 --> 00:19:21.550
+Ah, so everyone was on a mainframe?
+
+00:19:21.551 --> 00:19:22.310
+It wasn't a mainframe,
+
+00:19:22.490 --> 00:19:24.210
+that's what we called a mini-computer.
+
+00:19:24.470 --> 00:19:25.110
+It is a mini-computer.
+
+00:19:25.310 --> 00:19:26.590
+Ah, but you mean everyone was involved?
+
+00:19:26.591 --> 00:19:27.726
+Everyone would be on it.
+
+00:19:27.750 --> 00:19:31.710
+You had 30 or 40 doctoral students who were connecting to that thing.
+
+00:19:31.711 --> 00:19:33.731
+Not everyone used it for neural networks,
+
+00:19:34.014 --> 00:19:36.930
+but it wasn't really...
+Was it a timeshare?
+
+00:19:36.931 --> 00:19:39.970
+It was a unique system, you connect.
+
+00:19:40.270 --> 00:19:41.486
+So, that's the project I was working on.
+
+00:19:41.510 --> 00:19:45.570
+I also had a workstation
+Sun, but Sun 3 with a 68000.
+
+00:19:46.750 --> 00:19:47.110
+Amazing.
+
+00:19:47.350 --> 00:19:49.930
+So, I said to him, "Okay, Sun 4,
+it's the one with the Sparc."
+
+00:19:50.050 --> 00:19:51.676
+The Sparc processors of Sun.
+
+00:19:51.677 --> 00:19:53.730
+And I arrive at Bell Labs.
+
+00:19:54.429 --> 00:19:55.429
+and there is a Sun 4,
+
+00:19:55.700 --> 00:19:56.700
+but just for me !
+
+00:19:59.530 --> 00:20:00.786
+That means a lot.
+
+00:20:00.810 --> 00:20:02.510
+That means a lot of
+things, the methods we use.
+
+00:20:02.730 --> 00:20:05.670
+So, well, I'm a bit
+skeptical and then I look at Larry.
+
+00:20:05.794 --> 00:20:08.490
+And then he says, smiling
+"You know, at Bell Labs,
+
+00:20:09.350 --> 00:20:13.076
+you don't become famous
+by saving money."
+
+00:20:13.077 --> 00:20:15.010
+There's a lot to learn from that.
+
+00:20:15.190 --> 00:20:17.169
+"You don't get famous
+by saving money.
+
+00:20:17.170 --> 00:20:17.750
+Ah, yes, okay.
+
+00:20:18.139 --> 00:20:19.590
+It's very interesting.
+
+00:20:19.730 --> 00:20:22.190
+So, if we go back a
+little to return a little
+
+00:20:22.340 --> 00:20:22.990
+more contemporary,
+
+00:20:23.130 --> 00:20:24.905
+but therefore 2013-2023, that is.
+
+00:20:25.185 --> 00:20:26.239
+..
+
+00:20:25.131 --> 00:20:25.870
+2025, no ?
+
+00:20:25.871 --> 00:20:27.530
+2025, it's the era at Meta.
+
+00:20:27.729 --> 00:20:29.050
+You received the Turing Award in 2018
+
+00:20:29.051 --> 00:20:31.132
+which is the
+Fields medal or the
+Nobel Prize
+
+00:20:31.156 --> 00:20:33.030
+in computer science, let's
+just say so.
+
+00:20:33.790 --> 00:20:33.910
+Right.
+
+00:20:34.270 --> 00:20:34.550
+But, so,
+
+00:20:35.110 --> 00:20:39.030
+at that time, the World Models, there
+were already two hypotheses
+
+00:20:39.031 --> 00:20:40.350
+between LLMs and
+World Models.
+
+00:20:40.450 --> 00:20:41.130
+Does that make sense?
+
+00:20:41.131 --> 00:20:42.890
+Yes, in a way.
+
+00:20:43.270 --> 00:20:46.570
+Me, for example, I gave a keynote at NIPS.
+
+00:20:46.675 --> 00:20:47.690
+It was still called
+NIPS at the time,
+
+00:20:47.810 --> 00:20:50.110
+not yet NeurIPS, in 2016.
+
+00:20:51.230 --> 00:20:55.234
+My main message at the
+end of the speech was
+
+00:20:55.258 --> 00:20:57.258
+The future of AI
+is World Models
+
+00:20:57.282 --> 00:21:01.016
+So, learning predictive models
+of the world, I think, is the key
+
+00:21:01.785 --> 00:21:05.108
+And then learning actions
+and then optimizing
+
+00:21:05.447 --> 00:21:09.684
+intrinsic objective functions
+are really the path forward for
+
+00:21:09.708 --> 00:21:11.924
+making progress in AI.
+
+00:21:12.040 --> 00:21:15.659
+They are systems that
+are able to predict
+
+00:21:15.684 --> 00:21:18.251
+what the effect of an
+action on the world will be, etc.,
+
+00:21:18.511 --> 00:21:22.490
+that can be learned in an
+autonomous way, and then controlled
+
+00:21:22.491 --> 00:21:23.790
+by giving them
+an objective, etc.
+
+00:21:24.249 --> 00:21:25.890
+So, I had this
+idea a long time ago.
+
+00:21:26.110 --> 00:21:28.111
+That's even from 2016, it's from before.
+
+00:21:28.530 --> 00:21:31.590
+But let's say, I started talking about it
+publicly, if you want, at that time.
+
+00:21:31.990 --> 00:21:37.110
+But the research hadn't been successful to... If you want,
+
+00:21:37.530 --> 00:21:39.550
+we couldn't really
+do that in articles
+
+00:21:39.551 --> 00:21:41.451
+because it was
+still just an idea.
+
+00:21:41.935 --> 00:21:42.935
+And then,
+
+00:21:43.650 --> 00:21:44.650
+for several years,
+
+00:21:44.750 --> 00:21:48.291
+I have had research projects both at Meta and at NYU,
+
+00:21:48.469 --> 00:21:50.671
+to Meta for
+training models,
+
+00:21:51.890 --> 00:21:53.650
+which could have been
+World Models
+
+00:21:53.974 --> 00:21:55.214
+through video prediction.
+
+00:21:56.029 --> 00:21:58.070
+In fact, it never worked.
+
+00:21:58.850 --> 00:22:03.530
+So, we tried to make it work
+until, I don't know, 2021,
+
+00:22:03.670 --> 00:22:04.670
+something like that.
+
+00:22:04.699 --> 00:22:07.310
+Generative models
+for video prediction.
+
+00:22:07.420 --> 00:22:08.230
+It never worked
+
+00:22:08.330 --> 00:22:09.330
+for,
+
+00:22:09.864 --> 00:22:11.250
+as a model
+of the world, in fact,
+
+00:22:11.590 --> 00:22:13.251
+to predict what will happen.
+
+00:22:13.990 --> 00:22:15.330
+Maybe to create
+generations of videos,
+
+00:22:15.470 --> 00:22:16.930
+but even at that time, it didn't work because we didn't have
+
+00:22:16.931 --> 00:22:18.711
+the diffusion models or anything like that.
+
+00:22:19.270 --> 00:22:19.810
+Therefore,
+
+00:22:19.950 --> 00:22:22.690
+according to you, because it's just a bad
+representation of the world, right?
+
+00:22:22.691 --> 00:22:23.210
+No,
+
+00:22:23.430 --> 00:22:28.959
+it's the fact that most of the
+information in a video is unpredictable.
+
+00:22:29.735 --> 00:22:31.990
+The bulk of the information in
+a video is unpredictable.
+
+00:22:32.110 --> 00:22:33.110
+If I take,
+
+00:22:34.630 --> 00:22:37.331
+here, the people who are watching
+see only a small part of the room,
+
+00:22:37.470 --> 00:22:42.331
+they may have a vague idea of the surroundings if you turn the camera,
+
+00:22:42.470 --> 00:22:45.190
+but you cannot predict the details, you cannot say that,
+
+00:22:45.550 --> 00:22:46.450
+outside the camera's field of view,
+
+00:22:46.570 --> 00:22:50.330
+there is a video game that is in the process of... little dinosaurs dancing.
+
+00:22:50.331 --> 00:22:51.390
+There is a T-Rex, etc.
+
+00:22:51.690 --> 00:22:53.411
+There are all the people with security here.
+
+00:22:53.810 --> 00:22:57.251
+There is no way you can
+predict all the details at the pixel level
+
+00:22:57.349 --> 00:22:59.971
+of what is in the video if
+the camera starts to turn.
+
+00:23:00.069 --> 00:23:01.190
+Who could have predicted?
+
+00:23:01.191 --> 00:23:04.870
+The vast majority of the information in a video
+
+00:23:04.871 --> 00:23:08.050
+or in any
+real-world signal
+
+00:23:08.199 --> 00:23:09.199
+is unpredictable.
+
+00:23:09.550 --> 00:23:10.450
+So, if we try to train
+
+00:23:10.899 --> 00:23:14.490
+a generative model to hallucinate
+that is not predictable,
+
+00:23:15.164 --> 00:23:17.251
+it doesn't work
+very well at the end.
+
+00:23:17.349 --> 00:23:19.690
+And therefore, the crucial idea
+
+00:23:19.889 --> 00:23:22.290
+on which we are working for
+world models called JEPA,
+
+00:23:22.530 --> 00:23:24.051
+Joint Intermediate
+Predictive Architecture,
+
+00:23:24.910 --> 00:23:25.910
+in French,
+
+00:23:26.314 --> 00:23:27.770
+predictive architecture
+
+00:23:27.969 --> 00:23:29.010
+of joint hunting.
+
+00:23:29.155 --> 00:23:29.770
+It's nice.
+
+00:23:30.030 --> 00:23:31.030
+Joint hunting.
+
+00:23:31.870 --> 00:23:33.130
+What are you doing, hunting?
+
+00:23:33.131 --> 00:23:33.510
+No, that's beautiful.
+
+00:23:33.930 --> 00:23:34.930
+It's beautiful, it's beautiful.
+
+00:23:36.250 --> 00:23:37.090
+So, the idea of that,
+
+00:23:37.270 --> 00:23:41.310
+is that we train a system to
+find an abstract representation
+
+00:23:41.709 --> 00:23:42.850
+of the input signal,
+
+00:23:43.110 --> 00:23:44.110
+let's say,
+
+00:23:46.550 --> 00:23:48.784
+the video that
+the information
+that we can predict and which
+
+00:23:48.785 --> 00:23:50.791
+eliminates all the things
+that we cannot predict.
+
+00:23:51.570 --> 00:23:53.370
+And that, is absolutely crucial
+for a whole bunch of reasons.
+
+00:23:53.550 --> 00:23:57.391
+We can come back to that if you want,
+but it's a bit technical or philosophical.
+
+00:23:58.650 --> 00:23:59.430
+So, that's the idea of JEPA,
+
+00:23:59.550 --> 00:24:00.210
+it's nothing else.
+
+00:24:00.490 --> 00:24:05.010
+So, this replaces a generative architecture that predicts everything, in fact, everything.
+
+00:24:05.639 --> 00:24:08.911
+And for discreet tokens,
+it works because it's easy
+
+00:24:09.019 --> 00:24:11.631
+managing uncertainty
+in forecasting.
+
+00:24:11.970 --> 00:24:13.050
+All the space is finite.
+
+00:24:13.700 --> 00:24:15.879
+You only have a finite number of tokens, you can
+
+00:24:15.880 --> 00:24:18.050
+predict a probability
+for each possible token
+
+00:24:18.349 --> 00:24:19.349
+and then,
+
+00:24:19.570 --> 00:24:20.730
+through autoregressive prediction,
+
+00:24:20.830 --> 00:24:24.730
+have a not-so-bad estimate
+of a probability of a sequence.
+
+00:24:24.910 --> 00:24:26.291
+That's how LLMs work.
+
+00:24:26.340 --> 00:24:28.970
+But if it's a
+continuous and noisy world,
+
+00:24:29.294 --> 00:24:31.250
+it doesn't work at all, but not at all.
+
+00:24:31.450 --> 00:24:31.690
+So,
+
+00:24:31.870 --> 00:24:35.590
+that means we cannot use
+generative AI for the real world.
+
+00:24:36.150 --> 00:24:39.030
+So, when I tell everyone to abandon generative AI,
+
+00:24:39.794 --> 00:24:45.350
+I don't do that
+with friends, let's say.
+
+00:24:45.374 --> 00:24:46.510
+But it's an objective,
+
+00:24:46.630 --> 00:24:47.750
+abandonner l'IA générative
+
+00:24:47.899 --> 00:24:49.110
+to predict
+
+00:24:49.559 --> 00:24:52.130
+for world models
+or a human-type intelligence.
+
+00:24:52.210 --> 00:24:52.470
+Okay,
+
+00:24:53.070 --> 00:24:56.910
+if we want systems that understand
+the real world, the physical world,
+
+00:24:57.614 --> 00:25:00.250
+which is much more complex
+than language or code,
+
+00:25:01.310 --> 00:25:03.570
+then we actually need
+non-generative models.
+
+00:25:03.950 --> 00:25:05.530
+Can you explain, I don't know,
+
+00:25:05.745 --> 00:25:07.670
+30 seconds really
+for our listeners,
+
+00:25:08.090 --> 00:25:09.590
+what is a world
+model and what is,
+
+00:25:10.170 --> 00:25:10.330
+well,
+
+00:25:10.430 --> 00:25:12.030
+what is not a world model?
+
+00:25:12.031 --> 00:25:12.630
+Good question.
+
+00:25:12.929 --> 00:25:16.431
+Actually, when people talk about
+machine learning,
+
+00:25:16.650 --> 00:25:16.930
+AI,
+
+00:25:17.150 --> 00:25:18.010
+generative, diffusion,
+
+00:25:18.150 --> 00:25:18.330
+and then,
+
+00:25:18.650 --> 00:25:19.750
+world model, what is it?
+
+00:25:19.751 --> 00:25:22.270
+What is different
+ and what is similar?
+
+00:25:22.271 --> 00:25:23.690
+Yeah,
+
+00:25:23.810 --> 00:25:24.810
+so,
+
+00:25:25.110 --> 00:25:25.490
+world model,
+
+00:25:25.610 --> 00:25:28.050
+it is becoming
+a kind of buzzword.
+
+00:25:28.270 --> 00:25:29.270
+That's the problem.
+
+00:25:29.550 --> 00:25:31.650
+That's why, if you can define it,
+it's definitely much better.
+
+00:25:31.949 --> 00:25:34.830
+And there are many people who
+want to say different things
+
+00:25:35.429 --> 00:25:38.271
+by the phrase world model.
+
+00:25:39.510 --> 00:25:41.230
+And in fact, there are many
+boxes that say they do it,
+
+00:25:41.330 --> 00:25:42.170
+but actually,
+they don't.
+
+00:25:42.330 --> 00:25:44.270
+In fact, it's a
+rather typical joke.
+
+00:25:45.470 --> 00:25:47.830
+Well, we're in French, so
+we can tell bad jokes.
+
+00:25:48.990 --> 00:25:50.470
+Especially, especially.
+
+00:25:51.210 --> 00:25:52.210
+It stays in France.
+
+00:25:52.350 --> 00:25:53.350
+Yeah.
+
+00:25:54.150 --> 00:25:54.730
+World model,
+
+00:25:55.025 --> 00:25:55.630
+is like
+
+00:25:55.979 --> 00:25:58.830
+sex among adolescents.
+
+00:25:58.990 --> 00:25:59.650
+Teenage sex.
+
+00:25:59.651 --> 00:26:01.730
+Teenage sex,
+that is to say.
+
+00:26:02.184 --> 00:26:04.250
+everyone is talking about it,
+no one is doing it.
+
+00:26:04.575 --> 00:26:05.695
+It's more complicated than that.
+
+00:26:05.830 --> 00:26:06.830
+Ah yes.
+
+00:26:07.450 --> 00:26:08.230
+Everyone is talking about it,
+
+00:26:08.430 --> 00:26:09.290
+everyone says that he does it.
+
+00:26:09.490 --> 00:26:10.490
+Ah yes.
+
+00:26:10.890 --> 00:26:11.250
+But actually,
+
+00:26:11.350 --> 00:26:13.051
+nobody knows what
+it is and nobody does it.
+
+00:26:13.090 --> 00:26:14.830
+Ah yes, there are different
+levels of depth.
+
+00:26:15.170 --> 00:26:16.170
+"It stays in France!"
+
+00:26:16.340 --> 00:26:17.350
+So what is it?
+
+00:26:17.351 --> 00:26:18.390
+So what is it?
+
+00:26:18.390 --> 00:26:19.550
+So,
+
+00:26:20.030 --> 00:26:22.611
+given the state of
+the world at the moment.
+
+00:26:23.249 --> 00:26:25.750
+and given an action
+that I imagine taking,
+
+00:26:26.355 --> 00:26:27.355
+can I predict
+
+00:26:27.589 --> 00:26:30.331
+the state of the world at this moment
++1 after I have.
+
+00:26:30.969 --> 00:26:32.030
+executed this action.
+
+00:26:32.050 --> 00:26:33.351
+So, that means it's physics
+
+00:26:33.549 --> 00:26:34.930
+potentially?
+
+00:26:34.931 --> 00:26:36.570
+Does it mean understanding 3D?
+
+00:26:36.719 --> 00:26:37.970
+Understanding...
+No, not necessarily.
+
+00:26:38.190 --> 00:26:40.230
+It can be anything because
+it's not necessarily 3D.
+
+00:26:40.510 --> 00:26:41.390
+It's abstract in fact.
+
+00:26:41.490 --> 00:26:42.150
+It's completely abstract.
+
+00:26:42.250 --> 00:26:46.470
+If we're playing a 2D platform video game, like this one, it's not 3D.
+
+00:26:46.471 --> 00:26:47.630
+A great game.
+
+00:26:47.890 --> 00:26:48.890
+A great game.
+
+00:26:50.229 --> 00:26:51.310
+This is not 3D.
+
+00:26:51.870 --> 00:26:54.930
+But we also build ourselves... So
+it can be... Can we say
+
+00:26:54.931 --> 00:26:56.450
+what is the passage
+of correlation
+
+00:26:56.849 --> 00:26:58.490
+to causality?
+
+00:26:58.491 --> 00:26:59.050
+One can,
+
+00:26:59.310 --> 00:27:05.170
+but there isn't really a very
+sophisticated method for establishing causality.
+
+00:27:05.310 --> 00:27:06.310
+It's just state,
+
+00:27:06.450 --> 00:27:07.550
+action, following state.
+
+00:27:07.670 --> 00:27:09.190
+That doesn't mean I've
+made a video game engine.
+
+00:27:09.470 --> 00:27:09.610
+No.
+
+00:27:09.815 --> 00:27:12.971
+So not at all, not at all, because
+we're not going to produce pixels.
+
+00:27:13.465 --> 00:27:15.950
+We are going to... You will produce an
+abstract representation of the world.
+
+00:27:15.990 --> 00:27:16.990
+An abstract
+representation
+of the world.
+
+00:27:17.050 --> 00:27:18.770
+After that, you must,
+within quotes,
+
+00:27:24.370 --> 00:27:26.911
+if you want to use
+pixels or speed
+
+00:27:26.912 --> 00:27:28.750
+or an electric current
+or anything.
+
+00:27:28.910 --> 00:27:30.070
+There are absolutely no tokens,
+
+00:27:30.210 --> 00:27:32.311
+there is no
+discretization at all.
+
+00:27:33.564 --> 00:27:36.630
+And it's not something...
+We have a world model in our head,
+
+00:27:36.850 --> 00:27:43.710
+but that's also the case with our
+cat or even a Parisian rat.
+
+00:27:43.810 --> 00:27:44.090
+But as a result,
+
+00:27:44.230 --> 00:27:45.690
+a question that I ask myself,
+
+00:27:45.939 --> 00:27:48.930
+is that you have to create,
+
+00:27:49.050 --> 00:27:51.930
+this abstract model
+in the latent space.
+
+00:27:52.270 --> 00:27:52.410
+Yes.
+
+00:27:52.411 --> 00:27:56.170
+And so, you have a subject
+of... So,
+
+00:27:56.305 --> 00:27:58.570
+in LLMs, this is called
+tokenization, but ultimately,
+
+00:27:58.949 --> 00:28:02.810
+you have a transformation
+and therefore, an interpretation.
+
+00:28:03.155 --> 00:28:05.040
+Perhaps first, an acquisition.
+
+00:28:05.659 --> 00:28:09.610
+then successive layers of interpretation
+to end with a latent space.
+
+00:28:09.910 --> 00:28:10.070
+Yes.
+
+00:28:10.610 --> 00:28:11.750
+On which, afterwards,
+you can work.
+
+00:28:12.110 --> 00:28:14.050
+On which you can... With
+which you can make predictions.
+
+00:28:14.090 --> 00:28:14.470
+And above all,
+
+00:28:14.590 --> 00:28:14.910
+In addition,
+
+00:28:15.150 --> 00:28:17.662
+I imagine that there is an
+infinite number, but in
+
+00:28:17.663 --> 00:28:21.575
+any case, a large number of paths between.
+
+00:28:21.675 --> 00:28:21.890
+..
+
+00:28:21.891 --> 00:28:23.787
+If I say that I take the cup and bring
+
+00:28:23.847 --> 00:28:26.250
+it there, I can
+do that, I can do that.
+
+00:28:26.544 --> 00:28:28.771
+There is a probability
+distribution.
+
+00:28:29.170 --> 00:28:30.330
+No, these are not
+probabilities, necessarily.
+
+00:28:30.530 --> 00:28:30.870
+Not even?
+
+00:28:30.871 --> 00:28:31.770
+No, not at all.
+
+00:28:32.150 --> 00:28:33.270
+No, but on the other hand,
+
+00:28:33.894 --> 00:28:36.695
+it's intuitive physics
+that we learn when we
+
+00:28:36.696 --> 00:28:38.810
+are babies, that all animals also learn.
+
+00:28:39.070 --> 00:28:43.351
+They all have a role model in their head that gives them the ability to plan.
+
+00:28:43.939 --> 00:28:46.850
+and that allows us to say
+if I push on this glass,
+
+00:28:47.250 --> 00:28:48.110
+at the base, it will slide.
+
+00:28:48.270 --> 00:28:49.270
+If I push upwards,
+
+00:28:49.929 --> 00:28:51.950
+it might slide, might
+tip over, I don't know,
+
+00:28:52.010 --> 00:28:54.750
+it depends on
+the friction of the thing.
+
+00:28:54.830 --> 00:28:57.350
+If I push, with the same force
+on the table, it won't move.
+
+00:28:57.690 --> 00:29:01.390
+There's a lot, actually, we learn
+a quantity of knowledge,
+
+00:29:01.510 --> 00:29:03.210
+of understanding the
+functioning of the world
+
+00:29:03.609 --> 00:29:05.911
+in the first months of life, which is absolutely incredible.
+
+00:29:06.439 --> 00:29:08.970
+and that's what allows us, at the end,
+
+00:29:09.595 --> 00:29:13.830
+when one reaches the age of 4 or 5 years,
+
+00:29:14.190 --> 00:29:17.870
+to accomplish a whole bunch of tasks that
+would be extremely complex for a robot
+
+00:29:17.871 --> 00:29:20.790
+that most robots are
+not at all capable of executing,
+
+00:29:21.159 --> 00:29:25.851
+even less to perform without
+being explicitly trained to do so
+
+00:29:26.179 --> 00:29:30.570
+and then, what allows a 10-year-old child
+to behave almost like an adult
+
+00:29:30.571 --> 00:29:35.570
+in a whole bunch of situations or a
+17-year-old teenager learning to drive
+
+00:29:35.571 --> 00:29:37.370
+in about fifteen
+hours of practice.
+
+00:29:37.450 --> 00:29:38.050
+We don't know how to do that.
+
+00:29:38.150 --> 00:29:38.590
+It's your responsibility.
+
+00:29:38.710 --> 00:29:40.930
+He takes it every time, you give it to him
+and he makes it fall.
+
+00:29:41.054 --> 00:29:42.210
+for a few months of his life.
+
+00:29:42.670 --> 00:29:43.210
+It's just to see.
+
+00:29:43.490 --> 00:29:45.330
+He trains his model
+of representation.
+
+00:29:45.490 --> 00:29:46.870
+Or your cat,
+
+00:29:46.970 --> 00:29:49.871
+he picks up the glass and makes
+your glass fall once.
+
+00:29:50.190 --> 00:29:52.250
+That, it's just to make sure there isn't a template.
+
+00:29:52.470 --> 00:29:54.790
+It's just to
+know that it's the pattern.
+
+00:29:54.950 --> 00:29:58.390
+So, that means that there is a form associated with it.
+
+00:29:58.789 --> 00:30:02.591
+which is a bit of empiricism.
+
+00:30:02.929 --> 00:30:04.070
+and rather than
+
+00:30:04.269 --> 00:30:09.580
+of theorization or of
+discovery of the rules but of
+
+00:30:09.635 --> 00:30:13.470
+in a completely
+abstract way, not at all quantifiable.
+
+00:30:14.470 --> 00:30:16.850
+No, but above all, that a rat
+or a cat is capable of doing.
+
+00:30:17.010 --> 00:30:18.010
+So, it's not
+
+00:30:18.359 --> 00:30:20.330
+to understand physics
+by writing equations.
+
+00:30:20.370 --> 00:30:20.670
+That's right.
+
+00:30:20.890 --> 00:30:22.950
+It's understanding
+intuitive physics.
+
+00:30:23.449 --> 00:30:24.870
+through experience,
+
+00:30:24.970 --> 00:30:29.170
+through observation and in fact, it's much
+more complex but it allows you to model
+
+00:30:29.171 --> 00:30:31.519
+phenomena much
+more complex than
+
+00:30:31.520 --> 00:30:33.950
+that we can model
+by writing equations.
+
+00:30:34.050 --> 00:30:35.050
+For example,
+
+00:30:35.610 --> 00:30:38.030
+there are certain cases
+
+00:30:38.429 --> 00:30:43.570
+where I could write equations
+but it is completely useless.
+
+00:30:43.670 --> 00:30:44.010
+For example,
+
+00:30:44.130 --> 00:30:49.210
+if I wanted to predict what will happen between us in a minute,
+
+00:30:50.324 --> 00:30:51.030
+what I could do,
+
+00:30:51.170 --> 00:30:55.110
+it is to measure the wave function of the universe
+in a cubic kilometer around us
+
+00:30:55.259 --> 00:31:00.830
+and then to make a large
+quantum simulation of all the states
+
+00:31:00.831 --> 00:31:03.070
+of all the electrons
+of the entire theory
+
+00:31:03.071 --> 00:31:05.910
+quantum field theory
+everything, all the spins, etc.
+
+00:31:06.109 --> 00:31:08.819
+it would simulate our
+brains and that is the interest
+
+00:31:08.820 --> 00:31:11.010
+to predict what one will
+tell in a minute.
+
+00:31:11.490 --> 00:31:11.990
+Some nonsense.
+
+00:31:12.110 --> 00:31:13.110
+And that would work.
+
+00:31:13.365 --> 00:31:15.430
+And then it would work
+but only once.
+
+00:31:15.490 --> 00:31:18.230
+It's not possible because we cannot first measure the wave function
+
+00:31:18.231 --> 00:31:23.791
+of the universe secondly, in fact, that wouldn't be an exact prediction because.
+
+00:31:24.389 --> 00:31:28.990
+this cube of the universe is interacting
+with the rest of the galaxy and even the rest
+
+00:31:28.991 --> 00:31:33.310
+from the universe due to intrigues
+so it wouldn't actually be possible
+
+00:31:33.311 --> 00:31:35.170
+there would be unpredictable phenomena
+that would happen.
+
+00:31:35.519 --> 00:31:40.070
+so very quickly the simulation
+would diverge from reality because
+
+00:31:40.071 --> 00:31:43.290
+we cannot model all of that, and then
+well, we would need a quantum computer
+
+00:31:43.291 --> 00:31:46.091
+the head of the galaxy
+to do that, so it's not worth it.
+
+00:31:47.690 --> 00:31:50.550
+Well, so what do we
+do, we invent abstractions
+
+00:31:50.699 --> 00:31:52.675
+the abstraction that is above
+quantum theory
+
+00:31:52.676 --> 00:31:55.630
+fields is the theory
+of elementary particles
+
+00:31:55.879 --> 00:31:56.879
+or the atomic theory.
+
+00:31:57.509 --> 00:32:01.350
+or chemistry, molecules, etc.
+
+00:32:01.715 --> 00:32:05.390
+biochemistry maybe but even
+that we're not going to simulate our brains
+
+00:32:05.391 --> 00:32:07.751
+with biochemistry, it's not
+possible, we don't know how to do it
+
+00:32:07.849 --> 00:32:10.614
+and that would be too complicated
+so above that there is
+
+00:32:10.615 --> 00:32:14.191
+what are the organelles in
+cells, the cells.
+
+00:32:14.699 --> 00:32:18.610
+organs, organisms, and
+then actually, the right level to simulate
+
+00:32:18.611 --> 00:32:20.293
+what might happen
+predict a little bit of
+
+00:32:20.294 --> 00:32:22.491
+what will happen in a
+minute is psychology.
+
+00:32:23.299 --> 00:32:28.910
+and is a level of description
+of the universe, or rather, of reality, which is
+
+00:32:28.911 --> 00:32:32.010
+more dense in information, perhaps
+which is much more abstract
+
+00:32:32.309 --> 00:32:36.771
+so, which does not contain all the details
+of the movement of all the molecules
+
+00:32:36.869 --> 00:32:40.070
+but which, on the other hand, allows
+to make predictions over a longer period
+
+00:32:40.071 --> 00:32:41.936
+but this means that
+when I create a world model, it
+
+00:32:41.937 --> 00:32:44.811
+is necessary to think about
+what level of abstraction
+
+00:32:44.959 --> 00:32:48.090
+on va travailler, c'est-à-dire que donc, en fait, c'est-à-dire que ce n'est pas
+
+00:32:48.091 --> 00:32:51.306
+je vais prendre, je fais
+un world model, donc je
+
+00:32:51.307 --> 00:32:54.050
+prends trois, quatre
+dimensions, l'espace-temps etc.
+
+00:32:54.190 --> 00:32:59.510
+donc là, je choisis une abstraction qui va
+être, en fait, plus compliqué que ça
+
+00:32:59.511 --> 00:33:02.510
+because the system must
+not only choose the level of abstraction
+
+00:33:02.511 --> 00:33:06.430
+but also learn the correct
+representation, of course
+
+00:33:06.579 --> 00:33:12.070
+so all the ingenuity, all the choice is
+here, that is, to learn
+
+00:33:12.071 --> 00:33:15.690
+representations of the world that allow
+to make predictions, there are thousands
+
+00:33:15.691 --> 00:33:17.900
+of types of world
+model, it is possible
+
+00:33:17.901 --> 00:33:19.830
+full full but in fact when one thinks
+
+00:33:19.954 --> 00:33:24.190
+this is the basis of deep learning
+the deep learning all the problem
+
+00:33:24.191 --> 00:33:30.290
+of deep learning and what has obsessed me for
+45 years is how to find
+
+00:33:30.291 --> 00:33:31.750
+good
+representations of the world
+
+00:33:31.850 --> 00:33:33.630
+that allow to make
+predictions
+
+00:33:33.730 --> 00:33:37.270
+until now, we knew how to do that for
+very well deep learning
+
+00:33:37.271 --> 00:33:42.090
+we stack layers, we train something
+to recognize images, speech etc
+
+00:33:42.091 --> 00:33:47.810
+or predict the next token in a text
+it works very well because predict
+
+00:33:47.811 --> 00:33:52.370
+the next token is to learn
+the classifications in fact
+
+00:33:52.519 --> 00:33:53.670
+it works very well for that
+
+00:33:53.919 --> 00:33:56.189
+to learn hierarchical representations for
+
+00:33:56.190 --> 00:33:58.870
+a particular task
+learn a supervised
+
+00:33:59.294 --> 00:34:02.210
+or self-supervised
+task, especially for LLMs
+
+00:34:02.359 --> 00:34:10.010
+but how to do this more generally
+for world models in which
+
+00:34:10.260 --> 00:34:11.929
+we don't just want to
+
+00:34:12.530 --> 00:34:14.490
+find a representation
+that allows to.
+
+00:34:15.030 --> 00:34:19.110
+recognize images or something
+but that is conditioned on actions.
+
+00:34:19.111 --> 00:34:21.710
+so that it allows to predict what
+will happen and in the end it gives us
+
+00:34:21.711 --> 00:34:24.830
+an abstract representation, not
+just observation of the world
+
+00:34:24.831 --> 00:34:28.231
+but also of action, the whole
+problem is how to act
+
+00:34:28.370 --> 00:34:31.889
+people are talking about agentic systems
+right now, it's also a big buzzword
+
+00:34:31.890 --> 00:34:35.850
+it was a big buzzword last year
+and I don't understand how people
+
+00:34:36.000 --> 00:34:38.629
+can think or imagine
+that they will build
+
+00:34:38.679 --> 00:34:41.020
+agentic systems
+that will work.
+
+00:34:41.370 --> 00:34:45.671
+without these systems having the ability to
+predict the consequences of their actions.
+
+00:34:45.930 --> 00:34:48.710
+it's completely stupid it can't work that's just it
+
+00:34:48.860 --> 00:34:51.799
+a collective hallucination, if that's possible
+
+00:34:51.800 --> 00:34:55.030
+walk the same way as one can take
+
+00:34:55.480 --> 00:35:01.011
+a little guy who knows nothing about cooking and making him follow a recipe
+
+00:35:01.050 --> 00:35:05.850
+I don't feel like a great chef at all
+behind the kitchen, I feel like I am
+
+00:35:05.851 --> 00:35:09.970
+all of a sudden, anyone can
+learn how to make a recipe
+
+00:35:10.070 --> 00:35:13.870
+provided that you follow the recipe, so
+agentic systems at the moment
+
+00:35:14.020 --> 00:35:16.790
+are trained to follow
+recipes but in fact
+
+00:35:16.890 --> 00:35:18.350
+when they do a
+stupid thing they don't know it
+
+00:35:18.550 --> 00:35:24.190
+and the little boy has just learned
+to make a complicated sauce
+
+00:35:24.191 --> 00:35:26.471
+sometimes it doesn't work
+he doesn't know why.
+
+00:35:26.780 --> 00:35:28.910
+that's the fundamental
+thing
+
+00:35:28.911 --> 00:35:30.711
+it's to have
+as many recipes as possible.
+
+00:35:31.300 --> 00:35:35.010
+but without really understanding
+the interaction
+between the ingredients, we just
+
+00:35:35.011 --> 00:35:39.190
+you've done it well today when you use
+Claude or ChatGPT the number of times
+
+00:35:39.191 --> 00:35:41.890
+it tells you something, and you ask it
+questions afterwards, and you realize
+
+00:35:41.891 --> 00:35:45.311
+that in fact it told you nonsense
+and even it realizes itself.
+
+00:35:45.610 --> 00:35:52.711
+there are big debates, you know, about
+the actual issue of going to
+
+00:35:53.200 --> 00:35:56.090
+information to train
+enterprise workflow models
+
+00:35:56.190 --> 00:35:58.990
+and so it's
+stacking the recipes
+
+00:35:59.090 --> 00:36:03.510
+and then somehow we have a function
+of average in the middle and that works
+
+00:36:03.660 --> 00:36:05.310
+not too bad, but
+intelligence isn't like that
+
+00:36:05.860 --> 00:36:09.250
+it is knowledge, it is not
+intelligence, that is knowledge, that is knowledge
+
+00:36:09.251 --> 00:36:16.070
+so it's the reproduction of knowledge
+how to say procedural empirical empirical
+
+00:36:16.071 --> 00:36:18.791
+but which already exists, which has been
+developed by someone else
+
+00:36:18.930 --> 00:36:21.270
+like the apprentice cook
+who applies the recipe.
+
+00:36:21.870 --> 00:36:24.290
+but who creates the recipe.
+
+00:36:25.390 --> 00:36:27.210
+and intelligence
+
+00:36:27.310 --> 00:36:29.410
+it's not a collection
+of knowledge.
+
+00:36:30.260 --> 00:36:32.970
+or an accumulation of
+declarative knowledge.
+
+00:36:33.470 --> 00:36:38.930
+it's not even a collection of skills
+on which we have learned the recipes.
+
+00:36:38.931 --> 00:36:42.191
+it's rather the ability to
+invent new recipes
+
+00:36:42.360 --> 00:36:44.251
+or when faced
+with a new problem
+
+00:36:44.465 --> 00:36:47.871
+to adapt very quickly, like learning
+to drive in about fifteen hours
+
+00:36:47.985 --> 00:36:51.608
+where the first time one
+faces a problem
+
+00:36:51.609 --> 00:36:55.250
+new we can thanks
+to our world model
+
+00:36:55.500 --> 00:36:58.950
+find a sequence of actions that will
+accomplish the task, just a question
+
+00:36:58.951 --> 00:37:01.691
+but isn't it because
+I see them coming in the comments
+
+00:37:01.880 --> 00:37:08.890
+is there not, let's say, a sort of in-between, but in any case, to move on from the subject
+
+00:37:08.891 --> 00:37:14.640
+stochastic parrots, actually
+you see, for example, for an LLM
+
+00:37:15.050 --> 00:37:18.371
+in the tokens there is a
+form of information that.
+
+00:37:18.620 --> 00:37:19.230
+at the scale
+
+00:37:19.380 --> 00:37:22.230
+no longer exists in discrete
+form of tokens but in the latent space
+
+00:37:22.231 --> 00:37:25.330
+that is, whether it is
+rules, patterns, finally you see
+
+00:37:25.331 --> 00:37:28.611
+everything we can imagine
+and therefore the interaction between them.
+
+00:37:29.100 --> 00:37:30.220
+exists in the time space
+
+00:37:30.420 --> 00:37:37.210
+and therefore, you see, it is more than
+just the repetition of patterns but
+
+00:37:37.585 --> 00:37:42.591
+somewhere somehow
+it's there.
+
+00:37:42.735 --> 00:37:44.050
+somewhere somehow.
+
+00:37:44.900 --> 00:37:47.610
+he manages to draw it if you
+want, here's a form of a ruler yes.
+
+00:37:47.835 --> 00:37:52.251
+and so, in fact, you see
+the interaction, I don't know.
+
+00:37:52.380 --> 00:37:54.811
+if we add sugar
+it's sweeter.
+
+00:37:55.170 --> 00:37:56.410
+it doesn't appear.
+
+00:37:56.510 --> 00:37:58.814
+it doesn't appear in
+the text precisely but
+
+00:37:58.815 --> 00:38:00.830
+in the latent space
+it eventually takes shape
+
+00:38:00.980 --> 00:38:02.730
+in any case, what to describe
+
+00:38:02.830 --> 00:38:03.770
+and so, in fact
+
+00:38:03.920 --> 00:38:04.950
+when it goes down again.
+
+00:38:05.600 --> 00:38:08.777
+well, you see
+we manage to find a
+
+00:38:08.778 --> 00:38:11.531
+form of intelligence
+so yes and no.
+
+00:38:12.110 --> 00:38:18.170
+because the problem of the LLM is
+that the only communication of information
+
+00:38:18.171 --> 00:38:22.390
+from one calculation step to another
+it's through an ah, discreet token
+
+00:38:22.391 --> 00:38:25.690
+it doesn't stay in the latent space
+it's 3 bytes, yeah, okay
+
+00:38:26.040 --> 00:38:27.530
+a token is essentially 3 bytes
+
+00:38:27.680 --> 00:38:31.831
+not even
+you produce 1 byte
+
+00:38:32.125 --> 00:38:38.350
+you move it into
+the input context and therefore the information
+
+00:38:38.351 --> 00:38:41.771
+which is communicated between one
+calculation step and the next.
+
+00:38:42.260 --> 00:38:47.130
+a symbol that can be stored in 2
+or 3 bytes and if it was the latent space
+
+00:38:47.131 --> 00:38:49.850
+so that we could re-inject it, there were people to ensure discretion
+
+00:38:49.851 --> 00:38:52.710
+soit done, de manière asynchrone, donc on va
+tenter de le faire, par exemple, à mon avis
+
+00:38:52.711 --> 00:39:00.230
+the best way to do that is
+JEPA
+- What a chance!
+- That's the idea, that's the idea
+
+00:39:00.231 --> 00:39:02.411
+you are making a prediction
+in the latent space.
+
+00:39:02.805 --> 00:39:06.290
+and you never try to rebuild
+the entered space because if the entered
+
+00:39:06.291 --> 00:39:09.780
+is based on natural data
+it's not possible, I agree
+
+00:39:09.930 --> 00:39:12.512
+for tokens, you could, if
+they are text sequences
+
+00:39:12.513 --> 00:39:14.850
+you can indeed
+return to the original space
+
+00:39:15.000 --> 00:39:17.310
+so there are models like
+a bit of a hybrid between the two
+
+00:39:17.610 --> 00:39:19.190
+that try to make predictions
+at the level of presentation
+
+00:39:19.191 --> 00:39:21.130
+but are still trained
+
+00:39:21.230 --> 00:39:28.550
+at the end, to predict the tokens, so you have
+models like state-space models
+
+00:39:28.551 --> 00:39:31.931
+for example, in which the internal and linear dynamics, which is a bit limited
+
+00:39:32.325 --> 00:39:34.650
+and then there are models
+like coconut there are
+
+00:39:34.900 --> 00:39:39.550
+two or three like that, in which you have
+a little bit of prediction in a space
+
+00:39:39.551 --> 00:39:45.490
+not discreet, but eventually we discretize anyway, okay, and at the end
+
+00:39:45.491 --> 00:39:49.170
+well, it's a bit of an LLM, otherwise the other
+method to get out of the constraints
+
+00:39:49.620 --> 00:39:54.270
+self-aggressive prediction
+of symbols, it's you who manage
+
+00:39:54.271 --> 00:39:58.770
+in order for your system to produce many
+possible sequences of symbols and then
+
+00:39:58.771 --> 00:40:03.770
+you have a second one that evaluates them and gives you the best one
+
+00:40:04.020 --> 00:40:06.470
+it's a bit like that the code generation system works but it's a form
+
+00:40:06.471 --> 00:40:09.890
+of quantization, because you
+quantize the latent space, it's a form
+
+00:40:09.891 --> 00:40:13.130
+of reasoning, it is a form of
+agreement, reasoning
+
+00:40:13.131 --> 00:40:15.830
+it's a completely different topic, but the reasoning.
+
+00:40:16.530 --> 00:40:18.564
+cannot be cannot
+be done by prediction
+
+00:40:18.565 --> 00:40:21.010
+auto-regressive means when we reason
+
+00:40:21.110 --> 00:40:27.070
+we don't do it by producing words one after the other, we think, we internalize
+
+00:40:27.120 --> 00:40:30.170
+in our latent space it remains in
+the latent space it remains in the latent space
+
+00:40:30.171 --> 00:40:34.250
+we manipulate mental models
+etc so for example I'm sure that there are
+
+00:40:34.251 --> 00:40:37.551
+many geeks looking at us but
+well it's a high school math level
+
+00:40:37.755 --> 00:40:40.610
+it's fine I tell you
+I pose the question give
+
+00:40:40.611 --> 00:40:43.491
+me a family of three
+vectors in the plane.
+
+00:40:43.530 --> 00:40:45.531
+which are linearly
+independent.
+
+00:40:46.240 --> 00:40:47.490
+so you think.
+
+00:40:48.540 --> 00:40:52.431
+what is your answer, and I
+don't have to ask you, I have seen
+
+00:40:52.730 --> 00:40:55.218
+three vectors in the
+two-dimensional plane.
+
+00:40:55.219 --> 00:40:57.490
+in two dimensions
+in the plane in the plane.
+
+00:40:57.590 --> 00:41:00.030
+which are linearly independent
+give me a family of three vectors
+
+00:41:00.031 --> 00:41:05.210
+independent non independent
+independent ah pardon, we did well
+
+00:41:05.211 --> 00:41:07.670
+to not find
+a solution, yes you did well
+
+00:41:07.770 --> 00:41:10.770
+but what's interesting
+is the mental process
+
+00:41:11.020 --> 00:41:13.070
+so most people
+
+00:41:13.570 --> 00:41:15.950
+I don't know if that's the case for you
+but most people certainly
+
+00:41:15.951 --> 00:41:20.170
+many people who listen to us
+form a kind of mental image
+
+00:41:20.171 --> 00:41:24.550
+of the situation ah yes and then
+we think "yes yes" and then everyone else
+
+00:41:24.551 --> 00:41:27.330
+in fact it's a combination of the two others yes so it's not possible
+
+00:41:27.331 --> 00:41:29.571
+you hesitated to answer but
+you already had the answer
+
+00:41:29.572 --> 00:41:33.190
+cause of this mental image
+we manipulate the mental image
+
+00:41:33.290 --> 00:41:33.910
+okay
+
+00:41:34.010 --> 00:41:37.350
+there is of course another way to
+do this, which is to say ah but we
+
+00:41:37.351 --> 00:41:39.747
+there is of course a theorem that
+tells you that you can't have
+
+00:41:39.748 --> 00:41:42.331
+more than n vectors in dimension
+n that are independent.
+
+00:41:42.810 --> 00:41:46.870
+but nobody does that, everyone
+starts with the mental image
+
+00:41:46.871 --> 00:41:49.830
+so it's this story
+of a mental model of the world
+
+00:41:50.280 --> 00:41:52.230
+who is important
+so now
+
+00:41:52.355 --> 00:41:55.590
+in math, in particular, and also for writing code
+
+00:41:55.740 --> 00:42:00.550
+and maybe for the legal text, I don't know what
+
+00:42:00.875 --> 00:42:04.570
+a large part of the reasoning can
+be done in the field of symbols
+
+00:42:04.571 --> 00:42:07.650
+when we do math, we do
+derivatives, we manipulate symbols
+
+00:42:07.651 --> 00:42:09.070
+and a part of the
+reasoning that makes it
+
+00:42:09.220 --> 00:42:12.790
+results from symbol manipulation
+when writing code very often
+
+00:42:12.791 --> 00:42:16.750
+we start to write the code and then
+this helps us understand the formulation in fact
+
+00:42:16.751 --> 00:42:20.446
+the abstractions that
+we need etc
+
+00:42:20.447 --> 00:42:23.050
+these are areas
+the code and the maths
+
+00:42:23.150 --> 00:42:26.250
+where the manipulation
+of symbols is the substrate
+
+00:42:26.400 --> 00:42:29.570
+of reasoning in any case a
+possible substrate of reasoning not all
+
+00:42:29.571 --> 00:42:34.150
+these are the two applications for LLMs
+I really think so, yes, so
+
+00:42:34.151 --> 00:42:38.270
+I have a question because there was
+about a year ago, a year and a half ago
+
+00:42:38.271 --> 00:42:42.012
+you talked about it too
+but I was talking a lot, you
+
+00:42:42.013 --> 00:42:44.630
+knew about reasoning
+in latent space
+
+00:42:44.780 --> 00:42:47.672
+and I said I think
+that in a year or
+
+00:42:47.673 --> 00:42:50.070
+two years, that's the case for LLMs anyway
+
+00:42:50.170 --> 00:42:52.040
+whether reasoning will happen in latent space or
+
+00:42:52.041 --> 00:42:53.710
+it's about a year and a half after
+it's still done in tokens
+
+00:42:53.910 --> 00:42:59.390
+and secondly, reasoning based on energy, so the idea of minimizing
+
+00:42:59.391 --> 00:43:02.370
+actually, energy, but while still remaining
+in latent space. I've tried
+
+00:43:02.371 --> 00:43:05.771
+with ZML to re-inject latent space, it doesn't work at all
+
+00:43:05.890 --> 00:43:07.710
+but so, in your opinion
+
+00:43:07.860 --> 00:43:09.790
+since we are on this
+
+00:43:09.890 --> 00:43:13.650
+why isn't it something that
+is pushed, because it could be
+
+00:43:13.651 --> 00:43:17.450
+from my point of view, it could be a
+win, at least a incremental gain
+
+00:43:17.950 --> 00:43:21.010
+we would still be in the world
+of LLMs, where everyone is happy
+
+00:43:21.011 --> 00:43:25.950
+but one would still have more interesting arguments, because today
+
+00:43:25.951 --> 00:43:32.590
+it's really raw, forced
+- the real question is how
+to make it work, that is, the thing
+
+00:43:32.591 --> 00:43:38.530
+who really surprised everyone after Transformers
+
+00:43:38.730 --> 00:43:42.650
+what architectures should I use that will really work in the beginning
+
+00:43:42.651 --> 00:43:46.311
+these were encoder-decoder architectures, similar to BERT.
+
+00:43:46.350 --> 00:43:49.651
+where you take a piece of text
+and pass it through an encoder
+
+00:43:49.830 --> 00:43:54.910
+before that, you mask
+certain words
+
+00:43:55.060 --> 00:43:59.511
+some text and then you train a large
+encoder-decoder neural network.
+
+00:43:59.960 --> 00:44:03.110
+in which the decoder is autoregressive
+after saying the missing words
+
+00:44:03.460 --> 00:44:06.346
+and then finally we realized that to really
+
+00:44:06.347 --> 00:44:08.110
+scale and
+get something working
+
+00:44:08.210 --> 00:44:11.410
+it was necessary to remove the encoder and
+just train a decoder.
+
+00:44:12.210 --> 00:44:16.590
+and this decoder, you don't train it by taking a sequence of symbols
+
+00:44:16.591 --> 00:44:18.390
+and by removing in
+masking inputs
+
+00:44:18.490 --> 00:44:20.914
+you build the architecture
+in such a way that
+
+00:44:20.915 --> 00:44:23.831
+that it is strictly
+causal, that is to say that
+
+00:44:24.000 --> 00:44:28.670
+in order to predict an output, you cannot
+look at the corresponding input token
+
+00:44:28.671 --> 00:44:31.051
+you can only look at those that are to its left.
+
+00:44:31.760 --> 00:44:33.431
+so the architecture
+of the system itself
+
+00:44:33.740 --> 00:44:37.950
+makes it so that there is a kind of implicit masking
+that when you give it a sequence
+
+00:44:38.050 --> 00:44:41.550
+it can only look at the first
+half of the sequence to predict a token
+
+00:44:41.551 --> 00:44:44.250
+and so in fact
+this is the GPT architecture.
+
+00:44:45.150 --> 00:44:47.610
+and you simply train
+this thing
+
+00:44:47.785 --> 00:44:52.290
+to reproduce its input
+on its output, okay.
+
+00:44:52.890 --> 00:44:55.579
+it's an autoencoder
+in fact a GPT, okay
+
+00:44:55.580 --> 00:44:58.130
+ok that doesn't say
+it's an autoencoder
+
+00:44:58.580 --> 00:45:01.970
+and in world models you also have
+different architectures
+
+00:45:01.971 --> 00:45:04.470
+which have encoders, some don't have encoders so in
+
+00:45:04.471 --> 00:45:06.830
+the correct way to
+make world models
+
+00:45:07.030 --> 00:45:08.430
+it's the same thing, that is
+
+00:45:08.780 --> 00:45:14.850
+you predict it's not a
+token but a vector, right
+
+00:45:14.950 --> 00:45:19.790
+ok, based on what precedes but
+you do this in a placement space
+
+00:45:19.791 --> 00:45:21.370
+that is, there is
+first a layer
+
+00:45:21.670 --> 00:45:22.510
+that takes the sequence
+
+00:45:22.610 --> 00:45:26.490
+that encodes it, and then it's this
+sequence that you pass through something
+
+00:45:26.491 --> 00:45:29.011
+a bit like GPT, but which is
+in any case strictly causal.
+
+00:45:29.140 --> 00:45:32.110
+that you can train it means
+that this sequence becomes a vector.
+
+00:45:32.810 --> 00:45:34.890
+it's not a sequence of
+vectors like in the case of an LLM.
+
+00:45:34.891 --> 00:45:37.630
+so it's a sequence of vectors
+but not a sequence of tokens.
+
+00:45:37.730 --> 00:45:38.730
+ah yes, okay.
+
+00:45:39.100 --> 00:45:43.810
+you don't need to tokenize, you can take
+the video and so also so you have the same
+
+00:45:43.811 --> 00:45:47.230
+you use an encoder, you work on it, an encoder produces
+
+00:45:47.231 --> 00:45:51.910
+a sequence if the input is a
+sequence, it produces a sequence too.
+
+00:45:52.560 --> 00:45:53.730
+of representation
+
+00:45:54.130 --> 00:45:57.731
+of each input, which each
+can also take multiple inputs
+
+00:45:57.930 --> 00:46:00.945
+so, if you
+give video, for example
+
+00:46:00.946 --> 00:46:05.030
+your encoder can
+take, I don't know, 16 or 64
+
+00:46:05.031 --> 00:46:11.390
+frames as input and produce a
+representation for that which is not necessarily
+
+00:46:11.391 --> 00:46:18.331
+a vector that itself can be a
+good choice ok, so that's it and that's a.
+
+00:46:18.840 --> 00:46:23.350
+It's an object
+in the sequence.
+
+00:46:24.700 --> 00:46:26.810
+and this sequence you train
+
+00:46:27.310 --> 00:46:31.430
+an architecture that we call a
+causal predictor.
+
+00:46:31.530 --> 00:46:35.050
+that simply reproduces the input on its
+output because, as mentioned in the paper.
+
+00:46:35.051 --> 00:46:39.070
+the world model that you published in 2025.
+
+00:46:39.071 --> 00:46:43.350
+you are talking a little about that, so if we understand the paper.
+
+00:46:43.700 --> 00:46:44.510
+there is a latent space
+
+00:46:44.710 --> 00:46:48.290
+there is an analysis of the situation and
+it creates a bit of a problem or a projection
+
+00:46:48.291 --> 00:46:51.390
+of the latent space under a latent subspace, the weights are a bit
+
+00:46:51.540 --> 00:46:54.911
+are a bit modified
+or at least projected
+
+00:46:55.080 --> 00:46:57.153
+and there it's funny because
+there is a function
+
+00:46:57.154 --> 00:46:58.810
+a Gaussian function
+that you apply
+
+00:46:58.910 --> 00:47:00.691
+me, I was rediscovering
+the wave function
+
+00:47:00.915 --> 00:47:03.890
+you see the wave function in physics, I
+thought, but is there a connection
+
+00:47:03.891 --> 00:47:06.690
+or absolutely not, no, there is no
+connection to physics in this regard
+
+00:47:06.691 --> 00:47:08.432
+finally, not with the
+wave functions, not with
+
+00:47:08.433 --> 00:47:10.010
+quantum mechanics
+in any case, not yet
+
+00:47:10.160 --> 00:47:17.070
+but soon, not yet, not yet there in
+the video, there is yours, she transforms
+
+00:47:17.071 --> 00:47:24.130
+world models into quantum ones and there, in
+one year, she will accept her Nobel Prize and everything
+
+00:47:24.131 --> 00:47:30.010
+I thank Mehdi Mejari because, well, not of quantum ok, that's the problem.
+
+00:47:30.011 --> 00:47:32.450
+That's the problem that needs to be solved when training a JEP.
+
+00:47:32.600 --> 00:47:37.110
+And it's an argument that people use against this idea of JEP, okay.
+
+00:47:37.160 --> 00:47:41.110
+It's that there can be what is called in good French a collapse.
+
+00:47:41.210 --> 00:47:42.210
+Okay.
+
+00:47:42.535 --> 00:47:45.210
+The problem is the following
+
+00:47:45.460 --> 00:47:48.915
+we take, let's say, a part
+of a video that we encode
+
+00:47:48.916 --> 00:47:51.710
+and then the second part
+of the video that we encode
+
+00:47:51.960 --> 00:47:54.870
+and then we try to train a
+predictor to predict the representation
+
+00:47:54.871 --> 00:47:56.282
+of the second
+part based on the
+
+00:47:56.351 --> 00:47:58.630
+representation of the
+first part. It can very
+
+00:47:58.780 --> 00:47:59.780
+easily
+
+00:48:00.000 --> 00:48:02.391
+if we train it to minimize
+prediction error.
+
+00:48:02.760 --> 00:48:06.510
+it can decide to completely ignore the input and produce representations
+
+00:48:06.660 --> 00:48:09.160
+constants that do not
+depend on the input and
+
+00:48:09.161 --> 00:48:11.290
+so, here the problem
+of prediction is trivial
+
+00:48:11.490 --> 00:48:17.430
+and so the thing comes back and tells you
+your prediction error is zero
+
+00:48:17.431 --> 00:48:22.690
+you did well, but in fact it doesn't
+work because it's a collapse
+
+00:48:22.691 --> 00:48:27.470
+you found a good translation, it's a
+collapse, a collapse, that's why
+
+00:48:27.471 --> 00:48:31.790
+that you send a Gaussian
+a little to create different paths
+
+00:48:31.791 --> 00:48:35.790
+with different probabilities, then it's there
+that we start digging in the trench
+
+00:48:35.791 --> 00:48:40.530
+self-supervised learning in joint embedding in joint hunting
+
+00:48:41.080 --> 00:48:43.207
+and it's something on which
+my first papers
+
+00:48:43.208 --> 00:48:46.450
+that dates back to 1993
+so you see, it's not 93?
+
+00:48:46.451 --> 00:48:47.230
+yeah yeah
+
+00:48:47.430 --> 00:48:49.290
+oh my god, how old were you in 93
+
+00:48:49.291 --> 00:48:55.230
+How old were you or I was 9
+ok, I'll explain the problem
+
+00:48:55.580 --> 00:49:00.910
+it's very simple, we had this problem
+at AT&amp;T, some people who are Venus
+
+00:49:00.911 --> 00:49:03.150
+and who said, "We would like to store a signature."
+
+00:49:03.850 --> 00:49:08.270
+of someone who signs on a
+tablet but on the magnetic tape
+
+00:49:08.271 --> 00:49:11.671
+they didn't have a chip card, at the time, in the United States.
+
+00:49:12.530 --> 00:49:17.010
+and there are 80 bytes on
+a magnetic tape
+
+00:49:17.460 --> 00:49:20.670
+how can one store the representation
+of a signature in 80 bytes
+
+00:49:20.770 --> 00:49:23.264
+ah, good idea, let's take
+a neural network
+
+00:49:23.265 --> 00:49:25.790
+a convolutional network where
+they provide the sequence
+
+00:49:25.890 --> 00:49:30.811
+some points, someone who signs, and then
+it's a convolutional network and then at the end.
+
+00:49:31.080 --> 00:49:32.850
+we organize an outing
+with 80 participants.
+
+00:49:33.450 --> 00:49:39.010
+80 values, a vector of 80
+dimensions that will be quantized on 8 bits
+
+00:49:39.160 --> 00:49:40.950
+so, that's it
+
+00:49:41.200 --> 00:49:43.890
+someone has made a signature, how
+can we verify that this signature
+
+00:49:43.891 --> 00:49:47.251
+it certainly comes from that person,
+we will train this neural network.
+
+00:49:47.810 --> 00:49:49.493
+we don't know in advance
+we don't have the collection
+
+00:49:49.494 --> 00:49:50.930
+of all the signatures
+of all the people
+
+00:49:51.030 --> 00:49:53.310
+so, it must work for any signature, what we are going to do
+
+00:49:53.311 --> 00:49:55.190
+it's about training a network of
+neurons so that when we give it
+
+00:49:55.191 --> 00:49:56.791
+two signatures of
+the same person
+
+00:49:57.150 --> 00:50:00.150
+it outputs the same
+80-component vector.
+
+00:50:00.750 --> 00:50:04.291
+and when we give it a signature of
+a person and a signature of another person
+
+00:50:04.380 --> 00:50:06.950
+or a signature of another
+person who is trying to imitate the first
+
+00:50:07.100 --> 00:50:11.230
+this gives us different vectors
+learning is completely trivial
+
+00:50:11.231 --> 00:50:13.810
+now we call this
+contrastive learning
+
+00:50:14.185 --> 00:50:17.113
+but what it means is you put two
+
+00:50:17.114 --> 00:50:20.511
+signatures if it's two
+signatures the same person
+
+00:50:20.650 --> 00:50:22.540
+you have a cost function that says attract all
+
+00:50:22.541 --> 00:50:24.900
+these two vectors
+to each other of course.
+
+00:50:25.530 --> 00:50:26.290
+if you do that
+
+00:50:26.440 --> 00:50:28.892
+it collapses due to a collapse
+because the thing ignores
+
+00:50:28.893 --> 00:50:32.170
+completely the input, which produces a Constant vector.
+
+00:50:32.920 --> 00:50:34.731
+so you have
+contrasting examples
+
+00:50:34.940 --> 00:50:40.450
+which are signatures that are different
+our sequences are different and here
+
+00:50:40.451 --> 00:50:42.743
+you push the two
+vectors away from each other
+
+00:50:42.744 --> 00:50:45.890
+okay you push them away from each other, okay
+
+00:50:46.040 --> 00:50:47.802
+so, this is the contracting production
+it is used
+
+00:50:47.803 --> 00:50:53.450
+absolutely everywhere today
+for in LLMs, the LLMs
+
+00:50:53.800 --> 00:50:58.170
+when they analyze
+an image actually use
+
+00:50:58.730 --> 00:50:59.910
+most of them not all
+
+00:51:00.110 --> 00:51:06.970
+most of them use perception pipelines that are trained
+
+00:51:06.971 --> 00:51:08.791
+with a method
+that is called clip.
+
+00:51:09.030 --> 00:51:14.110
+which is a thing that has been proposed
+by OpenAI a few years ago
+
+00:51:14.260 --> 00:51:17.190
+but in fact, that's it, it's the same
+thing, meaning that you show an image.
+
+00:51:17.690 --> 00:51:21.931
+and instead of showing another
+another image, a signature.
+
+00:51:22.175 --> 00:51:28.950
+you show a textual description
+of this image and you say I will
+
+00:51:28.951 --> 00:51:31.890
+an embedding of text is an
+embedding of the image. If the text
+
+00:51:31.891 --> 00:51:34.330
+is a good description of the image
+I bring them closer together
+
+00:51:34.331 --> 00:51:38.871
+and you have contrasting examples or
+you have a description of another image.
+
+00:51:39.830 --> 00:51:43.290
+and there you push them apart, it's
+a bit guided by the loss function
+
+00:51:43.291 --> 00:51:47.970
+by the loss function, the loss function which has two terms, one attractive
+
+00:51:48.045 --> 00:51:52.150
+and one repulsive, which says the things
+that I know are identical
+
+00:51:52.151 --> 00:51:54.790
+semantically, I bring them closer
+and the things that are different
+
+00:51:55.190 --> 00:52:00.090
+I push them away, there are many ways
+to do that, it makes me think maybe
+
+00:52:00.091 --> 00:52:04.590
+the contrastive side makes me think of what Inton proposed a few years ago
+
+00:52:04.591 --> 00:52:08.611
+so there is a model
+that is called SimCLR
+
+00:52:09.110 --> 00:52:16.090
+S-I-M-C-L-R which is a thing
+that is contrastive and was one of the first
+
+00:52:16.790 --> 00:52:19.970
+convolutional networks
+that were actually contrastive
+
+00:52:20.420 --> 00:52:23.690
+that gave reasonable performance on clear images
+
+00:52:23.890 --> 00:52:27.230
+me, in fact, I had tried
+to revive the method
+
+00:52:27.780 --> 00:52:29.250
+that is called
+this: the networks, if to me.
+
+00:52:29.950 --> 00:52:32.690
+using contrastive methods
+also in the middle of the 2000s
+
+00:52:32.691 --> 00:52:37.670
+with two students of mine, Sumit Chopra and
+and Raia Hadsel, and who inspired
+
+00:52:37.671 --> 00:52:40.523
+a lot of work
+after, in fact, the system of
+
+00:52:40.524 --> 00:52:42.870
+face recognition
+which was used by Facebook
+
+00:52:42.995 --> 00:52:45.790
+until they stopped doing
+face recognition
+
+00:52:46.090 --> 00:52:50.980
+it was actually fine-tuned with this kind
+of method, so you show
+
+00:52:51.310 --> 00:52:55.930
+two images, two photos of the same
+person, the representations are attracted
+
+00:52:56.030 --> 00:52:59.510
+and then two photos of different people, you push them apart, it must be
+
+00:52:59.511 --> 00:53:01.930
+when they resemble each other, they converge, and
+when they don't resemble each other, they diverge.
+
+00:53:01.931 --> 00:53:04.690
+otherwise, you have false positives all the
+time, otherwise, you have false positives all the
+time.
+
+00:53:04.691 --> 00:53:08.130
+where the thing collapses completely
+so, CLIP, the C of CLIP, is contrastive.
+
+00:53:08.131 --> 00:53:10.544
+I have a question
+about how they are trained.
+
+00:53:10.545 --> 00:53:12.590
+today, the models
+what are they, are they videos
+
+00:53:12.790 --> 00:53:16.870
+I have seen datasets about Robocasa, which are
+robots that are in 3D kitchens
+
+00:53:16.871 --> 00:53:17.910
+some do it with video games
+
+00:53:18.035 --> 00:53:22.450
+with Unreal engines, or even Atari, I've seen things, Minecraft, some people are trying
+
+00:53:22.451 --> 00:53:23.410
+train the models with Minecraft
+
+00:53:23.735 --> 00:53:25.148
+there are real videos
+from the physical world, it's
+
+00:53:25.149 --> 00:53:27.210
+how do we train
+today a model of the world
+
+00:53:27.510 --> 00:53:28.790
+in the JEPA sauce.
+
+00:53:30.065 --> 00:53:31.530
+so, before I
+answer these questions
+
+00:53:31.680 --> 00:53:33.451
+I'll remind you about that
+in a minute.
+
+00:53:33.600 --> 00:53:36.790
+I need to explain to you the
+alternatives to contrastive methods.
+
+00:53:36.840 --> 00:53:38.230
+The
+training methods of JEPA.
+
+00:53:38.430 --> 00:53:41.910
+Or of Joint Embedding, so methods in
+which there is no reconstruction.
+
+00:53:41.911 --> 00:53:46.190
+In which you have to find a
+representation space in which you can
+
+00:53:46.191 --> 00:53:47.771
+make predictions
+and avoid collapse
+
+00:53:48.090 --> 00:53:49.791
+so I talked about
+contrasting methods
+
+00:53:50.030 --> 00:53:50.810
+that prevent the collapse
+
+00:53:50.910 --> 00:53:52.850
+but in fact they are not effective, that is to say that
+
+00:53:53.200 --> 00:53:55.090
+when trying to train
+using a contrastive method
+
+00:53:55.490 --> 00:53:57.750
+some rather complete representations
+
+00:53:58.200 --> 00:54:00.190
+of images or things like that
+
+00:54:00.290 --> 00:54:05.830
+in fact, we can't manage to make the
+representation fill the entire space
+
+00:54:05.831 --> 00:54:09.810
+regarding representation, we always have somewhat degenerate representations.
+
+00:54:09.860 --> 00:54:15.850
+and then it requires a huge number of contrasting examples, so there is another series.
+
+00:54:15.851 --> 00:54:17.731
+there are two other
+categories of methods.
+
+00:54:18.230 --> 00:54:21.351
+one of which are methods
+that are called distillation.
+
+00:54:22.190 --> 00:54:28.011
+so they are used by papers
+that we have published called IJEPA VJEPA.
+
+00:54:28.310 --> 00:54:30.091
+BYOL from DeepMind
+
+00:54:30.210 --> 00:54:32.591
+and DINO from FAIR Paris.
+
+00:54:33.160 --> 00:54:34.830
+so, these are
+distillation methods.
+
+00:54:34.930 --> 00:54:38.719
+and there were others before, like
+SimCLR etc.
+
+00:54:38.743 --> 00:54:41.821
+Not SimCLR, MoCo.
+
+00:54:41.845 --> 00:54:43.602
+Distillation... like in LLMs?
+
+00:54:43.626 --> 00:54:45.626
+So distillation is...
+
+00:54:45.651 --> 00:54:50.830
+the distillation method is a kind of strange thing
+also, you have two encoders, so you take
+
+00:54:50.831 --> 00:54:55.510
+one input and another input which can
+be a corrupted version of the first
+
+00:54:55.511 --> 00:55:00.210
+or it can be a different piece
+of the video etc you pass them
+
+00:55:00.211 --> 00:55:02.585
+through encoders which
+are identical in
+
+00:55:02.586 --> 00:55:04.730
+architecture and then you try to predict
+
+00:55:04.830 --> 00:55:07.144
+the representation of
+the original input
+
+00:55:07.145 --> 00:55:10.411
+of that which has been corrupted
+or transformed etc.
+
+00:55:10.540 --> 00:55:12.571
+and therefore DINO walks
+on this principle.
+
+00:55:13.050 --> 00:55:14.910
+IJEPA too
+
+00:55:15.260 --> 00:55:18.630
+and the way one
+prevents the collapse
+
+00:55:18.830 --> 00:55:21.110
+it's that we
+don't propagate gradients backwards
+
+00:55:21.310 --> 00:55:23.430
+that on one side
+that is to say, there is
+
+00:55:23.580 --> 00:55:24.580
+one side where the encoder
+
+00:55:24.700 --> 00:55:25.870
+does not receive the gradient.
+
+00:55:26.070 --> 00:55:28.551
+and its weights are not
+updated by gradient.
+
+00:55:29.170 --> 00:55:31.470
+and the weights of this
+encoder in fact are
+
+00:55:31.670 --> 00:55:36.650
+a kind of moving average
+on the weights of the other
+
+00:55:36.850 --> 00:55:37.850
+which is trained
+
+00:55:38.030 --> 00:55:40.250
+and for some mysterious reason it does not collapse
+
+00:55:40.480 --> 00:55:41.370
+why mysterious?
+
+00:55:41.371 --> 00:55:43.890
+mysterious because we don't
+have the theory that explains it yet
+
+00:55:43.940 --> 00:55:44.890
+it works but we
+don't know why
+
+00:55:45.240 --> 00:55:49.550
+it works but we don't know why, real engineering like we like it
+
+00:55:49.551 --> 00:55:54.570
+if it's not broken, don't touch it, if I ain't broke
+
+00:55:54.571 --> 00:56:00.410
+don't fix it no no the research is
+we know what, but it doesn't work
+
+00:56:00.411 --> 00:56:04.950
+and the engineering, it works but we
+don't know why, while here we are
+
+00:56:04.951 --> 00:56:08.850
+it doesn't work here, it doesn't
+work, we don't know why, there is
+
+00:56:08.851 --> 00:56:11.910
+one or two theoretical papers that
+try to explain that the dynamics
+
+00:56:11.911 --> 00:56:15.010
+of learning in this case have fixed points that are not collapsed etc.
+
+00:56:15.011 --> 00:56:17.389
+but well, it's a bit
+like broke and good.
+
+00:56:17.390 --> 00:56:19.270
+there are disadvantages
+to using these methods.
+
+00:56:19.470 --> 00:56:21.790
+but they work and
+they work at scale.
+
+00:56:22.140 --> 00:56:25.203
+and so the models of
+video, the VJEPA that we trained
+
+00:56:25.204 --> 00:56:27.751
+on large amounts of
+data, it works very well.
+
+00:56:28.045 --> 00:56:33.250
+but it's not satisfactory so the
+method that we use in the world model
+
+00:56:33.251 --> 00:56:41.243
+which is a method called SIGReg
+which means Sketched Isotropic
+Gaussian Regularization
+
+00:56:41.340 --> 00:56:42.490
+and so you
+will tell us in French
+
+00:56:42.690 --> 00:56:45.519
+ah yes that's a
+question about
+regularization then wait
+
+00:56:45.520 --> 00:56:49.550
+what is the first
+Gaussian regularization
+
+00:56:49.950 --> 00:56:55.810
+Gaussian isotropic but the
+sketch there is no French word drawn
+
+00:56:55.811 --> 00:57:00.140
+yes it is by projection
+by projected by by
+
+00:57:00.141 --> 00:57:05.051
+by drawing projected by
+projection intersection.
+
+00:57:05.100 --> 00:57:10.750
+Gaussian regularization
+isotropic by by projection multiple yes
+
+00:57:10.751 --> 00:57:15.350
+like this like this go
+this is an exclusivity
+
+00:57:15.450 --> 00:57:16.190
+not bad, either
+
+00:57:16.315 --> 00:57:19.950
+it is totally French, it is
+completely new, it says in 10 seconds
+
+00:57:19.951 --> 00:57:22.370
+it's just out of the
+oven the French Academy is
+
+00:57:22.371 --> 00:57:24.950
+and furthermore, it's happening, we need to call, we need to call the Quebecers
+
+00:57:24.951 --> 00:57:26.850
+It is called the Quebec office
+technology
+
+00:57:27.150 --> 00:57:28.890
+it's part of a
+technical class
+
+00:57:29.290 --> 00:57:32.140
+actually we have discovered
+several and then well
+
+00:57:32.141 --> 00:57:34.910
+sure Jürgen Schmidhuber
+says he invented that in 1990
+
+00:57:34.911 --> 00:57:38.070
+but actually there are some papers
+that date from the 80s
+
+00:57:38.071 --> 00:57:40.670
+by Geoffrey Hinton and Sue Becker
+who are based on the idea
+
+00:57:41.070 --> 00:57:43.186
+who is to say if we have
+something like that
+
+00:57:43.187 --> 00:57:45.071
+doesn't rebuild
+so it can collapse
+
+00:57:45.365 --> 00:57:49.311
+we are going to try to maximize the amount of information that is released
+
+00:57:49.440 --> 00:57:52.610
+encoders, we are going to try to find a measure
+
+00:57:52.611 --> 00:57:54.831
+which measures the
+amount of information.
+
+00:57:54.980 --> 00:57:57.870
+so there's a big problem with that, which is
+that we don't know how to measure the information
+
+00:57:57.871 --> 00:58:00.810
+because to measure
+information with all the definitions
+
+00:58:01.260 --> 00:58:03.468
+it is necessary to know the
+probability distribution
+
+00:58:03.469 --> 00:58:05.571
+in a continuous
+high-dimensional space
+
+00:58:05.740 --> 00:58:11.930
+try to find a probability distribution
+from samples
+
+00:58:11.931 --> 00:58:14.590
+this is an ultra complicated
+problem that we absolutely do not know how to solve
+
+00:58:14.591 --> 00:58:17.110
+which is mathematically
+intractable which is more complicated
+
+00:58:17.111 --> 00:58:19.051
+than all machine learning
+so it's not worth it.
+
+00:58:19.350 --> 00:58:22.510
+so we don't know how to calculate the information
+we can only make approximations
+
+00:58:22.511 --> 00:58:26.310
+and there's a big problem that
+all the approximations we can make
+
+00:58:26.311 --> 00:58:30.930
+is estimating the amount
+of information in a series of vectors.
+
+00:58:31.530 --> 00:58:33.730
+it's just overestimations.
+
+00:58:34.330 --> 00:58:36.090
+it's just upper bands
+not lower bands.
+
+00:58:36.340 --> 00:58:37.230
+and we want to maximize
+
+00:58:37.330 --> 00:58:39.751
+if we want to maximize something and we have a lower band
+
+00:58:39.800 --> 00:58:43.070
+we push on the lower band, it increases the quantity.
+
+00:58:43.445 --> 00:58:46.210
+but if we only have upper bands
+and we pull on them, we don't know at all
+
+00:58:46.211 --> 00:58:50.030
+if it goes according to plan
+then we'll do it anyway
+
+00:58:50.180 --> 00:58:54.530
+and we'll cross our fingers, so it's also a bit of engineering, that's what I love
+
+00:58:54.531 --> 00:59:00.190
+but there are also a bit of maths behind it
+so the idea is how
+
+00:59:00.390 --> 00:59:06.510
+to make sure we can pass a certain number of examples through the encoder and then
+
+00:59:06.511 --> 00:59:08.270
+what we are going to recover
+is a kind of matrix
+
+00:59:08.370 --> 00:59:12.710
+for each example, we have a representation vector, and then for all the examples
+
+00:59:12.711 --> 00:59:15.790
+what we have is a line, so
+we end up with a matrix, each line
+
+00:59:15.791 --> 00:59:17.670
+there is an increase
+of a vector
+
+00:59:17.770 --> 00:59:19.431
+each column is a variable
+
+00:59:19.700 --> 00:59:24.190
+for all examples of agreement
+how to maximize information
+
+00:59:24.191 --> 00:59:27.150
+what's in this matrix then
+first, if all the values are equal
+
+00:59:27.250 --> 00:59:31.930
+there is no information so
+we must make sure for example
+
+00:59:32.080 --> 00:59:34.507
+all the lines are
+different that's
+
+00:59:34.557 --> 00:59:36.510
+a contrastive method
+a contrastive method
+
+00:59:36.610 --> 00:59:38.990
+you say, here is an example, there is a
+second example, it is different
+
+00:59:39.090 --> 00:59:41.172
+make sure that the
+two increases are
+
+00:59:41.216 --> 00:59:43.670
+different that's
+a contrastive method
+
+00:59:44.020 --> 00:59:49.010
+the methods, a little new
+like Cy, it's rather the opposite
+
+00:59:49.011 --> 00:59:51.831
+that is, we are trying to make sure that the columns are different.
+
+00:59:52.440 --> 00:59:54.510
+it means that each variable.
+
+00:59:55.210 --> 00:59:59.471
+vehicle, a different piece of information, agreed
+
+00:59:59.685 --> 01:00:02.390
+so, we had an initial idea, you
+can't do that with rotations
+
+01:00:02.391 --> 01:00:05.570
+simply then you can
+do this by measuring correlations
+
+01:00:05.820 --> 01:00:09.650
+so we actually had two methods, the
+first method that I myself found interesting
+
+01:00:09.651 --> 01:00:12.699
+that these things could
+
+01:00:12.700 --> 01:00:16.550
+walking that we called
+that we called Barlow Twins
+
+01:00:16.700 --> 01:00:23.110
+Barlow's twins are okay
+Barlow is a monster in
+
+01:00:23.310 --> 01:00:26.110
+theoretical neurosciences
+
+01:00:26.310 --> 01:00:30.110
+who based much of his theories on
+information maximization stories
+
+01:00:30.111 --> 01:00:36.230
+coding efficiency etc He was
+a post-doc working with me at Meta
+
+01:00:36.231 --> 01:00:37.650
+who was called Stéphane
+Denis, a Frenchman
+
+01:00:37.800 --> 01:00:44.190
+who is now a professor in
+Finland and the idea is to de-correlate
+
+01:00:44.440 --> 01:00:46.710
+the columns of this matrix
+
+01:00:46.810 --> 01:00:49.191
+making them orthogonal.
+
+01:00:49.720 --> 01:00:54.350
+so it has to do with making the
+covariance matrix of the data
+
+01:00:54.351 --> 01:00:57.050
+so you take this matrix and
+multiply it by its transpose
+
+01:00:57.051 --> 01:00:58.770
+this gives you a
+covariance matrix
+
+01:00:58.870 --> 01:01:01.041
+and you make sure that it is diagonal
+
+01:01:01.042 --> 01:01:03.150
+That is, there are
+1s on the diagonal of 0s
+
+01:01:03.151 --> 01:01:08.111
+And this creates variables that all have
+a variance of 1 and are uncorrelated
+
+01:01:08.310 --> 01:01:10.211
+Now, uncorrelated does not mean independent.
+
+01:01:10.985 --> 01:01:14.190
+So, we have a second method
+called VC regularization (VICReg)
+
+01:01:14.191 --> 01:01:17.297
+variance covariance
+regularization, which is a
+method
+
+01:01:17.298 --> 01:01:20.150
+simplified of Barlow
+Twins, which works very well
+
+01:01:20.400 --> 01:01:28.130
+with Adrian Bard, who is a former
+PhD student resident at FAIR.
+
+01:01:28.680 --> 01:01:31.510
+co-supervised by
+Jean Ponce and me.
+
+01:01:32.360 --> 01:01:37.430
+he didn't finish at Google, he has
+become a researcher at FAIR.
+
+01:01:38.080 --> 01:01:43.790
+and there, for a few weeks, he is at
+AmiLabs
+- Ah! Very good!
+- Google has had Bard
+
+01:01:43.791 --> 01:01:46.090
+they have had Bard, that's why I thought
+is it him who gave the name?
+
+01:01:46.091 --> 01:01:49.241
+does it mean
+that the work on the world
+
+01:01:49.242 --> 01:01:51.710
+models is a more mathematical
+
+01:01:51.835 --> 01:01:57.810
+that transformer models, diffusion,
+LLM, is there a dimension?
+
+01:01:57.811 --> 01:02:01.850
+diffusion, there's also math, it's
+more physics actually, physics
+
+01:02:01.851 --> 01:02:04.350
+but does that mean that here
+you have a mathematical dimension
+
+01:02:04.351 --> 01:02:06.950
+on vector spaces, a bit
+more complicated, does it mean
+
+01:02:07.125 --> 01:02:11.910
+let's say that there is, there is, every spectrum, there are theories, theories, there are maths.
+
+01:02:11.911 --> 01:02:14.200
+the theory, the theory that
+is not yet too finished.
+
+01:02:14.460 --> 01:02:17.350
+well, if it's rather Randall
+Balestriero who is the first author of.
+
+01:02:18.000 --> 01:02:23.230
+not LeWorldModel but
+LeJEPA which is the paper before.
+
+01:02:23.330 --> 01:02:27.210
+he is quite involved in
+that aspect, he is also French
+
+01:02:27.510 --> 01:02:30.070
+he is a professor at Brown
+
+01:02:30.220 --> 01:02:32.590
+he is also affiliated
+with AmiLabs and
+
+01:02:32.890 --> 01:02:39.510
+so there are maths and then there is
+indeed engineering and DIY
+
+01:02:39.511 --> 01:02:46.310
+and screwdrivers, and then he manages to make
+it work... So the idea of SIGReg
+
+01:02:46.311 --> 01:02:50.511
+it means we don't just want to de-correlate the variables, but we want to make them
+
+01:02:50.580 --> 01:02:53.811
+statistically independent and
+and it's much more complicated.
+
+01:02:53.985 --> 01:03:00.270
+and we don't know how to measure the statistical dependence
+of two variables, well, we don't know
+
+01:03:00.271 --> 01:03:03.200
+measure the statistical dependence
+between two variables
+
+01:03:03.305 --> 01:03:04.390
+okay
+
+01:03:04.890 --> 01:03:06.670
+or even that of a.
+
+01:03:07.368 --> 01:03:09.709
+in high dimension
+it's very complicated.
+
+01:03:10.550 --> 01:03:17.291
+so this idea, I had an idea
+vague and then Randall actually.
+
+01:03:17.495 --> 01:03:24.950
+completely took the idea
+ran at 100 km/h with
+
+01:03:25.250 --> 01:03:27.150
+that is to say
+
+01:03:27.325 --> 01:03:31.310
+if we have a collection of
+points, then we can see this matrix
+
+01:03:31.311 --> 01:03:33.091
+as a collection
+of points in a space.
+
+01:03:34.210 --> 01:03:42.270
+how to make sure these points move so that in the end there is a distribution
+
+01:03:42.271 --> 01:03:45.607
+gaussian, isotropic, which means that it is gaussian
+
+01:03:45.608 --> 01:03:47.830
+in all directions
+with the same variance
+
+01:03:47.930 --> 01:03:55.850
+and there is a theorem that says that if a
+if a a distribution is gaussian
+
+01:03:55.851 --> 01:03:57.842
+in this way, in fact, it's the distribution
+
+01:03:57.843 --> 01:03:59.670
+who has the most
+information
+
+01:04:00.170 --> 01:04:03.530
+for a given variance, well, that's not a very strong argument
+
+01:04:03.531 --> 01:04:05.110
+but it is interesting, anyway
+
+01:04:05.660 --> 01:04:09.230
+and then there is a second theorem which
+is much more interesting, which says that
+
+01:04:09.380 --> 01:04:14.490
+if all the projections, so we take the
+points and project them according to a dimension
+
+01:04:14.640 --> 01:04:17.590
+what we will obtain is a
+one-dimensional distribution.
+
+01:04:18.940 --> 01:04:21.530
+if all the projections, so
+all the marginal distributions
+
+01:04:21.930 --> 01:04:24.431
+of a distribution
+in high dimension
+
+01:04:24.580 --> 01:04:25.620
+in all directions
+
+01:04:25.730 --> 01:04:26.730
+are all gaussian.
+
+01:04:27.320 --> 01:04:30.470
+the joint distribution is
+gaussian so idea
+
+01:04:30.620 --> 01:04:33.445
+we are going to do many
+projections of the points that we
+
+01:04:33.446 --> 01:04:36.190
+have and we are going to make sure
+to move the points
+
+01:04:36.640 --> 01:04:41.230
+according to all these directions so that the
+unidimensional distribution is gaussian
+
+01:04:41.231 --> 01:04:43.731
+and we know how to do this
+that is, we know how to calculate
+
+01:04:43.860 --> 01:04:45.791
+in one dimension the distance
+
+01:04:46.070 --> 01:04:48.831
+between an empirical distribution
+which is given by points.
+
+01:04:49.010 --> 01:04:51.911
+and an ideal distribution
+which could be gaussian or anything.
+
+01:04:52.490 --> 01:04:54.110
+we can calculate a distance
+
+01:04:54.210 --> 01:04:56.073
+and not only that we
+can calculate the gradient
+
+01:04:56.074 --> 01:04:57.910
+of this distance so
+it means that we know
+
+01:04:58.460 --> 01:04:59.770
+in what direction
+and by how much
+
+01:04:59.970 --> 01:05:00.970
+move each point.
+
+01:05:01.460 --> 01:05:07.470
+according to each projection in such a way that the marginal distribution
+
+01:05:07.471 --> 01:05:10.130
+in that direction is Gaussian
+and in that one too.
+
+01:05:10.280 --> 01:05:12.430
+and then there is a
+third theorem that says
+
+01:05:12.530 --> 01:05:17.270
+well, actually you don't need to project
+on all dimensions if your function
+
+01:05:17.271 --> 01:05:19.950
+is a bit rigid in
+fact you only need
+
+01:05:20.050 --> 01:05:24.290
+a subset, you don't need a
+number of dimensions exponential
+depending on
+
+01:05:24.291 --> 01:05:28.151
+the number of projections
+exponentially depending on the dimension
+
+01:05:28.340 --> 01:05:30.501
+and so it works
+super well and then there
+
+01:05:30.502 --> 01:05:33.230
+aren't many parameters to adjust etc
+
+01:05:33.555 --> 01:05:35.930
+but it's not
+perfect, what's missing.
+
+01:05:36.680 --> 01:05:38.170
+in this technique it is
+
+01:05:38.420 --> 01:05:41.811
+the fact that we give it to him beforehand.
+
+01:05:42.080 --> 01:05:44.791
+a dimension that must
+be filled with points.
+
+01:05:45.400 --> 01:05:48.030
+and there is no reason
+that the input distribution
+
+01:05:48.180 --> 01:05:51.910
+in fact, fill all these dimensions
+so, there will need to be a way to adapt
+
+01:05:51.911 --> 01:05:56.530
+the dimensions automatically that the system
+automatically discovers the dimensions
+
+01:05:56.531 --> 01:06:01.310
+intrinsic characteristics of the variety that contains all the input data.
+
+01:06:01.670 --> 01:06:05.930
+on the one hand, and on the other hand, it is quite possible that one cannot reduce
+
+01:06:05.931 --> 01:06:09.010
+this distribution follows a Gaussian
+so for example if I take
+
+01:06:09.360 --> 01:06:10.710
+images
+
+01:06:10.860 --> 01:06:11.550
+of objects
+
+01:06:11.700 --> 01:06:12.590
+from all possible angles
+
+01:06:12.690 --> 01:06:18.890
+if I take
+megapixel photos
+
+01:06:19.040 --> 01:06:22.981
+of this object from all possible
+angles ok so
+
+01:06:22.982 --> 01:06:25.490
+each image is a vector
+with one million dimensions
+
+01:06:25.590 --> 01:06:28.370
+it is a point in
+a space
+of one million dimensions.
+
+01:06:29.120 --> 01:06:33.490
+the path followed
+by all these points
+
+01:06:33.690 --> 01:06:35.511
+as I
+rotate the object.
+
+01:06:36.060 --> 01:06:39.050
+it is a very complicated
+path in this space of one million dimensions.
+
+01:06:39.850 --> 01:06:42.850
+but topologically it is a circle
+it is a circle because you are able
+
+01:06:42.851 --> 01:06:45.990
+to project orthogonally on
+each one, because you know that you will return
+
+01:06:45.991 --> 01:06:49.510
+at your starting point because once
+you have turned 360 degrees you come
+
+01:06:49.511 --> 01:06:52.162
+back to your starting point we
+are playing, we are playing, we
+
+01:06:52.163 --> 01:06:55.190
+are playing, so it's
+elegant, it's elegant yes
+
+01:06:55.290 --> 01:06:59.390
+it's a trajectory that is horribly
+wobbly, and it's not at all
+
+01:06:59.391 --> 01:07:03.110
+a circle but it is topologically
+assimilable to a circle that is to say that
+
+01:07:03.460 --> 01:07:06.710
+you shoot at it without breaking
+anything and it becomes a circle.
+
+01:07:07.460 --> 01:07:10.730
+now if I
+do it like this.
+
+01:07:11.530 --> 01:07:12.530
+and like this.
+
+01:07:13.150 --> 01:07:17.990
+it will be a somewhat complicated thing
+it will actually be a sphere but it remains
+
+01:07:17.991 --> 01:07:21.210
+yes, that's it, but there's a third dimension where I didn't rotate
+
+01:07:21.211 --> 01:07:23.811
+and therefore that means that this one
+it's open, so it's going to be a hit
+
+01:07:23.860 --> 01:07:26.565
+a little cylinder
+in fact, it's a bit about
+
+01:07:26.566 --> 01:07:30.310
+this theme which were the
+papers of 2005-2006
+
+01:07:30.311 --> 01:07:33.790
+with my students Sumit Chopra, Raia Hadsell.
+Raia Hadsell who is director
+
+01:07:33.791 --> 01:07:35.310
+research at
+DeepMind, by the way
+
+01:07:35.560 --> 01:07:40.210
+so...
+she really messed up her career
+
+01:07:44.398 --> 01:07:49.490
+manifestation!
+Non, elle est incroyablement talentueuse.
+Donc en fait, c'est des mathématiques assez avancées
+
+01:07:49.491 --> 01:07:52.790
+of high dimension but we fall back on things that we know with
+
+01:07:52.791 --> 01:07:59.290
+not tricks but with forms or geometry
+- Conceptually anyway
+
+01:07:59.291 --> 01:08:05.870
+with geometry
+- but there are problems on
+which we are working
+
+01:08:05.871 --> 01:08:09.430
+at the moment, which is how to
+modify SIGReg and similar things
+
+01:08:09.530 --> 01:08:12.871
+in order for the system to automatically
+discover the topology of the input data.
+
+01:08:13.260 --> 01:08:14.590
+and the intrinsic dimension
+
+01:08:15.090 --> 01:08:18.350
+we have a few ideas about that, we have some things that work to some extent, but there is still
+
+01:08:18.351 --> 01:08:20.205
+there's work to be done, it's not a solved problem
+
+01:08:20.255 --> 01:08:22.310
+Time passes quickly, we have three more points
+
+01:08:22.410 --> 01:08:25.970
+There is one: training data.
+Today's training data
+
+01:08:25.971 --> 01:08:29.149
+we see lots of videos, we see companies that force people
+
+01:08:29.150 --> 01:08:30.960
+to put on helmets
+to register with the
+
+01:08:30.961 --> 01:08:32.871
+hands, we see people
+who generate videos
+
+01:08:33.200 --> 01:08:34.941
+of everyday life, tennis balls
+
+01:08:35.000 --> 01:08:37.050
+that are hit in all directions, we see labs
+
+01:08:37.200 --> 01:08:41.270
+that are made with where there is
+need, we give the X, Y, Z
+
+01:08:41.470 --> 01:08:44.009
+with the force in Newton
+to really feed
+
+01:08:44.010 --> 01:08:46.051
+the models, so really very supervised
+
+01:08:46.455 --> 01:08:47.455
+we see video games
+
+01:08:47.700 --> 01:08:50.470
+3D, today, what is an ecosystem? A little bit of...
+
+01:08:50.620 --> 01:08:53.870
+and what is needed for
+games, not models. The reason
+
+01:08:53.871 --> 01:08:56.550
+why people use games to train models.
+
+01:08:56.551 --> 01:08:58.525
+This is done a lot at
+DeepMind, for example, and
+
+01:08:58.526 --> 01:09:02.090
+then there are other
+people who believe in this.
+
+01:09:02.690 --> 01:09:05.851
+the reason they use
+video games is that video games.
+
+01:09:07.510 --> 01:09:09.053
+since the data is
+synthetic and captures in
+
+01:09:09.054 --> 01:09:11.930
+the entire state of the world, you
+can predict pixels.
+
+01:09:13.180 --> 01:09:16.211
+that is, there is no
+uncertainty in the real world.
+
+01:09:16.640 --> 01:09:18.890
+or predict pixels is
+not completely stupid.
+
+01:09:19.690 --> 01:09:23.490
+and so we can use
+a bit classic generative models
+
+01:09:23.540 --> 01:09:25.491
+to train
+world models
+
+01:09:25.650 --> 01:09:26.650
+by pixel prediction
+
+01:09:26.855 --> 01:09:29.590
+but this doesn't work for
+real video but is it not
+
+01:09:29.591 --> 01:09:32.109
+the person who lost their keys
+outside in the dark
+
+01:09:32.285 --> 01:09:35.010
+and which go under the light because it is
+lit and that they are looking for it there
+
+01:09:35.011 --> 01:09:38.149
+that's kind of it, it's
+because they work in pixels
+
+01:09:38.300 --> 01:09:42.631
+they generate pixels, and it's basically
+only for video games.
+
+01:09:42.720 --> 01:09:45.370
+so that's one of the reasons why
+people are using videos
+
+01:09:45.371 --> 01:09:51.290
+or on videos of robot simulations
+finally, synthetic things because here
+
+01:09:51.291 --> 01:09:55.650
+there aren't all the impossible textures
+and the noise that there is in the real world
+
+01:09:55.850 --> 01:09:59.950
+there isn't also a story of
+capturing the state of the whole world
+
+01:09:59.951 --> 01:10:05.830
+because in video games you can
+capture the world as a whole unit
+
+01:10:05.831 --> 01:10:09.150
+that you want, but it's not a sensor problem, we have all the sensors.
+
+01:10:09.151 --> 01:10:12.290
+we don't learn like
+video games, well, the thesis is to say.
+
+01:10:12.291 --> 01:10:15.070
+if we make models that learn
+like we learn, like a cat learns.
+
+01:10:15.071 --> 01:10:16.731
+like a child learns
+like an adult learns
+
+01:10:16.940 --> 01:10:19.830
+we don't need to know everything
+can the world become
+
+01:10:19.831 --> 01:10:22.130
+a good video game thanks to that
+for Elon, that could be cool
+
+01:10:22.131 --> 01:10:27.109
+he needs to pay
+people for example, there is something
+
+01:10:27.110 --> 01:10:30.290
+that at some point
+you still have to return
+
+01:10:30.490 --> 01:10:33.630
+not for everything of course, but still, there is an equation in quite a few.
+
+01:10:33.631 --> 01:10:36.830
+you see, you learn physics
+by throwing a ball, then.
+
+01:10:36.831 --> 01:10:42.950
+you learn it like that, you offer it, but you eventually come back.
+
+01:10:43.050 --> 01:10:44.871
+do you come back somewhere
+
+01:10:45.100 --> 01:10:48.630
+to a real mathematical equation
+or somewhere we don't care
+
+01:10:48.631 --> 01:10:53.770
+actually, that's the cat, it doesn't understand
+equations, the Schrödinger cat.
+
+01:10:53.771 --> 01:10:56.650
+it understands equations but not
+two, is there an equation
+
+01:10:56.651 --> 01:11:00.890
+to create data to just
+inject into the model each gutter
+
+01:11:00.891 --> 01:11:04.570
+has a very, very, very good predictive model of its own dynamics.
+
+01:11:05.420 --> 01:11:08.731
+it falls back on its paws, it doesn't
+know Newton's Christmas.
+
+01:11:09.400 --> 01:11:10.850
+finally, he doesn't know them, but he knows them
+
+01:11:11.100 --> 01:11:13.370
+that is to say, he has his
+representation, but he doesn't know
+
+01:11:13.371 --> 01:11:16.850
+it means that this place says I
+didn't need this assumption, well
+
+01:11:16.851 --> 01:11:21.110
+exactly agree, but he doesn't
+need to write a few equations
+
+01:11:21.111 --> 01:11:24.410
+that it can integrate etc
+however it has a template
+
+01:11:24.660 --> 01:11:27.390
+he has a phenomenological model of his
+own dynamics which is incredibly
+
+01:11:27.391 --> 01:11:29.190
+more complicated than
+anything we can write
+
+01:11:29.590 --> 01:11:32.810
+on the dynamics of a robot because there is the elasticity of the tendons of the muscles
+
+01:11:32.811 --> 01:11:36.690
+some things, well, it's insane complexity
+we don't know how to do it, we just know how to write
+
+01:11:36.691 --> 01:11:39.030
+dynamic equations
+of a humanoid robot
+
+01:11:39.405 --> 01:11:43.010
+and it's because all
+the joints are very stiff
+
+01:11:43.011 --> 01:11:45.750
+we know the characteristics of
+all the actuators we've made a lot of noise
+
+01:11:45.751 --> 01:11:48.599
+of course, and it's
+like that for all the demos
+
+01:11:48.600 --> 01:11:51.411
+robots
+humanoid making kung fu
+
+01:11:51.680 --> 01:11:55.351
+it's because we can write
+the equations of dynamics
+
+01:11:55.725 --> 01:12:00.410
+we don't know all the coefficients
+so we just have this through reinforcement learning or through simulation
+
+01:12:00.411 --> 01:12:05.710
+but all of that is pre-calculated and there
+we see it behind videos of robots
+
+01:12:05.711 --> 01:12:07.950
+that perform demonstrations then
+they hit people in the audience
+
+01:12:07.951 --> 01:12:11.750
+because they don't have the person
+they just need to not see the public too
+
+01:12:11.751 --> 01:12:15.270
+you are cute, but it reminds me of
+the chess player Capablanca said
+
+01:12:15.271 --> 01:12:17.710
+I calculate that with one move she
+will advance, but it's always the best move
+
+01:12:17.711 --> 01:12:25.550
+This is almost like a physical equation in fact
+
+01:12:25.551 --> 01:12:30.730
+loses information since it's a
+simplification, that's it, okay.
+
+01:12:30.731 --> 01:12:33.470
+anyway, yes, I want to tell you
+it's a model, it's a model of the world
+
+01:12:33.471 --> 01:12:35.350
+yes, but now, what is
+really interesting is that in fact
+
+01:12:35.750 --> 01:12:38.410
+it's not a model because when we talk
+about a model of the world, there's
+
+01:12:38.411 --> 01:12:40.110
+you finally understand anyway, I'm just speaking for myself
+
+01:12:40.510 --> 01:12:43.530
+emotionally, about objectivity, what
+I mean is that you model the world
+
+01:12:43.531 --> 01:12:46.550
+whereas, actually, on the contrary, you
+take the example of the cat, as you say
+
+01:12:46.551 --> 01:12:50.170
+You model the world within your own
+framework, with your own constraints
+
+01:12:50.171 --> 01:12:54.670
+elasticity, physical condition
+if there is a person
+
+01:12:54.671 --> 01:12:56.710
+attached to her back finally
+it's very subjective, for example
+
+01:12:56.885 --> 01:12:59.010
+I have two hobbies.
+
+01:12:59.660 --> 01:13:03.050
+one is sailing and the other is
+making small airplanes ok
+
+01:13:03.450 --> 01:13:07.470
+and in these two things, very windy
+so, very, we shouldn't talk about Kyber
+
+01:13:07.471 --> 01:13:09.176
+very airy, very airy
+experiences that we are going to
+
+01:13:09.177 --> 01:13:12.550
+to do at Kyber because when you sail
+
+01:13:13.025 --> 01:13:16.770
+in any case, when I go sailing to adjust the sails
+
+01:13:17.020 --> 01:13:18.050
+I have a kind of.
+
+01:13:18.650 --> 01:13:20.650
+pseudo simulator
+in the head of
+
+01:13:20.800 --> 01:13:24.010
+the airflow behind the sail if
+I angle it too much, there will be turbulence
+
+01:13:24.011 --> 01:13:29.210
+behind beyond 120 degrees it doesn't work at all, just this
+
+01:13:29.211 --> 01:13:33.790
+a little in the head is the problem
+there is no need there is no need
+
+01:13:33.791 --> 01:13:37.730
+because there is a phenomenological model
+that we have in our heads, we know that it is
+
+01:13:37.731 --> 01:13:41.504
+address the focus a little bit
+a little bit more to do
+
+01:13:41.505 --> 01:13:44.410
+attach the things behind
+the big sail etc etc
+
+01:13:44.760 --> 01:13:48.350
+we know that it's not a good idea to go completely backwards with a multihull
+
+01:13:48.351 --> 01:13:50.854
+because we go slower than if we go a little
+
+01:13:50.855 --> 01:13:53.210
+little and keep
+the laminar flow and everything
+
+01:13:53.635 --> 01:13:56.050
+and it's thanks to a
+sort of mental model
+
+01:13:56.250 --> 01:14:02.210
+same if I am building
+a remote-controlled plane, I make a profile
+
+01:14:02.211 --> 01:14:08.170
+her profile is a bit shady
+I'm not going to run the fluid simulation
+
+01:14:08.171 --> 01:14:11.710
+about the thing, but anyway, I know more or less
+what the characteristics and everything are
+
+01:14:11.711 --> 01:14:15.470
+but it's the same, there is a kind of
+mental simulation of what is happening
+
+01:14:15.471 --> 01:14:21.990
+the MuZero, PlaNet, Dreamer models, they are
+in this idea of simulating everything in advance
+
+01:14:21.991 --> 01:14:24.230
+with many parameters, right?
+
+01:14:24.231 --> 01:14:25.190
+isn't that their model?
+
+01:14:25.191 --> 01:14:29.400
+so I will get there in a
+second, so all that.
+
+01:14:29.840 --> 01:14:31.910
+it is thanks to a phenomenological model
+
+01:14:32.010 --> 01:14:36.110
+of a very complicated phenomenon, collective
+which could in principle be reduced
+
+01:14:36.111 --> 01:14:37.930
+to a few equations
+but which is very complicated
+
+01:14:38.030 --> 01:14:42.390
+so what do the people who work at Dassault do
+
+01:14:42.540 --> 01:14:43.770
+who make the bursts and all that
+
+01:14:44.070 --> 01:14:47.910
+they perform the fluid flow simulation around airplanes
+
+01:14:48.110 --> 01:14:50.710
+by what is called CFD
+Computation Fluid Dynamics
+
+01:14:51.235 --> 01:14:57.090
+it consists of saying I take a volume
+I divide the volume into small cubes
+
+01:14:57.240 --> 01:14:58.090
+and in each cube
+
+01:14:58.240 --> 01:15:01.950
+I model the state of the air
+inside it by a speed.
+
+01:15:02.600 --> 01:15:07.550
+a density
+temperature viscosity etc
+
+01:15:07.700 --> 01:15:11.310
+and that is an abstraction because
+in fact, the underlying phenomenon
+
+01:15:11.311 --> 01:15:14.090
+is air molecules sticking
+to each other and sticking
+
+01:15:14.091 --> 01:15:19.030
+to the plane, so in fact we
+forget and completely
+
+01:15:19.230 --> 01:15:22.110
+eliminate the positions and
+speeds of the air molecules
+
+01:15:22.210 --> 01:15:25.531
+that would be too complicated to simulate anyway it wouldn't fit the reality.
+
+01:15:25.800 --> 01:15:29.070
+we make an abstraction which are
+we cut the air into small cubes
+
+01:15:29.170 --> 01:15:31.631
+and then we solve the Navier-Stokes equations.
+
+01:15:31.900 --> 01:15:36.770
+and this is a representation of reality which is more or less incorrect
+
+01:15:36.771 --> 01:15:38.890
+when there are turbulence, it's not necessarily exactly correct
+
+01:15:38.891 --> 01:15:41.870
+but that's enough, but at the end, what we want is not that, what we want
+
+01:15:41.871 --> 01:15:45.510
+it's a lift, a drag
+by the way, my planet, therefore Daniel Jerafner
+
+01:15:45.511 --> 01:15:51.230
+I've known him for a long time, and he left
+from Iman, anyway he has his box, so him
+
+01:15:51.231 --> 01:15:54.971
+it makes a prediction in a
+representation space.
+
+01:15:55.370 --> 01:15:57.670
+but the problem, in my opinion
+
+01:15:57.820 --> 01:15:59.770
+is not the right way
+to do it, which is that it
+
+01:15:59.771 --> 01:16:01.690
+entrains
+
+01:16:02.240 --> 01:16:08.710
+the representation space
+with an autoencoder
+
+01:16:08.860 --> 01:16:12.298
+with a VAE actually so
+you take an input frame
+and auto-encode it.
+you extract the information
+the representation for
+
+01:16:12.299 --> 01:16:15.090
+that your autoencoder
+sticks to this step precisely
+
+01:16:15.240 --> 01:16:18.170
+and then you use
+the pre-trained encoder.
+
+01:16:18.820 --> 01:16:20.630
+with a predictor
+
+01:16:21.030 --> 01:16:23.751
+to create a world model.
+
+01:16:24.105 --> 01:16:27.190
+that's the right direction but it's
+not a pure JEP because it doesn't
+
+01:16:27.191 --> 01:16:29.790
+do end-to-end training.
+- Amilab so it's a
+company based in France
+
+01:16:29.791 --> 01:16:33.730
+an international company
+you have offices
+- it's a global global company.
+
+01:16:33.731 --> 01:16:35.990
+since day one like
+as
+
+01:16:36.040 --> 01:16:38.130
+but then there is
+a question it is
+
+01:16:38.305 --> 01:16:40.450
+why France
+why Paris
+
+01:16:40.550 --> 01:16:43.430
+that's the question is
+because you trained
+
+01:16:43.431 --> 01:16:45.711
+the whole generation
+with the FAIR Meta
+
+01:16:46.235 --> 01:16:49.370
+you saw that in France there was what was needed and you thought that actually
+
+01:16:49.371 --> 01:16:53.230
+there is everything needed here for it to thrive, what were the reasons
+
+01:16:53.231 --> 01:16:57.630
+rational reasons
+for setting up Amilab here?
+
+01:16:57.631 --> 01:17:00.850
+several reasons, the first reason
+is that there is a lot of talent
+
+01:17:01.250 --> 01:17:04.659
+in Europe and in France
+in particular, or talent
+
+01:17:04.660 --> 01:17:06.910
+elsewhere in the world
+who would be completely
+
+01:17:07.010 --> 01:17:10.810
+ready to come to Paris there are worse
+conditions there are worse because well
+
+01:17:10.811 --> 01:17:12.623
+a part of the team
+that worked on
+
+01:17:12.624 --> 01:17:15.250
+all these JEPA projects
+etc which are in France.
+
+01:17:15.900 --> 01:17:18.651
+another one is in Canada
+another one is in New York.
+
+01:17:19.230 --> 01:17:22.950
+so the opening
+of these three sites
+
+01:17:23.400 --> 01:17:29.250
+Paris, New York, Montréal made sense because the team was there.
+
+01:17:30.000 --> 01:17:34.610
+we also have a lab in Singapore
+the reason for the lab in Singapore is
+
+01:17:34.611 --> 01:17:38.390
+first, we have clients
+Asian investors
+
+01:17:38.840 --> 01:17:41.230
+we want to be able to talk to them locally
+
+01:17:41.680 --> 01:17:45.430
+there is a lot of talent in Singapore
+many come from China
+
+01:17:45.431 --> 01:17:51.850
+but also a lot local, and then above all, with the stupid immigration policies
+
+01:17:51.851 --> 01:17:55.370
+from the Trump administration, there are quite a few Chinese people who would like to leave China
+
+01:17:55.371 --> 01:17:58.770
+but who can go to the United States
+and Singapore, it's a good place
+
+01:17:58.771 --> 01:18:02.391
+to get them, so there is quite a bit of talent that we can attract to Singapore.
+
+01:18:02.660 --> 01:18:03.530
+Chinese talent
+
+01:18:03.680 --> 01:18:04.290
+there are many
+
+01:18:04.490 --> 01:18:06.350
+so in fact it is
+a question more of talent
+
+01:18:06.500 --> 01:18:11.531
+more than just investment or funds
+then there is another big reason.
+
+01:18:11.780 --> 01:18:16.270
+this is more geopolitical
+the fact that there is
+
+01:18:16.720 --> 01:18:20.311
+a large demand from
+industry and government.
+
+01:18:20.680 --> 01:18:27.930
+for a leading AI technology provider that is neither American nor Chinese
+
+01:18:27.931 --> 01:18:32.590
+and therefore establish the company's headquarters in France
+
+01:18:32.800 --> 01:18:35.330
+lifts a little of that
+
+01:18:35.430 --> 01:18:38.211
+to tell people that we are a global company, but.
+
+01:18:39.370 --> 01:18:41.451
+we are not American
+we are not Chinese.
+
+01:18:41.905 --> 01:18:43.070
+we are FRENCH
+
+01:18:43.170 --> 01:18:46.110
+our investors
+
+01:18:46.235 --> 01:18:47.410
+to be honest
+
+01:18:47.960 --> 01:18:50.991
+about 40% of our
+investors are European.
+
+01:18:51.320 --> 01:18:56.710
+either funds or potential industrial partners or family offices
+
+01:18:56.711 --> 01:18:59.850
+things like
+that, very diverse
+
+01:19:00.250 --> 01:19:05.710
+33% sont américains, provenant de fonds de family office, donc par exemple Jeff Bezos
+
+01:19:05.711 --> 01:19:12.070
+and then Greycroft
+which is a fund
+
+01:19:12.620 --> 01:19:17.290
+and then and then others
+family offices etc
+
+01:19:17.640 --> 01:19:24.050
+and 27% are Asian
+with a background in Dubai.
+
+01:19:25.100 --> 01:19:30.450
+not very important, and therefore, it gives you an idea of the diversity
+
+01:19:30.451 --> 01:19:34.090
+it's the diversification it's
+everything we defend it's global
+
+01:19:34.091 --> 01:19:37.650
+but French tech is
+global, if it goes wrong we are
+
+01:19:37.651 --> 01:19:40.790
+not Franco-French, we have
+a completely global ambition.
+
+01:19:41.340 --> 01:19:46.117
+but we rely on
+French talents and on the
+
+01:19:46.118 --> 01:19:49.111
+position of France and
+Europe more generally.
+
+01:19:49.275 --> 01:19:55.290
+as non-aligned in relation to the
+American-Chinese conflict, it's called Ami Labs Ami
+
+01:19:55.291 --> 01:20:03.430
+Friend, as for the pronunciation, it's "auto-aligned", without supervision, that's the gist.
+
+01:20:03.530 --> 01:20:06.130
+Given what happened with
+the models that are cutting themselves and all that.
+
+01:20:06.230 --> 01:20:07.710
+You are invested in
+Tapestry, you are chief
+
+01:20:07.711 --> 01:20:10.030
+scientific officer of
+Tapestry, what is it?
+
+01:20:10.031 --> 01:20:12.230
+It's a federation of actors
+
+01:20:12.355 --> 01:20:14.411
+for a sovereign and federated IA
+
+01:20:14.660 --> 01:20:15.882
+among different actors
+can you
+
+01:20:15.883 --> 01:20:17.410
+say a few words
+and then we finish there?
+
+01:20:17.411 --> 01:20:19.718
+yes absolutely it's a
+subject that I care about, which
+
+01:20:19.719 --> 01:20:23.230
+is a bit orthogonal to
+Ami Labs, you see?
+
+01:20:23.231 --> 01:20:25.330
+it's Yann LeCun who said that, it
+comes from him because every time
+
+01:20:25.331 --> 01:20:27.910
+me, I have two words: incarnation and
+orthogonal, except that he, when he uses
+
+01:20:27.911 --> 01:20:32.550
+it's correct, it's not a problem
+it's not a problem, we just need
+
+01:20:32.551 --> 01:20:35.970
+now I could say, as the great Yann LeCun says, it's orthogonal
+
+01:20:35.971 --> 01:20:41.511
+it's orthogonal, yes, it's an effort, a
+little orthogonal, but not completely
+
+01:20:41.570 --> 01:20:44.990
+which consists of
+saying there are many.
+
+01:20:45.640 --> 01:20:48.510
+many countries that would want
+a kind of sovereignty
+
+01:20:48.660 --> 01:20:49.330
+in AI
+
+01:20:49.530 --> 01:20:53.570
+specifically for LLMs, so
+it's more LLM-focused, it goes beyond that.
+
+01:20:53.571 --> 01:20:55.990
+but for now
+it's very LLM-focused.
+
+01:20:56.140 --> 01:21:04.140
+all the countries, France, Germany
+finally the European countries, India.
+
+01:21:04.795 --> 01:21:07.221
+Vietnam, Switzerland.
+
+01:21:07.780 --> 01:21:08.880
+The Emirates.
+
+01:21:09.680 --> 01:21:13.381
+Korea, Japan.
+
+01:21:14.090 --> 01:21:17.921
+Kazakhstan, all these
+countries would like that.
+
+01:21:18.530 --> 01:21:20.840
+an independent
+
+01:21:20.940 --> 01:21:21.680
+AI
+
+01:21:21.930 --> 01:21:25.920
+without being dependent on OpenAI,
+Anthropic, Google or Meta.
+
+01:21:26.870 --> 01:21:28.780
+or Chinese
+
+01:21:28.930 --> 01:21:32.040
+so, for the time being, a large
+part of the industry is starting to switch
+
+01:21:32.041 --> 01:21:33.860
+to the Chinese model because they are
+the best open source models
+
+01:21:33.861 --> 01:21:35.941
+and we don't need
+to use Chinese servers.
+
+01:21:36.390 --> 01:21:40.355
+but there are still
+hesitations about using
+
+01:21:40.356 --> 01:21:44.501
+Chinese models, so the idea
+is to have a federation.
+
+01:21:44.820 --> 01:21:49.221
+of regional groups
+that can be academic, NGOs.
+
+01:21:49.520 --> 01:21:52.800
+or government
+or private industry.
+
+01:21:53.550 --> 01:22:00.900
+who would contribute to training a global model without exchanging their data.
+
+01:22:00.901 --> 01:22:04.121
+That is, they keep sovereignty over their data.
+
+01:22:04.760 --> 01:22:08.441
+What participants exchange are parameter vectors.
+
+01:22:08.870 --> 01:22:11.940
+That is, a simple way to do this.
+
+01:22:12.340 --> 01:22:14.100
+It is each region.
+
+01:22:14.250 --> 01:22:15.250
+Each participant
+
+01:22:15.620 --> 01:22:19.000
+has its own computing center and its own data.
+
+01:22:19.800 --> 01:22:23.721
+in its local languages
+in India there are already 300.
+
+01:22:24.530 --> 01:22:27.843
+languages there are 22
+official languages but if we
+
+01:22:27.844 --> 01:22:31.001
+count all the local languages
+and dialects
+
+01:22:31.150 --> 01:22:32.150
+we don't end
+
+01:22:32.385 --> 01:22:33.400
+hello the tokenizer
+
+01:22:33.600 --> 01:22:36.361
+it would be good to
+get rid of them actually
+
+01:22:36.470 --> 01:22:41.120
+Indonesia is the same there are
+300 dialects I don't know what
+
+01:22:41.121 --> 01:22:44.310
+so it's a big
+problem never.
+
+01:22:45.025 --> 01:22:47.707
+the current actors will
+train their LLM to speak
+
+01:22:47.708 --> 01:22:50.360
+all these languages ever
+they will adjust their model
+
+01:22:50.860 --> 01:22:55.240
+to understand cultures
+values systems etc.
+
+01:22:55.620 --> 01:22:56.820
+of all the regions of the world
+
+01:22:57.180 --> 01:23:00.480
+so these systems
+cannot be aligned.
+
+01:23:01.050 --> 01:23:04.280
+to all systems of
+values, the political biases, etc.
+
+01:23:04.440 --> 01:23:07.081
+of all the regions in the world
+the only way to do that.
+
+01:23:07.370 --> 01:23:12.820
+it's actually about providing foundational models that are open so that
+
+01:23:12.821 --> 01:23:15.720
+everyone
+can adjust them.
+
+01:23:16.320 --> 01:23:17.400
+for their own biases.
+
+01:23:18.300 --> 01:23:20.675
+and that's essential
+because, in my opinion
+
+01:23:20.676 --> 01:23:22.640
+everyone is talking
+about the dangers of AI etc.
+
+01:23:22.880 --> 01:23:25.460
+so there's no danger
+of mass unemployment etc.
+
+01:23:25.940 --> 01:23:27.120
+the main danger of AI
+
+01:23:27.670 --> 01:23:34.140
+it's only a matter of time before all our
+information, all the information we receive
+
+01:23:34.141 --> 01:23:37.501
+will be provided through
+AI assistants.
+
+01:23:37.845 --> 01:23:40.625
+and if these AI assistants
+come from three companies
+
+01:23:40.626 --> 01:23:45.041
+on the US coast
+or from three or four Chinese companies.
+
+01:23:45.070 --> 01:23:49.380
+that's not good for democracy
+for cultural diversity
+for culture
+
+01:23:49.381 --> 01:23:54.260
+which we have talked about many times, the
+multipolarization of the world, the balances
+
+01:23:54.261 --> 01:24:00.720
+geostrategiques et surtout aussi
+si en fait ils introduisent des biais
+
+01:24:00.721 --> 01:24:03.780
+you can't control there are
+inevitably biases in every system
+
+01:24:03.980 --> 01:24:07.280
+is biased in a particular way so
+the question is, is everyone
+
+01:24:07.281 --> 01:24:12.540
+will be biased like California, this
+might be a lesser evil compared to
+
+01:24:12.541 --> 01:24:15.440
+in some other corners
+of the United States but
+
+01:24:15.715 --> 01:24:19.894
+is it not rather a solution to have
+
+01:24:19.895 --> 01:24:23.901
+open platforms
+and that everyone can use.
+
+01:24:24.360 --> 01:24:26.201
+fine-tune the model.
+
+01:24:26.760 --> 01:24:31.520
+for its own biases, its own systems
+you have a metamodel in the middle and you
+
+01:24:31.620 --> 01:24:35.240
+fine-tune, you customize it in
+accord with your culture, so already
+
+01:24:35.241 --> 01:24:37.820
+there is a base model that is
+trained in a distributed way, that is to say
+
+01:24:37.821 --> 01:24:40.620
+each person has
+their data, their computing center
+
+01:24:40.970 --> 01:24:43.680
+and what they exchange
+periodically, that is to say, it can be
+
+01:24:43.681 --> 01:24:45.320
+every millisecond, every
+second, or every hour
+
+01:24:45.670 --> 01:24:46.870
+It is a vector of parameters
+
+01:24:47.040 --> 01:24:51.960
+And the global training of
+the system is not very different
+
+01:24:51.961 --> 01:24:53.441
+from what is called
+federated learning
+
+01:24:53.870 --> 01:24:55.340
+or federative
+
+01:24:55.740 --> 01:25:04.241
+it is that periodically each
+actor receives the average parameter.
+
+01:25:04.440 --> 01:25:05.440
+in a way
+
+01:25:05.550 --> 01:25:08.180
+and is regularized in order to
+try to get closer to this average parameter
+
+01:25:08.280 --> 01:25:10.640
+while being trained on these
+data, so it is a kind of
+
+01:25:10.641 --> 01:25:12.400
+it's like
+elastic bands, actually
+
+01:25:12.700 --> 01:25:16.200
+you read all these parameter vectors
+with elastic bands to their average
+
+01:25:16.300 --> 01:25:18.721
+and therefore they have a
+regularization that attracts them
+
+01:25:18.885 --> 01:25:22.000
+towards the consensus model which
+is the average of all these things
+
+01:25:22.100 --> 01:25:23.841
+so they never
+deviate too much
+
+01:25:24.100 --> 01:25:26.940
+from the model, it's them
+who decide to approach it
+
+01:25:26.941 --> 01:25:29.480
+well, they have a good reason to approach it
+they have a good reason to approach it
+
+01:25:29.481 --> 01:25:31.480
+but they are not required to approach it
+because at the end but they are interested
+
+01:25:31.481 --> 01:25:33.880
+that's what's great at
+the end if this thing converges
+
+01:25:34.305 --> 01:25:37.560
+we have a model that
+is a global consensus.
+
+01:25:38.160 --> 01:25:40.740
+which is similar to if it had been
+trained on all the data
+
+01:25:40.741 --> 01:25:43.220
+without the data being
+exchanged of course, so each region
+
+01:25:43.420 --> 01:25:45.520
+preserve its sovereignty
+over this data.
+
+01:25:45.820 --> 01:25:50.310
+exchange a set of parameters
+and in the end we have an open model.
+
+01:25:50.750 --> 01:25:51.790
+accessible to everyone.
+
+01:25:52.095 --> 01:25:55.960
+which is a kind of repository of all
+human knowledge and well, listen
+
+01:25:55.961 --> 01:25:59.460
+frankly, it's a great hope for a
+global, federated AI, I think it's very cool
+
+01:25:59.461 --> 01:26:03.960
+because in addition, it's
+how it works out of interest.
+
+01:26:04.110 --> 01:26:07.380
+and not that it means that you have
+all the reasons to play the game, so here.
+
+01:26:07.530 --> 01:26:08.440
+you see
+
+01:26:08.540 --> 01:26:13.620
+rather than what is my favorite thing
+are decentralized systems.
+
+01:26:13.770 --> 01:26:15.340
+decentralized systems
+work like this, so here.
+
+01:26:15.940 --> 01:26:20.702
+so we organized
+a workshop to start
+
+01:26:20.703 --> 01:26:23.580
+this thing at the beginning
+of May in Paris.
+
+01:26:24.000 --> 01:26:31.540
+where we had participants
+from Europe, Switzerland, the Indian Emirates.
+
+01:26:31.940 --> 01:26:33.520
+Japanese.
+
+01:26:34.320 --> 01:26:36.260
+and among the
+Americans too, actually
+
+01:26:36.610 --> 01:26:39.968
+companies like Nvidia
+AMD, etc. they are interested
+
+01:26:39.969 --> 01:26:42.100
+in the fact that they like
+open source
+
+01:26:42.350 --> 01:26:48.820
+and so it is enough to type on a
+Project Tapestry search engine.
+
+01:26:49.970 --> 01:26:55.200
+and you can find and participate
+there is a GitHub, there is work
+
+01:26:55.201 --> 01:26:58.660
+that has been started by IBM, so
+IBM is a major participant in this.
+
+01:26:58.661 --> 01:27:02.821
+they are very, very favorable
+to open source models.
+
+01:27:02.940 --> 01:27:09.500
+and I think it will grow, it's the
+voice of the world, well listen, frankly
+
+01:27:09.501 --> 01:27:12.160
+it's quite enthusiastic because right now
+everyone is asking a lot of questions
+
+01:27:12.161 --> 01:27:14.720
+about sovereignty, well you participate
+it's a very elegant approach
+
+01:27:14.721 --> 01:27:23.320
+you're a scientist and I have
+started to talk about this idea some time ago
+
+01:27:23.321 --> 01:27:26.889
+several years initially
+internally at Facebook
+
+01:27:26.890 --> 01:27:29.140
+and then at Meta, I don't
+know how far I can go
+
+01:27:29.340 --> 01:27:31.181
+inside Meta
+unfortunately
+
+01:27:31.340 --> 01:27:32.860
+despite the
+
+01:27:33.260 --> 01:27:37.680
+at the time, Meta's enthusiasm for open
+source hadn't really taken off
+
+01:27:38.055 --> 01:27:40.247
+so since I left
+Meta, I have
+
+01:27:40.248 --> 01:27:42.601
+based on the mushroom
+to try to get it started
+
+01:27:42.750 --> 01:27:46.300
+and maybe the only thing we haven't
+maybe said is that you are the father of the Yama
+
+01:27:46.301 --> 01:27:50.200
+in all these models by hand
+fortunately we didn't say that then
+
+01:27:50.201 --> 01:27:55.100
+I have to say something
+very easy I have never been involved
+
+01:27:55.101 --> 01:27:57.260
+in the research
+on LLM
+
+01:27:57.360 --> 01:27:59.480
+I have nothing to do with the
+LLMs that were produced
+
+01:27:59.680 --> 01:28:02.671
+by Meta, and I did well
+to speak out
+
+01:28:02.695 --> 01:28:06.420
+because when these projects were started
+I was no longer in a position of authority
+
+01:28:06.421 --> 01:28:09.360
+I was chief scientist, which means
+that people could listen to me
+
+01:28:09.361 --> 01:28:11.900
+if they wanted, but I wasn't
+their boss, so, well, listen
+
+01:28:12.075 --> 01:28:17.300
+I have no technical contribution
+to LLaMa
+
+01:28:17.301 --> 01:28:21.300
+I encouraged them etc
+LLaMa is a French product
+
+01:28:21.550 --> 01:28:24.800
+It was started by a team
+of about a dozen people in Paris
+
+01:28:24.801 --> 01:28:26.769
+I'm sure you are all aware
+
+01:28:26.770 --> 01:28:29.480
+do you know him
+then, for LLaMa 2
+
+01:28:29.481 --> 01:28:32.920
+it was taken up by the company so
+there was a lot that happened
+
+01:28:32.921 --> 01:28:40.000
+no, my only contribution to LLaMa was
+to push for the open sourcing of LLaMa 2
+
+01:28:40.150 --> 01:28:42.560
+listen, it was a
+big one, and I remember
+
+01:28:42.710 --> 01:28:47.940
+and I remember that it was the
+CEO of HuggingFace, Clément Delangue
+
+01:28:47.941 --> 01:28:51.180
+who had made a big thank you by saying
+that it had opened an entire movement
+
+01:28:51.181 --> 01:28:53.840
+so thank you for this movement
+there you are, I know that's behind
+
+01:28:53.841 --> 01:28:56.260
+someone is shouting at me in my ear
+that we absolutely must stop
+
+01:28:56.310 --> 01:28:58.940
+but it was a real pleasure, Yann
+to have you, it was the final boss
+
+01:28:58.941 --> 01:29:00.834
+it was the final boss for
+the end of the episode, I hope
+
+01:29:00.835 --> 01:29:03.360
+what did you do at my time
+yeah yeah, it was very nice.
+
+01:29:03.510 --> 01:29:08.281
+well, listen, it's cool, thanks for coming.
+I'm glad we were able to go to it.
+
+01:29:12.000 --> 01:29:15.500
+we're going to do 3 hours, yeah that's right.
+yes, and what about you, you did 4 hours and 30 minutes.
+
+01:29:15.501 --> 01:29:20.180
+at Lex Friedman's
+- and well, listen, 7 hours
+- Amilab is hiring, so that's it.
+
+01:29:20.181 --> 01:29:22.700
+you are recruiting researchers
+you are recruiting the best in the world, isn't that so?
+
+01:29:22.701 --> 01:29:24.621
+we are recruiting researchers
+we are recruiting engineers.
+
+01:29:25.470 --> 01:29:28.240
+probably soon, at the beginning
+of next year we will recruit
+
+01:29:28.241 --> 01:29:33.220
+perhaps a different category of engineers
+because we will start to collaborate
+
+01:29:33.221 --> 01:29:36.461
+with industrial partners who could use
+
+01:29:36.462 --> 01:29:39.400
+JPA and One Model techniques in industry.
+
+01:29:40.050 --> 01:29:44.100
+so, we will need people
+who know certain industries.
+
+01:29:44.101 --> 01:29:49.380
+to work with their partners and
+in the long term Total World Domination on will
+
+01:29:49.381 --> 01:29:54.000
+World Model Domination was
+IN FRENCH with Yann LeCun.
+
+01:29:54.001 --> 01:29:55.733
+I hope you enjoyed it, we will
+
+01:29:55.734 --> 01:29:57.060
+lots of annotations on
+the episode it's much better
+
+01:29:57.260 --> 01:29:58.980
+do we understand everything?
+
+01:29:58.981 --> 01:30:01.640
+no no not everything we need to
+work on it, that's it there were
+
+01:30:01.641 --> 01:30:03.366
+some dimensions
+quite high some
+
+01:30:03.367 --> 01:30:04.820
+maths to rework
+high dimensionality
+
+01:30:04.970 --> 01:30:09.600
+thanks Yann thanks if you don't want to miss
+our next episodes with guests
+
+01:30:09.601 --> 01:30:12.760
+of the stature of Yann LeCun, other researchers, other entrepreneurs
+
+01:30:12.761 --> 01:30:16.620
+other visionaries subscribe
+to the channel À LA FRENCH like the episode
+
+01:30:16.621 --> 01:30:26.070
+comment it to make it appear in the important ad algorithm
+
+01:30:26.071 --> 01:30:28.990
+when the party was announced on the
+French website on June 12th, less than 24 hours before
+
+01:30:28.991 --> 01:30:31.990
+the 250 places were sold
+so we had a great evening
+
+01:30:32.090 --> 01:30:34.910
+but hundreds of people were unable to come and are on a waiting list
+
+01:30:34.911 --> 01:30:38.010
+and we don't like frustration so
+we decided to do it bigger
+
+01:30:38.011 --> 01:30:41.710
+for the conference À LA FRENCH on December 3
+we invite you
+
+01:30:41.711 --> 01:30:45.950
+we will be 1200 people from all over France to celebrate tech IN FRENCH.
+
+01:30:45.951 --> 01:30:49.450
+and a certain idea of tech.
+We are a nation of engineers.
+We invented the Minitel
+
+01:30:49.451 --> 01:30:53.290
+before the Internet, the TGV before
+Hyperloops, DivX, X264, VLC
+
+01:30:53.291 --> 01:30:55.433
+before streaming
+on Netflix. We are not going to
+
+01:30:55.434 --> 01:30:57.330
+let anyone tell us how
+we do tech, right?
+
+01:30:57.331 --> 01:31:00.390
+Come on! The conference, which has a certain idea of technology, will be on December 3rd.
+
+01:31:00.391 --> 01:31:04.470
+a day for the YouTube show community.
+Announcements, early screenings, rare guests,
+
+01:31:04.471 --> 01:31:08.210
+gifts, games, and attention, it's going well
+Frenchmaxxer.
+It's going to be the tech conference
+
+01:31:08.211 --> 01:31:11.490
+the most incredible one you've ever seen and we're going to celebrate together
+
+01:31:11.491 --> 01:31:13.738
+"a certain idea of technology".
+You can go to alafrench.org
+
+01:31:13.739 --> 01:31:16.310
+from now on, reserve
+your seats with reduced rates
+
+01:31:16.311 --> 01:31:19.010
+for those who don't have the means and
+support prices for those who can
+
+01:31:19.011 --> 01:31:21.983
+so we will meet on December 3
+live
+
+01:31:27.220 --> 01:31:27.876
+The interesting thing
+
+01:31:27.901 --> 01:31:30.940
+is for the transfer because, for example, you see on Cloud Run the machines
+
+01:31:30.941 --> 01:31:33.680
+they are limited to 6 gigabits in
+fact, the bottleneck now is
+
+01:31:33.681 --> 01:31:37.180
+loading the model, which is good for that
+so we're doing Xet, and we're trying
+
+01:31:37.181 --> 01:31:40.280
+with HuggingFace.
+- Yeah, but you see, with AV1 and APV
+
+01:31:40.430 --> 01:31:43.560
+do you have a lossless mode, depending on the model, it could be interesting.
+
+01:31:43.561 --> 01:31:48.000
+After, I have my two guys from Trinity College working on it.
+
+01:31:48.001 --> 01:31:51.160
+We'll talk about it in 3 weeks, they'll have at least a result before bothering you.
+
+01:31:51.161 --> 01:31:52.797
+Basically, it's a crazy idea, so I like it.
+
+01:31:52.798 --> 01:31:54.880
+If it works, you say "damn" and the guys
+
+01:31:55.030 --> 01:31:59.760
+yeah, yeah, it's pointless, but essential
+at the same time, who else but Mr. VLC
+
+01:31:59.761 --> 01:32:02.127
+to do something like
+that, yeah, it's the Mister
+
+01:32:02.128 --> 01:32:05.121
+it's the game, it's the game
+it's the game, it's the game.
+
