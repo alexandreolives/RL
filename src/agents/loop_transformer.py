@@ -35,3 +35,20 @@ class LoopTransformerCore(nn.Module):
             state = self.norm(state + self.block(state))
             states.append(state)
         return state, states
+
+
+class StatefulLoopCore(nn.Module):
+    """Streaming wrapper that carries the latest latent state across calls."""
+
+    def __init__(self, d_model: int = 64, *, heads: int = 4, max_iterations: int = 2) -> None:
+        super().__init__()
+        self.core = LoopTransformerCore(d_model, heads=heads, max_iterations=max_iterations)
+
+    def forward(self, latent: torch.Tensor, state: torch.Tensor | None = None) -> tuple[torch.Tensor, torch.Tensor]:
+        if latent.ndim != 2:
+            raise ValueError("latent must have shape (batch, d_model)")
+        if state is not None and state.shape != latent.shape:
+            raise ValueError("state must have the same shape as latent")
+        sequence = latent.unsqueeze(1) if state is None else torch.stack((state, latent), dim=1)
+        output, _ = self.core(sequence)
+        return output[:, -1], output[:, -1]

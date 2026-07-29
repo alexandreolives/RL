@@ -13,3 +13,9 @@ Run the CPU smoke training:
 ```bash
 PYTHONPATH=src:. .venv/bin/python experiments/step6_multimodal_agent/scripts/run_m1_smoke.py
 ```
+
+Stateful GRU versus Loop comparison:
+
+```bash
+PYTHONPATH=src:. .venv/bin/python experiments/step6_multimodal_agent/scripts/compare_stateful_memory.py
+```

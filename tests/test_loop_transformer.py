@@ -1,7 +1,7 @@
 import pytest
 import torch
 
-from agents.loop_transformer import LoopTransformerCore
+from agents.loop_transformer import LoopTransformerCore, StatefulLoopCore
 
 
 def test_shared_loop_returns_each_iteration_state():
@@ -15,3 +15,12 @@ def test_shared_loop_returns_each_iteration_state():
 def test_loop_rejects_invalid_depth():
     with pytest.raises(ValueError):
         LoopTransformerCore(d_model=16, heads=4, max_iterations=2)(torch.randn(1, 2, 16), iterations=3)
+
+
+def test_stateful_loop_carries_previous_latent():
+    core = StatefulLoopCore(d_model=16, heads=4)
+    current = torch.randn(2, 16)
+    first, state = core(current)
+    second, next_state = core(current * 0, state)
+    assert first.shape == second.shape == (2, 16)
+    assert not torch.equal(state, next_state)
