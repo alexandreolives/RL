@@ -46,6 +46,8 @@ experts de diffusion, mais ils ne doivent pas être confondus :
 - [On multi-token prediction for efficient LLM inference](https://arxiv.org/abs/2502.09419) : analyse des capacités MTP latentes des modèles entraînés en next-token.
 - [GLM-5.2 — Z.ai technical blog](https://z.ai/blog/glm-5.2) : MTP multi-step avec paramètres partagés, partage d'index/KV et rejection sampling ; Z.ai rapporte une hausse de 20 % de la longueur acceptée dans son ablation.
 - [Kimi K3 serving notes](https://vllm-project.github.io/vllm/blog/k3.html) : décrit une confidence head qui prédit l'acceptation des tokens proposés et élague les propositions faibles avant vérification.
+- [Kimi K3 technical report](https://arxiv.org/abs/2607.24653) : architecture multimodale avec Kimi Delta Attention (KDA), hybridation KDA/MLA, Attention Residuals et Stable LatentMoE.
+- [Kimi K3 source repository](https://github.com/MoonshotAI/Kimi-K3) : rapport technique et artefacts officiels.
 
 À ce stade, aucune source primaire consultée ne confirme que le travail
 Markov/multi-token ci-dessus provient de Z.ai. L'attribution Z.ai reste donc une

@@ -87,6 +87,32 @@ résultats sont archivés.
 - [ ] Comparer MLP, hiérarchique, récurrent et uncertainty-aware.
 - [ ] Tester le routeur sur changements de tâche et expansion d'experts.
 
+## M2 — Mémoire récurrente linéaire et hybridation KDA/Mamba
+
+- [ ] Implémenter un bloc Delta/linear-attention à état récurrent borné, inspiré
+  de Kimi Delta Attention, avec oubli/écriture par canal.
+- [ ] Ajouter un contrôle Mamba-2/Selective State Space si une implémentation
+  auditée est disponible ; ne pas appeler KDA « Mamba-2 » sans équivalence
+  démontrée.
+- [ ] Comparer attention quadratique, KDA/Delta, Mamba-2/SSM et FFT sur les
+  mêmes séquences et budgets actifs.
+- [ ] Tester des ratios hybrides `3:1`, `1:1` et `attention-only` avec une
+  attention globale finale pour le rappel exact.
+- [ ] Mesurer qualité long contexte, coût d'état récurrent, KV-cache, débit,
+  stabilité et transfert multimodal.
+- [ ] Brancher ces blocs dans le Loop Transformer sans modifier l'interface du
+  routeur, afin de les ablater indépendamment.
+
+## M2 — Stable LatentMoE et Attention Residuals
+
+- [ ] Ajouter un MoE sur dimension latente avec experts partagés + routés.
+- [ ] Tester équilibrage par quantiles des scores du routeur contre auxiliaire
+  classique, avec nombre d'experts actifs contrôlé.
+- [ ] Comparer résidu séquentiel, AttnRes sur les représentations précédentes,
+  mHC et agrégation uniforme à profondeur égale.
+- [ ] Mesurer oubli, interférence entre modalités, stabilité du gradient et
+  mémoire de KV/activations.
+
 ## M2 — Quantification ternaire (objectif C)
 
 - [ ] Implémenter fake-quantisation STE vers `{-1, 0, +1}` avec échelles.
