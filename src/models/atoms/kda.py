@@ -66,7 +66,7 @@ class HybridKDA(nn.Module):
             raise ValueError("kda_blocks and num_cycles must be positive")
         self.kda_blocks = kda_blocks
         self.kda = nn.ModuleList(KDA(d_model, heads=attention_heads) for _ in range(kda_blocks * num_cycles))
-        self.attn = nn.ModuleList(nn.MultiheadAttention(d_model, attention_heads, batch_first=True) for _ in range(num_cycles))
+        self.attn = nn.ModuleList(GatedMLA(d_model, attention_heads) for _ in range(num_cycles))
         self.norm = nn.ModuleList(nn.LayerNorm(d_model) for _ in range((kda_blocks + 1) * num_cycles))
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
@@ -77,6 +77,18 @@ class HybridKDA(nn.Module):
                 z, _ = self.kda[ki](self.norm[ni](y)); ki += 1; ni += 1
                 y = y + z
             q = self.norm[ni](y); ni += 1
-            a, _ = self.attn[cycle](q, q, q, need_weights=False)
+            a = self.attn[cycle](q)
             y = y + a
         return y
+
+
+class GatedMLA(nn.Module):
+    """Small gated dense-attention reference for K3-style hybrid ablations."""
+    def __init__(self, d_model: int, heads: int):
+        super().__init__()
+        self.attn = nn.MultiheadAttention(d_model, heads, batch_first=True)
+        self.gate = nn.Linear(d_model, d_model)
+
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        value, _ = self.attn(x, x, x, need_weights=False)
+        return value * torch.sigmoid(self.gate(x))
