@@ -15,6 +15,8 @@ def test_kda_streaming_shapes_and_state():
     y_a, st = m(x[:, :3])
     y_b, _ = m(x[:, 3:], st)
     assert torch.allclose(torch.cat((y_a, y_b), 1), y, atol=1e-5, rtol=1e-5)
+    qat = KDA(16, heads=4, qat=True)
+    assert qat(torch.randn(1, 3, 16))[0].shape == (1, 3, 16)
 
 
 def test_hybrid_and_latent_moe():

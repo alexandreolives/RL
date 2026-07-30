@@ -14,7 +14,7 @@ class BlockFloatFakeQuant(nn.Module):
 
     This models the training semantics of MXFP formats; it is deliberately not
     a hardware encoder. ``mantissa_bits=2`` is an MXFP4-like range and
-    ``mantissa_bits=7`` an MXFP8-like range.
+    ``mantissa_bits=4`` an MXFP8-like range in this reference approximation.
     """
     def __init__(self, *, block_size: int = 32, mantissa_bits: int = 2, exponent_bits: int = 2):
         super().__init__()
@@ -42,3 +42,14 @@ class MXFP4FakeQuant(BlockFloatFakeQuant):
 class MXFP8FakeQuant(BlockFloatFakeQuant):
     def __init__(self, block_size: int = 32):
         super().__init__(block_size=block_size, mantissa_bits=4, exponent_bits=3)
+
+
+class QATLinear(nn.Linear):
+    """Linear layer with MXFP4-like fake-quantized weights."""
+    def __init__(self, in_features: int, out_features: int, *, bias: bool = True, block_size: int = 32):
+        super().__init__(in_features, out_features, bias=bias)
+        self.weight_quant = MXFP4FakeQuant(block_size=block_size)
+
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        weight = self.weight_quant(self.weight)
+        return torch.nn.functional.linear(x, weight, self.bias)

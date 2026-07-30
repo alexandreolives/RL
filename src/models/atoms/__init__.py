@@ -13,4 +13,4 @@ from .experiment import RunRecord, parameter_count, write_run_manifest
 from .router import RandomRouter, TopKRouter, build_single_expert_router, routing_stats
 from .kda import KDA, HybridKDA, GatedMLA, KDAState
 from .latent_moe import LatentMoE
-from .quantization import BlockFloatFakeQuant, MXFP4FakeQuant, MXFP8FakeQuant
+from .quantization import BlockFloatFakeQuant, MXFP4FakeQuant, MXFP8FakeQuant, QATLinear

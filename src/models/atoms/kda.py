@@ -8,7 +8,7 @@ from __future__ import annotations
 
 import torch
 from torch import nn
-from .quantization import MXFP8FakeQuant
+from .quantization import MXFP8FakeQuant, QATLinear
 
 
 class KDAState:
@@ -24,10 +24,11 @@ class KDA(nn.Module):
         self.head_dim = head_dim or (d_model // heads)
         if self.heads * self.head_dim != d_model:
             raise ValueError("d_model must be divisible by heads")
-        self.qkv = nn.Linear(d_model, 3 * d_model, bias=False)
+        linear = QATLinear if qat else nn.Linear
+        self.qkv = linear(d_model, 3 * d_model, bias=False)
         self.gate = nn.Linear(d_model, heads, bias=True)
         self.decay = nn.Parameter(torch.full((heads, self.head_dim), -2.0))
-        self.out = nn.Linear(d_model, d_model, bias=False)
+        self.out = linear(d_model, d_model, bias=False)
         self.activation_quant = MXFP8FakeQuant() if qat else nn.Identity()
 
     def init_state(self, x: torch.Tensor) -> KDAState:
