@@ -132,6 +132,13 @@ variantes KDA×Loop ne montrent aucun gain avec seulement 30 épisodes. Elles ne
 doivent donc pas être retenues comme “optimales” avant un entraînement plus long
 et des tâches de rappel long dédiées.
 
+Un second run (100 épisodes, seeds 0/1, même environnement) donne les moyennes
+suivantes : baseline `visible=0,40 / hidden=0,525`, Loop-only
+`0,40 / 0,525`, Fourier→attention `0,575 / 0,425`, KDA→Loop
+`0,60 / 0,475`, KDA→Loop→attention `0,40 / 0,525`. Le score composite
+visible+hidden favorise provisoirement KDA→Loop (`1,075` contre `0,925` pour
+la baseline), mais l'écart repose sur deux seeds et doit être confirmé.
+
 Un screening de stabilité (`scripts/benchmark_hybrid_stability.py`) sur toute
 la grille, 1–4 itérations et état conservé, a trouvé **0 sortie non finie**.
 Les gradients les plus élevés apparaissent sur KDA→Loop à 4 itérations
