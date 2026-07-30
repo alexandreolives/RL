@@ -25,6 +25,9 @@ agent = ModularMultimodalAgent(hybrid_stages=hybrid_stages, hybrid_iterations=2)
 - `scripts/benchmark_hybrid_schedules.py` compare attention-only,
   Fourier→attention, Fourier→KDA→attention, Fourier→KDA→Loop→attention et
   KDA 3:1 pour plusieurs nombres d'itérations.
+- `AdaptiveHybridCore` et les paramètres `hybrid_fast_stages` /
+  `hybrid_full_stages` permettent un choix dynamique piloté par l'incertitude ;
+  le chemin sélectionné est inclus dans la trace.
 
 Ces résultats vérifient la construction, les gradients et les interfaces ; ils
 ne constituent pas encore une comparaison qualité scientifique. Les prochains
