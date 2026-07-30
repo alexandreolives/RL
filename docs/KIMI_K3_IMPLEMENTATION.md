@@ -10,6 +10,9 @@ prétendre reproduire leur kernel de production :
   puis expansion ; `last_aux_loss` expose un signal de balance ;
 - `use_attn_res=True` : agrégation Attention Residuals des sorties Engram,
   spectral, LatentMoE, KDA et Loop dans l'agent ;
+- `MXFP4FakeQuant` / `MXFP8FakeQuant` : fake-quantification bloc avec STE
+  pour préparer les ablations QAT ; `KDA(qat=True)` active la quantification
+  des activations MXFP8.
 - `ModularMultimodalAgent(use_kda=True, use_latent_moe=True)` permet de tester
   ces blocs indépendamment, sans modifier la configuration historique.
 
@@ -23,3 +26,6 @@ LatentMoE avec mêmes paramètres, longueur de contexte, seed et budget FLOPs.
 
 Références primaires : Kimi Linear (`arXiv:2510.26692`), rapport Kimi K3
 (`arXiv:2607.24653`), LatentMoE (`arXiv:2601.18089`).
+
+La fake-quantification ne prétend pas encoder les octets MXFP ni fournir le
+kernel accéléré ; elle sert à comparer la stabilité et la qualité en entraînement.

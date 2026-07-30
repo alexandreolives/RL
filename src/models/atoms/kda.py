@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import torch
 from torch import nn
+from .quantization import MXFP8FakeQuant
 
 
 class KDAState:
@@ -17,7 +18,7 @@ class KDAState:
 
 class KDA(nn.Module):
     """Gated delta-rule linear attention, with channel-wise decay."""
-    def __init__(self, d_model: int, *, heads: int = 4, head_dim: int | None = None):
+    def __init__(self, d_model: int, *, heads: int = 4, head_dim: int | None = None, qat: bool = False):
         super().__init__()
         self.heads = heads
         self.head_dim = head_dim or (d_model // heads)
@@ -27,6 +28,7 @@ class KDA(nn.Module):
         self.gate = nn.Linear(d_model, heads, bias=True)
         self.decay = nn.Parameter(torch.full((heads, self.head_dim), -2.0))
         self.out = nn.Linear(d_model, d_model, bias=False)
+        self.activation_quant = MXFP8FakeQuant() if qat else nn.Identity()
 
     def init_state(self, x: torch.Tensor) -> KDAState:
         return KDAState(x.new_zeros(x.size(0), self.heads, self.head_dim, self.head_dim))
@@ -35,7 +37,7 @@ class KDA(nn.Module):
         if x.dim() != 3:
             raise ValueError("KDA expects [batch, sequence, d_model]")
         b, s, _ = x.shape
-        q, k, v = self.qkv(x).chunk(3, dim=-1)
+        q, k, v = self.activation_quant(self.qkv(x)).chunk(3, dim=-1)
         q = q.view(b, s, self.heads, self.head_dim)
         k = k.view(b, s, self.heads, self.head_dim)
         v = v.view(b, s, self.heads, self.head_dim)
@@ -60,12 +62,12 @@ class HybridKDA(nn.Module):
     ``num_cycles=1`` gives the smallest 3:1 reference; larger values are useful
     for fair depth-matched ablations. Every block has its own parameters.
     """
-    def __init__(self, d_model: int, *, kda_blocks: int = 3, num_cycles: int = 1, attention_heads: int = 4):
+    def __init__(self, d_model: int, *, kda_blocks: int = 3, num_cycles: int = 1, attention_heads: int = 4, qat: bool = False):
         super().__init__()
         if kda_blocks < 1 or num_cycles < 1:
             raise ValueError("kda_blocks and num_cycles must be positive")
         self.kda_blocks = kda_blocks
-        self.kda = nn.ModuleList(KDA(d_model, heads=attention_heads) for _ in range(kda_blocks * num_cycles))
+        self.kda = nn.ModuleList(KDA(d_model, heads=attention_heads, qat=qat) for _ in range(kda_blocks * num_cycles))
         self.attn = nn.ModuleList(GatedMLA(d_model, attention_heads) for _ in range(num_cycles))
         self.norm = nn.ModuleList(nn.LayerNorm(d_model) for _ in range((kda_blocks + 1) * num_cycles))
 

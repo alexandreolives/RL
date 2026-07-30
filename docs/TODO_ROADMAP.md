@@ -140,7 +140,7 @@ Inspirations Kimi K3 / MoonEP à hybrider avec notre stack (source archive:
 
 ## M2 — Quantification ternaire (objectif C)
 
-- [ ] Implémenter fake-quantisation STE vers `{-1, 0, +1}` avec échelles.
+- [x] Implémenter une fake-quantification bloc MXFP4/MXFP8 avec STE et échelles.
 - [ ] Comparer FP16/BF16, post-training quantization et QAT.
 - [ ] Tester calendrier QAT progressif avec la transition ReLU² → GELU².
 - [ ] Mesurer perte, perplexité/reward, dérive, activation range et mémoire.
