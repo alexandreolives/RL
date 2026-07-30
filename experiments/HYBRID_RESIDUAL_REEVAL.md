@@ -59,3 +59,20 @@ a aussi été relancé avec `baseline`, `attnres`, `engram_noconv`,
 respectivement `0.125`, `0.125`, `0.0`, `0.0` et `0.0` ; ce budget est trop court
 pour conclure sur la qualité, mais confirme que les chemins s'entraînent et
 produisent des métriques comparables.
+
+## Smoke benchmark GPU WSL2
+
+Copie isolée du dépôt (`/tmp/rl-m1-current`) dans l'image `rl-m1:fast`,
+PyTorch `2.6.0+cu124`, RTX 3060 Ti, séquence 32, batch 2, deux mesures :
+
+| schedule | 1 itération (ms) | 2 itérations (ms) |
+|---|---:|---:|
+| attention-only | 0.74 | 1.29 |
+| Fourier→attention | 0.73 | 1.10 |
+| Fourier→KDA→attention | 14.65 | 28.67 |
+| Fourier→KDA→Loop→attention | 20.80 | 40.77 |
+| KDA 3:1→attention | 80.54 | 96.88 |
+
+Le conteneur GPU ne contient pas `pytest`; la validation fonctionnelle reste
+faite localement (**64 tests**). Le benchmark CUDA confirme que la copie
+isolée contient le code courant et que les schedules s'exécutent sur le GPU.
