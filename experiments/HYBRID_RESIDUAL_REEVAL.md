@@ -99,3 +99,17 @@ correctement (RTX 3060 Ti, tiny, longueur 64, 2 seeds, 10 étapes). Les
 accuracies passkey sont restées à `0.0` pour baseline, AttnRes, Engram
 no-conv et Engram no-conv + AttnRes ; le budget est court et ne permet pas de
 conclure sur la qualité, mais valide le pipeline GPU de bout en bout.
+
+## Grille KDA × Loop sur GPU
+
+La grille complète (13 schedules, 1/2 itérations, état KDA conservé) a été
+exécutée sur RTX 3060 Ti, séquence 32. En latence seule, les candidats les
+plus rapides sont Fourier→attention (`0,62 ms`, 1 itération), attention-only
+(`0,63 ms`, 2 itérations) et Loop-only (`1,13 ms`, 1 itération). Les chemins
+KDA coûtent nettement plus cher dans cette référence Python : KDA→Loop
+(`16,11 ms`) et KDA→Loop→attention (`20,12 ms`).
+
+Ce classement est uniquement un filtre de coût : il ne désigne pas le meilleur
+modèle. Les candidats retenus pour la phase qualité sont Fourier→attention,
+Loop-only, KDA→Loop et KDA→Loop→attention, chacun avec état KDA réinitialisé
+et conservé, puis avec 1–4 itérations.

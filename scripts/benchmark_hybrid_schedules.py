@@ -12,6 +12,14 @@ SCHEDULES = {
     "fourier_kda_attention": ["fourier", "kda", "attention"],
     "fourier_kda_loop_attention": ["fourier", "kda", "loop", "attention"],
     "kda_attention_3to1": ["kda", "kda", "kda", "attention"],
+    "loop_only": ["loop"],
+    "kda_loop": ["kda", "loop"],
+    "loop_kda": ["loop", "kda"],
+    "kda_loop_attention": ["kda", "loop", "attention"],
+    "loop_kda_attention": ["loop", "kda", "attention"],
+    "fourier_kda_loop": ["fourier", "kda", "loop"],
+    "kda_fourier_loop": ["kda", "fourier", "loop"],
+    "fourier_attention_kda": ["fourier", "attention", "kda"],
 }
 
 
