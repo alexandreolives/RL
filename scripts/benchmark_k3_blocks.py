@@ -16,12 +16,14 @@ def count(model):
 
 
 @torch.no_grad()
-def bench(model, x, warmup, steps):
+def bench(model, x, warmup, steps, iterations=1):
     model.eval()
-    for _ in range(warmup): model(x)
+    def run():
+        return model(x, iterations=iterations) if isinstance(model, ConfigurableHybridCore) else model(x)
+    for _ in range(warmup): run()
     if x.is_cuda: torch.cuda.synchronize()
     t0 = time.perf_counter()
-    for _ in range(steps): model(x)
+    for _ in range(steps): run()
     if x.is_cuda: torch.cuda.synchronize()
     return (time.perf_counter() - t0) * 1000 / steps
 
@@ -33,6 +35,7 @@ def main():
     p.add_argument("--sequence", type=int, default=128)
     p.add_argument("--d-model", type=int, default=64)
     p.add_argument("--steps", type=int, default=20)
+    p.add_argument("--hybrid-iterations", type=int, default=1)
     args = p.parse_args()
     device = torch.device(args.device)
     torch.manual_seed(0)
@@ -48,7 +51,7 @@ def main():
     rows = []
     for name, model in variants.items():
         model.to(device)
-        rows.append({"variant": name, "parameters": count(model), "latency_ms": bench(model, x, 3, args.steps)})
+        rows.append({"variant": name, "parameters": count(model), "latency_ms": bench(model, x, 3, args.steps, args.hybrid_iterations)})
     print(json.dumps({"device": str(device), "batch": args.batch, "sequence": args.sequence, "results": rows}, indent=2))
 
 
