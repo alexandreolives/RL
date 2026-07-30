@@ -56,18 +56,39 @@ résultats sont archivés.
 
 ## M1 — Boucles hybrides spectral/attention
 
-- [ ] Implémenter un bloc de mixage spectral (Fourier/FFT ou approximation
-  réelle) compatible avec la même interface latent que l'attention.
-- [ ] Tester un schedule `spectral → attention` au début des boucles, puis
-  `attention → spectral` et alternance par itération.
+- [ ] Implémenter une architecture hybride à planning explicite, où chaque
+  position de profondeur peut choisir indépendamment `Fourier/FFT`, KDA/SSM,
+  attention dense, Loop Transformer ou un bloc DeepSeek/mHC.
+- [ ] Permettre de modifier le type de bloc et son ratio pour chaque étage
+  (`3:1`, `1:1`, `4:1`, attention finale seulement), sans changer les
+  interfaces de tenseurs ni le routeur.
+- [ ] Tester les schedules `spectral → attention`, `attention → spectral`,
+  Fourier → KDA → attention et alternance différente à chaque itération.
 - [ ] Ajouter un switch dynamique piloté par profondeur, modalité, longueur de
-  contexte ou incertitude du routeur.
+  contexte ou incertitude du routeur, avec journalisation du chemin réellement
+  exécuté.
+- [ ] Ajouter un mode Loop qui réapplique le planning complet plusieurs fois,
+  avec budget maximal, halting et état récurrent contrôlable.
 - [ ] Comparer à budget actif égal : attention seule, spectral seul, hybride
   fixe et hybride dynamique.
 - [ ] Mesurer qualité, dépendances longues, aliasing, stabilité numérique,
   latence FFT, mémoire et coût sur séquences courtes/longues.
 - [ ] Vérifier que le switch ne dégrade pas les gradients ni la calibration du
   halting ; conserver un fallback attention-only.
+
+## M2 — Réévaluation résiduelle/DeepSeek
+
+- [ ] Rebaser les comparaisons historiques sur l'implémentation actuelle de
+  `FullAttentionResidual`, mHC et hyper-connections DeepSeek, sans réutiliser
+  les anciens chiffres obtenus avec les primitives précédentes.
+- [ ] Rejouer baseline, résidu séquentiel, Full Attention Residual, mHC et
+  agrégation uniforme à profondeur, seeds, paramètres actifs et FLOPs égaux.
+- [ ] Rejouer les combinaisons DeepSeek + Engram, DeepSeek + KDA/FFT, mHC +
+  Engram et KDA + Attention Residuals, avec et sans Loop.
+- [ ] Mesurer qualité, rappel long, pertes d'information, normes/gradients,
+  latence, mémoire et coût de calcul ; archiver chaque configuration et seed.
+- [ ] Vérifier spécifiquement si le changement de résidu modifie les résultats
+  précédents, puis documenter les gains, régressions et résultats négatifs.
 
 ## M2 — MoE-LoRA à croissance dynamique (objectif A)
 

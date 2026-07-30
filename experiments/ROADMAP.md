@@ -43,6 +43,38 @@ Expériences prioritaires :
 - curriculum long contexte et multimodal natif, validés sur nos tâches de
   mémoire et de planification, pas seulement sur des proxys LLM.
 
+### Architecture à planning de blocs et boucles hybrides
+
+Objectif : dépasser un hybride Kimi fixe en testant des chemins où chaque
+étage choisit explicitement son opérateur (`Fourier/FFT`, KDA/SSM, attention
+dense, Loop Transformer, mHC/DeepSeek). Le planning et les ratios doivent être
+des données de configuration, pas des branchements codés en dur.
+
+À tester :
+
+- ratios par étage `3:1`, `1:1`, `4:1` et attention globale finale seulement ;
+- schedules `Fourier→KDA→attention`, `spectral→attention`,
+  `attention→spectral` et schedules différents à chaque tour de Loop ;
+- réapplication de tout le planning sur plusieurs itérations, avec halting,
+  état récurrent et budget actif contrôlés ;
+- switch dynamique selon longueur de contexte, modalité, incertitude du routeur
+  et difficulté de la tâche ;
+- comparaison à budget égal : attention-only, Kimi fixe, planning hybride fixe,
+  planning variable et planning dynamique.
+
+Chaque run doit enregistrer le planning réellement exécuté, les FLOPs actifs,
+la latence, la mémoire, les normes/gradients et les scores de rappel long.
+
+### Réévaluation résiduelle et DeepSeek
+
+Les anciennes mesures doivent être considérées comme obsolètes dès qu'une
+primitive résiduelle est modifiée. Rejouer avec la version courante : baseline,
+résidu séquentiel, Full Attention Residual, mHC et hyper-connection DeepSeek,
+puis les combinaisons DeepSeek + Engram, DeepSeek + KDA/FFT, mHC + Engram et
+KDA + Attention Residuals, avec et sans Loop. Les paramètres, seeds, longueur,
+budget FLOPs et données doivent être appariés ; publier les régressions et les
+résultats négatifs au même titre que les gains.
+
 Référence détaillée : `papers/notes/KIMI_K3_BYCLOUD.md` et l'archive vidéo
 ByCloud associée.
 
