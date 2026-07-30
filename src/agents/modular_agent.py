@@ -10,6 +10,7 @@ from .multimodal_baseline import MultimodalActorCritic
 from .spectral_loop import SpectralAttentionLoop
 from models.atoms.kda import HybridKDA
 from models.atoms.latent_moe import LatentMoE
+from models.atoms.residual import FullAttentionResidual
 
 
 class ModularMultimodalAgent(nn.Module):
@@ -29,6 +30,7 @@ class ModularMultimodalAgent(nn.Module):
         use_kda: bool = False,
         use_latent_moe: bool = False,
         latent_moe_experts: int = 4,
+        use_attn_res: bool = False,
     ) -> None:
         super().__init__()
         self.encoder = MultimodalActorCritic(latent_dim=latent_dim, image_size=image_size)
@@ -39,6 +41,7 @@ class ModularMultimodalAgent(nn.Module):
         self.spectral = SpectralAttentionLoop(latent_dim) if use_spectral else None
         self.kda = HybridKDA(latent_dim) if use_kda else None
         self.latent_moe = LatentMoE(latent_dim, max(8, latent_dim // 2), num_experts=latent_moe_experts) if use_latent_moe else None
+        self.attn_res = FullAttentionResidual(latent_dim) if use_attn_res else None
         self.policy = nn.Linear(latent_dim, 2)
         self.value = nn.Linear(latent_dim, 1)
 
@@ -53,16 +56,24 @@ class ModularMultimodalAgent(nn.Module):
     ) -> tuple[torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor | None]:
         latent = self.encoder.encode(image=image, bytes_view=bytes_view, symbolic=symbolic, phase=phase)
         sequence = latent.unsqueeze(1)
+        residual_sources = [sequence]
         if self.engram is not None:
             sequence = self.engram(sequence, bytes_view[:, :1])
+            residual_sources.append(sequence)
         if self.spectral is not None:
             sequence, _, _ = self.spectral(sequence, force_attention=False)
+            residual_sources.append(sequence)
         if self.latent_moe is not None:
             sequence = self.latent_moe(sequence)
+            residual_sources.append(sequence)
         if self.kda is not None:
             sequence = self.kda(sequence)
+            residual_sources.append(sequence)
         if self.loop is not None:
             sequence, _ = self.loop(sequence)
+            residual_sources.append(sequence)
+        if self.attn_res is not None:
+            sequence = self.attn_res(residual_sources)
         latent = sequence[:, -1]
         predicted = self.jepa(latent, action) if self.jepa is not None and action is not None else None
         return self.policy(latent), self.value(latent).squeeze(-1), latent, predicted

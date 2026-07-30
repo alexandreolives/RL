@@ -8,6 +8,8 @@ prétendre reproduire leur kernel de production :
 - `HybridKDA` : point de comparaison KDA + attention dense ;
 - `LatentMoE` : compression avant dispatch, top-k experts dans l'espace latent,
   puis expansion ; `last_aux_loss` expose un signal de balance ;
+- `use_attn_res=True` : agrégation Attention Residuals des sorties Engram,
+  spectral, LatentMoE, KDA et Loop dans l'agent ;
 - `ModularMultimodalAgent(use_kda=True, use_latent_moe=True)` permet de tester
   ces blocs indépendamment, sans modifier la configuration historique.
 
