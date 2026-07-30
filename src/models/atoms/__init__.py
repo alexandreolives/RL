@@ -11,3 +11,5 @@ from .residual import FullAttentionResidual
 from .contracts import ModularAgentConfig, RouterDecision
 from .experiment import RunRecord, parameter_count, write_run_manifest
 from .router import RandomRouter, TopKRouter, build_single_expert_router, routing_stats
+from .kda import KDA, HybridKDA, KDAState
+from .latent_moe import LatentMoE
