@@ -1,6 +1,6 @@
 import torch
 
-from models.atoms.hybrid import ConfigurableHybridCore, AdaptiveHybridCore, HybridStage
+from models.atoms.hybrid import ConfigurableHybridCore, AdaptiveHybridCore, AnchoredKDALoopMacroblock, CausalGatedFourierBlock, HybridStage
 from agents.modular_agent import ModularMultimodalAgent
 
 
@@ -31,3 +31,19 @@ def test_kda_state_can_be_carried_between_loop_iterations():
     core = ConfigurableHybridCore(16, stages=["kda", "loop"], carry_kda_state=True)
     y = core(torch.randn(2, 4, 16), iterations=3)
     assert y.shape == (2, 4, 16) and torch.isfinite(y).all()
+
+
+def test_causal_fourier_does_not_see_future_tokens():
+    block = CausalGatedFourierBlock(8, kernel_size=5)
+    x = torch.randn(1, 12, 8)
+    y = block(x)
+    changed = x.clone(); changed[:, 8:] += 100.0
+    y_changed = block(changed)
+    torch.testing.assert_close(y[:, :8], y_changed[:, :8], atol=1e-5, rtol=1e-5)
+
+
+def test_anchored_kda_loop_macroblock():
+    block = AnchoredKDALoopMacroblock(16, loop_repeats=2, post_kda=True)
+    y, trace = block(torch.randn(2, 6, 16))
+    assert y.shape == (2, 6, 16)
+    assert trace.count("loop_kda") == 2 and "mla_anchor" in trace

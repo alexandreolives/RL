@@ -32,3 +32,8 @@ def test_modular_agent_k3_blocks_are_composable():
 def test_modular_agent_exposes_kda_state_carry():
     model = ModularMultimodalAgent(use_loop=False, hybrid_stages=["kda", "loop"], hybrid_iterations=2, hybrid_carry_kda_state=True)
     assert model.hybrid.carry_kda_state is True
+
+
+def test_modular_agent_anchored_macroblock():
+    model = ModularMultimodalAgent(use_loop=False, use_anchored_macroblock=True, macroblock_loop_repeats=2)
+    assert model.macroblock is not None

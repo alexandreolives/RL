@@ -29,6 +29,9 @@ VARIANTS = {
     "loop_kda_attention": {"use_loop": False, "hybrid_stages": ["loop", "kda", "attention"]},
     "fourier_kda_loop": {"use_loop": False, "hybrid_stages": ["fourier", "kda", "loop"]},
     "kda_fourier_loop": {"use_loop": False, "hybrid_stages": ["kda", "fourier", "loop"]},
+    "anchored_a": {"use_loop": False, "use_anchored_macroblock": True, "macroblock_loop_repeats": 2},
+    "anchored_b": {"use_loop": False, "use_anchored_macroblock": True, "macroblock_loop_repeats": 3},
+    "anchored_c": {"use_loop": False, "use_anchored_macroblock": True, "macroblock_loop_repeats": 2, "macroblock_post_kda": True},
     "kda_loop_carry": {"use_loop": False, "hybrid_stages": ["kda", "loop"], "hybrid_iterations": 2, "hybrid_carry_kda_state": True},
 }
 

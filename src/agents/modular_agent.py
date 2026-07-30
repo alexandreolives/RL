@@ -11,7 +11,7 @@ from .spectral_loop import SpectralAttentionLoop
 from models.atoms.kda import HybridKDA
 from models.atoms.latent_moe import LatentMoE
 from models.atoms.residual import FullAttentionResidual
-from models.atoms.hybrid import ConfigurableHybridCore, AdaptiveHybridCore, HybridStage
+from models.atoms.hybrid import ConfigurableHybridCore, AdaptiveHybridCore, AnchoredKDALoopMacroblock, HybridStage
 
 
 class ModularMultimodalAgent(nn.Module):
@@ -36,6 +36,9 @@ class ModularMultimodalAgent(nn.Module):
         hybrid_stages: list[str | HybridStage] | None = None,
         hybrid_iterations: int = 1,
         hybrid_carry_kda_state: bool = False,
+        use_anchored_macroblock: bool = False,
+        macroblock_loop_repeats: int = 2,
+        macroblock_post_kda: bool = False,
         hybrid_fast_stages: list[str | HybridStage] | None = None,
         hybrid_full_stages: list[str | HybridStage] | None = None,
     ) -> None:
@@ -57,6 +60,8 @@ class ModularMultimodalAgent(nn.Module):
             self.hybrid = (ConfigurableHybridCore(latent_dim, stages=hybrid_stages, carry_kda_state=hybrid_carry_kda_state)
                            if hybrid_stages is not None else None)
         self.hybrid_iterations = hybrid_iterations
+        self.macroblock = (AnchoredKDALoopMacroblock(latent_dim, loop_repeats=macroblock_loop_repeats, post_kda=macroblock_post_kda)
+                           if use_anchored_macroblock else None)
         self.policy = nn.Linear(latent_dim, 2)
         self.value = nn.Linear(latent_dim, 1)
 
@@ -86,6 +91,9 @@ class ModularMultimodalAgent(nn.Module):
             residual_sources.append(sequence)
         if self.hybrid is not None:
             sequence = self.hybrid(sequence, iterations=self.hybrid_iterations)
+            residual_sources.append(sequence)
+        if self.macroblock is not None:
+            sequence, _ = self.macroblock(sequence)
             residual_sources.append(sequence)
         if self.loop is not None:
             sequence, _ = self.loop(sequence)

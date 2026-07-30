@@ -160,3 +160,9 @@ la grille, 1–4 itérations et état conservé, a trouvé **0 sortie non finie*
 Les gradients les plus élevés apparaissent sur KDA→Loop à 4 itérations
 (`max_param_grad≈12,95`) : cette configuration doit être surveillée pendant
 l'entraînement, même si elle reste numériquement finie.
+
+Les macroblocs ancrés ont aussi été intégrés et testés (seed 0, 20 épisodes) :
+variante A (`KDA×2→Fourier causal gated→LoopKDA×2→MLA`) `0,5/0,3`, variante B
+avec trois tours `0,6/0,6`, variante C avec KDA de consolidation après MLA
+`0,35/0,6`, contre baseline `0,7/0,4`. La variante B est prometteuse pour le
+rappel caché, mais ce résultat reste un screening court.

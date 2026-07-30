@@ -18,6 +18,60 @@ class FourierBlock(nn.Module):
         return y
 
 
+class CausalGatedFourierBlock(nn.Module):
+    """Causal spectral convolution with content gate and small LayerScale.
+
+    The kernel is applied through an FFT after left-padding, then cropped to
+    the causal prefix. No future token can affect an output position.
+    """
+    def __init__(self, d_model: int, kernel_size: int = 15):
+        super().__init__()
+        self.kernel_size = kernel_size
+        self.kernel = nn.Parameter(torch.zeros(d_model, kernel_size))
+        self.gate = nn.Linear(d_model, d_model)
+        self.out = nn.Linear(d_model, d_model, bias=False)
+        self.scale = nn.Parameter(torch.full((d_model,), 0.05))
+
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        b, s, d = x.shape
+        n = s + self.kernel_size - 1
+        signal = torch.nn.functional.pad(x.transpose(1, 2), (self.kernel_size - 1, 0))
+        kernel = torch.nn.functional.pad(self.kernel, (0, n - self.kernel_size))
+        full = torch.fft.irfft(torch.fft.rfft(signal, n=n) * torch.fft.rfft(kernel, n=n).unsqueeze(0), n=n)
+        conv = full[..., self.kernel_size - 1:self.kernel_size - 1 + s]
+        conv = conv.transpose(1, 2)
+        return x + self.scale * torch.sigmoid(self.gate(x)) * self.out(conv)
+
+
+class AnchoredKDALoopMacroblock(nn.Module):
+    """KDA→KDA→causal Fourier→shared KDA-loop×R→global MLA anchor."""
+    def __init__(self, d_model: int, *, heads: int = 4, loop_repeats: int = 2, post_kda: bool = False, kda_qat: bool = False):
+        super().__init__()
+        if loop_repeats < 1:
+            raise ValueError("loop_repeats must be positive")
+        self.loop_repeats = loop_repeats
+        self.kda1, self.kda2 = KDA(d_model, heads=heads, qat=kda_qat), KDA(d_model, heads=heads, qat=kda_qat)
+        self.fourier = CausalGatedFourierBlock(d_model)
+        self.loop_kda = KDA(d_model, heads=heads, qat=kda_qat)
+        self.anchor = GatedMLA(d_model, heads)
+        self.post_kda = KDA(d_model, heads=heads, qat=kda_qat) if post_kda else None
+
+    def forward(self, x: torch.Tensor) -> tuple[torch.Tensor, list[str]]:
+        y, trace = x, []
+        for name, block in (("kda", self.kda1), ("kda", self.kda2)):
+            y, _ = block(y); trace.append(name)
+        y = self.fourier(y); trace.append("causal_fourier")
+        anchor = self.anchor(y); trace.append("mla_anchor")
+        for _ in range(self.loop_repeats):
+            update, _ = self.loop_kda(y)
+            y = y + update + 0.1 * anchor
+            trace.append("loop_kda")
+        y = y + anchor
+        if self.post_kda is not None:
+            update, _ = self.post_kda(y); y = y + update; trace.append("post_kda")
+        return y, trace
+
+
 class LoopBlock(nn.Module):
     def __init__(self, d_model: int, heads: int, ff_dim: int):
         super().__init__()
