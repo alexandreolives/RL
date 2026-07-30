@@ -14,7 +14,7 @@ prétendre reproduire leur kernel de production :
   spectral, LatentMoE, KDA et Loop dans l'agent ;
 - `MXFP4FakeQuant` / `MXFP8FakeQuant` : fake-quantification bloc avec STE
   pour préparer les ablations QAT ; `KDA(qat=True)` active la quantification
-  des activations MXFP8.
+  des poids MXFP4-like et des activations MXFP8.
 - `ModularMultimodalAgent(use_kda=True, use_latent_moe=True)` permet de tester
   ces blocs indépendamment, sans modifier la configuration historique.
 
