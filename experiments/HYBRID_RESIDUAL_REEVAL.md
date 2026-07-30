@@ -166,3 +166,9 @@ variante A (`KDA×2→Fourier causal gated→LoopKDA×2→MLA`) `0,5/0,3`, varia
 avec trois tours `0,6/0,6`, variante C avec KDA de consolidation après MLA
 `0,35/0,6`, contre baseline `0,7/0,4`. La variante B est prometteuse pour le
 rappel caché, mais ce résultat reste un screening court.
+
+Sur 50 épisodes (seed 0), le macrobloc C obtient `0,70/0,50`,
+KDA→Fourier→Loop `0,65/0,50`, le macrobloc B `0,50/0,45`, contre baseline
+`0,35/0,50` et KDA→Loop `0,30/0,30`. Ce run est plus coûteux car les
+macroblocs contiennent plusieurs KDA séquentielles ; les seeds suivants doivent
+être lancés séparément pour éviter de confondre durée de calcul et qualité.
