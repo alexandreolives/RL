@@ -30,6 +30,7 @@ class ModularMultimodalAgent(nn.Module):
         use_kda: bool = False,
         use_latent_moe: bool = False,
         latent_moe_experts: int = 4,
+        latent_moe_shared_experts: int = 0,
         use_attn_res: bool = False,
     ) -> None:
         super().__init__()
@@ -40,7 +41,7 @@ class ModularMultimodalAgent(nn.Module):
                      if use_loop else None)
         self.spectral = SpectralAttentionLoop(latent_dim) if use_spectral else None
         self.kda = HybridKDA(latent_dim) if use_kda else None
-        self.latent_moe = LatentMoE(latent_dim, max(8, latent_dim // 2), num_experts=latent_moe_experts) if use_latent_moe else None
+        self.latent_moe = LatentMoE(latent_dim, max(8, latent_dim // 2), num_experts=latent_moe_experts, shared_experts=latent_moe_shared_experts) if use_latent_moe else None
         self.attn_res = FullAttentionResidual(latent_dim) if use_attn_res else None
         self.policy = nn.Linear(latent_dim, 2)
         self.value = nn.Linear(latent_dim, 1)

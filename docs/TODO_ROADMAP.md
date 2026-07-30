@@ -106,7 +106,8 @@ résultats sont archivés.
 
 ## M2 — Stable LatentMoE et Attention Residuals
 
-- [x] Ajouter un MoE sur dimension latente avec experts routés et compression.
+- [x] Ajouter un MoE sur dimension latente avec experts routés, compression et
+  experts partagés.
 - [ ] Tester équilibrage par quantiles des scores du routeur contre auxiliaire
   classique, avec nombre d'experts actifs contrôlé.
 - [x] Ajouter AttnRes sur les représentations précédentes ; [ ] comparer avec

@@ -24,3 +24,5 @@ def test_hybrid_and_latent_moe():
     moe = LatentMoE(16, 8, num_experts=4, top_k=2)
     y = moe(x)
     assert y.shape == x.shape and torch.isfinite(moe.last_aux_loss)
+    shared = LatentMoE(16, 8, num_experts=4, top_k=2, shared_experts=2)
+    assert shared(x).shape == x.shape
