@@ -139,6 +139,14 @@ suivantes : baseline `visible=0,40 / hidden=0,525`, Loop-only
 visible+hidden favorise provisoirement KDA→Loop (`1,075` contre `0,925` pour
 la baseline), mais l'écart repose sur deux seeds et doit être confirmé.
 
+Le troisième seed (baseline, Fourier→attention, KDA→Loop, 100 épisodes) donne
+respectivement `(visible, hidden)=(0,700,0,500)`, `(0,400,0,500)` et
+`(0,600,0,500)`. Sur les **3 seeds**, les moyennes deviennent : baseline
+`0,500 / 0,517` (composite `1,017`), Fourier→attention `0,517 / 0,450`
+(`0,967`) et KDA→Loop `0,600 / 0,483` (`1,083`). KDA→Loop est donc le meilleur
+score composite actuel, mais son avantage reste exploratoire et doit être
+confirmé sur des tâches de rappel long et davantage de seeds.
+
 Un screening de stabilité (`scripts/benchmark_hybrid_stability.py`) sur toute
 la grille, 1–4 itérations et état conservé, a trouvé **0 sortie non finie**.
 Les gradients les plus élevés apparaissent sur KDA→Loop à 4 itérations
