@@ -180,3 +180,9 @@ KDA→Fourier→Loop `0,433 / 0,483` (`0,917`), KDA→Loop avec état conservé
 `0,533 / 0,517` (`1,050`). Sur cette tâche et ce budget, le macrobloc C est
 donc la meilleure configuration mesurée ; son gain doit encore être vérifié
 sur rappel long et transfert avant généralisation.
+
+Le script de transfert couvre désormais aussi `MultimodalParityEnv` et accepte
+les variantes ancrées/KDA via `--env parity --variants ...`. Un smoke parity de
+5 épisodes donne baseline `0,567` contre macrobloc B `0,433` ; ce budget est
+insuffisant pour classer les architectures, mais le protocole de transfert est
+maintenant disponible.
