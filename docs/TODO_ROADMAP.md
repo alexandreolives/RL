@@ -56,10 +56,10 @@ résultats sont archivés.
 
 ## M1 — Boucles hybrides spectral/attention
 
-- [ ] Implémenter une architecture hybride à planning explicite, où chaque
+- [x] Implémenter une architecture hybride à planning explicite, où chaque
   position de profondeur peut choisir indépendamment `Fourier/FFT`, KDA/SSM,
   attention dense, Loop Transformer ou un bloc DeepSeek/mHC.
-- [ ] Permettre de modifier le type de bloc et son ratio pour chaque étage
+- [x] Permettre de modifier le type de bloc et son ratio pour chaque étage
   (`3:1`, `1:1`, `4:1`, attention finale seulement), sans changer les
   interfaces de tenseurs ni le routeur.
 - [ ] Tester les schedules `spectral → attention`, `attention → spectral`,
@@ -67,7 +67,7 @@ résultats sont archivés.
 - [ ] Ajouter un switch dynamique piloté par profondeur, modalité, longueur de
   contexte ou incertitude du routeur, avec journalisation du chemin réellement
   exécuté.
-- [ ] Ajouter un mode Loop qui réapplique le planning complet plusieurs fois,
+- [x] Ajouter un mode Loop qui réapplique le planning complet plusieurs fois,
   avec budget maximal, halting et état récurrent contrôlable.
 - [ ] Comparer à budget actif égal : attention seule, spectral seul, hybride
   fixe et hybride dynamique.
