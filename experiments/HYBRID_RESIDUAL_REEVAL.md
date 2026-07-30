@@ -52,3 +52,10 @@ Séquence 8, batch 1, eager, un warmup et une mesure :
 Ce smoke test montre le coût supplémentaire de l'agrégation résiduelle, surtout
 sur le chemin v6 ; il ne permet pas de conclure sur la qualité. Les mesures
 longues et multi-seeds restent obligatoires.
+
+Un run court reproductible (2 seeds, tiny, symbolique, longueur 40, 5 étapes)
+a aussi été relancé avec `baseline`, `attnres`, `engram_noconv`,
+`engram_noconv_attnres` et `mhc`. Les accuracies passkey moyennes obtenues sont
+respectivement `0.125`, `0.125`, `0.0`, `0.0` et `0.0` ; ce budget est trop court
+pour conclure sur la qualité, mais confirme que les chemins s'entraînent et
+produisent des métriques comparables.
