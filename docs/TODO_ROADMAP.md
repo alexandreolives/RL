@@ -34,22 +34,22 @@ résultats sont archivés.
 
 ## M1 — Mémoire Engram
 
-- [ ] Brancher Engram comme bloc optionnel après les flux latents.
-- [ ] Vérifier que son cache est isolé par épisode et correctement sérialisé.
+- [x] Brancher Engram comme bloc optionnel après les flux latents.
+- [x] Vérifier que son cache est isolé par épisode et correctement sérialisé.
 - [ ] Comparer baseline, Engram et Engram avec routeur au même budget actif.
 - [ ] Mesurer rappel long, collisions, coût mémoire et latence.
 
 ## M1 — JEPA latent et world model
 
-- [ ] Implémenter encodeur cible/online et prédiction du prochain latent.
-- [ ] Ajouter les régularisateurs anti-collapse (variance/covariance/SIGReg).
+- [x] Implémenter encodeur cible/online et prédiction du prochain latent.
+- [x] Ajouter les régularisateurs anti-collapse (variance/covariance/SIGReg).
 - [ ] Comparer reconstruction pixel, JEPA action-free et JEPA action-conditionné.
 - [ ] Mesurer erreur multi-horizon, suffisance latente et qualité de planification.
 
 ## M1 — Loop Transformer
 
-- [ ] Implémenter un bloc Transformer partagé réappliqué `N` fois.
-- [ ] Ajouter état récurrent, résidu stable, normalisation et gradient checkpoint.
+- [x] Implémenter un bloc Transformer partagé réappliqué `N` fois.
+- [x] Ajouter état récurrent, résidu stable, normalisation et gradient checkpoint.
 - [ ] Comparer profondeur fixe, profondeur variable et modèle non récurrent.
 - [x] Ajouter gate de halting avec budget maximal et sortie anticipée.
 - [ ] Mesurer gain par itération, stabilité des normes, calibration et latence.
@@ -62,9 +62,9 @@ résultats sont archivés.
 - [x] Permettre de modifier le type de bloc et son ratio pour chaque étage
   (`3:1`, `1:1`, `4:1`, attention finale seulement), sans changer les
   interfaces de tenseurs ni le routeur.
-- [ ] Tester les schedules `spectral → attention`, `attention → spectral`,
+- [x] Tester les schedules `spectral → attention`, `attention → spectral`,
   Fourier → KDA → attention et alternance différente à chaque itération.
-- [ ] Ajouter un switch dynamique piloté par profondeur, modalité, longueur de
+- [x] Ajouter un switch dynamique piloté par profondeur, modalité, longueur de
   contexte ou incertitude du routeur, avec journalisation du chemin réellement
   exécuté.
 - [x] Ajouter un mode Loop qui réapplique le planning complet plusieurs fois,

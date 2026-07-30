@@ -1,18 +1,20 @@
 from __future__ import annotations
 
 import torch
+from torch.utils.checkpoint import checkpoint
 from torch import nn
 
 
 class LoopTransformerCore(nn.Module):
     """Shared Transformer block applied repeatedly to a latent sequence."""
 
-    def __init__(self, d_model: int = 64, *, heads: int = 4, ff_dim: int = 128, max_iterations: int = 4, depth: int = 1) -> None:
+    def __init__(self, d_model: int = 64, *, heads: int = 4, ff_dim: int = 128, max_iterations: int = 4, depth: int = 1, gradient_checkpoint: bool = False) -> None:
         super().__init__()
         if d_model % heads or max_iterations < 1 or depth < 1:
             raise ValueError("d_model must be divisible by heads; depth and max_iterations >= 1")
         self.max_iterations = max_iterations
         self.depth = depth
+        self.gradient_checkpoint = gradient_checkpoint
         self.blocks = nn.ModuleList([nn.TransformerEncoderLayer(
             d_model=d_model, nhead=heads, dim_feedforward=ff_dim,
             batch_first=True, norm_first=True, dropout=0.0, activation="gelu"
@@ -34,7 +36,8 @@ class LoopTransformerCore(nn.Module):
         state = latent
         for _ in range(steps):
             for block_index, block in enumerate(self.blocks):
-                state = self.norm(state + self.layer_scales[block_index] * block(state))
+                update = checkpoint(block, state, use_reentrant=False) if self.gradient_checkpoint and self.training else block(state)
+                state = self.norm(state + self.layer_scales[block_index] * update)
             states.append(state)
         return state, states
 

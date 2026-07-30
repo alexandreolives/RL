@@ -30,6 +30,31 @@ def latent_prediction_loss(predicted: torch.Tensor, target: torch.Tensor) -> tor
     return (predicted - target.detach()).square().mean()
 
 
+class JEPAWorldModel(nn.Module):
+    """Minimal online/target JEPA world model with EMA target updates."""
+    def __init__(self, input_dim: int = 64, latent_dim: int = 64, num_actions: int = 2, hidden_dim: int = 128, ema: float = 0.99):
+        super().__init__()
+        self.online_encoder = nn.Sequential(nn.Linear(input_dim, hidden_dim), nn.GELU(), nn.Linear(hidden_dim, latent_dim))
+        self.target_encoder = nn.Sequential(nn.Linear(input_dim, hidden_dim), nn.GELU(), nn.Linear(hidden_dim, latent_dim))
+        self.predictor = ActionConditionedLatentPredictor(latent_dim, num_actions, hidden_dim)
+        self.ema = float(ema)
+        self.target_encoder.load_state_dict(self.online_encoder.state_dict())
+        for parameter in self.target_encoder.parameters():
+            parameter.requires_grad_(False)
+
+    @torch.no_grad()
+    def update_target(self) -> None:
+        for target, online in zip(self.target_encoder.parameters(), self.online_encoder.parameters()):
+            target.mul_(self.ema).add_(online, alpha=1.0 - self.ema)
+
+    def forward(self, state: torch.Tensor, next_state: torch.Tensor, action: torch.Tensor) -> tuple[torch.Tensor, torch.Tensor]:
+        online = self.online_encoder(state)
+        with torch.no_grad():
+            target = self.target_encoder(next_state)
+        predicted = self.predictor(online, action)
+        return predicted, target
+
+
 def variance_covariance_regularizer(latent: torch.Tensor, *, target_std: float = 1.0) -> torch.Tensor:
     """VICReg-style variance/covariance penalty for small latent batches."""
 

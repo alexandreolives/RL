@@ -39,3 +39,12 @@ def test_adaptive_loop_respects_hard_budget():
     output, used = core(torch.randn(2, 5, 16))
     assert output.shape == (2, 5, 16)
     assert 1 <= int(used) <= 3
+
+
+def test_loop_gradient_checkpoint_path_backpropagates():
+    core = LoopTransformerCore(d_model=16, heads=4, max_iterations=2, gradient_checkpoint=True)
+    core.train()
+    x = torch.randn(2, 5, 16, requires_grad=True)
+    output, _ = core(x, iterations=2)
+    output.square().mean().backward()
+    assert x.grad is not None and torch.isfinite(x.grad).all()
