@@ -113,3 +113,27 @@ Ce classement est uniquement un filtre de coût : il ne désigne pas le meilleur
 modèle. Les candidats retenus pour la phase qualité sont Fourier→attention,
 Loop-only, KDA→Loop et KDA→Loop→attention, chacun avec état KDA réinitialisé
 et conservé, puis avec 1–4 itérations.
+
+## Qualité multimodale (2 seeds, 30 épisodes)
+
+Sur `MultimodalMemoryEnv`, avec le même budget et les mêmes seeds :
+
+| variante | visible moyen | hidden moyen |
+|---|---:|---:|
+| baseline | 0,625 | 0,600 |
+| Loop-only | 0,350 | 0,600 |
+| Fourier→attention | **0,650** | 0,400 |
+| KDA→Loop | 0,350 | 0,600 |
+| KDA→Loop→attention | 0,350 | 0,600 |
+
+Résultat provisoire : Fourier→attention gagne légèrement sur le signal visible,
+mais perd sur le rappel caché ; la baseline reste meilleure globalement. Les
+variantes KDA×Loop ne montrent aucun gain avec seulement 30 épisodes. Elles ne
+doivent donc pas être retenues comme “optimales” avant un entraînement plus long
+et des tâches de rappel long dédiées.
+
+Un screening de stabilité (`scripts/benchmark_hybrid_stability.py`) sur toute
+la grille, 1–4 itérations et état conservé, a trouvé **0 sortie non finie**.
+Les gradients les plus élevés apparaissent sur KDA→Loop à 4 itérations
+(`max_param_grad≈12,95`) : cette configuration doit être surveillée pendant
+l'entraînement, même si elle reste numériquement finie.

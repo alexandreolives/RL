@@ -149,6 +149,9 @@ résultats sont archivés.
 - [ ] Construire une recherche successive-halving : sanity overfit, élimination
   par coût, deux seeds court, puis entraînement long des survivants ; ne pas
   choisir une architecture sur une seule seed ou un seul proxy.
+- [x] Ajouter screening automatisé sortie finie/gradient sur toute la grille ;
+  [x] lancer une première ablation reward/hidden-reward des survivants ; [ ]
+  confirmer sur entraînement long et rappel long.
 
 ## M2 — Stable LatentMoE et Attention Residuals
 
