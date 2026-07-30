@@ -131,8 +131,9 @@ Inspirations Kimi K3 / MoonEP à hybrider avec notre stack (source archive:
   expansion après expert et top-k ; [ ] tester ses variantes puis l'hybrider
   avec nos experts LoRA, Engram et le routeur top-k ; mesurer
   balance par quantiles, qualité et octets de communication.
-- [ ] Évaluer la réplication dynamique d'experts MoonEP indépendamment du
-  routeur appris ; mesurer overflow, charge par rang et coût de synchronisation.
+- [x] Ajouter une réplication dynamique locale des experts MoonEP indépendamment
+  du routeur appris ; [ ] mesurer overflow, charge par rang et coût de
+  synchronisation sur plusieurs GPU.
 - [ ] Tester QAT MXFP4/MXFP8 sur les chemins Loop/KDA/FFT et les experts LoRA,
   avec curriculum long contexte `8K→64K→256K→1M`, après contrôle BF16.
 - [ ] Documenter séparément post-training multi-teacher, effort de raisonnement

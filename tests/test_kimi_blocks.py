@@ -26,3 +26,6 @@ def test_hybrid_and_latent_moe():
     assert y.shape == x.shape and torch.isfinite(moe.last_aux_loss)
     shared = LatentMoE(16, 8, num_experts=4, top_k=2, shared_experts=2)
     assert shared(x).shape == x.shape
+    mapping = shared.rebalance_replicas(torch.tensor([.1, .8, .1, .0]), max_slots=6)
+    assert mapping.tolist()[:4] == [0, 1, 2, 3] and 1 in mapping.tolist()[4:]
+    assert shared(x).shape == x.shape

@@ -8,7 +8,8 @@ prétendre reproduire leur kernel de production :
 - `HybridKDA` : point de comparaison KDA + attention dense ;
 - `LatentMoE` : compression avant dispatch, top-k experts dans l'espace latent,
   puis expansion ; experts partagés optionnels (`shared_experts`) et
-  `last_aux_loss` exposant un signal de balance ;
+  `last_aux_loss` exposant un signal de balance ; `rebalance_replicas()` ajoute
+  des slots redondants pour les experts surchargés (analogue local à MoonEP) ;
 - `use_attn_res=True` : agrégation Attention Residuals des sorties Engram,
   spectral, LatentMoE, KDA et Loop dans l'agent ;
 - `MXFP4FakeQuant` / `MXFP8FakeQuant` : fake-quantification bloc avec STE
