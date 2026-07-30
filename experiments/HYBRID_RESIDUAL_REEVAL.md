@@ -147,6 +147,14 @@ respectivement `(visible, hidden)=(0,700,0,500)`, `(0,400,0,500)` et
 score composite actuel, mais son avantage reste exploratoire et doit être
 confirmé sur des tâches de rappel long et davantage de seeds.
 
+Enfin, le screening exhaustif qualité (20 épisodes, seeds 0/1/2) donne les
+meilleurs composites ex aequo à `1,133` pour KDA→Fourier→Loop et KDA→Loop avec
+état conservé ; Fourier→attention atteint `1,117`, la baseline `1,100`.
+Ces scores sont plus bruités que la campagne 100 épisodes et ne suffisent pas
+à choisir entre les deux architectures gagnantes. La phase suivante doit
+entraîner ces deux candidates, plus la baseline, sur 100–500 épisodes et des
+longueurs de séquence croissantes.
+
 Un screening de stabilité (`scripts/benchmark_hybrid_stability.py`) sur toute
 la grille, 1–4 itérations et état conservé, a trouvé **0 sortie non finie**.
 Les gradients les plus élevés apparaissent sur KDA→Loop à 4 itérations

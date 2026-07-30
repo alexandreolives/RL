@@ -26,6 +26,9 @@ VARIANTS = {
     "kda_loop": {"use_loop": False, "hybrid_stages": ["kda", "loop"]},
     "loop_kda": {"use_loop": False, "hybrid_stages": ["loop", "kda"]},
     "kda_loop_attention": {"use_loop": False, "hybrid_stages": ["kda", "loop", "attention"]},
+    "loop_kda_attention": {"use_loop": False, "hybrid_stages": ["loop", "kda", "attention"]},
+    "fourier_kda_loop": {"use_loop": False, "hybrid_stages": ["fourier", "kda", "loop"]},
+    "kda_fourier_loop": {"use_loop": False, "hybrid_stages": ["kda", "fourier", "loop"]},
     "kda_loop_carry": {"use_loop": False, "hybrid_stages": ["kda", "loop"], "hybrid_iterations": 2},
 }
 
