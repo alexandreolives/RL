@@ -14,3 +14,4 @@ from .router import RandomRouter, TopKRouter, build_single_expert_router, routin
 from .kda import KDA, HybridKDA, GatedMLA, KDAState
 from .latent_moe import LatentMoE
 from .quantization import BlockFloatFakeQuant, MXFP4FakeQuant, MXFP8FakeQuant, QATLinear
+from .hybrid import ConfigurableHybridCore, HybridStage, FourierBlock

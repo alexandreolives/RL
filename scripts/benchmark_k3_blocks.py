@@ -8,6 +8,7 @@ import torch
 
 from models.atoms.kda import KDA, HybridKDA
 from models.atoms.latent_moe import LatentMoE
+from models.atoms.hybrid import ConfigurableHybridCore
 
 
 def count(model):
@@ -41,6 +42,8 @@ def main():
         "kda_qat": KDA(args.d_model, heads=4, qat=True),
         "hybrid_3_to_1": HybridKDA(args.d_model, kda_blocks=3, attention_heads=4),
         "latent_moe": LatentMoE(args.d_model, args.d_model // 2, num_experts=4, top_k=2, shared_experts=2),
+        "fourier_kda_attention": ConfigurableHybridCore(args.d_model, stages=["fourier", "kda", "attention"]),
+        "fourier_kda_loop_attention": ConfigurableHybridCore(args.d_model, stages=["fourier", "kda", "loop", "attention"],),
     }
     rows = []
     for name, model in variants.items():
