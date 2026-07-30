@@ -25,3 +25,9 @@ def test_adaptive_schedule_records_selected_path():
     y, trace = core(torch.randn(2, 4, 16), return_trace=True)
     assert y.shape == (2, 4, 16)
     assert trace and all("adaptive_full" in item and "uncertainty" in item for item in trace)
+
+
+def test_kda_state_can_be_carried_between_loop_iterations():
+    core = ConfigurableHybridCore(16, stages=["kda", "loop"], carry_kda_state=True)
+    y = core(torch.randn(2, 4, 16), iterations=3)
+    assert y.shape == (2, 4, 16) and torch.isfinite(y).all()

@@ -23,6 +23,7 @@ def main():
     p.add_argument("--batch", type=int, default=2)
     p.add_argument("--iterations", type=int, nargs="+", default=[1, 2])
     p.add_argument("--steps", type=int, default=10)
+    p.add_argument("--carry-kda-state", action="store_true")
     args = p.parse_args()
     device = torch.device(args.device)
     torch.manual_seed(0)
@@ -30,7 +31,7 @@ def main():
     rows = []
     for name, stages in SCHEDULES.items():
         for loops in args.iterations:
-            model = ConfigurableHybridCore(args.d_model, stages=stages).to(device).eval()
+            model = ConfigurableHybridCore(args.d_model, stages=stages, carry_kda_state=args.carry_kda_state).to(device).eval()
             with torch.no_grad():
                 for _ in range(2): model(x, iterations=loops)
                 if device.type == "cuda": torch.cuda.synchronize(device)
@@ -39,6 +40,7 @@ def main():
                 if device.type == "cuda": torch.cuda.synchronize(device)
             rows.append({"schedule": name, "stages": stages, "iterations": loops,
                          "parameters": sum(p.numel() for p in model.parameters()),
+                         "carry_kda_state": args.carry_kda_state,
                          "latency_ms": (time.perf_counter() - start) * 1000 / args.steps})
     print(json.dumps({"device": str(device), "results": rows}, indent=2))
 

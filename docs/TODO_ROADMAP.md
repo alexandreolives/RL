@@ -130,6 +130,26 @@ résultats sont archivés.
 - [ ] Brancher ces blocs dans le Loop Transformer sans modifier l'interface du
   routeur, afin de les ablater indépendamment.
 
+### Matrice exhaustive KDA × Loop à tester
+
+- [ ] Comparer `KDA seul`, `Loop seul`, `KDA → Loop`, `Loop → KDA` et
+  `KDA → Loop → attention finale` à budget actif égal.
+- [ ] Comparer KDA réinitialisée à chaque itération Loop avec KDA dont l'état
+  est conservé entre les itérations ; vérifier dérive, oubli et explosion des
+  normes dans le second cas.
+- [ ] Balayer `iterations={1,2,3,4}` et profondeurs Loop `{1,2,4}` avec
+  mêmes paramètres, seeds, longueur et nombre de tokens vus.
+- [ ] Tester les ordres `Fourier → KDA → Loop`, `KDA → Fourier → Loop`,
+  `KDA → Loop → Fourier` et les variantes avec attention dense finale.
+- [ ] Tester ratios KDA/attention `1:1`, `3:1`, `4:1`, attention globale
+  périodique et attention uniquement au dernier tour.
+- [ ] Mesurer rappel exact, variable tracking, dépendances longues,
+  calibration du halting, stabilité des gradients, état mémoire, latence,
+  FLOPs actifs et qualité par watt.
+- [ ] Construire une recherche successive-halving : sanity overfit, élimination
+  par coût, deux seeds court, puis entraînement long des survivants ; ne pas
+  choisir une architecture sur une seule seed ou un seul proxy.
+
 ## M2 — Stable LatentMoE et Attention Residuals
 
 - [x] Ajouter un MoE sur dimension latente avec experts routés, compression et

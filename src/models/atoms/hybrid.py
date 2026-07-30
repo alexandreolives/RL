@@ -44,7 +44,7 @@ class ConfigurableHybridCore(nn.Module):
     VALID = {"fourier", "kda", "attention", "loop", "mhc"}
 
     def __init__(self, d_model: int, *, stages: list[str | HybridStage] | None = None,
-                 heads: int = 4, ff_dim: int | None = None, kda_qat: bool = False):
+                 heads: int = 4, ff_dim: int | None = None, kda_qat: bool = False, carry_kda_state: bool = False):
         super().__init__()
         if d_model % heads:
             raise ValueError("d_model must be divisible by heads")
@@ -53,6 +53,7 @@ class ConfigurableHybridCore(nn.Module):
         if any(s.kind not in self.VALID or s.repeats < 1 for s in parsed):
             raise ValueError(f"stages must use {sorted(self.VALID)} and positive repeats")
         self.stages = tuple(parsed)
+        self.carry_kda_state = carry_kda_state
         blocks: list[nn.Module] = []
         for stage in self.stages:
             for _ in range(stage.repeats):
@@ -68,11 +69,15 @@ class ConfigurableHybridCore(nn.Module):
         if x.ndim != 3 or iterations < 1:
             raise ValueError("expected [batch, sequence, d_model] and iterations >= 1")
         y, trace = x, []
+        kda_states = {}
         for loop_index in range(iterations):
             for index, (stage, wrapped) in enumerate(zip(self._expanded_stages(), self.blocks)):
                 block = wrapped["block"]
                 inp = wrapped["norm"](y)
-                if stage.kind == "kda": out, _ = block(inp)
+                if stage.kind == "kda":
+                    out, state = block(inp, kda_states.get(index) if self.carry_kda_state else None)
+                    if self.carry_kda_state:
+                        kda_states[index] = state
                 elif stage.kind == "mhc": out = block(y, inp)
                 else: out = block(inp)
                 y = y + out

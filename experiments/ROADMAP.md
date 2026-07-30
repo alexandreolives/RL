@@ -65,6 +65,20 @@ des données de configuration, pas des branchements codés en dur.
 Chaque run doit enregistrer le planning réellement exécuté, les FLOPs actifs,
 la latence, la mémoire, les normes/gradients et les scores de rappel long.
 
+### Matrice KDA × Loop (priorité expérimentale)
+
+Tester systématiquement les deux niveaux de récurrence : KDA récurrente dans la
+séquence et Loop récurrent autour du planning. Les variantes obligatoires sont
+`KDA`, `Loop`, `KDA→Loop`, `Loop→KDA`, `KDA→Loop→attention`, avec état KDA
+réinitialisé ou conservé entre les tours. Balayer 1–4 itérations, profondeurs
+1/2/4, ordres Fourier/KDA/Loop, ratios KDA/attention 1:1, 3:1 et 4:1, puis
+attention finale périodique ou uniquement au dernier tour.
+
+La sélection suivra une successive-halving : contrôle d'overfit, filtre coût /
+paramètres, deux seeds et entraînement court, puis validation longue des
+survivants. Chaque résultat doit inclure qualité, rappel exact, variable
+tracking, normes, mémoire d'état, FLOPs, latence et énergie si disponible.
+
 ### Réévaluation résiduelle et DeepSeek
 
 Les anciennes mesures doivent être considérées comme obsolètes dès qu'une
