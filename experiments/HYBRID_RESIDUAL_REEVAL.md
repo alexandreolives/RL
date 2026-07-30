@@ -22,6 +22,9 @@ agent = ModularMultimodalAgent(hybrid_stages=hybrid_stages, hybrid_iterations=2)
 - Le benchmark `scripts/benchmark_k3_blocks.py` couvre KDA, QAT, hybride
   Kimi, LatentMoE et les schedules Fourier/KDA/attention et
   Fourier/KDA/Loop/attention.
+- `scripts/benchmark_hybrid_schedules.py` compare attention-only,
+  Fourier→attention, Fourier→KDA→attention, Fourier→KDA→Loop→attention et
+  KDA 3:1 pour plusieurs nombres d'itérations.
 
 Ces résultats vérifient la construction, les gradients et les interfaces ; ils
 ne constituent pas encore une comparaison qualité scientifique. Les prochains
