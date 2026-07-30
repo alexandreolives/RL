@@ -11,7 +11,7 @@ from .spectral_loop import SpectralAttentionLoop
 from models.atoms.kda import HybridKDA
 from models.atoms.latent_moe import LatentMoE
 from models.atoms.residual import FullAttentionResidual
-from models.atoms.hybrid import ConfigurableHybridCore, HybridStage
+from models.atoms.hybrid import ConfigurableHybridCore, AdaptiveHybridCore, HybridStage
 
 
 class ModularMultimodalAgent(nn.Module):
@@ -35,6 +35,8 @@ class ModularMultimodalAgent(nn.Module):
         use_attn_res: bool = False,
         hybrid_stages: list[str | HybridStage] | None = None,
         hybrid_iterations: int = 1,
+        hybrid_fast_stages: list[str | HybridStage] | None = None,
+        hybrid_full_stages: list[str | HybridStage] | None = None,
     ) -> None:
         super().__init__()
         self.encoder = MultimodalActorCritic(latent_dim=latent_dim, image_size=image_size)
@@ -46,8 +48,13 @@ class ModularMultimodalAgent(nn.Module):
         self.kda = HybridKDA(latent_dim) if use_kda else None
         self.latent_moe = LatentMoE(latent_dim, max(8, latent_dim // 2), num_experts=latent_moe_experts, shared_experts=latent_moe_shared_experts) if use_latent_moe else None
         self.attn_res = FullAttentionResidual(latent_dim) if use_attn_res else None
-        self.hybrid = (ConfigurableHybridCore(latent_dim, stages=hybrid_stages)
-                       if hybrid_stages is not None else None)
+        if hybrid_fast_stages is not None or hybrid_full_stages is not None:
+            if hybrid_fast_stages is None or hybrid_full_stages is None:
+                raise ValueError("hybrid_fast_stages and hybrid_full_stages must be provided together")
+            self.hybrid = AdaptiveHybridCore(latent_dim, fast_stages=hybrid_fast_stages, full_stages=hybrid_full_stages)
+        else:
+            self.hybrid = (ConfigurableHybridCore(latent_dim, stages=hybrid_stages)
+                           if hybrid_stages is not None else None)
         self.hybrid_iterations = hybrid_iterations
         self.policy = nn.Linear(latent_dim, 2)
         self.value = nn.Linear(latent_dim, 1)
