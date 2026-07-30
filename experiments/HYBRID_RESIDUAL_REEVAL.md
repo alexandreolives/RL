@@ -35,6 +35,17 @@ runs doivent apparier seeds, paramètres actifs, FLOPs et longueur de contexte
 pour baseline, Engram, mHC, Full Attention Residual, DeepSeek et les schedules
 hybrides.
 
+## Contrôle adversarial du score nul
+
+Le générateur d'évaluation tire de nouvelles séquences ; `--fixed-batch` ne
+contrôle que l'entraînement. Sur un overfit contrôlé (baseline, tiny,
+symbolique, longueur 40, batch 4, 100 étapes, CPU), le modèle atteint
+`train_acc_mean_last10=1.0` tandis que l'évaluation aléatoire reste `0.0`.
+Le même comportement est observé en GPU après 20 étapes. Le `0` des runs de
+10 étapes ne signalait donc pas un oubli de gradient : il combinait un budget
+trop court et une évaluation hors-échantillon. Toute future comparaison doit
+rapporter séparément train/fixed-batch, validation fixe et validation aléatoire.
+
 ## Smoke benchmark CPU (31 juillet 2026)
 
 Séquence 8, batch 1, eager, un warmup et une mesure :
