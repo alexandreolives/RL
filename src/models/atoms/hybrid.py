@@ -81,3 +81,22 @@ class ConfigurableHybridCore(nn.Module):
 
     def _expanded_stages(self):
         return [HybridStage(stage.kind) for stage in self.stages for _ in range(stage.repeats)]
+
+
+class AdaptiveHybridCore(nn.Module):
+    """Select a cheap or full schedule from a learned uncertainty estimate."""
+    def __init__(self, d_model: int, *, fast_stages: list[str | HybridStage], full_stages: list[str | HybridStage], heads: int = 4):
+        super().__init__()
+        self.fast = ConfigurableHybridCore(d_model, stages=fast_stages, heads=heads)
+        self.full = ConfigurableHybridCore(d_model, stages=full_stages, heads=heads)
+        self.uncertainty = nn.Sequential(nn.LayerNorm(d_model), nn.Linear(d_model, 1))
+
+    def forward(self, x: torch.Tensor, *, threshold: float = 0.5, iterations: int = 1, return_trace: bool = False):
+        score = torch.sigmoid(self.uncertainty(x.mean(dim=1))).mean()
+        use_full = bool(score >= threshold)
+        core = self.full if use_full else self.fast
+        result = core(x, iterations=iterations, return_trace=return_trace)
+        if return_trace:
+            y, trace = result
+            return y, [{**item, "adaptive_full": use_full, "uncertainty": float(score.detach())} for item in trace]
+        return result

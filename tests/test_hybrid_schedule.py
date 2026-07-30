@@ -1,6 +1,6 @@
 import torch
 
-from models.atoms.hybrid import ConfigurableHybridCore, HybridStage
+from models.atoms.hybrid import ConfigurableHybridCore, AdaptiveHybridCore, HybridStage
 from agents.modular_agent import ModularMultimodalAgent
 
 
@@ -18,3 +18,10 @@ def test_agent_accepts_hybrid_schedule():
     args = {"image": torch.rand(2, 1, 8, 8), "bytes_view": torch.randint(0, 256, (2, 8)), "symbolic": torch.rand(2, 4), "phase": torch.rand(2, 1)}
     logits, values, latent, _ = model(**args)
     assert logits.shape == (2, 2) and values.shape == (2,) and torch.isfinite(latent).all()
+
+
+def test_adaptive_schedule_records_selected_path():
+    core = AdaptiveHybridCore(16, fast_stages=["fourier"], full_stages=["fourier", "kda", "attention"])
+    y, trace = core(torch.randn(2, 4, 16), return_trace=True)
+    assert y.shape == (2, 4, 16)
+    assert trace and all("adaptive_full" in item and "uncertainty" in item for item in trace)
