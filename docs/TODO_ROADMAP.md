@@ -125,6 +125,8 @@ Inspirations Kimi K3 / MoonEP à hybrider avec notre stack (source archive:
   collisions et rappel long.
 - [ ] Comparer les hybrides KDA/full-attention `3:1`, `1:1`, KDA+Loop et
   attention-only à FLOPs actifs, qualité, KV-cache et latence appariés.
+- [x] Ajouter un benchmark reproductible paramètres/latence des variantes
+  KDA, hybride, QAT et LatentMoE ; [ ] compléter mesures GPU/FLOPs.
 - [ ] Ajouter un fallback global périodique/final piloté par l'incertitude pour
   récupérer les associations exactes perdues par l'état compressé.
 - [x] Implémenter une référence LatentMoE avec compression avant dispatch,

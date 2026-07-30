@@ -31,3 +31,8 @@ Références primaires : Kimi Linear (`arXiv:2510.26692`), rapport Kimi K3
 
 La fake-quantification ne prétend pas encoder les octets MXFP ni fournir le
 kernel accéléré ; elle sert à comparer la stabilité et la qualité en entraînement.
+
+Benchmark reproductible :
+`PYTHONPATH=src:. .venv/bin/python scripts/benchmark_k3_blocks.py --device cpu`.
+Il rapporte séparément paramètres et latence ; les résultats CPU ne doivent pas
+être extrapolés aux kernels GPU distribués de K3.
