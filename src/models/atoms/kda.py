@@ -55,18 +55,28 @@ class KDA(nn.Module):
 
 
 class HybridKDA(nn.Module):
-    """Interleave KDA blocks with full attention (default 3:1)."""
-    def __init__(self, d_model: int, *, kda_blocks: int = 3, attention_heads: int = 4):
+    """Interleave ``kda_blocks`` recurrent blocks then one dense block.
+
+    ``num_cycles=1`` gives the smallest 3:1 reference; larger values are useful
+    for fair depth-matched ablations. Every block has its own parameters.
+    """
+    def __init__(self, d_model: int, *, kda_blocks: int = 3, num_cycles: int = 1, attention_heads: int = 4):
         super().__init__()
+        if kda_blocks < 1 or num_cycles < 1:
+            raise ValueError("kda_blocks and num_cycles must be positive")
         self.kda_blocks = kda_blocks
-        self.kda = KDA(d_model, heads=attention_heads)
-        self.attn = nn.MultiheadAttention(d_model, attention_heads, batch_first=True)
-        self.norm = nn.LayerNorm(d_model)
+        self.kda = nn.ModuleList(KDA(d_model, heads=attention_heads) for _ in range(kda_blocks * num_cycles))
+        self.attn = nn.ModuleList(nn.MultiheadAttention(d_model, attention_heads, batch_first=True) for _ in range(num_cycles))
+        self.norm = nn.ModuleList(nn.LayerNorm(d_model) for _ in range((kda_blocks + 1) * num_cycles))
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
-        y, _ = self.kda(x)
-        if self.kda_blocks > 0:
-            y = y + x
-        q = self.norm(y)
-        a, _ = self.attn(q, q, q, need_weights=False)
-        return y + a
+        y = x
+        ki = ni = 0
+        for cycle in range(len(self.attn)):
+            for _ in range(self.kda_blocks):
+                z, _ = self.kda[ki](self.norm[ni](y)); ki += 1; ni += 1
+                y = y + z
+            q = self.norm[ni](y); ni += 1
+            a, _ = self.attn[cycle](q, q, q, need_weights=False)
+            y = y + a
+        return y
