@@ -77,6 +77,9 @@ résultats sont archivés.
   latence FFT, mémoire et coût sur séquences courtes/longues.
 - [ ] Vérifier que le switch ne dégrade pas les gradients ni la calibration du
   halting ; conserver un fallback attention-only.
+- [x] Valider l'exécution des schedules sur la RTX 3060 Ti via une copie
+  isolée WSL2 ; [ ] mettre à jour l'image GPU avec la version Transformers
+  fournissant `DeepseekV4Config` pour les campagnes qualité DeepSeek.
 
 ## M2 — Réévaluation résiduelle/DeepSeek
 

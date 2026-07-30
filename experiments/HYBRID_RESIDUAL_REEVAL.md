@@ -76,3 +76,9 @@ PyTorch `2.6.0+cu124`, RTX 3060 Ti, séquence 32, batch 2, deux mesures :
 Le conteneur GPU ne contient pas `pytest`; la validation fonctionnelle reste
 faite localement (**64 tests**). Le benchmark CUDA confirme que la copie
 isolée contient le code courant et que les schedules s'exécutent sur le GPU.
+
+La campagne d'entraînement multi-seed n'a pas pu démarrer dans cette image :
+son `transformers` ne fournit pas `DeepseekV4Config`, importé par le chemin
+DeepSeek du dépôt. Elle reste exécutable dans l'environnement local ; il faut
+reconstruire/mettre à jour l'image avant de considérer une mesure GPU qualité
+comme valide.
