@@ -35,6 +35,7 @@ class ModularMultimodalAgent(nn.Module):
         use_attn_res: bool = False,
         hybrid_stages: list[str | HybridStage] | None = None,
         hybrid_iterations: int = 1,
+        hybrid_carry_kda_state: bool = False,
         hybrid_fast_stages: list[str | HybridStage] | None = None,
         hybrid_full_stages: list[str | HybridStage] | None = None,
     ) -> None:
@@ -53,7 +54,7 @@ class ModularMultimodalAgent(nn.Module):
                 raise ValueError("hybrid_fast_stages and hybrid_full_stages must be provided together")
             self.hybrid = AdaptiveHybridCore(latent_dim, fast_stages=hybrid_fast_stages, full_stages=hybrid_full_stages)
         else:
-            self.hybrid = (ConfigurableHybridCore(latent_dim, stages=hybrid_stages)
+            self.hybrid = (ConfigurableHybridCore(latent_dim, stages=hybrid_stages, carry_kda_state=hybrid_carry_kda_state)
                            if hybrid_stages is not None else None)
         self.hybrid_iterations = hybrid_iterations
         self.policy = nn.Linear(latent_dim, 2)

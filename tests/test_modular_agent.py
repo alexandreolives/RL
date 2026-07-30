@@ -27,3 +27,8 @@ def test_modular_agent_k3_blocks_are_composable():
     logits, values, latent, predicted = model(**args)
     assert logits.shape == (2, 2) and values.shape == (2,) and predicted is None
     assert torch.isfinite(latent).all()
+
+
+def test_modular_agent_exposes_kda_state_carry():
+    model = ModularMultimodalAgent(use_loop=False, hybrid_stages=["kda", "loop"], hybrid_iterations=2, hybrid_carry_kda_state=True)
+    assert model.hybrid.carry_kda_state is True
