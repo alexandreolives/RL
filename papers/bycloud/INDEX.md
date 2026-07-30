@@ -143,6 +143,17 @@ Résumé:
   vidéo source: `20260427_lLkE9w1NJs0_A new way to fine-tune LLMs just dropped`
   URL source: `https://arxiv.org/abs/2511.16652`
 
+## Kimi K3 / KDA — vidéo ByCloud du 2026-07-29
+
+Vidéo source : [A Closer Look At Kimi K3's INSANE Architecture Breakthrough](https://www.youtube.com/watch?v=g683I1-4MKE)
+
+- [Kimi K3 technical report](20260729_g683I1-4MKE_A_Closer_Look_At_Kimi_K3s_INSANE_Architecture_Breakthrough__2607.24653.pdf) — `https://arxiv.org/abs/2607.24653`
+- [Kimi Linear / KDA](20260729_g683I1-4MKE_A_Closer_Look_At_Kimi_K3s_INSANE_Architecture_Breakthrough__2510.26692.pdf) — `https://arxiv.org/abs/2510.26692`
+- [LatentMoE](20260729_g683I1-4MKE_A_Closer_Look_At_Kimi_K3s_INSANE_Architecture_Breakthrough__2601.18089.pdf) — `https://arxiv.org/abs/2601.18089`
+- [Attention Residuals](20260729_g683I1-4MKE_A_Closer_Look_At_Kimi_K3s_INSANE_Architecture_Breakthrough__2603.15031.pdf) — `https://arxiv.org/abs/2603.15031`
+- [Gated DeltaNet-2](20260729_g683I1-4MKE_A_Closer_Look_At_Kimi_K3s_INSANE_Architecture_Breakthrough__2605.22791.pdf) — `https://arxiv.org/abs/2605.22791`
+- [MoonEP](https://github.com/MoonshotAI/MoonEP) — dépôt système, pas un PDF.
+
 ## Liens source non convertis en PDF local
 
 - `error` `https://bitnet-demo.azurewebsites.net/`

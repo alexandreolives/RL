@@ -1,0 +1,4248 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.750 align:start position:0%
+ 
+Just<00:00:00.320><c> a</c><00:00:00.400><c> few</c><00:00:00.600><c> months</c><00:00:00.840><c> ago,</c><00:00:01.240><c> we</c><00:00:01.480><c> thought</c>
+
+00:00:01.750 --> 00:00:01.760 align:start position:0%
+Just a few months ago, we thought
+ 
+
+00:00:01.760 --> 00:00:03.390 align:start position:0%
+Just a few months ago, we thought
+open-source<00:00:02.200><c> models</c><00:00:02.600><c> were</c><00:00:02.720><c> three</c><00:00:03.000><c> to</c><00:00:03.120><c> six</c>
+
+00:00:03.390 --> 00:00:03.400 align:start position:0%
+open-source models were three to six
+ 
+
+00:00:03.400 --> 00:00:05.470 align:start position:0%
+open-source models were three to six
+months<00:00:03.720><c> behind</c><00:00:04.160><c> closed-source</c><00:00:04.680><c> models,</c><00:00:05.240><c> or</c>
+
+00:00:05.470 --> 00:00:05.480 align:start position:0%
+months behind closed-source models, or
+ 
+
+00:00:05.480 --> 00:00:07.230 align:start position:0%
+months behind closed-source models, or
+at<00:00:05.640><c> least</c><00:00:05.960><c> I</c><00:00:06.040><c> was</c><00:00:06.200><c> Deep</c><00:00:06.440><c> Seek's</c><00:00:06.800><c> reasonable</c>
+
+00:00:07.230 --> 00:00:07.240 align:start position:0%
+at least I was Deep Seek's reasonable
+ 
+
+00:00:07.240 --> 00:00:09.670 align:start position:0%
+at least I was Deep Seek's reasonable
+estimate<00:00:07.720><c> in</c><00:00:07.840><c> its</c><00:00:08.000><c> V4</c><00:00:08.480><c> paper.</c><00:00:09.120><c> But</c><00:00:09.280><c> shortly</c>
+
+00:00:09.670 --> 00:00:09.680 align:start position:0%
+estimate in its V4 paper. But shortly
+ 
+
+00:00:09.680 --> 00:00:12.030 align:start position:0%
+estimate in its V4 paper. But shortly
+after,<00:00:10.240><c> this</c><00:00:10.480><c> new</c><00:00:10.640><c> model</c><00:00:11.000><c> called</c><00:00:11.240><c> Kimi</c><00:00:11.520><c> K3</c>
+
+00:00:12.030 --> 00:00:12.040 align:start position:0%
+after, this new model called Kimi K3
+ 
+
+00:00:12.040 --> 00:00:14.310 align:start position:0%
+after, this new model called Kimi K3
+just<00:00:12.360><c> blew</c><00:00:12.720><c> this</c><00:00:12.920><c> assumption</c><00:00:13.480><c> completely</c><00:00:14.160><c> out</c>
+
+00:00:14.310 --> 00:00:14.320 align:start position:0%
+just blew this assumption completely out
+ 
+
+00:00:14.320 --> 00:00:16.310 align:start position:0%
+just blew this assumption completely out
+of<00:00:14.400><c> the</c><00:00:14.440><c> water.</c><00:00:14.960><c> This</c><00:00:15.160><c> release</c><00:00:15.480><c> from</c><00:00:15.680><c> Winch</c><00:00:16.200><c> AI</c>
+
+00:00:16.310 --> 00:00:16.320 align:start position:0%
+of the water. This release from Winch AI
+ 
+
+00:00:16.320 --> 00:00:18.070 align:start position:0%
+of the water. This release from Winch AI
+closed<00:00:16.720><c> the</c><00:00:16.840><c> gap</c><00:00:17.080><c> that</c><00:00:17.240><c> we</c><00:00:17.400><c> once</c><00:00:17.800><c> thought</c>
+
+00:00:18.070 --> 00:00:18.080 align:start position:0%
+closed the gap that we once thought
+ 
+
+00:00:18.080 --> 00:00:20.150 align:start position:0%
+closed the gap that we once thought
+would<00:00:18.240><c> be</c><00:00:18.480><c> impossible</c><00:00:19.200><c> for</c><00:00:19.440><c> open</c><00:00:19.720><c> labs</c><00:00:20.040><c> to</c>
+
+00:00:20.150 --> 00:00:20.160 align:start position:0%
+would be impossible for open labs to
+ 
+
+00:00:20.160 --> 00:00:21.830 align:start position:0%
+would be impossible for open labs to
+overcome.<00:00:20.760><c> And</c><00:00:20.920><c> can</c><00:00:21.080><c> you</c><00:00:21.160><c> believe</c><00:00:21.520><c> that</c><00:00:21.720><c> they</c>
+
+00:00:21.830 --> 00:00:21.840 align:start position:0%
+overcome. And can you believe that they
+ 
+
+00:00:21.840 --> 00:00:23.790 align:start position:0%
+overcome. And can you believe that they
+just<00:00:22.080><c> casually</c><00:00:22.600><c> dropped</c><00:00:22.960><c> a</c><00:00:23.040><c> state-of-the-art</c>
+
+00:00:23.790 --> 00:00:23.800 align:start position:0%
+just casually dropped a state-of-the-art
+ 
+
+00:00:23.800 --> 00:00:25.990 align:start position:0%
+just casually dropped a state-of-the-art
+multimodal<00:00:24.760><c> open</c><00:00:25.080><c> weights</c><00:00:25.320><c> model</c><00:00:25.640><c> that</c><00:00:25.840><c> is</c>
+
+00:00:25.990 --> 00:00:26.000 align:start position:0%
+multimodal open weights model that is
+ 
+
+00:00:26.000 --> 00:00:28.070 align:start position:0%
+multimodal open weights model that is
+near<00:00:26.240><c> equivalent</c><00:00:26.760><c> to</c><00:00:26.840><c> Claude's</c><00:00:27.240><c> Fable</c><00:00:27.600><c> 5</c><00:00:27.920><c> and</c>
+
+00:00:28.070 --> 00:00:28.080 align:start position:0%
+near equivalent to Claude's Fable 5 and
+ 
+
+00:00:28.080 --> 00:00:30.390 align:start position:0%
+near equivalent to Claude's Fable 5 and
+even<00:00:28.320><c> beating</c><00:00:28.640><c> it</c><00:00:28.840><c> on</c><00:00:28.960><c> some</c><00:00:29.160><c> benchmarks</c><00:00:29.760><c> by</c>
+
+00:00:30.390 --> 00:00:30.400 align:start position:0%
+even beating it on some benchmarks by
+ 
+
+00:00:30.400 --> 00:00:32.429 align:start position:0%
+even beating it on some benchmarks by
+margin.<00:00:30.920><c> Clearly</c><00:00:31.360><c> moonshotting</c><00:00:32.119><c> single</c>
+
+00:00:32.429 --> 00:00:32.439 align:start position:0%
+margin. Clearly moonshotting single
+ 
+
+00:00:32.439 --> 00:00:33.470 align:start position:0%
+margin. Clearly moonshotting single
+training<00:00:32.800><c> runs</c><00:00:33.040><c> and</c><00:00:33.200><c> beating</c>
+
+00:00:33.470 --> 00:00:33.480 align:start position:0%
+training runs and beating
+ 
+
+00:00:33.480 --> 00:00:35.510 align:start position:0%
+training runs and beating
+trillion-dollar<00:00:34.080><c> companies.</c><00:00:34.760><c> While</c><00:00:35.080><c> the</c><00:00:35.200><c> US</c>
+
+00:00:35.510 --> 00:00:35.520 align:start position:0%
+trillion-dollar companies. While the US
+ 
+
+00:00:35.520 --> 00:00:37.270 align:start position:0%
+trillion-dollar companies. While the US
+is<00:00:35.680><c> busy</c><00:00:36.000><c> running</c><00:00:36.320><c> the</c><00:00:36.440><c> narrative</c><00:00:37.000><c> about</c>
+
+00:00:37.270 --> 00:00:37.280 align:start position:0%
+is busy running the narrative about
+ 
+
+00:00:37.280 --> 00:00:39.550 align:start position:0%
+is busy running the narrative about
+Anthropic<00:00:37.880><c> releasing</c><00:00:38.360><c> the</c><00:00:38.480><c> Fable</c><00:00:38.920><c> AI</c><00:00:39.200><c> super</c>
+
+00:00:39.550 --> 00:00:39.560 align:start position:0%
+Anthropic releasing the Fable AI super
+ 
+
+00:00:39.560 --> 00:00:41.270 align:start position:0%
+Anthropic releasing the Fable AI super
+weapon,<00:00:40.160><c> Chinese</c><00:00:40.520><c> labs</c><00:00:40.840><c> kind</c><00:00:41.040><c> of</c><00:00:41.120><c> just</c>
+
+00:00:41.270 --> 00:00:41.280 align:start position:0%
+weapon, Chinese labs kind of just
+ 
+
+00:00:41.280 --> 00:00:42.950 align:start position:0%
+weapon, Chinese labs kind of just
+dropped<00:00:41.560><c> this</c><00:00:41.760><c> monster</c><00:00:42.120><c> of</c><00:00:42.240><c> a</c><00:00:42.320><c> model</c><00:00:42.640><c> into</c><00:00:42.840><c> the</c>
+
+00:00:42.950 --> 00:00:42.960 align:start position:0%
+dropped this monster of a model into the
+ 
+
+00:00:42.960 --> 00:00:44.950 align:start position:0%
+dropped this monster of a model into the
+wild<00:00:43.320><c> by</c><00:00:43.480><c> open-sourcing</c><00:00:44.120><c> it</c><00:00:44.280><c> and</c><00:00:44.440><c> we're</c><00:00:44.560><c> like,</c>
+
+00:00:44.950 --> 00:00:44.960 align:start position:0%
+wild by open-sourcing it and we're like,
+ 
+
+00:00:44.960 --> 00:00:46.710 align:start position:0%
+wild by open-sourcing it and we're like,
+"Yep,<00:00:45.440><c> you</c><00:00:45.560><c> guys</c><00:00:45.840><c> can</c><00:00:46.040><c> deal</c><00:00:46.200><c> with</c><00:00:46.400><c> it."</c><00:00:46.600><c> I</c>
+
+00:00:46.710 --> 00:00:46.720 align:start position:0%
+"Yep, you guys can deal with it." I
+ 
+
+00:00:46.720 --> 00:00:48.350 align:start position:0%
+"Yep, you guys can deal with it." I
+think<00:00:46.880><c> the</c><00:00:46.960><c> most</c><00:00:47.200><c> crazy</c><00:00:47.600><c> thing</c><00:00:47.880><c> about</c><00:00:48.160><c> this</c>
+
+00:00:48.350 --> 00:00:48.360 align:start position:0%
+think the most crazy thing about this
+ 
+
+00:00:48.360 --> 00:00:50.550 align:start position:0%
+think the most crazy thing about this
+model<00:00:48.760><c> is</c><00:00:48.880><c> not</c><00:00:49.120><c> just</c><00:00:49.360><c> its</c><00:00:49.560><c> performance,</c><00:00:50.280><c> but</c>
+
+00:00:50.550 --> 00:00:50.560 align:start position:0%
+model is not just its performance, but
+ 
+
+00:00:50.560 --> 00:00:52.830 align:start position:0%
+model is not just its performance, but
+also<00:00:50.880><c> the</c><00:00:51.120><c> immense</c><00:00:51.600><c> size</c><00:00:51.960><c> of</c><00:00:52.080><c> this</c><00:00:52.320><c> model.</c><00:00:52.720><c> It</c>
+
+00:00:52.830 --> 00:00:52.840 align:start position:0%
+also the immense size of this model. It
+ 
+
+00:00:52.840 --> 00:00:54.510 align:start position:0%
+also the immense size of this model. It
+has<00:00:53.000><c> a</c><00:00:53.080><c> staggering</c><00:00:53.600><c> 2.8</c><00:00:54.200><c> trillion</c>
+
+00:00:54.510 --> 00:00:54.520 align:start position:0%
+has a staggering 2.8 trillion
+ 
+
+00:00:54.520 --> 00:00:57.070 align:start position:0%
+has a staggering 2.8 trillion
+parameters,<00:00:55.080><c> which</c><00:00:55.320><c> is</c><00:00:55.520><c> 75%</c><00:00:56.400><c> more</c><00:00:56.560><c> parameters</c>
+
+00:00:57.070 --> 00:00:57.080 align:start position:0%
+parameters, which is 75% more parameters
+ 
+
+00:00:57.080 --> 00:00:58.630 align:start position:0%
+parameters, which is 75% more parameters
+than<00:00:57.160><c> the</c><00:00:57.240><c> previous</c><00:00:57.720><c> largest</c><00:00:58.200><c> open-source</c>
+
+00:00:58.630 --> 00:00:58.640 align:start position:0%
+than the previous largest open-source
+ 
+
+00:00:58.640 --> 00:01:00.710 align:start position:0%
+than the previous largest open-source
+model<00:00:58.920><c> that</c><00:00:59.120><c> is</c><00:00:59.280><c> Deep</c><00:00:59.480><c> Seek</c><00:00:59.640><c> V4.</c><00:01:00.240><c> And</c><00:01:00.480><c> can</c><00:01:00.640><c> you</c>
+
+00:01:00.710 --> 00:01:00.720 align:start position:0%
+model that is Deep Seek V4. And can you
+ 
+
+00:01:00.720 --> 00:01:02.310 align:start position:0%
+model that is Deep Seek V4. And can you
+believe<00:01:01.000><c> the</c><00:01:01.120><c> fact</c><00:01:01.400><c> that</c><00:01:01.560><c> the</c><00:01:01.680><c> third</c><00:01:02.040><c> best</c>
+
+00:01:02.310 --> 00:01:02.320 align:start position:0%
+believe the fact that the third best
+ 
+
+00:01:02.320 --> 00:01:05.070 align:start position:0%
+believe the fact that the third best
+model<00:01:02.680><c> in</c><00:01:02.760><c> the</c><00:01:02.880><c> world</c><00:01:03.560><c> right</c><00:01:03.800><c> now</c><00:01:04.280><c> is</c><00:01:04.720><c> open</c>
+
+00:01:05.070 --> 00:01:05.080 align:start position:0%
+model in the world right now is open
+ 
+
+00:01:05.080 --> 00:01:06.750 align:start position:0%
+model in the world right now is open
+weights?<00:01:05.600><c> So</c><00:01:05.720><c> in</c><00:01:05.800><c> today's</c><00:01:06.080><c> video,</c><00:01:06.440><c> let</c><00:01:06.640><c> us</c>
+
+00:01:06.750 --> 00:01:06.760 align:start position:0%
+weights? So in today's video, let us
+ 
+
+00:01:06.760 --> 00:01:08.270 align:start position:0%
+weights? So in today's video, let us
+find<00:01:06.960><c> out</c><00:01:07.040><c> how</c><00:01:07.200><c> exactly</c><00:01:07.720><c> they</c><00:01:07.840><c> made</c><00:01:08.080><c> this</c>
+
+00:01:08.270 --> 00:01:08.280 align:start position:0%
+find out how exactly they made this
+ 
+
+00:01:08.280 --> 00:01:10.270 align:start position:0%
+find out how exactly they made this
+insanely<00:01:08.800><c> powerful</c><00:01:09.200><c> model,</c><00:01:09.720><c> what</c><00:01:09.920><c> new</c><00:01:10.080><c> AI</c>
+
+00:01:10.270 --> 00:01:10.280 align:start position:0%
+insanely powerful model, what new AI
+ 
+
+00:01:10.280 --> 00:01:11.990 align:start position:0%
+insanely powerful model, what new AI
+architecture<00:01:10.760><c> designs</c><00:01:11.120><c> they</c><00:01:11.280><c> used,</c><00:01:11.600><c> and</c><00:01:11.760><c> how</c>
+
+00:01:11.990 --> 00:01:12.000 align:start position:0%
+architecture designs they used, and how
+ 
+
+00:01:12.000 --> 00:01:13.630 align:start position:0%
+architecture designs they used, and how
+they<00:01:12.200><c> have</c><00:01:12.440><c> successfully</c><00:01:13.120><c> scaled</c><00:01:13.440><c> up</c><00:01:13.560><c> the</c>
+
+00:01:13.630 --> 00:01:13.640 align:start position:0%
+they have successfully scaled up the
+ 
+
+00:01:13.640 --> 00:01:15.750 align:start position:0%
+they have successfully scaled up the
+model<00:01:14.040><c> to</c><00:01:14.160><c> compete</c><00:01:14.640><c> at</c><00:01:14.760><c> the</c><00:01:14.840><c> frontier</c><00:01:15.360><c> level.</c>
+
+00:01:15.750 --> 00:01:15.760 align:start position:0%
+model to compete at the frontier level.
+ 
+
+00:01:15.760 --> 00:01:17.510 align:start position:0%
+model to compete at the frontier level.
+And<00:01:15.840><c> before</c><00:01:16.120><c> I</c><00:01:16.200><c> dive</c><00:01:16.440><c> into</c><00:01:16.720><c> it,</c><00:01:16.960><c> as</c><00:01:17.120><c> frontier</c>
+
+00:01:17.510 --> 00:01:17.520 align:start position:0%
+And before I dive into it, as frontier
+ 
+
+00:01:17.520 --> 00:01:18.950 align:start position:0%
+And before I dive into it, as frontier
+open<00:01:17.800><c> weights</c><00:01:18.000><c> are</c><00:01:18.080><c> getting</c><00:01:18.320><c> progressively</c>
+
+00:01:18.950 --> 00:01:18.960 align:start position:0%
+open weights are getting progressively
+ 
+
+00:01:18.960 --> 00:01:20.550 align:start position:0%
+open weights are getting progressively
+better<00:01:19.240><c> and</c><00:01:19.360><c> more</c><00:01:19.520><c> useful,</c><00:01:20.080><c> it</c><00:01:20.200><c> is</c><00:01:20.320><c> getting</c>
+
+00:01:20.550 --> 00:01:20.560 align:start position:0%
+better and more useful, it is getting
+ 
+
+00:01:20.560 --> 00:01:22.310 align:start position:0%
+better and more useful, it is getting
+more<00:01:20.760><c> and</c><00:01:20.840><c> more</c><00:01:21.000><c> appealing</c><00:01:21.440><c> to</c><00:01:21.560><c> host</c><00:01:21.920><c> or</c><00:01:22.080><c> even</c>
+
+00:01:22.310 --> 00:01:22.320 align:start position:0%
+more and more appealing to host or even
+ 
+
+00:01:22.320 --> 00:01:23.950 align:start position:0%
+more and more appealing to host or even
+train<00:01:22.560><c> your</c><00:01:22.680><c> models</c><00:01:23.160><c> on</c><00:01:23.320><c> these</c><00:01:23.560><c> weights</c><00:01:23.880><c> to</c>
+
+00:01:23.950 --> 00:01:23.960 align:start position:0%
+train your models on these weights to
+ 
+
+00:01:23.960 --> 00:01:25.830 align:start position:0%
+train your models on these weights to
+customize<00:01:24.560><c> your</c><00:01:24.760><c> experience,</c><00:01:25.320><c> right?</c><00:01:25.680><c> And</c>
+
+00:01:25.830 --> 00:01:25.840 align:start position:0%
+customize your experience, right? And
+ 
+
+00:01:25.840 --> 00:01:27.470 align:start position:0%
+customize your experience, right? And
+for<00:01:26.000><c> that,</c><00:01:26.360><c> you</c><00:01:26.480><c> would</c><00:01:26.640><c> need</c><00:01:26.800><c> top-tier</c><00:01:27.200><c> cloud</c>
+
+00:01:27.470 --> 00:01:27.480 align:start position:0%
+for that, you would need top-tier cloud
+ 
+
+00:01:27.480 --> 00:01:29.110 align:start position:0%
+for that, you would need top-tier cloud
+GPU<00:01:27.840><c> server</c><00:01:28.200><c> that</c><00:01:28.360><c> is</c><00:01:28.440><c> specialized</c><00:01:28.920><c> at</c>
+
+00:01:29.110 --> 00:01:29.120 align:start position:0%
+GPU server that is specialized at
+ 
+
+00:01:29.120 --> 00:01:30.790 align:start position:0%
+GPU server that is specialized at
+running<00:01:29.440><c> or</c><00:01:29.560><c> training</c><00:01:30.000><c> LLMs</c><00:01:30.400><c> like</c><00:01:30.560><c> today's</c>
+
+00:01:30.790 --> 00:01:30.800 align:start position:0%
+running or training LLMs like today's
+ 
+
+00:01:30.800 --> 00:01:33.110 align:start position:0%
+running or training LLMs like today's
+sponsor<00:01:31.320><c> Verta,</c><00:01:31.760><c> which</c><00:01:32.040><c> is</c><00:01:32.240><c> a</c><00:01:32.320><c> full-stack</c><00:01:32.920><c> AI</c>
+
+00:01:33.110 --> 00:01:33.120 align:start position:0%
+sponsor Verta, which is a full-stack AI
+ 
+
+00:01:33.120 --> 00:01:34.910 align:start position:0%
+sponsor Verta, which is a full-stack AI
+cloud<00:01:33.440><c> built</c><00:01:33.640><c> for</c><00:01:33.760><c> the</c><00:01:33.960><c> entire</c><00:01:34.400><c> model</c><00:01:34.720><c> life</c>
+
+00:01:34.910 --> 00:01:34.920 align:start position:0%
+cloud built for the entire model life
+ 
+
+00:01:34.920 --> 00:01:37.150 align:start position:0%
+cloud built for the entire model life
+cycle<00:01:35.520><c> from</c><00:01:35.680><c> GPU</c><00:01:36.040><c> instances</c><00:01:36.720><c> and</c><00:01:36.840><c> instant</c>
+
+00:01:37.150 --> 00:01:37.160 align:start position:0%
+cycle from GPU instances and instant
+ 
+
+00:01:37.160 --> 00:01:39.030 align:start position:0%
+cycle from GPU instances and instant
+clusters<00:01:37.720><c> to</c><00:01:37.920><c> serverless</c><00:01:38.360><c> containers.</c>
+
+00:01:39.030 --> 00:01:39.040 align:start position:0%
+clusters to serverless containers.
+ 
+
+00:01:39.040 --> 00:01:40.750 align:start position:0%
+clusters to serverless containers.
+Unlike<00:01:39.320><c> general-purpose</c><00:01:40.040><c> cloud</c><00:01:40.280><c> providers</c>
+
+00:01:40.750 --> 00:01:40.760 align:start position:0%
+Unlike general-purpose cloud providers
+ 
+
+00:01:40.760 --> 00:01:42.390 align:start position:0%
+Unlike general-purpose cloud providers
+trying<00:01:41.000><c> to</c><00:01:41.080><c> support</c><00:01:41.480><c> AI</c><00:01:41.720><c> compute</c><00:01:42.120><c> like</c><00:01:42.280><c> an</c>
+
+00:01:42.390 --> 00:01:42.400 align:start position:0%
+trying to support AI compute like an
+ 
+
+00:01:42.400 --> 00:01:43.790 align:start position:0%
+trying to support AI compute like an
+afterthought,<00:01:43.160><c> Verta</c><00:01:43.440><c> is</c><00:01:43.600><c> built</c>
+
+00:01:43.790 --> 00:01:43.800 align:start position:0%
+afterthought, Verta is built
+ 
+
+00:01:43.800 --> 00:01:45.710 align:start position:0%
+afterthought, Verta is built
+specifically<00:01:44.360><c> for</c><00:01:44.600><c> AI</c><00:01:44.760><c> workloads</c><00:01:45.320><c> from</c><00:01:45.520><c> toy</c>
+
+00:01:45.710 --> 00:01:45.720 align:start position:0%
+specifically for AI workloads from toy
+ 
+
+00:01:45.720 --> 00:01:47.310 align:start position:0%
+specifically for AI workloads from toy
+experiments<00:01:46.440><c> all</c><00:01:46.520><c> the</c><00:01:46.600><c> way</c><00:01:46.720><c> to</c><00:01:46.840><c> large-scale</c>
+
+00:01:47.310 --> 00:01:47.320 align:start position:0%
+experiments all the way to large-scale
+ 
+
+00:01:47.320 --> 00:01:49.030 align:start position:0%
+experiments all the way to large-scale
+training,<00:01:47.920><c> high-throughput</c><00:01:48.440><c> inference,</c><00:01:48.880><c> and</c>
+
+00:01:49.030 --> 00:01:49.040 align:start position:0%
+training, high-throughput inference, and
+ 
+
+00:01:49.040 --> 00:01:50.870 align:start position:0%
+training, high-throughput inference, and
+agentic<00:01:49.520><c> AI</c><00:01:49.720><c> serving.</c><00:01:50.200><c> Built</c><00:01:50.320><c> by</c><00:01:50.440><c> people</c><00:01:50.720><c> who</c>
+
+00:01:50.870 --> 00:01:50.880 align:start position:0%
+agentic AI serving. Built by people who
+ 
+
+00:01:50.880 --> 00:01:53.030 align:start position:0%
+agentic AI serving. Built by people who
+also<00:01:51.160><c> work</c><00:01:51.400><c> with</c><00:01:51.640><c> actual</c><00:01:52.080><c> AI</c><00:01:52.280><c> systems,</c><00:01:52.840><c> their</c>
+
+00:01:53.030 --> 00:01:53.040 align:start position:0%
+also work with actual AI systems, their
+ 
+
+00:01:53.040 --> 00:01:54.990 align:start position:0%
+also work with actual AI systems, their
+infrastructure<00:01:53.720><c> is</c><00:01:53.880><c> designed</c><00:01:54.320><c> around</c><00:01:54.600><c> how</c><00:01:54.800><c> AI</c>
+
+00:01:54.990 --> 00:01:55.000 align:start position:0%
+infrastructure is designed around how AI
+ 
+
+00:01:55.000 --> 00:01:57.070 align:start position:0%
+infrastructure is designed around how AI
+teams<00:01:55.320><c> train,</c><00:01:55.760><c> serve,</c><00:01:56.040><c> and</c><00:01:56.160><c> deploy</c><00:01:56.520><c> models.</c>
+
+00:01:57.070 --> 00:01:57.080 align:start position:0%
+teams train, serve, and deploy models.
+ 
+
+00:01:57.080 --> 00:01:58.670 align:start position:0%
+teams train, serve, and deploy models.
+On<00:01:57.160><c> the</c><00:01:57.360><c> hardware</c><00:01:57.760><c> side,</c><00:01:58.080><c> Verta</c><00:01:58.360><c> gives</c><00:01:58.560><c> you</c>
+
+00:01:58.670 --> 00:01:58.680 align:start position:0%
+On the hardware side, Verta gives you
+ 
+
+00:01:58.680 --> 00:02:00.590 align:start position:0%
+On the hardware side, Verta gives you
+access<00:01:58.960><c> to</c><00:01:59.080><c> powerful</c><00:01:59.560><c> Nvidia</c><00:01:59.880><c> GPUs</c><00:02:00.440><c> like</c>
+
+00:02:00.590 --> 00:02:00.600 align:start position:0%
+access to powerful Nvidia GPUs like
+ 
+
+00:02:00.600 --> 00:02:03.230 align:start position:0%
+access to powerful Nvidia GPUs like
+B300s<00:02:01.520><c> along</c><00:02:01.760><c> with</c><00:02:01.920><c> NVLink,</c><00:02:02.480><c> InfiniBand,</c><00:02:03.120><c> and</c>
+
+00:02:03.230 --> 00:02:03.240 align:start position:0%
+B300s along with NVLink, InfiniBand, and
+ 
+
+00:02:03.240 --> 00:02:05.310 align:start position:0%
+B300s along with NVLink, InfiniBand, and
+fast<00:02:03.560><c> NVMe</c><00:02:04.080><c> storage</c><00:02:04.560><c> for</c><00:02:04.720><c> workloads</c><00:02:05.200><c> where</c>
+
+00:02:05.310 --> 00:02:05.320 align:start position:0%
+fast NVMe storage for workloads where
+ 
+
+00:02:05.320 --> 00:02:07.030 align:start position:0%
+fast NVMe storage for workloads where
+throughput<00:02:05.800><c> and</c><00:02:05.960><c> interconnect</c><00:02:06.479><c> performance</c>
+
+00:02:07.030 --> 00:02:07.040 align:start position:0%
+throughput and interconnect performance
+ 
+
+00:02:07.040 --> 00:02:08.710 align:start position:0%
+throughput and interconnect performance
+really<00:02:07.280><c> matter.</c><00:02:07.760><c> They're</c><00:02:07.920><c> also</c><00:02:08.200><c> an</c><00:02:08.320><c> official</c>
+
+00:02:08.710 --> 00:02:08.720 align:start position:0%
+really matter. They're also an official
+ 
+
+00:02:08.720 --> 00:02:10.350 align:start position:0%
+really matter. They're also an official
+Nvidia<00:02:09.039><c> preferred</c><00:02:09.479><c> partner,</c><00:02:09.920><c> which</c><00:02:10.119><c> means</c>
+
+00:02:10.350 --> 00:02:10.360 align:start position:0%
+Nvidia preferred partner, which means
+ 
+
+00:02:10.360 --> 00:02:12.030 align:start position:0%
+Nvidia preferred partner, which means
+closer<00:02:10.679><c> alignment</c><00:02:11.120><c> with</c><00:02:11.240><c> Nvidia's</c><00:02:11.720><c> latest</c>
+
+00:02:12.030 --> 00:02:12.040 align:start position:0%
+closer alignment with Nvidia's latest
+ 
+
+00:02:12.040 --> 00:02:13.670 align:start position:0%
+closer alignment with Nvidia's latest
+hardware<00:02:12.400><c> roadmap.</c><00:02:12.920><c> Verta</c><00:02:13.200><c> has</c><00:02:13.360><c> already</c>
+
+00:02:13.670 --> 00:02:13.680 align:start position:0%
+hardware roadmap. Verta has already
+ 
+
+00:02:13.680 --> 00:02:16.070 align:start position:0%
+hardware roadmap. Verta has already
+opened<00:02:13.920><c> early</c><00:02:14.160><c> access</c><00:02:14.560><c> for</c><00:02:14.720><c> Nvidia</c><00:02:15.120><c> GB300</c>
+
+00:02:16.070 --> 00:02:16.080 align:start position:0%
+opened early access for Nvidia GB300
+ 
+
+00:02:16.080 --> 00:02:18.910 align:start position:0%
+opened early access for Nvidia GB300
+NVL72<00:02:17.160><c> Blackwell</c><00:02:17.600><c> Ultra</c><00:02:17.920><c> Clusters,</c><00:02:18.600><c> which</c><00:02:18.800><c> is</c>
+
+00:02:18.910 --> 00:02:18.920 align:start position:0%
+NVL72 Blackwell Ultra Clusters, which is
+ 
+
+00:02:18.920 --> 00:02:20.550 align:start position:0%
+NVL72 Blackwell Ultra Clusters, which is
+some<00:02:19.080><c> of</c><00:02:19.120><c> the</c><00:02:19.200><c> most</c><00:02:19.440><c> powerful</c><00:02:19.959><c> AI</c><00:02:20.120><c> systems</c>
+
+00:02:20.550 --> 00:02:20.560 align:start position:0%
+some of the most powerful AI systems
+ 
+
+00:02:20.560 --> 00:02:21.990 align:start position:0%
+some of the most powerful AI systems
+available<00:02:21.080><c> today.</c><00:02:21.520><c> For</c><00:02:21.680><c> smaller</c>
+
+00:02:21.990 --> 00:02:22.000 align:start position:0%
+available today. For smaller
+ 
+
+00:02:22.000 --> 00:02:23.750 align:start position:0%
+available today. For smaller
+experiments,<00:02:22.680><c> you</c><00:02:22.760><c> can</c><00:02:22.880><c> spin</c><00:02:23.080><c> up</c><00:02:23.280><c> on-demand</c>
+
+00:02:23.750 --> 00:02:23.760 align:start position:0%
+experiments, you can spin up on-demand
+ 
+
+00:02:23.760 --> 00:02:26.110 align:start position:0%
+experiments, you can spin up on-demand
+GPU<00:02:24.160><c> instances</c><00:02:24.720><c> or</c><00:02:25.040><c> use</c><00:02:25.120><c> spot</c><00:02:25.440><c> instances</c><00:02:26.000><c> at</c>
+
+00:02:26.110 --> 00:02:26.120 align:start position:0%
+GPU instances or use spot instances at
+ 
+
+00:02:26.120 --> 00:02:27.910 align:start position:0%
+GPU instances or use spot instances at
+up<00:02:26.280><c> to</c><00:02:26.440><c> three</c><00:02:26.720><c> times</c><00:02:27.080><c> lower</c><00:02:27.280><c> pricing</c><00:02:27.720><c> with</c><00:02:27.840><c> a</c>
+
+00:02:27.910 --> 00:02:27.920 align:start position:0%
+up to three times lower pricing with a
+ 
+
+00:02:27.920 --> 00:02:29.510 align:start position:0%
+up to three times lower pricing with a
+trade-off<00:02:28.400><c> that</c><00:02:28.600><c> capacity</c><00:02:29.120><c> can</c><00:02:29.360><c> be</c>
+
+00:02:29.510 --> 00:02:29.520 align:start position:0%
+trade-off that capacity can be
+ 
+
+00:02:29.520 --> 00:02:30.990 align:start position:0%
+trade-off that capacity can be
+reclaimed,<00:02:30.120><c> so</c><00:02:30.280><c> they're</c><00:02:30.480><c> the</c><00:02:30.560><c> best</c><00:02:30.840><c> for</c>
+
+00:02:30.990 --> 00:02:31.000 align:start position:0%
+reclaimed, so they're the best for
+ 
+
+00:02:31.000 --> 00:02:32.630 align:start position:0%
+reclaimed, so they're the best for
+interruptible<00:02:31.640><c> workloads.</c><00:02:32.200><c> And</c><00:02:32.320><c> if</c><00:02:32.440><c> you're</c>
+
+00:02:32.630 --> 00:02:32.640 align:start position:0%
+interruptible workloads. And if you're
+ 
+
+00:02:32.640 --> 00:02:34.590 align:start position:0%
+interruptible workloads. And if you're
+doing<00:02:33.000><c> serious</c><00:02:33.360><c> training</c><00:02:33.760><c> or</c><00:02:33.840><c> fine-tuning,</c>
+
+00:02:34.590 --> 00:02:34.600 align:start position:0%
+doing serious training or fine-tuning,
+ 
+
+00:02:34.600 --> 00:02:36.630 align:start position:0%
+doing serious training or fine-tuning,
+Verta<00:02:34.920><c> also</c><00:02:35.160><c> offers</c><00:02:35.520><c> instant</c><00:02:35.920><c> clusters</c><00:02:36.440><c> with</c>
+
+00:02:36.630 --> 00:02:36.640 align:start position:0%
+Verta also offers instant clusters with
+ 
+
+00:02:36.640 --> 00:02:39.870 align:start position:0%
+Verta also offers instant clusters with
+self-service<00:02:37.240><c> access</c><00:02:37.640><c> to</c><00:02:37.800><c> 16</c><00:02:38.240><c> to</c><00:02:38.400><c> 128</c><00:02:39.320><c> GPUs</c>
+
+00:02:39.870 --> 00:02:39.880 align:start position:0%
+self-service access to 16 to 128 GPUs
+ 
+
+00:02:39.880 --> 00:02:41.550 align:start position:0%
+self-service access to 16 to 128 GPUs
+connected<00:02:40.360><c> through</c><00:02:40.600><c> InfiniBand.</c><00:02:41.360><c> That's</c>
+
+00:02:41.550 --> 00:02:41.560 align:start position:0%
+connected through InfiniBand. That's
+ 
+
+00:02:41.560 --> 00:02:43.350 align:start position:0%
+connected through InfiniBand. That's
+exactly<00:02:42.080><c> the</c><00:02:42.200><c> kind</c><00:02:42.400><c> of</c><00:02:42.480><c> setup</c><00:02:42.760><c> you</c><00:02:42.920><c> want</c><00:02:43.240><c> when</c>
+
+00:02:43.350 --> 00:02:43.360 align:start position:0%
+exactly the kind of setup you want when
+ 
+
+00:02:43.360 --> 00:02:45.270 align:start position:0%
+exactly the kind of setup you want when
+multi-GPU<00:02:44.000><c> performance</c><00:02:44.520><c> actually</c><00:02:44.840><c> matters.</c>
+
+00:02:45.270 --> 00:02:45.280 align:start position:0%
+multi-GPU performance actually matters.
+ 
+
+00:02:45.280 --> 00:02:46.430 align:start position:0%
+multi-GPU performance actually matters.
+Then,<00:02:45.520><c> when</c><00:02:45.640><c> your</c><00:02:45.760><c> model</c><00:02:46.000><c> is</c><00:02:46.120><c> ready</c><00:02:46.360><c> to</c>
+
+00:02:46.430 --> 00:02:46.440 align:start position:0%
+Then, when your model is ready to
+ 
+
+00:02:46.440 --> 00:02:47.990 align:start position:0%
+Then, when your model is ready to
+deploy,<00:02:46.880><c> you</c><00:02:47.000><c> can</c><00:02:47.120><c> move</c><00:02:47.320><c> into</c><00:02:47.520><c> production</c>
+
+00:02:47.990 --> 00:02:48.000 align:start position:0%
+deploy, you can move into production
+ 
+
+00:02:48.000 --> 00:02:49.830 align:start position:0%
+deploy, you can move into production
+with<00:02:48.200><c> auto-scaling</c><00:02:48.840><c> serverless</c><00:02:49.240><c> containers,</c>
+
+00:02:49.830 --> 00:02:49.840 align:start position:0%
+with auto-scaling serverless containers,
+ 
+
+00:02:49.840 --> 00:02:51.510 align:start position:0%
+with auto-scaling serverless containers,
+making<00:02:50.080><c> the</c><00:02:50.160><c> path</c><00:02:50.520><c> from</c><00:02:50.760><c> experiments</c><00:02:51.360><c> to</c>
+
+00:02:51.510 --> 00:02:51.520 align:start position:0%
+making the path from experiments to
+ 
+
+00:02:51.520 --> 00:02:53.190 align:start position:0%
+making the path from experiments to
+inference<00:02:51.920><c> a</c><00:02:52.000><c> lot</c><00:02:52.320><c> less</c><00:02:52.520><c> painful.</c><00:02:53.080><c> So,</c>
+
+00:02:53.190 --> 00:02:53.200 align:start position:0%
+inference a lot less painful. So,
+ 
+
+00:02:53.200 --> 00:02:54.630 align:start position:0%
+inference a lot less painful. So,
+whether<00:02:53.400><c> you're</c><00:02:53.560><c> experimenting,</c><00:02:54.320><c> building</c>
+
+00:02:54.630 --> 00:02:54.640 align:start position:0%
+whether you're experimenting, building
+ 
+
+00:02:54.640 --> 00:02:56.750 align:start position:0%
+whether you're experimenting, building
+agentic<00:02:55.120><c> AI</c><00:02:55.280><c> systems,</c><00:02:55.840><c> fine-tuning</c><00:02:56.440><c> models,</c>
+
+00:02:56.750 --> 00:02:56.760 align:start position:0%
+agentic AI systems, fine-tuning models,
+ 
+
+00:02:56.760 --> 00:02:58.510 align:start position:0%
+agentic AI systems, fine-tuning models,
+or<00:02:56.840><c> deploying</c><00:02:57.280><c> inference</c><00:02:57.640><c> at</c><00:02:57.720><c> scale,</c><00:02:58.200><c> Verta</c>
+
+00:02:58.510 --> 00:02:58.520 align:start position:0%
+or deploying inference at scale, Verta
+ 
+
+00:02:58.520 --> 00:03:00.110 align:start position:0%
+or deploying inference at scale, Verta
+gives<00:02:58.760><c> you</c><00:02:58.920><c> AI</c><00:02:59.120><c> infrastructure</c><00:02:59.760><c> built</c><00:02:59.959><c> for</c>
+
+00:03:00.110 --> 00:03:00.120 align:start position:0%
+gives you AI infrastructure built for
+ 
+
+00:03:00.120 --> 00:03:01.710 align:start position:0%
+gives you AI infrastructure built for
+speed,<00:03:00.480><c> power,</c><00:03:00.840><c> and</c><00:03:00.959><c> performance</c><00:03:01.440><c> without</c>
+
+00:03:01.710 --> 00:03:01.720 align:start position:0%
+speed, power, and performance without
+ 
+
+00:03:01.720 --> 00:03:03.710 align:start position:0%
+speed, power, and performance without
+the<00:03:01.920><c> usual</c><00:03:02.280><c> scaling</c><00:03:02.720><c> chaos.</c><00:03:03.239><c> So,</c><00:03:03.400><c> check</c><00:03:03.600><c> out</c>
+
+00:03:03.710 --> 00:03:03.720 align:start position:0%
+the usual scaling chaos. So, check out
+ 
+
+00:03:03.720 --> 00:03:05.030 align:start position:0%
+the usual scaling chaos. So, check out
+Verta<00:03:04.000><c> now</c><00:03:04.239><c> using</c><00:03:04.519><c> the</c><00:03:04.600><c> link</c><00:03:04.760><c> down</c><00:03:04.920><c> in</c><00:03:05.000><c> the</c>
+
+00:03:05.030 --> 00:03:05.040 align:start position:0%
+Verta now using the link down in the
+ 
+
+00:03:05.040 --> 00:03:07.270 align:start position:0%
+Verta now using the link down in the
+description<00:03:05.640><c> and</c><00:03:05.800><c> use</c><00:03:05.959><c> code</c><00:03:06.280><c> bycloud50,</c>
+
+00:03:07.270 --> 00:03:07.280 align:start position:0%
+description and use code bycloud50,
+ 
+
+00:03:07.280 --> 00:03:09.430 align:start position:0%
+description and use code bycloud50,
+which<00:03:07.480><c> provides</c><00:03:07.880><c> $50</c><00:03:08.640><c> worth</c><00:03:08.880><c> of</c><00:03:09.040><c> compute</c>
+
+00:03:09.430 --> 00:03:09.440 align:start position:0%
+which provides $50 worth of compute
+ 
+
+00:03:09.440 --> 00:03:11.470 align:start position:0%
+which provides $50 worth of compute
+credit<00:03:09.840><c> for</c><00:03:10.040><c> just</c><00:03:10.360><c> five</c><00:03:10.640><c> bucks.</c><00:03:11.080><c> And</c><00:03:11.239><c> thanks</c>
+
+00:03:11.470 --> 00:03:11.480 align:start position:0%
+credit for just five bucks. And thanks
+ 
+
+00:03:11.480 --> 00:03:12.910 align:start position:0%
+credit for just five bucks. And thanks
+again<00:03:11.760><c> to</c><00:03:11.880><c> Verta</c><00:03:12.200><c> for</c><00:03:12.320><c> sponsoring</c><00:03:12.800><c> this</c>
+
+00:03:12.910 --> 00:03:12.920 align:start position:0%
+again to Verta for sponsoring this
+ 
+
+00:03:12.920 --> 00:03:14.470 align:start position:0%
+again to Verta for sponsoring this
+video.<00:03:13.280><c> Anyways,</c><00:03:13.760><c> by</c><00:03:13.840><c> the</c><00:03:13.959><c> time</c><00:03:14.200><c> that</c><00:03:14.320><c> this</c>
+
+00:03:14.470 --> 00:03:14.480 align:start position:0%
+video. Anyways, by the time that this
+ 
+
+00:03:14.480 --> 00:03:15.910 align:start position:0%
+video. Anyways, by the time that this
+video<00:03:14.720><c> is</c><00:03:14.880><c> out,</c><00:03:15.160><c> I'm</c><00:03:15.280><c> pretty</c><00:03:15.480><c> sure</c><00:03:15.640><c> most</c><00:03:15.840><c> of</c>
+
+00:03:15.910 --> 00:03:15.920 align:start position:0%
+video is out, I'm pretty sure most of
+ 
+
+00:03:15.920 --> 00:03:17.430 align:start position:0%
+video is out, I'm pretty sure most of
+you<00:03:16.000><c> guys</c><00:03:16.239><c> are</c><00:03:16.400><c> already</c><00:03:16.760><c> kind</c><00:03:17.000><c> of</c><00:03:17.080><c> familiar</c>
+
+00:03:17.430 --> 00:03:17.440 align:start position:0%
+you guys are already kind of familiar
+ 
+
+00:03:17.440 --> 00:03:19.150 align:start position:0%
+you guys are already kind of familiar
+with<00:03:17.600><c> Gemini</c><00:03:17.880><c> K3's</c><00:03:18.280><c> performance,</c><00:03:18.800><c> so</c><00:03:19.000><c> I'll</c>
+
+00:03:19.150 --> 00:03:19.160 align:start position:0%
+with Gemini K3's performance, so I'll
+ 
+
+00:03:19.160 --> 00:03:21.590 align:start position:0%
+with Gemini K3's performance, so I'll
+just<00:03:19.360><c> talk</c><00:03:19.560><c> about</c><00:03:19.880><c> it</c><00:03:20.000><c> briefly.</c><00:03:20.560><c> Gemini</c><00:03:20.840><c> K3</c><00:03:21.280><c> is</c>
+
+00:03:21.590 --> 00:03:21.600 align:start position:0%
+just talk about it briefly. Gemini K3 is
+ 
+
+00:03:21.600 --> 00:03:24.270 align:start position:0%
+just talk about it briefly. Gemini K3 is
+basically<00:03:22.040><c> on</c><00:03:22.200><c> the</c><00:03:22.320><c> same</c><00:03:22.640><c> level</c><00:03:22.959><c> with</c><00:03:23.160><c> GPT-3.5</c>
+
+00:03:24.270 --> 00:03:24.280 align:start position:0%
+basically on the same level with GPT-3.5
+ 
+
+00:03:24.280 --> 00:03:26.590 align:start position:0%
+basically on the same level with GPT-3.5
+X<00:03:24.480><c> High</c><00:03:24.600><c> for</c><00:03:25.000><c> coding</c><00:03:25.280><c> agents,</c><00:03:25.920><c> number</c><00:03:26.200><c> one</c><00:03:26.440><c> on</c>
+
+00:03:26.590 --> 00:03:26.600 align:start position:0%
+X High for coding agents, number one on
+ 
+
+00:03:26.600 --> 00:03:28.390 align:start position:0%
+X High for coding agents, number one on
+front-end<00:03:27.160><c> coding,</c><00:03:27.600><c> number</c><00:03:27.800><c> three</c><00:03:28.040><c> on</c><00:03:28.200><c> Deep</c>
+
+00:03:28.390 --> 00:03:28.400 align:start position:0%
+front-end coding, number three on Deep
+ 
+
+00:03:28.400 --> 00:03:29.790 align:start position:0%
+front-end coding, number three on Deep
+Seek,<00:03:28.680><c> which</c><00:03:28.880><c> is</c><00:03:29.000><c> a</c><00:03:29.080><c> private</c><00:03:29.519><c> coding</c>
+
+00:03:29.790 --> 00:03:29.800 align:start position:0%
+Seek, which is a private coding
+ 
+
+00:03:29.800 --> 00:03:32.110 align:start position:0%
+Seek, which is a private coding
+benchmark,<00:03:30.560><c> on</c><00:03:30.760><c> par</c><00:03:31.040><c> with</c><00:03:31.200><c> Claude</c><00:03:31.560><c> Fable</c><00:03:31.959><c> on</c>
+
+00:03:32.110 --> 00:03:32.120 align:start position:0%
+benchmark, on par with Claude Fable on
+ 
+
+00:03:32.120 --> 00:03:34.430 align:start position:0%
+benchmark, on par with Claude Fable on
+Terminal<00:03:32.480><c> Bench</c><00:03:32.760><c> 2.1,</c><00:03:33.600><c> not</c><00:03:33.800><c> to</c><00:03:33.880><c> mention</c><00:03:34.320><c> it</c>
+
+00:03:34.430 --> 00:03:34.440 align:start position:0%
+Terminal Bench 2.1, not to mention it
+ 
+
+00:03:34.440 --> 00:03:36.550 align:start position:0%
+Terminal Bench 2.1, not to mention it
+achieved<00:03:34.880><c> a</c><00:03:34.959><c> huge</c><00:03:35.280><c> jump</c><00:03:35.519><c> in</c><00:03:35.680><c> token</c><00:03:35.959><c> efficiency</c>
+
+00:03:36.550 --> 00:03:36.560 align:start position:0%
+achieved a huge jump in token efficiency
+ 
+
+00:03:36.560 --> 00:03:38.150 align:start position:0%
+achieved a huge jump in token efficiency
+compared<00:03:36.920><c> to</c><00:03:37.000><c> its</c><00:03:37.160><c> previous</c><00:03:37.600><c> release,</c>
+
+00:03:38.150 --> 00:03:38.160 align:start position:0%
+compared to its previous release,
+ 
+
+00:03:38.160 --> 00:03:39.830 align:start position:0%
+compared to its previous release,
+beating<00:03:38.480><c> the</c><00:03:38.560><c> Claude</c><00:03:38.880><c> models</c><00:03:39.239><c> by</c><00:03:39.400><c> at</c><00:03:39.560><c> least</c>
+
+00:03:39.830 --> 00:03:39.840 align:start position:0%
+beating the Claude models by at least
+ 
+
+00:03:39.840 --> 00:03:41.949 align:start position:0%
+beating the Claude models by at least
+one<00:03:40.120><c> fold,</c><00:03:40.519><c> and</c><00:03:40.680><c> sits</c><00:03:41.040><c> just</c><00:03:41.280><c> slightly</c><00:03:41.640><c> behind</c>
+
+00:03:41.949 --> 00:03:41.959 align:start position:0%
+one fold, and sits just slightly behind
+ 
+
+00:03:41.959 --> 00:03:44.590 align:start position:0%
+one fold, and sits just slightly behind
+GPT-3.5.6.<00:03:43.120><c> It</c><00:03:43.239><c> also</c><00:03:43.519><c> achieved</c><00:03:43.959><c> second</c><00:03:44.440><c> in</c>
+
+00:03:44.590 --> 00:03:44.600 align:start position:0%
+GPT-3.5.6. It also achieved second in
+ 
+
+00:03:44.600 --> 00:03:46.670 align:start position:0%
+GPT-3.5.6. It also achieved second in
+realistic<00:03:45.080><c> business</c><00:03:45.440><c> workflows.</c><00:03:46.120><c> And</c><00:03:46.320><c> all</c><00:03:46.480><c> in</c>
+
+00:03:46.670 --> 00:03:46.680 align:start position:0%
+realistic business workflows. And all in
+ 
+
+00:03:46.680 --> 00:03:48.229 align:start position:0%
+realistic business workflows. And all in
+all,<00:03:47.000><c> you</c><00:03:47.120><c> can</c><00:03:47.239><c> just</c><00:03:47.440><c> tell</c><00:03:47.640><c> that</c><00:03:47.880><c> they</c><00:03:48.040><c> are</c>
+
+00:03:48.229 --> 00:03:48.239 align:start position:0%
+all, you can just tell that they are
+ 
+
+00:03:48.239 --> 00:03:50.830 align:start position:0%
+all, you can just tell that they are
+built<00:03:48.640><c> fully</c><00:03:49.080><c> for</c><00:03:49.280><c> coding</c><00:03:49.840><c> or</c><00:03:50.080><c> long-horizon</c>
+
+00:03:50.830 --> 00:03:50.840 align:start position:0%
+built fully for coding or long-horizon
+ 
+
+00:03:50.840 --> 00:03:52.630 align:start position:0%
+built fully for coding or long-horizon
+tasks.<00:03:51.360><c> But</c><00:03:51.519><c> I</c><00:03:51.600><c> think</c><00:03:51.800><c> the</c><00:03:51.880><c> most</c><00:03:52.120><c> impressive</c>
+
+00:03:52.630 --> 00:03:52.640 align:start position:0%
+tasks. But I think the most impressive
+ 
+
+00:03:52.640 --> 00:03:54.590 align:start position:0%
+tasks. But I think the most impressive
+thing<00:03:52.960><c> about</c><00:03:53.200><c> this</c><00:03:53.320><c> release</c><00:03:53.680><c> is</c><00:03:53.880><c> how</c><00:03:54.200><c> we</c><00:03:54.440><c> are</c>
+
+00:03:54.590 --> 00:03:54.600 align:start position:0%
+thing about this release is how we are
+ 
+
+00:03:54.600 --> 00:03:56.310 align:start position:0%
+thing about this release is how we are
+past<00:03:54.960><c> the</c><00:03:55.040><c> stage</c><00:03:55.400><c> of</c><00:03:55.520><c> just</c><00:03:55.760><c> showing</c><00:03:56.120><c> AI</c>
+
+00:03:56.310 --> 00:03:56.320 align:start position:0%
+past the stage of just showing AI
+ 
+
+00:03:56.320 --> 00:03:57.990 align:start position:0%
+past the stage of just showing AI
+writing<00:03:56.640><c> its</c><00:03:56.840><c> own</c><00:03:57.040><c> training</c><00:03:57.440><c> code</c><00:03:57.680><c> or</c><00:03:57.800><c> its</c>
+
+00:03:57.990 --> 00:03:58.000 align:start position:0%
+writing its own training code or its
+ 
+
+00:03:58.000 --> 00:04:00.110 align:start position:0%
+writing its own training code or its
+kernel<00:03:58.400><c> as</c><00:03:58.560><c> a</c><00:03:58.600><c> showcase.</c><00:03:59.160><c> Because</c><00:03:59.480><c> this</c><00:03:59.680><c> time,</c>
+
+00:04:00.110 --> 00:04:00.120 align:start position:0%
+kernel as a showcase. Because this time,
+ 
+
+00:04:00.120 --> 00:04:01.870 align:start position:0%
+kernel as a showcase. Because this time,
+they<00:04:00.320><c> have</c><00:04:00.520><c> their</c><00:04:00.680><c> model</c><00:04:00.960><c> design</c><00:04:01.360><c> its</c><00:04:01.640><c> own</c>
+
+00:04:01.870 --> 00:04:01.880 align:start position:0%
+they have their model design its own
+ 
+
+00:04:01.880 --> 00:04:03.790 align:start position:0%
+they have their model design its own
+hardware<00:04:02.320><c> chip</c><00:04:02.680><c> for</c><00:04:02.880><c> itself.</c><00:04:03.440><c> So,</c><00:04:03.600><c> in</c><00:04:03.720><c> a</c>
+
+00:04:03.790 --> 00:04:03.800 align:start position:0%
+hardware chip for itself. So, in a
+ 
+
+00:04:03.800 --> 00:04:07.310 align:start position:0%
+hardware chip for itself. So, in a
+single<00:04:04.240><c> 48-hour</c><00:04:05.000><c> autonomous</c><00:04:05.680><c> run,</c><00:04:06.080><c> K3</c><00:04:06.680><c> built,</c>
+
+00:04:07.310 --> 00:04:07.320 align:start position:0%
+single 48-hour autonomous run, K3 built,
+ 
+
+00:04:07.320 --> 00:04:09.310 align:start position:0%
+single 48-hour autonomous run, K3 built,
+optimized,<00:04:07.920><c> and</c><00:04:08.120><c> verified</c><00:04:08.560><c> the</c><00:04:08.680><c> chip</c><00:04:09.000><c> using</c>
+
+00:04:09.310 --> 00:04:09.320 align:start position:0%
+optimized, and verified the chip using
+ 
+
+00:04:09.320 --> 00:04:10.870 align:start position:0%
+optimized, and verified the chip using
+open-source<00:04:09.800><c> tools</c><00:04:10.120><c> on</c><00:04:10.280><c> a</c><00:04:10.360><c> 9-gate</c>
+
+00:04:10.870 --> 00:04:10.880 align:start position:0%
+open-source tools on a 9-gate
+ 
+
+00:04:10.880 --> 00:04:13.790 align:start position:0%
+open-source tools on a 9-gate
+45-nanometer<00:04:11.880><c> library.</c><00:04:12.400><c> And</c><00:04:12.560><c> within</c><00:04:12.959><c> 4</c><00:04:13.200><c> mm</c>
+
+00:04:13.790 --> 00:04:13.800 align:start position:0%
+45-nanometer library. And within 4 mm
+ 
+
+00:04:13.800 --> 00:04:15.990 align:start position:0%
+45-nanometer library. And within 4 mm
+squared,<00:04:14.400><c> the</c><00:04:14.560><c> chip</c><00:04:14.880><c> Kimi</c><00:04:15.160><c> K3</c><00:04:15.520><c> designed</c><00:04:15.920><c> and</c>
+
+00:04:15.990 --> 00:04:16.000 align:start position:0%
+squared, the chip Kimi K3 designed and
+ 
+
+00:04:16.000 --> 00:04:19.069 align:start position:0%
+squared, the chip Kimi K3 designed and
+packed<00:04:16.480><c> 1.46</c><00:04:17.480><c> million</c><00:04:17.920><c> standard</c><00:04:18.440><c> cells,</c>
+
+00:04:19.069 --> 00:04:19.079 align:start position:0%
+packed 1.46 million standard cells,
+ 
+
+00:04:19.079 --> 00:04:20.830 align:start position:0%
+packed 1.46 million standard cells,
+0.277
+
+00:04:20.830 --> 00:04:20.840 align:start position:0%
+0.277
+ 
+
+00:04:20.840 --> 00:04:23.310 align:start position:0%
+0.277
+MB<00:04:21.200><c> of</c><00:04:21.320><c> SRAM,</c><00:04:21.720><c> and</c><00:04:21.920><c> an</c><00:04:22.120><c> 8-bit</c><00:04:22.440><c> 4-MAC</c><00:04:23.040><c> array</c>
+
+00:04:23.310 --> 00:04:23.320 align:start position:0%
+MB of SRAM, and an 8-bit 4-MAC array
+ 
+
+00:04:23.320 --> 00:04:25.310 align:start position:0%
+MB of SRAM, and an 8-bit 4-MAC array
+with<00:04:23.560><c> fused</c><00:04:23.880><c> dequantization.</c><00:04:24.840><c> And</c><00:04:25.000><c> it</c><00:04:25.120><c> was</c>
+
+00:04:25.310 --> 00:04:25.320 align:start position:0%
+with fused dequantization. And it was
+ 
+
+00:04:25.320 --> 00:04:27.990 align:start position:0%
+with fused dequantization. And it was
+able<00:04:25.520><c> to</c><00:04:25.640><c> achieve</c><00:04:26.120><c> 8,700</c><00:04:27.200><c> tokens</c><00:04:27.520><c> per</c><00:04:27.640><c> second</c>
+
+00:04:27.990 --> 00:04:28.000 align:start position:0%
+able to achieve 8,700 tokens per second
+ 
+
+00:04:28.000 --> 00:04:30.230 align:start position:0%
+able to achieve 8,700 tokens per second
+decode<00:04:28.400><c> throughput</c><00:04:28.880><c> in</c><00:04:29.000><c> simulation</c><00:04:29.760><c> serving</c>
+
+00:04:30.230 --> 00:04:30.240 align:start position:0%
+decode throughput in simulation serving
+ 
+
+00:04:30.240 --> 00:04:32.030 align:start position:0%
+decode throughput in simulation serving
+a<00:04:30.320><c> nano</c><00:04:30.800><c> model.</c><00:04:31.240><c> But,</c><00:04:31.360><c> I</c><00:04:31.400><c> think</c><00:04:31.600><c> the</c><00:04:31.720><c> clearest</c>
+
+00:04:32.030 --> 00:04:32.040 align:start position:0%
+a nano model. But, I think the clearest
+ 
+
+00:04:32.040 --> 00:04:34.350 align:start position:0%
+a nano model. But, I think the clearest
+sign<00:04:32.280><c> of</c><00:04:32.400><c> just</c><00:04:32.640><c> how</c><00:04:32.880><c> frontier</c><00:04:33.320><c> this</c><00:04:33.520><c> model</c><00:04:33.840><c> is</c>
+
+00:04:34.350 --> 00:04:34.360 align:start position:0%
+sign of just how frontier this model is
+ 
+
+00:04:34.360 --> 00:04:36.190 align:start position:0%
+sign of just how frontier this model is
+comes<00:04:34.720><c> from</c><00:04:34.960><c> its</c><00:04:35.120><c> long</c><00:04:35.360><c> context</c><00:04:35.840><c> reasoning</c>
+
+00:04:36.190 --> 00:04:36.200 align:start position:0%
+comes from its long context reasoning
+ 
+
+00:04:36.200 --> 00:04:37.909 align:start position:0%
+comes from its long context reasoning
+performance.<00:04:36.919><c> It</c><00:04:37.040><c> completely</c><00:04:37.600><c> topped</c><00:04:37.880><c> the</c>
+
+00:04:37.909 --> 00:04:37.919 align:start position:0%
+performance. It completely topped the
+ 
+
+00:04:37.919 --> 00:04:39.870 align:start position:0%
+performance. It completely topped the
+benchmark<00:04:38.440><c> despite</c><00:04:38.880><c> using</c><00:04:39.200><c> a</c><00:04:39.280><c> new</c><00:04:39.520><c> attention</c>
+
+00:04:39.870 --> 00:04:39.880 align:start position:0%
+benchmark despite using a new attention
+ 
+
+00:04:39.880 --> 00:04:42.150 align:start position:0%
+benchmark despite using a new attention
+mechanism<00:04:40.400><c> developed</c><00:04:40.880><c> in-house</c><00:04:41.560><c> while</c><00:04:41.919><c> still</c>
+
+00:04:42.150 --> 00:04:42.160 align:start position:0%
+mechanism developed in-house while still
+ 
+
+00:04:42.160 --> 00:04:44.110 align:start position:0%
+mechanism developed in-house while still
+remaining<00:04:42.600><c> relatively</c><00:04:43.160><c> cheap,</c><00:04:43.720><c> which</c><00:04:43.840><c> is</c><00:04:44.000><c> at</c>
+
+00:04:44.110 --> 00:04:44.120 align:start position:0%
+remaining relatively cheap, which is at
+ 
+
+00:04:44.120 --> 00:04:46.350 align:start position:0%
+remaining relatively cheap, which is at
+least<00:04:44.360><c> three</c><00:04:44.600><c> times</c><00:04:45.000><c> cheaper</c><00:04:45.360><c> than</c><00:04:45.560><c> Fable</c><00:04:45.880><c> 5.</c>
+
+00:04:46.350 --> 00:04:46.360 align:start position:0%
+least three times cheaper than Fable 5.
+ 
+
+00:04:46.360 --> 00:04:47.870 align:start position:0%
+least three times cheaper than Fable 5.
+So,<00:04:46.480><c> yeah,</c><00:04:46.760><c> I</c><00:04:46.840><c> take</c><00:04:47.000><c> back</c><00:04:47.240><c> what</c><00:04:47.360><c> I</c><00:04:47.440><c> said</c><00:04:47.640><c> about</c>
+
+00:04:47.870 --> 00:04:47.880 align:start position:0%
+So, yeah, I take back what I said about
+ 
+
+00:04:47.880 --> 00:04:50.070 align:start position:0%
+So, yeah, I take back what I said about
+DeepSeek<00:04:48.400><c> being</c><00:04:48.640><c> the</c><00:04:48.880><c> only</c><00:04:49.160><c> open</c><00:04:49.440><c> lab</c><00:04:49.720><c> capable</c>
+
+00:04:50.070 --> 00:04:50.080 align:start position:0%
+DeepSeek being the only open lab capable
+ 
+
+00:04:50.080 --> 00:04:51.870 align:start position:0%
+DeepSeek being the only open lab capable
+of<00:04:50.240><c> designing</c><00:04:50.720><c> entirely</c><00:04:51.280><c> new</c><00:04:51.480><c> attention</c>
+
+00:04:51.870 --> 00:04:51.880 align:start position:0%
+of designing entirely new attention
+ 
+
+00:04:51.880 --> 00:04:53.909 align:start position:0%
+of designing entirely new attention
+mechanisms<00:04:52.480><c> for</c><00:04:52.600><c> frontier</c><00:04:53.080><c> models.</c><00:04:53.640><c> Because</c>
+
+00:04:53.909 --> 00:04:53.919 align:start position:0%
+mechanisms for frontier models. Because
+ 
+
+00:04:53.919 --> 00:04:56.150 align:start position:0%
+mechanisms for frontier models. Because
+this<00:04:54.120><c> attention</c><00:04:54.560><c> mechanism,</c><00:04:55.120><c> called</c><00:04:55.520><c> KDA,</c>
+
+00:04:56.150 --> 00:04:56.160 align:start position:0%
+this attention mechanism, called KDA,
+ 
+
+00:04:56.160 --> 00:04:58.350 align:start position:0%
+this attention mechanism, called KDA,
+which<00:04:56.400><c> is</c><00:04:56.520><c> short</c><00:04:56.800><c> for</c><00:04:57.000><c> Kimi</c><00:04:57.360><c> Delta</c><00:04:57.760><c> Attention,</c>
+
+00:04:58.350 --> 00:04:58.360 align:start position:0%
+which is short for Kimi Delta Attention,
+ 
+
+00:04:58.360 --> 00:05:00.110 align:start position:0%
+which is short for Kimi Delta Attention,
+has<00:04:58.640><c> actually</c><00:04:58.919><c> matured</c><00:04:59.320><c> into</c><00:04:59.560><c> a</c><00:04:59.640><c> reliable</c>
+
+00:05:00.110 --> 00:05:00.120 align:start position:0%
+has actually matured into a reliable
+ 
+
+00:05:00.120 --> 00:05:01.790 align:start position:0%
+has actually matured into a reliable
+attention<00:05:00.560><c> variant,</c><00:05:01.120><c> as</c><00:05:01.280><c> you</c><00:05:01.360><c> can</c><00:05:01.520><c> see</c><00:05:01.640><c> from</c>
+
+00:05:01.790 --> 00:05:01.800 align:start position:0%
+attention variant, as you can see from
+ 
+
+00:05:01.800 --> 00:05:03.070 align:start position:0%
+attention variant, as you can see from
+the<00:05:01.880><c> model's</c><00:05:02.240><c> performance.</c><00:05:02.880><c> And</c><00:05:03.000><c> to</c>
+
+00:05:03.070 --> 00:05:03.080 align:start position:0%
+the model's performance. And to
+ 
+
+00:05:03.080 --> 00:05:05.430 align:start position:0%
+the model's performance. And to
+understand<00:05:03.640><c> why</c><00:05:03.880><c> KDA</c><00:05:04.320><c> is</c><00:05:04.440><c> so</c><00:05:04.600><c> impressive,</c><00:05:05.280><c> we</c>
+
+00:05:05.430 --> 00:05:05.440 align:start position:0%
+understand why KDA is so impressive, we
+ 
+
+00:05:05.440 --> 00:05:07.310 align:start position:0%
+understand why KDA is so impressive, we
+first<00:05:05.720><c> need</c><00:05:05.840><c> to</c><00:05:05.919><c> look</c><00:05:06.160><c> at</c><00:05:06.440><c> what</c><00:05:06.720><c> it</c><00:05:06.840><c> is</c><00:05:07.000><c> doing</c>
+
+00:05:07.310 --> 00:05:07.320 align:start position:0%
+first need to look at what it is doing
+ 
+
+00:05:07.320 --> 00:05:09.190 align:start position:0%
+first need to look at what it is doing
+under<00:05:07.520><c> the</c><00:05:07.640><c> hood.</c><00:05:08.000><c> With</c><00:05:08.240><c> standard</c><00:05:08.720><c> softmax</c>
+
+00:05:09.190 --> 00:05:09.200 align:start position:0%
+under the hood. With standard softmax
+ 
+
+00:05:09.200 --> 00:05:10.870 align:start position:0%
+under the hood. With standard softmax
+attention,<00:05:09.960><c> every</c><00:05:10.120><c> token</c><00:05:10.400><c> can</c><00:05:10.520><c> directly</c>
+
+00:05:10.870 --> 00:05:10.880 align:start position:0%
+attention, every token can directly
+ 
+
+00:05:10.880 --> 00:05:12.510 align:start position:0%
+attention, every token can directly
+compare<00:05:11.200><c> itself</c><00:05:11.640><c> against</c><00:05:12.000><c> the</c><00:05:12.120><c> previous</c>
+
+00:05:12.510 --> 00:05:12.520 align:start position:0%
+compare itself against the previous
+ 
+
+00:05:12.520 --> 00:05:14.710 align:start position:0%
+compare itself against the previous
+tokens<00:05:13.000><c> in</c><00:05:13.120><c> the</c><00:05:13.200><c> context,</c><00:05:13.720><c> right?</c><00:05:14.040><c> This</c><00:05:14.400><c> is</c>
+
+00:05:14.710 --> 00:05:14.720 align:start position:0%
+tokens in the context, right? This is
+ 
+
+00:05:14.720 --> 00:05:16.750 align:start position:0%
+tokens in the context, right? This is
+extremely<00:05:15.400><c> expressive</c><00:05:16.000><c> because</c><00:05:16.280><c> the</c><00:05:16.400><c> model</c>
+
+00:05:16.750 --> 00:05:16.760 align:start position:0%
+extremely expressive because the model
+ 
+
+00:05:16.760 --> 00:05:18.270 align:start position:0%
+extremely expressive because the model
+can<00:05:16.960><c> retrieve</c><00:05:17.360><c> a</c><00:05:17.440><c> specific</c><00:05:17.919><c> piece</c><00:05:18.160><c> of</c>
+
+00:05:18.270 --> 00:05:18.280 align:start position:0%
+can retrieve a specific piece of
+ 
+
+00:05:18.280 --> 00:05:20.110 align:start position:0%
+can retrieve a specific piece of
+information<00:05:18.880><c> directly</c><00:05:19.240><c> from</c><00:05:19.520><c> any</c><00:05:19.760><c> word</c><00:05:20.040><c> in</c>
+
+00:05:20.110 --> 00:05:20.120 align:start position:0%
+information directly from any word in
+ 
+
+00:05:20.120 --> 00:05:21.510 align:start position:0%
+information directly from any word in
+the<00:05:20.200><c> sequence.</c><00:05:20.800><c> But,</c><00:05:20.840><c> the</c><00:05:20.919><c> cost</c><00:05:21.240><c> grows</c>
+
+00:05:21.510 --> 00:05:21.520 align:start position:0%
+the sequence. But, the cost grows
+ 
+
+00:05:21.520 --> 00:05:23.230 align:start position:0%
+the sequence. But, the cost grows
+quadratically<00:05:22.160><c> with</c><00:05:22.320><c> context</c><00:05:22.800><c> length,</c><00:05:23.120><c> and</c>
+
+00:05:23.230 --> 00:05:23.240 align:start position:0%
+quadratically with context length, and
+ 
+
+00:05:23.240 --> 00:05:25.070 align:start position:0%
+quadratically with context length, and
+this<00:05:23.440><c> is</c><00:05:23.600><c> already</c><00:05:23.960><c> expensive</c><00:05:24.480><c> for</c><00:05:24.640><c> a</c><00:05:24.720><c> normal</c>
+
+00:05:25.070 --> 00:05:25.080 align:start position:0%
+this is already expensive for a normal
+ 
+
+00:05:25.080 --> 00:05:27.030 align:start position:0%
+this is already expensive for a normal
+conversation.<00:05:25.880><c> So,</c><00:05:26.040><c> for</c><00:05:26.200><c> coding</c><00:05:26.520><c> agents</c><00:05:26.880><c> that</c>
+
+00:05:27.030 --> 00:05:27.040 align:start position:0%
+conversation. So, for coding agents that
+ 
+
+00:05:27.040 --> 00:05:29.110 align:start position:0%
+conversation. So, for coding agents that
+might<00:05:27.240><c> process</c><00:05:27.640><c> a</c><00:05:27.720><c> huge</c><00:05:28.000><c> code</c><00:05:28.240><c> repository,</c>
+
+00:05:29.110 --> 00:05:29.120 align:start position:0%
+might process a huge code repository,
+ 
+
+00:05:29.120 --> 00:05:31.230 align:start position:0%
+might process a huge code repository,
+repeated<00:05:29.640><c> tool</c><00:05:29.800><c> calls,</c><00:05:30.240><c> or</c><00:05:30.360><c> just</c><00:05:30.600><c> a</c><00:05:30.680><c> very</c><00:05:31.040><c> long</c>
+
+00:05:31.230 --> 00:05:31.240 align:start position:0%
+repeated tool calls, or just a very long
+ 
+
+00:05:31.240 --> 00:05:33.350 align:start position:0%
+repeated tool calls, or just a very long
+reasoning<00:05:31.600><c> trajectory,</c><00:05:32.440><c> the</c><00:05:32.560><c> attention</c><00:05:33.040><c> cost</c>
+
+00:05:33.350 --> 00:05:33.360 align:start position:0%
+reasoning trajectory, the attention cost
+ 
+
+00:05:33.360 --> 00:05:35.270 align:start position:0%
+reasoning trajectory, the attention cost
+becomes<00:05:33.760><c> one</c><00:05:33.960><c> of</c><00:05:34.040><c> the</c><00:05:34.120><c> main</c><00:05:34.440><c> bottlenecks.</c><00:05:35.160><c> And</c>
+
+00:05:35.270 --> 00:05:35.280 align:start position:0%
+becomes one of the main bottlenecks. And
+ 
+
+00:05:35.280 --> 00:05:36.950 align:start position:0%
+becomes one of the main bottlenecks. And
+this<00:05:35.400><c> is</c><00:05:35.480><c> why</c><00:05:35.640><c> most</c><00:05:35.880><c> models</c><00:05:36.240><c> now</c><00:05:36.400><c> look</c><00:05:36.600><c> towards</c>
+
+00:05:36.950 --> 00:05:36.960 align:start position:0%
+this is why most models now look towards
+ 
+
+00:05:36.960 --> 00:05:38.630 align:start position:0%
+this is why most models now look towards
+alternatives<00:05:37.640><c> like</c><00:05:37.800><c> sparse</c><00:05:38.120><c> attention,</c>
+
+00:05:38.630 --> 00:05:38.640 align:start position:0%
+alternatives like sparse attention,
+ 
+
+00:05:38.640 --> 00:05:41.110 align:start position:0%
+alternatives like sparse attention,
+which<00:05:38.840><c> DeepSeek</c><00:05:39.400><c> is</c><00:05:39.600><c> using</c><00:05:39.880><c> for</c><00:05:40.080><c> V4,</c><00:05:40.840><c> or</c>
+
+00:05:41.110 --> 00:05:41.120 align:start position:0%
+which DeepSeek is using for V4, or
+ 
+
+00:05:41.120 --> 00:05:43.270 align:start position:0%
+which DeepSeek is using for V4, or
+linear<00:05:41.560><c> attention,</c><00:05:42.080><c> which</c><00:05:42.320><c> is</c><00:05:42.480><c> what</c><00:05:42.680><c> KDA</c><00:05:43.120><c> is</c>
+
+00:05:43.270 --> 00:05:43.280 align:start position:0%
+linear attention, which is what KDA is
+ 
+
+00:05:43.280 --> 00:05:45.230 align:start position:0%
+linear attention, which is what KDA is
+based<00:05:43.640><c> on.</c><00:05:43.919><c> So,</c><00:05:44.040><c> instead</c><00:05:44.400><c> of</c><00:05:44.480><c> retaining</c><00:05:45.040><c> every</c>
+
+00:05:45.230 --> 00:05:45.240 align:start position:0%
+based on. So, instead of retaining every
+ 
+
+00:05:45.240 --> 00:05:47.190 align:start position:0%
+based on. So, instead of retaining every
+previous<00:05:45.680><c> key</c><00:05:45.919><c> and</c><00:05:46.040><c> value</c><00:05:46.360><c> individually,</c>
+
+00:05:47.190 --> 00:05:47.200 align:start position:0%
+previous key and value individually,
+ 
+
+00:05:47.200 --> 00:05:49.030 align:start position:0%
+previous key and value individually,
+linear<00:05:47.520><c> attention</c><00:05:47.920><c> compresses</c><00:05:48.520><c> the</c><00:05:48.640><c> sequence</c>
+
+00:05:49.030 --> 00:05:49.040 align:start position:0%
+linear attention compresses the sequence
+ 
+
+00:05:49.040 --> 00:05:50.750 align:start position:0%
+linear attention compresses the sequence
+into<00:05:49.240><c> a</c><00:05:49.320><c> fixed</c><00:05:49.640><c> size</c><00:05:49.880><c> recurrent</c><00:05:50.320><c> state,</c><00:05:50.600><c> which</c>
+
+00:05:50.750 --> 00:05:50.760 align:start position:0%
+into a fixed size recurrent state, which
+ 
+
+00:05:50.760 --> 00:05:52.350 align:start position:0%
+into a fixed size recurrent state, which
+means<00:05:51.040><c> when</c><00:05:51.160><c> a</c><00:05:51.200><c> new</c><00:05:51.400><c> token</c><00:05:51.720><c> arrives,</c><00:05:52.280><c> the</c>
+
+00:05:52.350 --> 00:05:52.360 align:start position:0%
+means when a new token arrives, the
+ 
+
+00:05:52.360 --> 00:05:54.190 align:start position:0%
+means when a new token arrives, the
+model<00:05:52.680><c> updates</c><00:05:53.040><c> the</c><00:05:53.160><c> state</c><00:05:53.520><c> and</c><00:05:53.720><c> then</c><00:05:53.960><c> reads</c>
+
+00:05:54.190 --> 00:05:54.200 align:start position:0%
+model updates the state and then reads
+ 
+
+00:05:54.200 --> 00:05:55.910 align:start position:0%
+model updates the state and then reads
+from<00:05:54.440><c> it.</c><00:05:54.600><c> So,</c><00:05:54.720><c> the</c><00:05:54.800><c> memory</c><00:05:55.160><c> needed</c><00:05:55.520><c> for</c><00:05:55.720><c> each</c>
+
+00:05:55.910 --> 00:05:55.920 align:start position:0%
+from it. So, the memory needed for each
+ 
+
+00:05:55.920 --> 00:05:57.550 align:start position:0%
+from it. So, the memory needed for each
+linear<00:05:56.240><c> attention</c><00:05:56.680><c> layer</c><00:05:56.960><c> does</c><00:05:57.120><c> not</c><00:05:57.320><c> keep</c>
+
+00:05:57.550 --> 00:05:57.560 align:start position:0%
+linear attention layer does not keep
+ 
+
+00:05:57.560 --> 00:05:59.230 align:start position:0%
+linear attention layer does not keep
+increasing<00:05:58.200><c> with</c><00:05:58.320><c> the</c><00:05:58.400><c> context</c><00:05:58.840><c> length</c><00:05:59.120><c> in</c>
+
+00:05:59.230 --> 00:05:59.240 align:start position:0%
+increasing with the context length in
+ 
+
+00:05:59.240 --> 00:06:01.510 align:start position:0%
+increasing with the context length in
+the<00:05:59.320><c> same</c><00:05:59.720><c> way</c><00:06:00.000><c> as</c><00:06:00.160><c> a</c><00:06:00.240><c> regular</c><00:06:00.680><c> KV</c><00:06:00.960><c> cache.</c>
+
+00:06:01.510 --> 00:06:01.520 align:start position:0%
+the same way as a regular KV cache.
+ 
+
+00:06:01.520 --> 00:06:03.510 align:start position:0%
+the same way as a regular KV cache.
+However,<00:06:02.240><c> the</c><00:06:02.480><c> issue</c><00:06:02.840><c> is</c><00:06:02.960><c> that</c><00:06:03.200><c> linear</c>
+
+00:06:03.510 --> 00:06:03.520 align:start position:0%
+However, the issue is that linear
+ 
+
+00:06:03.520 --> 00:06:05.910 align:start position:0%
+However, the issue is that linear
+attention<00:06:04.040><c> has</c><00:06:04.320><c> historically</c><00:06:05.080><c> just</c><00:06:05.400><c> been</c><00:06:05.800><c> a</c>
+
+00:06:05.910 --> 00:06:05.920 align:start position:0%
+attention has historically just been a
+ 
+
+00:06:05.920 --> 00:06:08.030 align:start position:0%
+attention has historically just been a
+terrible<00:06:06.640><c> mechanism.</c><00:06:07.360><c> You</c><00:06:07.400><c> can</c><00:06:07.520><c> see</c><00:06:07.680><c> my</c><00:06:07.840><c> full</c>
+
+00:06:08.030 --> 00:06:08.040 align:start position:0%
+terrible mechanism. You can see my full
+ 
+
+00:06:08.040 --> 00:06:09.710 align:start position:0%
+terrible mechanism. You can see my full
+breakdown<00:06:08.480><c> in</c><00:06:08.600><c> this</c><00:06:08.800><c> older</c><00:06:09.040><c> video,</c><00:06:09.400><c> but</c><00:06:09.600><c> in</c>
+
+00:06:09.710 --> 00:06:09.720 align:start position:0%
+breakdown in this older video, but in
+ 
+
+00:06:09.720 --> 00:06:11.550 align:start position:0%
+breakdown in this older video, but in
+short,<00:06:10.240><c> since</c><00:06:10.520><c> the</c><00:06:10.640><c> entire</c><00:06:10.960><c> context</c><00:06:11.360><c> is</c>
+
+00:06:11.550 --> 00:06:11.560 align:start position:0%
+short, since the entire context is
+ 
+
+00:06:11.560 --> 00:06:13.430 align:start position:0%
+short, since the entire context is
+compressed<00:06:12.160><c> into</c><00:06:12.440><c> a</c><00:06:12.480><c> finite</c><00:06:12.960><c> state,</c>
+
+00:06:13.430 --> 00:06:13.440 align:start position:0%
+compressed into a finite state,
+ 
+
+00:06:13.440 --> 00:06:15.310 align:start position:0%
+compressed into a finite state,
+different<00:06:13.760><c> key-value</c><00:06:14.200><c> associations</c><00:06:15.040><c> can</c>
+
+00:06:15.310 --> 00:06:15.320 align:start position:0%
+different key-value associations can
+ 
+
+00:06:15.320 --> 00:06:17.030 align:start position:0%
+different key-value associations can
+interfere<00:06:15.800><c> with</c><00:06:16.000><c> each</c><00:06:16.160><c> other.</c><00:06:16.480><c> The</c><00:06:16.600><c> model</c>
+
+00:06:17.030 --> 00:06:17.040 align:start position:0%
+interfere with each other. The model
+ 
+
+00:06:17.040 --> 00:06:18.990 align:start position:0%
+interfere with each other. The model
+also<00:06:17.400><c> loses</c><00:06:17.760><c> the</c><00:06:17.880><c> ability</c><00:06:18.320><c> to</c><00:06:18.440><c> precisely</c>
+
+00:06:18.990 --> 00:06:19.000 align:start position:0%
+also loses the ability to precisely
+ 
+
+00:06:19.000 --> 00:06:20.909 align:start position:0%
+also loses the ability to precisely
+retrieve<00:06:19.440><c> every</c><00:06:19.680><c> individual</c><00:06:20.120><c> token</c><00:06:20.520><c> from</c><00:06:20.720><c> the</c>
+
+00:06:20.909 --> 00:06:20.919 align:start position:0%
+retrieve every individual token from the
+ 
+
+00:06:20.919 --> 00:06:23.110 align:start position:0%
+retrieve every individual token from the
+original<00:06:21.360><c> sequence.</c><00:06:22.000><c> So,</c><00:06:22.160><c> its</c><00:06:22.360><c> prior</c><00:06:22.680><c> forms</c>
+
+00:06:23.110 --> 00:06:23.120 align:start position:0%
+original sequence. So, its prior forms
+ 
+
+00:06:23.120 --> 00:06:25.310 align:start position:0%
+original sequence. So, its prior forms
+are<00:06:23.320><c> not</c><00:06:23.560><c> that</c><00:06:23.760><c> appealing</c><00:06:24.280><c> to</c><00:06:24.440><c> use</c><00:06:24.800><c> since</c><00:06:25.080><c> it</c>
+
+00:06:25.310 --> 00:06:25.320 align:start position:0%
+are not that appealing to use since it
+ 
+
+00:06:25.320 --> 00:06:27.390 align:start position:0%
+are not that appealing to use since it
+often<00:06:25.640><c> underperforms</c><00:06:26.320><c> full</c><00:06:26.520><c> attention</c><00:06:27.040><c> even</c>
+
+00:06:27.390 --> 00:06:27.400 align:start position:0%
+often underperforms full attention even
+ 
+
+00:06:27.400 --> 00:06:29.230 align:start position:0%
+often underperforms full attention even
+on<00:06:27.640><c> short</c><00:06:27.919><c> context</c><00:06:28.400><c> language</c><00:06:28.720><c> modeling.</c><00:06:29.160><c> I</c>
+
+00:06:29.230 --> 00:06:29.240 align:start position:0%
+on short context language modeling. I
+ 
+
+00:06:29.240 --> 00:06:31.590 align:start position:0%
+on short context language modeling. I
+would<00:06:29.440><c> say</c><00:06:29.720><c> its</c><00:06:29.919><c> efficiency</c><00:06:30.560><c> advantage</c><00:06:31.280><c> is</c>
+
+00:06:31.590 --> 00:06:31.600 align:start position:0%
+would say its efficiency advantage is
+ 
+
+00:06:31.600 --> 00:06:33.350 align:start position:0%
+would say its efficiency advantage is
+the<00:06:31.840><c> only</c><00:06:32.120><c> thing</c><00:06:32.400><c> that</c><00:06:32.600><c> kept</c><00:06:32.880><c> it</c><00:06:33.000><c> relevant.</c>
+
+00:06:33.350 --> 00:06:33.360 align:start position:0%
+the only thing that kept it relevant.
+ 
+
+00:06:33.360 --> 00:06:34.870 align:start position:0%
+the only thing that kept it relevant.
+But,<00:06:33.520><c> KDA</c><00:06:33.919><c> is</c><00:06:34.040><c> not</c><00:06:34.240><c> the</c><00:06:34.320><c> standard</c><00:06:34.680><c> linear</c>
+
+00:06:34.870 --> 00:06:34.880 align:start position:0%
+But, KDA is not the standard linear
+ 
+
+00:06:34.880 --> 00:06:37.310 align:start position:0%
+But, KDA is not the standard linear
+attention<00:06:35.240><c> we</c><00:06:35.360><c> know</c><00:06:35.720><c> of.</c><00:06:36.000><c> It</c><00:06:36.120><c> is</c><00:06:36.360><c> built</c><00:06:36.760><c> on</c><00:06:37.000><c> top</c>
+
+00:06:37.310 --> 00:06:37.320 align:start position:0%
+attention we know of. It is built on top
+ 
+
+00:06:37.320 --> 00:06:39.190 align:start position:0%
+attention we know of. It is built on top
+of<00:06:37.520><c> the</c><00:06:37.680><c> delta</c><00:06:38.120><c> rule.</c><00:06:38.440><c> In</c><00:06:38.560><c> basic</c><00:06:38.919><c> linear</c>
+
+00:06:39.190 --> 00:06:39.200 align:start position:0%
+of the delta rule. In basic linear
+ 
+
+00:06:39.200 --> 00:06:41.110 align:start position:0%
+of the delta rule. In basic linear
+attention,<00:06:39.760><c> every</c><00:06:39.960><c> new</c><00:06:40.160><c> key-value</c><00:06:40.680><c> pair</c><00:06:40.960><c> is</c>
+
+00:06:41.110 --> 00:06:41.120 align:start position:0%
+attention, every new key-value pair is
+ 
+
+00:06:41.120 --> 00:06:43.070 align:start position:0%
+attention, every new key-value pair is
+continuously<00:06:41.880><c> added</c><00:06:42.280><c> into</c><00:06:42.480><c> the</c><00:06:42.600><c> recurrent</c>
+
+00:06:43.070 --> 00:06:43.080 align:start position:0%
+continuously added into the recurrent
+ 
+
+00:06:43.080 --> 00:06:45.070 align:start position:0%
+continuously added into the recurrent
+state.<00:06:43.360><c> But,</c><00:06:43.480><c> the</c><00:06:43.560><c> delta</c><00:06:44.000><c> rule</c><00:06:44.360><c> instead</c>
+
+00:06:45.070 --> 00:06:45.080 align:start position:0%
+state. But, the delta rule instead
+ 
+
+00:06:45.080 --> 00:06:46.390 align:start position:0%
+state. But, the delta rule instead
+checks<00:06:45.400><c> what</c><00:06:45.520><c> the</c><00:06:45.600><c> value</c><00:06:45.880><c> the</c><00:06:45.960><c> current</c><00:06:46.200><c> state</c>
+
+00:06:46.390 --> 00:06:46.400 align:start position:0%
+checks what the value the current state
+ 
+
+00:06:46.400 --> 00:06:48.110 align:start position:0%
+checks what the value the current state
+already<00:06:46.800><c> predicts</c><00:06:47.200><c> for</c><00:06:47.320><c> that</c><00:06:47.560><c> key.</c><00:06:47.840><c> It</c><00:06:47.960><c> then</c>
+
+00:06:48.110 --> 00:06:48.120 align:start position:0%
+already predicts for that key. It then
+ 
+
+00:06:48.120 --> 00:06:49.790 align:start position:0%
+already predicts for that key. It then
+compares<00:06:48.600><c> that</c><00:06:48.720><c> prediction</c><00:06:49.200><c> against</c><00:06:49.520><c> the</c><00:06:49.600><c> new</c>
+
+00:06:49.790 --> 00:06:49.800 align:start position:0%
+compares that prediction against the new
+ 
+
+00:06:49.800 --> 00:06:51.430 align:start position:0%
+compares that prediction against the new
+value<00:06:50.200><c> and</c><00:06:50.360><c> updates</c><00:06:50.680><c> the</c><00:06:50.800><c> state</c><00:06:51.120><c> using</c><00:06:51.360><c> the</c>
+
+00:06:51.430 --> 00:06:51.440 align:start position:0%
+value and updates the state using the
+ 
+
+00:06:51.440 --> 00:06:53.150 align:start position:0%
+value and updates the state using the
+difference.<00:06:51.960><c> So,</c><00:06:52.080><c> the</c><00:06:52.200><c> update</c><00:06:52.600><c> is</c><00:06:52.760><c> based</c><00:06:53.040><c> on</c>
+
+00:06:53.150 --> 00:06:53.160 align:start position:0%
+difference. So, the update is based on
+ 
+
+00:06:53.160 --> 00:06:55.390 align:start position:0%
+difference. So, the update is based on
+the<00:06:53.400><c> error</c><00:06:53.840><c> or</c><00:06:54.000><c> the</c><00:06:54.120><c> delta</c><00:06:54.680><c> between</c><00:06:55.120><c> what</c><00:06:55.280><c> the</c>
+
+00:06:55.390 --> 00:06:55.400 align:start position:0%
+the error or the delta between what the
+ 
+
+00:06:55.400 --> 00:06:57.270 align:start position:0%
+the error or the delta between what the
+memory<00:06:55.800><c> currently</c><00:06:56.240><c> returns</c><00:06:56.800><c> and</c><00:06:56.960><c> what</c><00:06:57.200><c> it</c>
+
+00:06:57.270 --> 00:06:57.280 align:start position:0%
+memory currently returns and what it
+ 
+
+00:06:57.280 --> 00:06:59.270 align:start position:0%
+memory currently returns and what it
+should<00:06:57.520><c> return.</c><00:06:57.960><c> Hence,</c><00:06:58.240><c> the</c><00:06:58.360><c> name</c><00:06:58.880><c> delta</c>
+
+00:06:59.270 --> 00:06:59.280 align:start position:0%
+should return. Hence, the name delta
+ 
+
+00:06:59.280 --> 00:07:00.790 align:start position:0%
+should return. Hence, the name delta
+attention.<00:06:59.800><c> But,</c><00:07:00.000><c> even</c><00:07:00.240><c> with</c><00:07:00.360><c> the</c><00:07:00.440><c> delta</c>
+
+00:07:00.790 --> 00:07:00.800 align:start position:0%
+attention. But, even with the delta
+ 
+
+00:07:00.800 --> 00:07:02.590 align:start position:0%
+attention. But, even with the delta
+rule,<00:07:01.120><c> there</c><00:07:01.360><c> is</c><00:07:01.520><c> still</c><00:07:01.800><c> another</c><00:07:02.120><c> problem.</c>
+
+00:07:02.590 --> 00:07:02.600 align:start position:0%
+rule, there is still another problem.
+ 
+
+00:07:02.600 --> 00:07:04.110 align:start position:0%
+rule, there is still another problem.
+Some<00:07:02.840><c> information</c><00:07:03.320><c> would</c><00:07:03.440><c> still</c><00:07:03.680><c> become</c>
+
+00:07:04.110 --> 00:07:04.120 align:start position:0%
+Some information would still become
+ 
+
+00:07:04.120 --> 00:07:06.750 align:start position:0%
+Some information would still become
+outdated.<00:07:04.800><c> So,</c><00:07:05.040><c> Gated</c><00:07:05.360><c> Delta</c><00:07:05.680><c> Net,</c><00:07:06.040><c> which</c><00:07:06.280><c> KDA</c>
+
+00:07:06.750 --> 00:07:06.760 align:start position:0%
+outdated. So, Gated Delta Net, which KDA
+ 
+
+00:07:06.760 --> 00:07:09.150 align:start position:0%
+outdated. So, Gated Delta Net, which KDA
+is<00:07:06.919><c> based</c><00:07:07.280><c> on,</c><00:07:07.600><c> adds</c><00:07:07.840><c> a</c><00:07:07.919><c> forget</c><00:07:08.600><c> gate</c><00:07:08.960><c> that</c>
+
+00:07:09.150 --> 00:07:09.160 align:start position:0%
+is based on, adds a forget gate that
+ 
+
+00:07:09.160 --> 00:07:10.870 align:start position:0%
+is based on, adds a forget gate that
+controls<00:07:09.640><c> how</c><00:07:09.800><c> much</c><00:07:10.040><c> of</c><00:07:10.120><c> the</c><00:07:10.200><c> previous</c><00:07:10.600><c> state</c>
+
+00:07:10.870 --> 00:07:10.880 align:start position:0%
+controls how much of the previous state
+ 
+
+00:07:10.880 --> 00:07:12.430 align:start position:0%
+controls how much of the previous state
+should<00:07:11.040><c> remain</c><00:07:11.400><c> before</c><00:07:11.680><c> the</c><00:07:11.800><c> new</c><00:07:12.000><c> update</c><00:07:12.320><c> is</c>
+
+00:07:12.430 --> 00:07:12.440 align:start position:0%
+should remain before the new update is
+ 
+
+00:07:12.440 --> 00:07:14.070 align:start position:0%
+should remain before the new update is
+written.<00:07:12.880><c> The</c><00:07:13.040><c> only</c><00:07:13.280><c> issue</c><00:07:13.520><c> is</c><00:07:13.600><c> that</c><00:07:13.840><c> Gated</c>
+
+00:07:14.070 --> 00:07:14.080 align:start position:0%
+written. The only issue is that Gated
+ 
+
+00:07:14.080 --> 00:07:16.310 align:start position:0%
+written. The only issue is that Gated
+Delta<00:07:14.400><c> Net</c><00:07:14.640><c> uses</c><00:07:15.120><c> one</c><00:07:15.320><c> forgetting</c><00:07:15.800><c> rate</c><00:07:16.080><c> for</c>
+
+00:07:16.310 --> 00:07:16.320 align:start position:0%
+Delta Net uses one forgetting rate for
+ 
+
+00:07:16.320 --> 00:07:18.310 align:start position:0%
+Delta Net uses one forgetting rate for
+an<00:07:16.560><c> entire</c><00:07:17.040><c> attention</c><00:07:17.560><c> head.</c><00:07:17.880><c> So,</c><00:07:18.040><c> every</c>
+
+00:07:18.310 --> 00:07:18.320 align:start position:0%
+an entire attention head. So, every
+ 
+
+00:07:18.320 --> 00:07:19.830 align:start position:0%
+an entire attention head. So, every
+feature<00:07:18.640><c> channel</c><00:07:18.960><c> inside</c><00:07:19.200><c> that</c><00:07:19.400><c> head</c><00:07:19.640><c> is</c>
+
+00:07:19.830 --> 00:07:19.840 align:start position:0%
+feature channel inside that head is
+ 
+
+00:07:19.840 --> 00:07:21.750 align:start position:0%
+feature channel inside that head is
+decayed<00:07:20.320><c> together</c><00:07:20.919><c> even</c><00:07:21.160><c> though</c><00:07:21.280><c> they</c><00:07:21.480><c> could</c>
+
+00:07:21.750 --> 00:07:21.760 align:start position:0%
+decayed together even though they could
+ 
+
+00:07:21.760 --> 00:07:23.550 align:start position:0%
+decayed together even though they could
+be<00:07:21.919><c> store</c><00:07:22.240><c> information</c><00:07:22.800><c> with</c><00:07:22.960><c> completely</c>
+
+00:07:23.550 --> 00:07:23.560 align:start position:0%
+be store information with completely
+ 
+
+00:07:23.560 --> 00:07:25.190 align:start position:0%
+be store information with completely
+different<00:07:23.840><c> useful</c><00:07:24.160><c> lifespans.</c><00:07:24.919><c> And</c><00:07:25.000><c> you</c><00:07:25.080><c> can</c>
+
+00:07:25.190 --> 00:07:25.200 align:start position:0%
+different useful lifespans. And you can
+ 
+
+00:07:25.200 --> 00:07:26.790 align:start position:0%
+different useful lifespans. And you can
+probably<00:07:25.440><c> guess</c><00:07:25.680><c> by</c><00:07:25.800><c> now</c><00:07:26.000><c> the</c><00:07:26.120><c> main</c><00:07:26.360><c> change</c><00:07:26.680><c> in</c>
+
+00:07:26.790 --> 00:07:26.800 align:start position:0%
+probably guess by now the main change in
+ 
+
+00:07:26.800 --> 00:07:29.030 align:start position:0%
+probably guess by now the main change in
+KDA<00:07:27.360><c> is</c><00:07:27.600><c> surprisingly</c><00:07:28.360><c> straightforward.</c>
+
+00:07:29.030 --> 00:07:29.040 align:start position:0%
+KDA is surprisingly straightforward.
+ 
+
+00:07:29.040 --> 00:07:30.670 align:start position:0%
+KDA is surprisingly straightforward.
+Instead<00:07:29.360><c> of</c><00:07:29.480><c> giving</c><00:07:29.720><c> the</c><00:07:29.880><c> entire</c><00:07:30.240><c> head</c><00:07:30.480><c> one</c>
+
+00:07:30.670 --> 00:07:30.680 align:start position:0%
+Instead of giving the entire head one
+ 
+
+00:07:30.680 --> 00:07:32.630 align:start position:0%
+Instead of giving the entire head one
+scalar<00:07:31.000><c> forget</c><00:07:31.360><c> gate,</c><00:07:31.720><c> KDA</c><00:07:32.080><c> gives</c><00:07:32.440><c> every</c>
+
+00:07:32.630 --> 00:07:32.640 align:start position:0%
+scalar forget gate, KDA gives every
+ 
+
+00:07:32.640 --> 00:07:34.670 align:start position:0%
+scalar forget gate, KDA gives every
+channel<00:07:33.000><c> its</c><00:07:33.200><c> own</c><00:07:33.400><c> independent</c><00:07:33.919><c> decay</c><00:07:34.240><c> value,</c>
+
+00:07:34.670 --> 00:07:34.680 align:start position:0%
+channel its own independent decay value,
+ 
+
+00:07:34.680 --> 00:07:36.150 align:start position:0%
+channel its own independent decay value,
+which<00:07:34.840><c> means</c><00:07:35.080><c> one</c><00:07:35.280><c> channel</c><00:07:35.520><c> can</c><00:07:35.680><c> rapidly</c>
+
+00:07:36.150 --> 00:07:36.160 align:start position:0%
+which means one channel can rapidly
+ 
+
+00:07:36.160 --> 00:07:38.110 align:start position:0%
+which means one channel can rapidly
+remove<00:07:36.520><c> temporary</c><00:07:37.040><c> information</c><00:07:37.840><c> while</c>
+
+00:07:38.110 --> 00:07:38.120 align:start position:0%
+remove temporary information while
+ 
+
+00:07:38.120 --> 00:07:39.750 align:start position:0%
+remove temporary information while
+another<00:07:38.440><c> channel</c><00:07:38.760><c> can</c><00:07:38.880><c> preserve</c><00:07:39.320><c> its</c><00:07:39.480><c> state</c>
+
+00:07:39.750 --> 00:07:39.760 align:start position:0%
+another channel can preserve its state
+ 
+
+00:07:39.760 --> 00:07:41.590 align:start position:0%
+another channel can preserve its state
+over<00:07:40.000><c> a</c><00:07:40.040><c> much</c><00:07:40.320><c> longer</c><00:07:40.640><c> sequence.</c><00:07:41.200><c> The</c><00:07:41.280><c> model</c>
+
+00:07:41.590 --> 00:07:41.600 align:start position:0%
+over a much longer sequence. The model
+ 
+
+00:07:41.600 --> 00:07:43.190 align:start position:0%
+over a much longer sequence. The model
+can<00:07:41.800><c> therefore</c><00:07:42.360><c> control</c><00:07:42.840><c> the</c><00:07:42.920><c> memory</c>
+
+00:07:43.190 --> 00:07:43.200 align:start position:0%
+can therefore control the memory
+ 
+
+00:07:43.200 --> 00:07:45.070 align:start position:0%
+can therefore control the memory
+lifetime<00:07:43.720><c> at</c><00:07:43.840><c> the</c><00:07:43.960><c> feature</c><00:07:44.280><c> level</c><00:07:44.640><c> instead</c><00:07:45.000><c> of</c>
+
+00:07:45.070 --> 00:07:45.080 align:start position:0%
+lifetime at the feature level instead of
+ 
+
+00:07:45.080 --> 00:07:46.710 align:start position:0%
+lifetime at the feature level instead of
+the<00:07:45.200><c> head</c><00:07:45.480><c> level,</c><00:07:45.840><c> giving</c><00:07:46.080><c> the</c><00:07:46.200><c> fixed-size</c>
+
+00:07:46.710 --> 00:07:46.720 align:start position:0%
+the head level, giving the fixed-size
+ 
+
+00:07:46.720 --> 00:07:48.390 align:start position:0%
+the head level, giving the fixed-size
+recurrent<00:07:47.120><c> state</c><00:07:47.320><c> much</c><00:07:47.520><c> more</c><00:07:47.640><c> capacity</c><00:07:48.280><c> to</c>
+
+00:07:48.390 --> 00:07:48.400 align:start position:0%
+recurrent state much more capacity to
+ 
+
+00:07:48.400 --> 00:07:49.830 align:start position:0%
+recurrent state much more capacity to
+separate<00:07:48.760><c> short-term</c><00:07:49.320><c> and</c><00:07:49.480><c> long-term</c>
+
+00:07:49.830 --> 00:07:49.840 align:start position:0%
+separate short-term and long-term
+ 
+
+00:07:49.840 --> 00:07:51.430 align:start position:0%
+separate short-term and long-term
+information<00:07:50.520><c> without</c><00:07:50.840><c> making</c><00:07:51.080><c> the</c><00:07:51.160><c> state</c>
+
+00:07:51.430 --> 00:07:51.440 align:start position:0%
+information without making the state
+ 
+
+00:07:51.440 --> 00:07:53.510 align:start position:0%
+information without making the state
+itself<00:07:51.840><c> larger.</c><00:07:52.360><c> To</c><00:07:52.440><c> sum</c><00:07:52.640><c> that</c><00:07:52.840><c> up</c><00:07:53.000><c> simply,</c>
+
+00:07:53.510 --> 00:07:53.520 align:start position:0%
+itself larger. To sum that up simply,
+ 
+
+00:07:53.520 --> 00:07:54.990 align:start position:0%
+itself larger. To sum that up simply,
+KDA<00:07:53.920><c> is</c><00:07:54.040><c> just</c><00:07:54.200><c> the</c><00:07:54.320><c> same</c><00:07:54.520><c> compression</c>
+
+00:07:54.990 --> 00:07:55.000 align:start position:0%
+KDA is just the same compression
+ 
+
+00:07:55.000 --> 00:07:56.870 align:start position:0%
+KDA is just the same compression
+mechanism,<00:07:55.520><c> but</c><00:07:55.680><c> it</c><00:07:55.800><c> stores</c><00:07:56.160><c> and</c><00:07:56.320><c> organizes</c>
+
+00:07:56.870 --> 00:07:56.880 align:start position:0%
+mechanism, but it stores and organizes
+ 
+
+00:07:56.880 --> 00:07:58.670 align:start position:0%
+mechanism, but it stores and organizes
+the<00:07:57.000><c> compression</c><00:07:57.520><c> data</c><00:07:57.840><c> a</c><00:07:57.920><c> lot</c><00:07:58.200><c> better</c><00:07:58.520><c> than</c>
+
+00:07:58.670 --> 00:07:58.680 align:start position:0%
+the compression data a lot better than
+ 
+
+00:07:58.680 --> 00:08:00.630 align:start position:0%
+the compression data a lot better than
+the<00:07:58.760><c> standard</c><00:07:59.200><c> linear</c><00:07:59.520><c> attention.</c><00:08:00.120><c> However,</c>
+
+00:08:00.630 --> 00:08:00.640 align:start position:0%
+the standard linear attention. However,
+ 
+
+00:08:00.640 --> 00:08:02.630 align:start position:0%
+the standard linear attention. However,
+it's<00:08:00.800><c> not</c><00:08:01.000><c> like</c><00:08:01.160><c> KDA</c><00:08:01.480><c> has</c><00:08:01.720><c> magically</c><00:08:02.240><c> solved</c>
+
+00:08:02.630 --> 00:08:02.640 align:start position:0%
+it's not like KDA has magically solved
+ 
+
+00:08:02.640 --> 00:08:04.630 align:start position:0%
+it's not like KDA has magically solved
+every<00:08:02.920><c> problem</c><00:08:03.360><c> that</c><00:08:03.560><c> linear</c><00:08:03.840><c> attention</c><00:08:04.240><c> has.</c>
+
+00:08:04.630 --> 00:08:04.640 align:start position:0%
+every problem that linear attention has.
+ 
+
+00:08:04.640 --> 00:08:06.270 align:start position:0%
+every problem that linear attention has.
+It<00:08:04.760><c> cannot</c><00:08:05.040><c> guarantee</c><00:08:05.480><c> the</c><00:08:05.600><c> same</c><00:08:05.920><c> exact</c>
+
+00:08:06.270 --> 00:08:06.280 align:start position:0%
+It cannot guarantee the same exact
+ 
+
+00:08:06.280 --> 00:08:08.150 align:start position:0%
+It cannot guarantee the same exact
+retrieval<00:08:06.800><c> ability</c><00:08:07.240><c> as</c><00:08:07.440><c> full</c><00:08:07.640><c> attention</c>
+
+00:08:08.150 --> 00:08:08.160 align:start position:0%
+retrieval ability as full attention
+ 
+
+00:08:08.160 --> 00:08:10.070 align:start position:0%
+retrieval ability as full attention
+because<00:08:08.440><c> the</c><00:08:08.560><c> original</c><00:08:08.960><c> keys</c><00:08:09.280><c> and</c><00:08:09.400><c> values</c><00:08:09.800><c> are</c>
+
+00:08:10.070 --> 00:08:10.080 align:start position:0%
+because the original keys and values are
+ 
+
+00:08:10.080 --> 00:08:13.270 align:start position:0%
+because the original keys and values are
+no<00:08:10.240><c> longer</c><00:08:10.720><c> all</c><00:08:11.400><c> available.</c><00:08:12.160><c> And</c><00:08:12.360><c> that</c><00:08:12.760><c> is</c><00:08:13.120><c> a</c>
+
+00:08:13.270 --> 00:08:13.280 align:start position:0%
+no longer all available. And that is a
+ 
+
+00:08:13.280 --> 00:08:14.990 align:start position:0%
+no longer all available. And that is a
+huge<00:08:13.680><c> problem.</c><00:08:14.080><c> So,</c><00:08:14.240><c> just</c><00:08:14.440><c> like</c><00:08:14.600><c> every</c><00:08:14.800><c> other</c>
+
+00:08:14.990 --> 00:08:15.000 align:start position:0%
+huge problem. So, just like every other
+ 
+
+00:08:15.000 --> 00:08:16.870 align:start position:0%
+huge problem. So, just like every other
+modern<00:08:15.360><c> linear</c><00:08:15.680><c> attention</c><00:08:16.040><c> model,</c><00:08:16.520><c> they</c><00:08:16.720><c> had</c>
+
+00:08:16.870 --> 00:08:16.880 align:start position:0%
+modern linear attention model, they had
+ 
+
+00:08:16.880 --> 00:08:18.990 align:start position:0%
+modern linear attention model, they had
+to<00:08:17.000><c> make</c><00:08:17.240><c> a</c><00:08:17.400><c> hybrid</c><00:08:17.800><c> attention</c><00:08:18.280><c> architecture</c>
+
+00:08:18.990 --> 00:08:19.000 align:start position:0%
+to make a hybrid attention architecture
+ 
+
+00:08:19.000 --> 00:08:20.870 align:start position:0%
+to make a hybrid attention architecture
+where<00:08:19.200><c> they</c><00:08:19.360><c> interleave</c><00:08:19.880><c> three</c><00:08:20.080><c> KDA</c><00:08:20.480><c> layers</c>
+
+00:08:20.870 --> 00:08:20.880 align:start position:0%
+where they interleave three KDA layers
+ 
+
+00:08:20.880 --> 00:08:22.950 align:start position:0%
+where they interleave three KDA layers
+with<00:08:21.080><c> one</c><00:08:21.360><c> full</c><00:08:21.600><c> MLA</c><00:08:22.000><c> layer.</c><00:08:22.480><c> According</c><00:08:22.880><c> to</c>
+
+00:08:22.950 --> 00:08:22.960 align:start position:0%
+with one full MLA layer. According to
+ 
+
+00:08:22.960 --> 00:08:24.990 align:start position:0%
+with one full MLA layer. According to
+their<00:08:23.120><c> ablations,</c><00:08:23.800><c> this</c><00:08:24.080><c> three-to-one</c><00:08:24.600><c> ratio</c>
+
+00:08:24.990 --> 00:08:25.000 align:start position:0%
+their ablations, this three-to-one ratio
+ 
+
+00:08:25.000 --> 00:08:26.590 align:start position:0%
+their ablations, this three-to-one ratio
+gave<00:08:25.360><c> them</c><00:08:25.520><c> the</c><00:08:25.600><c> best</c><00:08:25.880><c> trade-off</c><00:08:26.280><c> between</c>
+
+00:08:26.590 --> 00:08:26.600 align:start position:0%
+gave them the best trade-off between
+ 
+
+00:08:26.600 --> 00:08:28.470 align:start position:0%
+gave them the best trade-off between
+model<00:08:26.960><c> quality</c><00:08:27.400><c> and</c><00:08:27.520><c> decoding</c><00:08:28.000><c> throughput,</c>
+
+00:08:28.470 --> 00:08:28.480 align:start position:0%
+model quality and decoding throughput,
+ 
+
+00:08:28.480 --> 00:08:30.310 align:start position:0%
+model quality and decoding throughput,
+with<00:08:28.680><c> them</c><00:08:28.840><c> basically</c><00:08:29.280><c> reducing</c><00:08:29.760><c> KV</c><00:08:30.040><c> cache</c>
+
+00:08:30.310 --> 00:08:30.320 align:start position:0%
+with them basically reducing KV cache
+ 
+
+00:08:30.320 --> 00:08:33.510 align:start position:0%
+with them basically reducing KV cache
+usage<00:08:30.760><c> by</c><00:08:30.960><c> up</c><00:08:31.160><c> to</c><00:08:31.280><c> 75%</c><00:08:32.320><c> since</c><00:08:32.599><c> only</c><00:08:32.960><c> one</c><00:08:33.200><c> out</c><00:08:33.360><c> of</c>
+
+00:08:33.510 --> 00:08:33.520 align:start position:0%
+usage by up to 75% since only one out of
+ 
+
+00:08:33.520 --> 00:08:35.190 align:start position:0%
+usage by up to 75% since only one out of
+four<00:08:33.760><c> attention</c><00:08:34.200><c> layers</c><00:08:34.599><c> need</c><00:08:34.760><c> to</c><00:08:34.880><c> store</c><00:08:35.080><c> the</c>
+
+00:08:35.190 --> 00:08:35.200 align:start position:0%
+four attention layers need to store the
+ 
+
+00:08:35.200 --> 00:08:37.310 align:start position:0%
+four attention layers need to store the
+conventional<00:08:35.800><c> full</c><00:08:36.000><c> attention</c><00:08:36.440><c> cache</c><00:08:36.919><c> while</c>
+
+00:08:37.310 --> 00:08:37.320 align:start position:0%
+conventional full attention cache while
+ 
+
+00:08:37.320 --> 00:08:39.070 align:start position:0%
+conventional full attention cache while
+achieving<00:08:37.800><c> up</c><00:08:37.960><c> to</c><00:08:38.080><c> six</c><00:08:38.400><c> times</c><00:08:38.680><c> decoding</c>
+
+00:08:39.070 --> 00:08:39.080 align:start position:0%
+achieving up to six times decoding
+ 
+
+00:08:39.080 --> 00:08:40.750 align:start position:0%
+achieving up to six times decoding
+throughput<00:08:39.520><c> for</c><00:08:39.680><c> a</c><00:08:39.760><c> 1</c><00:08:40.120><c> million</c><00:08:40.320><c> context</c>
+
+00:08:40.750 --> 00:08:40.760 align:start position:0%
+throughput for a 1 million context
+ 
+
+00:08:40.760 --> 00:08:42.029 align:start position:0%
+throughput for a 1 million context
+compared<00:08:41.120><c> to</c><00:08:41.240><c> the</c><00:08:41.320><c> standard</c><00:08:41.640><c> attention</c>
+
+00:08:42.029 --> 00:08:42.039 align:start position:0%
+compared to the standard attention
+ 
+
+00:08:42.039 --> 00:08:43.870 align:start position:0%
+compared to the standard attention
+baseline.<00:08:42.560><c> These</c><00:08:42.840><c> results</c><00:08:43.320><c> actually</c><00:08:43.640><c> came</c>
+
+00:08:43.870 --> 00:08:43.880 align:start position:0%
+baseline. These results actually came
+ 
+
+00:08:43.880 --> 00:08:45.790 align:start position:0%
+baseline. These results actually came
+from<00:08:44.080><c> their</c><00:08:44.240><c> first</c><00:08:44.600><c> KDA</c><00:08:45.000><c> paper</c><00:08:45.280><c> published</c><00:08:45.640><c> in</c>
+
+00:08:45.790 --> 00:08:45.800 align:start position:0%
+from their first KDA paper published in
+ 
+
+00:08:45.800 --> 00:08:47.750 align:start position:0%
+from their first KDA paper published in
+November<00:08:46.400><c> last</c><00:08:46.720><c> year</c><00:08:46.960><c> called</c><00:08:47.240><c> Chimera</c>
+
+00:08:47.750 --> 00:08:47.760 align:start position:0%
+November last year called Chimera
+ 
+
+00:08:47.760 --> 00:08:49.590 align:start position:0%
+November last year called Chimera
+Linear,<00:08:48.160><c> where</c><00:08:48.320><c> they</c><00:08:48.480><c> were</c><00:08:48.640><c> experimenting</c><00:08:49.400><c> on</c>
+
+00:08:49.590 --> 00:08:49.600 align:start position:0%
+Linear, where they were experimenting on
+ 
+
+00:08:49.600 --> 00:08:52.110 align:start position:0%
+Linear, where they were experimenting on
+a<00:08:49.640><c> 48</c><00:08:50.280><c> billion</c><00:08:50.600><c> parameter</c><00:08:51.040><c> MoE</c><00:08:51.720><c> with</c><00:08:51.920><c> 3</c>
+
+00:08:52.110 --> 00:08:52.120 align:start position:0%
+a 48 billion parameter MoE with 3
+ 
+
+00:08:52.120 --> 00:08:54.510 align:start position:0%
+a 48 billion parameter MoE with 3
+billion<00:08:52.440><c> active</c><00:08:52.720><c> parameters</c><00:08:53.240><c> trained</c><00:08:53.560><c> on</c><00:08:53.800><c> 1.4</c>
+
+00:08:54.510 --> 00:08:54.520 align:start position:0%
+billion active parameters trained on 1.4
+ 
+
+00:08:54.520 --> 00:08:56.350 align:start position:0%
+billion active parameters trained on 1.4
+trillion<00:08:54.920><c> tokens.</c><00:08:55.440><c> What's</c><00:08:55.680><c> even</c><00:08:55.880><c> crazier</c><00:08:56.240><c> is</c>
+
+00:08:56.350 --> 00:08:56.360 align:start position:0%
+trillion tokens. What's even crazier is
+ 
+
+00:08:56.360 --> 00:08:58.070 align:start position:0%
+trillion tokens. What's even crazier is
+that<00:08:56.600><c> Chimera</c><00:08:56.920><c> Linear</c><00:08:57.240><c> did</c><00:08:57.440><c> not</c><00:08:57.640><c> just</c><00:08:57.800><c> match</c>
+
+00:08:58.070 --> 00:08:58.080 align:start position:0%
+that Chimera Linear did not just match
+ 
+
+00:08:58.080 --> 00:09:00.310 align:start position:0%
+that Chimera Linear did not just match
+the<00:08:58.160><c> full</c><00:08:58.400><c> attention</c><00:08:58.800><c> model</c><00:08:59.360><c> in</c><00:08:59.480><c> their</c><00:08:59.680><c> paper,</c>
+
+00:09:00.310 --> 00:09:00.320 align:start position:0%
+the full attention model in their paper,
+ 
+
+00:09:00.320 --> 00:09:02.190 align:start position:0%
+the full attention model in their paper,
+it<00:09:00.440><c> actually</c><00:09:00.760><c> beat</c><00:09:01.000><c> standard</c><00:09:01.360><c> attention.</c><00:09:01.880><c> And</c>
+
+00:09:02.190 --> 00:09:02.200 align:start position:0%
+it actually beat standard attention. And
+ 
+
+00:09:02.200 --> 00:09:03.550 align:start position:0%
+it actually beat standard attention. And
+not<00:09:02.400><c> just</c><00:09:02.640><c> on</c><00:09:02.800><c> simple</c><00:09:03.120><c> performance</c>
+
+00:09:03.550 --> 00:09:03.560 align:start position:0%
+not just on simple performance
+ 
+
+00:09:03.560 --> 00:09:05.670 align:start position:0%
+not just on simple performance
+benchmarks<00:09:04.080><c> like</c><00:09:04.240><c> MMLU</c><00:09:04.880><c> Pro,</c><00:09:05.160><c> where</c><00:09:05.320><c> Chimera</c>
+
+00:09:05.670 --> 00:09:05.680 align:start position:0%
+benchmarks like MMLU Pro, where Chimera
+ 
+
+00:09:05.680 --> 00:09:07.630 align:start position:0%
+benchmarks like MMLU Pro, where Chimera
+Linear<00:09:06.040><c> scored</c><00:09:06.480><c> nearly</c><00:09:06.839><c> four</c><00:09:07.120><c> points</c><00:09:07.440><c> higher</c>
+
+00:09:07.630 --> 00:09:07.640 align:start position:0%
+Linear scored nearly four points higher
+ 
+
+00:09:07.640 --> 00:09:10.630 align:start position:0%
+Linear scored nearly four points higher
+than<00:09:07.800><c> MLA.</c><00:09:08.400><c> On</c><00:09:08.520><c> the</c><00:09:08.640><c> 128,000</c><00:09:10.040><c> long</c><00:09:10.200><c> context</c>
+
+00:09:10.630 --> 00:09:10.640 align:start position:0%
+than MLA. On the 128,000 long context
+ 
+
+00:09:10.640 --> 00:09:12.630 align:start position:0%
+than MLA. On the 128,000 long context
+benchmark<00:09:11.240><c> called</c><00:09:11.480><c> Ruler,</c><00:09:12.040><c> Chimera</c><00:09:12.320><c> Linear</c>
+
+00:09:12.630 --> 00:09:12.640 align:start position:0%
+benchmark called Ruler, Chimera Linear
+ 
+
+00:09:12.640 --> 00:09:14.510 align:start position:0%
+benchmark called Ruler, Chimera Linear
+also<00:09:12.920><c> beat</c><00:09:13.120><c> it</c><00:09:13.200><c> by</c><00:09:13.360><c> three</c><00:09:13.640><c> points</c><00:09:14.080><c> while</c>
+
+00:09:14.510 --> 00:09:14.520 align:start position:0%
+also beat it by three points while
+ 
+
+00:09:14.520 --> 00:09:16.270 align:start position:0%
+also beat it by three points while
+getting<00:09:14.800><c> around</c><00:09:15.120><c> four</c><00:09:15.400><c> times</c><00:09:15.680><c> the</c><00:09:15.800><c> decoding</c>
+
+00:09:16.270 --> 00:09:16.280 align:start position:0%
+getting around four times the decoding
+ 
+
+00:09:16.280 --> 00:09:18.350 align:start position:0%
+getting around four times the decoding
+acceleration.<00:09:17.120><c> Then,</c><00:09:17.360><c> on</c><00:09:17.560><c> 1</c><00:09:17.760><c> million</c><00:09:18.040><c> token</c>
+
+00:09:18.350 --> 00:09:18.360 align:start position:0%
+acceleration. Then, on 1 million token
+ 
+
+00:09:18.360 --> 00:09:20.310 align:start position:0%
+acceleration. Then, on 1 million token
+context,<00:09:18.920><c> its</c><00:09:19.120><c> time</c><00:09:19.400><c> per</c><00:09:19.640><c> output</c><00:09:20.000><c> token</c>
+
+00:09:20.310 --> 00:09:20.320 align:start position:0%
+context, its time per output token
+ 
+
+00:09:20.320 --> 00:09:23.550 align:start position:0%
+context, its time per output token
+dropped<00:09:20.600><c> from</c><00:09:20.839><c> 11.48</c><00:09:21.800><c> milliseconds</c><00:09:22.480><c> to</c><00:09:22.680><c> 1.84</c>
+
+00:09:23.550 --> 00:09:23.560 align:start position:0%
+dropped from 11.48 milliseconds to 1.84
+ 
+
+00:09:23.560 --> 00:09:25.670 align:start position:0%
+dropped from 11.48 milliseconds to 1.84
+milliseconds,<00:09:24.200><c> giving</c><00:09:24.520><c> a</c><00:09:24.600><c> 6.3</c><00:09:25.360><c> times</c>
+
+00:09:25.670 --> 00:09:25.680 align:start position:0%
+milliseconds, giving a 6.3 times
+ 
+
+00:09:25.680 --> 00:09:27.510 align:start position:0%
+milliseconds, giving a 6.3 times
+decoding<00:09:26.160><c> speed</c><00:09:26.480><c> up.</c><00:09:26.640><c> And</c><00:09:26.720><c> the</c><00:09:26.800><c> quality</c><00:09:27.200><c> gain</c>
+
+00:09:27.510 --> 00:09:27.520 align:start position:0%
+decoding speed up. And the quality gain
+ 
+
+00:09:27.520 --> 00:09:30.070 align:start position:0%
+decoding speed up. And the quality gain
+also<00:09:27.800><c> appeared</c><00:09:28.160><c> during</c><00:09:28.440><c> RL2,</c><00:09:29.160><c> which</c><00:09:29.360><c> made</c><00:09:29.520><c> KDA</c>
+
+00:09:30.070 --> 00:09:30.080 align:start position:0%
+also appeared during RL2, which made KDA
+ 
+
+00:09:30.080 --> 00:09:32.070 align:start position:0%
+also appeared during RL2, which made KDA
+the<00:09:30.240><c> perfect</c><00:09:30.640><c> candidate</c><00:09:31.080><c> for</c><00:09:31.240><c> scaling</c><00:09:31.760><c> up,</c>
+
+00:09:32.070 --> 00:09:32.080 align:start position:0%
+the perfect candidate for scaling up,
+ 
+
+00:09:32.080 --> 00:09:33.430 align:start position:0%
+the perfect candidate for scaling up,
+which<00:09:32.280><c> brought</c><00:09:32.520><c> us</c><00:09:32.640><c> to</c><00:09:32.760><c> this</c><00:09:32.960><c> legendary</c>
+
+00:09:33.430 --> 00:09:33.440 align:start position:0%
+which brought us to this legendary
+ 
+
+00:09:33.440 --> 00:09:35.950 align:start position:0%
+which brought us to this legendary
+release<00:09:33.760><c> called</c><00:09:34.040><c> Chimera</c><00:09:34.320><c> K3</c><00:09:34.839><c> that</c><00:09:35.200><c> is</c><00:09:35.520><c> based</c>
+
+00:09:35.950 --> 00:09:35.960 align:start position:0%
+release called Chimera K3 that is based
+ 
+
+00:09:35.960 --> 00:09:38.510 align:start position:0%
+release called Chimera K3 that is based
+on<00:09:36.160><c> KDA.</c><00:09:37.040><c> Another</c><00:09:37.360><c> key</c><00:09:37.680><c> design</c><00:09:38.120><c> choice</c>
+
+00:09:38.510 --> 00:09:38.520 align:start position:0%
+on KDA. Another key design choice
+ 
+
+00:09:38.520 --> 00:09:39.830 align:start position:0%
+on KDA. Another key design choice
+they've<00:09:38.760><c> made</c><00:09:39.040><c> here</c><00:09:39.400><c> is</c><00:09:39.520><c> definitely</c>
+
+00:09:39.830 --> 00:09:39.840 align:start position:0%
+they've made here is definitely
+ 
+
+00:09:39.840 --> 00:09:41.590 align:start position:0%
+they've made here is definitely
+replacing<00:09:40.400><c> the</c><00:09:40.520><c> standard</c><00:09:40.880><c> residual</c><00:09:41.320><c> stream</c>
+
+00:09:41.590 --> 00:09:41.600 align:start position:0%
+replacing the standard residual stream
+ 
+
+00:09:41.600 --> 00:09:42.790 align:start position:0%
+replacing the standard residual stream
+with<00:09:41.720><c> something</c><00:09:42.040><c> called</c><00:09:42.280><c> attention</c>
+
+00:09:42.790 --> 00:09:42.800 align:start position:0%
+with something called attention
+ 
+
+00:09:42.800 --> 00:09:44.630 align:start position:0%
+with something called attention
+residuals.<00:09:43.480><c> I</c><00:09:43.560><c> have</c><00:09:43.680><c> a</c><00:09:43.720><c> more</c><00:09:43.960><c> in-depth</c><00:09:44.360><c> video</c>
+
+00:09:44.630 --> 00:09:44.640 align:start position:0%
+residuals. I have a more in-depth video
+ 
+
+00:09:44.640 --> 00:09:46.270 align:start position:0%
+residuals. I have a more in-depth video
+about<00:09:44.920><c> it,</c><00:09:45.040><c> but</c><00:09:45.200><c> in</c><00:09:45.360><c> short,</c><00:09:45.800><c> attention</c>
+
+00:09:46.270 --> 00:09:46.280 align:start position:0%
+about it, but in short, attention
+ 
+
+00:09:46.280 --> 00:09:48.470 align:start position:0%
+about it, but in short, attention
+residuals<00:09:46.880><c> lets</c><00:09:47.200><c> each</c><00:09:47.440><c> layer</c><00:09:47.760><c> use</c><00:09:48.000><c> softmax</c>
+
+00:09:48.470 --> 00:09:48.480 align:start position:0%
+residuals lets each layer use softmax
+ 
+
+00:09:48.480 --> 00:09:50.590 align:start position:0%
+residuals lets each layer use softmax
+attention<00:09:49.000><c> over</c><00:09:49.320><c> earlier</c><00:09:49.680><c> layer</c><00:09:50.000><c> outputs.</c>
+
+00:09:50.590 --> 00:09:50.600 align:start position:0%
+attention over earlier layer outputs.
+ 
+
+00:09:50.600 --> 00:09:52.190 align:start position:0%
+attention over earlier layer outputs.
+So,<00:09:50.760><c> instead</c><00:09:51.080><c> of</c><00:09:51.200><c> receiving</c><00:09:51.600><c> the</c><00:09:51.680><c> same</c><00:09:51.960><c> fixed</c>
+
+00:09:52.190 --> 00:09:52.200 align:start position:0%
+So, instead of receiving the same fixed
+ 
+
+00:09:52.200 --> 00:09:54.190 align:start position:0%
+So, instead of receiving the same fixed
+sum<00:09:52.480><c> of</c><00:09:52.680><c> every</c><00:09:52.920><c> previous</c><00:09:53.280><c> computation,</c><00:09:54.120><c> a</c>
+
+00:09:54.190 --> 00:09:54.200 align:start position:0%
+sum of every previous computation, a
+ 
+
+00:09:54.200 --> 00:09:56.190 align:start position:0%
+sum of every previous computation, a
+layer<00:09:54.520><c> can</c><00:09:54.680><c> selectively</c><00:09:55.320><c> assign</c><00:09:55.720><c> more</c><00:09:55.960><c> weight</c>
+
+00:09:56.190 --> 00:09:56.200 align:start position:0%
+layer can selectively assign more weight
+ 
+
+00:09:56.200 --> 00:09:58.230 align:start position:0%
+layer can selectively assign more weight
+to<00:09:56.320><c> whichever</c><00:09:56.840><c> earlier</c><00:09:57.200><c> representations</c><00:09:58.000><c> are</c>
+
+00:09:58.230 --> 00:09:58.240 align:start position:0%
+to whichever earlier representations are
+ 
+
+00:09:58.240 --> 00:09:59.870 align:start position:0%
+to whichever earlier representations are
+actually<00:09:58.560><c> useful</c><00:09:58.960><c> for</c><00:09:59.080><c> the</c><00:09:59.160><c> current</c><00:09:59.480><c> token.</c>
+
+00:09:59.870 --> 00:09:59.880 align:start position:0%
+actually useful for the current token.
+ 
+
+00:09:59.880 --> 00:10:01.110 align:start position:0%
+actually useful for the current token.
+You<00:10:00.000><c> can</c><00:10:00.120><c> think</c><00:10:00.320><c> of</c><00:10:00.440><c> it</c><00:10:00.560><c> like</c><00:10:00.720><c> applying</c>
+
+00:10:01.110 --> 00:10:01.120 align:start position:0%
+You can think of it like applying
+ 
+
+00:10:01.120 --> 00:10:02.990 align:start position:0%
+You can think of it like applying
+attention<00:10:01.520><c> across</c><00:10:01.840><c> the</c><00:10:01.920><c> model</c><00:10:02.240><c> staff</c><00:10:02.720><c> rather</c>
+
+00:10:02.990 --> 00:10:03.000 align:start position:0%
+attention across the model staff rather
+ 
+
+00:10:03.000 --> 00:10:04.870 align:start position:0%
+attention across the model staff rather
+than<00:10:03.200><c> only</c><00:10:03.440><c> across</c><00:10:03.760><c> a</c><00:10:03.840><c> token</c><00:10:04.280><c> sequence,</c>
+
+00:10:04.870 --> 00:10:04.880 align:start position:0%
+than only across a token sequence,
+ 
+
+00:10:04.880 --> 00:10:06.550 align:start position:0%
+than only across a token sequence,
+providing<00:10:05.240><c> stronger</c><00:10:05.640><c> learning</c><00:10:05.920><c> dynamics</c><00:10:06.480><c> for</c>
+
+00:10:06.550 --> 00:10:06.560 align:start position:0%
+providing stronger learning dynamics for
+ 
+
+00:10:06.560 --> 00:10:08.790 align:start position:0%
+providing stronger learning dynamics for
+the<00:10:06.640><c> model.</c><00:10:07.160><c> On</c><00:10:07.280><c> the</c><00:10:07.480><c> other</c><00:10:07.720><c> hand,</c><00:10:08.200><c> there</c><00:10:08.440><c> is</c>
+
+00:10:08.790 --> 00:10:08.800 align:start position:0%
+the model. On the other hand, there is
+ 
+
+00:10:08.800 --> 00:10:10.870 align:start position:0%
+the model. On the other hand, there is
+also<00:10:09.200><c> the</c><00:10:09.320><c> ridiculous</c><00:10:10.000><c> scale</c><00:10:10.320><c> of</c><00:10:10.440><c> the</c><00:10:10.560><c> model</c>
+
+00:10:10.870 --> 00:10:10.880 align:start position:0%
+also the ridiculous scale of the model
+ 
+
+00:10:10.880 --> 00:10:12.830 align:start position:0%
+also the ridiculous scale of the model
+itself.<00:10:11.320><c> This</c><00:10:11.480><c> is</c><00:10:11.560><c> the</c><00:10:11.680><c> first</c><00:10:11.960><c> ever</c><00:10:12.240><c> 2.8</c>
+
+00:10:12.830 --> 00:10:12.840 align:start position:0%
+itself. This is the first ever 2.8
+ 
+
+00:10:12.840 --> 00:10:14.470 align:start position:0%
+itself. This is the first ever 2.8
+trillion<00:10:13.120><c> open</c><00:10:13.360><c> weights</c><00:10:13.600><c> that</c><00:10:13.800><c> has</c><00:10:14.200><c> ever</c>
+
+00:10:14.470 --> 00:10:14.480 align:start position:0%
+trillion open weights that has ever
+ 
+
+00:10:14.480 --> 00:10:16.390 align:start position:0%
+trillion open weights that has ever
+existed.<00:10:15.160><c> Before</c><00:10:15.480><c> this,</c><00:10:15.840><c> I'm</c><00:10:16.000><c> pretty</c><00:10:16.200><c> sure</c>
+
+00:10:16.390 --> 00:10:16.400 align:start position:0%
+existed. Before this, I'm pretty sure
+ 
+
+00:10:16.400 --> 00:10:18.030 align:start position:0%
+existed. Before this, I'm pretty sure
+there<00:10:16.600><c> are</c><00:10:16.840><c> only</c><00:10:17.120><c> four</c><00:10:17.400><c> trillion</c><00:10:17.760><c> class</c>
+
+00:10:18.030 --> 00:10:18.040 align:start position:0%
+there are only four trillion class
+ 
+
+00:10:18.040 --> 00:10:20.750 align:start position:0%
+there are only four trillion class
+models,<00:10:18.640><c> two</c><00:10:18.800><c> of</c><00:10:18.960><c> them</c><00:10:19.200><c> are</c><00:10:19.400><c> 1.6</c><00:10:20.040><c> trillion</c><00:10:20.520><c> and</c>
+
+00:10:20.750 --> 00:10:20.760 align:start position:0%
+models, two of them are 1.6 trillion and
+ 
+
+00:10:20.760 --> 00:10:22.670 align:start position:0%
+models, two of them are 1.6 trillion and
+two<00:10:21.000><c> that</c><00:10:21.200><c> are</c><00:10:21.320><c> around</c><00:10:21.680><c> 1</c><00:10:21.800><c> trillion.</c><00:10:22.280><c> So,</c><00:10:22.440><c> this</c>
+
+00:10:22.670 --> 00:10:22.680 align:start position:0%
+two that are around 1 trillion. So, this
+ 
+
+00:10:22.680 --> 00:10:24.390 align:start position:0%
+two that are around 1 trillion. So, this
+model<00:10:22.920><c> size</c><00:10:23.160><c> is</c><00:10:23.280><c> definitely</c><00:10:23.640><c> a</c><00:10:23.720><c> sight</c><00:10:24.040><c> of</c><00:10:24.160><c> its</c>
+
+00:10:24.390 --> 00:10:24.400 align:start position:0%
+model size is definitely a sight of its
+ 
+
+00:10:24.400 --> 00:10:27.350 align:start position:0%
+model size is definitely a sight of its
+own.<00:10:24.720><c> It</c><00:10:24.840><c> of</c><00:10:24.960><c> course</c><00:10:25.240><c> uses</c><00:10:25.560><c> MoE</c><00:10:26.080><c> with</c><00:10:26.360><c> 896</c>
+
+00:10:27.350 --> 00:10:27.360 align:start position:0%
+own. It of course uses MoE with 896
+ 
+
+00:10:27.360 --> 00:10:30.390 align:start position:0%
+own. It of course uses MoE with 896
+experts<00:10:27.960><c> that</c><00:10:28.240><c> while</c><00:10:28.600><c> activating</c><00:10:29.280><c> only</c><00:10:29.640><c> 16</c><00:10:30.280><c> of</c>
+
+00:10:30.390 --> 00:10:30.400 align:start position:0%
+experts that while activating only 16 of
+ 
+
+00:10:30.400 --> 00:10:32.870 align:start position:0%
+experts that while activating only 16 of
+them<00:10:30.640><c> for</c><00:10:30.920><c> each</c><00:10:31.120><c> token.</c><00:10:31.640><c> This</c><00:10:31.880><c> is</c><00:10:32.160><c> extremely</c>
+
+00:10:32.870 --> 00:10:32.880 align:start position:0%
+them for each token. This is extremely
+ 
+
+00:10:32.880 --> 00:10:35.870 align:start position:0%
+them for each token. This is extremely
+sparse,<00:10:33.480><c> but</c><00:10:33.720><c> not</c><00:10:34.040><c> as</c><00:10:34.240><c> sparse</c><00:10:34.640><c> as</c><00:10:34.800><c> GPT-</c><00:10:35.120><c> 4.</c>
+
+00:10:35.870 --> 00:10:35.880 align:start position:0%
+sparse, but not as sparse as GPT- 4.
+ 
+
+00:10:35.880 --> 00:10:37.390 align:start position:0%
+sparse, but not as sparse as GPT- 4.
+But,<00:10:36.000><c> to</c><00:10:36.120><c> make</c><00:10:36.320><c> an</c><00:10:36.440><c> MoE</c><00:10:36.800><c> this</c><00:10:37.040><c> sparse</c>
+
+00:10:37.390 --> 00:10:37.400 align:start position:0%
+But, to make an MoE this sparse
+ 
+
+00:10:37.400 --> 00:10:38.830 align:start position:0%
+But, to make an MoE this sparse
+practically,<00:10:37.880><c> especially</c><00:10:38.320><c> at</c><00:10:38.400><c> this</c><00:10:38.560><c> model</c>
+
+00:10:38.830 --> 00:10:38.840 align:start position:0%
+practically, especially at this model
+ 
+
+00:10:38.840 --> 00:10:40.790 align:start position:0%
+practically, especially at this model
+size,<00:10:39.320><c> they</c><00:10:39.520><c> use</c><00:10:39.720><c> something</c><00:10:40.040><c> called</c><00:10:40.320><c> a</c><00:10:40.360><c> stable</c>
+
+00:10:40.790 --> 00:10:40.800 align:start position:0%
+size, they use something called a stable
+ 
+
+00:10:40.800 --> 00:10:42.870 align:start position:0%
+size, they use something called a stable
+latent<00:10:41.120><c> MoE</c><00:10:41.560><c> which</c><00:10:41.839><c> is</c><00:10:42.160><c> a</c><00:10:42.280><c> pretty</c><00:10:42.600><c> common</c>
+
+00:10:42.870 --> 00:10:42.880 align:start position:0%
+latent MoE which is a pretty common
+ 
+
+00:10:42.880 --> 00:10:45.030 align:start position:0%
+latent MoE which is a pretty common
+design<00:10:43.200><c> nowadays.</c><00:10:43.800><c> So,</c><00:10:44.000><c> in</c><00:10:44.160><c> a</c><00:10:44.200><c> normal</c><00:10:44.520><c> MoE,</c>
+
+00:10:45.030 --> 00:10:45.040 align:start position:0%
+design nowadays. So, in a normal MoE,
+ 
+
+00:10:45.040 --> 00:10:46.790 align:start position:0%
+design nowadays. So, in a normal MoE,
+each<00:10:45.240><c> token</c><00:10:45.520><c> has</c><00:10:45.680><c> to</c><00:10:45.760><c> send</c><00:10:46.000><c> its</c><00:10:46.200><c> full</c><00:10:46.480><c> hidden</c>
+
+00:10:46.790 --> 00:10:46.800 align:start position:0%
+each token has to send its full hidden
+ 
+
+00:10:46.800 --> 00:10:48.510 align:start position:0%
+each token has to send its full hidden
+state<00:10:47.080><c> to</c><00:10:47.200><c> whichever</c><00:10:47.640><c> GPU</c><00:10:48.080><c> hosts</c><00:10:48.440><c> the</c>
+
+00:10:48.510 --> 00:10:48.520 align:start position:0%
+state to whichever GPU hosts the
+ 
+
+00:10:48.520 --> 00:10:49.990 align:start position:0%
+state to whichever GPU hosts the
+selected<00:10:49.040><c> expert.</c><00:10:49.480><c> And</c><00:10:49.600><c> when</c><00:10:49.760><c> you</c><00:10:49.839><c> have</c>
+
+00:10:49.990 --> 00:10:50.000 align:start position:0%
+selected expert. And when you have
+ 
+
+00:10:50.000 --> 00:10:51.630 align:start position:0%
+selected expert. And when you have
+hundreds<00:10:50.360><c> of</c><00:10:50.480><c> experts,</c><00:10:51.040><c> moving</c><00:10:51.400><c> all</c><00:10:51.480><c> that</c>
+
+00:10:51.630 --> 00:10:51.640 align:start position:0%
+hundreds of experts, moving all that
+ 
+
+00:10:51.640 --> 00:10:53.590 align:start position:0%
+hundreds of experts, moving all that
+data<00:10:51.839><c> becomes</c><00:10:52.240><c> expensive,</c><00:10:52.839><c> right?</c><00:10:53.200><c> So,</c><00:10:53.360><c> what</c>
+
+00:10:53.590 --> 00:10:53.600 align:start position:0%
+data becomes expensive, right? So, what
+ 
+
+00:10:53.600 --> 00:10:55.790 align:start position:0%
+data becomes expensive, right? So, what
+latent<00:10:53.920><c> MoE</c><00:10:54.280><c> does</c><00:10:54.600><c> is</c><00:10:54.839><c> it</c><00:10:55.040><c> compresses</c><00:10:55.680><c> the</c>
+
+00:10:55.790 --> 00:10:55.800 align:start position:0%
+latent MoE does is it compresses the
+ 
+
+00:10:55.800 --> 00:10:57.270 align:start position:0%
+latent MoE does is it compresses the
+hidden<00:10:56.040><c> state</c><00:10:56.240><c> before</c><00:10:56.520><c> sending</c><00:10:56.839><c> it</c><00:10:57.000><c> to</c><00:10:57.080><c> the</c>
+
+00:10:57.270 --> 00:10:57.280 align:start position:0%
+hidden state before sending it to the
+ 
+
+00:10:57.280 --> 00:10:59.670 align:start position:0%
+hidden state before sending it to the
+expert,<00:10:57.839><c> then</c><00:10:58.040><c> expands</c><00:10:58.600><c> it</c><00:10:58.760><c> back</c><00:10:59.080><c> afterwards.</c>
+
+00:10:59.670 --> 00:10:59.680 align:start position:0%
+expert, then expands it back afterwards.
+ 
+
+00:10:59.680 --> 00:11:01.829 align:start position:0%
+expert, then expands it back afterwards.
+So,<00:10:59.800><c> K3</c><00:11:00.360><c> moves</c><00:11:00.720><c> much</c><00:11:01.040><c> less</c><00:11:01.240><c> data</c><00:11:01.520><c> between</c>
+
+00:11:01.829 --> 00:11:01.839 align:start position:0%
+So, K3 moves much less data between
+ 
+
+00:11:01.839 --> 00:11:04.110 align:start position:0%
+So, K3 moves much less data between
+GPUs.<00:11:02.600><c> And</c><00:11:02.680><c> the</c><00:11:02.800><c> stable</c><00:11:03.480><c> part</c><00:11:03.720><c> of</c><00:11:03.839><c> this</c>
+
+00:11:04.110 --> 00:11:04.120 align:start position:0%
+GPUs. And the stable part of this
+ 
+
+00:11:04.120 --> 00:11:05.470 align:start position:0%
+GPUs. And the stable part of this
+basically<00:11:04.480><c> just</c><00:11:04.720><c> keeps</c><00:11:05.040><c> the</c><00:11:05.120><c> routing</c>
+
+00:11:05.470 --> 00:11:05.480 align:start position:0%
+basically just keeps the routing
+ 
+
+00:11:05.480 --> 00:11:07.750 align:start position:0%
+basically just keeps the routing
+balanced<00:11:06.160><c> so</c><00:11:06.360><c> a</c><00:11:06.440><c> few</c><00:11:06.720><c> experts</c><00:11:07.160><c> do</c><00:11:07.320><c> not</c><00:11:07.480><c> become</c>
+
+00:11:07.750 --> 00:11:07.760 align:start position:0%
+balanced so a few experts do not become
+ 
+
+00:11:07.760 --> 00:11:09.990 align:start position:0%
+balanced so a few experts do not become
+overloaded<00:11:08.440><c> while</c><00:11:08.760><c> others</c><00:11:09.080><c> sit</c><00:11:09.320><c> unused.</c><00:11:09.920><c> On</c>
+
+00:11:09.990 --> 00:11:10.000 align:start position:0%
+overloaded while others sit unused. On
+ 
+
+00:11:10.000 --> 00:11:11.829 align:start position:0%
+overloaded while others sit unused. On
+the<00:11:10.120><c> other</c><00:11:10.360><c> hand,</c><00:11:10.760><c> we</c><00:11:10.960><c> did</c><00:11:11.240><c> get</c><00:11:11.440><c> some</c><00:11:11.600><c> pretty</c>
+
+00:11:11.829 --> 00:11:11.839 align:start position:0%
+the other hand, we did get some pretty
+ 
+
+00:11:11.839 --> 00:11:13.470 align:start position:0%
+the other hand, we did get some pretty
+interesting<00:11:12.280><c> demos</c><00:11:12.640><c> from</c><00:11:12.880><c> them,</c><00:11:13.080><c> especially</c>
+
+00:11:13.470 --> 00:11:13.480 align:start position:0%
+interesting demos from them, especially
+ 
+
+00:11:13.480 --> 00:11:15.750 align:start position:0%
+interesting demos from them, especially
+this<00:11:13.680><c> one</c><00:11:13.880><c> where</c><00:11:14.040><c> they</c><00:11:14.200><c> had</c><00:11:14.480><c> Kimi</c><00:11:14.800><c> K3</c><00:11:15.320><c> optimize</c>
+
+00:11:15.750 --> 00:11:15.760 align:start position:0%
+this one where they had Kimi K3 optimize
+ 
+
+00:11:15.760 --> 00:11:17.750 align:start position:0%
+this one where they had Kimi K3 optimize
+its<00:11:16.040><c> own</c><00:11:16.240><c> GPU</c><00:11:16.680><c> kernel</c><00:11:17.080><c> for</c><00:11:17.280><c> attention</c>
+
+00:11:17.750 --> 00:11:17.760 align:start position:0%
+its own GPU kernel for attention
+ 
+
+00:11:17.760 --> 00:11:19.750 align:start position:0%
+its own GPU kernel for attention
+residuals.<00:11:18.400><c> So,</c><00:11:18.560><c> Moonshot</c><00:11:19.040><c> AI's</c><00:11:19.320><c> researchers</c>
+
+00:11:19.750 --> 00:11:19.760 align:start position:0%
+residuals. So, Moonshot AI's researchers
+ 
+
+00:11:19.760 --> 00:11:21.829 align:start position:0%
+residuals. So, Moonshot AI's researchers
+straight<00:11:20.080><c> up</c><00:11:20.280><c> gave</c><00:11:20.520><c> it</c><00:11:20.640><c> the</c><00:11:20.760><c> production-sized</c>
+
+00:11:21.829 --> 00:11:21.839 align:start position:0%
+straight up gave it the production-sized
+ 
+
+00:11:21.839 --> 00:11:23.670 align:start position:0%
+straight up gave it the production-sized
+attention<00:11:22.320><c> residuals</c><00:11:22.800><c> kernel</c><00:11:23.240><c> used</c><00:11:23.480><c> by</c><00:11:23.600><c> the</c>
+
+00:11:23.670 --> 00:11:23.680 align:start position:0%
+attention residuals kernel used by the
+ 
+
+00:11:23.680 --> 00:11:26.070 align:start position:0%
+attention residuals kernel used by the
+model,<00:11:24.200><c> then</c><00:11:24.400><c> allowing</c><00:11:24.839><c> K3</c><00:11:25.280><c> to</c><00:11:25.480><c> work</c><00:11:25.760><c> on</c><00:11:25.920><c> it</c>
+
+00:11:26.070 --> 00:11:26.080 align:start position:0%
+model, then allowing K3 to work on it
+ 
+
+00:11:26.080 --> 00:11:28.630 align:start position:0%
+model, then allowing K3 to work on it
+autonomously<00:11:26.960><c> for</c><00:11:27.200><c> up</c><00:11:27.400><c> to</c><00:11:27.520><c> 24</c><00:11:28.160><c> hours,</c>
+
+00:11:28.630 --> 00:11:28.640 align:start position:0%
+autonomously for up to 24 hours,
+ 
+
+00:11:28.640 --> 00:11:31.150 align:start position:0%
+autonomously for up to 24 hours,
+including<00:11:29.680><c> repeatedly</c><00:11:30.440><c> profiling</c><00:11:31.080><c> the</c>
+
+00:11:31.150 --> 00:11:31.160 align:start position:0%
+including repeatedly profiling the
+ 
+
+00:11:31.160 --> 00:11:33.470 align:start position:0%
+including repeatedly profiling the
+kernel,<00:11:31.760><c> changing</c><00:11:32.200><c> the</c><00:11:32.360><c> implementation,</c>
+
+00:11:33.470 --> 00:11:33.480 align:start position:0%
+kernel, changing the implementation,
+ 
+
+00:11:33.480 --> 00:11:35.470 align:start position:0%
+kernel, changing the implementation,
+benchmarking<00:11:34.120><c> it,</c><00:11:34.360><c> and</c><00:11:34.480><c> continuing</c><00:11:35.200><c> from</c><00:11:35.400><c> the</c>
+
+00:11:35.470 --> 00:11:35.480 align:start position:0%
+benchmarking it, and continuing from the
+ 
+
+00:11:35.480 --> 00:11:37.550 align:start position:0%
+benchmarking it, and continuing from the
+results.<00:11:36.120><c> After</c><00:11:36.440><c> around</c><00:11:36.720><c> 15</c><00:11:37.120><c> hours</c><00:11:37.400><c> of</c>
+
+00:11:37.550 --> 00:11:37.560 align:start position:0%
+results. After around 15 hours of
+ 
+
+00:11:37.560 --> 00:11:39.950 align:start position:0%
+results. After around 15 hours of
+non-stop<00:11:38.080><c> iterations,</c><00:11:38.800><c> it</c><00:11:38.920><c> designed</c><00:11:39.400><c> a</c><00:11:39.480><c> new</c>
+
+00:11:39.950 --> 00:11:39.960 align:start position:0%
+non-stop iterations, it designed a new
+ 
+
+00:11:39.960 --> 00:11:42.150 align:start position:0%
+non-stop iterations, it designed a new
+two-face<00:11:40.600><c> algorithm,</c><00:11:41.240><c> fused</c><00:11:41.680><c> multiple</c>
+
+00:11:42.150 --> 00:11:42.160 align:start position:0%
+two-face algorithm, fused multiple
+ 
+
+00:11:42.160 --> 00:11:43.870 align:start position:0%
+two-face algorithm, fused multiple
+operations<00:11:42.720><c> together</c><00:11:43.040><c> without</c><00:11:43.360><c> changing</c><00:11:43.760><c> the</c>
+
+00:11:43.870 --> 00:11:43.880 align:start position:0%
+operations together without changing the
+ 
+
+00:11:43.880 --> 00:11:45.670 align:start position:0%
+operations together without changing the
+numerical<00:11:44.360><c> results,</c><00:11:44.880><c> and</c><00:11:45.040><c> reduced</c><00:11:45.560><c> the</c>
+
+00:11:45.670 --> 00:11:45.680 align:start position:0%
+numerical results, and reduced the
+ 
+
+00:11:45.680 --> 00:11:48.230 align:start position:0%
+numerical results, and reduced the
+operation<00:11:46.200><c> time</c><00:11:46.480><c> from</c><00:11:46.720><c> 283.6</c>
+
+00:11:48.230 --> 00:11:48.240 align:start position:0%
+operation time from 283.6
+ 
+
+00:11:48.240 --> 00:11:51.230 align:start position:0%
+operation time from 283.6
+milliseconds<00:11:49.080><c> down</c><00:11:49.400><c> to</c><00:11:49.640><c> 114.4</c>
+
+00:11:51.230 --> 00:11:51.240 align:start position:0%
+milliseconds down to 114.4
+ 
+
+00:11:51.240 --> 00:11:54.030 align:start position:0%
+milliseconds down to 114.4
+milliseconds,<00:11:52.040><c> which</c><00:11:52.280><c> is</c><00:11:52.520><c> almost</c><00:11:53.040><c> a</c><00:11:53.120><c> 60%</c>
+
+00:11:54.030 --> 00:11:54.040 align:start position:0%
+milliseconds, which is almost a 60%
+ 
+
+00:11:54.040 --> 00:11:56.030 align:start position:0%
+milliseconds, which is almost a 60%
+speed<00:11:54.360><c> up</c><00:11:54.520><c> from</c><00:11:54.800><c> their</c><00:11:55.040><c> original</c><00:11:55.560><c> kernel.</c>
+
+00:11:56.030 --> 00:11:56.040 align:start position:0%
+speed up from their original kernel.
+ 
+
+00:11:56.040 --> 00:11:57.590 align:start position:0%
+speed up from their original kernel.
+With<00:11:56.200><c> its</c><00:11:56.360><c> final</c><00:11:56.720><c> performance</c><00:11:57.160><c> being</c><00:11:57.360><c> close</c>
+
+00:11:57.590 --> 00:11:57.600 align:start position:0%
+With its final performance being close
+ 
+
+00:11:57.600 --> 00:11:59.750 align:start position:0%
+With its final performance being close
+to<00:11:57.760><c> Claude</c><00:11:58.080><c> Fable</c><00:11:58.440><c> 5</c><00:11:58.840><c> and</c><00:11:58.960><c> achieving</c><00:11:59.480><c> roughly</c>
+
+00:11:59.750 --> 00:11:59.760 align:start position:0%
+to Claude Fable 5 and achieving roughly
+ 
+
+00:11:59.760 --> 00:12:01.590 align:start position:0%
+to Claude Fable 5 and achieving roughly
+the<00:12:00.040><c> same</c><00:12:00.160><c> result</c><00:12:00.480><c> trends</c><00:12:00.800><c> across</c><00:12:01.200><c> all</c><00:12:01.400><c> other</c>
+
+00:12:01.590 --> 00:12:01.600 align:start position:0%
+the same result trends across all other
+ 
+
+00:12:01.600 --> 00:12:04.030 align:start position:0%
+the same result trends across all other
+kernel<00:12:01.920><c> benchmarks,</c><00:12:02.480><c> Kimi</c><00:12:02.800><c> K3</c><00:12:03.400><c> is</c><00:12:03.720><c> actually</c>
+
+00:12:04.030 --> 00:12:04.040 align:start position:0%
+kernel benchmarks, Kimi K3 is actually
+ 
+
+00:12:04.040 --> 00:12:05.910 align:start position:0%
+kernel benchmarks, Kimi K3 is actually
+just<00:12:04.320><c> an</c><00:12:04.480><c> incredible</c><00:12:05.040><c> model.</c><00:12:05.560><c> Another</c>
+
+00:12:05.910 --> 00:12:05.920 align:start position:0%
+just an incredible model. Another
+ 
+
+00:12:05.920 --> 00:12:08.070 align:start position:0%
+just an incredible model. Another
+notable<00:12:06.320><c> aspect</c><00:12:06.640><c> of</c><00:12:06.760><c> Kimi</c><00:12:07.040><c> K3</c><00:12:07.680><c> is</c><00:12:07.840><c> its</c>
+
+00:12:08.070 --> 00:12:08.080 align:start position:0%
+notable aspect of Kimi K3 is its
+ 
+
+00:12:08.080 --> 00:12:10.110 align:start position:0%
+notable aspect of Kimi K3 is its
+top-tier<00:12:08.600><c> visual-related</c><00:12:09.320><c> generations.</c>
+
+00:12:10.110 --> 00:12:10.120 align:start position:0%
+top-tier visual-related generations.
+ 
+
+00:12:10.120 --> 00:12:12.230 align:start position:0%
+top-tier visual-related generations.
+From<00:12:10.320><c> generating</c><00:12:10.800><c> HTMLs</c><00:12:11.480><c> like</c><00:12:11.640><c> websites</c><00:12:12.120><c> and</c>
+
+00:12:12.230 --> 00:12:12.240 align:start position:0%
+From generating HTMLs like websites and
+ 
+
+00:12:12.240 --> 00:12:14.870 align:start position:0%
+From generating HTMLs like websites and
+landing<00:12:12.560><c> pages,</c><00:12:13.240><c> coding</c><00:12:13.680><c> 3D</c><00:12:14.040><c> games</c><00:12:14.400><c> and</c><00:12:14.600><c> game</c>
+
+00:12:14.870 --> 00:12:14.880 align:start position:0%
+landing pages, coding 3D games and game
+ 
+
+00:12:14.880 --> 00:12:17.310 align:start position:0%
+landing pages, coding 3D games and game
+engines,<00:12:15.560><c> to</c><00:12:15.720><c> making</c><00:12:16.120><c> a</c><00:12:16.240><c> complete</c><00:12:16.800><c> slide</c><00:12:17.080><c> deck</c>
+
+00:12:17.310 --> 00:12:17.320 align:start position:0%
+engines, to making a complete slide deck
+ 
+
+00:12:17.320 --> 00:12:19.150 align:start position:0%
+engines, to making a complete slide deck
+for<00:12:17.520><c> research</c><00:12:18.080><c> and</c><00:12:18.200><c> infographic-style</c>
+
+00:12:19.150 --> 00:12:19.160 align:start position:0%
+for research and infographic-style
+ 
+
+00:12:19.160 --> 00:12:21.310 align:start position:0%
+for research and infographic-style
+presentations,<00:12:20.120><c> that</c>
+
+00:12:21.310 --> 00:12:21.320 align:start position:0%
+presentations, that
+ 
+
+00:12:21.320 --> 00:12:23.270 align:start position:0%
+presentations, that
+I'm<00:12:21.520><c> just</c><00:12:21.760><c> speechless.</c><00:12:22.400><c> Like,</c><00:12:22.920><c> these</c><00:12:23.160><c> are</c>
+
+00:12:23.270 --> 00:12:23.280 align:start position:0%
+I'm just speechless. Like, these are
+ 
+
+00:12:23.280 --> 00:12:25.150 align:start position:0%
+I'm just speechless. Like, these are
+just<00:12:23.520><c> way</c><00:12:23.680><c> too</c><00:12:23.880><c> good.</c><00:12:24.240><c> Not</c><00:12:24.360><c> only</c><00:12:24.600><c> that,</c><00:12:24.920><c> it</c><00:12:25.000><c> can</c>
+
+00:12:25.150 --> 00:12:25.160 align:start position:0%
+just way too good. Not only that, it can
+ 
+
+00:12:25.160 --> 00:12:26.910 align:start position:0%
+just way too good. Not only that, it can
+also<00:12:25.360><c> generate</c><00:12:25.720><c> three</c><00:12:25.920><c> blue</c><00:12:26.160><c> one</c><00:12:26.360><c> brown-style</c>
+
+00:12:26.910 --> 00:12:26.920 align:start position:0%
+also generate three blue one brown-style
+ 
+
+00:12:26.920 --> 00:12:29.070 align:start position:0%
+also generate three blue one brown-style
+visuals,<00:12:27.320><c> too,</c><00:12:27.600><c> using</c><00:12:27.920><c> Manim.</c><00:12:28.480><c> So,</c><00:12:28.760><c> coding</c>
+
+00:12:29.070 --> 00:12:29.080 align:start position:0%
+visuals, too, using Manim. So, coding
+ 
+
+00:12:29.080 --> 00:12:31.470 align:start position:0%
+visuals, too, using Manim. So, coding
+visualizations<00:12:30.320><c> is</c><00:12:30.600><c> definitely</c><00:12:31.000><c> its</c><00:12:31.160><c> strong</c>
+
+00:12:31.470 --> 00:12:31.480 align:start position:0%
+visualizations is definitely its strong
+ 
+
+00:12:31.480 --> 00:12:34.310 align:start position:0%
+visualizations is definitely its strong
+suit.<00:12:31.800><c> However,</c><00:12:32.400><c> Kimi</c><00:12:32.920><c> is</c><00:12:33.280><c> also</c><00:12:33.520><c> not</c><00:12:33.760><c> perfect.</c>
+
+00:12:34.310 --> 00:12:34.320 align:start position:0%
+suit. However, Kimi is also not perfect.
+ 
+
+00:12:34.320 --> 00:12:36.190 align:start position:0%
+suit. However, Kimi is also not perfect.
+In<00:12:34.480><c> fact,</c><00:12:35.040><c> they</c><00:12:35.160><c> released</c><00:12:35.520><c> blog</c><00:12:35.760><c> sets</c><00:12:36.040><c> of</c>
+
+00:12:36.190 --> 00:12:36.200 align:start position:0%
+In fact, they released blog sets of
+ 
+
+00:12:36.200 --> 00:12:37.670 align:start position:0%
+In fact, they released blog sets of
+themselves,<00:12:36.760><c> and</c><00:12:36.880><c> I</c><00:12:36.960><c> just</c><00:12:37.160><c> love</c><00:12:37.440><c> how</c>
+
+00:12:37.670 --> 00:12:37.680 align:start position:0%
+themselves, and I just love how
+ 
+
+00:12:37.680 --> 00:12:39.470 align:start position:0%
+themselves, and I just love how
+transparent<00:12:38.240><c> and</c><00:12:38.360><c> humble</c><00:12:38.720><c> they</c><00:12:38.920><c> are</c><00:12:39.080><c> with</c><00:12:39.320><c> it.</c>
+
+00:12:39.470 --> 00:12:39.480 align:start position:0%
+transparent and humble they are with it.
+ 
+
+00:12:39.480 --> 00:12:41.550 align:start position:0%
+transparent and humble they are with it.
+Number<00:12:39.720><c> one</c><00:12:39.920><c> is</c><00:12:40.120><c> how</c><00:12:40.320><c> Kimi</c><00:12:40.560><c> K3</c><00:12:40.960><c> needs</c><00:12:41.280><c> its</c>
+
+00:12:41.550 --> 00:12:41.560 align:start position:0%
+Number one is how Kimi K3 needs its
+ 
+
+00:12:41.560 --> 00:12:43.829 align:start position:0%
+Number one is how Kimi K3 needs its
+thinking<00:12:42.000><c> history</c><00:12:42.400><c> fully</c><00:12:42.720><c> intact</c><00:12:43.280><c> in</c><00:12:43.520><c> order</c>
+
+00:12:43.829 --> 00:12:43.839 align:start position:0%
+thinking history fully intact in order
+ 
+
+00:12:43.839 --> 00:12:45.750 align:start position:0%
+thinking history fully intact in order
+to<00:12:44.000><c> function</c><00:12:44.480><c> well.</c><00:12:44.800><c> This</c><00:12:45.040><c> might</c><00:12:45.200><c> be</c><00:12:45.320><c> related</c>
+
+00:12:45.750 --> 00:12:45.760 align:start position:0%
+to function well. This might be related
+ 
+
+00:12:45.760 --> 00:12:48.030 align:start position:0%
+to function well. This might be related
+to<00:12:45.920><c> how</c><00:12:46.240><c> strong</c><00:12:46.640><c> the</c><00:12:46.800><c> RL</c><00:12:47.200><c> the</c><00:12:47.320><c> model</c><00:12:47.839><c> and</c><00:12:47.960><c> the</c>
+
+00:12:48.030 --> 00:12:48.040 align:start position:0%
+to how strong the RL the model and the
+ 
+
+00:12:48.040 --> 00:12:50.150 align:start position:0%
+to how strong the RL the model and the
+thinking<00:12:48.400><c> process</c><00:12:48.880><c> plays</c><00:12:49.200><c> a</c><00:12:49.280><c> key</c><00:12:49.640><c> role</c><00:12:49.920><c> in</c>
+
+00:12:50.150 --> 00:12:50.160 align:start position:0%
+thinking process plays a key role in
+ 
+
+00:12:50.160 --> 00:12:51.790 align:start position:0%
+thinking process plays a key role in
+helping<00:12:50.760><c> the</c><00:12:50.880><c> model</c><00:12:51.280><c> improve</c><00:12:51.640><c> its</c>
+
+00:12:51.790 --> 00:12:51.800 align:start position:0%
+helping the model improve its
+ 
+
+00:12:51.800 --> 00:12:53.790 align:start position:0%
+helping the model improve its
+performance.<00:12:52.560><c> Number</c><00:12:52.839><c> two</c><00:12:53.200><c> is</c><00:12:53.440><c> how</c><00:12:53.640><c> it</c><00:12:53.720><c> will</c>
+
+00:12:53.790 --> 00:12:53.800 align:start position:0%
+performance. Number two is how it will
+ 
+
+00:12:53.800 --> 00:12:55.550 align:start position:0%
+performance. Number two is how it will
+start<00:12:54.080><c> assuming</c><00:12:54.560><c> things</c><00:12:54.920><c> if</c><00:12:55.080><c> the</c><00:12:55.200><c> user's</c>
+
+00:12:55.550 --> 00:12:55.560 align:start position:0%
+start assuming things if the user's
+ 
+
+00:12:55.560 --> 00:12:57.630 align:start position:0%
+start assuming things if the user's
+intention<00:12:56.160><c> is</c><00:12:56.360><c> unclear</c><00:12:56.880><c> because</c><00:12:57.160><c> the</c><00:12:57.280><c> model</c>
+
+00:12:57.630 --> 00:12:57.640 align:start position:0%
+intention is unclear because the model
+ 
+
+00:12:57.640 --> 00:12:59.790 align:start position:0%
+intention is unclear because the model
+is<00:12:57.839><c> trained</c><00:12:58.160><c> specifically</c><00:12:58.839><c> for</c><00:12:59.000><c> long</c><00:12:59.240><c> horizon</c>
+
+00:12:59.790 --> 00:12:59.800 align:start position:0%
+is trained specifically for long horizon
+ 
+
+00:12:59.800 --> 00:13:02.510 align:start position:0%
+is trained specifically for long horizon
+and<00:13:00.000><c> autonomous</c><00:13:00.680><c> tasks.</c><00:13:01.320><c> This</c><00:13:01.560><c> is</c><00:13:01.920><c> a</c><00:13:02.080><c> very</c>
+
+00:13:02.510 --> 00:13:02.520 align:start position:0%
+and autonomous tasks. This is a very
+ 
+
+00:13:02.520 --> 00:13:04.470 align:start position:0%
+and autonomous tasks. This is a very
+interesting<00:13:03.000><c> behavior,</c><00:13:03.520><c> and</c><00:13:03.720><c> one</c><00:13:03.920><c> that</c><00:13:04.160><c> I</c><00:13:04.240><c> did</c>
+
+00:13:04.470 --> 00:13:04.480 align:start position:0%
+interesting behavior, and one that I did
+ 
+
+00:13:04.480 --> 00:13:06.430 align:start position:0%
+interesting behavior, and one that I did
+not<00:13:04.760><c> think</c><00:13:05.000><c> was</c><00:13:05.160><c> going</c><00:13:05.320><c> to</c><00:13:05.400><c> backfire</c><00:13:06.080><c> when</c><00:13:06.280><c> you</c>
+
+00:13:06.430 --> 00:13:06.440 align:start position:0%
+not think was going to backfire when you
+ 
+
+00:13:06.440 --> 00:13:08.070 align:start position:0%
+not think was going to backfire when you
+focus<00:13:06.800><c> on</c><00:13:06.960><c> training</c><00:13:07.320><c> something</c><00:13:07.800><c> to</c><00:13:07.920><c> be</c>
+
+00:13:08.070 --> 00:13:08.080 align:start position:0%
+focus on training something to be
+ 
+
+00:13:08.080 --> 00:13:10.190 align:start position:0%
+focus on training something to be
+autonomous.<00:13:08.839><c> And</c><00:13:09.040><c> lastly,</c><00:13:09.640><c> they</c><00:13:09.800><c> mentioned</c>
+
+00:13:10.190 --> 00:13:10.200 align:start position:0%
+autonomous. And lastly, they mentioned
+ 
+
+00:13:10.200 --> 00:13:12.110 align:start position:0%
+autonomous. And lastly, they mentioned
+how<00:13:10.440><c> despite</c><00:13:10.920><c> being</c><00:13:11.200><c> a</c><00:13:11.240><c> highly</c><00:13:11.560><c> competitive</c>
+
+00:13:12.110 --> 00:13:12.120 align:start position:0%
+how despite being a highly competitive
+ 
+
+00:13:12.120 --> 00:13:14.750 align:start position:0%
+how despite being a highly competitive
+model<00:13:12.480><c> overall,</c><00:13:13.160><c> K3</c><00:13:13.560><c> nonetheless</c><00:13:14.080><c> exhibits</c><00:13:14.680><c> a</c>
+
+00:13:14.750 --> 00:13:14.760 align:start position:0%
+model overall, K3 nonetheless exhibits a
+ 
+
+00:13:14.760 --> 00:13:16.710 align:start position:0%
+model overall, K3 nonetheless exhibits a
+noticeable<00:13:15.360><c> gap</c><00:13:15.680><c> in</c><00:13:15.839><c> user</c><00:13:16.080><c> experience</c>
+
+00:13:16.710 --> 00:13:16.720 align:start position:0%
+noticeable gap in user experience
+ 
+
+00:13:16.720 --> 00:13:19.550 align:start position:0%
+noticeable gap in user experience
+compared<00:13:17.240><c> with</c><00:13:17.440><c> Claude</c><00:13:17.760><c> Fable</c><00:13:18.080><c> 5</c><00:13:18.400><c> and</c><00:13:18.560><c> GPT</c><00:13:18.920><c> 5.6</c>
+
+00:13:19.550 --> 00:13:19.560 align:start position:0%
+compared with Claude Fable 5 and GPT 5.6
+ 
+
+00:13:19.560 --> 00:13:21.390 align:start position:0%
+compared with Claude Fable 5 and GPT 5.6
+Soul.<00:13:19.920><c> And</c><00:13:20.160><c> this</c><00:13:20.440><c> is</c><00:13:20.680><c> rather</c><00:13:20.920><c> surprising</c>
+
+00:13:21.390 --> 00:13:21.400 align:start position:0%
+Soul. And this is rather surprising
+ 
+
+00:13:21.400 --> 00:13:23.110 align:start position:0%
+Soul. And this is rather surprising
+because<00:13:21.640><c> it</c><00:13:21.760><c> shows</c><00:13:22.080><c> that</c><00:13:22.280><c> they</c><00:13:22.440><c> are</c><00:13:22.640><c> admitting</c>
+
+00:13:23.110 --> 00:13:23.120 align:start position:0%
+because it shows that they are admitting
+ 
+
+00:13:23.120 --> 00:13:26.310 align:start position:0%
+because it shows that they are admitting
+there<00:13:23.320><c> exists</c><00:13:23.800><c> a</c><00:13:23.880><c> gap</c><00:13:24.280><c> in</c><00:13:24.560><c> eval</c><00:13:25.120><c> for</c><00:13:25.480><c> vibes</c><00:13:26.120><c> or</c>
+
+00:13:26.310 --> 00:13:26.320 align:start position:0%
+there exists a gap in eval for vibes or
+ 
+
+00:13:26.320 --> 00:13:28.750 align:start position:0%
+there exists a gap in eval for vibes or
+at<00:13:26.480><c> least</c><00:13:26.920><c> the</c><00:13:27.160><c> user</c><00:13:27.440><c> experience</c><00:13:28.160><c> compared</c><00:13:28.640><c> to</c>
+
+00:13:28.750 --> 00:13:28.760 align:start position:0%
+at least the user experience compared to
+ 
+
+00:13:28.760 --> 00:13:30.950 align:start position:0%
+at least the user experience compared to
+the<00:13:28.880><c> proprietary</c><00:13:29.720><c> Frontier,</c><00:13:30.360><c> which</c><00:13:30.640><c> is</c><00:13:30.880><c> a</c>
+
+00:13:30.950 --> 00:13:30.960 align:start position:0%
+the proprietary Frontier, which is a
+ 
+
+00:13:30.960 --> 00:13:32.590 align:start position:0%
+the proprietary Frontier, which is a
+rather<00:13:31.320><c> fascinating</c><00:13:31.960><c> point</c><00:13:32.240><c> for</c><00:13:32.360><c> them</c><00:13:32.520><c> to</c>
+
+00:13:32.590 --> 00:13:32.600 align:start position:0%
+rather fascinating point for them to
+ 
+
+00:13:32.600 --> 00:13:35.190 align:start position:0%
+rather fascinating point for them to
+bring<00:13:32.880><c> up.</c><00:13:33.280><c> And</c><00:13:33.440><c> as</c><00:13:33.640><c> of</c><00:13:33.760><c> July</c><00:13:34.000><c> 27th,</c><00:13:34.920><c> they</c><00:13:35.040><c> have</c>
+
+00:13:35.190 --> 00:13:35.200 align:start position:0%
+bring up. And as of July 27th, they have
+ 
+
+00:13:35.200 --> 00:13:36.950 align:start position:0%
+bring up. And as of July 27th, they have
+fully<00:13:35.440><c> open</c><00:13:35.680><c> sourced</c><00:13:35.920><c> the</c><00:13:36.040><c> weights</c><00:13:36.400><c> a</c><00:13:36.440><c> company</c>
+
+00:13:36.950 --> 00:13:36.960 align:start position:0%
+fully open sourced the weights a company
+ 
+
+00:13:36.960 --> 00:13:38.990 align:start position:0%
+fully open sourced the weights a company
+with<00:13:37.160><c> 47</c><00:13:37.680><c> page</c><00:13:37.920><c> technical</c><00:13:38.280><c> report</c><00:13:38.720><c> sharing</c>
+
+00:13:38.990 --> 00:13:39.000 align:start position:0%
+with 47 page technical report sharing
+ 
+
+00:13:39.000 --> 00:13:40.990 align:start position:0%
+with 47 page technical report sharing
+more<00:13:39.200><c> in-depth</c><00:13:39.600><c> details</c><00:13:40.040><c> about</c><00:13:40.320><c> the</c><00:13:40.440><c> model.</c>
+
+00:13:40.990 --> 00:13:41.000 align:start position:0%
+more in-depth details about the model.
+ 
+
+00:13:41.000 --> 00:13:43.510 align:start position:0%
+more in-depth details about the model.
+First<00:13:41.200><c> of</c><00:13:41.320><c> all,</c><00:13:41.520><c> this</c><00:13:41.720><c> model</c><00:13:42.040><c> has</c><00:13:42.360><c> 2.5</c><00:13:43.200><c> times</c>
+
+00:13:43.510 --> 00:13:43.520 align:start position:0%
+First of all, this model has 2.5 times
+ 
+
+00:13:43.520 --> 00:13:45.350 align:start position:0%
+First of all, this model has 2.5 times
+more<00:13:43.720><c> scaling</c><00:13:44.200><c> efficiency</c><00:13:44.880><c> than</c><00:13:45.120><c> their</c>
+
+00:13:45.350 --> 00:13:45.360 align:start position:0%
+more scaling efficiency than their
+ 
+
+00:13:45.360 --> 00:13:47.710 align:start position:0%
+more scaling efficiency than their
+previous<00:13:45.800><c> Gemini</c><00:13:46.120><c> K2</c><00:13:46.440><c> series</c><00:13:46.960><c> thanks</c><00:13:47.320><c> to</c><00:13:47.560><c> all</c>
+
+00:13:47.710 --> 00:13:47.720 align:start position:0%
+previous Gemini K2 series thanks to all
+ 
+
+00:13:47.720 --> 00:13:49.790 align:start position:0%
+previous Gemini K2 series thanks to all
+the<00:13:47.880><c> new</c><00:13:48.120><c> architectural</c><00:13:48.680><c> advances,</c><00:13:49.400><c> refined</c>
+
+00:13:49.790 --> 00:13:49.800 align:start position:0%
+the new architectural advances, refined
+ 
+
+00:13:49.800 --> 00:13:51.550 align:start position:0%
+the new architectural advances, refined
+data,<00:13:50.160><c> and</c><00:13:50.320><c> training</c><00:13:50.720><c> recipes.</c><00:13:51.360><c> And</c><00:13:51.480><c> the</c>
+
+00:13:51.550 --> 00:13:51.560 align:start position:0%
+data, and training recipes. And the
+ 
+
+00:13:51.560 --> 00:13:53.310 align:start position:0%
+data, and training recipes. And the
+report<00:13:51.920><c> shared</c><00:13:52.200><c> that</c><00:13:52.360><c> K3's</c><00:13:52.840><c> post-training</c>
+
+00:13:53.310 --> 00:13:53.320 align:start position:0%
+report shared that K3's post-training
+ 
+
+00:13:53.320 --> 00:13:55.190 align:start position:0%
+report shared that K3's post-training
+was<00:13:53.520><c> also</c><00:13:53.800><c> utilizing</c><00:13:54.360><c> multi-teacher</c><00:13:55.040><c> on</c>
+
+00:13:55.190 --> 00:13:55.200 align:start position:0%
+was also utilizing multi-teacher on
+ 
+
+00:13:55.200 --> 00:13:57.270 align:start position:0%
+was also utilizing multi-teacher on
+positive<00:13:55.720><c> distillation</c><00:13:56.520><c> just</c><00:13:56.800><c> like</c><00:13:57.000><c> most</c><00:13:57.200><c> of</c>
+
+00:13:57.270 --> 00:13:57.280 align:start position:0%
+positive distillation just like most of
+ 
+
+00:13:57.280 --> 00:13:59.230 align:start position:0%
+positive distillation just like most of
+the<00:13:57.360><c> latest</c><00:13:57.720><c> open</c><00:13:58.040><c> weights.</c><00:13:58.480><c> This</c><00:13:58.720><c> means</c><00:13:59.080><c> they</c>
+
+00:13:59.230 --> 00:13:59.240 align:start position:0%
+the latest open weights. This means they
+ 
+
+00:13:59.240 --> 00:14:01.110 align:start position:0%
+the latest open weights. This means they
+trained<00:13:59.600><c> nine</c><00:13:59.880><c> specialized</c><00:14:00.440><c> models</c><00:14:00.800><c> across</c>
+
+00:14:01.110 --> 00:14:01.120 align:start position:0%
+trained nine specialized models across
+ 
+
+00:14:01.120 --> 00:14:03.590 align:start position:0%
+trained nine specialized models across
+coding,<00:14:01.600><c> general</c><00:14:01.960><c> agents,</c><00:14:02.400><c> and</c><00:14:02.560><c> surprisingly</c>
+
+00:14:03.590 --> 00:14:03.600 align:start position:0%
+coding, general agents, and surprisingly
+ 
+
+00:14:03.600 --> 00:14:05.430 align:start position:0%
+coding, general agents, and surprisingly
+different<00:14:03.920><c> reasoning</c><00:14:04.400><c> efforts</c><00:14:04.840><c> ranging</c><00:14:05.200><c> from</c>
+
+00:14:05.430 --> 00:14:05.440 align:start position:0%
+different reasoning efforts ranging from
+ 
+
+00:14:05.440 --> 00:14:07.630 align:start position:0%
+different reasoning efforts ranging from
+low,<00:14:05.680><c> high,</c><00:14:05.920><c> and</c><00:14:06.080><c> maximum.</c><00:14:06.720><c> They</c><00:14:06.960><c> then</c><00:14:07.280><c> merged</c>
+
+00:14:07.630 --> 00:14:07.640 align:start position:0%
+low, high, and maximum. They then merged
+ 
+
+00:14:07.640 --> 00:14:10.110 align:start position:0%
+low, high, and maximum. They then merged
+all<00:14:07.800><c> nine</c><00:14:08.120><c> back</c><00:14:08.360><c> into</c><00:14:08.600><c> one</c><00:14:08.800><c> model</c><00:14:09.240><c> allowing</c><00:14:09.680><c> K3</c>
+
+00:14:10.110 --> 00:14:10.120 align:start position:0%
+all nine back into one model allowing K3
+ 
+
+00:14:10.120 --> 00:14:12.230 align:start position:0%
+all nine back into one model allowing K3
+to<00:14:10.240><c> dynamically</c><00:14:10.960><c> scale</c><00:14:11.360><c> how</c><00:14:11.560><c> much</c><00:14:11.800><c> reasoning</c>
+
+00:14:12.230 --> 00:14:12.240 align:start position:0%
+to dynamically scale how much reasoning
+ 
+
+00:14:12.240 --> 00:14:14.190 align:start position:0%
+to dynamically scale how much reasoning
+it<00:14:12.400><c> uses.</c><00:14:12.960><c> Another</c><00:14:13.240><c> clever</c><00:14:13.560><c> thing</c><00:14:13.760><c> they</c><00:14:13.920><c> did</c>
+
+00:14:14.190 --> 00:14:14.200 align:start position:0%
+it uses. Another clever thing they did
+ 
+
+00:14:14.200 --> 00:14:15.790 align:start position:0%
+it uses. Another clever thing they did
+is<00:14:14.400><c> they</c><00:14:14.560><c> trained</c><00:14:14.920><c> it</c><00:14:15.000><c> across</c><00:14:15.320><c> many</c><00:14:15.520><c> different</c>
+
+00:14:15.790 --> 00:14:15.800 align:start position:0%
+is they trained it across many different
+ 
+
+00:14:15.800 --> 00:14:17.350 align:start position:0%
+is they trained it across many different
+agent<00:14:16.040><c> environments</c><00:14:16.680><c> that</c><00:14:16.800><c> could</c><00:14:17.000><c> imitate</c>
+
+00:14:17.350 --> 00:14:17.360 align:start position:0%
+agent environments that could imitate
+ 
+
+00:14:17.360 --> 00:14:19.470 align:start position:0%
+agent environments that could imitate
+Gemini<00:14:17.640><c> code,</c><00:14:18.000><c> claw</c><00:14:18.280><c> code,</c><00:14:18.640><c> codex,</c><00:14:19.160><c> open</c>
+
+00:14:19.470 --> 00:14:19.480 align:start position:0%
+Gemini code, claw code, codex, open
+ 
+
+00:14:19.480 --> 00:14:21.070 align:start position:0%
+Gemini code, claw code, codex, open
+claw,<00:14:19.800><c> and</c><00:14:20.000><c> Hermes.</c><00:14:20.520><c> So,</c><00:14:20.640><c> rather</c><00:14:20.880><c> than</c>
+
+00:14:21.070 --> 00:14:21.080 align:start position:0%
+claw, and Hermes. So, rather than
+ 
+
+00:14:21.080 --> 00:14:23.230 align:start position:0%
+claw, and Hermes. So, rather than
+over-fitting<00:14:21.680><c> to</c><00:14:21.840><c> one</c><00:14:22.040><c> tool</c><00:14:22.280><c> format</c><00:14:22.760><c> or</c><00:14:22.960><c> agent</c>
+
+00:14:23.230 --> 00:14:23.240 align:start position:0%
+over-fitting to one tool format or agent
+ 
+
+00:14:23.240 --> 00:14:25.470 align:start position:0%
+over-fitting to one tool format or agent
+harness,<00:14:23.760><c> K3</c><00:14:24.160><c> is</c><00:14:24.320><c> made</c><00:14:24.560><c> to</c><00:14:24.680><c> be</c><00:14:24.960><c> adaptable</c>
+
+00:14:25.470 --> 00:14:25.480 align:start position:0%
+harness, K3 is made to be adaptable
+ 
+
+00:14:25.480 --> 00:14:27.070 align:start position:0%
+harness, K3 is made to be adaptable
+across<00:14:25.840><c> them.</c><00:14:26.080><c> Its</c><00:14:26.240><c> visual</c><00:14:26.480><c> capabilities</c>
+
+00:14:27.070 --> 00:14:27.080 align:start position:0%
+across them. Its visual capabilities
+ 
+
+00:14:27.080 --> 00:14:28.590 align:start position:0%
+across them. Its visual capabilities
+were<00:14:27.240><c> also</c><00:14:27.520><c> trained</c><00:14:27.840><c> natively</c><00:14:28.320><c> from</c><00:14:28.520><c> the</c>
+
+00:14:28.590 --> 00:14:28.600 align:start position:0%
+were also trained natively from the
+ 
+
+00:14:28.600 --> 00:14:30.070 align:start position:0%
+were also trained natively from the
+beginning.<00:14:29.080><c> Instead</c><00:14:29.360><c> of</c><00:14:29.440><c> attaching</c><00:14:29.960><c> an</c>
+
+00:14:30.070 --> 00:14:30.080 align:start position:0%
+beginning. Instead of attaching an
+ 
+
+00:14:30.080 --> 00:14:32.070 align:start position:0%
+beginning. Instead of attaching an
+existing<00:14:30.600><c> SigLip</c><00:14:31.200><c> vision</c><00:14:31.560><c> encoder</c>
+
+00:14:32.070 --> 00:14:32.080 align:start position:0%
+existing SigLip vision encoder
+ 
+
+00:14:32.080 --> 00:14:34.829 align:start position:0%
+existing SigLip vision encoder
+afterward,<00:14:32.800><c> Moonshot</c><00:14:33.320><c> trained</c><00:14:33.680><c> Moon</c><00:14:34.000><c> ViT</c><00:14:34.520><c> V2</c>
+
+00:14:34.829 --> 00:14:34.839 align:start position:0%
+afterward, Moonshot trained Moon ViT V2
+ 
+
+00:14:34.839 --> 00:14:36.630 align:start position:0%
+afterward, Moonshot trained Moon ViT V2
+completely<00:14:35.440><c> from</c><00:14:35.640><c> scratch</c><00:14:36.000><c> alongside</c><00:14:36.560><c> the</c>
+
+00:14:36.630 --> 00:14:36.640 align:start position:0%
+completely from scratch alongside the
+ 
+
+00:14:36.640 --> 00:14:38.030 align:start position:0%
+completely from scratch alongside the
+language<00:14:36.960><c> model</c><00:14:37.280><c> using</c><00:14:37.560><c> next</c><00:14:37.800><c> token</c>
+
+00:14:38.030 --> 00:14:38.040 align:start position:0%
+language model using next token
+ 
+
+00:14:38.040 --> 00:14:39.950 align:start position:0%
+language model using next token
+prediction.<00:14:38.640><c> And</c><00:14:38.800><c> surprisingly,</c><00:14:39.520><c> this</c><00:14:39.760><c> was</c>
+
+00:14:39.950 --> 00:14:39.960 align:start position:0%
+prediction. And surprisingly, this was
+ 
+
+00:14:39.960 --> 00:14:41.790 align:start position:0%
+prediction. And surprisingly, this was
+much<00:14:40.280><c> more</c><00:14:40.480><c> stable</c><00:14:40.920><c> and</c><00:14:41.080><c> still</c><00:14:41.320><c> matched</c><00:14:41.720><c> the</c>
+
+00:14:41.790 --> 00:14:41.800 align:start position:0%
+much more stable and still matched the
+ 
+
+00:14:41.800 --> 00:14:43.510 align:start position:0%
+much more stable and still matched the
+pre-trained<00:14:42.320><c> vision</c><00:14:42.600><c> baseline.</c><00:14:43.040><c> The</c><00:14:43.120><c> million</c>
+
+00:14:43.510 --> 00:14:43.520 align:start position:0%
+pre-trained vision baseline. The million
+ 
+
+00:14:43.520 --> 00:14:45.430 align:start position:0%
+pre-trained vision baseline. The million
+token<00:14:43.800><c> context</c><00:14:44.200><c> was</c><00:14:44.320><c> not</c><00:14:44.520><c> achieved</c><00:14:44.880><c> by</c><00:14:45.000><c> simply</c>
+
+00:14:45.430 --> 00:14:45.440 align:start position:0%
+token context was not achieved by simply
+ 
+
+00:14:45.440 --> 00:14:47.710 align:start position:0%
+token context was not achieved by simply
+changing<00:14:45.800><c> a</c><00:14:45.880><c> rope</c><00:14:46.160><c> setting</c><00:14:46.520><c> either.</c><00:14:46.880><c> K3</c><00:14:47.360><c> uses</c>
+
+00:14:47.710 --> 00:14:47.720 align:start position:0%
+changing a rope setting either. K3 uses
+ 
+
+00:14:47.720 --> 00:14:49.710 align:start position:0%
+changing a rope setting either. K3 uses
+no<00:14:47.920><c> explicit</c><00:14:48.400><c> positional</c><00:14:48.880><c> encoding</c><00:14:49.400><c> and</c><00:14:49.520><c> was</c>
+
+00:14:49.710 --> 00:14:49.720 align:start position:0%
+no explicit positional encoding and was
+ 
+
+00:14:49.720 --> 00:14:52.270 align:start position:0%
+no explicit positional encoding and was
+progressively<00:14:50.400><c> trained</c><00:14:50.720><c> from</c><00:14:51.040><c> 8K</c><00:14:51.440><c> to</c><00:14:51.560><c> 64K,</c>
+
+00:14:52.270 --> 00:14:52.280 align:start position:0%
+progressively trained from 8K to 64K,
+ 
+
+00:14:52.280 --> 00:14:55.510 align:start position:0%
+progressively trained from 8K to 64K,
+then<00:14:52.480><c> 256K,</c><00:14:53.640><c> and</c><00:14:53.839><c> finally</c><00:14:54.360><c> 1</c><00:14:54.560><c> million</c><00:14:55.000><c> tokens</c>
+
+00:14:55.510 --> 00:14:55.520 align:start position:0%
+then 256K, and finally 1 million tokens
+ 
+
+00:14:55.520 --> 00:14:57.150 align:start position:0%
+then 256K, and finally 1 million tokens
+including<00:14:56.040><c> synthetic</c><00:14:56.520><c> tasks</c><00:14:56.920><c> where</c><00:14:57.040><c> the</c>
+
+00:14:57.150 --> 00:14:57.160 align:start position:0%
+including synthetic tasks where the
+ 
+
+00:14:57.160 --> 00:14:59.070 align:start position:0%
+including synthetic tasks where the
+required<00:14:57.600><c> information</c><00:14:58.160><c> was</c><00:14:58.320><c> intentionally</c>
+
+00:14:59.070 --> 00:14:59.080 align:start position:0%
+required information was intentionally
+ 
+
+00:14:59.080 --> 00:15:01.110 align:start position:0%
+required information was intentionally
+scattered<00:14:59.440><c> across</c><00:14:59.839><c> the</c><00:15:00.000><c> entire</c><00:15:00.440><c> context.</c><00:15:01.000><c> To</c>
+
+00:15:01.110 --> 00:15:01.120 align:start position:0%
+scattered across the entire context. To
+ 
+
+00:15:01.120 --> 00:15:03.110 align:start position:0%
+scattered across the entire context. To
+make<00:15:01.320><c> inference</c><00:15:01.680><c> more</c><00:15:01.960><c> efficient,</c><00:15:02.640><c> they</c><00:15:02.839><c> also</c>
+
+00:15:03.110 --> 00:15:03.120 align:start position:0%
+make inference more efficient, they also
+ 
+
+00:15:03.120 --> 00:15:04.670 align:start position:0%
+make inference more efficient, they also
+designed<00:15:03.520><c> post-training</c><00:15:04.080><c> around</c><00:15:04.400><c> actual</c>
+
+00:15:04.670 --> 00:15:04.680 align:start position:0%
+designed post-training around actual
+ 
+
+00:15:04.680 --> 00:15:07.070 align:start position:0%
+designed post-training around actual
+deployment<00:15:05.280><c> just</c><00:15:05.520><c> like</c><00:15:05.680><c> what</c><00:15:05.839><c> Deep</c><00:15:06.040><c> CV4</c><00:15:06.680><c> did.</c>
+
+00:15:07.070 --> 00:15:07.080 align:start position:0%
+deployment just like what Deep CV4 did.
+ 
+
+00:15:07.080 --> 00:15:09.230 align:start position:0%
+deployment just like what Deep CV4 did.
+K3<00:15:07.520><c> uses</c><00:15:07.839><c> quantize</c><00:15:08.360><c> aware</c><00:15:08.640><c> training</c><00:15:09.040><c> with</c>
+
+00:15:09.230 --> 00:15:09.240 align:start position:0%
+K3 uses quantize aware training with
+ 
+
+00:15:09.240 --> 00:15:11.790 align:start position:0%
+K3 uses quantize aware training with
+MXFP4<00:15:10.120><c> expert</c><00:15:10.480><c> weights</c><00:15:10.800><c> and</c><00:15:11.000><c> MXFPA</c>
+
+00:15:11.790 --> 00:15:11.800 align:start position:0%
+MXFP4 expert weights and MXFPA
+ 
+
+00:15:11.800 --> 00:15:13.750 align:start position:0%
+MXFP4 expert weights and MXFPA
+activations<00:15:12.800><c> while</c><00:15:13.160><c> its</c><00:15:13.360><c> pre-training</c>
+
+00:15:13.750 --> 00:15:13.760 align:start position:0%
+activations while its pre-training
+ 
+
+00:15:13.760 --> 00:15:15.750 align:start position:0%
+activations while its pre-training
+prediction<00:15:14.160><c> layer</c><00:15:14.440><c> was</c><00:15:14.600><c> converted</c><00:15:15.160><c> into</c><00:15:15.480><c> an</c>
+
+00:15:15.750 --> 00:15:15.760 align:start position:0%
+prediction layer was converted into an
+ 
+
+00:15:15.760 --> 00:15:17.870 align:start position:0%
+prediction layer was converted into an
+Eagle<00:15:16.080><c> 3</c><00:15:16.320><c> speculative</c><00:15:16.920><c> decoding</c><00:15:17.400><c> model</c><00:15:17.760><c> that</c>
+
+00:15:17.870 --> 00:15:17.880 align:start position:0%
+Eagle 3 speculative decoding model that
+ 
+
+00:15:17.880 --> 00:15:19.630 align:start position:0%
+Eagle 3 speculative decoding model that
+was<00:15:17.960><c> directly</c><00:15:18.360><c> trained</c><00:15:18.640><c> to</c><00:15:18.760><c> maximize</c><00:15:19.400><c> how</c>
+
+00:15:19.630 --> 00:15:19.640 align:start position:0%
+was directly trained to maximize how
+ 
+
+00:15:19.640 --> 00:15:21.390 align:start position:0%
+was directly trained to maximize how
+often<00:15:20.000><c> its</c><00:15:20.160><c> drafted</c><00:15:20.560><c> tokens</c><00:15:21.040><c> would</c><00:15:21.200><c> be</c>
+
+00:15:21.390 --> 00:15:21.400 align:start position:0%
+often its drafted tokens would be
+ 
+
+00:15:21.400 --> 00:15:23.510 align:start position:0%
+often its drafted tokens would be
+accepted.<00:15:22.120><c> And</c><00:15:22.240><c> lastly,</c><00:15:22.880><c> they</c><00:15:23.160><c> also</c>
+
+00:15:23.510 --> 00:15:23.520 align:start position:0%
+accepted. And lastly, they also
+ 
+
+00:15:23.520 --> 00:15:25.270 align:start position:0%
+accepted. And lastly, they also
+open-sourced<00:15:24.040><c> infrastructure</c><00:15:24.680><c> codes</c><00:15:25.040><c> just</c>
+
+00:15:25.270 --> 00:15:25.280 align:start position:0%
+open-sourced infrastructure codes just
+ 
+
+00:15:25.280 --> 00:15:27.310 align:start position:0%
+open-sourced infrastructure codes just
+like<00:15:25.440><c> Deep</c><00:15:25.640><c> Seek.</c><00:15:26.040><c> Their</c><00:15:26.320><c> Moon</c><00:15:26.640><c> EP</c><00:15:26.960><c> system</c>
+
+00:15:27.310 --> 00:15:27.320 align:start position:0%
+like Deep Seek. Their Moon EP system
+ 
+
+00:15:27.320 --> 00:15:29.790 align:start position:0%
+like Deep Seek. Their Moon EP system
+dynamically<00:15:28.120><c> replicated</c><00:15:28.800><c> overload</c><00:15:29.360><c> experts,</c>
+
+00:15:29.790 --> 00:15:29.800 align:start position:0%
+dynamically replicated overload experts,
+ 
+
+00:15:29.800 --> 00:15:31.790 align:start position:0%
+dynamically replicated overload experts,
+so<00:15:29.920><c> every</c><00:15:30.200><c> accelerator</c><00:15:30.960><c> received</c><00:15:31.440><c> the</c><00:15:31.520><c> same</c>
+
+00:15:31.790 --> 00:15:31.800 align:start position:0%
+so every accelerator received the same
+ 
+
+00:15:31.800 --> 00:15:33.910 align:start position:0%
+so every accelerator received the same
+amount<00:15:32.040><c> of</c><00:15:32.160><c> work</c><00:15:32.560><c> while</c><00:15:32.880><c> their</c><00:15:33.160><c> agentic</c><00:15:33.680><c> RL</c>
+
+00:15:33.910 --> 00:15:33.920 align:start position:0%
+amount of work while their agentic RL
+ 
+
+00:15:33.920 --> 00:15:35.670 align:start position:0%
+amount of work while their agentic RL
+system<00:15:34.360><c> could</c><00:15:34.600><c> suspend</c><00:15:35.120><c> and</c><00:15:35.240><c> resume</c>
+
+00:15:35.670 --> 00:15:35.680 align:start position:0%
+system could suspend and resume
+ 
+
+00:15:35.680 --> 00:15:37.670 align:start position:0%
+system could suspend and resume
+long-running<00:15:36.200><c> micro</c><00:15:36.600><c> VM</c><00:15:37.120><c> environments</c>
+
+00:15:37.670 --> 00:15:37.680 align:start position:0%
+long-running micro VM environments
+ 
+
+00:15:37.680 --> 00:15:39.190 align:start position:0%
+long-running micro VM environments
+without<00:15:37.960><c> losing</c><00:15:38.280><c> their</c><00:15:38.440><c> state.</c><00:15:38.760><c> This</c><00:15:38.960><c> is</c><00:15:39.120><c> a</c>
+
+00:15:39.190 --> 00:15:39.200 align:start position:0%
+without losing their state. This is a
+ 
+
+00:15:39.200 --> 00:15:41.470 align:start position:0%
+without losing their state. This is a
+huge<00:15:39.560><c> improvement</c><00:15:40.280><c> over</c><00:15:40.560><c> Deep</c><00:15:40.800><c> Seek's</c><00:15:41.160><c> Deep</c>
+
+00:15:41.470 --> 00:15:41.480 align:start position:0%
+huge improvement over Deep Seek's Deep
+ 
+
+00:15:41.480 --> 00:15:43.630 align:start position:0%
+huge improvement over Deep Seek's Deep
+EP,<00:15:41.960><c> and</c><00:15:42.120><c> that</c><00:15:42.200><c> was</c><00:15:42.360><c> already</c><00:15:42.720><c> largely</c><00:15:43.120><c> adapted</c>
+
+00:15:43.630 --> 00:15:43.640 align:start position:0%
+EP, and that was already largely adapted
+ 
+
+00:15:43.640 --> 00:15:45.830 align:start position:0%
+EP, and that was already largely adapted
+in<00:15:43.800><c> the</c><00:15:43.960><c> industry.</c><00:15:44.600><c> So,</c><00:15:44.840><c> K3</c><00:15:45.240><c> was</c><00:15:45.440><c> not</c><00:15:45.640><c> really</c>
+
+00:15:45.830 --> 00:15:45.840 align:start position:0%
+in the industry. So, K3 was not really
+ 
+
+00:15:45.840 --> 00:15:47.750 align:start position:0%
+in the industry. So, K3 was not really
+just<00:15:46.200><c> one</c><00:15:46.440><c> isolated</c><00:15:46.920><c> breakthrough.</c><00:15:47.520><c> It's</c><00:15:47.680><c> a</c>
+
+00:15:47.750 --> 00:15:47.760 align:start position:0%
+just one isolated breakthrough. It's a
+ 
+
+00:15:47.760 --> 00:15:50.310 align:start position:0%
+just one isolated breakthrough. It's a
+bold,<00:15:48.320><c> deliberate,</c><00:15:49.000><c> and</c><00:15:49.200><c> ambitious</c><00:15:50.000><c> killing</c>
+
+00:15:50.310 --> 00:15:50.320 align:start position:0%
+bold, deliberate, and ambitious killing
+ 
+
+00:15:50.320 --> 00:15:51.670 align:start position:0%
+bold, deliberate, and ambitious killing
+run<00:15:50.560><c> that</c><00:15:50.760><c> not</c><00:15:50.920><c> only</c><00:15:51.080><c> tries</c><00:15:51.360><c> to</c><00:15:51.440><c> make</c><00:15:51.600><c> the</c>
+
+00:15:51.670 --> 00:15:51.680 align:start position:0%
+run that not only tries to make the
+ 
+
+00:15:51.680 --> 00:15:54.070 align:start position:0%
+run that not only tries to make the
+model<00:15:52.000><c> as</c><00:15:52.240><c> performative</c><00:15:52.960><c> as</c><00:15:53.160><c> possible,</c><00:15:53.800><c> but</c>
+
+00:15:54.070 --> 00:15:54.080 align:start position:0%
+model as performative as possible, but
+ 
+
+00:15:54.080 --> 00:15:55.950 align:start position:0%
+model as performative as possible, but
+also<00:15:54.440><c> as</c><00:15:54.680><c> cheap</c><00:15:55.040><c> as</c><00:15:55.240><c> you</c><00:15:55.320><c> can</c><00:15:55.480><c> run</c><00:15:55.640><c> it.</c><00:15:55.840><c> And</c>
+
+00:15:55.950 --> 00:15:55.960 align:start position:0%
+also as cheap as you can run it. And
+ 
+
+00:15:55.960 --> 00:15:57.630 align:start position:0%
+also as cheap as you can run it. And
+funnily<00:15:56.400><c> enough,</c><00:15:56.840><c> just</c><00:15:57.040><c> like</c><00:15:57.200><c> how</c><00:15:57.320><c> badly</c>
+
+00:15:57.630 --> 00:15:57.640 align:start position:0%
+funnily enough, just like how badly
+ 
+
+00:15:57.640 --> 00:15:59.590 align:start position:0%
+funnily enough, just like how badly
+Chinese<00:15:58.000><c> AI</c><00:15:58.160><c> labs</c><00:15:58.440><c> are</c><00:15:58.600><c> export</c><00:15:59.000><c> controlled,</c>
+
+00:15:59.590 --> 00:15:59.600 align:start position:0%
+Chinese AI labs are export controlled,
+ 
+
+00:15:59.600 --> 00:16:01.830 align:start position:0%
+Chinese AI labs are export controlled,
+which<00:15:59.800><c> caused</c><00:16:00.160><c> them</c><00:16:00.320><c> to</c><00:16:00.440><c> be</c><00:16:00.800><c> kind</c><00:16:01.200><c> of</c><00:16:01.320><c> GPU</c>
+
+00:16:01.830 --> 00:16:01.840 align:start position:0%
+which caused them to be kind of GPU
+ 
+
+00:16:01.840 --> 00:16:03.750 align:start position:0%
+which caused them to be kind of GPU
+poor,<00:16:02.320><c> they</c><00:16:02.440><c> had</c><00:16:02.600><c> to</c><00:16:02.720><c> pause</c><00:16:03.000><c> new</c><00:16:03.160><c> subscription</c>
+
+00:16:03.750 --> 00:16:03.760 align:start position:0%
+poor, they had to pause new subscription
+ 
+
+00:16:03.760 --> 00:16:05.430 align:start position:0%
+poor, they had to pause new subscription
+sign-ups<00:16:04.160><c> just</c><00:16:04.320><c> to</c><00:16:04.400><c> concentrate</c><00:16:04.920><c> the</c><00:16:05.000><c> compute</c>
+
+00:16:05.430 --> 00:16:05.440 align:start position:0%
+sign-ups just to concentrate the compute
+ 
+
+00:16:05.440 --> 00:16:07.310 align:start position:0%
+sign-ups just to concentrate the compute
+for<00:16:05.560><c> existing</c><00:16:06.040><c> users.</c><00:16:06.560><c> Not</c><00:16:06.720><c> only</c><00:16:06.920><c> that,</c><00:16:07.200><c> they</c>
+
+00:16:07.310 --> 00:16:07.320 align:start position:0%
+for existing users. Not only that, they
+ 
+
+00:16:07.320 --> 00:16:09.510 align:start position:0%
+for existing users. Not only that, they
+also<00:16:07.640><c> had</c><00:16:07.800><c> to</c><00:16:07.880><c> make</c><00:16:08.240><c> different</c><00:16:08.800><c> usage</c><00:16:09.240><c> type</c>
+
+00:16:09.510 --> 00:16:09.520 align:start position:0%
+also had to make different usage type
+ 
+
+00:16:09.520 --> 00:16:11.910 align:start position:0%
+also had to make different usage type
+subscriptions<00:16:10.320><c> to</c><00:16:10.440><c> better</c><00:16:10.800><c> allocate</c><00:16:11.280><c> GPUs</c>
+
+00:16:11.910 --> 00:16:11.920 align:start position:0%
+subscriptions to better allocate GPUs
+ 
+
+00:16:11.920 --> 00:16:14.110 align:start position:0%
+subscriptions to better allocate GPUs
+for<00:16:12.040><c> dedicated</c><00:16:12.640><c> power</c><00:16:12.960><c> users</c><00:16:13.400><c> versus</c><00:16:13.840><c> people</c>
+
+00:16:14.110 --> 00:16:14.120 align:start position:0%
+for dedicated power users versus people
+ 
+
+00:16:14.120 --> 00:16:16.150 align:start position:0%
+for dedicated power users versus people
+that<00:16:14.320><c> use</c><00:16:14.520><c> Kimi</c><00:16:14.920><c> more</c><00:16:15.160><c> casually.</c><00:16:15.880><c> But</c><00:16:15.960><c> yeah,</c>
+
+00:16:16.150 --> 00:16:16.160 align:start position:0%
+that use Kimi more casually. But yeah,
+ 
+
+00:16:16.160 --> 00:16:18.670 align:start position:0%
+that use Kimi more casually. But yeah,
+this<00:16:16.480><c> Kimi</c><00:16:16.800><c> K3</c><00:16:17.120><c> release</c><00:16:17.640><c> is</c><00:16:17.880><c> just</c><00:16:18.080><c> incredible.</c>
+
+00:16:18.670 --> 00:16:18.680 align:start position:0%
+this Kimi K3 release is just incredible.
+ 
+
+00:16:18.680 --> 00:16:20.590 align:start position:0%
+this Kimi K3 release is just incredible.
+It<00:16:18.760><c> got</c><00:16:18.920><c> the</c><00:16:19.040><c> frontier</c><00:16:19.440><c> lab</c><00:16:19.680><c> shooting</c><00:16:20.080><c> bullets</c>
+
+00:16:20.590 --> 00:16:20.600 align:start position:0%
+It got the frontier lab shooting bullets
+ 
+
+00:16:20.600 --> 00:16:22.190 align:start position:0%
+It got the frontier lab shooting bullets
+and<00:16:20.760><c> brought</c><00:16:21.040><c> the</c><00:16:21.160><c> cost</c><00:16:21.520><c> frontier</c><00:16:22.000><c> for</c>
+
+00:16:22.190 --> 00:16:22.200 align:start position:0%
+and brought the cost frontier for
+ 
+
+00:16:22.200 --> 00:16:24.430 align:start position:0%
+and brought the cost frontier for
+intelligence<00:16:23.040><c> down</c><00:16:23.400><c> yet</c><00:16:23.640><c> again.</c><00:16:24.120><c> Do</c><00:16:24.160><c> you</c><00:16:24.240><c> like</c>
+
+00:16:24.430 --> 00:16:24.440 align:start position:0%
+intelligence down yet again. Do you like
+ 
+
+00:16:24.440 --> 00:16:26.270 align:start position:0%
+intelligence down yet again. Do you like
+using<00:16:24.720><c> it</c><00:16:24.839><c> so</c><00:16:25.040><c> far?</c><00:16:25.480><c> Let</c><00:16:25.640><c> me</c><00:16:25.720><c> know</c><00:16:25.920><c> down</c><00:16:26.160><c> in</c><00:16:26.240><c> the</c>
+
+00:16:26.270 --> 00:16:26.280 align:start position:0%
+using it so far? Let me know down in the
+ 
+
+00:16:26.280 --> 00:16:27.590 align:start position:0%
+using it so far? Let me know down in the
+comments.<00:16:26.800><c> And</c><00:16:26.920><c> if</c><00:16:27.000><c> you</c><00:16:27.080><c> want</c><00:16:27.240><c> to</c><00:16:27.320><c> learn</c><00:16:27.440><c> more</c>
+
+00:16:27.590 --> 00:16:27.600 align:start position:0%
+comments. And if you want to learn more
+ 
+
+00:16:27.600 --> 00:16:29.790 align:start position:0%
+comments. And if you want to learn more
+about<00:16:27.839><c> how</c><00:16:28.000><c> LLMs</c><00:16:28.480><c> work</c><00:16:28.720><c> much</c><00:16:29.000><c> more</c><00:16:29.200><c> in</c><00:16:29.360><c> depth</c>
+
+00:16:29.790 --> 00:16:29.800 align:start position:0%
+about how LLMs work much more in depth
+ 
+
+00:16:29.800 --> 00:16:31.510 align:start position:0%
+about how LLMs work much more in depth
+without<00:16:30.080><c> being</c><00:16:30.280><c> overwhelmed</c><00:16:30.800><c> with</c><00:16:30.960><c> math,</c><00:16:31.400><c> you</c>
+
+00:16:31.510 --> 00:16:31.520 align:start position:0%
+without being overwhelmed with math, you
+ 
+
+00:16:31.520 --> 00:16:32.630 align:start position:0%
+without being overwhelmed with math, you
+should<00:16:31.680><c> definitely</c><00:16:31.960><c> check</c><00:16:32.120><c> out</c><00:16:32.200><c> my</c><00:16:32.320><c> latest</c>
+
+00:16:32.630 --> 00:16:32.640 align:start position:0%
+should definitely check out my latest
+ 
+
+00:16:32.640 --> 00:16:34.710 align:start position:0%
+should definitely check out my latest
+project<00:16:33.080><c> intuitiveai.academy,</c><00:16:34.480><c> where</c><00:16:34.640><c> it</c>
+
+00:16:34.710 --> 00:16:34.720 align:start position:0%
+project intuitiveai.academy, where it
+ 
+
+00:16:34.720 --> 00:16:36.630 align:start position:0%
+project intuitiveai.academy, where it
+contains<00:16:35.200><c> an</c><00:16:35.320><c> intuitive</c><00:16:35.800><c> explanation</c><00:16:36.320><c> of</c><00:16:36.480><c> all</c>
+
+00:16:36.630 --> 00:16:36.640 align:start position:0%
+contains an intuitive explanation of all
+ 
+
+00:16:36.640 --> 00:16:38.150 align:start position:0%
+contains an intuitive explanation of all
+modern<00:16:37.000><c> LLMs</c><00:16:37.480><c> from</c><00:16:37.600><c> the</c><00:16:37.680><c> ground</c><00:16:37.960><c> up,</c>
+
+00:16:38.150 --> 00:16:38.160 align:start position:0%
+modern LLMs from the ground up,
+ 
+
+00:16:38.160 --> 00:16:40.070 align:start position:0%
+modern LLMs from the ground up,
+including<00:16:38.560><c> a</c><00:16:38.640><c> lot</c><00:16:38.920><c> of</c><00:16:39.040><c> technical</c><00:16:39.480><c> topics</c><00:16:39.920><c> like</c>
+
+00:16:40.070 --> 00:16:40.080 align:start position:0%
+including a lot of technical topics like
+ 
+
+00:16:40.080 --> 00:16:41.750 align:start position:0%
+including a lot of technical topics like
+distillation,<00:16:40.760><c> which</c><00:16:40.960><c> I</c><00:16:41.040><c> just</c><00:16:41.240><c> mentioned</c><00:16:41.640><c> in</c>
+
+00:16:41.750 --> 00:16:41.760 align:start position:0%
+distillation, which I just mentioned in
+ 
+
+00:16:41.760 --> 00:16:43.390 align:start position:0%
+distillation, which I just mentioned in
+this<00:16:41.920><c> video.</c><00:16:42.400><c> We</c><00:16:42.520><c> cover</c><00:16:42.800><c> everything</c><00:16:43.160><c> from</c><00:16:43.320><c> the</c>
+
+00:16:43.390 --> 00:16:43.400 align:start position:0%
+this video. We cover everything from the
+ 
+
+00:16:43.400 --> 00:16:45.470 align:start position:0%
+this video. We cover everything from the
+basics<00:16:43.960><c> like</c><00:16:44.080><c> the</c><00:16:44.160><c> transformer</c><00:16:44.720><c> architecture</c>
+
+00:16:45.470 --> 00:16:45.480 align:start position:0%
+basics like the transformer architecture
+ 
+
+00:16:45.480 --> 00:16:47.230 align:start position:0%
+basics like the transformer architecture
+all<00:16:45.600><c> the</c><00:16:45.680><c> way</c><00:16:45.880><c> to</c><00:16:46.040><c> more</c><00:16:46.280><c> advanced</c><00:16:46.640><c> topics</c><00:16:47.040><c> like</c>
+
+00:16:47.230 --> 00:16:47.240 align:start position:0%
+all the way to more advanced topics like
+ 
+
+00:16:47.240 --> 00:16:49.750 align:start position:0%
+all the way to more advanced topics like
+LoRA,<00:16:47.680><c> mixture</c><00:16:48.040><c> of</c><00:16:48.200><c> experts,</c><00:16:48.680><c> and</c><00:16:48.839><c> RLHF.</c><00:16:49.760><c> And</c>
+
+00:16:49.750 --> 00:16:49.760 align:start position:0%
+LoRA, mixture of experts, and RLHF. And
+ 
+
+00:16:49.760 --> 00:16:51.230 align:start position:0%
+LoRA, mixture of experts, and RLHF. And
+we<00:16:49.880><c> also</c><00:16:50.080><c> just</c><00:16:50.240><c> added</c><00:16:50.480><c> a</c><00:16:50.520><c> new</c><00:16:50.800><c> advanced</c>
+
+00:16:51.230 --> 00:16:51.240 align:start position:0%
+we also just added a new advanced
+ 
+
+00:16:51.240 --> 00:16:53.430 align:start position:0%
+we also just added a new advanced
+chapter<00:16:51.760><c> on</c><00:16:52.040><c> optimizers,</c><00:16:52.760><c> which</c><00:16:53.000><c> will</c><00:16:53.200><c> bring</c>
+
+00:16:53.430 --> 00:16:53.440 align:start position:0%
+chapter on optimizers, which will bring
+ 
+
+00:16:53.440 --> 00:16:54.990 align:start position:0%
+chapter on optimizers, which will bring
+you<00:16:53.560><c> all</c><00:16:53.640><c> the</c><00:16:53.720><c> way</c><00:16:53.920><c> from</c><00:16:54.120><c> the</c><00:16:54.200><c> classics</c><00:16:54.800><c> to</c><00:16:54.880><c> the</c>
+
+00:16:54.990 --> 00:16:55.000 align:start position:0%
+you all the way from the classics to the
+ 
+
+00:16:55.000 --> 00:16:56.750 align:start position:0%
+you all the way from the classics to the
+current<00:16:55.320><c> frontier</c><00:16:55.720><c> techniques.</c><00:16:56.320><c> So,</c><00:16:56.520><c> whether</c>
+
+00:16:56.750 --> 00:16:56.760 align:start position:0%
+current frontier techniques. So, whether
+ 
+
+00:16:56.760 --> 00:16:58.590 align:start position:0%
+current frontier techniques. So, whether
+you're<00:16:56.920><c> a</c><00:16:56.960><c> student,</c><00:16:57.520><c> software</c><00:16:57.880><c> dev,</c><00:16:58.200><c> founder,</c>
+
+00:16:58.590 --> 00:16:58.600 align:start position:0%
+you're a student, software dev, founder,
+ 
+
+00:16:58.600 --> 00:17:00.430 align:start position:0%
+you're a student, software dev, founder,
+or<00:16:58.720><c> just</c><00:16:58.920><c> someone</c><00:16:59.080><c> trying</c><00:16:59.240><c> to</c><00:16:59.360><c> pivot</c><00:16:59.680><c> into</c><00:16:59.920><c> AI,</c>
+
+00:17:00.430 --> 00:17:00.440 align:start position:0%
+or just someone trying to pivot into AI,
+ 
+
+00:17:00.440 --> 00:17:02.910 align:start position:0%
+or just someone trying to pivot into AI,
+intuitiveai.academy<00:17:01.880><c> gives</c><00:17:02.120><c> you</c><00:17:02.280><c> one</c><00:17:02.600><c> clean</c>
+
+00:17:02.910 --> 00:17:02.920 align:start position:0%
+intuitiveai.academy gives you one clean
+ 
+
+00:17:02.920 --> 00:17:04.870 align:start position:0%
+intuitiveai.academy gives you one clean
+place<00:17:03.240><c> to</c><00:17:03.360><c> build</c><00:17:03.600><c> real</c><00:17:03.839><c> technical</c><00:17:04.280><c> intuition.</c>
+
+00:17:04.870 --> 00:17:04.880 align:start position:0%
+place to build real technical intuition.
+ 
+
+00:17:04.880 --> 00:17:07.510 align:start position:0%
+place to build real technical intuition.
+And<00:17:05.000><c> you</c><00:17:05.120><c> use</c><00:17:05.319><c> the</c><00:17:05.400><c> code</c><00:17:05.720><c> lockin</c><00:17:06.160><c> for</c><00:17:06.319><c> 35%</c><00:17:07.280><c> off</c>
+
+00:17:07.510 --> 00:17:07.520 align:start position:0%
+And you use the code lockin for 35% off
+ 
+
+00:17:07.520 --> 00:17:09.069 align:start position:0%
+And you use the code lockin for 35% off
+on<00:17:07.720><c> a</c><00:17:07.760><c> yearly</c><00:17:08.160><c> membership.</c><00:17:08.800><c> And</c><00:17:08.880><c> thank</c><00:17:09.000><c> you</c>
+
+00:17:09.069 --> 00:17:09.079 align:start position:0%
+on a yearly membership. And thank you
+ 
+
+00:17:09.079 --> 00:17:10.670 align:start position:0%
+on a yearly membership. And thank you
+guys<00:17:09.240><c> for</c><00:17:09.360><c> watching.</c><00:17:09.920><c> A</c><00:17:10.000><c> big</c><00:17:10.199><c> shoutout</c><00:17:10.560><c> to</c>
+
+00:17:10.670 --> 00:17:10.680 align:start position:0%
+guys for watching. A big shoutout to
+ 
+
+00:17:10.680 --> 00:17:14.270 align:start position:0%
+guys for watching. A big shoutout to
+Spam<00:17:11.040><c> Maj,</c><00:17:11.800><c> Chris</c><00:17:12.040><c> La</c><00:17:12.160><c> Due,</c><00:17:13.000><c> Deegan,</c><00:17:13.959><c> Robert</c>
+
+00:17:14.270 --> 00:17:14.280 align:start position:0%
+Spam Maj, Chris La Due, Deegan, Robert
+ 
+
+00:17:14.280 --> 00:17:17.230 align:start position:0%
+Spam Maj, Chris La Due, Deegan, Robert
+Zaviassa,<00:17:15.400><c> Marcelo</c><00:17:15.800><c> Ferreria,</c><00:17:16.800><c> Proof</c><00:17:17.040><c> and</c>
+
+00:17:17.230 --> 00:17:17.240 align:start position:0%
+Zaviassa, Marcelo Ferreria, Proof and
+ 
+
+00:17:17.240 --> 00:17:20.750 align:start position:0%
+Zaviassa, Marcelo Ferreria, Proof and
+Enew,<00:17:18.000><c> DX</c><00:17:18.360><c> Research</c><00:17:18.720><c> Group,</c><00:17:19.400><c> Alex,</c><00:17:20.319><c> Midwest</c>
+
+00:17:20.750 --> 00:17:20.760 align:start position:0%
+Enew, DX Research Group, Alex, Midwest
+ 
+
+00:17:20.760 --> 00:17:22.510 align:start position:0%
+Enew, DX Research Group, Alex, Midwest
+Maker,<00:17:21.439><c> and</c><00:17:21.560><c> many</c><00:17:21.720><c> others</c><00:17:22.000><c> that</c><00:17:22.120><c> support</c><00:17:22.400><c> me</c>
+
+00:17:22.510 --> 00:17:22.520 align:start position:0%
+Maker, and many others that support me
+ 
+
+00:17:22.520 --> 00:17:24.270 align:start position:0%
+Maker, and many others that support me
+through<00:17:22.760><c> Patreon</c><00:17:23.079><c> or</c><00:17:23.199><c> YouTube.</c><00:17:23.720><c> Follow</c><00:17:24.000><c> me</c><00:17:24.160><c> on</c>
+
+00:17:24.270 --> 00:17:24.280 align:start position:0%
+through Patreon or YouTube. Follow me on
+ 
+
+00:17:24.280 --> 00:17:25.949 align:start position:0%
+through Patreon or YouTube. Follow me on
+Twitter<00:17:24.480><c> if</c><00:17:24.600><c> you</c><00:17:24.720><c> haven't,</c><00:17:25.079><c> and</c><00:17:25.240><c> I'll</c><00:17:25.400><c> see</c><00:17:25.600><c> you</c>
+
+00:17:25.949 --> 00:17:25.959 align:start position:0%
+Twitter if you haven't, and I'll see you
+ 
+
+00:17:25.959 --> 00:17:28.880 align:start position:0%
+Twitter if you haven't, and I'll see you
+in<00:17:26.120><c> the</c><00:17:26.199><c> next</c><00:17:26.560><c> one.</c>
+

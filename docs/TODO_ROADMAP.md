@@ -113,6 +113,25 @@ résultats sont archivés.
 - [ ] Mesurer oubli, interférence entre modalités, stabilité du gradient et
   mémoire de KV/activations.
 
+Kimi K3 / MoonEP follow-up (source archive:
+`youtube/bycloud/g683I1-4MKE_A Closer Look At Kimi K3s INSANE Architecture Breakthrough/`):
+
+- [ ] Implémenter la référence KDA complète : delta-rule, état borné et
+  décroissance indépendante par canal ; mesurer collisions et rappel long.
+- [ ] Comparer hybrides KDA/full-attention `3:1`, `1:1` et attention-only à
+  FLOPs actifs, qualité, KV-cache et latence appariés.
+- [ ] Ajouter un fallback global périodique/final piloté par l'incertitude pour
+  récupérer les associations exactes perdues par l'état compressé.
+- [ ] Tester LatentMoE avec compression avant dispatch, expansion après expert,
+  balance par quantiles et mesure des octets de communication.
+- [ ] Évaluer la réplication dynamique d'experts MoonEP indépendamment du
+  routeur appris ; mesurer overflow, charge par rang et coût de synchronisation.
+- [ ] Tester QAT MXFP4/MXFP8 et curriculum long contexte `8K→64K→256K→1M`
+  seulement après contrôle BF16 et tâches de mémoire dispersée.
+- [ ] Documenter séparément post-training multi-teacher, effort de raisonnement
+  variable et entraînement vision-langage natif ; ne pas les mélanger aux
+  ablations d'architecture.
+
 ## M2 — Quantification ternaire (objectif C)
 
 - [ ] Implémenter fake-quantisation STE vers `{-1, 0, +1}` avec échelles.

@@ -515,5 +515,55 @@
     "status": "reused_existing",
     "content_type": "application/pdf",
     "size": 635294
+  },
+  {
+    "video": "20260729_g683I1-4MKE_A Closer Look At Kimi K3s INSANE Architecture Breakthrough.description",
+    "source_url": "https://arxiv.org/abs/2607.24653",
+    "download_url": "https://arxiv.org/pdf/2607.24653.pdf",
+    "kind": "arxiv_abs",
+    "dest": "papers/bycloud/20260729_g683I1-4MKE_A_Closer_Look_At_Kimi_K3s_INSANE_Architecture_Breakthrough__2607.24653.pdf",
+    "status": "downloaded",
+    "content_type": "application/pdf",
+    "size": 2491068
+  },
+  {
+    "video": "20260729_g683I1-4MKE_A Closer Look At Kimi K3s INSANE Architecture Breakthrough.description",
+    "source_url": "https://arxiv.org/abs/2510.26692",
+    "download_url": "https://arxiv.org/pdf/2510.26692.pdf",
+    "kind": "arxiv_abs",
+    "dest": "papers/bycloud/20260729_g683I1-4MKE_A_Closer_Look_At_Kimi_K3s_INSANE_Architecture_Breakthrough__2510.26692.pdf",
+    "status": "downloaded",
+    "content_type": "application/pdf",
+    "size": 1354769
+  },
+  {
+    "video": "20260729_g683I1-4MKE_A Closer Look At Kimi K3s INSANE Architecture Breakthrough.description",
+    "source_url": "https://arxiv.org/abs/2601.18089",
+    "download_url": "https://arxiv.org/pdf/2601.18089.pdf",
+    "kind": "arxiv_abs",
+    "dest": "papers/bycloud/20260729_g683I1-4MKE_A_Closer_Look_At_Kimi_K3s_INSANE_Architecture_Breakthrough__2601.18089.pdf",
+    "status": "downloaded",
+    "content_type": "application/pdf",
+    "size": 3575198
+  },
+  {
+    "video": "20260729_g683I1-4MKE_A Closer Look At Kimi K3s INSANE Architecture Breakthrough.description",
+    "source_url": "https://arxiv.org/abs/2603.15031",
+    "download_url": "https://arxiv.org/pdf/2603.15031.pdf",
+    "kind": "arxiv_abs",
+    "dest": "papers/bycloud/20260729_g683I1-4MKE_A_Closer_Look_At_Kimi_K3s_INSANE_Architecture_Breakthrough__2603.15031.pdf",
+    "status": "downloaded",
+    "content_type": "application/pdf",
+    "size": 1065095
+  },
+  {
+    "video": "20260729_g683I1-4MKE_A Closer Look At Kimi K3s INSANE Architecture Breakthrough.description",
+    "source_url": "https://arxiv.org/abs/2605.22791",
+    "download_url": "https://arxiv.org/pdf/2605.22791.pdf",
+    "kind": "arxiv_abs",
+    "dest": "papers/bycloud/20260729_g683I1-4MKE_A_Closer_Look_At_Kimi_K3s_INSANE_Architecture_Breakthrough__2605.22791.pdf",
+    "status": "downloaded",
+    "content_type": "application/pdf",
+    "size": 567107
   }
 ]
