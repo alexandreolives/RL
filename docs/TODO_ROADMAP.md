@@ -117,14 +117,15 @@ résultats sont archivés.
 Inspirations Kimi K3 / MoonEP à hybrider avec notre stack (source archive:
 `youtube/bycloud/g683I1-4MKE_A Closer Look At Kimi K3s INSANE Architecture Breakthrough/`):
 
-- [ ] Implémenter une référence KDA minimale (delta-rule, état borné,
+- [x] Implémenter une référence KDA minimale (delta-rule, état borné,
   décroissance par canal), puis tester KDA+Loop, KDA+Engram, KDA+JEPA et
   KDA+spectral ; mesurer collisions et rappel long.
 - [ ] Comparer les hybrides KDA/full-attention `3:1`, `1:1`, KDA+Loop et
   attention-only à FLOPs actifs, qualité, KV-cache et latence appariés.
 - [ ] Ajouter un fallback global périodique/final piloté par l'incertitude pour
   récupérer les associations exactes perdues par l'état compressé.
-- [ ] Tester LatentMoE avec compression avant dispatch, expansion après expert,
+- [x] Implémenter une référence LatentMoE avec compression avant dispatch,
+  expansion après expert et top-k ; [ ] tester ses variantes avec
   puis l'hybrider avec nos experts LoRA, Engram et le routeur top-k ; mesurer
   balance par quantiles, qualité et octets de communication.
 - [ ] Évaluer la réplication dynamique d'experts MoonEP indépendamment du
