@@ -1,0 +1,2 @@
+FROM rl-m1:fast
+RUN pip install --no-cache-dir --upgrade transformers==5.13.1

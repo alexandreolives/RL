@@ -82,3 +82,9 @@ son `transformers` ne fournit pas `DeepseekV4Config`, importé par le chemin
 DeepSeek du dépôt. Elle reste exécutable dans l'environnement local ; il faut
 reconstruire/mettre à jour l'image avant de considérer une mesure GPU qualité
 comme valide.
+
+Après reconstruction avec `transformers==5.13.1`, la campagne CUDA a démarré
+correctement (RTX 3060 Ti, tiny, longueur 64, 2 seeds, 10 étapes). Les
+accuracies passkey sont restées à `0.0` pour baseline, AttnRes, Engram
+no-conv et Engram no-conv + AttnRes ; le budget est court et ne permet pas de
+conclure sur la qualité, mais valide le pipeline GPU de bout en bout.
