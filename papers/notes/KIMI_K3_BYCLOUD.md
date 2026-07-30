@@ -1,4 +1,4 @@
-# Kimi K3 — notes from ByCloud video
+# Kimi K3 — inspirations for our hybrid architecture
 
 Source: [ByCloud video](https://www.youtube.com/watch?v=g683I1-4MKE), archived
 under `youtube/bycloud/g683I1-4MKE_A Closer Look At Kimi K3s INSANE Architecture Breakthrough/`.
@@ -11,14 +11,19 @@ Primary sources:
 - [LatentMoE](https://arxiv.org/abs/2601.18089)
 - [MoonEP](https://github.com/MoonshotAI/MoonEP)
 
-## Architecture implications
+## Architecture implications and experiments for our stack
+
+This note is not a reproduction plan for Kimi K3. The useful question for this
+repository is which ideas compose well with our existing Loop, Engram, JEPA,
+spectral path, dynamic router and LoRA experts. Each item below therefore has
+to be tested both alone and in combinations under matched active compute.
 
 KDA compresses the sequence into a fixed recurrent state and applies a
 delta-rule correction rather than blindly accumulating key/value pairs. Its
 channel-wise decay gives different latent channels different memory lifetimes.
 This matches our recurrent-memory objective, but exact retrieval remains a
-known weakness; the proposed experiment is therefore a hybrid fast/slow stack,
-not a pure replacement for global attention.
+known weakness; the proposed experiment is therefore a KDA+Loop/Engram/JEPA
+hybrid fast/slow stack, not a pure replacement for global attention.
 
 The reported hybrid schedule is approximately three KDA layers for one full
 MLA layer. We should test ratios `3:1`, `1:1`, and attention-only under equal

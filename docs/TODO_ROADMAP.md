@@ -87,15 +87,16 @@ résultats sont archivés.
 - [ ] Comparer MLP, hiérarchique, récurrent et uncertainty-aware.
 - [ ] Tester le routeur sur changements de tâche et expansion d'experts.
 
-## M2 — Mémoire récurrente linéaire et hybridation KDA/Mamba
+## M2 — Hybridation mémoire récurrente × Loop (KDA/Mamba/FFT)
 
 - [ ] Implémenter un bloc Delta/linear-attention à état récurrent borné, inspiré
-  de Kimi Delta Attention, avec oubli/écriture par canal.
+  de KDA, puis l'hybrider avec notre Loop, Engram et JEPA ; ne pas viser une
+  reproduction isolée du modèle Kimi.
 - [ ] Ajouter un contrôle Mamba-2/Selective State Space si une implémentation
   auditée est disponible ; ne pas appeler KDA « Mamba-2 » sans équivalence
   démontrée.
-- [ ] Comparer attention quadratique, KDA/Delta, Mamba-2/SSM et FFT sur les
-  mêmes séquences et budgets actifs.
+- [ ] Comparer attention quadratique, KDA/Delta, Mamba-2/SSM et FFT, puis leurs
+  combinaisons avec le routeur, Engram et JEPA sur les mêmes budgets actifs.
 - [ ] Tester des ratios hybrides `3:1`, `1:1` et `attention-only` avec une
   attention globale finale pour le rappel exact.
 - [ ] Mesurer qualité long contexte, coût d'état récurrent, KV-cache, débit,
@@ -113,21 +114,23 @@ résultats sont archivés.
 - [ ] Mesurer oubli, interférence entre modalités, stabilité du gradient et
   mémoire de KV/activations.
 
-Kimi K3 / MoonEP follow-up (source archive:
+Inspirations Kimi K3 / MoonEP à hybrider avec notre stack (source archive:
 `youtube/bycloud/g683I1-4MKE_A Closer Look At Kimi K3s INSANE Architecture Breakthrough/`):
 
-- [ ] Implémenter la référence KDA complète : delta-rule, état borné et
-  décroissance indépendante par canal ; mesurer collisions et rappel long.
-- [ ] Comparer hybrides KDA/full-attention `3:1`, `1:1` et attention-only à
-  FLOPs actifs, qualité, KV-cache et latence appariés.
+- [ ] Implémenter une référence KDA minimale (delta-rule, état borné,
+  décroissance par canal), puis tester KDA+Loop, KDA+Engram, KDA+JEPA et
+  KDA+spectral ; mesurer collisions et rappel long.
+- [ ] Comparer les hybrides KDA/full-attention `3:1`, `1:1`, KDA+Loop et
+  attention-only à FLOPs actifs, qualité, KV-cache et latence appariés.
 - [ ] Ajouter un fallback global périodique/final piloté par l'incertitude pour
   récupérer les associations exactes perdues par l'état compressé.
 - [ ] Tester LatentMoE avec compression avant dispatch, expansion après expert,
-  balance par quantiles et mesure des octets de communication.
+  puis l'hybrider avec nos experts LoRA, Engram et le routeur top-k ; mesurer
+  balance par quantiles, qualité et octets de communication.
 - [ ] Évaluer la réplication dynamique d'experts MoonEP indépendamment du
   routeur appris ; mesurer overflow, charge par rang et coût de synchronisation.
-- [ ] Tester QAT MXFP4/MXFP8 et curriculum long contexte `8K→64K→256K→1M`
-  seulement après contrôle BF16 et tâches de mémoire dispersée.
+- [ ] Tester QAT MXFP4/MXFP8 sur les chemins Loop/KDA/FFT et les experts LoRA,
+  avec curriculum long contexte `8K→64K→256K→1M`, après contrôle BF16.
 - [ ] Documenter séparément post-training multi-teacher, effort de raisonnement
   variable et entraînement vision-langage natif ; ne pas les mélanger aux
   ablations d'architecture.
