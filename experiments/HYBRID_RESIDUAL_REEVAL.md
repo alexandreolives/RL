@@ -172,3 +172,11 @@ KDA→Fourier→Loop `0,65/0,50`, le macrobloc B `0,50/0,45`, contre baseline
 `0,35/0,50` et KDA→Loop `0,30/0,30`. Ce run est plus coûteux car les
 macroblocs contiennent plusieurs KDA séquentielles ; les seeds suivants doivent
 être lancés séparément pour éviter de confondre durée de calcul et qualité.
+
+La campagne GPU longue (RTX 3060 Ti, 100 épisodes, seeds 0/1/2) donne une
+comparaison homogène : baseline `0,600 / 0,517` (composite `1,117`), macrobloc
+B `0,500 / 0,533` (`1,033`), macrobloc C `0,717 / 0,483` (**`1,200`**),
+KDA→Fourier→Loop `0,433 / 0,483` (`0,917`), KDA→Loop avec état conservé
+`0,533 / 0,517` (`1,050`). Sur cette tâche et ce budget, le macrobloc C est
+donc la meilleure configuration mesurée ; son gain doit encore être vérifié
+sur rappel long et transfert avant généralisation.
