@@ -23,6 +23,29 @@ avec budget de données, paramètres actifs et FLOPs contrôlé. Les checkpoints
 graines et métriques doivent rester compatibles entre variantes afin de rendre
 les régressions réversibles et auditables.
 
+### Principe d'hybridation — inspirations Kimi K3
+
+Les idées KDA, Attention Residuals, LatentMoE et MoonEP sont des briques à
+combiner avec notre stack (`Loop`, `Engram`, `JEPA`, FFT/SSM, routeur et
+experts LoRA), pas des implémentations à reproduire isolément. Chaque
+combinaison doit rester activable par configuration et être comparée à ses
+blocs seuls à budget actif contrôlé.
+
+Expériences prioritaires :
+
+- Loop + KDA, Loop + FFT/SSM et hybrides KDA/attention `3:1` et `1:1` ;
+- KDA + Engram, KDA + JEPA et fallback global pour le rappel exact ;
+- Attention Residuals dans le Loop, avec LayerScale et résidu standard ;
+- LatentMoE + routeur top-k + experts LoRA/Engram, avec mesure des octets de
+  dispatch et de l'équilibrage ;
+- réplication dynamique MoonEP comme couche système indépendante du routeur ;
+- QAT MXFP4/MXFP8 sur les chemins Loop/KDA/FFT et les experts ;
+- curriculum long contexte et multimodal natif, validés sur nos tâches de
+  mémoire et de planification, pas seulement sur des proxys LLM.
+
+Référence détaillée : `papers/notes/KIMI_K3_BYCLOUD.md` et l'archive vidéo
+ByCloud associée.
+
 ### A — Agent MoE-LoRA à croissance dynamique
 
 Construire un agent RL multimodal dont la capacité augmente pendant
@@ -51,7 +74,7 @@ Critères de validation : comparaison non récurrente à FLOPs actifs égaux,
 performance selon le nombre d'itérations, calibration de l'arrêt, stabilité
 des normes latentes, coût/latence et robustesse sur dépendances longues.
 
-Statut : **planifié, module générique à implémenter**.
+Statut : **module implémenté ; hybridations et validation scientifique en cours**.
 
 ### C — Quantification ternaire / 1,58 bit
 
